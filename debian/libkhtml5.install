@@ -1,0 +1,7 @@
+usr/lib/kde4/khtmlimagepart.so
+usr/lib/kde4/libkhtmlpart.so
+usr/lib/libkhtml.so.5*
+usr/share/apps/khtml/*
+usr/share/kde4/services/khtml.desktop
+usr/share/kde4/services/khtmlimage.desktop
+usr/share/dbus-1/interfaces/org.kde.KHTMLPart.xml

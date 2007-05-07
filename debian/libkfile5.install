@@ -1,0 +1,5 @@
+usr/lib/kde4/kfileaudiopreview.so
+usr/lib/kde4/libkfilemodule.so
+usr/lib/libkfile.so.5*
+usr/share/kde4/servicetypes/kfileplugin.desktop
+usr/share/kde4/servicetypes/kfilewrite.desktop

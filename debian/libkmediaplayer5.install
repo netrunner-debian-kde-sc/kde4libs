@@ -1,0 +1,4 @@
+usr/lib/libkmediaplayer.so.5*
+usr/share/kde4/servicetypes/kmediaplayer.desktop
+usr/share/kde4/servicetypes/kmediaplayerengine.desktop
+usr/share/dbus-1/interfaces/org.kde.KMediaPlayer.xml

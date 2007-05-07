@@ -1,0 +1,6 @@
+kdelibs (3.90.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Sune Vuorela <debian@pusling.com>  Sun,  6 May 2007 20:10:12 +0200
+

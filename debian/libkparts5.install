@@ -1,0 +1,7 @@
+usr/share/kde4/servicetypes/kpart.desktop
+usr/lib/libkparts.so.5*
+usr/lib/kde4/katepart.so
+usr/share/apps/katepart/*
+usr/share/config/katefiletyperc
+usr/share/config/katesyntaxhighlightingrc
+usr/share/kde4/services/katepart.desktop

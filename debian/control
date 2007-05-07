@@ -1,0 +1,208 @@
+Source: kdelibs
+Section: unknown
+Priority: extra
+Maintainer: Sune Vuorela <debian@pusling.com>
+Build-Depends: cdbs, debhelper (>= 5), quilt, libkeyutils-dev
+Standards-Version: 3.7.2
+
+Package: kdelibs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: kdelibs-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libphonon-dev, libsolid-dev
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: kdelibs-bin
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: kde-icons-oxygen
+Architecture: all
+Depends:
+Description: official kde4 icon theme
+ <long description>
+
+Package: ksgmltools2-data
+Architecture: all
+Depends:
+Description: data files for ksgmltools
+
+Package: libphonon5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: multimedia backend for kde
+
+Package: libsolid5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: hardware backend for kde
+
+Package: libknepomuk5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: semantic desktop for kde
+ http://nepomuk-kde.semanticdesktop.org/xwiki/bin/view/Main/
+
+Package: libkde3support5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: kde3 support library
+
+Package: libkdesu5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: kde superuser support library
+
+Package: libkhtml5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: khtml library
+
+Package: libkparts5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: kparts library
+
+Package: libkdefx5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkdefakes5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkdnssd5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkfile5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkimproxy5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkio5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkmediaplayer5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkmetadata5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libknewstuff2-5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkdeui5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+
+Package: libkaudiodevicelist5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkdecore5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkdeinit-kbuildsycoca4
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkdeprint5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkjs5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libknotifyconfig5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkntlm5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkonto5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkrosscore5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkrossui5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libktexteditor5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkunittest5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkutils5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libkwalletbackend5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libthreadweaver5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: libwtf5
+Architecture: any
+Depends: ${shlibs:Depends}
+Description:
+
+Package: qt4-designer-kde4-plugins
+Architecture: any
+Depends: qt4-designer, ${shlibs:Depends}
+Description: kde4 widgets for qt4 designer
+ This package contains the needed widgets to qt4 designer to make you able 
+ to design kde4 applications.
