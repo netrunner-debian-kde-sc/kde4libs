@@ -1,6 +1,6 @@
-kdelibs (3.90.1-1) unstable; urgency=low
+kdelibs (3.90.1-1) alioth; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release of KDE4.
 
- -- Sune Vuorela <debian@pusling.com>  Sun,  6 May 2007 20:10:12 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 May 2007 16:02:37 +0100
 
