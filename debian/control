@@ -16,7 +16,7 @@ Standards-Version: 3.7.2
 Package: kdelibs
 Section: libs
 Architecture: all
-Depends: ${shlibs:Depends}, kdelibs5 (>= ${Source-Version}), kdelibs-data (>= ${Source-Version})
+Depends: ${shlibs:Depends}, kdelibs5 (>= ${Source-Version}), kdelibs-data (>= ${Source-Version}), kdelibs-bin (>= ${Source-Version})
 Description: core libraries from the official KDE 4 alpha release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -43,9 +43,8 @@ Package: kdelibs5
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, kdelibs-data
-Description: core libraries and binaries for all KDE 4 alpha applications
- This package contains all the shared libraries and common core binaries
- used by all KDE applications. You need these libraries and binaries to
+Description: core libraries for all KDE 4 alpha applications
+ This package contains all the shared libraries. You need these libraries to 
  run KDE applications.
  .
  This package is part of KDE, and a component of the KDE libraries module.
@@ -78,8 +77,12 @@ Description: developer documentation for the KDE 4 alpha core libraries
 Package: kdelibs-bin
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: lalala
- lalalaal
+Description: binaries for all the KDE 4 alpha core applications
+ This package contains all the common core binaries used by all KDE 4
+ applications.
+ .
+ This package is part of KDE, and a component of the KDE libraries module.
+ See the 'kde' and 'kdelibs' packages for more information.
 
 Package: qt4-designer-kde4-plugins
 Architecture: any
