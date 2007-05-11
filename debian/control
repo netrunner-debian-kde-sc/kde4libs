@@ -75,6 +75,12 @@ Description: developer documentation for the KDE 4 alpha core libraries
  This package is part of KDE, and a component of the KDE libraries module.
  See the 'kde' and 'kdelibs' packages for more information.
 
+Package: kdelibs-bin
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: lalala
+ lalalaal
+
 Package: qt4-designer-kde4-plugins
 Architecture: any
 Depends: qt4-designer, ${shlibs:Depends}
