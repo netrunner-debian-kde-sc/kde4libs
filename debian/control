@@ -42,7 +42,7 @@ Description: core shared data for all KDE 4 alpha applications
 Package: kdelibs5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs-data
+Depends: ${shlibs:Depends}, kdelibs-data, kdelibs-bin
 Description: core libraries for all KDE 4 alpha applications
  This package contains all the shared libraries. You need these libraries to 
  run KDE applications.
