@@ -30,7 +30,6 @@ Description: core libraries from the official KDE 4 alpha release
 Package: kdelibs-data
 Section: libs
 Architecture: all
-Depends: hicolor-icon-theme
 Description: core shared data for all KDE 4 alpha applications
  This package contains all the architecture independent data files
  commonly used by KDE applications. You need these data files to run
