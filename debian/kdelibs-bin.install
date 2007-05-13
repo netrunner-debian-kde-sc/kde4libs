@@ -34,3 +34,10 @@ usr/bin/make_driver_db_lpr
 usr/bin/makekdewidgets
 usr/bin/meinproc
 usr/bin/preparetips
+
+usr/lib/libkdeinit_kaddprinterwizard.so
+usr/lib/libkdeinit_klauncher.so
+usr/lib/libkdeinit_kio_http_cache_cleaner.so
+usr/lib/libkdeinit_kded.so
+usr/lib/libkdeinit_kconf_update.so
+usr/lib/libkdeinit_cupsdconf.so

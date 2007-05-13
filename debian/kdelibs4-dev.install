@@ -1759,12 +1759,6 @@ usr/lib/libkde3support.so
 usr/lib/libkdecore.so
 usr/lib/libkdefakes.so
 usr/lib/libkdefx.so
-usr/lib/libkdeinit_kaddprinterwizard.so
-usr/lib/libkdeinit_kbuildsycoca4.so
-usr/lib/libkdeinit_kconf_update.so
-usr/lib/libkdeinit_kded.so
-usr/lib/libkdeinit_kio_http_cache_cleaner.so
-usr/lib/libkdeinit_klauncher.so
 usr/lib/libkdeprint.so
 usr/lib/libkdeprint_management.so
 usr/lib/libkdesu.so
