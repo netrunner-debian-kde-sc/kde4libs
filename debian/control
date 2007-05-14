@@ -7,7 +7,7 @@ Uploaders: Isaac Clerencia <isaac@debian.org>, Christopher Martin <chrsmrtn@debi
  Modestas Vainius <geromanas@mailas.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>,
  Sune Vuorela <debian@pusling.com>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, libqt4-dev (>>4.3~beta~),
- libsoprano-dev, libcupsys2-dev
+ libsoprano-dev, libcupsys2-dev,
  libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1),
  libxml2-dev, libxslt1-dev, shared-mime-info, libgif-dev | libungif4-dev, libxml2-utils,
  libkeyutils-dev
