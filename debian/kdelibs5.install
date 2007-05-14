@@ -40,6 +40,7 @@ usr/lib/kde4/libkmultipart.so
 usr/lib/kde4/libnotepadpart.so
 usr/lib/kde4/libspellcheckplugin.so
 usr/lib/kde4/phonon_fake.so
+usr/lib/kde4/kdeprint_cups.so
 usr/lib/kde4/plugins/imageformats/kimg_dds.so
 usr/lib/kde4/plugins/imageformats/kimg_eps.so
 usr/lib/kde4/plugins/imageformats/kimg_ico.so

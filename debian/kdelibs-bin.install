@@ -34,6 +34,9 @@ usr/bin/make_driver_db_lpr
 usr/bin/makekdewidgets
 usr/bin/meinproc
 usr/bin/preparetips
+usr/bin/cupsdconf
+usr/bin/cupsdoprint
+usr/bin/make_driver_db_cups
 
 usr/lib/libkdeinit_kaddprinterwizard.so
 usr/lib/libkdeinit_klauncher.so

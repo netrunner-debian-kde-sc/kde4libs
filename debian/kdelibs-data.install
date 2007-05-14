@@ -1,5 +1,13 @@
 etc/xdg/menus/applications.menu
 
+usr/share/apps/kdeprint/cups_logo.png
+usr/share/apps/kdeprint/cupsd.conf.template
+usr/share/apps/kdeprint/kde_logo.png
+usr/share/apps/kdeprint/plugins/cups.print
+usr/share/apps/kdeprint/preview-mini.png
+usr/share/apps/kdeprint/preview.png
+
+
 usr/share/apps/emoticons/Default/angry.png
 usr/share/apps/emoticons/Default/bat.png
 usr/share/apps/emoticons/Default/beer.png
