@@ -10,7 +10,19 @@ Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, libqt4-dev (>>4.3~beta~),
  libsoprano-dev, libcupsys2-dev, libdbus-1-dev, 
  libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1),
  libxml2-dev, libxslt1-dev, shared-mime-info, libungif4-dev | libgif-dev, libxml2-utils,
- libkeyutils-dev
+ libkeyutils-dev,
+ libasound2-dev (>=1.0.14~rc4-2),
+ hspell,
+ libaspell-dev,
+ libbz2-dev,
+ libopenexr-dev,
+ libavahi-core-dev,
+ libfam-dev,
+ libpcre++-dev,
+ libenchant-dev,
+ libtiff-dev,
+ libjasper-dev,
+ xsltproc
 Standards-Version: 3.7.2
 
 Package: kdelibs
