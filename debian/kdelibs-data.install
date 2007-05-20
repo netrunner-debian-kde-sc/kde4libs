@@ -7164,6 +7164,9 @@ usr/share/kde4/services/khtmlimage.desktop
 usr/share/kde4/services/kjavaappletviewer.desktop
 usr/share/kde4/services/kmailservice.protocol
 usr/share/kde4/services/kmultipart.desktop
+usr/share/kde4/services/kspell_aspell.desktop
+usr/share/kde4/services/kspell_enchant.desktop
+usr/share/kde4/services/kspell_hspell.desktop
 usr/share/kde4/services/ktexteditor_docwordcompletion.desktop
 usr/share/kde4/services/ktexteditor_insertfile.desktop
 usr/share/kde4/services/ktexteditor_kdatatool.desktop
@@ -7176,9 +7179,11 @@ usr/share/kde4/services/pnm.protocol
 usr/share/kde4/services/qimageioplugins/bmp.desktop
 usr/share/kde4/services/qimageioplugins/dds.desktop
 usr/share/kde4/services/qimageioplugins/eps.desktop
+usr/share/kde4/services/qimageioplugins/exr.desktop
 usr/share/kde4/services/qimageioplugins/gif.desktop
 usr/share/kde4/services/qimageioplugins/hdr.desktop
 usr/share/kde4/services/qimageioplugins/ico.desktop
+usr/share/kde4/services/qimageioplugins/jp2.desktop
 usr/share/kde4/services/qimageioplugins/jpeg.desktop
 usr/share/kde4/services/qimageioplugins/mng.desktop
 usr/share/kde4/services/qimageioplugins/pbm.desktop
@@ -7189,6 +7194,7 @@ usr/share/kde4/services/qimageioplugins/ppm.desktop
 usr/share/kde4/services/qimageioplugins/psd.desktop
 usr/share/kde4/services/qimageioplugins/rgb.desktop
 usr/share/kde4/services/qimageioplugins/tga.desktop
+usr/share/kde4/services/qimageioplugins/tiff.desktop
 usr/share/kde4/services/qimageioplugins/xbm.desktop
 usr/share/kde4/services/qimageioplugins/xcf.desktop
 usr/share/kde4/services/qimageioplugins/xpm.desktop
@@ -7259,3 +7265,7 @@ usr/share/dbus-1/interfaces/org.kde.UiServer.xml
 usr/share/dbus-1/interfaces/org.kde.UiServerCallbacks.xml
 usr/share/locale/all_languages
 usr/share/mime/packages/kde.xml
+
+usr/share/apps/kmetadata/pics/rating.png
+usr/share/apps/knepomuk/ontologies/nao.desktop
+usr/share/apps/knepomuk/ontologies/nao.nrl

@@ -20,6 +20,7 @@ usr/bin/kioslave
 usr/bin/kjscmd
 usr/bin/kjsconsole
 usr/bin/klauncher
+usr/bin/kmetadata_rcgen
 usr/bin/knotifytest
 usr/bin/kpac_dhcp_helper
 usr/bin/kross

@@ -22,6 +22,9 @@ usr/lib/kde4/kjavaappletviewer.so
 usr/lib/kde4/krosskjs.so
 usr/lib/kde4/krossmoduleforms.so
 usr/lib/kde4/krossmodulescriptmanager.so
+usr/lib/kde4/kspell_aspell.so
+usr/lib/kde4/kspell_enchant.so
+usr/lib/kde4/kspell_hspell.so
 usr/lib/kde4/kstyle_plastik_config.so
 usr/lib/kde4/ktexteditor_docwordcompletion.so
 usr/lib/kde4/ktexteditor_insertfile.so
@@ -43,11 +46,14 @@ usr/lib/kde4/phonon_fake.so
 usr/lib/kde4/kdeprint_cups.so
 usr/lib/kde4/plugins/imageformats/kimg_dds.so
 usr/lib/kde4/plugins/imageformats/kimg_eps.so
+usr/lib/kde4/plugins/imageformats/kimg_exr.so
 usr/lib/kde4/plugins/imageformats/kimg_ico.so
+usr/lib/kde4/plugins/imageformats/kimg_jp2.so
 usr/lib/kde4/plugins/imageformats/kimg_pcx.so
 usr/lib/kde4/plugins/imageformats/kimg_psd.so
 usr/lib/kde4/plugins/imageformats/kimg_rgb.so
 usr/lib/kde4/plugins/imageformats/kimg_tga.so
+usr/lib/kde4/plugins/imageformats/kimg_tiff.so
 usr/lib/kde4/plugins/imageformats/kimg_xcf.so
 usr/lib/kde4/plugins/imageformats/kimg_xview.so
 usr/lib/kde4/plugins/phonon_platform/kde.so
@@ -151,3 +157,12 @@ usr/lib/libthreadweaver.so.5.0.0
 
 usr/lib/libwtf.so.5
 usr/lib/libwtf.so.5.0.0
+
+usr/lib/libkmetadata.so.5
+usr/lib/libkmetadata.so.5.0.0
+
+usr/lib/libknepomuk.so.5
+usr/lib/libknepomuk.so.5.0.0
+
+usr/lib/libkonto.so.5
+usr/lib/libkonto.so.5.0.0
