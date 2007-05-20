@@ -44,3 +44,4 @@ usr/lib/libkdeinit_kio_http_cache_cleaner.so
 usr/lib/libkdeinit_kded.so
 usr/lib/libkdeinit_kconf_update.so
 usr/lib/libkdeinit_cupsdconf.so
+usr/lib/libkdeinit_kbuildsycoca4.so
