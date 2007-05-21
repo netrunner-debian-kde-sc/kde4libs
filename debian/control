@@ -2,10 +2,6 @@ Source: kdelibs
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Isaac Clerencia <isaac@debian.org>, Christopher Martin <chrsmrtn@debian.org>,
- Adeodato Simó <dato@net.com.org.es>, Josh Metzler <joshdeb@metzlers.org>,
- Modestas Vainius <geromanas@mailas.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>,
- Sune Vuorela <debian@pusling.com>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, libqt4-dev (>>4.3~beta~),
  libsoprano-dev, libcupsys2-dev, libdbus-1-dev, 
  libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1),
@@ -53,7 +49,8 @@ Description: core shared data for all KDE 4 alpha applications
 Package: kdelibs5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs-data (>= ${Source-Version}), kdelibs-bin (>= ${Source-Version})
+Depends: ${shlibs:Depends}, kdelibs-data (>= ${Source-Version}), kdelibs-bin(>= ${Source-Version}), 
+ xbase-clients
 Description: core libraries for all KDE 4 alpha applications
  This package contains all the shared libraries. You need these libraries to 
  run KDE applications.
