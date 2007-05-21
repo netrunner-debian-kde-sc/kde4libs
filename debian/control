@@ -61,7 +61,7 @@ Description: core libraries for all KDE 4 alpha applications
  This package is part of KDE, and a component of the KDE libraries module.
  See the 'kde' and 'kdelibs' packages for more information.
 
-Package: kdelibs4-dev
+Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
 Depends: kdelibs5 (= ${Source-Version}), libqt4-dev (>>4.3~beta~)
@@ -73,7 +73,7 @@ Description: development files for the KDE 4 alpha core libraries
  This package is part of KDE, and a component of the KDE libraries module.
  See the 'kde' and 'kdelibs' packages for more information.
 
-Package: kdelibs4-doc
+Package: kdelibs5-doc
 Section: doc
 Architecture: all
 Provides: kdelibs-doc
