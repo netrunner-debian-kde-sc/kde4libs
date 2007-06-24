@@ -2,13 +2,11 @@ Source: kdelibs
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, libqt4-dev (>>4.3~beta~),
- libsoprano-dev, libcupsys2-dev, libdbus-1-dev, 
- libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1), libxml2-utils,
- libxml2-dev, libxslt1-dev, shared-mime-info, libungif4-dev | libgif-dev, 
- libkeyutils-dev, libasound2-dev (>=1.0.14~rc4-2), hspell, libaspell-dev,
- libbz2-dev, libopenexr-dev, libavahi-core-dev, libfam-dev, libpcre++-dev,
- libenchant-dev, libtiff-dev, libjasper-dev, xsltproc
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, shared-mime-info,
+ libasound2-dev, libcupsys2-dev, libqt4-dev, libsoprano-dev,
+ libstreamanalyzer-dev, libxml2-utils, libxslt1-dev, libxtst-dev, libungif4-dev
+ libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
+ libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
 Standards-Version: 3.7.2
 
 Package: kdelibs
