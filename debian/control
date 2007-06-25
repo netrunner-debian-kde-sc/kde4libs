@@ -3,8 +3,9 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, shared-mime-info,
- libasound2-dev, libcupsys2-dev, libqt4-dev, libsoprano-dev,
- libstreamanalyzer-dev, libxml2-utils, libxslt1-dev, libxtst-dev, libungif4-dev,
+ libasound2-dev, libcupsys2-dev, libdbus-1-dev, libkeyutils-dev, libqt4-dev,
+ libsoprano-dev, libstreamanalyzer-dev, libxml2-dev, libxml2-utils,
+ libxslt1-dev, libxtst-dev, libgif-dev | libungif4-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
 Standards-Version: 3.7.2
@@ -12,8 +13,8 @@ Standards-Version: 3.7.2
 Package: kdelibs
 Section: libs
 Architecture: all
-Depends: ${shlibs:Depends}, kdelibs5 (>= ${Source-Version}), kdelibs5-data (>= ${Source-Version}), 
- kdelibs-bin (>= ${Source-Version})
+Depends: ${shlibs:Depends}, kdelibs5 (>= ${Source-Version}),
+ kdelibs5-data (>= ${Source-Version}), kdelibs-bin (>= ${Source-Version})
 Description: core libraries from the official KDE 4 alpha release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -38,10 +39,10 @@ Description: core shared data for all KDE 4 alpha applications
 Package: kdelibs5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5-data (>= ${Source-Version}), 
+Depends: ${shlibs:Depends}, kdelibs5-data (>= ${Source-Version}),
  kdelibs-bin(>= ${Source-Version}), xbase-clients
 Description: core libraries for all KDE 4 alpha applications
- This package contains all the shared libraries. You need these libraries to 
+ This package contains all the shared libraries. You need these libraries to
  run KDE applications.
  .
  This package is part of KDE, and a component of the KDE libraries module.
@@ -50,13 +51,12 @@ Description: core libraries for all KDE 4 alpha applications
 Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
-Depends: kdelibs5 (= ${Source-Version}), libqt4-dev (>>4.3~beta~),
- libsoprano-dev, libcupsys2-dev, libdbus-1-dev, 
- libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1),
- libxml2-dev, libxslt1-dev, shared-mime-info, libungif4-dev | libgif-dev, libxml2-utils,
- libkeyutils-dev, libasound2-dev (>=1.0.14~rc4-2), hspell, libaspell-dev,
- libbz2-dev, libopenexr-dev, libavahi-core-dev, libfam-dev, libpcre++-dev,
- libenchant-dev, libtiff-dev, libjasper-dev, xsltproc
+Build-Depends: kdelibs5 (= ${Source-Version}), shared-mime-info,
+ libasound2-dev, libcupsys2-dev, libdbus-1-dev, libkeyutils-dev, libqt4-dev,
+ libsoprano-dev, libstreamanalyzer-dev, libxml2-dev, libxml2-utils,
+ libxslt1-dev, libxtst-dev, libgif-dev | libungif4-dev,
+ libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
+ libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, xsltproc
 Description: development files for the KDE 4 alpha core libraries
  This package contains all the headers and other related files needed
  to compile KDE applications, or develop applications which use the
@@ -91,5 +91,5 @@ Package: qt4-designer-kde4-plugins
 Architecture: any
 Depends: qt4-designer, ${shlibs:Depends}
 Description: kde4 widgets for qt4 designer
- This package contains the needed widgets to qt4 designer to make you able 
+ This package contains the needed widgets to qt4 designer to make you able
  to design kde4 applications.
