@@ -1,3 +1,9 @@
+kdelibs (4:3.91.0-1) alioth; urgency=low
+
+  * New alpha. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 01 Jul 2007 16:12:54 +0200
+
 kdelibs (4:3.90+svn20070601-r670402-1) alioth; urgency=low
 
   * Initial release of KDE4.

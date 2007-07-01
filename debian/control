@@ -51,7 +51,7 @@ Description: core libraries for all KDE 4 alpha applications
 Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
-Build-Depends: kdelibs5 (= ${Source-Version}), shared-mime-info,
+Depends: kdelibs5 (= ${Source-Version}), shared-mime-info,
  libasound2-dev, libcupsys2-dev, libdbus-1-dev, libkeyutils-dev, libqt4-dev,
  libsoprano-dev, libstreamanalyzer-dev, libxml2-dev, libxml2-utils,
  libxslt1-dev, libxtst-dev, libgif-dev | libungif4-dev,
