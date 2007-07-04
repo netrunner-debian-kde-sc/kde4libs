@@ -31,10 +31,8 @@ usr/lib/libphonon.so
 usr/lib/libphononexperimental.so
 usr/lib/libsolid.so
 usr/lib/libthreadweaver.so
-usr/lib/libwtf.so
-usr/lib/libkmetadata.so
-usr/lib/libknepomuk.so
-usr/lib/libkonto.so
+usr/lib/libnepomuk-middleware.so
+usr/lib/libnepomuk.so
 
 usr/lib/libcupsdconf.a
 
@@ -58,7 +56,6 @@ usr/share/apps/cmake/modules/FindFontconfig.cmake
 usr/share/apps/cmake/modules/FindFreetype.cmake
 usr/share/apps/cmake/modules/FindGIF.cmake
 usr/share/apps/cmake/modules/FindGLIB2.cmake
-usr/share/apps/cmake/modules/FindGNUWIN32.cmake
 usr/share/apps/cmake/modules/FindGObject.cmake
 usr/share/apps/cmake/modules/FindGSSAPI.cmake
 usr/share/apps/cmake/modules/FindGStreamer.cmake
@@ -66,7 +63,6 @@ usr/share/apps/cmake/modules/FindGettext.cmake
 usr/share/apps/cmake/modules/FindKDE4Internal.cmake
 usr/share/apps/cmake/modules/FindKDEWIN32.cmake
 usr/share/apps/cmake/modules/FindKdepim.cmake
-usr/share/apps/cmake/modules/FindKMetaData.cmake
 usr/share/apps/cmake/modules/FindKdepimLibs.cmake
 usr/share/apps/cmake/modules/FindKonto.cmake
 usr/share/apps/cmake/modules/FindKorundum.cmake
@@ -99,7 +95,6 @@ usr/share/apps/cmake/modules/FindXmms.cmake
 usr/share/apps/cmake/modules/KDE4Defaults.cmake
 usr/share/apps/cmake/modules/KDE4Macros.cmake
 usr/share/apps/cmake/modules/KDELibsDependencies.cmake
-usr/share/apps/cmake/modules/KMetaDataMacros.cmake
 usr/share/apps/cmake/modules/MacroAddCompileFlags.cmake
 usr/share/apps/cmake/modules/MacroAddFileDependencies.cmake
 usr/share/apps/cmake/modules/MacroAddLinkFlags.cmake
@@ -118,3 +113,21 @@ usr/share/apps/cmake/modules/kde4_exec_via_sh.cmake
 usr/share/apps/cmake/modules/kde4automoc.cmake
 usr/share/apps/cmake/modules/kde4init_dummy.cpp.in
 usr/share/apps/cmake/modules/kde4uic.cmake
+usr/share/apps/cmake/modules/FindBlueZ.cmake
+usr/share/apps/cmake/modules/FindExiv2.cmake
+usr/share/apps/cmake/modules/FindGphoto2.cmake
+usr/share/apps/cmake/modules/FindKDEWIN.cmake
+usr/share/apps/cmake/modules/FindKDEWIN_Packager.cmake
+usr/share/apps/cmake/modules/FindKNepomuk.cmake
+usr/share/apps/cmake/modules/FindKdcraw.cmake
+usr/share/apps/cmake/modules/FindKexiv2.cmake
+usr/share/apps/cmake/modules/FindKipi.cmake
+usr/share/apps/cmake/modules/FindLCMS.cmake
+usr/share/apps/cmake/modules/FindNepomuk.cmake
+usr/share/apps/cmake/modules/FindNetworkManager.cmake
+usr/share/apps/cmake/modules/FindSamba.cmake
+usr/share/apps/cmake/modules/FindSqlite.cmake
+usr/share/apps/cmake/modules/FindXKB.cmake
+usr/share/apps/cmake/modules/MacroOptionalDependPackage.cmake
+usr/share/apps/cmake/modules/NepomukMacros.cmake
+usr/share/apps/cmake/modules/Win32Macros.cmake

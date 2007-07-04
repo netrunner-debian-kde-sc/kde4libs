@@ -1,4 +1,5 @@
 usr/lib/kde4/katepart.so
+usr/lib/kde4/kcm_crypto.so
 usr/lib/kde4/kcm_phonon.so
 usr/lib/kde4/kded_kcookiejar.so
 usr/lib/kde4/kded_kdeprintd.so
@@ -24,6 +25,7 @@ usr/lib/kde4/krossmoduleforms.so
 usr/lib/kde4/kspell_aspell.so
 usr/lib/kde4/kspell_enchant.so
 usr/lib/kde4/kspell_hspell.so
+usr/lib/kde4/kstyle-oxygen-config.so
 usr/lib/kde4/kstyle_plastik_config.so
 usr/lib/kde4/ktexteditor_docwordcompletion.so
 usr/lib/kde4/ktexteditor_insertfile.so
@@ -46,6 +48,7 @@ usr/lib/kde4/libexec/kpac_dhcp_helper
 usr/lib/kde4/libexec/ksendbugmail
 usr/lib/kde4/libexec/make_driver_db_cups
 usr/lib/kde4/libexec/make_driver_db_lpr
+usr/lib/kde4/libkcertpart.so
 usr/lib/kde4/libkdeprint_management_module.so
 usr/lib/kde4/libkfilemodule.so
 usr/lib/kde4/libkhtmlpart.so
@@ -68,6 +71,7 @@ usr/lib/kde4/plugins/imageformats/kimg_xcf.so
 usr/lib/kde4/plugins/imageformats/kimg_xview.so
 usr/lib/kde4/plugins/phonon_platform/kde.so
 usr/lib/kde4/plugins/styles/keramik.so
+usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/plugins/styles/plastik.so
 
 usr/lib/libkaudiodevicelist.so.5
@@ -164,14 +168,8 @@ usr/lib/libsolid.so.5.0.0
 usr/lib/libthreadweaver.so.5
 usr/lib/libthreadweaver.so.5.0.0
 
-usr/lib/libwtf.so.5
-usr/lib/libwtf.so.5.0.0
+usr/lib/libnepomuk-middleware.so.5
+usr/lib/libnepomuk-middleware.so.5.0.0
 
-usr/lib/libkmetadata.so.5
-usr/lib/libkmetadata.so.5.0.0
-
-usr/lib/libknepomuk.so.5
-usr/lib/libknepomuk.so.5.0.0
-
-usr/lib/libkonto.so.5
-usr/lib/libkonto.so.5.0.0
+usr/lib/libnepomuk.so.5
+usr/lib/libnepomuk.so.5.0.0
