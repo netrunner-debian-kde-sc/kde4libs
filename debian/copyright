@@ -46,6 +46,11 @@ are under the GNU Free Documentation License:
     | Foundation; with no Invariant Sections, with no Front-Cover Texts,
     | and with no Back-Cover Texts.
 
+Another files:
+    | interfaces/khexedir/Mainpage.dox
+    | interfaces/ktexteditor/Mainpage.dox
+
+
   The full text of the GNU Free Documentation License is available on
   Debian systems in /usr/share/common-licenses/GFDL-1.2
 
@@ -54,7 +59,30 @@ are under the GNU Free Documentation License:
 
 The following files are under the LGPL license:
 
+    | dnssd/*
+    | interfaces/kimproxy/library/kimproxy.cpp
+    | interfaces/kimproxy/library/kimproxy.h
+    | interfaces/kimproxy/library/kimproxy_export.h
+    | interfaces/kio/http.h
+    | interfaces/kmediaplayer/kmediaplayer_export.h
+    | interfaces/kmediaplayer/kfileaudiopreview/mediacontrols_p.h
+    | interfaces/kmediaplayer/kfileaudiopreview/mediacontrols.cpp
+    | interfaces/kmediaplayer/kfileaudiopreview/kfileaudiopreview.cpp
+    | interfaces/kmediaplayer/kfileaudiopreview/mediacontrols.h
+    | interfaces/kregexpeditor/kregexpeditorinterface.h
+    | interfaces/kspeech/kspeech_export.h
+    | interfaces/kspeech/kspeech.h
+    | interfaces/ktexteditor/*.h
+    | interfaces/ktexteditor/*.cpp
     | interfaces/terminal/kde_terminal_interface.h
+    | kconf_update/kconf_update.cpp
+    | kde3support/kde3support_export.h
+    | kde3support/kdecore/*
+    | kde3support/kdeui/*
+    | kde3support/kio/*
+    | kde3support/kparts/*
+    | kde3support/kunittest/kunittest_export.h
+
     | kdecore/text/kcodecs.h
     | kdecore/text/kcodecs.cpp
     | kdecore/sonnet/speller.cpp
@@ -211,122 +239,62 @@ The following files are under the BSD license:
     | kio/kfile/krecentdocument.*
     | kio/kio/kemailsettings.*
     | kio/kio/renamedialogplugin.*
+    | kde3support/kunittest/runner.*
+    | kde3support/kunittest/tester.*
+    | kde3support/kunittest/samplemodule.*
+    | kde3support/kunittest/modrunner.cpp
+    | kde3support/kunittest/module.h
 
   The full text of the BSD license is available on Debian systems in 
   /usr/share/common-licenses/BSD
 
 
 
+
+The following files:
+    
+    | interfaces/kmediaplayer/player.cpp
+    | interfaces/kmediaplayer/player.h
+    | interfaces/kmediaplayer/view.cpp
+    | interfaces/kmediaplayer/view.h
+
+are under this license:
+
+    | Copyright (C) 2002 Neil Stevens <neil@qualityassistant.com>
+    |
+    | Permission is hereby granted, free of charge, to any person obtaining a copy
+    | of this software and associated documentation files (the "Software"), to deal
+    | in the Software without restriction, including without limitation the rights
+    | to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    | copies of the Software, and to permit persons to whom the Software is
+    | furnished to do so, subject to the following conditions:
+    |
+    | The above copyright notice and this permission notice shall be included in
+    | all copies or substantial portions of the Software.
+    |
+    | THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    | IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    | FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+    | THE AUTHOR(S) BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+    | AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+    | CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    |
+    | Except as contained in this notice, the name(s) of the author(s) shall not be
+    | used in advertising or otherwise to promote the sale, use or other dealings
+    | in this Software without prior written authorization from the author(s).
+
+
 -----------------------------------------------------------------------------------------
 
+-- Files under kate/*:
 
-interfaces/kmediaplayer/* except kfileaudiopreview (which is LGPL-2)
-	 Permission is hereby granted, free of charge, to any person obtaining a copy
-	 of this software and associated documentation files (the "Software"), to deal
-	 in the Software without restriction, including without limitation the rights
-	 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-	 copies of the Software, and to permit persons to whom the Software is
-	 furnished to do so, subject to the following conditions:
-
-	 The above copyright notice and this permission notice shall be included in
-	 all copies or substantial portions of the Software.
-
-	 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
-	 THE AUTHOR(S) BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
-	 AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-	 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-	 Except as contained in this notice, the name(s) of the author(s) shall not be
-	 used in advertising or otherwise to promote the sale, use or other dealings
-	 in this Software without prior written authorization from the author(s).
+  The Kate Part and its interfaces are licensed under the LGPL version 2,
+  not any later version.
+  The full text of the GNU LGPL version 2 is available on Debian systems in 
+  /usr/share/common-licenses/LGPL-2.
 
 
 
-
-
-kjs/dtoa.cpp is under:
-
- * Permission to use, copy, modify, and distribute this software for any
- * purpose without fee is hereby granted, provided that this entire notice
- * is included in all copies of any software which is or includes a copy
- * or modification of this software and in all copies of the supporting
- * documentation for such software.
- *
- * THIS SOFTWARE IS BEING PROVIDED "AS IS", WITHOUT ANY EXPRESS OR IMPLIED
- * WARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR LUCENT MAKES ANY
- * REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY
- * OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.
-
-
-
-
-
-
-kdecore/network/k3bufferedsocket.cpp
-kdecore/network/k3bufferedsocket.h
-kdecore/network/k3clientsocketbase.cpp
-kdecore/network/k3clientsocketbase.h
-kdecore/network/k3datagramsocket.cpp
-kdecore/network/k3datagramsocket.h
-kdecore/network/k3httpproxysocketdevice.cpp
-kdecore/network/k3httpproxysocketdevice.h
-kdecore/network/k3iobuffer.h
-kdecore/network/k3resolver.cpp
-kdecore/network/k3resolver.h
-kdecore/network/k3resolvermanager.cpp
-kdecore/network/k3resolver_p.h
-kdecore/network/k3resolverstandardworkers.cpp
-kdecore/network/k3resolverstandardworkers_p.h
-kdecore/network/k3resolverworkerbase.cpp
-kdecore/network/k3resolverworkerbase.h
-kdecore/network/k3reverseresolver.cpp
-kdecore/network/k3reverseresolver.h
-kdecore/network/k3serversocket.cpp
-kdecore/network/k3serversocket.h
-kdecore/network/k3socketaddress.cpp
-kdecore/network/k3socketaddress.h
-kdecore/network/k3socketbase.cpp
-kdecore/network/k3socketbase.h
-kdecore/network/k3socketbuffer.cpp
-kdecore/network/k3socketbuffer_p.h
-kdecore/network/k3socketdevice.cpp
-kdecore/network/k3socketdevice.h
-kdecore/network/k3streamsocket.cpp
-kdecore/network/k3streamsocket.h
-kdecore/network/syssocket.h
-kdeui/kernel/kstartupinfo.*
-kinit/kdostartupconfig.cpp
-khtml/imload/*
-is under 
-	Permission is hereby granted, free of charge, to any person obtaining a
-	copy of this software and associated documentation files (the "Software"),
-	to deal in the Software without restriction, including without limitation
-	the rights to use, copy, modify, merge, publish, distribute, sublicense,
-	and/or sell copies of the Software, and to permit persons to whom the
-	Software is furnished to do so, subject to the following conditions:
-
-	The above copyright notice and this permission notice shall be included in
-	all copies or substantial portions of the Software.
-
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
-	THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-	FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-	DEALINGS IN THE SOFTWARE.
-
-
-kdecore/util/ktypelist.h
- Permission to use, copy, modify, distribute and sell this software for any
-     purpose is hereby granted without fee, provided that the above copyright
-     notice appear in all copies and that both that copyright notice and this
-     permission notice appear in supporting documentation.
- The author or Addison-Welsey Longman make no representations about the
-     suitability of this software for any purpose. It is provided "as is"
-     without express or implied warranty.
 
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
