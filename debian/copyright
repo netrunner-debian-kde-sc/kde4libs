@@ -1,329 +1,223 @@
 This package was debianized by Sune Vuorela <debian@pusling.com> on
 Sun,  6 May 2007 20:10:12 +0200.
 
-It was downloaded from <url://example.com>
+It was downloaded from ftp://ftp.kde.org
 
-Upstream Author(s): 
-	Aaron J Seigo
-	Adriaan de Groot
-	Alexander Dymo
-	Alexander Kellett
-	Alexander Kern
-	Alexander Neundorf
-	Alexey Proskuryakov
-	Alex Zepeda
-	Allan Sandfeld Jensen
-	Allen Winter
-	Anakim Border
-	Anders Carlsson
-	Anders Lund
-	Andras Mantia
-	Andreas Beckermann
-	Andreas Hartmetz
-	Andreas Kling
-	Andreas Nicolai
-	Andreas Pakulat
-	Andrei Alexandrescu
-	Andrew Coles
-	Antonio Larrosa
-	Antti Koivisto
-	Apple Computer Inc
-	Arash Bijanzadeh
-	Arend van Beelen jr
-	Aron BostrÃ¶m
-	Benjamin C Meyer
-	Benjamin Reed
-	Bernd Johannes Wuebben
-	Björn Graf
-	Brad Hards
-	Carl A Joslin
-	Carlos Moro
-	Carsten Pfeiffer
-	Charles Samuels
-	Chris Howells
-	Chris Lee
-	Christian Couder
-	Christian Czezakte
-	Christian Ehrlicher
-	Christian Esken
-	Christian Tibirna
-	Christoph Cullmann
-	Christopher Blauvelt
-	Christoph Hormann
-	Chusslove Illich
-	Clarence Dang
-	Cornelius Schumacher
-	Cristian Tibirna
-	Cyrille Berger
-	Daniel Laidig
-	Daniel Molkentin
-	Daniel "Mosfet" Duley
-	Daniel Teske
-	Davide Bettio
-	David Faure
-	David Jarvie
-	David Smith
-	David Sweet
-	David Vignoni
-	Dawit Alemayehu
-	Dirk A Mueller
-	Dirk Stoecker
-	Dominik Haumann
-	Dominik Seichter
-	Dominique Devriese
-	Duncan MacVicar
-	Egon Willighagen
-	Ellis Whitehead
-	Enrico Ros
-	Enrico Scholz
-	Eric P Allman
-	Erik Bunce
-	Espen Sand
-	Falk Brettschneider
-	Federico David Sacerdoti
-	Felix Berger
-	Frans Englich
-	Frederik Fouvry
-	Fredrik HÃ¶glund
-	Frerich Raabe
-	Geert Jansen
-	George Staikos
-	Germain Garand
-	Glen Parker
-	Gustavo Sverzut Barbieri
-	Hamish Rodda
-	Hans Petter Bieker
-	Harri Porten
-	Helge Deller
-	Holger Freyther
-	Holger Schroeder
-	Ian Reinhart Geiser
-	Ian Zepp
-	Ignacio CastaÃ±o
-	Ingo Kloecker
-	Jacob R Rideout
-	Jakub Stachowski
-	JanPascal van Best
-	Jan Schaefer
-	Jan Villat
-	JÃ¶rg Habenicht
-	JariMatti MÃ¤kelÃ¤
-	Jaroslaw Staniek
-	Jason Harris
-	Jason Keirstead
-	Jeanloup Gailly and Mark Adler
-	Jeroen Wijnhout
-	Jesper K Pedersen
-	Jesse Yurkovich
-	Jochen Wilhelmy
-	Johann Ollivier Lapeyre
-	John Firebaugh
-	John Zaitseff
-	Josef Spillner
-	Joseph Wenninger
-	Jos van den Oever
-	Karol Szwed
-	Kenneth Wimer
-	Keunwoo Lee
-	Kevin Ottens
-	Kitware Inc Insight Consortium
-	KJSEmbed Authors
-	Klaas Freitag
-	Koos Vriezen
-	Kurt Granroth
-	Lars Doelle
-	Lars Knoll
-	Laurence Anderson
-	Laurent Montel
-	Leo Savernik
-	lignum Computing Inc
-	Lubos Lunak
-	Lucent Technologies
-	Luciano Montanaro
-	Lukas Tinkl
-	Maksim Orlovich
-	Malte Starostik
-	MandrakeSoft
-	Marc Mutz
-	Marijn Kruisselbrink
-	Mario Weilguni
-	Mark Donohoe
-	Martin Jones
-	Martin R Jones
-	Martynas Kunigelis
-	Mashrab Kuvatov
-	Matej Koss
-	Matt Broadstone
-	Matthias Elter
-	Matthias Ettrich
-	Matthias HoelzerKluepfel
-	Matthias Kalle Dalheimer
-	Matthias Kretz
-	Matt Rogers
-	Max Judin
-	Melchior FRANZ
-	MichaÃ«l Larouche
-	Michael Brade
-	Michael Goffioul
-	Michael Jarrett
-	Michael Kropfberger
-	Michael Larouche
-	Michael Matz
-	Michael Roth
-	Michael Wiedmann
-	Michel Hermier
-	Mirko Boehm
-	Montel Laurent
-	Nadeem Hasan
-	Neil Stevens
-	Netscape Communications Corporation
-	Nick Roux
-	Nick Shaforostoff
-	Nicolas GOUTTE
-	Nicolas Hadacek
-	Nikolas Zimmermann
-	Nikos Mavroyanopoulos
-	Norman Walsh
-	Nuno Fernades Pinheiro
-	Olaf Schmidt
-	Olivier Goffart
-	Oswald Buddenhagen
-	Patrick Dowler
-	Patrick Ward
-	Peter KÃ¼mmel
-	Peter Kelly
-	Peter Kuemmel
-	Peter Penz
-	Peter Putzer
-	Peter Simonsson
-	Pietro Iglio
-	Pino Toscano
-	Preston Brown
-	Rafael FernÃ¡ndez LÃ³pez
-	Rafal Rzepecki
-	Ralf Habacker
-	Ralf S Engelschall All Rights Reserved
-	Reginald Stadlbauer
-	Riccardo Iaconelli
-	Richard Moore
-	Rik Hemsley
-	Roberto Raggi
-	Roland Nagy
-	Rolf Magnus
-	Ronny Standtke
-	Sandro Giessl
-	Scott Manson
-	Scott Wheeler
-	Sean Harmer
-	Sebastian Sauer
-	Sebastian Trueg
-	Sebastian Vuorinen
-	Sendmail Inc  All rights reserved
-	Simon Hausmann
-	Simon J Mackenzie
-	Sirtaj Singh Kanq
-	SRHaque
-	Stefan Lang
-	Stefan Rompf
-	Stefan Schimanski
-	Stefan Taferner
-	Steffen Hansen
-	Stephan Binner
-	Stephan Kulow
-	Sven Radej
-	Szombathelyi Gyï¿½gy
-	The Aquaosk Team
-	The Internet Society
-	The KDE Project
-	The Open Group
-	Thiago Macieira
-	Thomas Braxton
-	Thomas Tanghus
-	Thomas Zander
-	Till Adam
-	Till Krech
-	Tim D Gilman
-	Tim Jansen
-	Timo A Hummel
-	Tobias Koenig
-	Torben Weis
-	Trolltech AS
-	Unicode Inc
-	Urs Wolfer
-	Volker Krause
-	Waldo Bastian
-	Werner Trobin
-	Wilco Greven
-	Wilfried Huss
-	Will Stephenson
-	Wolfram Diestel
-	Wynn Wilkes
-	Yves Arrouye
-	Zack Rusin
+Upstream Author: The KDE development team <kde-core-devel@kde.org>
+Numerous people, too many to count, have contributed to kdelibs as a
+whole. The KDE project tries to make an extensive list of people who contributed
+to KDE at http://www.kde.org/people/credits/
+
+Copyright:
+Unless something else is mentioned, copyright is
+(C) 1996-2007, The K Desktop Enviroment project http://www.kde.org
 
 
 License:
-Unless anything else is mentioned, the files in this package is under the GNU 
-Library General Public License:
 
-  This library is free software; you can redistribute it and/or
-  modify it under the terms of the GNU Library General Public
-  License as published by the Free Software Foundation; either
-  version 2 of the License, or (at your option) any later version.
+Unless something else is mentioned, the code files in this package are under
+the GNU General Public License:
+
+    | This program is free software; you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation; version 2 dated June, 1991.
+    |
+    | This package is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    |
+    | You should have received a copy of the GNU General Public License
+    | along with this program; if not, write to the Free Software Foundation,
+    | Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+  The full text of the GNU General Public License version 2 is available on
+  Debian systems in /usr/share/common-licenses/GPL-2.
+
+
+
+
+The documentation docbook files in this package (most of them placed under docs/),
+are under the GNU Free Documentation License:
+
+    | Permission is granted to copy, distribute and/or modify this
+    | document under the terms of the GNU Free Documentation License,
+    | Version 1.1 or any later version published by the Free Software
+    | Foundation; with no Invariant Sections, with no Front-Cover Texts,
+    | and with no Back-Cover Texts.
+
+  The full text of the GNU Free Documentation License is available on
+  Debian systems in /usr/share/common-licenses/GFDL-1.2
+
+
+
+
+The following files are under the LGPL license:
+
+    | interfaces/terminal/kde_terminal_interface.h
+    | kdecore/text/kcodecs.h
+    | kdecore/text/kcodecs.cpp
+    | kdecore/sonnet/speller.cpp
+    | kdecore/sonnet/defaultdictionary.cpp
+    | kdecore/sonnet/tests/test_dialog.cpp
+    | kdecore/sonnet/tests/test_filter.cpp
+    | kdecore/sonnet/tests/test.cpp
+    | kdecore/sonnet/tests/test_dialog.h
+    | kdecore/sonnet/tests/test_filter.h
+    | kdecore/sonnet/tests/test_config.cpp
+    | kdecore/sonnet/filter.cpp
+    | kdecore/sonnet/backgroundengine.cpp
+    | kdecore/sonnet/loader.cpp
+    | kdecore/sonnet/backgroundchecker.cpp
+    | kdecore/sonnet/loader.h
+    | kdecore/sonnet/settings.cpp
+    | kdecore/sonnet/filter.h
+    | kdecore/sonnet/client.h
+    | kdecore/sonnet/backgroundthread.cpp
+    | kdecore/sonnet/defaultdictionary.h
+    | kdecore/sonnet/backgroundthread.h
+    | kdecore/sonnet/threadevents.h
+    | kdecore/sonnet/speller.h
+    | kdecore/sonnet/settings.h
+    | kdecore/sonnet/backgroundchecker.h
+    | kdecore/sonnet/client.cpp
+    | kdecore/sonnet/backgroundengine.h
+    | kdeui/tests/kconfig_compiler/kconfigcompiler_test.h
+    | kdeui/tests/kconfig_compiler/kconfigcompiler_test.cpp
+    | kdeui/widgets/kcombobox.h
+    | kdeui/widgets/khistorycombobox.h
+    | kdeui/widgets/kurllabel.cpp
+    | kdeui/widgets/klineedit.h
+    | kdeui/widgets/kcombobox.cpp
+    | kdeui/widgets/klineedit.cpp
+    | kdeui/widgets/khistorycombobox.cpp
+    | kdeui/sonnet/tests/test_dialog.cpp
+    | kdeui/sonnet/tests/backgroundtest.cpp
+    | kdeui/sonnet/tests/test_highlighter.h
+    | kdeui/sonnet/tests/test_dialog.h
+    | kdeui/sonnet/tests/backgroundtest.h
+    | kdeui/sonnet/tests/test_config.cpp
+    | kdeui/sonnet/tests/test_configdialog.cpp
+    | kdeui/sonnet/tests/test_highlighter.cpp
+    | kdeui/sonnet/configwidget.h
+    | kdeui/sonnet/configdialog.h
+    | kdeui/sonnet/configwidget.cpp
+    | kdeui/sonnet/dialog.h
+    | kdeui/sonnet/highlighter.h
+    | kdeui/sonnet/highlighter.cpp
+    | kdeui/sonnet/configdialog.cpp
+    | kdeui/sonnet/dialog.cpp
+    | kfile/kprotocolcombo.cpp
+    | kfile/kprotocolcombo_p.h
+    | khtml/rendering/render_layer.cpp
+    | khtml/rendering/render_arena.h
+    | khtml/rendering/render_arena.cpp
+    | khtml/rendering/render_layer.h
+    | khtml/ecma/kjs_audio.h
+    | khtml/ecma/xmlserializer.cpp
+    | khtml/ecma/domparser.h
+    | khtml/ecma/kjs_context2d.h
+    | khtml/ecma/xmlhttprequest.h
+    | khtml/ecma/domparser.cpp
+    | khtml/ecma/xmlserializer.h
+    | khtml/ecma/kjs_audio.cpp
+    | khtml/ecma/xmlhttprequest.cpp
+    | khtml/ecma/kjs_context2d.cpp
+    | khtml/misc/arena.cpp
+    | khtml/misc/arena.h
+    | khtml/css/css_renderstyledeclarationimpl.cpp
+    | khtml/css/parser.cpp
+    | khtml/css/css_renderstyledeclarationimpl.h
+    | kimgio/gimp.h
+    | kimgio/xcf.h
+    | kimgio/xcf.cpp
+    | kimgio/pcx.cpp
+    | kio/kio/dataprotocol.h
+    | kio/kio/dataprotocol.cpp
+    | kio/kio/sessiondata.h
+    | kio/kio/sessiondata.cpp
+    | kjs/object_object.h
+    | kjs/math_object.h
+    | kjs/string_object.cpp
+    | kjs/function_object.h
+    | kjs/debugger.h
+    | kjs/regexp.h
+    | kjs/math_object.cpp
+    | kjs/string_object.h
+    | kjs/array_object.cpp
+    | kjs/function_object.cpp
+    | kjs/array_object.h
+    | kjs/error_object.cpp
+    | kjs/lookup.cpp
+    | kjs/object_object.cpp
+    | kjs/array_instance.h
+    | kjs/date_object.cpp
+    | kjs/bool_object.h
+    | kjs/number_object.cpp
+    | kjs/regexp.cpp
+    | kjs/debugger.cpp
+    | kjs/regexp_object.cpp
+    | kjs/collector.h
+    | kjs/collector.cpp
+    | kjs/date_object.h
+    | kjs/number_object.h
+    | kjs/bool_object.cpp
+    | kjs/error_object.h
+    | kjs/regexp_object.h
+    | kjs/lookup.h
+    | kjs/grammar.cpp
+    | kjs/fpconst.cpp
+    | sonnet/plugins/aspell/kspell_aspelldict.cpp
+    | sonnet/plugins/aspell/kspell_aspelldict.h
+    | sonnet/plugins/aspell/kspell_aspellclient.h
+    | sonnet/plugins/aspell/kspell_aspellclient.cpp
+    | sonnet/plugins/enchant/enchantclient.h
+    | sonnet/plugins/enchant/enchantdict.h
+    | sonnet/plugins/enchant/enchantclient.cpp
+    | sonnet/plugins/enchant/enchantdict.cpp
+    | sonnet/plugins/hspell/kspell_hspelldict.h
+    | sonnet/plugins/hspell/kspell_hspellclient.h
+    | sonnet/plugins/hspell/kspell_hspellclient.cpp
+    | sonnet/plugins/hspell/kspell_hspelldict.cpp
+    | sonnet/unicode/parseucd/parseucd.cpp
+
  
-  This library is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-  Library General Public License for more details.
- 
-  You should have received a copy of the GNU Library General Public License
-  along with this library; see the file COPYING.LIB.  If not, write to
-  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-  Boston, MA 02110-1301, USA.
+    | This library is free software; you can redistribute it and/or
+    | modify it under the terms of the GNU Library General Public
+    | License (LGPL) as published by the Free Software Foundation;
+    | at version 2.
 
-On Debian systems, the complete text of the GNU Library General Public License
-can be found in /usr/share/common-licenses/LGPL-2
+    | This library is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    | Library General Public License for more details.
 
+    | You should have received a copy of the GNU Library General Public License
+    | along with this library; see the file COPYING.LIB.  If not, write to
+    | the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+    | Boston, MA 02110-1301, USA.
 
-
-Except
-
-cmake/modules/*
-
-which is under: 
-	Redistribution and use in source and binary forms, with or without
-	modification, are permitted provided that the following conditions
-	are met:
-
-	1. Redistributions of source code must retain the copyright
-	   notice, this list of conditions and the following disclaimer.
-	2. Redistributions in binary form must reproduce the copyright
-	   notice, this list of conditions and the following disclaimer in the
-	   documentation and/or other materials provided with the distribution.
-	3. The name of the author may not be used to endorse or promote products
-	   derived from this software without specific prior written permission.
-
-	THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
-	IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
-	OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-	IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
-	INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
-	NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-	DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-	THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-	THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  The full text of the GNU Lesser General Public License is available on
+  Debian systems in /usr/share/common-licenses/LGPL-2.
 
 
- 
-doc/*
-which is under
-	Permission is granted to copy, distribute and/or modify this document
-	under the terms of the GNU Free Documentation License, Version 1.1 or any
-	later version published by the Free Software Foundation; with no Invariant
-	Sections, with no Front-Cover Texts, and with no Back-Cover Texts.  A copy
-	of the license is on debian systems found in /usr/share/common-licenses/GFDL
 
+The following files are under the BSD license:
+
+    | cmake/modules/*
+    | kdecore/util/ksharedptr.h
+    | kdecore/tests/ksharedptrtest.*
+    | kdefx/kcpuinfo*
+    | kio/kfile/krecentdocument.*
+    | kio/kio/kemailsettings.*
+    | kio/kio/renamedialogplugin.*
+
+  The full text of the BSD license is available on Debian systems in 
+  /usr/share/common-licenses/BSD
+
+
+
+-----------------------------------------------------------------------------------------
 
 
 interfaces/kmediaplayer/* except kfileaudiopreview (which is LGPL-2)
@@ -351,39 +245,6 @@ interfaces/kmediaplayer/* except kfileaudiopreview (which is LGPL-2)
 
 
 
-kde3support/tests/
-kdecore/io/kgrantpty.c
-kdeprint/fooparser.c*
-kdeui/kcodeaction*
-khtml/domtreeview*
-kjs/grammar.h
-kjs/grammar.cpp
-kmetadata/* except kmetadata/kmetadata/generated/ui (Which is LGPL-2)
-knepomuk/
-phonon/kcm/*
-is all under the GNU General Public License
-
-
-   This program is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; either version 2, or (at your option)
-   any later version.
-
-   This program is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
-   You should have received a copy of the GNU General Public License
-   along with this program; if not, write to the Free Software
-   Foundation, Inc., 51 Franklin Street, Fifth Floor,
-   Boston, MA 02110-1301, USA.  
-
-
-On Debian systems, the complete text of the GNU General Public
-License can be gound in `/usr/share/common-licenses/GPL'.
-
-
 
 kjs/dtoa.cpp is under:
 
@@ -400,33 +261,6 @@ kjs/dtoa.cpp is under:
 
 
 
-kdecore/util/ksharedptr.h
-kdecore/tests/ksharedptrtest.*
-kdefx/kcpuinfo*
-kio/kfile/krecentdocument.*
-kio/kio/kemailsettings.*
-kio/kio/renamedialogplugin.* is under
-
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions
- * are met:
- *
- * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer.
- * 2. Redistributions in binary form must reproduce the above copyright
- *    notice, this list of conditions and the following disclaimer in the
- *    documentation and/or other materials provided with the distribution.
- *
- * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 
@@ -495,156 +329,6 @@ kdecore/util/ktypelist.h
      without express or implied warranty.
 
 
-And the following files is under the GNU Lesser General Public License:
-
-interfaces/terminal/kde_terminal_interface.h
-kdecore/text/kcodecs.h
-kdecore/text/kcodecs.cpp
-kdecore/sonnet/speller.cpp
-kdecore/sonnet/defaultdictionary.cpp
-kdecore/sonnet/tests/test_dialog.cpp
-kdecore/sonnet/tests/test_filter.cpp
-kdecore/sonnet/tests/test.cpp
-kdecore/sonnet/tests/test_dialog.h
-kdecore/sonnet/tests/test_filter.h
-kdecore/sonnet/tests/test_config.cpp
-kdecore/sonnet/filter.cpp
-kdecore/sonnet/backgroundengine.cpp
-kdecore/sonnet/loader.cpp
-kdecore/sonnet/backgroundchecker.cpp
-kdecore/sonnet/loader.h
-kdecore/sonnet/settings.cpp
-kdecore/sonnet/filter.h
-kdecore/sonnet/client.h
-kdecore/sonnet/backgroundthread.cpp
-kdecore/sonnet/defaultdictionary.h
-kdecore/sonnet/backgroundthread.h
-kdecore/sonnet/threadevents.h
-kdecore/sonnet/speller.h
-kdecore/sonnet/settings.h
-kdecore/sonnet/backgroundchecker.h
-kdecore/sonnet/client.cpp
-kdecore/sonnet/backgroundengine.h
-kdeui/tests/kconfig_compiler/kconfigcompiler_test.h
-kdeui/tests/kconfig_compiler/kconfigcompiler_test.cpp
-kdeui/widgets/kcombobox.h
-kdeui/widgets/khistorycombobox.h
-kdeui/widgets/kurllabel.cpp
-kdeui/widgets/klineedit.h
-kdeui/widgets/kcombobox.cpp
-kdeui/widgets/klineedit.cpp
-kdeui/widgets/khistorycombobox.cpp
-kdeui/sonnet/tests/test_dialog.cpp
-kdeui/sonnet/tests/backgroundtest.cpp
-kdeui/sonnet/tests/test_highlighter.h
-kdeui/sonnet/tests/test_dialog.h
-kdeui/sonnet/tests/backgroundtest.h
-kdeui/sonnet/tests/test_config.cpp
-kdeui/sonnet/tests/test_configdialog.cpp
-kdeui/sonnet/tests/test_highlighter.cpp
-kdeui/sonnet/configwidget.h
-kdeui/sonnet/configdialog.h
-kdeui/sonnet/configwidget.cpp
-kdeui/sonnet/dialog.h
-kdeui/sonnet/highlighter.h
-kdeui/sonnet/highlighter.cpp
-kdeui/sonnet/configdialog.cpp
-kdeui/sonnet/dialog.cpp
-kfile/kprotocolcombo.cpp
-kfile/kprotocolcombo_p.h
-khtml/rendering/render_layer.cpp
-khtml/rendering/render_arena.h
-khtml/rendering/render_arena.cpp
-khtml/rendering/render_layer.h
-khtml/ecma/kjs_audio.h
-khtml/ecma/xmlserializer.cpp
-khtml/ecma/domparser.h
-khtml/ecma/kjs_context2d.h
-khtml/ecma/xmlhttprequest.h
-khtml/ecma/domparser.cpp
-khtml/ecma/xmlserializer.h
-khtml/ecma/kjs_audio.cpp
-khtml/ecma/xmlhttprequest.cpp
-khtml/ecma/kjs_context2d.cpp
-khtml/misc/arena.cpp
-khtml/misc/arena.h
-khtml/css/css_renderstyledeclarationimpl.cpp
-khtml/css/parser.cpp
-khtml/css/css_renderstyledeclarationimpl.h
-kimgio/gimp.h
-kimgio/xcf.h
-kimgio/xcf.cpp
-kimgio/pcx.cpp
-kio/kio/dataprotocol.h
-kio/kio/dataprotocol.cpp
-kio/kio/sessiondata.h
-kio/kio/sessiondata.cpp
-kjs/object_object.h
-kjs/math_object.h
-kjs/string_object.cpp
-kjs/function_object.h
-kjs/debugger.h
-kjs/regexp.h
-kjs/math_object.cpp
-kjs/string_object.h
-kjs/array_object.cpp
-kjs/function_object.cpp
-kjs/array_object.h
-kjs/error_object.cpp
-kjs/lookup.cpp
-kjs/object_object.cpp
-kjs/array_instance.h
-kjs/date_object.cpp
-kjs/bool_object.h
-kjs/number_object.cpp
-kjs/regexp.cpp
-kjs/debugger.cpp
-kjs/regexp_object.cpp
-kjs/collector.h
-kjs/collector.cpp
-kjs/date_object.h
-kjs/number_object.h
-kjs/bool_object.cpp
-kjs/error_object.h
-kjs/regexp_object.h
-kjs/lookup.h
-kjs/grammar.cpp
-kjs/fpconst.cpp
-sonnet/plugins/aspell/kspell_aspelldict.cpp
-sonnet/plugins/aspell/kspell_aspelldict.h
-sonnet/plugins/aspell/kspell_aspellclient.h
-sonnet/plugins/aspell/kspell_aspellclient.cpp
-sonnet/plugins/enchant/enchantclient.h
-sonnet/plugins/enchant/enchantdict.h
-sonnet/plugins/enchant/enchantclient.cpp
-sonnet/plugins/enchant/enchantdict.cpp
-sonnet/plugins/hspell/kspell_hspelldict.h
-sonnet/plugins/hspell/kspell_hspellclient.h
-sonnet/plugins/hspell/kspell_hspellclient.cpp
-sonnet/plugins/hspell/kspell_hspelldict.cpp
-sonnet/unicode/parseucd/parseucd.cpp
-
-
-
-    This package is free software; you can redistribute it and/or
-    modify it under the terms of the GNU Lesser General Public
-    License as published by the Free Software Foundation; either
-    version 2 of the License, or (at your option) any later version.
-
-    This package is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-    Lesser General Public License for more details.
-
-    You should have received a copy of the GNU Lesser General Public
-    License along with this package; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
-
-On Debian systems, the complete text of the GNU Lesser General
-Public License can be found in `/usr/share/common-licenses/LGPL'.
-
-The Debian packaging is (C) 2007, Sune Vuorela <debian@pusling.com> and
+The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
 is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
 
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
