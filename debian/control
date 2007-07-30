@@ -1,4 +1,4 @@
-Source: kdelibs
+Source: kde4libs
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
