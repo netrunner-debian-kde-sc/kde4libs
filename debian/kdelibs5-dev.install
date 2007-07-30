@@ -1,5 +1,6 @@
 usr/include/*
 
+usr/lib/libcupsdconf.so
 usr/lib/libkaudiodevicelist.so
 usr/lib/libkde3support.so
 usr/lib/libkdecore.so
@@ -34,7 +35,6 @@ usr/lib/libthreadweaver.so
 usr/lib/libnepomuk-middleware.so
 usr/lib/libnepomuk.so
 
-usr/lib/libcupsdconf.a
 
 usr/share/apps/cmake/modules/CheckPointerMember.cmake
 usr/share/apps/cmake/modules/CheckPrototypeExists.cmake
@@ -69,6 +69,7 @@ usr/share/apps/cmake/modules/FindKorundum.cmake
 usr/share/apps/cmake/modules/FindLibArt.cmake
 usr/share/apps/cmake/modules/FindLibXml2.cmake
 usr/share/apps/cmake/modules/FindLibXslt.cmake
+usr/share/apps/cmake/modules/FindLinuxWirelesstools.cmake
 usr/share/apps/cmake/modules/FindMsgfmt.cmake
 usr/share/apps/cmake/modules/FindMusicBrainz.cmake
 usr/share/apps/cmake/modules/FindMySQL.cmake
@@ -110,7 +111,7 @@ usr/share/apps/cmake/modules/MacroPushRequiredVars.cmake
 usr/share/apps/cmake/modules/config-alsa.h.cmake
 usr/share/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
 usr/share/apps/cmake/modules/kde4_exec_via_sh.cmake
-usr/share/apps/cmake/modules/kde4automoc.cmake
+usr/share/apps/cmake/modules/kde4automoc.files.in
 usr/share/apps/cmake/modules/kde4init_dummy.cpp.in
 usr/share/apps/cmake/modules/kde4uic.cmake
 usr/share/apps/cmake/modules/FindBlueZ.cmake
@@ -130,4 +131,5 @@ usr/share/apps/cmake/modules/FindSqlite.cmake
 usr/share/apps/cmake/modules/FindXKB.cmake
 usr/share/apps/cmake/modules/MacroOptionalDependPackage.cmake
 usr/share/apps/cmake/modules/NepomukMacros.cmake
+usr/share/apps/cmake/modules/UsePkgConfig.cmake
 usr/share/apps/cmake/modules/Win32Macros.cmake

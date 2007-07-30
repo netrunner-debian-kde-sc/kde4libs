@@ -4,6 +4,7 @@ usr/bin/kbuildsycoca4
 usr/bin/kconfig_compiler
 usr/bin/kcookiejar4
 usr/bin/kde4-config
+usr/bin/kde4automoc
 usr/bin/kded4
 usr/bin/kdeinit4
 usr/bin/kdeinit4_shutdown
@@ -18,7 +19,6 @@ usr/bin/kwrapper4
 usr/bin/makekdewidgets
 usr/bin/meinproc4
 usr/bin/nepomuk-rcgen
-usr/bin/oxygenPP
 usr/bin/preparetips
 
 usr/lib/libkdeinit4_kaddprinterwizard.so

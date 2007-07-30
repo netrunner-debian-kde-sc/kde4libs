@@ -1,6 +1,7 @@
 usr/lib/kde4/katepart.so
 usr/lib/kde4/kcm_crypto.so
 usr/lib/kde4/kcm_phonon.so
+usr/lib/kde4/kded_globalaccel.so
 usr/lib/kde4/kded_kcookiejar.so
 usr/lib/kde4/kded_kdeprintd.so
 usr/lib/kde4/kded_kssld.so
@@ -25,7 +26,6 @@ usr/lib/kde4/krossmoduleforms.so
 usr/lib/kde4/kspell_aspell.so
 usr/lib/kde4/kspell_enchant.so
 usr/lib/kde4/kspell_hspell.so
-usr/lib/kde4/kstyle-oxygen-config.so
 usr/lib/kde4/kstyle_plastik_config.so
 usr/lib/kde4/ktexteditor_docwordcompletion.so
 usr/lib/kde4/ktexteditor_insertfile.so
@@ -71,14 +71,8 @@ usr/lib/kde4/plugins/imageformats/kimg_xcf.so
 usr/lib/kde4/plugins/imageformats/kimg_xview.so
 usr/lib/kde4/plugins/phonon_platform/kde.so
 usr/lib/kde4/plugins/styles/keramik.so
-usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/plugins/styles/plastik.so
 
-usr/lib/libkaudiodevicelist.so.5
-usr/lib/libkaudiodevicelist.so.5.0.0
-
-usr/lib/libkde3support.so.5
-usr/lib/libkde3support.so.5.0.0
 
 usr/lib/libkdecore.so.5
 usr/lib/libkdecore.so.5.0.0
@@ -89,12 +83,8 @@ usr/lib/libkdefakes.so.5.0.0
 usr/lib/libkdefx.so.5
 usr/lib/libkdefx.so.5.0.0
 
-
 usr/lib/libkdeprint.so.5
 usr/lib/libkdeprint.so.5.0.0
-
-usr/lib/libkdeprint_management.so.5
-usr/lib/libkdeprint_management.so.5.0.0
 
 usr/lib/libkdesu.so.5
 usr/lib/libkdesu.so.5.0.0
@@ -102,74 +92,86 @@ usr/lib/libkdesu.so.5.0.0
 usr/lib/libkdeui.so.5
 usr/lib/libkdeui.so.5.0.0
 
-usr/lib/libkdnssd.so.5
-usr/lib/libkdnssd.so.5.0.0
-
-usr/lib/libkfile.so.5
-usr/lib/libkfile.so.5.0.0
-
 usr/lib/libkhtml.so.5
 usr/lib/libkhtml.so.5.0.0
-
-usr/lib/libkimproxy.so.5
-usr/lib/libkimproxy.so.5.0.0
 
 usr/lib/libkio.so.5
 usr/lib/libkio.so.5.0.0
 
-usr/lib/libkjs.so.5
-usr/lib/libkjs.so.5.0.0
+usr/lib/libcupsdconf.so.4
+usr/lib/libcupsdconf.so.4.0.0
 
-usr/lib/libkjsembed.so.5
-usr/lib/libkjsembed.so.5.0.0
+usr/lib/libkaudiodevicelist.so.4
+usr/lib/libkaudiodevicelist.so.4.0.0
 
-usr/lib/libkmediaplayer.so.5
-usr/lib/libkmediaplayer.so.5.0.0
+usr/lib/libkde3support.so.4
+usr/lib/libkde3support.so.4.0.0
 
-usr/lib/libknewstuff2.so.5
-usr/lib/libknewstuff2.so.5.0.0
+usr/lib/libkdeprint_management.so.4
+usr/lib/libkdeprint_management.so.4.0.0
 
-usr/lib/libknotifyconfig.so.5
-usr/lib/libknotifyconfig.so.5.0.0
+usr/lib/libkdnssd.so.4
+usr/lib/libkdnssd.so.4.0.0
 
-usr/lib/libkntlm.so.5
-usr/lib/libkntlm.so.5.0.0
+usr/lib/libkfile.so.4
+usr/lib/libkfile.so.4.0.0
 
-usr/lib/libkparts.so.5
-usr/lib/libkparts.so.5.0.0
+usr/lib/libkimproxy.so.4
+usr/lib/libkimproxy.so.4.0.0
 
-usr/lib/libkrosscore.so.5
-usr/lib/libkrosscore.so.5.0.0
+usr/lib/libkjs.so.4
+usr/lib/libkjs.so.4.0.0
 
-usr/lib/libkrossui.so.5
-usr/lib/libkrossui.so.5.0.0
+usr/lib/libkjsembed.so.4
+usr/lib/libkjsembed.so.4.0.0
 
-usr/lib/libktexteditor.so.5
-usr/lib/libktexteditor.so.5.0.0
+usr/lib/libkmediaplayer.so.4
+usr/lib/libkmediaplayer.so.4.0.0
 
-usr/lib/libkunittest.so.5
-usr/lib/libkunittest.so.5.0.0
+usr/lib/libknewstuff2.so.4
+usr/lib/libknewstuff2.so.4.0.0
 
-usr/lib/libkutils.so.5
-usr/lib/libkutils.so.5.0.0
+usr/lib/libknotifyconfig.so.4
+usr/lib/libknotifyconfig.so.4.0.0
 
-usr/lib/libkwalletbackend.so.5
-usr/lib/libkwalletbackend.so.5.0.0
+usr/lib/libkntlm.so.4
+usr/lib/libkntlm.so.4.0.0
 
-usr/lib/libphonon.so.5
-usr/lib/libphonon.so.5.0.0
+usr/lib/libkparts.so.4
+usr/lib/libkparts.so.4.0.0
 
-usr/lib/libphononexperimental.so.5
-usr/lib/libphononexperimental.so.5.0.0
+usr/lib/libkrosscore.so.4
+usr/lib/libkrosscore.so.4.0.0
 
-usr/lib/libsolid.so.5
-usr/lib/libsolid.so.5.0.0
+usr/lib/libkrossui.so.4
+usr/lib/libkrossui.so.4.0.0
 
-usr/lib/libthreadweaver.so.5
-usr/lib/libthreadweaver.so.5.0.0
+usr/lib/libktexteditor.so.4
+usr/lib/libktexteditor.so.4.0.0
 
-usr/lib/libnepomuk-middleware.so.5
-usr/lib/libnepomuk-middleware.so.5.0.0
+usr/lib/libkunittest.so.4
+usr/lib/libkunittest.so.4.0.0
 
-usr/lib/libnepomuk.so.5
-usr/lib/libnepomuk.so.5.0.0
+usr/lib/libkutils.so.4
+usr/lib/libkutils.so.4.0.0
+
+usr/lib/libkwalletbackend.so.4
+usr/lib/libkwalletbackend.so.4.0.0
+
+usr/lib/libnepomuk-middleware.so.4
+usr/lib/libnepomuk-middleware.so.4.0.0
+
+usr/lib/libnepomuk.so.4
+usr/lib/libnepomuk.so.4.0.0
+
+usr/lib/libphonon.so.4
+usr/lib/libphonon.so.4.0.0
+
+usr/lib/libphononexperimental.so.4
+usr/lib/libphononexperimental.so.4.0.0
+
+usr/lib/libsolid.so.4
+usr/lib/libsolid.so.4.0.0
+
+usr/lib/libthreadweaver.so.4
+usr/lib/libthreadweaver.so.4.0.0
