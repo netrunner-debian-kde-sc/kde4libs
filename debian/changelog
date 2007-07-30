@@ -1,4 +1,4 @@
-kdelibs (4:3.92.0-1) experimental; urgency=low
+kde4libs (3.92.0-1) experimental; urgency=low
 
   * KDE 4, beta 1.
   * Update *.install files.
@@ -6,13 +6,13 @@ kdelibs (4:3.92.0-1) experimental; urgency=low
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 28 Jul 2007 12:39:08 +0200
 
-kdelibs (4:3.91.0-1) alioth; urgency=low
+kde4libs (3.91.0-1) alioth; urgency=low
 
   * New alpha. 
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 01 Jul 2007 16:12:54 +0200
 
-kdelibs (4:3.90+svn20070601-r670402-1) alioth; urgency=low
+kde4libs (3.90+svn20070601-r670402-1) alioth; urgency=low
 
   * Initial release of KDE4.
 
