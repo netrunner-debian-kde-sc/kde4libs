@@ -2,9 +2,10 @@ Source: kdelibs
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, shared-mime-info,
  libasound2-dev, libcupsys2-dev, libdbus-1-dev, libkeyutils-dev, libqt4-dev,
- libsoprano-dev, libstreamanalyzer-dev, libxml2-dev, libxml2-utils,
+ libsoprano-dev, libstreamanalyzer-dev (>= 0.5.3), libxml2-dev, libxml2-utils,
  libxslt1-dev, libxtst-dev, libgif-dev | libungif4-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
@@ -13,9 +14,9 @@ Standards-Version: 3.7.2
 Package: kdelibs
 Section: libs
 Architecture: all
-Depends: ${shlibs:Depends}, kdelibs5 (>= ${Source-Version}),
- kdelibs5-data (>= ${Source-Version}), kdelibs-bin (>= ${Source-Version})
-Description: core libraries from the official KDE 4 alpha release
+Depends: ${shlibs:Depends}, kdelibs5 (>= ${binary:Version}),
+ kdelibs5-data (>= ${binary:Version}), kdelibs-bin (>= ${binary:Version})
+Description: core libraries from the official KDE 4 beta release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
  contemporary functionality, and outstanding graphical design with the
@@ -24,11 +25,14 @@ Description: core libraries from the official KDE 4 alpha release
  This metapackage includes the core KDE libraries, binaries, and data,
  needed by virtually all KDE applications. It does not include
  development files.
+ .
+  Homepage: http://www.kde.org
 
 Package: kdelibs5-data
 Section: libs
 Architecture: all
-Description: core shared data for all KDE 4 alpha applications
+Depends: hicolor-icon-theme
+Description: core shared data for all KDE 4 beta applications
  This package contains all the architecture independent data files
  commonly used by KDE applications. You need these data files to run
  KDE applications.
@@ -39,9 +43,9 @@ Description: core shared data for all KDE 4 alpha applications
 Package: kdelibs5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5-data (>= ${Source-Version}),
- kdelibs-bin(>= ${Source-Version}), xbase-clients
-Description: core libraries for all KDE 4 alpha applications
+Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
+ kdelibs-bin(>= ${binary:Version}), xbase-clients
+Description: core libraries for all KDE 4 beta applications
  This package contains all the shared libraries. You need these libraries to
  run KDE applications.
  .
@@ -51,13 +55,13 @@ Description: core libraries for all KDE 4 alpha applications
 Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
-Depends: kdelibs5 (= ${Source-Version}), shared-mime-info,
+Depends: kdelibs5 (= ${binary:Version}), shared-mime-info,
  libasound2-dev, libcupsys2-dev, libdbus-1-dev, libkeyutils-dev, libqt4-dev,
  libsoprano-dev, libstreamanalyzer-dev, libxml2-dev, libxml2-utils,
  libxslt1-dev, libxtst-dev, libgif-dev | libungif4-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, xsltproc
-Description: development files for the KDE 4 alpha core libraries
+Description: development files for the KDE 4 beta core libraries
  This package contains all the headers and other related files needed
  to compile KDE applications, or develop applications which use the
  core KDE libraries.
@@ -69,7 +73,7 @@ Package: kdelibs5-doc
 Section: doc
 Architecture: all
 Provides: kdelibs-doc
-Description: developer documentation for the KDE 4 alpha core libraries
+Description: developer documentation for the KDE 4 beta core libraries
  This package contains documentation for the core KDE libraries, of
  use more for developers creating applications which use the core
  KDE libraries, than regular users.
@@ -80,7 +84,7 @@ Description: developer documentation for the KDE 4 alpha core libraries
 Package: kdelibs-bin
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: binaries for all the KDE 4 alpha core applications
+Description: binaries for all the KDE 4 beta core applications
  This package contains all the common core binaries used by all KDE 4
  applications.
  .
