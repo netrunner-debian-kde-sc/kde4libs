@@ -82,34 +82,54 @@ The following files are under the LGPL license:
     | kde3support/kio/*
     | kde3support/kparts/*
     | kde3support/kunittest/kunittest_export.h
-
-    | kdecore/text/kcodecs.h
-    | kdecore/text/kcodecs.cpp
-    | kdecore/sonnet/speller.cpp
-    | kdecore/sonnet/defaultdictionary.cpp
-    | kdecore/sonnet/tests/test_dialog.cpp
-    | kdecore/sonnet/tests/test_filter.cpp
-    | kdecore/sonnet/tests/test.cpp
-    | kdecore/sonnet/tests/test_dialog.h
-    | kdecore/sonnet/tests/test_filter.h
-    | kdecore/sonnet/tests/test_config.cpp
-    | kdecore/sonnet/filter.cpp
-    | kdecore/sonnet/backgroundengine.cpp
-    | kdecore/sonnet/loader.cpp
-    | kdecore/sonnet/backgroundchecker.cpp
-    | kdecore/sonnet/loader.h
-    | kdecore/sonnet/settings.cpp
-    | kdecore/sonnet/filter.h
-    | kdecore/sonnet/client.h
-    | kdecore/sonnet/backgroundthread.cpp
-    | kdecore/sonnet/defaultdictionary.h
-    | kdecore/sonnet/backgroundthread.h
-    | kdecore/sonnet/threadevents.h
-    | kdecore/sonnet/speller.h
-    | kdecore/sonnet/settings.h
-    | kdecore/sonnet/backgroundchecker.h
-    | kdecore/sonnet/client.cpp
-    | kdecore/sonnet/backgroundengine.h
+    | kdecore/fakes.c
+    | kdecore/kdefakes.h.cmake
+    | kdecore/kdecore_export.h
+    | kdecore/kde-config.cpp
+    | kdecore/compression/*
+    | kdecore/config/*
+    | kdecore/date/*
+    | kdecore/io/*
+    | kdecore/jobs/*
+    | kdecore/kconfig_compiler/kconfig_compiler.cpp
+    | kdecore/kconfig_compiler/examples/*.cpp
+    | kdecore/kernel/*
+    | kdecore/localization/gettext.h
+    | kdecore/localization/kcatalog.cpp
+    | kdecore/localization/kcatalog.h
+    | kdecore/localization/kcharsets.cpp
+    | kdecore/localization/kcharsets.h
+    | kdecore/localization/kencodingdetector.cpp
+    | kdecore/localization/kencodingdetector.h
+    | kdecore/localization/kentities.c
+    | kdecore/localization/kentities.gperf
+    | kdecore/localization/klocale.cpp
+    | kdecore/localization/klocale.h
+    | kdecore/localization/klocalizedstring.cpp
+    | kdecore/localization/klocalizedstring.h
+    | kdecore/localization/ktranscript.cpp
+    | kdecore/localization/ktranscript_p.h
+    | kdecore/localization/ktranslit.cpp
+    | kdecore/localization/ktranslit_p.h
+    | kdecore/localization/kuitformats.cpp
+    | kdecore/localization/kuitformats_p.h
+    | kdecore/localization/kuitsemantics.cpp
+    | kdecore/localization/kuitsemantics_p.h
+    | kdecore/network/k3socks.*
+    | kdecore/network/k3sockssocketdevice.*	
+    | kdecore/network/kidna.*
+    | kdecore/network/klocalsocket.*
+    | kdecore/network/klocalsocket_p.h
+    | kdecore/network/klocalsocket_unix.cpp
+    | kdecore/network/klocalsocket_win.cpp
+    | kdecore/network/ksocketfactory.*
+    | kdecore/network/netsupp.*
+    | kdecore/services/*.h
+    | kdecore/services/*.cpp
+    | kdecore/sonnet/*
+    | kdecore/sycoca/*
+    | kdecore/text/*
+ 
     | kdeui/tests/kconfig_compiler/kconfigcompiler_test.h
     | kdeui/tests/kconfig_compiler/kconfigcompiler_test.cpp
     | kdeui/widgets/kcombobox.h
@@ -244,6 +264,7 @@ The following files are under the BSD license:
     | kde3support/kunittest/samplemodule.*
     | kde3support/kunittest/modrunner.cpp
     | kde3support/kunittest/module.h
+    | kdecore/localization/guess_ja.*
 
   The full text of the BSD license is available on Debian systems in 
   /usr/share/common-licenses/BSD
@@ -258,10 +279,30 @@ The following files:
     | interfaces/kmediaplayer/view.cpp
     | interfaces/kmediaplayer/view.h
 
+    | kdecore/network/k3bufferedsocket.*
+    | kdecore/network/k3clientsocketbase.*
+    | kdecore/network/k3datagramsocket.*
+    | kdecore/network/k3httpproxysocketdevice.*
+    | kdecore/network/k3iobuffer.h
+    | kdecore/network/k3resolvermanager.cpp
+    | kdecore/network/k3resolver.*
+    | kdecore/network/k3resolver_p.h
+    | kdecore/network/k3resolverstandardworkers.cpp
+    | kdecore/network/k3resolverstandardworkers_p.h
+    | kdecore/network/k3resolverworkerbase.*
+    | kdecore/network/k3reverseresolver.*
+    | kdecore/network/k3serversocket.*
+    | kdecore/network/k3socketaddress.*
+    | kdecore/network/k3socketbase.*
+    | kdecore/network/k3socketbuffer.cpp
+    | kdecore/network/k3socketbuffer_p.h
+    | kdecore/network/k3socketdevice.*
+    | kdecore/network/k3streamsocket.*
+    | kdecore/network/syssocket.h
+
+
 are under this license:
 
-    | Copyright (C) 2002 Neil Stevens <neil@qualityassistant.com>
-    |
     | Permission is hereby granted, free of charge, to any person obtaining a copy
     | of this software and associated documentation files (the "Software"), to deal
     | in the Software without restriction, including without limitation the rights
@@ -284,6 +325,11 @@ are under this license:
     | in this Software without prior written authorization from the author(s).
 
 
+The following files are placed under the Public Domain:
+
+    | kdecore/tests/ktemporaryfiletest.*
+
+
 -----------------------------------------------------------------------------------------
 
 -- Files under kate/*:
@@ -293,8 +339,12 @@ are under this license:
   The full text of the GNU LGPL version 2 is available on Debian systems in 
   /usr/share/common-licenses/LGPL-2.
 
+-- Files under kded/* are under the GNU LGPL.
 
 
+TODO:
+kdecore/tests/ 
+kdecore/utils
 
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
