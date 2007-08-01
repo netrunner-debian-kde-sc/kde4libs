@@ -2,7 +2,6 @@ kde4libs (4:3.92.0-1) experimental; urgency=low
 
   * KDE 4, beta 1.
   * Update *.install files.
-  * Added patch 01_kdehome.diff to set KDEHOME dir to .kde4.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 28 Jul 2007 12:39:08 +0200
 
