@@ -123,6 +123,115 @@ TODO: fix format
  dnssd/servicetypebrowser.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
  dnssd/settings.kcfgc ~ unspec ~ unspec
 
+ interfaces/CMakeLists.txt ~ unspec ~ unspec
+ interfaces/khexedit/byteseditinterface.h ~ LGPLv2 ~ (C) 2003 by Friedrich W.  H. Kossebau
+ interfaces/khexedit/charcolumninterface.h  ~ LGPLv2 ~ (C) 2003 by Friedrich W.  H. Kossebau
+ interfaces/khexedit/clipboardinterface.h ~ LGPLv2 ~ (C) 2003 by Friedrich W.  H. Kossebau
+ interfaces/khexedit/CMakeLists.txt ~ unspec ~ unspec
+ interfaces/khexedit/kbytesedit.desktop ~ unspec ~ unspec
+ interfaces/khexedit/Mainpage.dox ~ LGPL ~ (C) 2007 Friedrich W.  H.  Kossebau
+ interfaces/khexedit/valuecolumninterface.h ~ LGPLv2 ~ (C) 2003 by Friedrich W.  H. Kossebau
+ interfaces/khexedit/zoominterface.h ~ LGPLv2 ~ (C) 2003 by Friedrich W. H. Kossebau
+ interfaces/kimproxy/CMakeLists.txt ~ unspec ~ unspec
+ interfaces/kimproxy/interface/* ~ unspec ~ unspec
+ interfaces/kimproxy/library/CMakeLists.txt ~ unspec ~ unspec
+ interfaces/kimproxy/library/icons/* ~ unspec ~ unspec
+ interfaces/kimproxy/library/kimproxy.cpp ~ LGPLv2 ~ (c) 2004 Will Stephenson
+ interfaces/kimproxy/library/kimproxy_export.h ~ LGPLv2 ~ 2007 David Faure
+ interfaces/kimproxy/library/kimproxy.h ~ LGPLv2 ~ (c) 2004 Will Stephenson
+ interfaces/kimproxy/library/Messages.sh ~ unspec ~ unspec
+ interfaces/kio/CMakeLists.txt ~ unspec ~ unspec
+ interfaces/kio/http.h ~ LGPLv2 ~ (C) 2002 Jan-Pascal van Best 
+ interfaces/kmediaplayer/CMakeLists.txt ~ unspec ~ unspec
+ interfaces/kmediaplayer/kfileaudiopreview/CMakeLists.txt ~ unspec ~ unspec
+ interfaces/kmediaplayer/kfileaudiopreview/kfileaudiopreview.cpp ~ LGPLv2 ~ (C) 2003 Carsten Pfeiffer,  2006 Matthias Kretz
+ interfaces/kmediaplayer/kfileaudiopreview/kfileaudiopreview.h ~ LGPLv2 ~ (C) 2003 Carsten Pfeiffer,  2006 Matthias Kretz
+ interfaces/kmediaplayer/kfileaudiopreview/mediacontrols.cpp ~ LGPLv2 ~ (C) 2006-2007 Matthias Kretz
+ interfaces/kmediaplayer/kfileaudiopreview/mediacontrols.h ~ LGPLv2 ~ (C) 2006 Matthias Kretz
+ interfaces/kmediaplayer/kfileaudiopreview/mediacontrols_p.h ~ LGPLv2 ~ (C) 2007 Matthias Kretz
+ interfaces/kmediaplayer/kfileaudiopreview/Messages.sh ~ unspec ~ unspec
+ interfaces/kmediaplayer/kmediaplayeradaptor.cpp ~ unspec ~ (C) 2006 Trolltech AS
+ interfaces/kmediaplayer/kmediaplayeradaptor_p.h ~ unspec ~ (C) 2006 Trolltech AS
+ interfaces/kmediaplayer/kmediaplayer.desktop ~ unspec ~ unspec
+ interfaces/kmediaplayer/kmediaplayerengine.desktop ~ unspec ~ unspec
+ interfaces/kmediaplayer/kmediaplayer_export.h ~ LGPLv2 ~ 2007 David Faure
+ interfaces/kmediaplayer/Mainpage.dox   XXXX
+ interfaces/kmediaplayer/org.kde.KMediaPlayer.xml ~ unspec ~ unspec
+ interfaces/kmediaplayer/player.cpp ~ MIT ~ (C) 2002 Neil Stevens 
+ interfaces/kmediaplayer/player.h ~ MIT ~ (C) 2002 Neil Stevens
+ interfaces/kmediaplayer/view.cpp ~ MIT ~ (C) 2002 Neil Stevens
+ interfaces/kmediaplayer/view.h ~ MIT ~ (C) 2002 Neil Stevens
+ interfaces/kregexpeditor/CMakeLists.txt  ~ unspec ~ unspec
+ interfaces/kregexpeditor/kregexpeditor.desktop ~ unspec ~ unspec
+ interfaces/kregexpeditor/kregexpeditorinterface.h ~ LGPLv2h ~  (c) 2002 Jesper K. Pedersen, 2002 Simon Hausmann
+ interfaces/kspeech/CMakeLists.txt ~ unspec ~ unspec
+ interfaces/kspeech/dbustexttospeech.desktop ~ unspec ~ unspec
+ interfaces/kspeech/kspeech_export.h ~ LGPLv2h ~ (C) 2007 David Faure
+ interfaces/kspeech/kspeech.h ~ LGPLv2h ~ (C) 2006 by Gary Cramblitt
+ interfaces/kspeech/Mainpage.dox ~ unspec ~ unspec
+ interfaces/kspeech/org.kde.KSpeech.xml ~ unspec ~ unspec
+ interfaces/ktexteditor/attribute.cpp ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/attribute.h ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/CMakeLists.txt ~ unspec ~ unspec
+ interfaces/ktexteditor/codecompletioninterface.cpp ~ LGPLv2 ~ (C) 2005-2006 Hamish Rodda
+ interfaces/ktexteditor/codecompletioninterface.h ~ LGPLv2 ~ (C) 2005-2006 Hamish Rodda
+ interfaces/ktexteditor/codecompletionmodel.cpp ~ LGPLv2 ~ (C) 2005-2006 Hamish Rodda
+ interfaces/ktexteditor/codecompletionmodel.h ~ LGPLv2 ~ (C) 2005-2006 Hamish Rodda
+ interfaces/ktexteditor/commandinterface.h
+ interfaces/ktexteditor/configinterface.cpp
+ interfaces/ktexteditor/configinterface.h
+ interfaces/ktexteditor/configpage.h
+ interfaces/ktexteditor/cursor.cpp
+ interfaces/ktexteditor/cursorfeedback.cpp
+ interfaces/ktexteditor/cursorfeedback.h
+ interfaces/ktexteditor/cursor.h
+ interfaces/ktexteditor/documentadaptor_p.h
+ interfaces/ktexteditor/document.h
+ interfaces/ktexteditor/editorchooser.cpp
+ interfaces/ktexteditor/editorchooser.h
+ interfaces/ktexteditor/editorchooser_ui.ui
+ interfaces/ktexteditor/editor.h
+ interfaces/ktexteditor/factory.h
+ interfaces/ktexteditor/.kateconfig
+ interfaces/ktexteditor/kcm_ktexteditor.desktop
+ interfaces/ktexteditor/ktexteditor.cpp
+ interfaces/ktexteditor/ktexteditor.desktop
+ interfaces/ktexteditor/ktexteditor_export.h
+ interfaces/ktexteditor/ktexteditorplugin.desktop
+ interfaces/ktexteditor/Mainpage.dox ~  GFDL1.2 ~ 2005-2006 by Dominik Haumann, 2005 by Christoph Cullmann
+ interfaces/ktexteditor/markinterface.h
+ interfaces/ktexteditor/modificationinterface.h
+ interfaces/ktexteditor/plugin.h
+ interfaces/ktexteditor/range.cpp
+ interfaces/ktexteditor/rangefeedback.cpp
+ interfaces/ktexteditor/rangefeedback.h
+ interfaces/ktexteditor/range.h
+ interfaces/ktexteditor/searchinterface.h
+ interfaces/ktexteditor/sessionconfiginterface.h
+ interfaces/ktexteditor/smartcursor.cpp
+ interfaces/ktexteditor/smartcursor.h
+ interfaces/ktexteditor/smartinterface.cpp
+ interfaces/ktexteditor/smartinterface.h
+ interfaces/ktexteditor/smartrange.cpp
+ interfaces/ktexteditor/smartrange.h
+ interfaces/ktexteditor/templateinterface.cpp
+ interfaces/ktexteditor/templateinterface.h
+ interfaces/ktexteditor/texthintinterface.h
+ interfaces/ktexteditor/variableinterface.h
+ interfaces/ktexteditor/view.h
+ interfaces/Mainpage.dox ~ unspec ~ unspec
+ interfaces/terminal/CMakeLists.txt
+ interfaces/terminal/kde_terminal_interface.h
+ interfaces/terminal/test/CMakeLists.txt
+ interfaces/terminal/test/main.cc
+ interfaces/terminal/test/main.h
+
+ kconf_update/CMakeLists.txt ~ unspec ~ unspec
+ kconf_update/kconf_update.cpp ~ LGPLv2 ~ (c) 2001 Waldo Bastian
+ kconf_update/Mainpage.dox ~  XXXX
+ kconf_update/README.kconf_update ~ unspec ~ unspec
+
+
 phonon/abstractaudiooutput.cpp	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
 phonon/abstractaudiooutput.h	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
 phonon/abstractaudiooutput_p.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
