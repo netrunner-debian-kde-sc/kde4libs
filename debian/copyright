@@ -1,0 +1,1039 @@
+This package was debianized by the Debian Qt/KDE Maintainers on
+Sun,  6 May 2007 20:10:12 +0200.
+
+It was downloaded from ftp://ftp.kde.org
+
+Upstream Author: The KDE development team <kde-core-devel@kde.org>
+Numerous people, too many to count, have contributed to kdelibs as a
+whole. The KDE project tries to make an extensive list of people who contributed
+to KDE at http://www.kde.org/people/credits/
+
+Copyright:
+Unless something else is mentioned, copyright is
+(C) 1996-2007, The K Desktop Enviroment project http://www.kde.org
+
+
+License:
+
+Unless something else is mentioned, the code files in this package are under
+the GNU General Public License:
+
+    | This program is free software; you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation; version 2 dated June, 1991.
+    |
+    | This package is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    |
+    | You should have received a copy of the GNU General Public License
+    | along with this program; if not, write to the Free Software Foundation,
+    | Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+  The full text of the GNU General Public License version 2 is available on
+  Debian systems in /usr/share/common-licenses/GPL-2.
+
+
+
+
+The documentation docbook files in this package, placed under docs/, are under 
+the GNU Free Documentation License:
+
+    | Permission is granted to copy, distribute and/or modify this
+    | document under the terms of the GNU Free Documentation License,
+    | Version 1.1 or any later version published by the Free Software
+    | Foundation; with no Invariant Sections, with no Front-Cover Texts,
+    | and with no Back-Cover Texts.
+
+  The full text of the GNU Free Documentation License is available on
+  Debian systems in /usr/share/common-licenses/GFDL-1.2
+
+Files under include/
+ 
+Files under kate/
+  As you can read at kate/README:
+  The Kate Part and its interfaces are licensed under the LGPL version 2,
+  not any later version.
+
+
+
+
+kdelibs copyright situation is a bit complex. The following table tries to detail 
+the copyright/license information of the files that are not under the directories 
+detailed above or are not licensed under the GPLv2.
+
+
+TODO: fix format
+
+ file	license	copyright holder
+ -----	-------	----------------
+ cmake/automoc/CMakeLists.txt ~ unspec ~ unspec
+ cmake/automoc/kde4automoc.cpp ~ GPLv2 ~(C) 2007, Matthias Kretz
+ cmake/CMakeLists.txt ~ unspec ~ unspec
+ cmake/modules/* ~ BSD 
+ cmake/systeminfo/CMakeLists.txt ~ unspec ~ unspec
+
+ dnssd/avahi-domainbrowser.cpp ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/avahi-domainbrowser_p.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/avahi_entrygroup_interface.cpp ~ unspec ~ (C) 2006 Trolltech ASA
+ dnssd/avahi_entrygroup_interface.h ~ unspec ~ (C) 2006 Trolltech ASA
+ dnssd/avahi-publicservice.cpp ~ LGPLv2h  ~  (C) 2004, 2005 Jakub Stachowski
+ dnssd/avahi-publicservice_p.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/avahi-remoteservice.cpp ~ LGPLv2h  ~  (C) 2004, 2005 Jakub Stachowski
+ dnssd/avahi-remoteservice_p.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/avahi_server_interface.cpp ~ unspec ~ (C) 2006 Trolltech ASA
+ dnssd/avahi_server_interface.h ~ unspec ~ (C) 2006 Trolltech ASA
+ dnssd/avahi-servicebrowser.cpp ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/avahi-servicebrowser_p.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/avahi_serviceresolver_interface.cpp ~ unspec ~ (C) 2006 Trolltech ASA
+ dnssd/avahi_serviceresolver_interface.h ~ unspec ~ (C) 2006 Trolltech ASA
+ dnssd/avahi-servicetypebrowser.cpp ~ LGPLv2h  ~  (C) 2004, 2007 Jakub Stachowski
+ dnssd/avahi-servicetypebrowser_p.h ~ LGPLv2h  ~  (C) 2004, 2007 Jakub Stachowski
+ dnssd/CMakeLists.txt ~ unspec ~ unspec
+ dnssd/dnssd_export.h ~ LGPLv2h  ~  (C) 2006 David Faure <faure@kde.org>
+ dnssd/domainbrowser.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/dummy-domainbrowser.cpp ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/dummy-publicservice.cpp ~ LGPLv2h ~  (C) 2004, 2005 Jakub Stachowski
+ dnssd/dummy-remoteservice.cpp ~ LGPLv2h ~  (C) 2004, 2005 Jakub Stachowski
+ dnssd/dummy-servicebrowser.cpp ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/dummy-servicetypebrowser.cpp ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/kcm_kdnssd.kcfg ~ unspec ~ unspec
+ dnssd/Mainpage.dox ~ LGPL ~ Jakub Stachowski
+ dnssd/mdnsd-domainbrowser.cpp ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/mdnsd-domainbrowser_p.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/mdnsd-publicservice.cpp ~ LGPLv2h ~  (C) 2004, 2005 Jakub Stachowski
+ dnssd/mdnsd-remoteservice.cpp ~ LGPLv2h ~  (C) 2004, 2005 Jakub Stachowski
+ dnssd/mdnsd-responder.cpp ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/mdnsd-responder.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/mdnsd-sdevent.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/mdnsd-servicebrowser.cpp ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/mdnsd-servicebrowser_p.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/mdnsd-servicetypebrowser.cpp ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/mdnsd-servicetypebrowser_p.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/org.freedesktop.Avahi.DomainBrowser.xml ~ LGPLv2h ~  unspec
+ dnssd/org.freedesktop.Avahi.ServiceBrowser.xml ~ LGPLv2h ~  unspec
+ dnssd/org.freedesktop.Avahi.ServiceTypeBrowser.xml ~ LGPLv2h ~  unspec
+ dnssd/publicservice.h ~ LGPLv2h ~  (C) 2005 Jakub Stachowski
+ dnssd/remoteservice.h ~ LGPLv2h ~  (C) 2004, 2005 Jakub Stachowski
+ dnssd/servicebase.cpp ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/servicebase.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/servicebase_p.h ~ LGPLv2h ~  (C) 2004, 2007 Jakub Stachowski
+ dnssd/servicebrowser.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/servicetypebrowser.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
+ dnssd/settings.kcfgc ~ unspec ~ unspec
+
+phonon/abstractaudiooutput.cpp	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/abstractaudiooutput.h	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/abstractaudiooutput_p.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/abstractaudiooutput_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/abstractmediastream.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/abstractmediastream.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/abstractmediastream_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/abstractvideooutput.cpp	LGPLv2	(C) 2005 Matthias Kretz <kretz@kde.org>
+phonon/abstractvideooutput.h	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/abstractvideooutput_p.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/abstractvideooutput_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/addoninterface.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/audiooutputadaptor.cpp	unspec	(C) 2006 Trolltech AS. All rights reserved.
+phonon/audiooutputadaptor.h	unspec	(C) 2006 Trolltech AS. All rights reserved.
+phonon/audiooutput.cpp	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/audiooutput.h	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/audiooutputinterface.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/audiooutput_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/audiopath.cpp	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/audiopath.h	LGPLv2	(C) 2005-2007 Matthias Kretz <kretz@kde.org>
+phonon/audiopath_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/audioplayer.cpp	LGPLv2	(C) 2004-2006 Matthias Kretz <kretz@kde.org>
+phonon/audioplayer.h	LGPLv2	(C) 2004-2006 Matthias Kretz <kretz@kde.org>
+phonon/backendcapabilities.cpp	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/backendcapabilities.h	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/backendcapabilities_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/backend.dox	unspec	unspec
+phonon/backendinterface.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/basedestructionhandler.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/base_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/brightnesscontrol.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/brightnesscontrol.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/brightnesscontrol_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/BUGS	unspec	unspec
+phonon/CMakeLists.txt	unspec	unspec
+phonon/config-phonon.h.cmake	unspec	unspec
+phonon/deinterlacefilter.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/deinterlacefilter.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/deinterlacefilter_p.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/DESIGN/architecture.flw	unspec	unspec
+phonon/DESIGN/audiodeviceconfig.flw	unspec	unspec
+phonon/DESIGN/BinaryCompatibleAdditions	unspec	unspec
+phonon/DESIGN/ClassesToBeDesigned	unspec	unspec
+phonon/DESIGN/design.xmi	unspec	unspec
+phonon/DESIGN/effects.flw	unspec	unspec
+phonon/DESIGN/effects.txt	unspec	unspec
+phonon/DESIGN/HowToConfigureDevices.txt	unspec	unspec
+phonon/architecture.xmi	unspec	unspec
+phonon/effect.cpp	LGPLv2	(C) 2005-2007 Matthias Kretz <kretz@kde.org>
+phonon/effect.h	LGPLv2	(C) 2005-2007 Matthias Kretz <kretz@kde.org>
+phonon/effectparameter.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/effectparameter.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/effectparameter_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/effect_p.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/effectwidget.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/effectwidget.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/effectwidget_p.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/examples/CMakeLists.txt	unspec	unspec
+phonon/examples/crossfade.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/examples/crossfade.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/examples/pcmoutput.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/examples/pcmoutput.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/examples/playback.cpp	MIT-style	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/examples/simpleplay.cpp	unspec	unspec
+phonon/examples/tutorial1.cpp	MIT-style	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/examples/tutorial1.pro	unspec	unspec
+phonon/examples/tutorial2.cpp	MIT-style	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/examples/tutorial2.pro	unspec	unspec
+phonon/examples/tutorial3.cpp	MIT-style(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/examples/tutorial3.pro	unspec	unspec
+phonon/examples/tutorial4.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/examples/tutorial4.pro	unspec	unspec
+phonon/examples/videoplayandforget.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/examples/videoplayback.cpp	MIT-style	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/examples/videoplayback.h	MIT-style	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/experimental/audiodataoutput.cpp	LGPLv2	(C) 2005 Matthias Kretz <kretz@kde.org>
+phonon/experimental/audiodataoutput.h	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/audiodataoutput_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/audiowriter.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/avcapture.cpp	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/avcapture.h	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/avcapture_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/avwriter.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/avwriter.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/avwriter_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/CMakeLists.txt	unspec	unspec
+phonon/experimental/export.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/experimental/overlayapi.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/experimental/overlayapi.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/experimental/overlayapi_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/experimental/rtpreceiver.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/tests/audiodataoutputtest.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/tests/audiodataoutputtest.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/tests/CMakeLists.txt	unspec	unspec
+phonon/experimental/tests/methods/audiodataoutput.cpp	unspec	unspec
+phonon/experimental/tests/methods/avcapture.cpp	unspec	unspec
+phonon/experimental/tests/methods/avwriter.cpp	unspec	unspec
+phonon/experimental/tests/methods/overlayapi.cpp	unspec	unspec
+phonon/experimental/tests/methods/videodataoutput.cpp	unspec	unspec
+phonon/experimental/tests/methods/visualization.cpp	unspec	unspec
+phonon/experimental/videodataoutput.cpp	LGPLv2	(C) 2005-2007 Matthias Kretz <kretz@kde.org>
+phonon/experimental/videodataoutput.h	LGPLv2	(C) 2005-2007 Matthias Kretz <kretz@kde.org>
+phonon/experimental/videodataoutput_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/videoframe.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/visualization.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/experimental/visualization.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/experimental/visualization_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/extractmethodcalls.rb	unspec	unspec
+phonon/factory.cpp	LGPLv2	(C) 2004-2007 Matthias Kretz <kretz@kde.org>
+phonon/factory.h	LGPLv2	(C) 2004-2007 Matthias Kretz <kretz@kde.org>
+phonon/factory_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/frontendinterface_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/globalconfig.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/globalconfig.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/globalstatic_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/IDEAS	unspec	unspec
+phonon/iodevicestream.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/iodevicestream.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/iodevicestream_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/kcm/backendselection.cpp	GPLv2	(C) 2004,2006 Matthias Kretz <kretz@kde.org>
+phonon/kcm/backendselection.h	GPLv2	(C) 2004,2006 Matthias Kretz <kretz@kde.org>
+phonon/kcm/backendselection.ui	unspec	unspec
+phonon/kcm/CMakeLists.txt	unspec	unspec
+phonon/kcm/kcm_phonon.desktop	unspec	unspec
+phonon/kcm/listview-background.png	unspec	unspec
+phonon/kcm/main.cpp	GPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/kcm/main.h	GPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/kcm/Messages.sh	unspec	unspec
+phonon/kcm/outputdevicechoice.cpp	GPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/kcm/outputdevicechoice.h	GPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/kcm/outputdevicechoice.ui	unspec	unspec
+phonon/.krazy	unspec	unspec
+phonon/libkaudiodevicelist/audiodevice.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/libkaudiodevicelist/audiodeviceenumerator.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/libkaudiodevicelist/audiodeviceenumerator.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/libkaudiodevicelist/audiodeviceenumerator_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/libkaudiodevicelist/audiodevice.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/libkaudiodevicelist/audiodevice_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/libkaudiodevicelist/CMakeLists.txt	unspec	unspec
+phonon/libkaudiodevicelist/kaudiodevicelist_export.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/Mainpage.dox	LGPL	Matthias Kretz <kretz@kde.org>
+phonon/mediacontroller.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/mediacontroller.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/mediaobject.cpp	LGPLv2	(C) 2005-2007 Matthias Kretz <kretz@kde.org>
+phonon/mediaobject.dox	unspec	unspec
+phonon/mediaobject.h	LGPLv2	(C) 2005 Matthias Kretz <kretz@kde.org>
+phonon/mediaobjectinterface.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/mediaobject_p.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/mediasource.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/mediasource.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/mediasource_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/Messages.sh	unspec	unspec
+phonon/objectdescription.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/objectdescription.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/objectdescriptionmodel.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/objectdescriptionmodel.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/objectdescriptionmodel_p.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/objectdescription_p.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/org.kde.Phonon.AudioOutput.xml	unspec	unspec
+phonon/phononbackend.desktop	unspec	unspec
+phonon/phonondefs.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/phonondefs_p.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/phonon_export.h	LGPLv2h	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/phononnamespace.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/phononnamespace.h	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/phononnamespace_p.h	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/phonon.notifyrc	unspec	unspec
+phonon/phonon.pro	unspec	unspec
+phonon/platform.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/platform_kde/CMakeLists.txt	unspec	unspec
+phonon/platform_kde/kdepluginfactory.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/platform_kde/kdepluginfactory.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/platform_kde/kiomediastream.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/platform_kde/kiomediastream.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/platform_kde/kiomediastream_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/platform_kde/Messages.sh	unspec	unspec
+phonon/platform_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/platformplugin.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/preprocessandextract.sh	unspec	unspec
+phonon/seekslider.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/seekslider.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/seekslider_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/streaminterface.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/streaminterface.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/streaminterface_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/stream-thoughts	unspec	unspec
+phonon/tests/audiocapturedevicetest.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/audiodevicelisttest.cpp	GPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/audiooutputdevicetest.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/audiooutputtest.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/audiopathtest.cpp	GPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/backendcapabilitiestest.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/backendtester.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/backendtester.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/backendtester.ui	unspec	unspec
+phonon/tests/bytestreamtest2.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/bytestreamtest2.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/bytestreamtest.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/bytestreamtest.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/CMakeLists.txt	unspec	unspec
+phonon/tests/fakebackend/abstractaudiooutput.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/abstractaudiooutput.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/abstractvideooutput.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/audiodataoutput.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/audiodataoutput.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/audioeffect.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/audioeffect.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/audiooutput.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/audiooutput.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/audiopath.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/audiopath.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/avcapture.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/avcapture.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/backend.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/backend.h	LGPLv2	(C) 2004-2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/brightnesscontrol.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/brightnesscontrol.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/bytestream.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/bytestream.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/CMakeLists.txt	unspec	unspec
+phonon/tests/fakebackend/delayaudioeffect.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/delayaudioeffect.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/effectinterface.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/fake.desktop	unspec	unspec
+phonon/tests/fakebackend/mediaobject.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/mediaobject.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/mediaqueue.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/mediaqueue.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/stream.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/stream.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/videodataoutput.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/videodataoutput.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/videoeffect.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/videoeffect.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/videopath.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/videopath.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/videowidget.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/videowidget.h	LGPLv2	(C) 2005-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/visualization.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/visualization.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/volumefadereffect.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/fakebackend/volumefadereffect.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/guitest.cpp	LGPLv2	(C) 2004-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/guitest.h	LGPLv2	(C) 2004-2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/loadfakebackend.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/mediacontrols.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/mediacontrols.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/mediacontrols_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/mediaobjecttest.cpp	GPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/mediaplayer.cpp	GPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/mediaplayer.h	GPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/mediasourcetest.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/methods/abstractaudiooutput.cpp	unspec	unspec
+phonon/tests/methods/abstractvideooutput.cpp	unspec	unspec
+phonon/tests/methods/audiooutput.cpp	unspec	unspec
+phonon/tests/methods/audiopath.cpp	unspec	unspec
+phonon/tests/methods/backendcapabilities.cpp	unspec	unspec
+phonon/tests/methods/brightnesscontrol.cpp	unspec	unspec
+phonon/tests/methods/effect.cpp	unspec	unspec
+phonon/tests/methods/effectparameter.cpp	unspec	unspec
+phonon/tests/methods/factory.cpp	unspec	unspec
+phonon/tests/methods/mediacontroller.cpp	unspec	unspec
+phonon/tests/methods/mediaobject.cpp	unspec	unspec
+phonon/tests/methods/objectdescription.cpp	unspec	unspec
+phonon/tests/methods/phononnamespace.cpp	unspec	unspec
+phonon/tests/methods/videopath.cpp	unspec	unspec
+phonon/tests/methods/videowidget.cpp	unspec	unspec
+phonon/tests/methods/volumefadereffect.cpp	unspec	unspec
+phonon/tests/methodtest.cpp	GPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/qtesthelper.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/seekslidertest.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/testresources.qrc	unspec	unspec
+phonon/tests/TODO	unspec	unspec
+phonon/tests/videocapturedevicetest.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/videopathtest.cpp	GPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/volumeslidertest.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/tests/volumeslidertest.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/tests/zero.ogg	unspec	unspec
+phonon/TODO	unspec	unspec
+phonon/videopath.cpp	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
+phonon/videopath.h	LGPLv2	(C) 2005-2007 Matthias Kretz <kretz@kde.org>
+phonon/videopath_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/videoplayer.cpp	LGPLv2	(C) 2004-2007 Matthias Kretz <kretz@kde.org>
+phonon/videoplayer.h	LGPLv2	(C) 2004-2007 Matthias Kretz <kretz@kde.org>
+phonon/videowidget.cpp	LGPLv2	(C) 2005-2007 Matthias Kretz <kretz@kde.org>
+phonon/videowidget.h	LGPLv2	(C) 2005-2007 Matthias Kretz <kretz@kde.org>
+phonon/videowidget_p.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/volumefadereffect.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/volumefadereffect.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/volumefadereffect_p.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+phonon/volumeslider.cpp	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/volumeslider.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+phonon/volumeslider_p.h	LGPLv2	(C) 2006-2007 Matthias Kretz <kretz@kde.org>
+nepomuk/CMakeLists.txt	unspec	unspec
+nepomuk/core/CMakeLists.txt	unspec	unspec
+nepomuk/core/generated/CMakeLists.txt	unspec	unspec
+nepomuk/core/generated/README	unspec	unspec
+nepomuk/core/generated/resource.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/generated/resource.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/generated/tag.cpp	LGPLv2h	 (C) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/generated/tag.h	LGPLv2h	 (C) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/class.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/class.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/class_p.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/CMakeLists.txt	unspec	unspec
+nepomuk/core/ontology/desktopontologyloader.cpp	LGPLv2	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/desktopontologyloader.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/entity.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/entity.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/entity_p.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/fileontologyloader.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/fileontologyloader.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/global.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/global.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/literal.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/literal.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/literal_p.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/nepomukontologyloader.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/nepomukontologyloader.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/ontology.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/ontology.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/ontologyloader.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/ontologyloader.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/ontologymanager.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/ontologymanager.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/ontology_p.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/property.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/property.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/property_p.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/qurlhash.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/qurlhash.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/README	unspec	unspec
+nepomuk/core/ontology/test/CMakeLists.txt	unspec	unspec
+nepomuk/core/ontology/test/desktopontologyloadertest.cpp	LGPLv2	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/test/desktopontologyloadertest.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/test/kontotest.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ontology/test/kontotest.h	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/resource.cpp.in	LGPLv2h	 (C) 2006 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/resourcedata.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/resourcedata.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/resource.h.in	LGPLv2h	 (C) 2006 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/resourcemanager.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/resourcemanager.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/CMakeLists.txt	unspec	unspec
+nepomuk/core/test/datetimetest.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/datetimetest.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/resourcedatatest.cpp	LGPLv2h	 (C) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/resourcedatatest.h	LGPLv2h	 (C) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/resourcetest.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/resourcetest.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/speedtest.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/speedtest.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/tagcloudtest.cpp	LGPLv2h	(c) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/testbase.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/testbase.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/varianttest.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/test/varianttest.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/tools.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/tools.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/CMakeLists.txt	unspec	unspec
+nepomuk/core/ui/kautoscrollarea.cpp	LGPLv2	(C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/kautoscrollarea.h	LGPLv2	(C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/kblocklayout.cpp	LGPLv2	(C) 2007 Sebastian Trueg <trueg@kde.org>, (C) 2004-2006 Trolltech ASA. All rights reserved.
+nepomuk/core/ui/kblocklayout.h	LGPLv2	(C) 2007 Sebastian Trueg <trueg@kde.org>, (C) 2004-2006 Trolltech ASA. All rights reserved.
+nepomuk/core/ui/kmetadatatagcloud.cpp	LGPLv2	(C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/kmetadatatagcloud.h	LGPLv2	(C) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/kmetadatatagwidget.cpp	LGPLv2	(C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/kmetadatatagwidget.h	LGPLv2	(C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/kratingwidget.cpp	LGPLv2	(C) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/kratingwidget.h	LGPLv2	(C) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/ktagcloudwidget.cpp	LGPLv2	(C) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/ktagcloudwidget.h	LGPLv2	(C) 2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/ktagdisplaywidget.cpp	LGPLv2	(C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/ktagdisplaywidget.h	LGPLv2	(C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/ui/pics/rating.png	unspec	unspec
+nepomuk/core/variant.cpp	LGPLv2	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/core/variant.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/Mainpage.dox	LGPLv2h	 (C) 2006 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/CMakeLists.txt	unspec	unspec
+nepomuk/middleware/dbustools.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/dbustools.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/error.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/Mainpage.dox	LGPL	Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/message.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/message.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/rdf/CMakeLists.txt	unspec	unspec
+nepomuk/middleware/rdf/queryresulttable.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/rdf/queryresulttable.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/rdf/rdfdbus.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/rdf/rdfdbus.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/rdf/statementlistiterator.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/rdf/statementlistiterator.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/registry.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/registrydbusbackend.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/registrydbusbackend.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/registrydbusinterface.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/registrydbusinterface.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/registry.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/result.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/result.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/service.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/servicedbusinterfacebackend.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/servicedbusinterfacebackend.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/servicedesc.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/service.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/servicepublisher.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/servicepublisherdbusinterface.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/servicepublisherdbusinterface.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/servicepublisher.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/services/CMakeLists.txt	unspec	unspec
+nepomuk/middleware/services/dummyservice.cpp	LGPLv2h	(C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/services/dummyservice.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/services/rdfrepository.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/services/rdfrepository.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/services/rdfrepositorypublisher.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/services/rdfrepositorypublisherdbusinterface.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/services/rdfrepositorypublisherdbusinterface.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/services/rdfrepositorypublisher.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/servicewrapper.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/servicewrapper.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/middleware/TODO	unspec	unspec
+nepomuk/nepomuk_export.h	LGPLv2h	(C) 2007 David Faure <faure@kde.org>
+nepomuk/ontologies/CMakeLists.txt	unspec	unspec
+nepomuk/ontologies/dces.desktop	unspec	unspec
+nepomuk/ontologies/dces.rdf	unspec	unspec
+nepomuk/ontologies/dcq.desktop	unspec	unspec
+nepomuk/ontologies/dcq.rdf	unspec	unspec
+nepomuk/ontologies/dctype.desktop	unspec	unspec
+nepomuk/ontologies/dctype.rdf	unspec	unspec
+nepomuk/ontologies/nao.desktop	unspec	unspec
+nepomuk/ontologies/nao.nrl	unspec	unspec
+nepomuk/ontologies/nfo.desktop	unspec	unspec
+nepomuk/ontologies/nfo.rdfs	unspec	unspec
+nepomuk/ontologies/nrl.desktop	unspec	unspec
+nepomuk/ontologies/nrl.rdfs	unspec	unspec
+nepomuk/ontologies/rdf.desktop	unspec	unspec
+nepomuk/ontologies/rdf.rdfs	unspec	unspec
+nepomuk/ontologies/rdfs.desktop	unspec	unspec
+nepomuk/ontologies/rdfs.rdfs	unspec	unspec
+nepomuk/rcgen/CMakeLists.txt	unspec	unspec
+nepomuk/rcgen/ontologyparser.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/rcgen/ontologyparser.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/rcgen/rcgen.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/rcgen/resourceclass.cpp	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/rcgen/resourceclass.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/rcgen/resourcetemplate.h	LGPLv2h	 (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+nepomuk/TODO	unspec	unspec
+
+
+file/glob	license	copyright holder
+=========	=======	================
+mimetypes/kde.txt	GPL	unspec
+mimetypes/CMakeLists.txt	unspec	unspec
+
+threadweaver/Tests/JobTest.cpp	unspec	unspec
+threadweaver/Tests/QueueTests.h	unspec	unspec
+threadweaver/Tests/DeleteTest.cpp unspec	unspec
+threadweaver/Tests/DeleteTest.h	unspec	unspec
+threadweaver/Tests/run-n-tests.py	unspec	unspec
+threadweaver/Tests/QueueTests.cpp	unspec	unspec
+threadweaver/Tests/AppendCharacterJob.h	unspec	unspec
+threadweaver/Tests/CMakeLists.txt	unspec	unspec
+threadweaver/Tests/AppendCharacterJob.cpp	unspec	unspec
+threadweaver/Tests/JobTests.h	unspec	unspec
+threadweaver/TODO	unspec	unspec
+threadweaver/ThreadWeaver_Logo_222x97.png	unspec	unspec
+threadweaver/threadweaver_export.h	LGPLv2h	(C) 2006 David Faure <faure@kde.org>
+threadweaver/Examples/Construction/Construction.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/Construction/CMakeLists.txt	unspec	unspec
+threadweaver/Examples/Jobs/Jobs.h	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/Jobs/Jobs.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/Jobs/JobsBase.ui	unspec	unspec
+threadweaver/Examples/Jobs/WeaverObserverTest.h	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/Jobs/CMakeLists.txt	unspec	unspec
+threadweaver/Examples/Jobs/WeaverObserverTest.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/CMakeLists.txt	unspec	unspec
+threadweaver/Examples/SMIV/SMIV.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/SMIVItem.h	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/SMIVModel.h	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/SMIVView.h	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/SMIVView.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/QImageLoaderJob.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/thumbnail.jpg	unspec	unspec
+threadweaver/Examples/SMIV/SMIVBase.ui	unspec	unspec
+threadweaver/Examples/SMIV/ComputeThumbNailJob.h	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/SMIVModel.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/SMIVItemDelegate.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/SMIVItemDelegate.h	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/QImageLoaderJob.h	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/CMakeLists.txt	unspec	unspec
+threadweaver/Examples/SMIV/ComputeThumbNailJob.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/SMIV.h	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/SMIV/SMIVItem.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Examples/QProcessJob/QProcessJob.cpp	LGPLv2h	(C) 2006, 2007, Mirko Boehm
+threadweaver/Examples/QProcessJob/MainWindowUi.ui	unspec	unspec
+threadweaver/Examples/QProcessJob/main.cpp	LGPLv2h	(C) 2006, 2007, Mirko Boehm
+threadweaver/Examples/QProcessJob/QProcessJob.h	LGPLv2h	(C) 2006, 2007, Mirko Boehm
+threadweaver/Examples/QProcessJob/MainWindow.cpp	LGPLv2h	(C) 2006, 2007, Mirko Boehm
+threadweaver/Examples/QProcessJob/CMakeLists.txt	unspec	unspec
+threadweaver/Examples/QProcessJob/MainWindow.h	LGPLv2h	(C) 2006, 2007, Mirko Boehm
+threadweaver/Experimental/FileLoaderJob.cpp	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Experimental/CMakeLists.txt	unspec	unspec
+threadweaver/Experimental/FileLoaderJob.h	LGPLv2h/anyQTExc	(C) 2005, Mirko Boehm
+threadweaver/Experimental/README	unspec	unspec
+threadweaver/ChangeLog	unspec	unspec
+threadweaver/doxygen-footer.html	unspec	(C) 2004, 2005 Mirko Boehm <mirko@kde.org>
+threadweaver/WeaverGui/WeaverThreadGrid.h	LGPLv2h	(C) 2005, Mirko Boehm
+threadweaver/WeaverGui/WeaverThreadGrid.cpp	LGPLv2h	(C) 2005, Mirko Boehm
+threadweaver/WeaverGui/CMakeLists.txt	unspec	unspec
+threadweaver/ChangeLog-Pre-KDESVN	unspec	unspec
+threadweaver/doxygen.cfg	unspec	unspec
+threadweaver/Scripts/buildinator_common.py	unspec	unspec
+threadweaver/Scripts/build_status_test.py	unspec	unspec
+threadweaver/Scripts/auto-revision-tester.py	LGPL	(C) Mirko Boehm, 2006
+threadweaver/Scripts/build_and_test_module.py	LGPL	(C) Mirko Boehm, 2006
+threadweaver/Scripts/find_revisions.py	unspec	unspec
+threadweaver/Scripts/buildinator_build_status.py	unspec	unspec
+threadweaver/Announce-0.5.txt	unspec	unspec
+threadweaver/Mainpage.dox	LGPL	Mirko Boehm
+threadweaver/Ideas-RFC.txt	unspec	unspec
+threadweaver/CMakeLists.txt	unspec	unspec
+threadweaver/Weaver/WeaverObserver.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/State.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/ThreadWeaver.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/ResourceRestrictionPolicy.h	LGPLv2h	(C) 2004, 2005 Mirko Boehm
+threadweaver/Weaver/JobSequence.cpp	LGPLv2h	(C) 2004, 2005 Mirko Boehm
+threadweaver/Weaver/StateImplementation.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/DependencyPolicy.h	LGPLv2h	(C) 2004-2006 Mirko Boehm
+threadweaver/Weaver/Thread_p.h	LGPLv2h	(C) 2004, 2005 Mirko Boehm
+threadweaver/Weaver/WeaverInterface.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/DependencyPolicy.cpp	LGPLv2h	(C) 2004-2006 Mirko Boehm
+threadweaver/Weaver/WeaverObserver.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/ResourceRestrictionPolicy.cpp	LGPLv2h	(C) 2004, 2005 Mirko Boehm
+threadweaver/Weaver/DestructedState.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/Thread.h	LGPLv2h	(C) 2004-2006 Mirko Boehm
+threadweaver/Weaver/ShuttingDownState.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/WeaverInterface.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/QueuePolicy.h	LGPLv2h	(C) 2004-2006 Mirko Boehm
+threadweaver/Weaver/IncludeMocs.cpp	LGPL/anyQTExc	(c) 2005 by Matt Rogers <mattr@kde.org>
+threadweaver/Weaver/Thread.cpp	LGPLv2h	(C) 2004, 2005 Mirko Boehm
+threadweaver/Weaver/ShuttingDownState.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/SuspendedState.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/DebuggingAids.cpp	LGPLv2h	(C) 2004, 2005 Mirko Boehm
+threadweaver/Weaver/Job_p.h	LGPLv2h	(C) 2004-2006 Mirko Boehm
+threadweaver/Weaver/InConstructionState.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/ThreadWeaver.h	LGPLv2h	(C) 2005 Mirko Boehm
+threadweaver/Weaver/Job.cpp	LGPLv2h	(C) 2004-2006 Mirko Boehm
+threadweaver/Weaver/JobCollection.cpp	LGPLv2h	(C) 2004-2006 Mirko Boehm
+threadweaver/Weaver/SuspendedState.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/SuspendingState.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/DestructedState.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/WeaverImpl.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/InConstructionState.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/WorkingHardState.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/JobCollection.h	LGPLv2h	(C) 2004-2006 Mirko Boehm
+threadweaver/Weaver/JobCollection_p.h	LGPLv2h	(C) 2004-2006 Mirko Boehm
+threadweaver/Weaver/SuspendingState.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/WeaverImpl.cpp	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/WorkingHardState.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/State.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/CMakeLists.txt	unspec	unspec
+threadweaver/Weaver/JobSequence.h	LGPLv2h	(C) 2004-2006 Mirko Boehm
+threadweaver/Weaver/StateImplementation.h	LGPLv2h	(C) 2005, 2006 Mirko Boehm
+threadweaver/Weaver/DebuggingAids.h	LGPLv2h	(C) 2004, 2005 Mirko Boehm
+threadweaver/Weaver/Job.h	LGPLv2h	(C) 2004-2006 Mirko Boehm
+
+sonnet/plugins/enchant/enchantclient.h	LGPLv2.1h	(c) 2006  Zack Rusin <zack@kde.org>
+sonnet/plugins/enchant/enchantdict.h	LGPLv2.1h	(c) 2006  Zack Rusin <zack@kde.org>
+sonnet/plugins/enchant/kspell_enchant.desktop	unspec	unspec
+sonnet/plugins/enchant/enchantclient.cpp	LGPLv2.1h	(c) 2006  Zack Rusin <zack@kde.org>
+sonnet/plugins/enchant/CMakeLists.txt	unspec	unspec
+sonnet/plugins/enchant/enchantdict.cpp	LGPLv2.1h	(c) 2006  Zack Rusin <zack@kde.org>
+sonnet/plugins/CMakeLists.txt	unspec	unspec
+sonnet/plugins/hspell/kspell_hspelldict.h	LGPLv2.1h	(c) 2003 Zack Rusin <zack@kde.org>, 2005 Mashrab Kuvatov <kmashrab@uni-bremen.de>
+sonnet/plugins/hspell/kspell_hspelldict.cpp	LGPLv2.1h	(c) 2003 Zack Rusin <zack@kde.org>, 2005 Mashrab Kuvatov <kmashrab@uni-bremen.de>
+sonnet/plugins/hspell/kspell_hspellclient.cpp	LGPLv2.1h	(c) 2003 Zack Rusin <zack@kde.org>, 2005 Mashrab Kuvatov <kmashrab@uni-bremen.de>
+sonnet/plugins/hspell/kspell_hspellclient.h	LGPLv2.1h	(c) 2003 Zack Rusin <zack@kde.org>, 2005 Mashrab Kuvatov <kmashrab@uni-bremen.de>
+sonnet/plugins/hspell/CMakeLists.txt	unspec	unspec
+sonnet/plugins/hspell/kspell_hspell.desktop	unspec	unspec
+sonnet/plugins/aspell/kspell_aspellclient.h	LGPLv2.1h	(c) 2003 Zack Rusin <zack@kde.org>
+sonnet/plugins/aspell/kspell_aspell.desktop	unspec	unspec
+sonnet/plugins/aspell/kspell_aspelldict.h	LGPLv2.1h	(c) 2003 Zack Rusin <zack@kde.org>
+sonnet/plugins/aspell/kspell_aspelldict.cpp	LGPLv2.1h	(c) 2003 Zack Rusin <zack@kde.org>
+sonnet/plugins/aspell/kspell_aspellclient.cpp	LGPLv2.1h	(c) 2003 Zack Rusin <zack@kde.org>
+sonnet/plugins/aspell/CMakeLists.txt	unspec	unspec
+sonnet/Mainpage.dox	LGPL	Zack Rusin <zack@kde.org>, Jacob R Rideout <kde@jacobrideout.net>
+sonnet/unicode/parseucd/parseucd.cpp	LGPLv2.1h	(c) 2006 Jacob Rideout <kde@jacobrideout.net>
+sonnet/unicode/data/SentenceBreakProperty.txt	http://www.unicode.org/copyright.html	(c) 1991-2006 Unicode, Inc.
+sonnet/unicode/data/WordBreakProperty.txt	http://www.unicode.org/copyright.html	(c) 1991-2006 Unicode, Inc.
+sonnet/unicode/data/GraphemeBreakProperty.txt	http://www.unicode.org/copyright.html	(c) 1991-2006 Unicode, Inc.
+sonnet/unicode/CMakeLists.txt	unspec	unspec
+sonnet/unicode/README	unspec	unspec
+sonnet/CMakeLists.txt unspec	unspec
+sonnet/README	unspec	unspec
+
+solid/solid/processor_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/storagedrive.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/portablemediaplayer.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>, 2007 Kevin Ottens <ervin@kde.org>, 2007 Jeff Mitchell <kde-dev@emailgoeshere.com>
+solid/solid/device.cpp	LGPLv2	(C) 2005-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/button_p.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>, 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/storagevolume.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/predicate_parser.h	GPLv2h	(C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+solid/solid/powermanagement.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/storagevolume.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/predicate_lexer.c	unspec	unspec
+solid/solid/opticaldrive.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/camera.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/org.kde.Solid.PowerManagement.xml	unspec	unspec
+solid/solid/opticaldrive.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/opticaldisc_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/org.kde.Solid.Networking.Client.xml	unspec	unspec
+solid/solid/powermanagement.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/dvbinterface.h	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/predicate_parser.c	GPLv2h	(C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+solid/solid/storagedrive.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/managerbase.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/solid_export.h.cmake	LGPLv2h	(C) 2007 David Faure <faure@kde.org>, 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/networking_p.h	LPGLv2	(C) 2006-2007 Will Stephenson <wstephenson@kde.org>, 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/deviceinterface.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/devicemanager_p.h	LGPLv2	(C) 2005-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/audiointerface.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/predicateparse.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/predicate_parser.y	unspec	unspec
+solid/solid/backends/fakehw/fakedvbinterface.h	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakevolume.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/fakevolume.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/fakedvbinterface.cpp	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakecdrom.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/fakegenericinterface.cpp	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakeacadapter.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakemanager.h	LGPLv2	(C) 2006 Michael Larouche <michael.larouche@kdemail.net>
+solid/solid/backends/fakehw/fakedevice.h	LGPLv2	(C) 2006 Michael Larouche <michael.larouche@kdemail.net>
+solid/solid/backends/fakehw/fakeopticaldisc.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/fakenetworkinterface.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakeprocessor.h	LGPLv2	(C) 2006 Michael Larouche <michael.larouche@kdemail.net>
+solid/solid/backends/fakehw/fakebattery.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakeprocessor.cpp	LGPLv2	(C) 2006 Michael Larouche <michael.larouche@kdemail.net>
+solid/solid/backends/fakehw/fakeaudiointerface.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakenetworkinterface.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakebutton.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/fakecdrom.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/fakedeviceinterface.h	LGPLv2	(C) 2006 Michael Larouche <michael.larouche@kdemail.net>
+solid/solid/backends/fakehw/fakedevice.cpp	LGPLv2	(C) 2006 Michael Larouche <michael.larouche@kdemail.net>
+solid/solid/backends/fakehw/fakestorage.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/fakegenericinterface.h	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakecamera.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakecomputer.xml	unspec	unspec
+solid/solid/backends/fakehw/fakeblock.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/fakemanager.cpp	LGPLv2	(C) 2006 Michael Larouche <michael.larouche@kdemail.net>
+solid/solid/backends/fakehw/fakecamera.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakeacadapter.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakebattery.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakestorage.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/CMakeLists.txt	unspec	unspec
+solid/solid/backends/fakehw/fakeaudiointerface.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/fakehw/fakeportablemediaplayer.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>, 2007 Jeff Mitchell <kde-dev@emailgoeshere.com>
+solid/solid/backends/fakehw/fakeopticaldisc.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/fakebutton.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/fakehw/fakedeviceinterface.cpp	LGPLv2	(C) 2006 Michael Larouche <michael.larouche@kdemail.net>
+solid/solid/backends/fakehw/fakeportablemediaplayer.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>, 2007 Jeff Mitchell <kde-dev@emailgoeshere.com>
+solid/solid/backends/fakehw/fakeblock.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/CMakeLists.txt	unspec	unspec
+solid/doc/solid_design.xmi	unspec	unspec
+solid/examples/tutorial1/CMakeLists.txt	unspec	unspec
+solid/examples/tutorial1/tutorial1.cpp	LGPLv2	(C) 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+solid/examples/tutorial1/tutorial1.h	LGPLv2	(C) 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+solid/examples/tutorial2/CMakeLists.txt	unspec	unspec
+solid/examples/tutorial2/tutorial2.cpp	LGPLv2	(C) 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+solid/examples/tutorial2/tutorial2.h	LGPLv2	(C) 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+solid/examples/tutorial3/CMakeLists.txt	unspec	unspec
+solid/examples/tutorial3/tutorial3.cpp	LGPLv2	(C) 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+solid/examples/tutorial3/tutorial3.h	LGPLv2	(C) 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+solid/examples/tutorial4/CMakeLists.txt	unspec	unspec
+solid/examples/tutorial4/tutorial4.cpp	LGPLv2	(C) 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+solid/examples/tutorial4/tutorial4.h	LGPLv2	(C) 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+solid/examples/tutorial5/CMakeLists.txt	unspec	unspec
+solid/examples/tutorial5/tutorial5.cpp	LGPLv2	(C) 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+solid/examples/tutorial5/tutorial5.h	LGPLv2	(C) 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+solid/Mainpage.dox	LGPL	Kevin Ottens <ervin@kde.org>
+solid/README	unspec	unspec
+solid/solid/acadapter.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/acadapter.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/acadapter_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/audiointerface.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/audiointerface_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/CMakeLists.txt	unspec	unspec
+solid/solid/backends/hal/CMakeLists.txt	unspec	unspec
+solid/solid/backends/hal/halacadapter.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halacadapter.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halaudiointerface.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halaudiointerface.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halbattery.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halbattery.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halblock.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halblock.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halbutton.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/hal/halbutton.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/backends/hal/halcamera.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halcamera.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halcdrom.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halcdrom.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/haldevice.cpp	LGPLv2	(C) 2005-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/haldevice.h	LGPLv2	(C) 2005-2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/haldeviceinterface.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/haldeviceinterface.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/haldvbinterface.cpp	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/haldvbinterface.h	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halgenericinterface.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halgenericinterface.h	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halmanager.cpp	LGPLv2	(C) 2005-2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halmanager.h	LGPLv2	(C) 2005-2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halnetworkinterface.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halnetworkinterface.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halopticaldisc.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halopticaldisc.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halportablemediaplayer.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>, 2007 Jeff Mitchell <kde-dev@emailgoeshere.com>
+solid/solid/backends/hal/halportablemediaplayer.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>, 2007 Jeff Mitchell <kde-dev@emailgoeshere.com>
+solid/solid/backends/hal/halprocessor.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halprocessor.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halstorageaccess.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halstorageaccess.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halstorage.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halstorage.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halvolume.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/backends/hal/halvolume.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/battery.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/battery.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/battery_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/block.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/block.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/block_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/button.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>, 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/button.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>, 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/camera.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/camera_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/CMakeLists.txt	unspec	unspec
+solid/solid/device.h	LGPLv2	(C) 2005-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/deviceinterface.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/deviceinterface_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/devicemanager.cpp	LGPLv2	(C) 2005-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/devicenotifier.h	LGPLv2	(C) 2005-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/device_p.h	LGPLv2	(C) 2005-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/dvbinterface.cpp	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/dvbinterface_p.h	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/genericinterface.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/genericinterface.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/genericinterface_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/acadapter.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/acadapter.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/audiointerface.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/audiointerface.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/battery.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/battery.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/block.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/block.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/button.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/ifaces/button.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/ifaces/camera.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/camera.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/CMakeLists.txt	unspec	unspec
+solid/solid/ifaces/device.cpp	LGPLv2	(C) 2005 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/device.h	LGPLv2	(C) 2005 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/deviceinterface.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/deviceinterface.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/devicemanager.cpp	LGPLv2	(C) 2005 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/devicemanager.h	LGPLv2	(C) 2005 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/dvbinterface.cpp	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/dvbinterface.h	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/genericinterface.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/genericinterface.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/networkinterface.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/networkinterface.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/opticaldisc.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/opticaldisc.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/opticaldrive.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/opticaldrive.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/portablemediaplayer.cpp	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>
+solid/solid/ifaces/portablemediaplayer.h	LGPLv2	(C) 2006 Davide Bettio <davbet@aliceposta.it>, 2007 Jeff Mitchell <kde-dev@emailgoeshere.com>
+solid/solid/ifaces/processor.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/processor.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/storageaccess.cpp	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/storageaccess.h	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/storagedrive.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/storagedrive.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/storagevolume.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/ifaces/storagevolume.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/managerbase_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/networking.cpp	LGPLv2	(C) 2006-2007 Will Stephenson <wstephenson@kde.org>, 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/networking.h	LGPLv2	(C) 2006-2007 Will Stephenson <wstephenson@kde.org>, 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/networkinterface.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/networkinterface.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/networkinterface_p.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/opticaldisc.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/opticaldisc.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/opticaldrive_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/org.kde.Solid.PowerManagement.Inhibit.xml	unspec	unspec
+solid/solid/portablemediaplayer.cpp unspec	unspec (C) 2006 Davide Bettio <davbet@aliceposta.it>, 2007 Kevin Ottens <ervin@kde.org>, 2007 Jeff Mitchell <kde-dev@emailgoeshere.com>
+solid/solid/portablemediaplayer_p.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/powermanagement_p.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/predicate.cpp	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/predicate.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/predicate_lexer.l unspec	unspec
+solid/solid/predicateparse.h	LGPLv2	(C) 2006 Kevin Ottens <ervin@kde.org>
+solid/solid/processor.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/processor.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/soliddefs_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/solidnamespace.cpp	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/solidnamespace.h	LGPLv2	(C) 2007 Kevin Ottens <ervin@kde.org>
+solid/solid/storageaccess.cpp	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/storageaccess.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/storageaccess_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/storagedrive_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/solid/storagevolume_p.h	LGPLv2	(C) 2006-2007 Kevin Ottens <ervin@kde.org>
+solid/tests/CMakeLists.txt	unspec	unspec
+solid/tests/fakehardwaretest.cpp	LGPLv2	(C) 2006 Michael Larouche <michael.larouche@kdemail.net>
+solid/tests/fakehardwaretest.h	LGPLv2	(C) 2006 Michael Larouche <michael.larouche@kdemail.net>
+solid/tests/halbasictest.cpp	LGPLv2	(C) 2005-2006 Kevin Ottens <ervin@kde.org>
+solid/tests/halbasictest.h	LGPLv2	(C) 2005 Kevin Ottens <ervin@kde.org>
+solid/tests/networkingclient.cpp	GPLv2	(C) 2007 Will Stephenson <wstephenson@kde.org>
+solid/tests/networkingclient.h	GPLv2	(C) 2007 Will Stephenson <wstephenson@kde.org>
+solid/tests/networkingclientview.ui	unspec	unspec
+solid/tests/solidhwtest.cpp	LGPLv2	(C) 2005 Kevin Ottens <ervin@kde.org>
+solid/tests/solidhwtest.h	LGPLv2	(C) 2005 Kevin Ottens <ervin@kde.org>
+solid/tests/solidnettestdbusservice.cpp	unspec	unspec
+solid/tests/solidnettestdbusservice.h	unspec	unspec
+solid/TODO	unspec	unspec
+
+security/CMakeLists.txt	unspec	unspec
+security/crypto/certexport.cpp	LGPLv2.1h	(c) 2001 George Staikos <staikos@kde.org>
+security/crypto/certexport.h	LGPLv2.1h	(c) 2001 George Staikos <staikos@kde.org>
+security/crypto/certgen.ui	unspec	unspec
+security/crypto/CMakeLists.txt	unspec	unspec
+security/crypto/crypto.cpp	LGPLv2.1h	(c) 2000-2005 George Staikos <staikos@kde.org>, 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+security/crypto/crypto.desktop	unspec	unspec
+security/crypto/crypto.h	LGPLv2.1h	(c) 2000-2005 George Staikos <staikos@kde.org>
+security/crypto/kdatetimedlg.cpp	LGPLv2.1h	(c) 2001 George Staikos <staikos@kde.org>
+security/crypto/kdatetimedlg.h	LGPLv2.1h	(c) 2001 George Staikos <staikos@kde.org>
+security/crypto/Messages.sh	unspec	unspec
+security/crypto/README	unspec	unspec
+security/kcert/CMakeLists.txt	unspec	unspec
+security/kcert/kcertpart.cc	LGPLv2h	(c) 2001-2003 George Staikos <staikos@kde.org>
+security/kcert/kcertpart.desktop	unspec	unspec
+security/kcert/kcertpart.h	LGPLv2h	(c) 2001 George Staikos <staikos@kde.org>
+security/kcert/kcertpart.rc unspec	unspec
+
+-------------------------------------------------------------------------------
+
+DIRs TODO:
+
+interfaces
+kconf_update
+kde3support
+kdecore
+kded
+kdefx
+kdeprint
+kdesu
+kdeui
+kdewidgets
+kdoctools
+kfile
+khtml
+kimgio
+kinit
+kio
+kioslave
+kjs
+kjsembed
+kmetadata
+knewstuff
+knotify
+kparts
+kross
+kstyles
+kutils
+kwallet
+licenses
+pics
+
+
+
+-------------------------------------------------------------------------------
+Legend:
+ - "unspec":    The file contains no specific copyright/license notice. This
+                means that the copyright holder is the Evince Team (as
+                listed above) and the license is GPL2 or higher, unless
+                specified otherwise.
+ - "GPL":       The GNU General Public License, without versioning constraints.
+ - "GPLv2":     The GNU General Public License, version 2.
+ - "GPLv2h":    The GNU General Public License, version 2 or (at your
+                option) higher.
+ - "LGPLv2h":   The Lesser (or Library) GNU General Public License, version
+                2 or (at your option).
+ - "BSD"        Files under the BSD license.
+ - "GFDL1.1":   The GNU Free Documentation License, version 1.1 or (at your
+                option) higher. The listed documents use the GFDL with no
+                Invariant Sections, no Front-Cover Texts, and no Back-Cover
+                Texts.
+
+
+On Debian systems, you can find the complete texts of these licenses at:
+  - GPL:      /usr/share/common-licenses/GPL
+  - GPLv2:    /usr/share/common-licenses/GPL-2
+  - LGPLv2:   /usr/share/common-licenses/LGPL-2
+  - GFDL:     /usr/share/common-licenses/GFDL
+  - BSD:      /usr/share/common-licenses/BSD
+
+-------------------------------------------------------------------------------
+
+
+
+The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
