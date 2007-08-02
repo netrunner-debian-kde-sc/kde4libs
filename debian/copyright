@@ -1007,9 +1007,8 @@ pics
 -------------------------------------------------------------------------------
 Legend:
  - "unspec":    The file contains no specific copyright/license notice. This
-                means that the copyright holder is the Evince Team (as
-                listed above) and the license is GPL2 or higher, unless
-                specified otherwise.
+                means that the copyright holder is the KDE Development Team (as
+                listed above) and the license is GPL2, unless specified otherwise.
  - "GPL":       The GNU General Public License, without versioning constraints.
  - "GPLv2":     The GNU General Public License, version 2.
  - "GPLv2h":    The GNU General Public License, version 2 or (at your
