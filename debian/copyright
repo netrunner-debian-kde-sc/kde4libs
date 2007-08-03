@@ -375,6 +375,50 @@ TODO: fix format
  kded/test/test.cpp ~ unspec ~ unspec
  kded/test/kmimefileparsertest.cpp ~ LGPLv2h ~ (c) 2007 David Faure
 
+
+ kdesu/client.cpp ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen 
+ kdesu/client.h ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen
+ kdesu/CMakeLists.txt ~ unspec ~ unspec 
+ kdesu/defaults.h ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen
+ kdesu/kcookie.cpp ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen
+ kdesu/kcookie.h ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen
+ kdesu/kdesu_export.h ~ LGPLv2h ~ (c) 2007 David Faure
+ kdesu/kdesu_stub.c ~ LGPLv2h ~ (C) 1999,2000 Geert Jansen
+ kdesu/libkdesu.nmcheck ~ unspec ~ unspec
+ kdesu/libkdesu_weak.nmcheck ~ unspec ~ unspec
+ kdesu/Mainpage.dox ~ XXXX
+ kdesu/process.cpp ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen, (c) 1997,1998 by Lars Doelle
+ kdesu/process.h ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen
+ kdesu/README ~ unspec ~ unspec
+ kdesu/ssh.cpp ~ LGPLv2 ~ (C) 2000 Geert Jansen
+ kdesu/ssh.h ~ LGPLv2 ~ (C) 2000 Geert Jansen
+ kdesu/stub.cpp ~ LGPLv2 ~ (C) 1999, 2000 Geert Jansen
+ kdesu/stub.h ~ LGPLv2 ~ (C) 1999, 2000 Geert Jansen
+ kdesu/su.cpp ~ LGPLv2 ~ (C) 1999, 2000 Geert Jansen
+ kdesu/su.h ~ LGPLv2 ~ (C) 1999, 2000 Geert Jansen
+
+ kdefx/CMakeLists.txt ~ unspec ~ unspec
+ kdefx/config-processor.h.cmake ~ unspec ~ unspec
+ kdefx/kdefx.cmake ~ unspec ~ unspec
+ kdefx/kdefx_export.h ~ LGPLv2h ~ (C) 2007 David Faure
+ kdefx/kcpuinfo.cpp
+ kdefx/kcpuinfo.h
+ kdefx/kdrawutil.cpp
+ kdefx/kdrawutil.h
+ kdefx/kimageeffect.cpp
+ kdefx/kimageeffect.h
+ kdefx/kpixmapeffect.cpp
+ kdefx/kpixmapeffect.h
+ kdefx/kpixmapsplitter.cpp
+ kdefx/kpixmapsplitter.h
+ kdefx/kstyle-checklist.txt ~ unspec ~ unspec
+ kdefx/kstyle.cpp
+ kdefx/kstyle.h
+ kdefx/Mainpage.dox ~ XXXX
+ kdefx/kdefx.nmcheck ~ unspec ~ unspec
+ kdefx/kdefx.pc.in ~ unspec ~ unspec
+ kdefx/kdefx_weak.nmcheck ~ unspec ~ unspec
+
  mimetypes/kde.txt	GPL	unspec
  mimetypes/CMakeLists.txt	unspec	unspec
  
@@ -1225,9 +1269,8 @@ DIRs TODO:
 
 kdecore
 
-kdefx
 kdeprint
-kdesu
+
 kdeui
 kdewidgets
 kdoctools
