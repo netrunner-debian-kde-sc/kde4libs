@@ -222,18 +222,121 @@ TODO: fix format
  interfaces/ktexteditor/texthintinterface.h ~ LGPLv2 ~ (C) 2001 Joseph Wenninger
  interfaces/ktexteditor/variableinterface.h ~ LGPLv2 ~ (C) 2004, Anders Lund, 2005 Dominik Haumann
  interfaces/ktexteditor/view.h ~ LGPLv2 ~ (C) 2001 Christoph Cullmann, 2005 Dominik Haumann
- interfaces/Mainpage.dox ~ unspec ~ unspec
- interfaces/terminal/CMakeLists.txt
- interfaces/terminal/kde_terminal_interface.h
- interfaces/terminal/test/CMakeLists.txt
- interfaces/terminal/test/main.cc
- interfaces/terminal/test/main.h
+ interfaces/Mainpage.dox ~ XXXX
+ interfaces/terminal/CMakeLists.txt ~ unspec ~ unspec
+ interfaces/terminal/kde_terminal_interface.h ~ LGPLv2.1h ~  2002  Dominique Devriese
+ interfaces/terminal/test/*  ~ unspec ~ unspec
 
  kconf_update/CMakeLists.txt ~ unspec ~ unspec
  kconf_update/kconf_update.cpp ~ LGPLv2 ~ (c) 2001 Waldo Bastian
  kconf_update/Mainpage.dox ~  XXXX
  kconf_update/README.kconf_update ~ unspec ~ unspec
 
+ kde3support/CMakeLists.txte ~ unspec ~ unspec
+ kde3support/kde3support_export.h ~ LGPLv2h ~ (C) 2007 David Faure
+ kde3support/kdecore/k3mimesourcefactory.cpp ~ LGPLv2h ~ (C) 1997 Matthias Kalle Dalheimer
+ kde3support/kdecore/k3mimesourcefactory.h ~ LGPLv2h ~ (C) 1997 Matthias Kalle Dalheimer,  1999 Preston Brown
+ kde3support/kdecore/k3multipledrag.cpp ~ LGPLv2 ~ (C) 2002 David Faure
+ kde3support/kdecore/k3multipledrag.h ~ LGPLv2 ~ (C) 2002 David Faure
+ kde3support/kdecore/k3rfcdate.cpp ~ LGPLv2 ~ (c) 2000-2002 Waldo Bastian, 2002 Rik Hemsley
+ kde3support/kdecore/k3rfcdate.h ~ LGPLv2 ~ (C) 2000 Waldo Bastian
+ kde3support/kdecore/k3sqlpropertymap.h ~ LGPLv2 ~ (C) 2002 David Faure
+ kde3support/kdecore/k3tempfile.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian
+ kde3support/kdecore/k3tempfile.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian
+ kde3support/kdecore/k3urldrag.cpp ~ LGPLv2 ~ (C) 2000 David Faure
+ kde3support/kdecore/k3urldrag.h ~ LGPLv2 ~ (C) 2000 David Faure
+ kde3support/kdecore/kcalendarsystemfactory.h ~ unspec ~ unspec
+ kde3support/kdecore/ksimpleconfig.h ~ unspec ~ unspec
+ kde3support/kdecore/ktrader.h ~ LGPLv2 ~ (C) 2006 David Faure
+ kde3support/kdeui/k3aboutapplication.cpp ~ LGPLv2h ~ (C) 2000 Waldo Bastian and Espen Sand
+ kde3support/kdeui/k3aboutapplication.h ~ LGPLv2h ~ (C) 2000 Waldo Bastian and Espen Sand
+ kde3support/kdeui/k3aboutdialog.cpp ~ LGPLv2h ~ (C) 1999-2001 Mirko Boehm and Espen Sand
+ kde3support/kdeui/k3aboutdialog.h ~ LGPLv2h ~ (C) 1999-2001 Mirko Boehm and Espen Sand
+ kde3support/kdeui/k3aboutdialog_p.h ~ LGPLv2h ~ (C) 1999-2001 Mirko Boehm and Espen Sand
+ kde3support/kdeui/k3activelabel.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian
+ kde3support/kdeui/k3activelabel.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian
+ kde3support/kdeui/k3buttonbox.cpp ~ LGPLv2 ~ (C) 1997 Mario Weilguni
+ kde3support/kdeui/k3buttonbox.h ~ LGPLv2 ~ (C) 1997 Mario Weilguni
+ kde3support/kdeui/k3colordrag.cpp ~ LGPLv2 ~ (C) 1999 Steffen Hanse
+ kde3support/kdeui/k3colordrag.h ~ LGPLv2 ~ (C) 1999 Steffen Hanse
+ kde3support/kdeui/k3command.cpp ~ LGPLv2h ~ (C) 2000 Werner Trobin, 2000,2006 David Faure
+ kde3support/kdeui/k3command.h ~ LGPLv2h ~ (C) 2000 Werner Trobin, 2000,2006 David Faure
+ kde3support/kdeui/k3dockwidget.cpp ~ LGPLv2 ~ (C) 2000 Max Judin, 2002,2003 Joseph Wenninger
+ kde3support/kdeui/k3dockwidget.h ~ LGPLv2 ~ (C) 2000 Max Judin, 2000 Falk Brettschneider, 2002,2003 Joseph Wenninger
+ kde3support/kdeui/k3dockwidget_p.h ~ LGPLv2 ~ (C) 2002,2003 Joseph Wenninger
+ kde3support/kdeui/k3dockwidget_private.cpp ~ LGPLv2 ~ (C) 2000 Max Judin, 2002,2003 Joseph Wenninger, 2005 Dominik Haumann 
+ kde3support/kdeui/k3dockwidget_private.h ~ LGPLv2 ~ (C) 2000 Max Judin, 2005 Dominik Haumann
+ kde3support/kdeui/k3iconview.cpp ~ LGPLv2 ~ (C) 1999 Torben Weis 
+ kde3support/kdeui/k3iconview.h ~ LGPLv2 ~ (C) 1999 Torben Weis
+ kde3support/kdeui/k3iconviewsearchline.cpp ~ LGPLv2 ~ (C) 2004 Gustavo Sverzut Barbieri
+ kde3support/kdeui/k3iconviewsearchline.h ~ LGPLv2 ~ (C) 2004 Gustavo Sverzut Barbieri
+ kde3support/kdeui/k3listbox.cpp ~ LGPLv2 ~ (C) 2000 Reginald Stadlbauer
+ kde3support/kdeui/k3listbox.h ~ LGPLv2 ~ (C) 2000 Reginald Stadlbauer
+ kde3support/kdeui/k3listview.cpp ~ LGPLv2 ~ (C) 2000 Peter Putzer, 2000,2003 Charles Samuels, 2000 Reginald Stadlbauer
+ kde3support/kdeui/k3listview.h ~ LGPLv2 ~ (C) 2000 Peter Putzer, 2000 Charles Samuels, 2000 Reginald Stadlbauer
+ kde3support/kdeui/k3listviewlineedit.h ~ LGPLv2 ~ (C) 2000 Charles Samuels
+ kde3support/kdeui/k3listviewsearchline.cpp ~ LGPLv2 ~ (c) 2003 Scott Wheeler, 2005 Rafal Rzepecki
+ kde3support/kdeui/k3listviewsearchline.h ~ LGPLv2 ~ (c) 2003 Scott Wheeler, 2005 Rafal Rzepecki
+ kde3support/kdeui/k3passworddialog.cpp ~ LGPLv2 ~ (C) 1998 Pietro Iglio, 1999,2000 Geert Jansen, 2004,2005 Andrew Coles
+ kde3support/kdeui/k3passworddialog.h ~ LGPLv2 ~ (C) 1998 Pietro Iglio, 1999,2000 Geert Jansen, 2004,2005 Andrew Coles
+ kde3support/kdeui/k3popupmenu.cpp ~ LGPLv2 ~ (C) 2000 Daniel M. Duley, 2002 Hamish Rodda
+ kde3support/kdeui/k3popupmenu.h ~ LGPLv2 ~ (C) 2000 Daniel M. Duley
+ kde3support/kdeui/k3sconfig.cpp ~ LGPLv2 ~ (C) 1997 David Sweet, 2000-2001 Wolfram Diestel
+ kde3support/kdeui/k3sconfig.h ~ LGPLv2 ~ (C) 1997 David Sweet
+ kde3support/kdeui/k3spell.cpp ~ LGPLv2 ~ (C) 1997 David Sweet, 2000-2001 Wolfram Diestel, 2003 Zack Rusin
+ kde3support/kdeui/k3spelldlg.cpp ~ LGPLv2 ~ (C) 1997 David Sweet, 2000 Rik Hemsley, 2000-2001 Wolfram Diestel, 2003 Zack Rusin
+ kde3support/kdeui/k3spelldlg.h ~ LGPLv2 ~ (C) 1997 David Sweet, 2000 Rik Hemsley, 2000 Wolfram Diestel, 2003 Zack Rusin
+ kde3support/kdeui/k3spell.h ~ LGPLv2 ~ (C) 1997 David Sweet, 2003 Zack Rusin
+ kde3support/kdeui/k3spellui.ui ~ unspec ~ unspec
+ kde3support/kdeui/k3syntaxhighlighter.cpp ~ LGPLv2 ~ (C) Trolltech AS, Scott Wheeler
+ kde3support/kdeui/k3syntaxhighlighter.h ~ LGPLv2 ~ (C) Trolltech AS, Scott Wheeler
+ kde3support/kdeui/k3textedit.cpp ~ LGPLv2h ~ (C) 2002 Carsten Pfeiffer
+ kde3support/kdeui/k3textedit.h ~ LGPLv2h ~ (C) 2002 Carsten Pfeiffer 
+ kde3support/kdeui/k3wizard.cpp ~ LGPLv2h ~ (C) 2002 Nadeem Hasan
+ kde3support/kdeui/k3wizard.h ~ LGPLv2h ~ (C) 1999 Harri Porten 
+ kde3support/kdeui/kactivelabel.h ~ unspec ~ unspec
+ kde3support/kdeui/kstdaccel.h ~ unspec ~ unspec
+ kde3support/kdeui/kstdaction.h ~ unspec ~ unspec
+ kde3support/kdeui/kstdguiitem.h ~ unspec ~ unspec
+ kde3support/kdeui/README.kspell ~ unspec ~ unspec
+ kde3support/kio/k3bookmarkdrag.cpp ~ LGPLv2 ~ (C) 2000 David Faure
+ kde3support/kio/k3bookmarkdrag.h ~ LGPLv2 ~ (C) 2000 David Faure
+ kde3support/kio/kfile/* ~ unspec ~ unspec
+ kde3support/kio/kio/* ~ unspec ~ unspec
+ kde3support/kparts/dockmainwindow3.cpp ~ LGPLv2h ~ (C) 1999 David Faure, 1999 Simon Hausmann, 2000 Falk Brettschneider
+ kde3support/kparts/dockmainwindow3.h ~ LGPLv2h ~ (C) 1999 David Faure, 1999 Simon Hausmann, 2000 Falk Brettschneider
+ 
+ kde3support/kunittest/CMakeLists.txt ~ unspec ~ unspec
+ kde3support/kunittest/kunittest_export.h ~ LGPLv2h ~ (C) 2007 David Faure
+ kde3support/kunittest/Mainpage.dox ~ XXXX
+ kde3support/kunittest/modrunner.cpp ~ BSD ~ (C)  2005  Jeroen Wijnhout
+ kde3support/kunittest/module.h ~ BSD ~ (C)  2005  Jeroen Wijnhout, 
+ kde3support/kunittest/runner.cpp ~ BSD ~ (C)  2005  Jeroen Wijnhout, 2004 Zack Rusin
+ kde3support/kunittest/runner.h ~ BSD ~ (C) 2004  Zack Rusin
+ kde3support/kunittest/samplemodule.cpp ~ BSD ~ (C)  2005  Jeroen Wijnhout
+ kde3support/kunittest/samplemodule.h ~ BSD ~ (C)  2005  Jeroen Wijnhout
+ kde3support/kunittest/tester.cpp ~ BSD ~ (C)  2005  Jeroen Wijnhout
+ kde3support/kunittest/tester.h ~ BSD ~ (C)  2005  Jeroen Wijnhout, 2004 Zack Rusin
+ kde3support/Mainpage.dox ~ XXXX
+ kde3support/README ~ unspec ~ unspec
+ kde3support/tests/CMakeLists.txt ~ unspec ~ unspec
+ kde3support/tests/itemcontainertest.cpp ~ GPLv2 ~ (C) 2000 by Michael Reiher
+ kde3support/tests/itemcontainertest.h ~ GPLv2 ~ (C) 2000 by Michael Reiher
+ kde3support/tests/k3listviewtest.cpp ~ unspec ~ unspec 
+ kde3support/tests/k3wizardtest.cpp ~ GPLv2h ~ (C) 1998  Thomas Tanghus
+ kde3support/tests/kaboutdialogtest.cpp ~ GPLv2h ~ (C) 1999 Mirko Boehm
+ kde3support/tests/kactivelabeltest.cpp ~ GPLv2 ~ (C) 2006 Tobias Koenig 
+ kde3support/tests/kactivelabeltest.h ~ GPLv2 ~ (C) 2006 Tobias Koenig
+ kde3support/tests/kcommandtest.cpp ~ unspec ~ unspec
+ kde3support/tests/kcommandtest.h ~ unspec ~ unspec
+ kde3support/tests/kdocktest.cpp ~ unspec ~ unspec
+ kde3support/tests/kdocktest.h ~ unspec ~ unspec
+ kde3support/tests/kdockwidgetdemo.cpp ~ unspec ~ unspec
+ kde3support/tests/kdockwidgetdemo.h ~ unspec ~ unspec
+ kde3support/tests/kdockwidgettest.cpp ~ GPLv2h ~ (C) 1999 by Judin Max
+ kde3support/tests/kdockwidgettest.h ~ GPLv2h ~ (C) 1999 by Judin Max
+ kde3support/tests/krfcdatetest.cpp ~ unspec ~ unspec
+ kde3support/tests/krfcdatetest.h ~ unspec ~ unspec
 
 phonon/abstractaudiooutput.cpp	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
 phonon/abstractaudiooutput.h	LGPLv2	(C) 2005-2006 Matthias Kretz <kretz@kde.org>
@@ -1084,9 +1187,6 @@ security/kcert/kcertpart.rc unspec	unspec
 
 DIRs TODO:
 
-interfaces
-kconf_update
-kde3support
 kdecore
 kded
 kdefx
