@@ -177,48 +177,51 @@ TODO: fix format
  interfaces/ktexteditor/codecompletioninterface.h ~ LGPLv2 ~ (C) 2005-2006 Hamish Rodda
  interfaces/ktexteditor/codecompletionmodel.cpp ~ LGPLv2 ~ (C) 2005-2006 Hamish Rodda
  interfaces/ktexteditor/codecompletionmodel.h ~ LGPLv2 ~ (C) 2005-2006 Hamish Rodda
- interfaces/ktexteditor/commandinterface.h
- interfaces/ktexteditor/configinterface.cpp
- interfaces/ktexteditor/configinterface.h
- interfaces/ktexteditor/configpage.h
- interfaces/ktexteditor/cursor.cpp
- interfaces/ktexteditor/cursorfeedback.cpp
- interfaces/ktexteditor/cursorfeedback.h
- interfaces/ktexteditor/cursor.h
- interfaces/ktexteditor/documentadaptor_p.h
- interfaces/ktexteditor/document.h
- interfaces/ktexteditor/editorchooser.cpp
- interfaces/ktexteditor/editorchooser.h
- interfaces/ktexteditor/editorchooser_ui.ui
- interfaces/ktexteditor/editor.h
- interfaces/ktexteditor/factory.h
- interfaces/ktexteditor/.kateconfig
- interfaces/ktexteditor/kcm_ktexteditor.desktop
- interfaces/ktexteditor/ktexteditor.cpp
- interfaces/ktexteditor/ktexteditor.desktop
- interfaces/ktexteditor/ktexteditor_export.h
- interfaces/ktexteditor/ktexteditorplugin.desktop
+ interfaces/ktexteditor/commandinterface.h ~ LGPLv2h ~ 2005 Christoph Cullmann,  2005-2006 Dominik Haumann 
+ interfaces/ktexteditor/configinterface.cpp ~ LGPLv2h ~ (C) 2006 Matt Broadstone 
+ interfaces/ktexteditor/configinterface.h ~ LGPLv2h ~ (C) 2006 Matt Broadstone
+ interfaces/ktexteditor/configpage.h ~ LGPLv2 ~ (C) 2001-2005 Christoph Cullmann, 2005 Dominik Haumann
+ interfaces/ktexteditor/cursor.cpp ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/cursorfeedback.cpp ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/cursorfeedback.h ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/cursor.h ~ LGPLv2 ~ (C) 1999 Jochen Wilhelmy, 2001 Joseph Wenninger, 2002 Christian Couder, 
+                                                2001-2005 Christoph Cullmann, 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/documentadaptor_p.h ~ LGPLv2 ~ (C) 2005 Joseph Wenninger
+ interfaces/ktexteditor/document.h ~ LGPLv2 ~ (C) 2001 Christoph Cullmann, 2005 Dominik Haumann
+ interfaces/ktexteditor/editorchooser.cpp ~ LGPLv2 ~ (C) 2005 Joseph Wenninger
+ interfaces/ktexteditor/editorchooser.h ~ LGPLv2 ~ (C) 2005 Joseph Wenninger
+ interfaces/ktexteditor/editorchooser_ui.ui ~ unspec ~ unspec
+ interfaces/ktexteditor/editor.h ~ LGPLv2 ~ (C) 2005 Christoph Cullmann, 2005 Dominik Haumann
+ interfaces/ktexteditor/factory.h ~ LGPLv2 ~ (C) 2005 Christoph Cullmann, 2005 Dominik Haumann
+ interfaces/ktexteditor/.kateconfig ~ unspec ~ unspec
+ interfaces/ktexteditor/kcm_ktexteditor.desktop ~ unspec ~ unspec
+ interfaces/ktexteditor/ktexteditor.cpp ~ LGPLv2h ~ (C) 2001 Christoph Cullmann
+ interfaces/ktexteditor/ktexteditor.desktop ~ unspec ~ unspec
+ interfaces/ktexteditor/ktexteditor_export.h ~ LGPLv2h ~ (C) 2007 David Faure
+ interfaces/ktexteditor/ktexteditorplugin.desktop ~ unspec ~ unspec
  interfaces/ktexteditor/Mainpage.dox ~  GFDL1.2 ~ 2005-2006 by Dominik Haumann, 2005 by Christoph Cullmann
- interfaces/ktexteditor/markinterface.h
- interfaces/ktexteditor/modificationinterface.h
- interfaces/ktexteditor/plugin.h
- interfaces/ktexteditor/range.cpp
- interfaces/ktexteditor/rangefeedback.cpp
- interfaces/ktexteditor/rangefeedback.h
- interfaces/ktexteditor/range.h
- interfaces/ktexteditor/searchinterface.h
- interfaces/ktexteditor/sessionconfiginterface.h
- interfaces/ktexteditor/smartcursor.cpp
- interfaces/ktexteditor/smartcursor.h
- interfaces/ktexteditor/smartinterface.cpp
- interfaces/ktexteditor/smartinterface.h
- interfaces/ktexteditor/smartrange.cpp
- interfaces/ktexteditor/smartrange.h
- interfaces/ktexteditor/templateinterface.cpp
- interfaces/ktexteditor/templateinterface.h
- interfaces/ktexteditor/texthintinterface.h
- interfaces/ktexteditor/variableinterface.h
- interfaces/ktexteditor/view.h
+ interfaces/ktexteditor/markinterface.h ~ LGPLv2 ~ (C) 2001 Christoph Cullmann, 2005 Dominik Haumann
+ interfaces/ktexteditor/modificationinterface.h ~ LGPLv2 ~ (C) 2005 Christoph Cullmann, 2005 Dominik Haumann
+ interfaces/ktexteditor/plugin.h ~ LGPLv2 ~ (C) 2001 Christoph Cullmann, 2005 Dominik Haumann
+ interfaces/ktexteditor/range.cpp ~ LGPLv2 ~ (C) 1999 Jochen Wilhelmy, 2001 Joseph Wenninger,
+                                                2002 Christian Couder, 2001-2005 Christoph Cullmann, 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/rangefeedback.cpp ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/rangefeedback.h ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/range.h ~ LGPLv2 ~ (C) 1999 Jochen Wilhelmy, 2001 Joseph Wenninger, 
+                                               2002 Christian Couder, 2001-2005 Christoph Cullmann, 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/searchinterface.h ~ LGPLv2 ~ (C) 2001 Christoph Cullmann, 2005 Dominik Haumann
+ interfaces/ktexteditor/sessionconfiginterface.h ~ LGPLv2 ~ (C) 2001 Christoph Cullmann, 2005 Dominik Haumann
+ interfaces/ktexteditor/smartcursor.cpp ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/smartcursor.h ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/smartinterface.cpp ~ LGPLv2 ~ (C) 2001 Christoph Cullmann, 2005-2006 Hamish Rodda
+ interfaces/ktexteditor/smartinterface.h ~ LGPLv2 ~ (C) 2005 Hamish Rodda
+ interfaces/ktexteditor/smartrange.cpp ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/smartrange.h ~ LGPLv2 ~ (C) 2003-2005 Hamish Rodda
+ interfaces/ktexteditor/templateinterface.cpp ~ LGPLv2 ~ (C) 2004 Joseph Wenninger
+ interfaces/ktexteditor/templateinterface.h ~ LGPLv2 ~ (C) 2004 Joseph Wenninger 
+ interfaces/ktexteditor/texthintinterface.h ~ LGPLv2 ~ (C) 2001 Joseph Wenninger
+ interfaces/ktexteditor/variableinterface.h ~ LGPLv2 ~ (C) 2004, Anders Lund, 2005 Dominik Haumann
+ interfaces/ktexteditor/view.h ~ LGPLv2 ~ (C) 2001 Christoph Cullmann, 2005 Dominik Haumann
  interfaces/Mainpage.dox ~ unspec ~ unspec
  interfaces/terminal/CMakeLists.txt
  interfaces/terminal/kde_terminal_interface.h
