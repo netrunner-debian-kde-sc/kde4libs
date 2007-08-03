@@ -338,6 +338,447 @@ TODO: fix format
  kde3support/tests/krfcdatetest.cpp ~ unspec ~ unspec
  kde3support/tests/krfcdatetest.h ~ unspec ~ unspec
 
+ kdecore/all_languages.desktop ~ unspec ~ unspec
+ kdecore/CMakeLists.txt ~ unspec ~ unspec
+ kdecore/compression/* ~ LGPLv2 ~ (C) 2000-2005 David Faure 
+ kdecore/config/kconfigbackend.cpp ~ GPLv2h ~ (C) 1999 Preston Brown, 1997-1999 Matthias Kalle Dalheime
+ kdecore/config/kconfigbackend.h ~ GPLv2h ~ (C) 1999 Preston Brown, 1997 Matthias Kalle Dalheimer
+ kdecore/config/kconfigbase.cpp ~ GPLv2h ~ (C) 1999 Preston Brown, 1997 Matthias Kalle Dalheimer
+ kdecore/config/kconfigbase.h ~ GPLv2h ~ (C) 1999 Preston Brown, 1997 Matthias Kalle Dalheimer, 2001 Waldo Bastian
+ kdecore/config/kconfig.cpp ~ GPLv2h ~ (C) 1999 Preston Brown, 1997-1999 Matthias Kalle Dalheimer
+ kdecore/config/kconfigdata.h ~ GPLv2h ~ (C) 1999-2000 Preston Brown, 1996-2000 Matthias Kalle Dalheimer
+ kdecore/config/KCONFIG_DESIGN ~ unspec ~ unspec
+ kdecore/config/kconfigflags.h ~ GPLv2h ~ (C) 1999 Preston Brown, 1997 Matthias Kalle Dalheimer, 2001 Waldo Bastian
+ kdecore/config/kconfiggroup.cpp ~ GPLv2h ~ (C) 1999 Preston Brown, 1997 Matthias Kalle Dalheime
+ kdecore/config/kconfiggroup.h ~ GPLv2h ~ (C) 1999 Preston Brown, 1997 Matthias Kalle Dalheimer, 2001 Waldo Bastian
+ kdecore/config/kconfiggroup_p.h ~ GPLv2h ~ (C) 2007 Thiago Macieira
+ kdecore/config/kconfig.h ~ GPLv2h ~ (C) 1999 Preston Brown, 1997 Matthias Kalle Dalheimer
+ kdecore/config/kconfigini.cpp ~ GPLv2h ~ (C) 1999 Preston Brown, 1997-1999 Matthias Kalle Dalheimer
+ kdecore/config/kconfigini.h ~ GPLv2h ~ (C) 1999 Preston Brown, 1997 Matthias Kalle Dalheimer
+ kdecore/config/kdesktopfile.cpp ~ GPLv2h ~ (C) 1999 Pietro Iglio, 1999 Preston Brown
+ kdecore/config/kdesktopfile.h ~ GPLv2h ~ (C) 1999 Pietro Iglio
+ kdecore/config/ksharedconfig.cpp ~ GPLv2h ~ (C) 1999 Preston Brown, 1997-1999 Matthias Kalle Dalheime
+ kdecore/config/ksharedconfig.h ~ GPLv2h ~ (C) 1999 Preston Brown, 1997-1999 Matthias Kalle Dalheimer
+ kdecore/date/kcalendarsystem.cpp ~ LGPLv2h ~ (C) 2002 Carlos Moro, 2002 Hans Petter Bieke, 2007 John Layt 
+ kdecore/date/kcalendarsystemgregorian.cpp ~ LGPLv2h ~ (C) 2002 Carlos Moro, 2002-2003 Hans Petter Bieker, 2007 John Layt
+ kdecore/date/kcalendarsystemgregorian.h ~ LGPLv2h ~ (C) 2002 Carlos Moro, 2002-2003 Hans Petter Bieker, 2007 John Layt
+ kdecore/date/kcalendarsystem.h ~ LGPLv2h ~ (C) 2002 Carlos Moro, 2002-2003 Hans Petter Bieker, 2007 John Layt
+ kdecore/date/kcalendarsystemhebrew.cpp ~ LGPLv2h ~ 2003 Hans Petter Bieker, 2007 John Layt
+ kdecore/date/kcalendarsystemhebrew.h ~ LGPLv2h ~ (C) 2002-2003 Carlos Moro, 2002-2003 Hans Petter Bieke, 2007 John Layt
+ kdecore/date/kcalendarsystemhijri.cpp ~ LGPLv2h ~ (C) 2002-2003 Carlos Moro, 2002-2003 Hans Petter Bieke, 2007 John Layt
+ kdecore/date/kcalendarsystemhijri.h ~ LGPLv2h ~ (C) 2002 Carlos Moro, 2002-2003 Hans Petter Bieke, 2007 John Layt
+ kdecore/date/kcalendarsystemjalali.cpp ~ GPLv2h ~ (C) 2002-2003 Arash Bijanzadeh, 2007 John Layt
+ kdecore/date/kcalendarsystemjalali.h ~ GPLv2h ~ (C) 2002-2003 Arash Bijanzadeh, 2007 John Layt
+ kdecore/date/kdatetime.cpp ~ LGPLv2 ~ (c) 2005-2007 David Jarvie
+ kdecore/date/kdatetime.h ~ LGPLv2 ~ (c) 2005-2007 David Jarvie
+ kdecore/date/ksystemtimezone.cpp ~ LGPLv2 ~ (c) 2005-2007 David Jarvie
+ kdecore/date/ksystemtimezone.h ~ LGPLv2 ~ (c) 2005-2007 David Jarvie
+ kdecore/date/ktimezone.cpp ~ LGPLv2 ~ (C) 2005 S.R.Haque, 2005-2007 David Jarvie
+ kdecore/date/ktimezone.h ~ LGPLv2 ~ (C) 2005 S.R.Haque, 2005-2007 David Jarvie
+ kdecore/date/ktzfiletimezone.cpp ~ LGPLv2 ~ (c) 2005-2007 David Jarvie
+ kdecore/date/ktzfiletimezone.h ~ LGPLv2 ~ (c) 2005-2007 David Jarvie
+ kdecore/doc/* ~ unspec ~ unspec
+ kdecore/kdecore_export.h ~ LGPLv2h ~ 2007 David Faure
+ kdecore/fakes.c ~ LGPLv2 ~ (C) 2000 Stephan Kulow,  2002 Dirk Mueller, 2002 Oswald Buddenhagen, 2003 Joseph Wenninger, 
+                                2005 Jaroslaw Staniek, 2007 Rafael Fernández López
+
+ kdecore/io/k3processcontroller.cpp ~ LGPLv2h ~ (C) 1997 Christian Czezakte (e9025461@student.tuwien.ac.at)
+ kdecore/io/k3processcontroller.h ~ LGPLv2h ~ (C) 1997 Christian Czezakte (e9025461@student.tuwien.ac.at)
+ kdecore/io/k3process.cpp ~ LGPLv2 ~ (C) 1997 Christian Czezatke (e9025461@student.tuwien.ac.at)
+ kdecore/io/k3process.h ~ LGPLv2h ~ (C) 1997 Christian Czezakte (e9025461@student.tuwien.ac.at)
+ kdecore/io/k3procio.cpp ~ LGPLv2 ~ (C) 1997 David Sweet <dsweet@kde.org>
+ kdecore/io/k3procio.h ~ LGPLv2h ~ (C) 1997 David Sweet <dsweet@kde.org>
+ kdecore/io/kautosavefile.cpp ~ LGPLv2h ~ (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
+ kdecore/io/kautosavefile.h ~ LGPLv2h ~ (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
+ kdecore/io/kdebug.cpp ~ LGPLv2h ~ (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org), 2002 Holger Freyther (freyther@kde.org)
+ kdecore/io/kdebugdbusiface.cpp ~ LGPLv2h ~ (C) 2002 Andreas Beckermann (b_mann@gmx.de), 2006 Thiago Macieira <thiago@kde.org>
+ kdecore/io/kdebugdbusiface_p.h ~ LGPLv2h ~ (C) 2002 Andreas Beckermann (b_mann@gmx.de), 2006 Thiago Macieira <thiago@kde.org>
+ kdecore/io/kdebug.h ~ LGPLv2h ~ (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org), 2000-2002 Stephan Kulow (coolo@kde.org), 2002 Holger Freyther (freyther@kde.org)
+ kdecore/io/kgrantpty.c ~ GPLv2 ~ (c) 1999 by Lars Doelle <lars.doelle@on-line.de>.
+ kdecore/io/klockfile.h ~ LGPLv2 ~ (c) 2004 Waldo Bastian <bastian@kde.org>
+ kdecore/io/klockfile_unix.cpp ~ LGPLv2 ~ (c) 2004 Waldo Bastian <bastian@kde.org>
+ kdecore/io/klockfile_win.cpp ~ LGPLv2 ~ (c) 2007 Ralf Habacker <ralf.habacker@freenet.de>
+ kdecore/io/kmessage.cpp ~ LGPLv2 ~ (C) 2006 Michaël Larouche <michael.larouche@kdemail.net>
+ kdecore/io/kmessage.h ~ LGPLv2 ~ (C) 2006 Michaël Larouche <michael.larouche@kdemail.net>
+ kdecore/io/kprocess.cpp ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/io/kprocess.h ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/io/kprocess_p.h ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/io/kpty.cpp ~ LGPLv2h ~ (C) 2002 Waldo Bastian <bastian@kde.org>, 2002-2003,2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/io/kptydevice.cpp ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/io/kptydevice.h ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/io/kpty.h ~ LGPLv2h ~ (C) 2003,2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/io/kpty_p.h ~ LGPLv2 ~ (C) 2003,2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/io/kptyprocess.cpp ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/io/kptyprocess.h ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/io/ksavefile.cpp ~ LGPLv2 ~ (c) 1999 Waldo Bastian <bastian@kde.org>, 2006 Allen Winter <winter@kde.org>, 
+                                       2006 Gregory S. Hayes <syncomm@kde.org>, 2006 Jaison Lee <lee.jaison@gmail.com>
+ kdecore/io/ksavefile.h ~ LGPLv2 ~ (c) 1999 Waldo Bastian <bastian@kde.org>, 2006 Jaison Lee <lee.jaison@gmail.com>
+ kdecore/io/ktempdir.cpp ~ LGPLv2 ~ (c) 2003 Joseph Wenninger <jowenn@kde.org>
+ kdecore/io/ktempdir.h ~ LGPLv2 ~ (c) 2003 Joseph Wenninger <jowenn@kde.org>
+ kdecore/io/ktemporaryfile.cpp ~ LGPLv2h ~ 2006 Jaison Lee <lee.jaison@gmail.com>
+ kdecore/io/ktemporaryfile.h ~ LGPLv2h ~ 2006 Jaison Lee <lee.jaison@gmail.com>
+ kdecore/io/kurl.cpp ~ LGPLv2h ~ (C) 1999 Torben Weis <weis@kde.org>, 2005-2006 David Faure <faure@kde.org>
+ kdecore/io/kurl.h ~ LGPLv2h ~ (C) 1999 Torben Weis <weis@kde.org>, 2005-2006 David Faure <faure@kde.org>
+
+ kdecore/jobs/kcompositejob.cpp ~ LGPLv2 ~ (C) 2006 Kevin Ottens <ervin@kde.org>
+ kdecore/jobs/kcompositejob.h ~ LGPLv2 ~ (C) 2006 Kevin Ottens <ervin@kde.org>
+ kdecore/jobs/kcompositejob_p.h ~ LGPLv2 ~ (C) 2006 Kevin Ottens <ervin@kde.org>
+ kdecore/jobs/kjob.cpp ~ LGPLv2 ~ (C) 2000 Stephan Kulow <coolo@kde.org>, 2006 Kevin Ottens <ervin@kde.org>, 2000 David Faure <faure@kde.org>
+ kdecore/jobs/kjob.h ~ LGPLv2 ~ (C) 2000 Stephan Kulow <coolo@kde.org>, 2006 Kevin Ottens <ervin@kde.org>, 2000 David Faure <faure@kde.org>
+ kdecore/jobs/kjob_p.h ~ LGPLv2 ~ (C) 2000 Stephan Kulow <coolo@kde.org>, 2006 Kevin Ottens <ervin@kde.org>, 2000 David Faure <faure@kde.org>
+ kdecore/jobs/kjobtrackerinterface.cpp ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>
+ kdecore/jobs/kjobtrackerinterface.h ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>
+ kdecore/jobs/kjobuidelegate.cpp ~ LGPLv2h ~ (C) 2000 Stephan Kulow <coolo@kde.org>, 2006 Kevin Ottens <ervin@kde.org>, David Faure <faure@kde.org>
+ kdecore/jobs/kjobuidelegate.h ~ LGPLv2h ~ (C) 2000 Stephan Kulow <coolo@kde.org>, 2006 Kevin Ottens <ervin@kde.org>, David Faure <faure@kde.org>	
+
+ kdecore/kconfig_compiler/checkkcfg.pl ~ unspec ~ unspec
+ kdecore/kconfig_compiler/CMakeLists.txt ~ unspec ~ unspec
+ kdecore/kconfig_compiler/example/autoexample.cpp ~ LGPLv2h ~ (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+ kdecore/kconfig_compiler/example/CMakeLists.txt ~ unspec ~ unspec
+ kdecore/kconfig_compiler/example/example.cpp ~ LGPLv2h ~ (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+ kdecore/kconfig_compiler/example/example.kcfg ~ unspec ~ unspec
+ kdecore/kconfig_compiler/example/exampleprefs_base.kcfgc ~ unspec ~ unspec
+ kdecore/kconfig_compiler/example/general_base.ui ~ unspec ~ unspec
+ kdecore/kconfig_compiler/example/Messages.sh ~ unspec ~ unspec
+ kdecore/kconfig_compiler/example/myoptions_base.ui ~ unspec ~ unspec
+ kdecore/kconfig_compiler/kcfg.xsd ~ DTD ~  (c) 2003 Cornelius Schumacher &2003 Waldo Bastian, (c) 2003 Zack Rusin, (c) 2004 Frans Englich, (c) 2006 Michaël Larouche
+ kdecore/kconfig_compiler/kconfig_compiler.cpp ~ LGPLv2h ~ (c) 2003 Cornelius Schumacher <schumacher@kde.org>, 2003 Waldo Bastian <bastian@kde.org>, 2003 Zack Rusin <zack@kde.org>, 2006 Michaël Larouche <michael.larouche@kdemail.net>
+ kdecore/kconfig_compiler/README.dox ~ unspec ~ unspec
+ kdecore/kconfig_compiler/TODO ~ unspec ~ unspec
+
+ kdecore/kdebug.areas ~ unspec ~ unspec
+ kdecore/kdebugrc ~ unspec ~ unspec
+ kdecore/kde-config.cpp ~ LGPLv2h ~ (c) 2006-2007 Christian Ehrlicher, 2000-2007 Stephan Kulow <coolo@kde.org>
+ kdecore/kdefakes.h.cmake ~ LGPLv2 ~ (c) 2006 The KDE Project
+
+ kdecore/kernel/kaboutdata.cpp
+ kdecore/kernel/kaboutdata.h
+ kdecore/kernel/kauthorized.cpp
+ kdecore/kernel/kauthorized.h
+ kdecore/kernel/kautostart.cpp
+ kdecore/kernel/kautostart.h
+ kdecore/kernel/kcmdlineargs.cpp
+ kdecore/kernel/kcmdlineargs.h
+ kdecore/kernel/kcomponentdata.cpp
+ kdecore/kernel/kcomponentdata.h
+ kdecore/kernel/kcomponentdata_p.h
+ kdecore/kernel/kglobal.cpp
+ kdecore/kernel/kglobal.h
+ kdecore/kernel/kglobal_p.h
+ kdecore/kernel/kkernel_win.cpp
+ kdecore/kernel/kkernel_win.h
+ kdecore/kernel/kstandarddirs.cpp
+ kdecore/kernel/kstandarddirs.h
+ kdecore/kernel/ktoolinvocation.cpp
+ kdecore/kernel/ktoolinvocation.h
+ kdecore/kernel/ktoolinvocation_win.cpp
+ kdecore/kernel/ktoolinvocation_x11.cpp
+
+ kdecore/libqt-mt.nmcheck
+ kdecore/libqt-mt_weak.nmcheck
+
+ kdecore/localization/gettext.h
+ kdecore/localization/guess_ja.cpp
+ kdecore/localization/guess_ja_p.h
+ kdecore/localization/kcatalog.cpp
+ kdecore/localization/kcatalog.h
+ kdecore/localization/kcharsets.cpp
+ kdecore/localization/kcharsets.h
+ kdecore/localization/kencodingdetector.cpp
+ kdecore/localization/kencodingdetector.h
+ kdecore/localization/kentities.c
+ kdecore/localization/kentities.gperf
+ kdecore/localization/klocale.cpp
+ kdecore/localization/klocale.h
+ kdecore/localization/klocalizedstring.cpp
+ kdecore/localization/klocalizedstring.h
+ kdecore/localization/ktranscript.cpp
+ kdecore/localization/ktranscript_p.h
+ kdecore/localization/ktranslit.cpp
+ kdecore/localization/ktranslit_p.h
+ kdecore/localization/kuitformats.cpp
+ kdecore/localization/kuitformats_p.h
+ kdecore/localization/kuitsemantics.cpp
+ kdecore/localization/kuitsemantics_p.h
+ kdecore/Mainpage.dox
+ kdecore/MAINTAINERS
+
+ kdecore/network/config-network.h.cmake
+ kdecore/network/ConfigureChecks.cmake
+ kdecore/network/ipv6blacklist
+ kdecore/network/k3bufferedsocket.cpp
+ kdecore/network/k3bufferedsocket.h
+ kdecore/network/k3clientsocketbase.cpp
+ kdecore/network/k3clientsocketbase.h
+ kdecore/network/k3datagramsocket.cpp
+ kdecore/network/k3datagramsocket.h
+ kdecore/network/k3httpproxysocketdevice.cpp
+ kdecore/network/k3httpproxysocketdevice.h
+ kdecore/network/k3iobuffer.h
+ kdecore/network/k3resolver.cpp
+ kdecore/network/k3resolver.h
+ kdecore/network/k3resolvermanager.cpp
+ kdecore/network/k3resolver_p.h
+ kdecore/network/k3resolverstandardworkers.cpp
+ kdecore/network/k3resolverstandardworkers_p.h
+ kdecore/network/k3resolverworkerbase.cpp
+ kdecore/network/k3resolverworkerbase.h
+ kdecore/network/k3reverseresolver.cpp
+ kdecore/network/k3reverseresolver.h
+ kdecore/network/k3serversocket.cpp
+ kdecore/network/k3serversocket.h
+ kdecore/network/k3socketaddress.cpp
+ kdecore/network/k3socketaddress.h
+ kdecore/network/k3socketbase.cpp
+ kdecore/network/k3socketbase.h
+ kdecore/network/k3socketbuffer.cpp
+ kdecore/network/k3socketbuffer_p.h
+ kdecore/network/k3socketdevice.cpp
+ kdecore/network/k3socketdevice.h
+ kdecore/network/k3socks.cpp
+ kdecore/network/k3socks.h
+ kdecore/network/k3sockssocketdevice.cpp
+ kdecore/network/k3sockssocketdevice.h
+ kdecore/network/k3streamsocket.cpp
+ kdecore/network/k3streamsocket.h
+ kdecore/network/kidna.cpp
+ kdecore/network/kidna.h
+ kdecore/network/klocalsocket.cpp
+ kdecore/network/klocalsocket.h
+ kdecore/network/klocalsocket_p.h
+ kdecore/network/klocalsocket_unix.cpp
+ kdecore/network/klocalsocket_win.cpp
+ kdecore/network/ksocketfactory.cpp
+ kdecore/network/ksocketfactory.h
+ kdecore/network/netsupp.cpp
+ kdecore/network/netsupp.h
+ kdecore/network/syssocket.h
+ kdecore/network/tests
+ kdecore/network/tests/CMakeLists.txt
+ kdecore/network/TODO
+ kdecore/kdecore.nmcheck
+ kdecore/kdecore.pc.in ~ unspec ~ unspec
+ kdecore/README
+ 
+ kdecore/services/kfoldermimetype.cpp
+ kdecore/services/kfoldermimetype.h
+ kdecore/services/kmimemagicrule.cpp
+ kdecore/services/kmimemagicrule_p.h
+ kdecore/services/kmimetype.cpp
+ kdecore/services/kmimetypefactory.cpp
+ kdecore/services/kmimetypefactory.h
+ kdecore/services/kmimetype.h
+ kdecore/services/kmimetype_p.h
+ kdecore/services/kmimetypetrader.cpp
+ kdecore/services/kmimetypetrader.h
+ kdecore/services/kplugininfo.cpp
+ kdecore/services/kplugininfo.desktop
+ kdecore/services/kplugininfo.h
+ kdecore/services/kservice.cpp
+ kdecore/services/kservicefactory.cpp
+ kdecore/services/kservicefactory.h
+ kdecore/services/kservice.h
+ kdecore/services/kserviceoffer.cpp
+ kdecore/services/kserviceoffer.h
+ kdecore/services/kservicetype.cpp
+ kdecore/services/kservicetypefactory.cpp
+ kdecore/services/kservicetypefactory.h
+ kdecore/services/kservicetype.h
+ kdecore/services/kservicetype_p.h
+ kdecore/services/kservicetypeprofile.cpp
+ kdecore/services/kservicetypeprofile.h
+ kdecore/services/kservicetypeprofile_p.h
+ kdecore/services/kservicetypetrader.cpp
+ kdecore/services/kservicetypetrader.h
+ kdecore/services/ktraderparse.cpp
+ kdecore/services/ktraderparse_p.h
+ kdecore/services/ktraderparsetree.cpp
+ kdecore/services/ktraderparsetree_p.h
+ kdecore/services/lex.c
+ kdecore/services/lex.l
+ kdecore/services/regen.sh
+ kdecore/services/yacc.c
+ kdecore/services/yacc.h
+ kdecore/services/yacc.y
+
+ kdecore/sonnet/backgroundchecker.cpp
+ kdecore/sonnet/backgroundchecker.h
+ kdecore/sonnet/backgroundengine.cpp
+ kdecore/sonnet/backgroundengine_p.h
+ kdecore/sonnet/client.cpp
+ kdecore/sonnet/client_p.h
+ kdecore/sonnet/filter.cpp
+ kdecore/sonnet/filter_p.h
+ kdecore/sonnet/loader.cpp
+ kdecore/sonnet/loader_p.h
+ kdecore/sonnet/settings.cpp
+ kdecore/sonnet/settings_p.h
+ kdecore/sonnet/sonnetspeller.desktop
+ kdecore/sonnet/speller.cpp
+ kdecore/sonnet/speller.h
+ kdecore/sonnet/spellerplugin.cpp
+ kdecore/sonnet/spellerplugin_p.h
+
+ kdecore/sonnet/tests/CMakeLists.txt
+ kdecore/sonnet/tests/test_config.cpp
+ kdecore/sonnet/tests/test_core.cpp
+ kdecore/sonnet/tests/test_core.h
+ kdecore/sonnet/tests/test.cpp
+ kdecore/sonnet/tests/test_dialog.cpp
+ kdecore/sonnet/tests/test_dialog.h
+ kdecore/sonnet/tests/test_filter.cpp
+ kdecore/sonnet/tests/test_filter.h
+ kdecore/sonnet/textbreaks.cpp
+ kdecore/sonnet/textbreaks_p.h
+ kdecore/standard_weak.nmcheck
+
+ kdecore/sycoca/kprotocolinfo.cpp
+ kdecore/sycoca/kprotocolinfofactory.cpp
+ kdecore/sycoca/kprotocolinfofactory.h
+ kdecore/sycoca/kprotocolinfo.h
+ kdecore/sycoca/ksycoca.cpp
+ kdecore/sycoca/ksycocadict.cpp
+ kdecore/sycoca/ksycocadict.h
+ kdecore/sycoca/ksycocaentry.cpp
+ kdecore/sycoca/ksycocaentry.h
+ kdecore/sycoca/ksycocafactory.cpp
+ kdecore/sycoca/ksycocafactory.h
+ kdecore/sycoca/ksycoca.h
+ kdecore/sycoca/ksycocatype.h
+
+ kdecore/tests/Cairo
+ kdecore/tests/CMakeLists.txt
+ kdecore/tests/cplusplustest.cpp
+ kdecore/tests/dbuscalltest.cpp
+ kdecore/tests/globalcleanuptest.cpp
+ kdecore/tests/k3processtest.cpp
+ kdecore/tests/k3processtest.h
+ kdecore/tests/k3prociotest.cpp
+ kdecore/tests/k3prociotest.h
+ kdecore/tests/kasciitest.cpp
+ kdecore/tests/kasciitest.h
+ kdecore/tests/kautosavefiletest.cpp
+ kdecore/tests/kautosavefiletest.h
+ kdecore/tests/kautostarttest.cpp
+ kdecore/tests/kautostarttest.h
+ kdecore/tests/kcalendartest.cpp
+ kdecore/tests/kcalendartest.h
+ kdecore/tests/kcharsetstest.cpp
+ kdecore/tests/kcmdlineargstest.cpp
+ kdecore/tests/kconfigtest.cpp
+ kdecore/tests/kconfigtest.h
+ kdecore/tests/kdatetimetest.cpp
+ kdecore/tests/kdatetimetest.h
+ kdecore/tests/kdebugtest.cpp
+ kdecore/tests/kdesktopfiletest.cpp
+ kdecore/tests/kdesktopfiletest.h
+ kdecore/tests/kfiltertest.cpp
+ kdecore/tests/kfiltertest.h
+ kdecore/tests/kglobalstatictest.cpp
+ kdecore/tests/kglobaltest.cpp
+ kdecore/tests/kglobaltest.h
+ kdecore/tests/kjobtest.cpp
+ kdecore/tests/kjobtest.h
+ kdecore/tests/klibloadertest4_module.cpp
+ kdecore/tests/klibloadertest4_module.h
+ kdecore/tests/klibloadertest.cpp
+ kdecore/tests/klibloadertest.h
+ kdecore/tests/klibloadertest_module.cpp
+ kdecore/tests/klibloadertest_module.h
+ kdecore/tests/klocaletest.cpp
+ kdecore/tests/klocaletest.h
+ kdecore/tests/klocalizedstringtest.cpp
+ kdecore/tests/klocalizedstringtest.h
+ kdecore/tests/klocalsocketservertest.cpp
+ kdecore/tests/klocalsocketservertest.h
+ kdecore/tests/klocalsockettest.cpp
+ kdecore/tests/klocalsockettest.h
+ kdecore/tests/klockfiletest.cpp
+ kdecore/tests/klockfiletest.h
+ kdecore/tests/kmacroexpandertest.cpp
+ kdecore/tests/kmacroexpandertest.h
+ kdecore/tests/kmdcodectest.cpp
+ kdecore/tests/kmemtest.cpp
+ kdecore/tests/kmimetypetest.cpp
+ kdecore/tests/kmimetypetest.h
+ kdecore/tests/kprocesstest.cpp
+ kdecore/tests/kprocesstest.h
+ kdecore/tests/kptyprocesstest.cpp
+ kdecore/tests/kptyprocesstest.h
+ kdecore/tests/krandomsequencetest.cpp
+ kdecore/tests/ksavefiletest.cpp
+ kdecore/tests/ksavefiletest.h
+ kdecore/tests/kservicetest.cpp
+ kdecore/tests/kservicetest.h
+ kdecore/tests/ksharedptrtest.cpp
+ kdecore/tests/ksharedptrtest.h
+ kdecore/tests/kshelltest.cpp
+ kdecore/tests/kshelltest.h
+ kdecore/tests/ksortablelisttest.cpp
+ kdecore/tests/kstandarddirstest.cpp
+ kdecore/tests/kstandarddirstest.h
+ kdecore/tests/kstringhandlertest.cpp
+ kdecore/tests/kstringhandlertest.h
+ kdecore/tests/ktempdirtest.cpp
+ kdecore/tests/ktempdirtest.h
+ kdecore/tests/ktemporaryfiletest.cpp
+ kdecore/tests/ktemporaryfiletest.h
+ kdecore/tests/ktimezonestest.cpp
+ kdecore/tests/ktimezonestest.h
+ kdecore/tests/kurlmimetest.cpp
+ kdecore/tests/kurlmimetest.h
+ kdecore/tests/kurltest.cpp
+ kdecore/tests/kurltest.h
+ kdecore/tests/London
+ kdecore/tests/Los_Angeles
+ kdecore/tests/Paris
+ kdecore/tests/startserviceby.cpp
+
+ kdecore/text/kascii.cpp
+ kdecore/text/kascii.h
+ kdecore/text/kcodecs.cpp
+ kdecore/text/kcodecs.h
+ kdecore/text/kstringhandler.cpp
+ kdecore/text/kstringhandler.h
+
+ kdecore/util/conversion_check.h
+ kdecore/util/kallocator.cpp
+ kdecore/util/kallocator.h
+ kdecore/util/kdedmodule.cpp
+ kdecore/util/kdedmodule.h
+ kdecore/util/kde_file.h
+ kdecore/util/kdeversion.cpp
+ kdecore/util/kdeversion.h.cmake
+ kdecore/util/kgenericfactory.h
+ kdecore/util/kgenericfactory.tcc
+ kdecore/util/klauncher_iface.cpp
+ kdecore/util/klauncher_iface.h
+ kdecore/util/klibloader.cpp
+ kdecore/util/klibloader.h
+ kdecore/util/kmacroexpander.cpp
+ kdecore/util/kmacroexpander.h
+ kdecore/util/kmacroexpander_p.h
+ kdecore/util/kmacroexpander_unix.cpp
+ kdecore/util/kmacroexpander_win.cpp
+ kdecore/util/krandom.cpp
+ kdecore/util/krandom.h
+ kdecore/util/krandomsequence.cpp
+ kdecore/util/krandomsequence.h
+ kdecore/util/ksharedptr.h
+ kdecore/util/kshell.cpp
+ kdecore/util/kshell.h
+ kdecore/util/kshell_unix.cpp
+ kdecore/util/kshell_win.cpp
+ kdecore/util/ksortablelist.h
+ kdecore/util/kstaticdeleter.cpp
+ kdecore/util/kstaticdeleter.h
+ kdecore/util/ktypelist.h
+ kdecore/util/kuser.cpp
+ kdecore/util/kuser.h
+ kdecore/util/qtest_kde.h
+ kdecore/kdecore_weak.nmcheck
+
+
  kded/applications.menu ~ unspec ~ unspec
  kded/kbuildservicefactory.h ~ LGPLv2h ~ (C) 1999 Waldo Bastian, 1999, 2007 David Faure
  kded/kded.h ~ LGPLv2 ~ (C) 1999 David Faure, 1999 Waldo Bastian
@@ -418,6 +859,194 @@ TODO: fix format
  kdefx/kdefx.nmcheck ~ unspec ~ unspec
  kdefx/kdefx.pc.in ~ unspec ~ unspec
  kdefx/kdefx_weak.nmcheck ~ unspec ~ unspec
+
+
+
+
+ kparts/AUTHORS	unspec	unspec
+ kparts/browserextension.cpp	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/browserextension.h	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/browserinterface.cpp	unspec	unspec
+ kparts/browserinterface.h	unspec	unspec
+ kparts/browserrun.cpp	LGPLv2	 (C) 2002 David Faure <faure@kde.org>
+ kparts/browserrun.h	LGPLv2	 (C) 2002 David Faure <faure@kde.org>
+ kparts/browserview.desktop	unspec	unspec
+ kparts/CMakeLists.txt	unspec	unspec
+ kparts/COMMENTS	unspec	unspec
+ kparts/componentfactory.h	unspec	unspec
+ kparts/event.cpp	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/event.h	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/factory.cpp	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/factory.h	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/genericfactory.h	unspec	unspec
+ kparts/historyprovider.cpp	LGPLv2h	(C) 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kparts/historyprovider.h	LGPLv2h	(C) 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kparts/kpart.desktop	unspec	unspec
+ kparts/kparts_export.h	LGPLv2h	(C) 2006 David Faure <faure@kde.org>
+ kparts/krop.desktop	unspec	unspec
+ kparts/krwp.desktop	unspec	unspec
+ kparts/Mainpage.dox	LGPL	unspec
+ kparts/mainwindow.cpp	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/mainwindow.h	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/part.cpp	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999-2005 David Faure <faure@kde.org>
+ kparts/part.h	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/partmanager.cpp	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/partmanager.h	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/plugin.cpp	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/plugin.h	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
+ kparts/statusbarextension.cpp	LGPLv2h	(C) 2003 Daniel Molkentin <molkentin@kde.org>, 2003 David Faure <faure@kde.org>
+ kparts/statusbarextension.h	LGPLv2h	(C) 2003 Daniel Molkentin <molkentin@kde.org>, 2003 David Faure <faure@kde.org>
+ kparts/tests/CMakeLists.txt	unspec	unspec
+ kparts/tests/example.cpp	unspec	unspec
+ kparts/tests/example.h	unspec	unspec
+ kparts/tests/ghostview.cpp	unspec	unspec
+ kparts/tests/ghostview.h	unspec	unspec
+ kparts/tests/ghostviewtest_shell.rc	unspec	unspec
+ kparts/tests/kpartstest_part1.rc	unspec	unspec
+ kparts/tests/kpartstest_shell.rc	unspec	unspec
+ kparts/tests/normalktm.cpp	unspec	unspec
+ kparts/tests/normalktm.h	unspec	unspec
+ kparts/tests/notepad.cpp	unspec	unspec
+ kparts/tests/notepad.desktop	unspec	unspec
+ kparts/tests/notepad.h	unspec	unspec
+ kparts/tests/notepadpart.cpp	unspec	unspec
+ kparts/tests/notepadpart.rc	unspec	unspec
+ kparts/tests/parts.cpp	unspec	unspec
+ kparts/tests/parts.h	unspec	unspec
+ kparts/tests/parttest.cpp	LGPLv2h	(C) 2007 David Faure <faure@kde.org>
+ kparts/tests/parttest.h	LGPLv2h	(C) 2007 David Faure <faure@kde.org>
+ kparts/tests/plugin_foobar.rc	unspec	unspec
+ kparts/tests/plugin_spellcheck.cpp	unspec	unspec
+ kparts/tests/plugin_spellcheck.h	unspec	unspec
+ kparts/tests/plugin_spellcheck.rc	unspec	unspec
+ kparts/tests/README	unspec	unspec
+
+ kross/CMakeLists.txt	unspec	unspec
+ kross/console/CMakeLists.txt	unspec	unspec
+ kross/console/console.dox	unspec	unspec
+ kross/console/main.cpp	LGPLv2h	(C) 2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/actioncollection.cpp	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/actioncollection.h	LGPLv2h	(C) 2004-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/core/action.cpp	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/action.h	LGPLv2h	(C) 2004-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/core/childreninterface.h	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/CMakeLists.txt	unspec	unspec
+ kross/core/core.dox	unspec	unspec
+ kross/core/errorinterface.h	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/interpreter.cpp	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/interpreter.h	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/krossconfig.cpp	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/krossconfig.h	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/kross_export.h	LGPLv2h	(C) 2007 David Faure <faure@kde.org>, 2007 Sebastian Sauer <mail@dipe.org>
+ kross/core/manager.cpp	LGPLv2h	(C) 2004-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/core/manager.h	LGPLv2h	(C) 2004-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/core/metafunction.h	LGPLv2h	(C) 2005-2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005-2006 Matt Broadstone <mbroadst@gmail.com>, 2005-2006 Richard J. Moore <rich@kde.org>, 2005-2006 Erik L. Bunce <kde@bunce.us>, 2005-2007 Sebastian Sauer <mail@dipe.org>
+ kross/core/metatype.h	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/script.cpp	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/core/script.h	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/docs/CHANGES	unspec	unspec
+ kross/docs/doxy2doc.py	unspec	unspec
+ kross/kjs/CMakeLists.txt	unspec	unspec
+ kross/kjs/kjs.dox	unspec	unspec
+ kross/kjs/kjsinterpreter.cpp	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/kjs/kjsinterpreter.h	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/kjs/kjsscript.cpp	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/kjs/kjsscript.h	LGPLv2h	(C) 2004-2006 by Sebastian Sauer (mail@dipe.org)
+ kross/Mainpage.dox	LGPL	Sebastian Sauer <mail@dipe.org>, Cyrille Berger <cberger@cberger.net>
+ kross/modules/CMakeLists.txt	unspec	unspec
+ kross/modules/form.cpp	LGPLv2h	(C) 2006-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/modules/form.h	LGPLv2h	(C) 2006-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/modules/modules.dox	unspec	unspec
+ kross/test/CMakeLists.txt	unspec	unspec
+ kross/test/main.cpp	LGPLv2h	(C) 2004-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/test/profile.py	unspec	unspec
+ kross/test/test.dox	unspec	unspec
+ kross/test/testguiform.py	unspec	unspec
+ kross/test/testguiform.rb	unspec	unspec
+ kross/test/testguiform.ui	unspec	unspec
+ kross/test/testguiqt.py	unspec	unspec
+ kross/test/testguitk.py	unspec	unspec
+ kross/test/testkross.js	unspec	unspec
+ kross/test/testkross.py	unspec	unspec
+ kross/test/testobject.cpp	LGPLv2h	(C) 2004-2005 by Sebastian Sauer (mail@dipe.org)
+ kross/test/testobject.h	LGPLv2h	(C) 2004-2005 by Sebastian Sauer (mail@dipe.org)
+ kross/test/unittest.js	unspec	unspec
+ kross/test/unittest.py	unspec	unspec
+ kross/test/unittest.rb	unspec	unspec
+ kross/ui/CMakeLists.txt	unspec	unspec
+ kross/ui/guiclient.cpp	LGPLv2h	(C) 2005-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/ui/guiclient.h	LGPLv2h	(C) 2005-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/ui/model.cpp	LGPLv2h	(C) 2006-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/ui/model.h	LGPLv2h	(C) 2006-2007 by Sebastian Sauer (mail@dipe.org)
+ kross/ui/view.cpp	LGPLv2h	(C) 2005-2006 Cyrille Berger <cberger@cberger.net>, 2006-2007 Sebastian Sauer <mail@dipe.org>
+ kross/ui/view.h	LGPLv2h	(C) 2005-2006 Cyrille Berger <cberger@cberger.net>, 2006-2007 Sebastian Sauer <mail@dipe.org>
+ 
+ kutils/CMakeLists.txt	unspec	unspec
+ kutils/kcmodulecontainer.cpp	LGPLv2h	(C) 2004 Frans Englich <frans.englich@telia.com>
+ kutils/kcmodulecontainer.h	LGPLv2h	(C) 2004 Frans Englich <frans.englich@telia.com>
+ kutils/kcmodulefactory.cpp	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+ kutils/kcmodulefactory.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+ kutils/kcmoduleinfo.cpp	LGPLv2	(C) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, 2000 Matthias Elter <elter@kde.org>, 2003 Daniel Molkentin <molkentin@kde.org>, 2003,2006 Matthias Kretz <kretz@kde.org>
+ kutils/kcmoduleinfo.h	LGPLv2	(C) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, 2000 Matthias Elter <elter@kde.org>, 2003 Daniel Molkentin <molkentin@kde.org>, 2003,2006 Matthias Kretz <kretz@kde.org>
+ kutils/kcmoduleloader.cpp	LGPLv2	(C) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, 2000 Matthias Elter <elter@kde.org>, 2003,2004,2006 Matthias Kretz <kretz@kde.org<, 2004 Frans Englich <frans.englich@telia.com>
+ kutils/kcmoduleloader.h	LGPLv2	(C) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, 2002-2003 Daniel Molkentin <molkentin@kde.org>, 2006 Matthias Kretz <kretz@kde.org>
+ kutils/kcmoduleproxy.cpp	LGPLv2	(C) 2004 Frans Englich <frans.englich@telia.com>, 2003 Matthias Kretz <kretz@kde.org>
+ kutils/kcmoduleproxy.h	LGPLv2	(C) 2003 Matthias Kretz <kretz@kde.org>, 2004 Frans Englich <frans.englich@telia.com>
+ kutils/kcmoduleproxy_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+ kutils/kcmultidialog.cpp	LGPLv2h	(C) 2000 Matthias Elter <elter@kde.org>, 2003 Daniel Molkentin <molkentin@kde.org>, 2003,2006 Matthias Kretz <kretz@kde.org>, 2004 Frans Englich <frans.englich@telia.com>, 2006 Tobias Koenig <tokoe@kde.org>
+ kutils/kcmultidialog.h	LGPLv2h	(C) 2000 Matthias Elter <elter@kde.org>, 2003 Daniel Molkentin <molkentin@kde.org>, 2003,2006 Matthias Kretz <kretz@kde.org>
+ kutils/kcmultidialog_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+ kutils/kdeglobals.kcfg	unspec	unspec
+ kutils/kdeglobals.kcfgc	unspec	unspec
+ kutils/kpluginselector.cpp	LGPLv2	(C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>, 2002-2003 Matthias Kretz <kretz@kde.org>
+ kutils/kpluginselector.h	LGPLv2	(C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>, 2002-2003 Matthias Kretz <kretz@kde.org>
+ kutils/kpluginselector_p.h	LGPLv2	(C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>, 2002-2003 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/componentsdialog.cpp	LGPLv2	(C) 2003 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/componentsdialog_p.h	LGPLv2	(C) 2003 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/dialog.cpp	LGPLv2	(C) 2003 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/dialog.h	LGPLv2	(C) 2003 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/dialog_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/dispatcher.cpp	LGPLv2	(C) 2003 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/dispatcher.h	LGPLv2	(C) 2003 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/dispatcher_p.h	LGPLv2	(C) 2007 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/pluginpage.cpp	LGPLv2	(C) 2003 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/pluginpage.h	LGPLv2	(C) 2003 Matthias Kretz <kretz@kde.org>
+ kutils/ksettings/README.dox	unspec	unspec
+ kutils/ksettings/TODO	unspec	unspec
+ kutils/ksettingswidgetadaptor.cpp	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+ kutils/ksettingswidgetadaptor.h	LGPLv2	(C) 2006 Matthias Kretz <kretz@kde.org>
+ kutils/kutils_export.h	LGPLv2h	(C) 2007 David Faure <faure@kde.org>
+ kutils/Mainpage.dox	LGPL	unspec
+ kutils/TODO	unspec	unspec
+
+ kwallet/backend/blockcipher.cc	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>
+ kwallet/backend/blockcipher.h	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>
+ kwallet/backend/blowfish.cc	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>
+ kwallet/backend/blowfish.h	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>
+ kwallet/backend/blowfishtables.h	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>
+ kwallet/backend/cbc.cc	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>
+ kwallet/backend/cbc.h	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>
+ kwallet/backend/CMakeLists.txt	unspec	unspec
+ kwallet/backend/kwalletbackend.cc	LGPLv2h	 * Copyright(C) 2001-2004 George Staikos <staikos@kde.org>
+ kwallet/backend/kwalletbackend.h	LGPLv2h	 * Copyright(C) 2001-2004 George Staikos <staikos@kde.org>
+ kwallet/backend/kwalletentry.cc	LGPLv2h	 * Copyright(C) 2001-2003 George Staikos <staikos@kde.org>
+ kwallet/backend/kwalletentry.h	LGPLv2h	 * Copyright(C) 2001-2003 George Staikos <staikos@kde.org>
+ kwallet/backend/kwallet_export.h	LGPLv2h	(C) 2006 David Faure <faure@kde.org>
+ kwallet/backend/sha1.cc	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>, Based heavily on SHA1 code from GPG 1.0.3(C) 1998 FSF
+ kwallet/backend/sha1.h	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>, Based heavily on SHA1 code from GPG 1.0.3(C) 1998 FSF
+ kwallet/backend/tests/backendtest.cpp	unspec	unspec
+ kwallet/backend/tests/CMakeLists.txt	unspec	unspec
+ kwallet/backend/tests/testbf.cpp	unspec	unspec
+ kwallet/backend/tests/testsha.cpp	unspec	unspec
+ kwallet/CMakeLists.txt	unspec	unspec
+ kwallet/README	unspec	unspec
+ kwallet/tests/CMakeLists.txt	unspec	unspec
+ kwallet/tests/kwalletasync.cpp	unspec	unspec
+ kwallet/tests/kwalletboth.cpp	unspec	unspec
+ kwallet/tests/kwalletsync.cpp	unspec	unspec
+ kwallet/tests/kwallettest.cpp	unspec	unspec
+ kwallet/tests/kwallettest.h	unspec	unspec
+ kwallet/tests/README	unspec	unspec
 
  mimetypes/kde.txt	GPL	unspec
  mimetypes/CMakeLists.txt	unspec	unspec
@@ -1285,11 +1914,9 @@ kjsembed
 kmetadata
 knewstuff
 knotify
-kparts
-kross
+
 kstyles
-kutils
-kwallet
+
 licenses
 pics
 
@@ -1311,7 +1938,13 @@ Legend:
                 option) higher. The listed documents use the GFDL with no
                 Invariant Sections, no Front-Cover Texts, and no Back-Cover
                 Texts.
-
+ - "DTD":             Permission to use, copy, modify and distribute this DTD
+            and its accompanying documentation for any purpose and without fee
+            is hereby granted in perpetuity, provided that the above copyright
+            notice and this paragraph appear in all copies.  The copyright
+            holders make no representation about the suitability of the DTD for
+            any purpose. It is provided "as is" without expressed or implied
+            warranty. 
 
 On Debian systems, you can find the complete texts of these licenses at:
   - GPL:      /usr/share/common-licenses/GPL
