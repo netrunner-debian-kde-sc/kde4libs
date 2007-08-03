@@ -338,6 +338,43 @@ TODO: fix format
  kde3support/tests/krfcdatetest.cpp ~ unspec ~ unspec
  kde3support/tests/krfcdatetest.h ~ unspec ~ unspec
 
+ kded/applications.menu ~ unspec ~ unspec
+ kded/kbuildservicefactory.h ~ LGPLv2h ~ (C) 1999 Waldo Bastian, 1999, 2007 David Faure
+ kded/kded.h ~ LGPLv2 ~ (C) 1999 David Faure, 1999 Waldo Bastian
+ kded/kbuildsycoca.cpp ~ LGPLv2 ~ (C) 1999 David Faure, 2002-2003 Waldo Bastian
+ kded/khostname.cpp ~ LGPLv2 ~ (C) 2002-2003 Waldo Bastian
+ kded/kbuildmimetypefactory.cpp ~ LGPLv2h ~ (C) 1999-2007 David Faure
+ kded/HOWTO ~ unspec ~ unspec
+ kded/kbuildservicefactory.cpp   
+ kded/kmimefileparser.h ~ LGPLv2h ~ (C) 2007 David Faure
+ kded/kbuildsycoca.h ~ LGPLv2 ~ (C) 1999 David Faure 
+ kded/Mainpage.dox ~ XXXX
+ kded/kresourcelist.h ~ LGPLv2 ~ (C) 1999 David Faure
+ kded/kctimefactory.h ~ LGPLv2 ~ (C) 2000 Waldo Bastian
+ kded/kbuildmimetypefactory.h ~ LGPLv2h ~ (C) 2007 David Faure
+ kded/kbuildservicetypefactory.h ~ LGPLv2h ~ (C) 1999 David Faure
+ kded/kdedmodule.desktop ~ unspec ~ unspec
+ kded/vfolder_menu.cpp ~ LGPLv2 ~ (C) 2003 Waldo Bastian
+ kded/vfolder_menu.h ~ LGPLv2 ~ (C) 2003 Waldo Bastian
+ kded/kded.upd ~ unspec ~ unspec
+ kded/CMakeLists.txt ~ unspec ~ unspec
+ kded/kbuildservicegroupfactory.cpp ~ LGPLv2 ~ (C) 2000 Waldo Bastian
+ kded/kbuildservicetypefactory.cpp ~ LGPLv2h ~ (C) 1999 David Faure
+ kded/kded.cpp ~ LGPLv2 ~ (C) 1999 David Faure, 2000 Waldo Bastian
+ kded/kctimefactory.cpp ~ LGPLv2 ~ (C) 2000 Waldo Bastian
+ kded/kbuildprotocolinfofactory.cpp ~ LGPLv2 ~ (C) 2000 Waldo Bastian
+ kded/kmimefileparser.cpp ~ LGPLv2h ~ (C) 2007 David Faure
+ kded/kbuildservicegroupfactory.h ~ LGPLv2 ~ (C) 2000 Waldo Bastian
+ kded/kbuildprotocolinfofactory.h ~ LGPLv2 ~ (C) 2000 Waldo Bastian
+ kded/DESIGN ~ unspec ~ unspec
+ kded/READMEkded ~ unspec ~ unspec
+ kded/test/kmimefileparsertest.h ~ LGPLv2h ~ (c) 2007 David Faure
+ kded/test/test.h  ~ unspec ~ unspec
+ kded/test/test.desktop ~ unspec ~ unspec
+ kded/test/CMakeLists.txt ~ unspec ~ unspec
+ kded/test/test.cpp ~ unspec ~ unspec
+ kded/test/kmimefileparsertest.cpp ~ LGPLv2h ~ (c) 2007 David Faure
+
  mimetypes/kde.txt	GPL	unspec
  mimetypes/CMakeLists.txt	unspec	unspec
  
@@ -1187,7 +1224,7 @@ TODO: fix format
 DIRs TODO:
 
 kdecore
-kded
+
 kdefx
 kdeprint
 kdesu
