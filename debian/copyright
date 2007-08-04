@@ -1756,6 +1756,104 @@ knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
  kutils/kutils_export.h	LGPLv2h	(C) 2007 David Faure <faure@kde.org>
  kutils/Mainpage.dox	LGPL	unspec
  kutils/TODO	unspec	unspec
+ 
+ kstyles/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/highcolor/bitmaps.h ~ unspec ~ unspec
+ kstyles/highcolor/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/highcolor/highcolor.cpp ~ LGPLv2 ~ (C) 2001-2002 Karol Szwed <gallium@kde.org>, 2001-2002 Fredrik Höglund  <fredrik@kde.org>, 2000 Daniel M. Duley <mosfet@kde.org>, 2000 Dirk Mueller <mueller@kde.org>, 2001 Martijn Klingens      <klingens@kde.org>
+ kstyles/highcolor/highcolor.h ~ LGPLv2 ~ (C) 2001-2002 Karol Szwed <gallium@kde.org>, 2001-2002 Fredrik Höglund  <fredrik@kde.org>, 2000 Daniel M. Duley <mosfet@kde.org>, 2000 Dirk Mueller <mueller@kde.org>, 2001 Martijn Klingens      <klingens@kde.org>
+ kstyles/highcontrast/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/highcontrast/config/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/highcontrast/config/highcontrastconfig.cpp ~ MIT ~ Copyright (c) 2005 Luciano Montanaro <mikelima@cirulla.net>, 2003 Maksim Orlovich <maksim.orlovich@kdemail.net>
+ kstyles/highcontrast/config/highcontrastconfig.h ~ MIT ~ Copyright (c) 2005 Luciano Montanaro <mikelima@cirulla.net>, 2003 Maksim Orlovich <maksim.orlovich@kdemail.net>
+ kstyles/highcontrast/highcontrast.cpp ~ LGPLv2 ~ (C) 2004 Olaf Schmidt <ojschmidt@kde.org>, 2003 Maksim Orlovich <orlovich@cs.rochester.edu>, 2001-2002 Karol Szwed      <gallium@kde.org>, 2000 Daniel M. Duley <mosfet@kde.org>, 2001-2002 Karol Szwed <gallium@kde.org>
+ kstyles/highcontrast/highcontrast.h ~ LGPLv2 ~ (C) 2004 Olaf Schmidt <ojschmidt@kde.org>, 2003 Maksim Orlovich <orlovich@cs.rochester.edu>, 2001-2002 Karol Szwed      <gallium@kde.org>, 2000 Daniel M. Duley <mosfet@kde.org>, 2001-2002 Karol Szwed <gallium@kde.org>
+ kstyles/highcontrast/highcontrast.themerc ~ unspec ~ unspec
+ kstyles/highcontrast/TODO ~ unspec ~ unspec
+ kstyles/keramik/bitmaps.h ~ unspec ~ unspec
+ kstyles/keramik/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/keramik/colorutil.cpp ~ LGPLv2h ~    Copyright (c) 2002 Malte Starostik <malte@kde.org>, 2002 Maksim Orlovich <mo002j@mail.rochester.edu>
+ kstyles/keramik/colorutil.h ~ LGPLv2 ~    Copyright (c) 2002 Malte Starostik <malte@kde.org>
+ kstyles/keramik/genembed.cpp ~ MIT ~ Copyright (c) 2002, 2005 Maksim Orlovich <maksim@kde.org>
+ kstyles/keramik/gradients.cpp ~ LGPLv2h ~    Copyright (c) 2002       Malte Starostik <malte@kde.org>, 2002, 2005 Maksim Orlovich <maksim@kde.org>
+ kstyles/keramik/gradients.h ~ LGPLv2h ~    Copyright (c) 2002 Malte Starostik <malte@kde.org>, 2002 Maksim Orlovich <mo002j@mail.rochester.edu
+ kstyles/keramik/keramik.cpp ~ LGPLv2h ~    Copyright (c) 2002       Malte Starostik <malte@kde.org>,  (c) 2002-2005  Maksim Orlovich <maksim@kde.org>
+ kstyles/keramik/keramikimage.h ~ LGPLv2 ~ 2002 Malte Starostik <malte@kde.org>, 2002 Maksim Orlovich <mo002j@mail.rochester.edu>
+ um@kde.org>
+ kstyles/keramik/pics/* ~ unspec ~ unspec
+ kstyles/keramik/pixmaploader.cpp ~ LGPLv2h ~    Copyright (c) 2002 Malte Starostik <malte@kde.org>, 
+ kstyles/keramik/pixmaploader.h ~ LGPLv2h ~    Copyright (c) 2003-2005 Maksim Orlovich <maksim@kde.org>, 2002 Malte Starostik <malte@kde.org>
+ kstyles/kthemestyle/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/kthemestyle/kstyledirs.cpp ~ LGPLv2 ~ unspec
+ kstyles/kthemestyle/kstyledirs.h ~ LGPLv2 ~  2002 Maksim Orlovich <mo002j@mail.rochester.edu>
+ kstyles/kthemestyle/kthemebase.cpp ~ LGPLv2 ~  (C) 1999 Daniel M. Duley <mosfet@kde.org>, 1997 Matthias Kalle Dalheimer (kalle@kde.org), 1998, 1999, 2000 KDE Team
+ kstyles/kthemestyle/kthemebase.h ~ LGPLv2 ~  (C) 1999 Daniel M. Duley <mosfet@kde.org>, 1997 Matthias Kalle Dalheimer (kalle@kde.org), 1998, 1999, 2000 KDE Team
+ kstyles/kthemestyle/kthemestyle.cpp ~ LGPLv2 ~ (C) 1999 Daniel M. Duley <mosfet@kde.org>, 2001-2002 Maksim Orlovich <mo002j@mail.rochester.edu>, 
+ kstyles/kthemestyle/kthemestyle.h ~ LGPLv2 ~ (C) 1999 Daniel M. Duley <mosfet@kde.org>, 2001-2002 Maksim Orlovich <mo002j@mail.rochester.edu>, 
+ kstyles/light/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/light/light.cpp ~ MIT~   Copyright (c) 2000-2001 Trolltech AS (info@trolltech.com)
+ kstyles/light/lightstyle-v2.cpp ~ MIT ~   Copyright (c) 2000-2001 Trolltech AS (info@trolltech.com)
+ kstyles/light/lightstyle-v2.h ~ MIT ~   Copyright (c) 2000-2001 Trolltech AS (info@trolltech.com)
+ kstyles/light/lightstyle-v3.cpp ~ MIT ~   Copyright (c) 2000-2001 Trolltech AS (info@trolltech.com)
+ kstyles/light/lightstyle-v3.h ~ MIT ~   Copyright (c) 2000-2001 Trolltech AS (info@trolltech.com)
+ kstyles/Mainpage.dox ~ XXXX
+ kstyles/Messages.sh ~ unspec ~ unspec
+ kstyles/oxygen/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/oxygen/config/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/oxygen/config/config.cpp ~ unspec ~ unspec
+ kstyles/oxygen/config/config.h ~ unspec ~ unspec
+ kstyles/oxygen/config/config.pro ~ unspec ~ unspec
+ kstyles/oxygen/config/config.qrc ~ unspec ~ unspec
+ kstyles/oxygen/config/config.ui ~ unspec ~ unspec
+ kstyles/oxygen/config/oxygen.png ~ unspec ~ unspec
+ kstyles/oxygen/debug.h ~ unspec ~ unspec
+ kstyles/oxygen/drawcomplexcontrol.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/drawcontrol.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/drawprimitive.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/eventkiller.h ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/genpixmaps.cpp ~ unspec ~ unspec
+ kstyles/oxygen/gradients.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/gradients.h ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/inlinehelp.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/makros.h ~ unspec ~ unspec
+ kstyles/oxygen/oxrender.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/oxrender.h ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/oxygen.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/oxygen.h ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/oxygen.themerc ~ unspec ~ unspec
+ kstyles/oxygen/picturepusher/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/oxygen/picturepusher/main.cpp ~ LGPLv2h ~  *   Copyright (C) 2007 by Thomas L�bking                                  
+ kstyles/oxygen/picturepusher/opp.h ~ LGPLv2h ~  *   Copyright (C) 2007 by Thomas L�bking                                 
+ kstyles/oxygen/pixelmetric.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/qsubcmetrics.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/README ~ unspec ~ unspec
+ kstyles/oxygen/sizefromcontents.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/stdpix.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/styleanimator.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/styleanimator.h ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/stylehint.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/tileset.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/tileset.h ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/t_render1.cpp ~ unspec ~ unspec
+ kstyles/oxygen/visualframe.cpp ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/oxygen/visualframe.h ~ LGPLv2 ~    Copyright (C) 2006-2007 Thomas Luebking <thomas.luebking@web.de>
+ kstyles/plastik/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/plastik/config/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/plastik/config/plastikconf.cpp ~ LGPLv2 ~ Copyright (C) 2003 Sandro Giessl <ceebx@users.sourceforge.net>, 2003 Maksim Orlovich <maksim.orlovich@kdemail.net>
+ kstyles/plastik/config/plastikconf.h ~ LGPLv2 ~ Copyright (C) 2003 Sandro Giessl <ceebx@users.sourceforge.net>, 2003 Maksim Orlovich <maksim.orlovich@kdemail.net>
+ kstyles/plastik/misc.cpp ~ LGPLv2 ~  * Copyright 2003, Sandro Giessl <ceebx@users.sourceforge.net>
+ kstyles/plastik/misc.h ~ LGPLv2 ~  * Copyright 2003, Sandro Giessl <ceebx@users.sourceforge.net>
+ kstyles/plastik/plastik.cpp ~ LGPLv2 ~    Copyright (C) 2003-2005 Sandro Giessl <sandro@giessl.com>
+ kstyles/plastik/plastik.h ~ LGPLv2 ~    Copyright (C) 2003-2005 Sandro Giessl <sandro@giessl.com>
+ kstyles/riscos/* ~ unspec ~ unspec
+ kstyles/themes/* ~ unspec ~ unspec
+ kstyles/web/CMakeLists.txt ~ unspec ~ unspec
+ kstyles/web/plugin.cpp ~ unspec ~ unspec
+ kstyles/web/README ~ unspec ~ unspec
+ kstyles/web/webstyle.cpp ~ LGPLv2h ~  *  Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kstyles/web/webstyle.h ~ LGPLv2h ~  *  Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kstyles/web/web.themerc ~ unspec ~ unspec
+ 
 
  kwallet/backend/blockcipher.cc	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>
  kwallet/backend/blockcipher.h	LGPLv2h	(C) 2001 George Staikos <staikos@kde.org>
@@ -2646,7 +2744,6 @@ kjsembed
 
 knotify
 
-kstyles
 
 -------------------------------------------------------------------------------
 Legend:
