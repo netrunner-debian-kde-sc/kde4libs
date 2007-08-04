@@ -598,133 +598,131 @@ detailed above or are not licensed under the GPLv2.
  kdecore/localization/kuitsemantics.cpp ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
  kdecore/localization/kuitsemantics_p.h ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
 
-
- kdecore/network/config-network.h.cmake
- kdecore/network/ConfigureChecks.cmake
- kdecore/network/ipv6blacklist
- kdecore/network/k3bufferedsocket.cpp
- kdecore/network/k3bufferedsocket.h
- kdecore/network/k3clientsocketbase.cpp
- kdecore/network/k3clientsocketbase.h
- kdecore/network/k3datagramsocket.cpp
- kdecore/network/k3datagramsocket.h
- kdecore/network/k3httpproxysocketdevice.cpp
- kdecore/network/k3httpproxysocketdevice.h
- kdecore/network/k3iobuffer.h
- kdecore/network/k3resolver.cpp
- kdecore/network/k3resolver.h
- kdecore/network/k3resolvermanager.cpp
- kdecore/network/k3resolver_p.h
- kdecore/network/k3resolverstandardworkers.cpp
- kdecore/network/k3resolverstandardworkers_p.h
- kdecore/network/k3resolverworkerbase.cpp
- kdecore/network/k3resolverworkerbase.h
- kdecore/network/k3reverseresolver.cpp
- kdecore/network/k3reverseresolver.h
- kdecore/network/k3serversocket.cpp
- kdecore/network/k3serversocket.h
- kdecore/network/k3socketaddress.cpp
- kdecore/network/k3socketaddress.h
- kdecore/network/k3socketbase.cpp
- kdecore/network/k3socketbase.h
- kdecore/network/k3socketbuffer.cpp
- kdecore/network/k3socketbuffer_p.h
- kdecore/network/k3socketdevice.cpp
- kdecore/network/k3socketdevice.h
- kdecore/network/k3socks.cpp
- kdecore/network/k3socks.h
- kdecore/network/k3sockssocketdevice.cpp
- kdecore/network/k3sockssocketdevice.h
- kdecore/network/k3streamsocket.cpp
- kdecore/network/k3streamsocket.h
- kdecore/network/kidna.cpp
- kdecore/network/kidna.h
- kdecore/network/klocalsocket.cpp
- kdecore/network/klocalsocket.h
- kdecore/network/klocalsocket_p.h
- kdecore/network/klocalsocket_unix.cpp
- kdecore/network/klocalsocket_win.cpp
- kdecore/network/ksocketfactory.cpp
- kdecore/network/ksocketfactory.h
- kdecore/network/netsupp.cpp
- kdecore/network/netsupp.h
- kdecore/network/syssocket.h
- kdecore/network/tests
- kdecore/network/tests/CMakeLists.txt
- kdecore/network/TODO
-
+ kdecore/network/config-network.h.cmake ~ unspec ~ unspec
+ kdecore/network/ConfigureChecks.cmake ~ unspec ~ unspec
+ kdecore/network/ipv6blacklist ~ unspec ~ unspec
  
- kdecore/services/kfoldermimetype.cpp
- kdecore/services/kfoldermimetype.h
- kdecore/services/kmimemagicrule.cpp
- kdecore/services/kmimemagicrule_p.h
- kdecore/services/kmimetype.cpp
- kdecore/services/kmimetypefactory.cpp
- kdecore/services/kmimetypefactory.h
- kdecore/services/kmimetype.h
- kdecore/services/kmimetype_p.h
- kdecore/services/kmimetypetrader.cpp
- kdecore/services/kmimetypetrader.h
- kdecore/services/kplugininfo.cpp
- kdecore/services/kplugininfo.desktop
- kdecore/services/kplugininfo.h
- kdecore/services/kservice.cpp
- kdecore/services/kservicefactory.cpp
- kdecore/services/kservicefactory.h
- kdecore/services/kservice.h
- kdecore/services/kserviceoffer.cpp
- kdecore/services/kserviceoffer.h
- kdecore/services/kservicetype.cpp
- kdecore/services/kservicetypefactory.cpp
- kdecore/services/kservicetypefactory.h
- kdecore/services/kservicetype.h
- kdecore/services/kservicetype_p.h
- kdecore/services/kservicetypeprofile.cpp
- kdecore/services/kservicetypeprofile.h
- kdecore/services/kservicetypeprofile_p.h
- kdecore/services/kservicetypetrader.cpp
- kdecore/services/kservicetypetrader.h
- kdecore/services/ktraderparse.cpp
- kdecore/services/ktraderparse_p.h
- kdecore/services/ktraderparsetree.cpp
- kdecore/services/ktraderparsetree_p.h
- kdecore/services/lex.c
- kdecore/services/lex.l
- kdecore/services/regen.sh
- kdecore/services/yacc.c
- kdecore/services/yacc.h
- kdecore/services/yacc.y
+ kdecore/network/k3bufferedsocket.cpp ~ MIT ~ (C) 2003-2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3bufferedsocket.h ~ MIT ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3clientsocketbase.cpp ~ MIT ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3clientsocketbase.h ~ MIT~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3datagramsocket.cpp ~ MIT ~ (C) 2003,2004 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3datagramsocket.h ~ MIT ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3httpproxysocketdevice.cpp ~ MIT ~ (C) 2003 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3httpproxysocketdevice.h ~ LGPLv2 ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3iobuffer.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3resolver.cpp ~ BSD ~ (C) 2003-2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3resolver.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3resolvermanager.cpp ~ BSD ~ (C) 2003-2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3resolver_p.h ~ BSD ~ (C) 2003-2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3resolverstandardworkers.cpp ~ BSD ~ (C) 2003,2004 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3resolverstandardworkers_p.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3resolverworkerbase.cpp ~ BSD ~ (C) 2003,2004 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3resolverworkerbase.h ~ BSD ~ (C) 2003-2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3reverseresolver.cpp ~ BSD ~ (C) 2003 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3reverseresolver.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3serversocket.cpp ~ BSD ~ (C) 2003 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3serversocket.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3socketaddress.cpp ~ BSD ~ (C) 2003 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3socketaddress.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3socketbase.cpp ~ BSD ~ (C) 2003-2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3socketbase.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3socketbuffer.cpp ~ BSD ~ (C) 2003 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3socketbuffer_p.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3socketdevice.cpp ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3socketdevice.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3socks.cpp ~ LGPLv2 ~ (C) 2001-2003 George Staikos <staikos@kde.org>
+ kdecore/network/k3socks.h ~ LGPLv2 ~ (C) 2001 George Staikos <staikos@kde.org>
+ kdecore/network/k3sockssocketdevice.cpp ~ LGPLv2h ~ (C) 2004 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3sockssocketdevice.h ~ LGPLv2h ~ (C) 2004,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3streamsocket.cpp ~ BSD ~ (C) 2003 Thiago Macieira <thiago@kde.org>
+ kdecore/network/k3streamsocket.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/kidna.cpp ~ LGPLv2h ~ (c) 2003 Waldo Bastian <bastian@kde.org>
+ kdecore/network/kidna.h ~ LGPLv2h ~ (c) 2003 Waldo Bastian <bastian@kde.org>
+ kdecore/network/klocalsocket.cpp ~ LGPLv2h ~  * Copyright (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/network/klocalsocket.h ~ LGPLv2h ~  * Copyright (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/network/klocalsocket_p.h ~ LGPLv2h ~  * Copyright (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/network/klocalsocket_unix.cpp ~ LGPLv2h ~  * Copyright (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/network/klocalsocket_win.cpp ~ LGPLv2h ~  * Copyright (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/network/ksocketfactory.cpp ~ LGPLv2h ~  * Copyright (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/network/ksocketfactory.h ~ LGPLv2h ~  * Copyright (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/network/netsupp.cpp ~ LGPLv2 ~ (C) 2000,2001 Thiago Macieira <thiago.macieira@kdemail.net>
+ kdecore/network/netsupp.h ~ LGPLv2 ~ (C) 2000-2003 Thiago Macieira <thiago.macieira@kdemail.net>>
+ kdecore/network/syssocket.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
+ kdecore/network/TODO ~ unspec ~ unspec
+ kdecore/network/tests/CMakeLists.txt ~ unspec ~ unspec
 
- kdecore/sonnet/backgroundchecker.cpp
- kdecore/sonnet/backgroundchecker.h
- kdecore/sonnet/backgroundengine.cpp
- kdecore/sonnet/backgroundengine_p.h
- kdecore/sonnet/client.cpp
- kdecore/sonnet/client_p.h
- kdecore/sonnet/filter.cpp
- kdecore/sonnet/filter_p.h
- kdecore/sonnet/loader.cpp
- kdecore/sonnet/loader_p.h
- kdecore/sonnet/settings.cpp
- kdecore/sonnet/settings_p.h
- kdecore/sonnet/sonnetspeller.desktop
- kdecore/sonnet/speller.cpp
- kdecore/sonnet/speller.h
- kdecore/sonnet/spellerplugin.cpp
- kdecore/sonnet/spellerplugin_p.h
+ kdecore/services/kfoldermimetype.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>, 2000, 2007 David Faure   <faure@kde.org>
+ kdecore/services/kfoldermimetype.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>, 2000-2007 David Faure <faure@kde.org>
+ kdecore/services/kmimemagicrule.cpp ~ LGPLv2h ~ 2007 David Faure <faure@kde.org>
+ kdecore/services/kmimemagicrule_p.h ~ LGPLv2h ~ 2007 David Faure <faure@kde.org>
+ kdecore/services/kmimetype.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>, 2000-2007 David Faure <faure@kde.org>
+ kdecore/services/kmimetypefactory.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>, 2006 David Faure <faure@kde.org>
+ kdecore/services/kmimetypefactory.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>, 2006-2007 David Faure <faure@kde.org>
+ kdecore/services/kmimetype.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>, David Faure <faure@kde.org>
+ kdecore/services/kmimetype_p.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>, David Faure <faure@kde.org>
+ kdecore/services/kmimetypetrader.cpp ~ LGPLv2 ~ (C) 2000 Torben Weis <weis@kde.org>, 2006 David Faure <faure@kde.org>
+ kdecore/services/kmimetypetrader.h ~ LGPLv2 ~ (C) 2000 Torben Weis <weis@kde.org>, 2006 David Faure <faure@kde.org>
+ kdecore/services/kplugininfo.cpp ~ LGPLv2 ~ (C) 2003,2007 Matthias Kretz <kretz@kde.org>
+ kdecore/services/kplugininfo.desktop ~ unspec ~ unspec
+ kdecore/services/kplugininfo.h ~ LGPLv2 ~ (C) 2003,2007 Matthias Kretz <kretz@kde.org>
+ kdecore/services/kservice.cpp ~ LGPLv2 ~ (C) 1999 - 2001 Waldo Bastian <bastian@kde.org>, 1999 - 2005 David Faure   <faure@kde.org>
+ kdecore/services/kservicefactory.cpp ~ LGPLv2 ~ (C) 1999-2006 David Faure <faure@kde.org>
+ kdecore/services/kservicefactory.h ~ LGPLv2h ~ (C) 1998, 1999 Torben Weis <weis@kde.org>, 2006 David Faure <faure@kde.org>
+ kdecore/services/kservice.h ~ LGPLv2h ~ (C) 1998, 1999 Torben Weis <weis@kde.org>, 1999-2006  David Faure <faure@kde.org>
+ kdecore/services/kserviceoffer.cpp ~ LGPLv2 ~ (C) 2000 Torben Weis <weis@kde.org, 2006 David Faure <faure@kde.org>
+ kdecore/services/kserviceoffer.h ~ LGPLv2 ~ (C) 2000 Torben Weis <weis@kde.org>, 2006 David Faure <faure@kde.org>
+ kdecore/services/kservicetype.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>, David Faure <faure@kde.org>
+ kdecore/services/kservicetypefactory.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/services/kservicetypefactory.h ~ LGPLv2h ~ (C) 1998, 1999 Torben Weis <weis@kde.org>
+ kdecore/services/kservicetype.h ~ LGPLv2 ~ (C) 1998, 1999 Torben Weis <weis@kde.org>
+ kdecore/services/kservicetype_p.h ~ LGPLv2h ~ Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/services/kservicetypeprofile.cpp ~ LGPLv2h ~ (C) 1999 Torben Weis <weis@kde.org>
+ (C) 2006 David Faure <faure@kde.org>
+ kdecore/services/kservicetypeprofile.h ~ LGPLv2h ~ (C) 1998, 1999 Torben Weis <weis@kde.org>, 2007 David Faure <faure@kde.org>
+ kdecore/services/kservicetypeprofile_p.h ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2006 David Faure <faure@kde.org>
+ kdecore/services/kservicetypetrader.cpp ~ LGPLv2 ~ (C) 2000 Torben Weis <weis@kde.org>, 2006 David Faure <faure@kde.org>
+ kdecore/services/kservicetypetrader.h ~ LGPLv2 ~ (C) 2000 Torben Weis <weis@kde.org>, 2006 David Faure <faure@kde.org>
+ kdecore/services/ktraderparse.cpp ~ LGPLv2h ~ (C) 1998, 1999 Torben Weis <weis@kde.org>
+ kdecore/services/ktraderparse_p.h ~ LGPLv2h ~ (C) 1998, 1999 Torben Weis <weis@kde.org>
+ kdecore/services/ktraderparsetree.cpp ~ LGPLv2h ~ (C) 1998, 1999 Torben Weis <weis@kde.org>
+ kdecore/services/ktraderparsetree_p.h ~ LGPLv2h ~ (C) 1998, 1999 Torben Weis <weis@kde.org>
+ kdecore/services/lex.c ~ unspec ~ unspec
+ kdecore/services/lex.l ~ unspec ~ unspec
+ kdecore/services/regen.sh ~ unspec ~ unspec
+ kdecore/services/yacc.c ~ LGPLv2h ~ (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+ kdecore/services/yacc.h ~ LGPLv2h ~ (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+ kdecore/services/yacc.y ~ unspec ~ unspec
 
- kdecore/sonnet/tests/CMakeLists.txt
- kdecore/sonnet/tests/test_config.cpp
- kdecore/sonnet/tests/test_core.cpp
- kdecore/sonnet/tests/test_core.h
- kdecore/sonnet/tests/test.cpp
- kdecore/sonnet/tests/test_dialog.cpp
- kdecore/sonnet/tests/test_dialog.h
- kdecore/sonnet/tests/test_filter.cpp
- kdecore/sonnet/tests/test_filter.h
- kdecore/sonnet/textbreaks.cpp
- kdecore/sonnet/textbreaks_p.h
- kdecore/standard_weak.nmcheck
+
+ kdecore/sonnet/backgroundchecker.cpp ~ LGPLv2h ~   (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/backgroundchecker.h ~ LGPLv2h ~  (C)  2004  Zack Rusin <zack@kde.org>  kdecore/sonnet/backgroundengine.cpp ~ LGPLv2h ~ (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/backgroundengine_p.h ~ LGPLv2h ~ (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/client.cpp ~ LGPLv2h ~ (C)  2003  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/client_p.h ~ LGPLv2h ~ (C)  2003  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/filter.cpp ~ LGPLv2h ~ (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/filter_p.h ~ LGPLv2h ~ (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/loader.cpp ~ LGPLv2h ~ (C)  2003  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/loader_p.h ~ LGPLv2h ~ (C)  2003  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/settings.cpp ~ LGPLv2h ~ (C)  2003  Zack Rusin <zack@kde.org>, 2006  Laurent Montel <montel@kde.org>
+ kdecore/sonnet/settings_p.h ~ LGPLv2h ~ (C)  2003  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/sonnetspeller.desktop ~ unspec ~ unspec
+ kdecore/sonnet/speller.cpp ~ LGPLv2h ~ (C)  2007  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/speller.h ~ LGPLv2h ~  (C)  2007  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/spellerplugin.cpp ~ LGPLv2h ~ (C) 2006  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/spellerplugin_p.h ~ LGPLv2h ~ (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/tests/CMakeLists.txt ~ unspec ~ unspec
+ kdecore/sonnet/tests/test_config.cpp ~ LGPLv2h ~ (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/tests/test_core.cpp ~ LGPLv2h ~ (C) 2007  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/tests/test_core.h ~ LGPLv2h ~ (C) 2007 Zack Rusin <zack@kde.org>
+ kdecore/sonnet/tests/test.cpp ~ LGPLv2h ~ (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/tests/test_dialog.cpp ~ LGPLv2h ~  (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/tests/test_dialog.h ~ LGPLv2h ~  (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/tests/test_filter.cpp ~ LGPLv2h ~ (C)  2004  Zack Rusin <zack@kde.org>
+ kdecore/sonnet/tests/test_filter.h ~ LGPLv2h ~ (C)  2006 David Faure <faure@kde.org>
+ kdecore/sonnet/textbreaks.cpp ~ LGPLv2h ~ (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
+ kdecore/sonnet/textbreaks_p.h ~ LGPLv2h ~ (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
+
 
  kdecore/sycoca/kprotocolinfo.cpp
  kdecore/sycoca/kprotocolinfofactory.cpp
@@ -828,12 +826,12 @@ detailed above or are not licensed under the GPLv2.
  kdecore/tests/Paris
  kdecore/tests/startserviceby.cpp
 
- kdecore/text/kascii.cpp
- kdecore/text/kascii.h
- kdecore/text/kcodecs.cpp
- kdecore/text/kcodecs.h
- kdecore/text/kstringhandler.cpp
- kdecore/text/kstringhandler.h
+ kdecore/text/kascii.cpp ~ LGPLv2h ~ (c) 2005 Ingo Kloecker <kloecker@kde.org>
+ kdecore/text/kascii.h ~ LGPLv2 ~ (c) 2005 Ingo Kloecker <kloecker@kde.org>
+ kdecore/text/kcodecs.cpp ~ LGPLv2 ~ (C) 2000-2001 Dawit Alemayehu <adawit@kde.org>, 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kdecore/text/kcodecs.h ~ LGPLv2 ~  (C) 2000-2001 Dawit Alemayehu <adawit@kde.org>, 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kdecore/text/kstringhandler.cpp ~ LGPLv2h ~ (C) 1999 Ian Zepp (icszepp@islc.net)
+ kdecore/text/kstringhandler.h ~ LGPLv2h ~ (C) 1999 Ian Zepp (icszepp@islc.net), 2000 Rik Hemsley (rikkus) <rik@kde.org>
 
  kdecore/util/conversion_check.h
  kdecore/util/kallocator.cpp
