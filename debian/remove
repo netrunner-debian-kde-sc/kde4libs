@@ -1,0 +1,5 @@
+
+#remove :
+
+rfc2109 and rfc2965 at kdelibs-3.92.0/kioslave/http/kcookiejar/
+

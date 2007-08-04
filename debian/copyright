@@ -1589,6 +1589,62 @@ kimgio/AUTHORS ~ unspec ~ unspec
  kinit/tests/klaunchertest.cpp ~ LGPLv2 ~     Copyright (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
  kinit/wrapper.c ~ LGPLv2 ~ (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
 
+kioslave/CMakeLists.txt ~ unspec ~ unspec
+ kioslave/file/CMakeLists.txt ~ unspec ~ unspec
+ kioslave/file/file.cpp ~ LGPLv2h ~ (C) 2000-2002 Stephan Kulow <coolo@kde.org>, 2000-2002 David Faure <faure@kde.org>, 2000-2002 Waldo Bastian <bastian@kde.org>, 2006 Allan Sandfeld Jensen <sandfeld@kde.org>, 2007 Thiago Macieira <thiago@kde.org>
+ kioslave/file/file.h ~ LGPLv2 ~ (C) 2000-2002 Stephan Kulow <coolo@kde.org>, 2000-2002 David Faure <faure@kde.org>, 2000-2002 Waldo Bastian <bastian@kde.org>
+ kioslave/file/file.protocol ~ unspec ~ unspec
+ kioslave/file/kioslave_file_export.h ~ LGPLv2h ~ (C) 2007 David Faure <faure@kde.org>
+ kioslave/ftp/CMakeLists.txt ~ unspec ~ unspec
+ kioslave/ftp/ftp.cpp ~ LGPLv2h ~ (C) 2000-2006 David Faure <faure@kde.org>
+ kioslave/ftp/ftp.h ~ LGPLv2h ~ (C) 2000 David Faure <faure@kde.org>
+ kioslave/ftp/ftp.protocol ~ unspec ~ unspec
+ 
+ kioslave/http/CMakeLists.txt ~ unspec ~ unspec
+ kioslave/http/config-gssapi.h.cmake ~ unspec ~ unspec
+ kioslave/http/configure.in.bot ~ unspec ~ unspec
+ kioslave/http/http_cache_cleaner.cpp ~ MIT ~  Copyright (C) 1999-2000 Waldo Bastian (bastian@kde.org)
+ kioslave/http/http_cache_cleaner.desktop ~ unspec ~ unspec
+ kioslave/http/http.cpp ~ LGPLv2h ~    Copyright (C) 2000-2003 Waldo Bastian <bastian@kde.org>, 2000-2002 George Staikos <staikos@kde.org>, 2000-2002 Dawit Alemayehu <adawit@kde.org>, 2001,2002 Hamish Rodda <rodda@kde.org>, 2007      Nick Shaforostoff <shafff@ukr.net>
+ kioslave/http/http.h ~ LGPLv2h ~ (C) 2000,2001 Dawit Alemayehu <adawit@kde.org>, 2000,2001 Waldo Bastian <bastian@kde.org>, 2000,2001 George Staikos <staikos@kde.org>, 2001,2002 Hamish Rodda <rodda@kde.org>
+ kioslave/http/http.protocol ~ unspec ~ unspec
+ kioslave/http/https.protocol ~ unspec ~ unspec
+ 
+ kioslave/http/kcookiejar/CMakeLists.txt ~ unspec ~ unspec
+ kioslave/http/kcookiejar/domain_info ~ unspec ~ unspec
+ kioslave/http/kcookiejar/kcookiejar.cpp ~ MIT ~ (C) 1998-2000 Waldo Bastian (bastian@kde.org), 2000,2001 Dawit Alemayehu (adawit@kde.org)
+ kioslave/http/kcookiejar/kcookiejar.desktop ~ unspec ~ unspec
+ kioslave/http/kcookiejar/kcookiejar.h ~ LGPLv2 ~     Copyright (C) 1998 Waldo Bastian (bastian@kde.org)
+ kioslave/http/kcookiejar/kcookiescfg.upd ~ unspec ~ unspec
+ kioslave/http/kcookiejar/kcookieserver.cpp ~ MIT ~   Copyright (C) 1998-2000 Waldo Bastian (bastian@kde.org)
+ kioslave/http/kcookiejar/kcookieserver.h ~ LGPLv2 ~     Copyright (C) 1998 Waldo Bastian (bastian@kde.org)
+ kioslave/http/kcookiejar/kcookiewin.cpp ~ MIT ~   Copyright (C) 2000- Waldo Bastian <bastian@kde.org>, 2000- Dawit Alemayehu <adawit@kde.org>
+ kioslave/http/kcookiejar/kcookiewin.h ~ LGPLv2h ~     Copyright (C) 1998- Waldo Bastian (bastian@kde.org), 2000- Dawit Alemayehu (adawit@kde.org)
+ kioslave/http/kcookiejar/main.cpp ~ MIT ~   Copyright (C) 1998-2000 Waldo Bastian (bastian@kde.org)
+ kioslave/http/kcookiejar/netscape_cookie_spec.html ~ unspec ~ unspec
+ kioslave/http/kcookiejar/org.kde.KCookieServer.xml ~ unspec ~ unspec
+ kioslave/http/kcookiejar/qdeclareqlistint_hack.h ~ unspec ~ unspec
+ kioslave/http/kcookiejar/tests/CMakeLists.txt ~ unspec ~ unspec
+ kioslave/http/kcookiejar/tests/cookie_rfc.test ~ unspec ~ unspec
+ kioslave/http/kcookiejar/tests/cookie_saving.test ~ unspec ~ unspec
+ kioslave/http/kcookiejar/tests/cookie_settings.test ~ unspec ~ unspec
+ kioslave/http/kcookiejar/tests/cookie.test ~ unspec ~ unspec
+ kioslave/http/kcookiejar/tests/kcookiejartest.cpp ~ LGPLv2 ~     Copyright (C) 2004 Waldo Bastian (bastian@kde.org)
+ kioslave/http/README.http_cache_cleaner ~ unspec ~ unspec
+ kioslave/http/README.webdav ~ unspec ~ unspec
+ kioslave/http/RFCs ~ unspec ~ unspec
+ kioslave/http/shoutcast-icecast.txt ~ unspec ~ unspec
+ kioslave/http/THOUGHTS ~ unspec ~ unspec
+ kioslave/http/TODO ~ unspec ~ unspec
+ kioslave/http/webdav.protocol ~ unspec ~ unspec
+ kioslave/http/webdavs.protocol ~ unspec ~ unspec
+ kioslave/Mainpage.dox ~ unspec ~ unspec
+ kioslave/Messages.sh ~ unspec ~ unspec
+ kioslave/metainfo/CMakeLists.txt ~ unspec ~ unspec
+ kioslave/metainfo/metainfo.cpp ~ LGPLv2 ~     Copyright (C) 2002 Rolf Magnus <ramagnus@kde.org>
+ kioslave/metainfo/metainfo.h ~ LGPLv2 ~     Copyright (C) 2002 Rolf Magnus <ramagnus@kde.org>
+ kioslave/metainfo/metainfo.protocol ~ unspec ~ unspec
+
  kjs/array_instance.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
  kjs/array_object.cpp ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc., 2003 Peter Kelly (pmk@post.com), 2006 Alexey Proskuryakov (ap@nypop.com)
  kjs/array_object.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
@@ -2952,7 +3008,7 @@ khtml
 
 
 kio
-kioslave
+
 
 kjsembed
 
