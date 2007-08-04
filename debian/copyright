@@ -49,8 +49,31 @@ the GNU Free Documentation License:
   The full text of the GNU Free Documentation License is available on
   Debian systems in /usr/share/common-licenses/GFDL-1.2
 
+
+Files under kdoctools:
+As you can read at kdoctools/LICENSE all the files provided under this
+directory are under the following license:
+
+    | Permission is hereby granted, free of charge, to any person obtaining a copy
+    | of this software and associated documentation files (the "Software"), to deal
+    | in the Software without restriction, including without limitation the rights
+    | to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    | copies of the Software, and to permit persons to whom the Software is
+    | furnished to do so, subject to the following conditions:
+    | 
+    | The above copyright notice and this permission notice shall be included in
+    | all copies or substantial portions of the Software.
+    | 
+    | THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    | IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    | FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+    | AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+    | AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+    | CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
 Files under include/
- 
+
 Files under kate/
   As you can read at kate/README:
   The Kate Part and its interfaces are licensed under the LGPL version 2,
@@ -338,8 +361,7 @@ TODO: fix format
  kde3support/tests/krfcdatetest.cpp ~ unspec ~ unspec
  kde3support/tests/krfcdatetest.h ~ unspec ~ unspec
 
- kdecore/all_languages.desktop ~ unspec ~ unspec
- kdecore/CMakeLists.txt ~ unspec ~ unspec
+
  kdecore/compression/* ~ LGPLv2 ~ (C) 2000-2005 David Faure 
  kdecore/config/kconfigbackend.cpp ~ GPLv2h ~ (C) 1999 Preston Brown, 1997-1999 Matthias Kalle Dalheime
  kdecore/config/kconfigbackend.h ~ GPLv2h ~ (C) 1999 Preston Brown, 1997 Matthias Kalle Dalheimer
@@ -378,9 +400,6 @@ TODO: fix format
  kdecore/date/ktzfiletimezone.cpp ~ LGPLv2 ~ (c) 2005-2007 David Jarvie
  kdecore/date/ktzfiletimezone.h ~ LGPLv2 ~ (c) 2005-2007 David Jarvie
  kdecore/doc/* ~ unspec ~ unspec
- kdecore/kdecore_export.h ~ LGPLv2h ~ 2007 David Faure
- kdecore/fakes.c ~ LGPLv2 ~ (C) 2000 Stephan Kulow,  2002 Dirk Mueller, 2002 Oswald Buddenhagen, 2003 Joseph Wenninger, 
-                                2005 Jaroslaw Staniek, 2007 Rafael Fernández López
 
  kdecore/io/k3processcontroller.cpp ~ LGPLv2h ~ (C) 1997 Christian Czezakte (e9025461@student.tuwien.ac.at)
  kdecore/io/k3processcontroller.h ~ LGPLv2h ~ (C) 1997 Christian Czezakte (e9025461@student.tuwien.ac.at)
@@ -446,62 +465,74 @@ TODO: fix format
  kdecore/kconfig_compiler/README.dox ~ unspec ~ unspec
  kdecore/kconfig_compiler/TODO ~ unspec ~ unspec
 
+ kdecore/all_languages.desktop ~ unspec ~ unspec
+ kdecore/CMakeLists.txt ~ unspec ~ unspec
+ kdecore/fakes.c ~ LGPLv2 ~ (C) 2000 Stephan Kulow,  2002 Dirk Mueller, 2002 Oswald Buddenhagen, 2003 Joseph Wenninger, 
+                                2005 Jaroslaw Staniek, 2007 Rafael Fernández López
+
  kdecore/kdebug.areas ~ unspec ~ unspec
  kdecore/kdebugrc ~ unspec ~ unspec
  kdecore/kde-config.cpp ~ LGPLv2h ~ (c) 2006-2007 Christian Ehrlicher, 2000-2007 Stephan Kulow <coolo@kde.org>
  kdecore/kdefakes.h.cmake ~ LGPLv2 ~ (c) 2006 The KDE Project
+ kdecore/Mainpage.dox ~ XXXX
+ kdecore/libkdecore.nmcheck ~ unspec ~ unspec
+ kdecore/libkdecore_weak.nmcheck ~ unspec ~ unspec
+ kdecore/libqt-mt.nmcheck ~ unspec ~ unspec
+ kdecore/libqt-mt_weak.nmcheck ~ unspec ~ unspec
+ kdecore/kdecore.nmcheck
+ kdecore/kdecore.pc.in ~ unspec ~ unspec
+ kdecore/kdecore_export.h ~ LGPLv2h ~ 2007 David Faure
+ kdecore/MAINTAINERS ~ unspec ~ unspec
+ kdecore/README ~ unspec ~ unspec
+ kdecore/standard_weak.nmcheck ~ unspec ~ unspec
 
- kdecore/kernel/kaboutdata.cpp
- kdecore/kernel/kaboutdata.h
- kdecore/kernel/kauthorized.cpp
- kdecore/kernel/kauthorized.h
- kdecore/kernel/kautostart.cpp
- kdecore/kernel/kautostart.h
- kdecore/kernel/kcmdlineargs.cpp
- kdecore/kernel/kcmdlineargs.h
- kdecore/kernel/kcomponentdata.cpp
- kdecore/kernel/kcomponentdata.h
- kdecore/kernel/kcomponentdata_p.h
- kdecore/kernel/kglobal.cpp
- kdecore/kernel/kglobal.h
- kdecore/kernel/kglobal_p.h
- kdecore/kernel/kkernel_win.cpp
- kdecore/kernel/kkernel_win.h
- kdecore/kernel/kstandarddirs.cpp
- kdecore/kernel/kstandarddirs.h
- kdecore/kernel/ktoolinvocation.cpp
- kdecore/kernel/ktoolinvocation.h
- kdecore/kernel/ktoolinvocation_win.cpp
- kdecore/kernel/ktoolinvocation_x11.cpp
+ kdecore/kernel/kaboutdata.h ~ LGPLv2h ~ (C) 2000 Espen Sand (espen@kde.org)
+ kdecore/kernel/kaboutdata.cpp ~ LGPLv2h ~ (C) 2000 Espen Sand (espen@kde.org), 2006 Nicolas GOUTTE <goutte@kde.org>
+ kdecore/kernel/kauthorized.cpp ~ LGPLv2h ~ (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org), 1998, 1999, 2000 Waldo Bastian <bastian@kde.org>
+ kdecore/kernel/kauthorized.h ~ LGPLv2h ~ (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org), 1998, 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/kernel/kautostart.cpp ~ LGPLv2h ~ (C) 2006 Aaron Seigo <aseigo@kde.org>
+ kdecore/kernel/kautostart.h ~ LGPLv2h ~ (C) 2006 Aaron Seigo <aseigo@kde.org>
+ kdecore/kernel/kcmdlineargs.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/kernel/kcmdlineargs.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/kernel/kcomponentdata.cpp ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2007 Matthias Kretz <kretz@kde.org>
+ kdecore/kernel/kcomponentdata.h ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2007 Matthias Kretz <kretz@kde.org>
+ kdecore/kernel/kcomponentdata_p.h ~ LGPLv2 ~ (C) 2007 Matthias Kretz <kretz@kde.org>
+ kdecore/kernel/kglobal.cpp ~ LGPLv2 ~ (C) 1999 Sirtaj Singh Kanq <taj@kde.org>, 2007 Matthias Kretz <kretz@kde.org>
+ kdecore/kernel/kglobal.h ~ LGPLv2 ~ (C) 1999 Sirtaj Singh Kanq <taj@kde.org>, 2007 Matthias Kretz <kretz@kde.org>
+ kdecore/kernel/kglobal_p.h ~ LGPLv2 ~ (C) 1999 Sirtaj Singh Kanq <taj@kde.org> 2007 Matthias Kretz <kretz@kde.org>
+ kdecore/kernel/kkernel_win.cpp ~ LGPLv2 ~ (C) 2007 Christian Ehrlicher <ch.ehrlicher@gmx.de>
+ kdecore/kernel/kkernel_win.h ~ LGPLv2 ~ (C) 2007 Christian Ehrlicher <ch.ehrlicher@gmx.de>
+ kdecore/kernel/kstandarddirs.cpp ~ LGPLv2 ~ (C) 1999 Sirtaj Singh Kang <taj@kde.org>, 1999,2007 Stephan Kulow <coolo@kde.org>, 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/kernel/kstandarddirs.h ~ LGPLv2 ~ (C) 1999 Sirtaj Singh Kang <taj@kde.org>,, 1999 Stephan Kulow <coolo@kde.org>, 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/kernel/ktoolinvocation.cpp ~ LGPLv2h ~ (C) 2005 Brad Hards <bradh@frogmouth.net>, 2006 Thiago Macieira <thiago@kde.org>
+ kdecore/kernel/ktoolinvocation.h ~ LGPLv2h ~ (c) 1997-1999 Matthias Kalle Dalheimer <kalle@kde.org>, 1997-2000 Matthias Ettrich <ettrich@troll.no>, 1998-2005 Stephan Kulow <coolo@kde.org>, 1999-2004 Waldo Bastian <bastian@kde.org>, 2001-2005 Lubos Lunak <l.lunak@kde.org>
+ kdecore/kernel/ktoolinvocation_win.cpp ~ LGPLv2 ~ (C) 2004 Jaroslaw Staniek <js@iidea.pl>,  2006 Ralf Habacker <ralf.habacker@freenet.de>
+ kdecore/kernel/ktoolinvocation_x11.cpp ~ LGPLv2h ~ (c) 1997,1998 Matthias Kalle Dalheimer <kalle@kde.org>, 2006 Thiago Macieira <thiago@kde.org>, 2003,2004 Oswald Buddenhagen <ossi@kde.org>, 2000-2004 Frerich Raabe <raabe@kde.org>, 1999 Espen Sand <espen@kde.org>
 
- kdecore/libqt-mt.nmcheck
- kdecore/libqt-mt_weak.nmcheck
+ kdecore/localization/gettext.h ~ LGPLv2 ~ (C) 1995-1998, 2000-2002, 2004-2006 Free Software Foundation, Inc.
+ kdecore/localization/guess_ja.cpp ~ BSD ~  * Copyright 2000-2003 Shiro Kawai <shiro@acm.org>, All rights reserved.
+ kdecore/localization/guess_ja_p.h ~ BSD ~  * Copyright 2000-2003 Shiro Kawai <shiro@acm.org>, All rights reserved.
+ kdecore/localization/kcatalog.cpp ~ LGPLv2h ~ (c) 2001 Hans Petter Bieker <bieker@kde.org>
+ kdecore/localization/kcatalog.h ~ LGPLv2h ~ (c) 2001 Hans Petter Bieker <bieker@kde.org>
+ kdecore/localization/kcharsets.cpp ~ LGPLv2h ~ (C) 1999 Lars Knoll (knoll@kde.org), 2001, 2003, 2004, 2005, 2006 Nicolas GOUTTE <goutte@kde.org>, 2007 Nick Shaforostoff <shafff@ukr.net>
+ kdecore/localization/kcharsets.h ~ LGPLv2h ~ (C) 1999 Lars Knoll (knoll@kde.org)
+ kdecore/localization/kencodingdetector.cpp ~ LGPLv2h ~ (C) 1999 Lars Knoll (knoll@kde.org), 2003 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc., 2007 Nick Shaforostoff (shafff@ukr.net)
+ kdecore/localization/kencodingdetector.h ~ LGPLv2h ~ (C) 1999 Lars Knoll (knoll@mpi-hd.mpg.de), 2007 Nick Shaforostoff (shafff@ukr.net)
+ kdecore/localization/kentities.c ~ LGPLv2h ~  (C) 1999 Lars Knoll (knoll@mpi-hd.mpg.de)
+ kdecore/localization/kentities.gperf ~ LGPLv2h ~  (C) 1999 Lars Knoll (knoll@mpi-hd.mpg.de)
+ kdecore/localization/klocale.cpp ~ LGPLv2 ~ (c) 1997,2001 Stephan Kulow <coolo@kde.org>, 1999 Preston Brown <pbrown@kde.org>, 1999-2002 Hans Petter Bieker <bieker@kde.org>, 2002 Lukas Tinkl <lukas@kde.org>
+ kdecore/localization/klocale.h ~ LGPLv2h ~ (C) 1997 Stephan Kulow <coolo@kde.org>, 1999-2003 Hans Petter Bieker <bieker@kde.org>, 2002 Lukas Tinkl <lukas@kde.org>
+ kdecore/localization/klocalizedstring.cpp ~ LGPLv2h ~ (C) 2006 Chusslove Illich <caslav.ilic@gmx.net>
+ kdecore/localization/klocalizedstring.h ~ LGPLv2h ~ (C) 2006 Chusslove Illich <caslav.ilic@gmx.net>
+ kdecore/localization/ktranscript.cpp ~ LGPLhv2 ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
+ kdecore/localization/ktranscript_p.h ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
+ kdecore/localization/ktranslit.cpp ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
+ kdecore/localization/ktranslit_p.h ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
+ kdecore/localization/kuitformats.cpp ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
+ kdecore/localization/kuitformats_p.h ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
+ kdecore/localization/kuitsemantics.cpp ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
+ kdecore/localization/kuitsemantics_p.h ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
 
- kdecore/localization/gettext.h
- kdecore/localization/guess_ja.cpp
- kdecore/localization/guess_ja_p.h
- kdecore/localization/kcatalog.cpp
- kdecore/localization/kcatalog.h
- kdecore/localization/kcharsets.cpp
- kdecore/localization/kcharsets.h
- kdecore/localization/kencodingdetector.cpp
- kdecore/localization/kencodingdetector.h
- kdecore/localization/kentities.c
- kdecore/localization/kentities.gperf
- kdecore/localization/klocale.cpp
- kdecore/localization/klocale.h
- kdecore/localization/klocalizedstring.cpp
- kdecore/localization/klocalizedstring.h
- kdecore/localization/ktranscript.cpp
- kdecore/localization/ktranscript_p.h
- kdecore/localization/ktranslit.cpp
- kdecore/localization/ktranslit_p.h
- kdecore/localization/kuitformats.cpp
- kdecore/localization/kuitformats_p.h
- kdecore/localization/kuitsemantics.cpp
- kdecore/localization/kuitsemantics_p.h
- kdecore/Mainpage.dox
- kdecore/MAINTAINERS
 
  kdecore/network/config-network.h.cmake
  kdecore/network/ConfigureChecks.cmake
@@ -556,9 +587,7 @@ TODO: fix format
  kdecore/network/tests
  kdecore/network/tests/CMakeLists.txt
  kdecore/network/TODO
- kdecore/kdecore.nmcheck
- kdecore/kdecore.pc.in ~ unspec ~ unspec
- kdecore/README
+
  
  kdecore/services/kfoldermimetype.cpp
  kdecore/services/kfoldermimetype.h
@@ -776,8 +805,6 @@ TODO: fix format
  kdecore/util/kuser.cpp
  kdecore/util/kuser.h
  kdecore/util/qtest_kde.h
- kdecore/kdecore_weak.nmcheck
-
 
  kded/applications.menu ~ unspec ~ unspec
  kded/kbuildservicefactory.h ~ LGPLv2h ~ (C) 1999 Waldo Bastian, 1999, 2007 David Faure
@@ -860,6 +887,72 @@ TODO: fix format
  kdefx/kdefx.pc.in ~ unspec ~ unspec
  kdefx/kdefx_weak.nmcheck ~ unspec ~ unspec
 
+ kfile/CMakeLists.txt ~ unspec ~ unspec
+ kfile/k3filedetailview.cpp ~ LGPLv2h ~ (C) 1997 Stephan Kulow <coolo@kde.org>, 2000, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/k3filedetailview.h ~ LGPLv2h ~ (C) 1997 Stephan Kulow <coolo@kde.org>
+ kfile/k3fileiconview.cpp ~ LGPLv2h ~ (C) 1997 Stephan Kulow <coolo@kde.org>, 2000,2001,2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/k3fileiconview.h ~ LGPLv2h ~ (C) 1997 Stephan Kulow <coolo@kde.org>
+ kfile/k3filetreeview.cpp ~ LGPLv2 ~ (C) 2000 David Faure <faure@kde.org>, 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/k3filetreeview.h ~ LGPLv2 ~ (C) 2000 David Faure <faure@kde.org>, 2000 Carsten Pfeiffer <pfeiffer@kde.org>, 2002 Klaas Freitag <freitag@suse.de>
+ kfile/k3filetreeviewitem.cpp ~ LGPLv2 ~ (C) 2000 David Faure <faure@kde.org>, 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/k3filetreeviewitem.h ~ LGPLv2 ~ (C) 2000 David Faure <faure@kde.org>, 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/k3mimetyperesolver.cpp ~ LGPLv2 ~ (C) 2000 David Faure <faure@kde.org>, 2000 Rik Hemsley <rik@kde.org>, 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/k3mimetyperesolver.h ~ LGPLv2 ~ (C) 2000 David Faure <faure@kde.org>, 2000 Rik Hemsley <rik@kde.org>, 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/kcombiview.cpp ~ LGPLv2h ~ (C) 1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana <grana@ie.iwi.unibe.ch>
+ kfile/kcombiview.h ~ LGPLv2h ~ (C) 1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana <grana@ie.iwi.unibe.ch>
+ kfile/kdiroperator.cpp ~ LGPLv2h ~ (C) 1999,2000 Stephan Kulow <coolo@kde.org>,  1999,2000,2001,2002,2003 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/kdiroperator.h ~ LGPLv2 ~ (C) 1999 Stephan Kulow <coolo@kde.org>, 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/kdirselectdialog.cpp ~ LGPLv2 ~ (C) 2001,2002 Carsten Pfeiffer <pfeiffer@kde.org>, 2001 Michael Jarrett <michaelj@corel.com>
+ kfile/kdirselectdialog.h ~ LGPLv2 ~   Copyright (C) 2001 Michael Jarrett <michaelj@corel.com, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/kdirsortfilterproxymodel.cpp ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Dominic Battre <dominic@battre.de>, 2006 by Martin Pool <mbp@canonical.com>
+ kfile/kdirsortfilterproxymodel.h ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Dominic Battre <dominic@battre.de>, 2006 by Martin Pool <mbp@canonical.com>
+ kfile/kfilebookmarkhandler.cpp ~ LGPLv2 ~ (C) 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/kfilebookmarkhandler.h ~ LGPLv2 ~ (C) 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/kfile_export.h ~ LGPLv2h ~ (C) 2007 David Faure <faure@kde.org>
+ kfile/kfilefiltercombo.cpp ~ LGPLv2h ~ (C) Stephan Kulow <coolo@kde.org>
+ kfile/kfilefiltercombo.h ~ LGPLv2h ~ (C) Stephan Kulow <coolo@kde.org>
+ kfile/kfilemodule.cpp ~ LGPLv2h ~ 2007 David Faure <faure@kde.org>
+ kfile/kfilemodule.h ~ LGPLv2h ~ 2007 David Faure <faure@kde.org>
+ kfile/kfileplaceeditdialog.cpp ~ LGPLv2 ~ (C) 2001,2002,2003 Carsten Pfeiffer <pfeiffer@kde.org>, 2007 Kevin Ottens <ervin@kde.org>
+ kfile/kfileplaceeditdialog.h ~ LGPLv2 ~ (C) 2001,2002,2003 Carsten Pfeiffer <pfeiffer@kde.org>, 2007 Kevin Ottens <ervin@kde.org>
+ kfile/kfileplacesitem.cpp ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>
+ kfile/kfileplacesitem_p.h ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>
+ kfile/kfileplacesmodel.cpp ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>, 2007 David Faure <faure@kde.org>
+ kfile/kfileplacesmodel.h ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>, 2007 David Faure <faure@kde.org>	
+ kfile/kfileplacesselector.cpp ~ LGPLv2h ~ (C) 2006 by Peter Penz (peter.penz@gmx.at), 2007 by Kevin Ottens (ervin@kde.org) 
+ kfile/kfileplacesselector_p.h ~ LGPLv2h ~ (C) 2006 by Peter Penz (peter.penz@gmx.at), 2007 by Kevin Ottens (ervin@kde.org)                
+ kfile/kfileplacesview.cpp ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>
+ kfile/kfileplacesview.h ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>
+ kfile/kfilepreview.cpp ~ LGPLv2h ~ (C) 1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana <grana@ie.iwi.unibe.ch>, 2000 Werner Trobin <wtrobin@carinthia.com>
+ kfile/kfilepreview.h ~ LGPLv2h ~ (C) 1998 Stephan Kulow <coolo@kde.org>,  1998 Daniel Grana <grana@ie.iwi.unibe.ch>, 2000 Werner Trobin <wtrobin@carinthia.com>
+ kfile/kfiletreebranch.cpp ~ LGPLv2 ~ (C) 2000 David Faure <faure@kde.org>, 2000 Carsten Pfeiffer <pfeiffer@kde.org>, 2002 Klaas Freitag <freitag@suse.de>
+ kfile/kfiletreebranch.h ~ LGPLv2 ~ (C) 2000 David Faure <faure@kde.org>, 2000 Carsten Pfeiffer <pfeiffer@kde.org>, 2001 Klaas Freitag <freitag@suse.de>
+ kfile/kfileview.cpp ~ LGPLv2h ~ (C) 1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana <grana@ie.iwi.unibe.ch>, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/kfileview.h ~ LGPLv2h ~ (C) 1997 Stephan Kulow <coolo@kde.org>, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kfile/kfilewidget.cpp ~ LGPLv2h ~ (C) 1997, 1998 Richard Moore <rich@kde.org>, 1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana o<grana@ie.iwi.unibe.ch>, 1999,2000,2001,2002,2003 Carsten Pfeiffer <pfeiffer@kde.org>, 2003 Clarence Dang <dang@kde.org>, 2007 David Faure <faure@kde.org>
+ kfile/kfilewidget.h ~ LGPLv2h ~ (C) 1997, 1998 Richard Moore <rich@kde.org>,  1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana <grana@ie.iwi.unibe.ch>, 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>, 2007 David Faure <faure@kde.org>
+ kfile/kprotocolcombo.cpp ~ LGPLv2h ~ (C) 2006 by Aaron J. Seigo (<aseigo@kde.org>)
+ kfile/kprotocolcombo_p.h ~ LGPLv2h ~ (C) 2006 by Aaron J. Seigo (<aseigo@kde.org>)
+ kfile/kurlbutton.cpp ~ LGPLv2 ~  (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org>              
+ kfile/kurlbutton_p.h ~ LGPLv2 ~  (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org> e.org>                   
+ kfile/kurldropdownbutton.cpp ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>                      
+ kfile/kurldropdownbutton_p.h ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>                      
+ kfile/kurlnavigatorbutton.cpp ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at, 2006 by Aaron J. Seigo <aseigo@kde.org>                     
+ kfile/kurlnavigatorbutton_p.h ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org>                    
+ kfile/kurlnavigator.cpp ~ LGPLv2 ~  * Copyright (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org>, 2007 by Kevin Ottens <ervin@kde.org>, 2007 by Urs Wolfer <uwolfer @ kde.org>, 2001 Christoph Cullmann <cullmann@kde.org>, 2001 Joseph Wenninger <jowenn@kde.org>, 2001 Anders Lund <anders.lund@lund.tdcadsl.dk>
+ kfile/kurlnavigator.h ~ LGPLv2 ~  * Copyright (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org>, 2007 by Kevin Ottens <ervin@kde.org>, 2007 by Urs Wolfer <uwolfer @ kde.org>                      *
+ kfile/kurltogglebutton.cpp ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>                      *
+ kfile/kurltogglebutton_p.h ~ LGPLv2 ~  (C) 2006 by Peter Penz <peter.penz@gmx.at>                      *
+ kfile/Mainpage.dox ~ unspec ~ unspec
+ kfile/tests/CMakeLists.txt ~ unspec ~ unspec
+ kfile/tests/kdirselectdialogtest.cpp ~ unspec ~ unspec
+ kfile/tests/kfiletreeviewtest.cpp ~ LGPLv2h ~ (C) 2001 Klaas Freitag <freitag@suse.de>
+ kfile/tests/kfiletreeviewtest.h ~ LGPLv2h ~ (C) 2001 Klaas Freitag <freitag@suse.de>
+
+ kmetadata/Doxyfile ~ unspec ~ unspec
+ kmetadata/Doxyfile.cmake ~ unspec ~ unspec
+ kmetadata/ontology.rdf ~ unspec ~ unspec
+ kmetadata/README ~ unspec ~ unspec
 
 
 
@@ -1902,8 +1995,7 @@ kdeprint
 
 kdeui
 kdewidgets
-kdoctools
-kfile
+
 khtml
 kimgio
 kinit
@@ -1911,7 +2003,7 @@ kio
 kioslave
 kjs
 kjsembed
-kmetadata
+
 knewstuff
 knotify
 
