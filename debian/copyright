@@ -905,6 +905,410 @@ detailed above or are not licensed under the GPLv2.
  kded/test/test.cpp ~ unspec ~ unspec
  kded/test/kmimefileparsertest.cpp ~ LGPLv2h ~ (c) 2007 David Faure
 
+ kdeprint/ChangeLog ~ unspec ~ unspec
+ kdeprint/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/cups/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/cups/cupsaddsmb2.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsaddsmb2.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/addressdialog.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/addressdialog.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/browsedialog.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/browsedialog.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/cups/cupsdconf2/cupsdbrowsingpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdbrowsingpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdcomment.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdcomment.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdcomment.pl ~ unspec ~ unspec
+ kdeprint/cups/cupsdconf2/cupsdconf.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdconf.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsd.conf.template ~ unspec ~ Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsddialog.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsddialog.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsddirpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsddirpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdfilterpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdfilterpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdjobspage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdjobspage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdlogpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdlogpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdnetworkpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdnetworkpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdsecuritypage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdsecuritypage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdserverpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdserverpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdsplash.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cupsdsplash.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/cups_logo.png ~ unspec ~ unspec
+ kdeprint/cups/cupsdconf2/cups-util.c ~ unspec ~ unspec
+ kdeprint/cups/cupsdconf2/cups-util.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/editlist.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/editlist.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/kde_logo.png ~ unspec ~ unspec
+ kdeprint/cups/cupsdconf2/locationdialog.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/locationdialog.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/Messages.sh ~ unspec ~ unspec
+ kdeprint/cups/cupsdconf2/portdialog.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/portdialog.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/qdirlineedit.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/qdirlineedit.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/qdirmultilineedit.cpp ~ LGPLv2 ~  *  Copyright (c) 2001-2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/qdirmultilineedit.h ~ LGPLv2 ~  *  Copyright (c) 2001-2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/sizewidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/sizewidget.h ~ LGPLv2 ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/cupsdconf2/tests/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/cups/cupsdconf2/tests/main.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/{*.c, *.h, *.cpp} ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/cups/postscript.ppd.gz ~ unspec ~ unspec
+ kdeprint/cups/preview-mini.png ~ unspec ~ unspec
+ kdeprint/cups/preview.png ~ unspec ~ unspec
+ kdeprint/driver.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/driver.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/driveritem.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/driveritem.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/driverparse.c ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/driverparse.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/driverview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/driverview.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/droptionview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/droptionview.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/.emacs-dirvars ~ unspec ~ unspec
+ kdeprint/ext/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/ext/ext.print ~ unspec ~ unspec
+ kdeprint/ext/kextprinterimpl.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ext/kextprinterimpl.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ext/kmextfactory.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ext/kmextmanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ext/kmextmanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ext/kmextuimanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ext/kmextuimanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/foomatic2loader.cpp ~ LGPLv2 ~  *  Copyright (c) 2001-2003 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/foomatic2loader.h ~ LGPLv2 ~  *  Copyright (c) 2001-2003 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/foomatic/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/foomatic/foomatic.print ~ unspec ~ unspec
+ kdeprint/foomatic/kfoomaticprinterimpl.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/foomatic/kfoomaticprinterimpl.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/foomatic/kmfoomaticfactory.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/foomatic/kmfoomaticmanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/foomatic/kmfoomaticmanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/foomatic/make_driver_db_foomatic.c ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/fooparser.cpp ~ LGPLv2h ~ (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004 Free Software Foundation, Inc.
+ kdeprint/fooparser.cpp.h ~ LGPLv2 ~    Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004 Free Software Foundation, Inc.
+ kdeprint/fooparser.y ~ LGPLv2 ~  *  Copyright (c) 2001-2003 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/fooscanner.cpp ~ LGPLv2 ~  *  Copyright (c) 2001-2003 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/fooscanner.l ~ LGPLv2 ~  *  Copyright (c) 2001-2003 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kdeprintcheck.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kdeprintcheck.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kdeprintd.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kdeprintd.desktop ~ unspec ~ unspec
+ kdeprint/kdeprintd.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kdeprint_export.h ~ LGPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
+ kdeprint/kdeprintrc ~ unspec ~ unspec
+ kdeprint/kdeprintrc.upd ~ unspec ~ unspec
+ kdeprint/kfilelist.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kfilelist.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmdbentry.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmdbentry.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmfactory.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmfactory.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmjob.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmjob.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmjobmanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmjobmanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmmanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmmanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmobject.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmprinter.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmprinter.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmspecialmanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmspecialmanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmthreadjob.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmthreadjob.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmuimanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmuimanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmvirtualmanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kmvirtualmanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpcopiespage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpcopiespage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpdriverpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpdriverpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpfileselectpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpfileselectpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpfilterpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpfilterpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpgeneralpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpgeneralpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpipeprocess.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpipeprocess.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpmarginpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpmarginpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpposterpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001-2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpposterpage.h ~ LGPLv2 ~  *  Copyright (c) 2001-2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpqtpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpqtpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpreloadobject.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kpreloadobject.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprintaction.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprintaction.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprintdialog.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprintdialog.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprintdialogpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprintdialogpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprinter.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>, 2007 Thomas Zander <zander@kde.org>
+ kdeprint/kprinter.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>, 2007 Thomas Zander <zander@kde.org>
+ kdeprint/kprinterimpl.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprinterimpl.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprinterpropertydialog.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprinterpropertydialog.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprintpreview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprintpreview.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprintpreviewui.rc ~ unspec ~ unspec
+ kdeprint/kprintprocess.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kprintprocess.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kxmlcommand.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/kxmlcommand.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/lpd/gschecker.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/gschecker.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/klpdprinterimpl.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/klpdprinterimpl.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/kmlpdfactory.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/kmlpdfactory.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/kmlpdmanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/kmlpdmanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/kmlpduimanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/kmlpduimanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/lpd.print ~ unspec ~ unspec
+ kdeprint/lpd/lpdtools.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/lpdtools.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpd/make_driver_db_lpd.c ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpdunix/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/lpdunix/klpdunixprinterimpl.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpdunix/klpdunixprinterimpl.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpdunix/kmlpdunixfactory.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpdunix/kmlpdunixmanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpdunix/kmlpdunixmanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpdunix/kmlpdunixuimanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpdunix/kmlpdunixuimanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpdunix/lpdunix.print ~ unspec ~ unspec
+ kdeprint/lpr/apsdriver1 ~ unspec ~ unspec
+ kdeprint/lpr/apsdriver2 ~ unspec ~ unspec
+ kdeprint/lpr/apshandler.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/apshandler.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/lpr/editentrydialog.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/editentrydialog.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/klprfactory.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/klprprinterimpl.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/klprprinterimpl.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/kmconfiglpr.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/kmconfiglpr.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/kmlprjobmanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/kmlprjobmanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/kmlprmanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/kmlprmanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/kmlpruimanager.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/kmlpruimanager.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/lpchelper.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/lpchelper.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/lpqhelper.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/lpqhelper.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/lprhandler.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/lprhandler.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/lprngtooldriver1 ~ unspec ~ unspec
+ kdeprint/lpr/lprngtoolhandler.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/lprngtoolhandler.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/lpr.print ~ unspec ~ unspec
+ kdeprint/lpr/lprsettings.cpp ~ LGPLv2 ~  *  Copyright (c) 2001,2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/lprsettings.h ~ LGPLv2 ~  *  Copyright (c) 2001,2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/make_driver_db_lpr.c ~ LGPLv2 ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/matichandler.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/matichandler.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/matichelper.cpp ~ LGPLv2 ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/matichelper.h ~ LGPLv2 ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/printcapentry.cpp ~ LGPLv2 ~  *  Copyright (c) 2001,2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/printcapentry.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/printcapreader.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/lpr/printcapreader.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/Mainpage.dox ~ XXXX
+ kdeprint/management/cjanuswidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/cjanuswidget.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/management/jobitem.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/jobitem.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kaddprinterwizard.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kdeprint_management_module.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>, 2004  Dominique Devriese <devriese@kde.org>
+ kdeprint/management/kiconselectaction.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kiconselectaction.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigcommand.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigcommand.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigdialog.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigdialog.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigfilter.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigfilter.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigfonts.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigfonts.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfiggeneral.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfiggeneral.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigjobs.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigjobs.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigpreview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmconfigpreview.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmdbcreator.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmdbcreator.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmdriverdb.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmdriverdb.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmdriverdbwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmdriverdbwidget.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmdriverdialog.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmdriverdialog.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmiconview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmiconview.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kminfopage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kminfopage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kminstancepage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kminstancepage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmjobviewer.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmjobviewer.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmlistview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmlistview.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmmainview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmmainview.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpages.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpages.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmprinterpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmprinterview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmprinterview.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropbackend.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropbackend.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropcontainer.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropcontainer.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropdriver.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropdriver.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropertypage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropertypage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropgeneral.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropgeneral.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropmembers.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropmembers.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmpropwidget.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmspecialprinterdlg.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmspecialprinterdlg.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmtimer.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmtimer.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwbackend.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwbackend.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwclass.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwclass.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwdriver.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwdriver.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwdriverselect.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwdriverselect.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwdrivertest.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwdrivertest.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwend.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwend.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwfile.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwfile.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwinfobase.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwinfobase.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwinfopage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwinfopage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwizard.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwizard.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwizardpage.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwizardpage.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwlocal.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwlocal.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwlpd.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwlpd.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwname.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwname.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwpassword.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwpassword.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwsmb.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwsmb.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwsocket.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwsocket.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwsocketutil.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kmwsocketutil.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kvisiblebuttongroup.cpp ~ LGPLv2 ~  *  Copyright (c) 2006 Alexander Kern <alex.kern@gmx.de>
+ kdeprint/management/kvisiblebuttongroup.h ~ LGPLv2 ~  *  Copyright (c) 2006 Alexander Kern <alex.kern@gmx.de>
+ kdeprint/management/kxmlcommanddlg.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kxmlcommanddlg.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kxmlcommandselector.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/kxmlcommandselector.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/networkscanner.cpp ~ LGPLv2 ~  *  Copyright (c) 2001-2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/networkscanner.h ~ LGPLv2 ~  *  Copyright (c) 2001-2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/pluginaction.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/pluginaction.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/sidepixmap.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/sidepixmap.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/side.png ~ unspec ~ unspec
+ kdeprint/management/smbview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/smbview.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/management/tiledown.png ~ unspec ~ unspec
+ kdeprint/management/tileup.png ~ unspec ~ unspec
+ kdeprint/marginpreview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/marginpreview.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/marginvaluewidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/marginvaluewidget.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/marginwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2001-2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/marginwidget.h ~ LGPLv2 ~  *  Copyright (c) 2001-2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/Messages.sh ~ unspec ~ unspec
+ kdeprint/messagewindow.cpp ~ LGPLv2 ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/messagewindow.h ~ LGPLv2 ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/org.kde.KDEPrint.KMFactory.xml ~ unspec ~ unspec
+ kdeprint/pics/* ~ unspec ~ unspec
+ kdeprint/plugincombobox.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/plugincombobox.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/posterpreview.cpp ~ LGPLv2 ~  *  Copyright (c) 2001-2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/posterpreview.h ~ LGPLv2 ~  *  Copyright (c) 2001-2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ppdloader.cpp ~ LGPLv2 ~  *  Copyright (c) 2001-2003 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ppdloader.h ~ LGPLv2 ~  *  Copyright (c) 2001-2003 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ppdparser.cpp ~ LGPLv2h ~    Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004 Free Software Foundation, Inc.
+ kdeprint/ppdparser.cpp.h ~ LGPLv2h ~    Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004 Free Software Foundation, Inc.
+ kdeprint/ppdparser.y ~ LGPLv2 ~  *  Copyright (c) 2001-2003 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ppdscanner.cpp ~ LGPLv2 ~  *  Copyright (c) 2001-2003 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/ppdscanner.l ~ LGPLv2 ~  *  Copyright (c) 2001-2003 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/printerfilter.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/printerfilter.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/rlpr/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/rlpr/{*.cpp, *.h} ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/rlpr/rlpr.print ~ unspec ~ unspec
+ kdeprint/signal_proc.c ~ LGPLv2 ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/specials.desktop ~ unspec ~ unspec
+ kdeprint/testprint.ps ~ unspec ~ unspec
+ kdeprint/tests/back.xpm ~ unspec ~ unspec
+ kdeprint/tests/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/tests/drawdemo.cpp ~ unspec ~ (C) 1992-2000 Trolltech AS.  All rights reserved.
+ kdeprint/tests/drawdemo.h ~ unspec ~ unspec
+ kdeprint/tests/forward.xpm ~ unspec ~ unspec
+ kdeprint/tests/helpwindow.cpp ~ unspec ~ (C) 1992-2000 Trolltech AS.  All rights reserved.
+ kdeprint/tests/helpwindow.h ~ unspec ~ (C) 1992-2000 Trolltech AS.  All rights reserved.
+ kdeprint/tests/home.xpm ~ unspec ~ unspec
+ kdeprint/tests/main.cpp ~ unspec ~ (C) 1992-2000 Trolltech AS.  All rights reserved.
+ kdeprint/tests/richpage.cpp ~ unspec ~ unspec
+ kdeprint/tests/richpage.h ~ unspec ~ unspec
+ kdeprint/TODO ~ unspec ~ unspec
+ kdeprint/TODO.cups12 ~ unspec ~ unspec
+ kdeprint/tools/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/tools/escputil/CMakeLists.txt ~ unspec ~ unspec
+ kdeprint/tools/escputil/escputil.desktop ~ unspec ~ unspec
+ kdeprint/tools/escputil/escpwidget.cpp ~ LGPLv2 ~ (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/tools/escputil/escpwidget.h ~ LGPLv2 ~ Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/treecombobox.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/treecombobox.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/util.cpp ~ LGPLv2 ~ (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ kdeprint/util.h ~ LGPLv2 ~ (c) 2001 Michael Goffioul <kdeprint@swing.be>
+
 
  kdesu/client.cpp ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen 
  kdesu/client.h ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen
@@ -2050,8 +2454,6 @@ detailed above or are not licensed under the GPLv2.
 -------------------------------------------------------------------------------
 
 DIRs TODO:
-
-kdeprint
 
 kdeui
 kdewidgets
