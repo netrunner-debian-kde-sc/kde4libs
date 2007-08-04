@@ -723,108 +723,107 @@ detailed above or are not licensed under the GPLv2.
  kdecore/sonnet/textbreaks.cpp ~ LGPLv2h ~ (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
  kdecore/sonnet/textbreaks_p.h ~ LGPLv2h ~ (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
 
+ kdecore/sycoca/kprotocolinfo.cpp ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/kprotocolinfofactory.cpp ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/kprotocolinfofactory.h ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2000,2003 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/kprotocolinfo.h ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2000-2001 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/ksycoca.cpp ~ LGPLv2 ~ (C) 1999-2000 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/ksycocadict.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/ksycocadict.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/ksycocaentry.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/ksycocaentry.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/ksycocafactory.cpp ~ LGPLv2 ~ (C) 1999 David Faure <faure@kde.org>
+ kdecore/sycoca/ksycocafactory.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/ksycoca.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/sycoca/ksycocatype.h ~ LGPLv2h ~ (C) 1998, 1999 Torben Weis <weis@kde.org>, Waldo Bastian <bastian@kde.org>
 
- kdecore/sycoca/kprotocolinfo.cpp
- kdecore/sycoca/kprotocolinfofactory.cpp
- kdecore/sycoca/kprotocolinfofactory.h
- kdecore/sycoca/kprotocolinfo.h
- kdecore/sycoca/ksycoca.cpp
- kdecore/sycoca/ksycocadict.cpp
- kdecore/sycoca/ksycocadict.h
- kdecore/sycoca/ksycocaentry.cpp
- kdecore/sycoca/ksycocaentry.h
- kdecore/sycoca/ksycocafactory.cpp
- kdecore/sycoca/ksycocafactory.h
- kdecore/sycoca/ksycoca.h
- kdecore/sycoca/ksycocatype.h
-
- kdecore/tests/Cairo
- kdecore/tests/CMakeLists.txt
- kdecore/tests/cplusplustest.cpp
- kdecore/tests/dbuscalltest.cpp
- kdecore/tests/globalcleanuptest.cpp
- kdecore/tests/k3processtest.cpp
- kdecore/tests/k3processtest.h
- kdecore/tests/k3prociotest.cpp
- kdecore/tests/k3prociotest.h
- kdecore/tests/kasciitest.cpp
- kdecore/tests/kasciitest.h
- kdecore/tests/kautosavefiletest.cpp
- kdecore/tests/kautosavefiletest.h
- kdecore/tests/kautostarttest.cpp
- kdecore/tests/kautostarttest.h
- kdecore/tests/kcalendartest.cpp
- kdecore/tests/kcalendartest.h
- kdecore/tests/kcharsetstest.cpp
- kdecore/tests/kcmdlineargstest.cpp
- kdecore/tests/kconfigtest.cpp
- kdecore/tests/kconfigtest.h
- kdecore/tests/kdatetimetest.cpp
- kdecore/tests/kdatetimetest.h
- kdecore/tests/kdebugtest.cpp
- kdecore/tests/kdesktopfiletest.cpp
- kdecore/tests/kdesktopfiletest.h
- kdecore/tests/kfiltertest.cpp
- kdecore/tests/kfiltertest.h
- kdecore/tests/kglobalstatictest.cpp
- kdecore/tests/kglobaltest.cpp
- kdecore/tests/kglobaltest.h
- kdecore/tests/kjobtest.cpp
- kdecore/tests/kjobtest.h
- kdecore/tests/klibloadertest4_module.cpp
- kdecore/tests/klibloadertest4_module.h
- kdecore/tests/klibloadertest.cpp
- kdecore/tests/klibloadertest.h
- kdecore/tests/klibloadertest_module.cpp
- kdecore/tests/klibloadertest_module.h
- kdecore/tests/klocaletest.cpp
- kdecore/tests/klocaletest.h
- kdecore/tests/klocalizedstringtest.cpp
- kdecore/tests/klocalizedstringtest.h
- kdecore/tests/klocalsocketservertest.cpp
- kdecore/tests/klocalsocketservertest.h
- kdecore/tests/klocalsockettest.cpp
- kdecore/tests/klocalsockettest.h
- kdecore/tests/klockfiletest.cpp
- kdecore/tests/klockfiletest.h
- kdecore/tests/kmacroexpandertest.cpp
- kdecore/tests/kmacroexpandertest.h
- kdecore/tests/kmdcodectest.cpp
- kdecore/tests/kmemtest.cpp
- kdecore/tests/kmimetypetest.cpp
- kdecore/tests/kmimetypetest.h
- kdecore/tests/kprocesstest.cpp
- kdecore/tests/kprocesstest.h
- kdecore/tests/kptyprocesstest.cpp
- kdecore/tests/kptyprocesstest.h
- kdecore/tests/krandomsequencetest.cpp
- kdecore/tests/ksavefiletest.cpp
- kdecore/tests/ksavefiletest.h
- kdecore/tests/kservicetest.cpp
- kdecore/tests/kservicetest.h
- kdecore/tests/ksharedptrtest.cpp
- kdecore/tests/ksharedptrtest.h
- kdecore/tests/kshelltest.cpp
- kdecore/tests/kshelltest.h
- kdecore/tests/ksortablelisttest.cpp
- kdecore/tests/kstandarddirstest.cpp
- kdecore/tests/kstandarddirstest.h
- kdecore/tests/kstringhandlertest.cpp
- kdecore/tests/kstringhandlertest.h
- kdecore/tests/ktempdirtest.cpp
- kdecore/tests/ktempdirtest.h
- kdecore/tests/ktemporaryfiletest.cpp
- kdecore/tests/ktemporaryfiletest.h
- kdecore/tests/ktimezonestest.cpp
- kdecore/tests/ktimezonestest.h
- kdecore/tests/kurlmimetest.cpp
- kdecore/tests/kurlmimetest.h
- kdecore/tests/kurltest.cpp
- kdecore/tests/kurltest.h
- kdecore/tests/London
- kdecore/tests/Los_Angeles
- kdecore/tests/Paris
- kdecore/tests/startserviceby.cpp
+ kdecore/tests/Cairo ~ unspec ~ unspec
+ kdecore/tests/CMakeLists.txt ~ unspec ~ unspec
+ kdecore/tests/cplusplustest.cpp ~ LGPLv2 ~ (c) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/tests/dbuscalltest.cpp ~ unspec ~ unspec
+ kdecore/tests/globalcleanuptest.cpp ~ LGPLv2 ~ (C) 2007 Matthias Kretz <kretz@kde.org>
+ kdecore/tests/k3processtest.cpp ~ unspec ~ (C) 1997 Christian Czezatke <e9025461@student.tuwien.ac.at>
+ kdecore/tests/k3processtest.h ~ unspec ~ (c) 1997 Christian Czezatke <e9025461@student.tuwien.ac.at>
+ kdecore/tests/k3prociotest.cpp ~ unspec ~ (C) 1997 Christian Czezatke <e9025461@student.tuwien.ac.at>
+ kdecore/tests/k3prociotest.h ~ unspec ~ (c) 1997 Christian Czezatke <e9025461@student.tuwien.ac.at>
+ kdecore/tests/kasciitest.cpp ~ LGPLv2h ~ (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+ kdecore/tests/kasciitest.h ~ LGPLv2h ~ (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+ kdecore/tests/kautosavefiletest.cpp ~ LGPLv2h ~ (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
+ kdecore/tests/kautosavefiletest.h ~ LGPLv2h ~ (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
+ kdecore/tests/kautostarttest.cpp ~ LGPLv2 ~ (c) 2005 David Faure <faure@kde.org>
+ kdecore/tests/kautostarttest.h ~ LGPLv2 ~ (c) 2006 Aaron Seigo <aseigo@kde.org>
+ kdecore/tests/kcalendartest.cpp ~ unspec ~ unspec
+ kdecore/tests/kcalendartest.h ~ unspec ~ unspec
+ kdecore/tests/kcharsetstest.cpp ~ unspec ~ unspec
+ kdecore/tests/kcmdlineargstest.cpp ~ unspec ~ unspec
+ kdecore/tests/kconfigtest.cpp ~ LGPLv2h ~ (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org)
+ kdecore/tests/kconfigtest.h ~ LGPLv2h ~ (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org)
+ kdecore/tests/kdatetimetest.cpp ~ LGPLv2 ~ (c) 2005,2006 David Jarvie <software@astrojar.org.uk>
+ kdecore/tests/kdatetimetest.h ~ LGPLv2 ~ (c) 2005 David Jarvie <software@astrojar.org.uk>
+ kdecore/tests/kdebugtest.cpp ~ unspec ~ unspec
+ kdecore/tests/kdesktopfiletest.cpp ~ LGPLv2 ~ (C) 2006 David Faure   <faure@kde.org>
+ kdecore/tests/kdesktopfiletest.h ~ LGPLv2 ~ (C) 2006 David Faure   <faure@kde.org>
+ kdecore/tests/kfiltertest.cpp ~ LGPLv2 ~ (C) 2002-2005 David Faure   <faure@kde.org>
+ kdecore/tests/kfiltertest.h ~ LGPLv2 ~ (C) 2002-2005 David Faure   <faure@kde.org>
+ kdecore/tests/kglobalstatictest.cpp ~ LGPLv2 ~ (C) 2007 Matthias Kretz <kretz@kde.org>
+ kdecore/tests/kglobaltest.cpp ~ LGPLv2 ~ (C) 2007 David Faure   <faure@kde.org>
+ kdecore/tests/kglobaltest.h ~ LGPLv2 ~ (C) 2007 David Faure   <faure@kde.org>
+ kdecore/tests/kjobtest.cpp ~ LGPLv2 ~ (C) 2006 Kevin Ottens <ervin@kde.org>
+ kdecore/tests/kjobtest.h ~ LGPLv2 ~ (C) 2006 Kevin Ottens <ervin@kde.org>
+ kdecore/tests/klibloadertest4_module.cpp ~ LGPLv2 ~ (c) 2005 David Faure <faure@kde.org>
+ kdecore/tests/klibloadertest4_module.h ~ LGPLv2 ~ (c) 2005 David Faure <faure@kde.org>
+ kdecore/tests/klibloadertest.cpp ~ LGPLv2 ~ (c) 2005-2006 David Faure <faure@kde.org>
+ kdecore/tests/klibloadertest.h ~ LGPLv2 ~ (c) 2005 David Faure <faure@kde.org>
+ kdecore/tests/klibloadertest_module.cpp ~ LGPLv2 ~ (c) 2005 David Faure <faure@kde.org>
+ kdecore/tests/klibloadertest_module.h ~ LGPLv2 ~ (c) 2005 David Faure <faure@kde.org>
+ kdecore/tests/klocaletest.cpp ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>, 2007 David Jarvie <software@astrojar.org.uk>
+ kdecore/tests/klocaletest.h ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>
+ kdecore/tests/klocalizedstringtest.cpp ~ LGPLv2h ~ (C) 2006 Chusslove Illich <caslav.ilic@gmx.net>
+ kdecore/tests/klocalizedstringtest.h ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>
+ kdecore/tests/klocalsocketservertest.cpp ~ LGPLv2h ~ (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/tests/klocalsocketservertest.h ~ LGPLv2h ~ (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/tests/klocalsockettest.cpp ~ LGPLv2h ~  * Copyright (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/tests/klocalsockettest.h ~ LGPLv2h ~  * Copyright (C) 2007 Thiago Macieira <thiago@kde.org>
+ kdecore/tests/klockfiletest.cpp ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>
+ kdecore/tests/klockfiletest.h ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>
+ kdecore/tests/kmacroexpandertest.cpp ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>
+ kdecore/tests/kmacroexpandertest.h ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>
+ kdecore/tests/kmdcodectest.cpp ~ LGPLv2h ~ (C) 2000,2001 Dawit Alemayehu <adawit@kde.org>
+ kdecore/tests/kmemtest.cpp ~ unspec ~ unspec
+ kdecore/tests/kmimetypetest.cpp ~ LGPLv2 ~ (C) 2005 David Faure   <faure@kde.org>
+ kdecore/tests/kmimetypetest.h ~ LGPLv2 ~ (C) 2005 David Faure   <faure@kde.org>
+ kdecore/tests/kprocesstest.cpp ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/tests/kprocesstest.h ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/tests/kptyprocesstest.cpp ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/tests/kptyprocesstest.h ~ LGPLv2h ~ (C) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/tests/krandomsequencetest.cpp ~ LGPLv2 ~ (c) 1999 Waldo Bastian <bastian@kde.org>
+ kdecore/tests/ksavefiletest.cpp ~ LGPLv2 ~   Copyright 2006 Allen Winter <winter@kde.org>, 2006 Jaison Lee <lee.jaison@gmail.com>
+ kdecore/tests/ksavefiletest.h ~ LGPLv2 ~ (c) 2006 Peter Kümmel <syntheticpp@yahoo.com>
+ kdecore/tests/kservicetest.cpp ~ LGPLv2 ~ (C) 2006 David Faure   <faure@kde.org>
+ kdecore/tests/kservicetest.h ~ LGPLv2 ~ (C) 2006 David Faure   <faure@kde.org>
+ kdecore/tests/ksharedptrtest.cpp ~ BSD ~ (c) 2005 Frerich Raabe <raabe@kde.org>
+ kdecore/tests/ksharedptrtest.h ~ BSD ~ (c) 2005 Frerich Raabe <raabe@kde.org>
+ kdecore/tests/kshelltest.cpp ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>
+ kdecore/tests/kshelltest.h ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>
+ kdecore/tests/ksortablelisttest.cpp ~ unspec ~ unspec
+ kdecore/tests/kstandarddirstest.cpp ~ LGPLv2 ~ (c) 2006 David Faure <faure@kde.org>
+ kdecore/tests/kstandarddirstest.h ~ LGPLv2 ~ (c) 2006 David Faure <faure@kde.org>
+ kdecore/tests/kstringhandlertest.cpp ~ unspec ~ unspec
+ kdecore/tests/kstringhandlertest.h ~ unspec ~ unspec
+ kdecore/tests/ktempdirtest.cpp ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>
+ kdecore/tests/ktempdirtest.h ~ LGPLv2 ~ (c) 2005 Thomas Braxton <brax108@cox.net>
+ kdecore/tests/ktemporaryfiletest.cpp ~ Public Domain ~ unspec
+ kdecore/tests/ktemporaryfiletest.h ~ Public Domain ~ unspec
+ kdecore/tests/ktimezonestest.cpp ~ LGPLv2 ~ (c) 2005-2007 David Jarvie <software@astrojar.org.uk>
+ kdecore/tests/ktimezonestest.h ~ LGPLv2 ~ (c) 2005-2007 David Jarvie <software@astrojar.org.uk>
+ kdecore/tests/kurlmimetest.cpp ~ LGPLv2 ~ (c) 2005 David Faure <faure@kde.org>
+ kdecore/tests/kurlmimetest.h ~ LGPLv2 ~ (c) 2005 David Faure <faure@kde.org>
+ kdecore/tests/kurltest.cpp ~ LGPLv2 ~ (c) 1999-2005 Waldo Bastian <bastian@kde.org>, 2000-2005 David Faure <faure@kde.org>
+ kdecore/tests/kurltest.h ~ LGPLv2 ~ (c) 2005 David Faure <faure@kde.org>
+ kdecore/tests/London ~ unspec ~ unspec
+ kdecore/tests/Los_Angeles ~ unspec ~ unspec
+ kdecore/tests/Paris ~ unspec ~ unspec
+ kdecore/tests/startserviceby.cpp ~ LGPLv2 ~ (c) 1999 Waldo Bastian <bastian@kde.org>
 
  kdecore/text/kascii.cpp ~ LGPLv2h ~ (c) 2005 Ingo Kloecker <kloecker@kde.org>
  kdecore/text/kascii.h ~ LGPLv2 ~ (c) 2005 Ingo Kloecker <kloecker@kde.org>
@@ -833,41 +832,41 @@ detailed above or are not licensed under the GPLv2.
  kdecore/text/kstringhandler.cpp ~ LGPLv2h ~ (C) 1999 Ian Zepp (icszepp@islc.net)
  kdecore/text/kstringhandler.h ~ LGPLv2h ~ (C) 1999 Ian Zepp (icszepp@islc.net), 2000 Rik Hemsley (rikkus) <rik@kde.org>
 
- kdecore/util/conversion_check.h
- kdecore/util/kallocator.cpp
- kdecore/util/kallocator.h
- kdecore/util/kdedmodule.cpp
- kdecore/util/kdedmodule.h
- kdecore/util/kde_file.h
- kdecore/util/kdeversion.cpp
- kdecore/util/kdeversion.h.cmake
- kdecore/util/kgenericfactory.h
- kdecore/util/kgenericfactory.tcc
- kdecore/util/klauncher_iface.cpp
- kdecore/util/klauncher_iface.h
- kdecore/util/klibloader.cpp
- kdecore/util/klibloader.h
- kdecore/util/kmacroexpander.cpp
- kdecore/util/kmacroexpander.h
- kdecore/util/kmacroexpander_p.h
- kdecore/util/kmacroexpander_unix.cpp
- kdecore/util/kmacroexpander_win.cpp
- kdecore/util/krandom.cpp
- kdecore/util/krandom.h
- kdecore/util/krandomsequence.cpp
- kdecore/util/krandomsequence.h
- kdecore/util/ksharedptr.h
- kdecore/util/kshell.cpp
- kdecore/util/kshell.h
- kdecore/util/kshell_unix.cpp
- kdecore/util/kshell_win.cpp
- kdecore/util/ksortablelist.h
- kdecore/util/kstaticdeleter.cpp
- kdecore/util/kstaticdeleter.h
- kdecore/util/ktypelist.h
- kdecore/util/kuser.cpp
- kdecore/util/kuser.h
- kdecore/util/qtest_kde.h
+ kdecore/util/conversion_check.h ~ LGPLv2h ~ (c) 2006 Thomas Braxton <brax108@cox.net>
+ kdecore/util/kallocator.cpp ~ LGPLv2h ~ (C) 1999 Waldo Bastian (bastian@kde.org), 2002 Michael Matz (matz@kde.org)
+ kdecore/util/kallocator.h ~ LGPLv2h ~ (C) 1999 Waldo Bastian (bastian@kde.org), 2002 Michael Matz (matz@kde.org)
+ kdecore/util/kdedmodule.cpp ~ LGPLv2h ~ (c) 2001 Waldo Bastian <bastian@kde.org>
+ kdecore/util/kdedmodule.h ~ LGPLv2h ~ (c) 2001 Waldo Bastian <bastian@kde.org>
+ kdecore/util/kde_file.h ~ LGPLv2 ~ (C) 2001 Waldo Bastian <bastian@kde.org>, 2004 Jaroslaw Staniek <js@iidea.pl>
+ kdecore/util/kdeversion.cpp ~ LGPLv2h ~ (c) 2002 Simon Hausmann <hausmann@kde.org>, 2002 Marc Mutz <mutz@kde.org>, 2003 Andreas Beckermann <b_mann@gmx.de>
+ kdecore/util/kdeversion.h.cmake ~ LGPLv2h ~ (c) 2002 Simon Hausmann <hausmann@kde.org>, 2002 Marc Mutz <mutz@kde.org>, 2003 Andreas Beckermann <b_mann@gmx.de>
+ kdecore/util/kgenericfactory.h ~ LGPLv2h ~  * Copyright (C) 2001 Simon Hausmann <hausmann@kde.org>
+ kdecore/util/kgenericfactory.tcc ~ LGPLv2h ~  * Copyright (C) 2001 Simon Hausmann <hausmann@kde.org>
+ kdecore/util/klauncher_iface.cpp ~ unspec ~  (C) 2006 Trolltech AS. All rights reserved.
+ kdecore/util/klauncher_iface.h ~ unspec ~  (C) 2006 Trolltech AS. All rights reserved.
+ kdecore/util/klibloader.cpp ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2000 Michael Matz <matz@kde.org>
+ kdecore/util/klibloader.h ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>
+ kdecore/util/kmacroexpander.cpp ~ LGPLv2 ~ (c) 2002-2003 Oswald Buddenhagen <ossi@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
+ kdecore/util/kmacroexpander.h ~ LGPLv2h ~ (c) 2002-2003 Oswald Buddenhagen <ossi@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
+ kdecore/util/kmacroexpander_p.h ~ LGPLv2h ~ (c) 2002-2003,2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/util/kmacroexpander_unix.cpp ~ LGPLv2h ~ (c) 2002-2003 Oswald Buddenhagen <ossi@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
+ kdecore/util/kmacroexpander_win.cpp ~ LGPLv2h ~ (c) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/util/krandom.cpp ~ LGPLv2h ~ (c) 1999 Matthias Kalle Dalheimer <kalle@kde.org>, 2000 Charles Samuels <charles@kde.org>, 2005 Joseph Wenninger <kde@jowenn.at>
+ kdecore/util/krandom.h ~ LGPLv2h ~ (c) 1999 Matthias Kalle Dalheimer <kalle@kde.org>, 2000 Charles Samuels <charles@kde.org>, 2005 Joseph Wenninger <kde@jowenn.at>
+ kdecore/util/krandomsequence.cpp ~ LGPLv2h ~ (c) 1999 Sean Harmer <sh@astro.keele.ac.uk>
+ kdecore/util/krandomsequence.h ~ LGPLv2 ~ (c) 1999 Sean Harmer <sh@astro.keele.ac.uk>
+ kdecore/util/ksharedptr.h ~ BSD ~  * Copyright 2005 Frerich Raabe <raabe@kde.org>
+ kdecore/util/kshell.cpp ~ LGPLv2h ~ (c) 2003 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/util/kshell.h ~ LGPLv2h ~ (c) 2003 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/util/kshell_unix.cpp ~ LGPLv2h ~ (c) 2003 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/util/kshell_win.cpp ~ LGPLv2h ~ (c) 2007 Oswald Buddenhagen <ossi@kde.org>
+ kdecore/util/ksortablelist.h ~ LGPLv2h ~ (C) 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdecore/util/kstaticdeleter.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Stephan Kulow <coolo@kde.org>
+ kdecore/util/kstaticdeleter.h ~ LGPLv2h ~  * Copyright (C) 2000 Stephan Kulow <coolo@kde.org>
+ kdecore/util/ktypelist.h ~ MIT ~  (c) 2001 by Andrei Alexandrescu
+ kdecore/util/kuser.cpp ~ LGPLv2h ~ (C) 2002 Tim Jansen <tim@tjansen.de>
+ kdecore/util/kuser.h ~ LGPLv2h ~ (C) 2002-2003 Tim Jansen <tim@tjansen.de>, 2003 Oswald Buddenhagen <ossi@kde.org>, 2004 Jan Schaefer <j_schaef@informatik.uni-kl.de>
+ kdecore/util/qtest_kde.h ~ LGPLv2 ~ (C) 2006 David Faure <faure@kde.org>
 
  kded/applications.menu ~ unspec ~ unspec
  kded/kbuildservicefactory.h ~ LGPLv2h ~ (C) 1999 Waldo Bastian, 1999, 2007 David Faure
@@ -2051,8 +2050,6 @@ detailed above or are not licensed under the GPLv2.
 -------------------------------------------------------------------------------
 
 DIRs TODO:
-
-kdecore
 
 kdeprint
 
