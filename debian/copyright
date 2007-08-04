@@ -1309,6 +1309,80 @@ detailed above or are not licensed under the GPLv2.
  kdeprint/util.cpp ~ LGPLv2 ~ (c) 2001 Michael Goffioul <kdeprint@swing.be>
  kdeprint/util.h ~ LGPLv2 ~ (c) 2001 Michael Goffioul <kdeprint@swing.be>
 
+ kdeui/about/* ~ unspec ~ unspec
+ kdeui/actions/* ~ LGPLv2 ~  (C) 1999 Reginald Stadlbauer <reggie@kde.org>, (C) 1999 Simon Hausmann <hausmann@kde.org>, (C) 2000 Nicolas Hadacek <haadcek@kde.org>(C) 2000 Kurt Granroth <granroth@kde.org> (C) 2000 Michael Koch <koch@kde.org> (C) 2001 Holger Freyther <freyther@kde.org> (C) 2002 Ellis Whitehead <ellis@kde.org> (C) 2002 Joseph Wenninger <jowenn@kde.org> (C) 2005-2006 Hamish Rodda <rodda@kde.org> (C) 2002 Joseph Wenninger <jowenn@kde.org> (c) 2003 Jason Keirstead   <jason@keirstead.org> (c) 2006 Michel Hermier    <michel.hermier@gmail.com> (c) 2007 Nick Shaforostoff <shafff@ukr.net>
+ kdeui/CMakeLists.txt ~ unspec ~ unspec
+ kdeui/colors/40.colors ~ unspec ~ unspec
+ kdeui/colors/kcolorbutton.cpp ~ LGPLv2h ~  1997 Martin Jones (mjones@kde.org), 1999 Cristian Tibirna (ctibirna@kde.org)
+ kdeui/colors/kcolorbutton.h ~ LGPLv2h ~  1997 Martin Jones (mjones@kde.org)
+ kdeui/colors/kcolorchoosermode.h ~ LGPLv2h ~    Copyright (C) 2007 Timo A. Hummel (timo@timohummel.com)
+ kdeui/colors/kcolorcollection.cpp ~ LGPLv2 ~  1999 Waldo Bastian (bastian@kde.org)
+ kdeui/colors/kcolorcollection.h ~ LGPLv2 ~  1999 Waldo Bastian (bastian@kde.org)
+ kdeui/colors/kcolorcombo.cpp ~ LGPLv2 ~  1997 Martin Jones (mjones@kde.org), 2007 Pino Toscano (pino@kde.org), 2007 David Jarvie (software@astrojar.org.uk)
+ kdeui/colors/kcolorcombo.h ~ LGPLv2 ~  1997 Martin Jones (mjones@kde.org), 2007 David Jarvie (software@astrojar.org.uk)
+ kdeui/colors/kcolordialog.cpp ~ LGPLv2h ~  1997 Martin Jones (mjones@kde.org), 2007 Roberto Raggi (roberto@kdevelop.org)
+ kdeui/colors/kcolordialog.h ~ LGPLv2h ~  1997 Martin Jones (mjones@kde.org)
+ kdeui/colors/kcolorhelpers_p.h ~ LGPLv2h ~  * Copyright (C) 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>, 2007 Olaf Schmidt <ojschmidt@kde.org>
+ kdeui/colors/kcolormimedata.cpp ~ LGPLv2h ~    Copyright (C) 1999 Steffen Hansen (hansen@kde.org), 2005 Joseph Wenninger (jowenn@kde.org)
+ kdeui/colors/kcolormimedata.h ~ LGPLv2h ~    Copyright (C) 1999 Steffen Hansen (hansen@kde.org), 2005 Joseph Wenninger (jowenn@kde.org)
+ kdeui/colors/kcolorscheme.cpp ~ LGPLv2h ~  * Copyright (C) 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>
+ kdeui/colors/kcolorscheme.h ~ LGPLv2h ~  * Copyright (C) 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>
+ kdeui/colors/kcolorspaces.cpp ~ LGPLv2h ~  * Copyright (C) 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>, 2007 Olaf Schmidt <ojschmidt@kde.org>
+ kdeui/colors/kcolorspaces.h ~ LGPLv2h ~  * Copyright (C) 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>
+ kdeui/colors/kcolorutils.cpp ~ LGPLv2h ~  * Copyright (C) 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>, 2007 Thomas Zander <zander@kde.org>, 2007 Zack Rusin <zack@kde.org>
+ kdeui/colors/kcolorutils.h ~ LGPLv2h ~  * Copyright (C) 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>, 2007 Thomas Zander <zander@kde.org>, 2007 Zack Rusin <zack@kde.org>
+ kdeui/colors/kcolorvalueselector.cpp ~ LGPLv2h ~    Copyright (C) 1997 Martin Jones (mjones@kde.org)
+ kdeui/colors/kcolorvalueselector.h ~ LGPLv2h ~  * Copyright (C) 1997 Martin Jones (mjones@kde.org)
+ kdeui/colors/khuesaturationselect.cpp ~ LGPLv2h ~   Copyright (C) 1997 Martin Jones (mjones@kde.org)
+ kdeui/colors/khuesaturationselect.h ~ LGPLv2h ~    Copyright (C) 1997 Martin Jones (mjones@kde.org)
+ kdeui/colors/Messages.sh ~ unspec ~ unspec
+ kdeui/colors/Rainbow.colors ~ unspec ~ unspec
+ kdeui/colors/README ~ unspec ~ unspec
+ kdeui/colors/rgb.txt ~ unspec ~ unspec
+ kdeui/colors/Royal.colors ~ unspec ~ unspec
+ kdeui/colors/Web.colors ~ unspec ~ unspec
+ kdeui/config/kconfiggroupgui.cpp ~ LGPLv2h ~ 2007 Thiago Macieira <thiago@kde.org>
+ kdeui/config/kconfigskeleton.cpp ~ LGPLv2h ~      2000,2001 Cornelius Schumacher <schumacher@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
+ kdeui/config/kconfigskeleton.h ~ LGPLv2h ~  *  2001,2002,2003 Cornelius Schumacher <schumacher@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
+ kdeui/dialogs/aboutkde.png ~ unspec ~ unspec
+ kdeui/dialogs/kaboutapplicationdialog.cpp ~ LGPLv2 ~    Copyright (C) 2007 Urs Wolfer <uwolfer at kde.org>, 2000 Waldo Bastian (bastian@kde.org) and Espen Sand (espen@kde.org)
+ kdeui/dialogs/kaboutapplicationdialog.h ~ LGPLv2 ~    Copyright (C) 2007 Urs Wolfer <uwolfer at kde.org>, 2000 Waldo Bastian (bastian@kde.org) and Espen Sand (espen@kde.org)
+ kdeui/dialogs/kaboutkdedialog.cpp ~ LGPLv2 ~    Copyright (C) 2007 Urs Wolfer <uwolfer at kde.org>, 2000 Espen Sand <espen@kde.org>
+ kdeui/dialogs/kaboutkdedialog.h ~ LGPLv2 ~    Copyright (C) 2007 Urs Wolfer <uwolfer at kde.org>, 2000 Espen Sand <espen@kde.org>
+ kdeui/dialogs/kassistantdialog.cpp ~ LGPLv2 ~  2006 Olivier Goffart <ogoffart at kde.org>
+ kdeui/dialogs/kassistantdialog.h ~ LGPLv2 ~  2006 Olivier Goffart <ogoffart at kde.org>
+ kdeui/dialogs/kbugreport.cpp ~ LGPLv2h ~    Copyright (C) 1999 David Faure <faure@kde.org>
+ kdeui/dialogs/kbugreport.h ~ LGPLv2h ~    Copyright (C) 1999 David Faure <faure@kde.org>
+ kdeui/dialogs/kconfigdialog.cpp ~ LGPLv2h ~  *  Copyright (C) 2003 Benjamin C Meyer (ben+kdelibs at meyerhome dot net), 2003 Waldo Bastian <bastian@kde.org>, 2004 Michael Brade <brade@kde.org>
+ kdeui/dialogs/kconfigdialog.h ~ LGPLv2h ~  *  Copyright (C) 2003 Benjamin C Meyer (ben+kdelibs at meyerhome dot net), 2003 Waldo Bastian <bastian@kde.org>
+ kdeui/dialogs/kconfigdialogmanager.cpp ~ LGPLv2h ~  *  Copyright (C) 2003 Benjamin C Meyer (ben+kdelibs at meyerhome dot net), 2003 Waldo Bastian <bastian@kde.org>
+ kdeui/dialogs/kconfigdialogmanager.h ~ LGPLv2h ~  *  Copyright (C) 2003 Benjamin C Meyer (ben+kdelibs at meyerhome dot net), 2003 Waldo Bastian <bastian@kde.org>
+ kdeui/dialogs/kdialog.cpp ~ LGPLv2h ~  *  Copyright (C) 1998 Thomas Tanghus (tanghus@earthling.net), 1999-2000 by Espen Sand (espen@kde.org) and Holger Freyther <freyther@kde.org>, 2005-2006 by Olivier Goffart (ogoffart at kde.org)
+ kdeui/dialogs/kdialog.h ~ LGPLv2h ~  *  Copyright (C) 1998 Thomas Tanghus (tanghus@earthling.net), 1999-2000 by Espen Sand (espen@kde.org) and  Holger Freyther <freyther@kde.org>, 2005-2006 by Olivier Goffart (ogoffart at kde.org)
+ kdeui/dialogs/kdialog_p.h ~ LGPLv2 ~  2007 Matthias Kretz <kretz@kde.org>
+ kdeui/dialogs/kdialogqueue_p.h ~ LGPLv2h ~  *  Copyright (C) 1998 Thomas Tanghus (tanghus@earthling.net), 1999-2000 by Espen Sand (espen@kde.org) and Holger Freyther <freyther@kde.org>, 2005-2006 by Olivier Goffart (ogoffart at kde.org)
+ kdeui/dialogs/kedittoolbar.cpp ~ LGPLv2 ~    Copyright (C) 2000 Kurt Granroth <granroth@kde.org>, 2006 Hamish Rodda <rodda@kde.org>
+ kdeui/dialogs/kedittoolbar.h ~ LGPLv2 ~    Copyright (C) 2000 Kurt Granroth <granroth@kde.org>, 2006 Hamish Rodda <rodda@kde.org>
+ kdeui/dialogs/kinputdialog.cpp ~ LGPLv2h ~   Copyright (C) 2003 Nadeem Hasan <nhasan@kde.org>
+ kdeui/dialogs/kinputdialog.h ~ LGPLv2h ~   Copyright (C) 2003 Nadeem Hasan <nhasan@kde.org>
+ kdeui/dialogs/kmessagebox.cpp ~ LGPLv2 ~  1999 Waldo Bastian (bastian@kde.org)
+ kdeui/dialogs/kmessagebox.h ~ LGPLv2 ~  1999 Waldo Bastian (bastian@kde.org)
+ kdeui/dialogs/kmessageboxmessagehandler.cpp ~ LGPLv2 ~  2006 Michaël Larouche <michael.larouche@kdemail.net>
+ kdeui/dialogs/kmessageboxmessagehandler.h ~ LGPLv2 ~  2006 Michaël Larouche <michael.larouche@kdemail.net>
+ kdeui/dialogs/knewpassworddialog.cpp ~ LGPLv2 ~    Copyright (C) 1998 Pietro Iglio <iglio@fub.it>, 1999,2000 Geert Jansen <jansen@kde.org>, 2004,2005 Andrew Coles <andrew_coles@yahoo.co.uk>, 2007 Michaël Larouche <larouche@kde.org>
+ 
+ kdeui/dialogs/knewpassworddialog.h ~ LGPLv2 ~    Copyright (C) 1998 Pietro Iglio <iglio@fub.it>, 1999,2000 Geert Jansen <jansen@kde.org>, 2004,2005 Andrew Coles <andrew_coles@yahoo.co.uk>, 2006,2007 Olivier Goffart  <ogoffart @ kde.org>
+ kdeui/dialogs/knewpassworddialog.ui ~ unspec ~ unspec
+ kdeui/dialogs/kpassworddialog.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2007 Olivier Goffart <ogoffart at kde.org>
+ kdeui/dialogs/kpassworddialog.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2000 Dawit Alemayehu <adawit@kde.org>, 2007 Olivier Goffart <ogoffart at kde.org>
+ kdeui/dialogs/kpassworddialog.ui ~ unspec ~ unspec
+ kdeui/dialogs/kpixmapregionselectordialog.cpp ~ LGPLv2h ~  2004 Antonio Larrosa <larrosa@kde.org
+ kdeui/dialogs/kpixmapregionselectordialog.h ~ LGPLv2h ~  2004 Antonio Larrosa <larrosa@kde.org
+ kdeui/dialogs/kprogressdialog.cpp ~ LGPLv2 ~    Copyright (C) 1996 Martynas Kunigelis, 2006-2007 Urs Wolfer <uwolfer at kde.org>
+ kdeui/dialogs/kprogressdialog.h ~ LGPLv2 ~ (c) 1996 Martynas Kunigelis // krazy:exclude=copyright (email unknown), 2006-2007 Urs Wolfer <uwolfer at kde.org>
+ kdeui/dialogs/kshortcutsdialog.cpp ~ LGPLv2h ~ (C) 1998 Mark Donohoe <donohoe@kde.org> Copyright (C) 1997 Nicolas Hadacek <hadacek@kde.org> Copyright (C) 1998 Matthias Ettrich <ettrich@kde.org> Copyright (C) 2001 Ellis Whitehead <ellis@kde.org> Copyright (C) 2006 Hamish Rodda <rodda@kde.org> Copyright (C) 2007 Roberto Raggi <roberto@kdevelop.org> Copyright (C) 2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/dialogs/kshortcutsdialog.h ~ LGPLv2h ~  1997 Nicolas Hadacek <hadacek@kde.org> Copyright (C) 2001,2001 Ellis Whitehead <ellis@kde.org> Copyright (C) 2006 Hamish Rodda <rodda@kde.org> Copyright (C) 2007 Roberto Raggi <roberto@kdevelop.org> Copyright (C) 2007 Andreas Hartmetz <ahartmetz@gmail.com>
+
 
  kdesu/client.cpp ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen 
  kdesu/client.h ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen
@@ -2872,7 +2946,7 @@ knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
 
 DIRs TODO:
 
-kdeui
+kdeui (half-done)
 
 khtml
 
