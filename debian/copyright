@@ -2037,6 +2037,26 @@ knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
  knewstuff/README.knewstuff2 ~ unspec ~ unspec
  knewstuff/tests/* ~ unspec ~ unspec
 
+ knotify/CMakeLists.txt ~ unspec ~ unspec
+ knotify/config/CMakeLists.txt ~ unspec ~ unspec
+ knotify/config/knotifyconfigactionswidgetbase.ui ~ unspec ~ unspec
+ knotify/config/knotifyconfigactionswidget.cpp ~ LGPLv2 ~    Copyright (C) 2005 Olivier Goffart <ogoffart at kde.org>
+ knotify/config/knotifyconfigactionswidget.h ~ LGPLv2 ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ knotify/config/knotifyconfigelement.cpp ~ LGPLv2 ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ knotify/config/knotifyconfigelement.h ~ LGPLv2 ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ knotify/config/knotifyconfig_export.h ~ LGPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
+ knotify/config/knotifyconfigwidget.cpp ~ LGPLv2 ~    Copyright (C) 2005 Olivier Goffart <ogoffart at kde.org>
+ knotify/config/knotifyconfigwidget.h ~ LGPLv2 ~    Copyright (C) 2005 Olivier Goffart <ogoffart at kde.org>
+ knotify/config/knotifyeventlist.cpp ~ LGPLv2 ~    Copyright (C) 2005 Olivier Goffart <ogoffart at kde.org>
+ knotify/config/knotifyeventlist.h ~ LGPLv2 ~    Copyright (C) 2005 Olivier Goffart <ogoffart at kde.org>
+ knotify/PORTING.html ~ unspec ~ unspec
+ knotify/tests/CMakeLists.txt ~ unspec ~ unspec
+ knotify/tests/knotifytest.notifyrc ~ unspec ~ unspec
+ knotify/tests/knotifytestui.rc ~ unspec ~ unspec
+ knotify/tests/knotifytestview.ui ~ unspec ~ unspec
+ knotify/tests/knotifytestwindow.cpp ~ unspec ~  * Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ knotify/tests/knotifytestwindow.h ~ unspec ~  * Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ knotify/tests/main.cpp ~ unspec ~  * Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
 
  kparts/AUTHORS	unspec	unspec
  kparts/browserextension.cpp	LGPLv2h	(C) 1999 Simon Hausmann <hausmann@kde.org>, 1999 David Faure <faure@kde.org>
@@ -3173,12 +3193,7 @@ kdeui (half-done)
 
 khtml
 
-
 kio
-
-
-knotify
-
 
 -------------------------------------------------------------------------------
 Legend:
