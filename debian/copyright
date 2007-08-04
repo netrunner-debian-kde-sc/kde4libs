@@ -1520,6 +1520,85 @@ kimgio/AUTHORS ~ unspec ~ unspec
  kmetadata/ontology.rdf ~ unspec ~ unspec
  kmetadata/README ~ unspec ~ unspec
 
+knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
+ knewstuff/CMakeLists.txt ~ unspec ~ unspec
+ knewstuff/data/knewstuff.svg ~ unspec ~ unspec
+ knewstuff/doc/* ~ unspec ~ unspec
+ knewstuff/featureguide.txt ~ unspec ~ unspec
+ knewstuff/knewstuff2/CMakeLists.txt ~ unspec ~ unspec
+ knewstuff/knewstuff2/core/author.cpp ~ LGPLv2h ~ (c) 2002 Cornelius Schumacher <schumacher@kde.org>, 2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/author.h ~ LGPLv2h ~ (c) 2002 Cornelius Schumacher <schumacher@kde.org>, 2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/category.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/category.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/CLASSES ~ unspec ~ unspec
+ knewstuff/knewstuff2/core/coreengine.cpp ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/coreengine.h ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/DESIGN ~ unspec ~ unspec
+ knewstuff/knewstuff2/core/entry.cpp ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>, 2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/entry.h ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>, 2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/entryhandler.cpp ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>, 2003 - 2007 Josef Spillner <spillner@kde.org>, (c) 2007 Dirk Mueller <mueller@kde.org>
+ knewstuff/knewstuff2/core/entryhandler.h ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>,2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/entryloader.cpp ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/entryloader.h ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/feed.cpp ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/feed.h ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/installation.cpp ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/installation.h ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/ktranslatable.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/ktranslatable.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/provider.cpp ~ LGPLv2h ~ (c) 2002 Cornelius Schumacher <schumacher@kde.org>,2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/provider.h ~ LGPLv2h ~ (c) 2002 Cornelius Schumacher <schumacher@kde.org>2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/providerhandler.cpp ~ LGPLv2h ~ (c) 2002 Cornelius Schumacher <schumacher@kde.org>2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/providerhandler.h ~ LGPLv2h ~ (c) 2002 Cornelius Schumacher <schumacher@kde.org2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/providerloader.cpp ~ LGPLv2h ~ (c) 2002 Cornelius Schumacher <schumacher@kde.org>2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/providerloader.h ~ LGPLv2h ~ (c) 2002 Cornelius Schumacher <schumacher@kde.org>2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/security.cpp ~ LGPLv2h ~ (c) 2004, 2005 Andras Mantia <amantia@kde.org>2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/core/security.h ~ LGPLv2h ~ (c) 2004, 2005 Andras Mantia <amantia@kde.org>2003 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/dxs/CLASSES ~ unspec ~ unspec
+ knewstuff/knewstuff2/dxs/dxs.cpp ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/dxs/dxsengine.cpp ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/dxs/dxsengine.h ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/dxs/DXS-Engine.txt ~ unspec ~ unspec
+ knewstuff/knewstuff2/dxs/dxs.h ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/dxs/soap.cpp ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/dxs/soap.h ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/dxs/TODO ~ unspec ~ unspec
+ knewstuff/knewstuff2/engine.cpp ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/engine.h ~ LGPLv2h ~     Copyright (c) 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/knewstuff_export.h ~ LGPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
+ knewstuff/knewstuff2/ui/downloaddialog.cpp ~ LGPLv2h ~  *   Copyright (C) 2005 by Enrico Ros <eros.kde@email.it>, 2005 - 2007 Josef Spillner <spillner@kde.org> 
+ knewstuff/knewstuff2/ui/downloaddialog.h ~ LGPLv2h ~  *   Copyright (C) 2005 by Enrico Ros <eros.kde@email.it>, 2005 - 2007 Josef Spillner <spillner@kde.org>, 2007 Dirk Mueller <mueller@kde.org>
+ knewstuff/knewstuff2/ui/kdxsbutton.cpp ~ LGPLv2h ~     Copyright (c) 2005 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxsbutton.h ~ LGPLv2h ~     Copyright (c) 2005 - 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxschanges.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxschanges.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxscomment.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxscomment.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxscomments.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxscomments.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxsrating.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxsrating.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxstranslation.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxstranslation.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxsview.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/kdxsview.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/knewstuffaction.cpp ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>
+ knewstuff/knewstuff2/ui/knewstuffaction.h ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>
+ knewstuff/knewstuff2/ui/knewstuffbutton.cpp ~ LGPLv2h ~     Copyright (c) 2004 Aaron J. Seigo <aseigo@kde.org>
+ knewstuff/knewstuff2/ui/knewstuffbutton.h ~ LGPLv2h ~     Copyright (c) 2004 Aaron J. Seigo <aseigo@kde.org>
+ knewstuff/knewstuff2/ui/providerdialog.cpp ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>
+ knewstuff/knewstuff2/ui/providerdialog.h ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>
+ knewstuff/knewstuff2/ui/qasyncpixmap.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/qasyncpixmap.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/qnowtooltip.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/qnowtooltip.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/qstarframe.cpp ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/qstarframe.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/knewstuff2/ui/uploaddialog.cpp ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>
+ knewstuff/knewstuff2/ui/uploaddialog.h ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>, 2007 Josef Spillner <spillner@kde.org>
+ knewstuff/Mainpage.dox ~ XXXX
+ knewstuff/README.knewstuff2 ~ unspec ~ unspec
+ knewstuff/tests/* ~ unspec ~ unspec
 
 
  kparts/AUTHORS	unspec	unspec
@@ -2565,7 +2644,6 @@ kioslave
 kjs
 kjsembed
 
-knewstuff
 knotify
 
 kstyles
