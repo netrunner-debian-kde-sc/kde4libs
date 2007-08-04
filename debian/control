@@ -11,23 +11,6 @@ Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, shared-mime-info,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
 Standards-Version: 3.7.2
 
-Package: kdelibs
-Section: libs
-Architecture: all
-Depends: ${shlibs:Depends}, kdelibs5 (>= ${binary:Version}),
- kdelibs5-data (>= ${binary:Version}), kdelibs-bin (>= ${binary:Version})
-Description: core libraries from the official KDE 4 beta release
- KDE (the K Desktop Environment) is a powerful Open Source graphical
- desktop environment for Unix workstations. It combines ease of use,
- contemporary functionality, and outstanding graphical design with the
- technological superiority of the Unix operating system.
- .
- This metapackage includes the core KDE libraries, binaries, and data,
- needed by virtually all KDE applications. It does not include
- development files.
- .
-  Homepage: http://www.kde.org
-
 Package: kdelibs5-data
 Section: libs
 Architecture: all
