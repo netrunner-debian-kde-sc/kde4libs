@@ -1353,6 +1353,17 @@ detailed above or are not licensed under the GPLv2.
  kdefx/kdefx.pc.in ~ unspec ~ unspec
  kdefx/kdefx_weak.nmcheck ~ unspec ~ unspec
 
+ kdewidgets/AUTHORS ~ unspec ~ unspec
+ kdewidgets/classpreviews.cpp ~ LGPLv2h ~ (C) 2001 Daniel Molkentin <molkentin@kde.org>
+ kdewidgets/classpreviews.h ~ LGPLv2h ~ (C) 2001 Daniel Molkentin <molkentin@kde.org> 
+ kdewidgets/CMakeLists.txt ~ unspec ~ unspec
+ kdewidgets/kde.widgets ~ unspec ~ unspec
+ kdewidgets/kdewidgets.qrc ~ unspec ~ unspec
+ kdewidgets/makekdewidgets.cpp ~ unspec ~ Copyright (C) 2004-2005 ian reinhart geiser <geiseri@sourcextreme.com>
+ kdewidgets/pics/* ~ unspec ~ unspec
+ kdewidgets/README ~ unspec ~ unspec
+ kdewidgets/tests/* ~ unspec ~ unspec
+
  kfile/CMakeLists.txt ~ unspec ~ unspec
  kfile/k3filedetailview.cpp ~ LGPLv2h ~ (C) 1997 Stephan Kulow <coolo@kde.org>, 2000, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
  kfile/k3filedetailview.h ~ LGPLv2h ~ (C) 1997 Stephan Kulow <coolo@kde.org>
@@ -1414,6 +1425,66 @@ detailed above or are not licensed under the GPLv2.
  kfile/tests/kdirselectdialogtest.cpp ~ unspec ~ unspec
  kfile/tests/kfiletreeviewtest.cpp ~ LGPLv2h ~ (C) 2001 Klaas Freitag <freitag@suse.de>
  kfile/tests/kfiletreeviewtest.h ~ LGPLv2h ~ (C) 2001 Klaas Freitag <freitag@suse.de>
+
+kimgio/AUTHORS ~ unspec ~ unspec
+ kimgio/bmp.desktop ~ unspec ~ unspec
+ kimgio/ChangeLog ~ unspec ~ unspec
+ kimgio/CMakeLists.txt ~ unspec ~ unspec
+ kimgio/config-kimgio.h.cmake ~ unspec ~ unspec
+ kimgio/dds.cpp ~ LGPLv2h ~    Copyright (C) 2003 Ignacio Castaño <castano@ludicon.com>
+ kimgio/dds.desktop ~ unspec ~ unspec
+ kimgio/dds.h ~ LGPLv2h ~    Copyright (C) 2003 Ignacio Castaño <castano@ludicon.com>
+ kimgio/eps.cpp ~ LGPLv2 ~ * copyright (c) 1998 Dirk Schoenberger <dirk.schoenberger@freenet.de>
+ kimgio/eps.desktop ~ unspec ~ unspec
+ kimgio/eps.h ~ LGPLv2 ~ * copyright (c) 1998 Dirk Schoenberger <dirk.schoenberger@freenet.de>
+ kimgio/exr.cpp ~ LGPLv2 ~ * Copyright (c) 2003, Brad Hards <bradh@frogmouth.net>
+ kimgio/exr.desktop ~ unspec ~ unspec
+ kimgio/exr.h ~ LGPLv2 ~ * Copyright (c) 2003, Brad Hards <bradh@frogmouth.net>
+ kimgio/g3r.cpp ~ LGPLv2 ~ * copyright (c) 2000, Matthias Hölzer-Klüpfel <hoelzer@kde.org>
+ kimgio/g3r.h ~ LGPLv2 ~ * copyright (c) 2000, Matthias Hölzer-Klüpfel <hoelzer@kde.org>
+ kimgio/gif.desktop ~ unspec ~ unspec
+ kimgio/gimp.h ~ LGPLv2.1h ~  * Copyright (C) 2001 lignum Computing, Inc. <allen@lignumcomputing.com>, 2004 Melchior FRANZ <mfranz@kde.org>
+ kimgio/hdr.cpp ~ LGPLv2h ~    Copyright (C) 2005 Christoph Hormann <chris_hormann@gmx.de>, 2005 Ignacio Castaño <castanyo@yahoo.es>
+ kimgio/hdr.desktop ~ unspec ~ unspec
+ kimgio/hdr.h ~ LGPLv2h ~    Copyright (C) 2005 Christoph Hormann <chris_hormann@gmx.de>
+ kimgio/ico.cpp ~ LGPLv2 ~  * Copyright (c) 2000 Malte Starostik <malte@kde.org>
+ kimgio/ico.desktop ~ unspec ~ unspec
+ kimgio/ico.h ~ LGPLv2 ~  * Copyright (c) 2000 Malte Starostik <malte@kde.org>
+ kimgio/jp2.cpp ~ LGPLv2 ~ * copyright (c) 2002 Michael Ritzert <michael@ritzert.de>
+ kimgio/jp2.desktop ~ unspec ~ unspec
+ kimgio/jp2.h ~ LGPLv2 ~ * copyright (c) 2002 Michael Ritzert <michael@ritzert.de>
+ kimgio/jpeg.desktop ~ unspec ~ unspec
+ kimgio/Mainpage.dox ~ unspec ~ unspec
+ kimgio/mng.desktop ~ unspec ~ unspec
+ kimgio/pbm.desktop ~ unspec ~ unspec
+ kimgio/pcx.cpp ~ LGPLv2 ~    Copyright (C) 2002-2005 Nadeem Hasan <nhasan@kde.org>
+ kimgio/pcx.desktop ~ unspec ~ unspec
+ kimgio/pcx.h ~ LGPLv2 ~    Copyright (C) 2002-2003 Nadeem Hasan <nhasan@kde.org>
+ kimgio/pgm.desktop ~ unspec ~ unspec
+ kimgio/png.desktop ~ unspec ~ unspec
+ kimgio/ppm.desktop ~ unspec ~ unspec
+ kimgio/psd.cpp ~ LGPLv2 ~    Copyright (C) 2003 Ignacio Castaño <castano@ludicon.com>
+ kimgio/psd.desktop ~ unspec ~ unspec
+ kimgio/psd.h ~ LGPLv2 ~    Copyright (C) 2003 Ignacio Castaño <castano@ludicon.com>
+ kimgio/qimageio_plugin.desktop ~ unspec ~ unspec
+ kimgio/README ~ unspec ~ unspec
+ kimgio/rgb.cpp ~ LGPLv2 ~ (C) 2004  Melchior FRANZ  <mfranz@kde.org>
+ kimgio/rgb.desktop ~ unspec ~ unspec
+ kimgio/rgb.h ~ LGPLv2 ~ (C) 2004  Melchior FRANZ  <mfranz@kde.org>
+ kimgio/tga.cpp ~ LGPLv2 ~    Copyright (C) 2003 Dominik Seichter <domseichter@web.de>, 2004 Ignacio Castaño <castano@ludicon.com>
+ kimgio/tga.desktop ~ unspec ~ unspec
+ kimgio/tga.h ~ LGPLv2h ~    Copyright (C) 2003 Dominik Seichter <domseichter@web.de>
+ kimgio/tiff.desktop ~ unspec ~ unspec
+ kimgio/tiffr.cpp ~ LGPLv2 ~ * copyright (c) 1998 Sirtaj Singh Kang <taj@kde.org>
+ kimgio/tiffr.h ~ LGPLv2 ~ * copyright (c) 1998 Sirtaj Singh Kang <taj@kde.org>
+ kimgio/xbm.desktop ~ unspec ~ unspec
+ kimgio/xcf.cpp ~ LGPLv2h ~  * Copyright (C) 2001 lignum Computing, Inc. <allen@lignumcomputing.com>, 2004 Melchior FRANZ <mfranz@kde.org>
+ kimgio/xcf.desktop ~ unspec ~ unspec
+ kimgio/xcf.h ~ LGPLv2h ~  * Copyright (C) 2001 lignum Computing, Inc. <allen@lignumcomputing.com>, 2004 Melchior FRANZ <mfranz@kde.org>
+ kimgio/xpm.desktop ~ unspec ~ unspec
+ kimgio/xv.desktop ~ unspec ~ unspec
+ kimgio/xview.cpp ~ LGPLv2 ~ * copyright (c) 1998 Torben Weis <weis@kde.org>, 1999 Oliver Eiden <o.eiden@pop.ruhr.de>
+ kimgio/xview.h ~ LGPLv2 ~ * copyright (c) 1998 Torben Weis <weis@kde.org>, 1999 Oliver Eiden <o.eiden@pop.ruhr.de>
 
  kmetadata/Doxyfile ~ unspec ~ unspec
  kmetadata/Doxyfile.cmake ~ unspec ~ unspec
@@ -2456,10 +2527,9 @@ detailed above or are not licensed under the GPLv2.
 DIRs TODO:
 
 kdeui
-kdewidgets
 
 khtml
-kimgio
+
 kinit
 kio
 kioslave
