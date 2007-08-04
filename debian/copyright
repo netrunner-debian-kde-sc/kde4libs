@@ -1515,6 +1515,146 @@ kimgio/AUTHORS ~ unspec ~ unspec
  kinit/tests/klaunchertest.cpp ~ LGPLv2 ~     Copyright (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
  kinit/wrapper.c ~ LGPLv2 ~ (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
 
+ kjs/array_instance.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ kjs/array_object.cpp ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc., 2003 Peter Kelly (pmk@post.com), 2006 Alexey Proskuryakov (ap@nypop.com)
+ kjs/array_object.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/bool_object.cpp ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ kjs/bool_object.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/CMakeLists.txt ~ unspec ~ unspec
+ kjs/collector.cpp ~ LGPLv2h ~  2003, 2004, 2005, 2006 Apple Computer, Inc.
+ kjs/collector.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ kjs/CommonIdentifiers.cpp ~ LGPLv2h ~  2003, 2007 Apple Computer, Inc
+ kjs/CommonIdentifiers.h ~ LGPLv2h ~  2003,2007 Apple Computer, Inc
+ kjs/completion.h ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc
+ kjs/config.h.cmake ~ LGPLv2h ~  2002 David Faure (faure@kde.org)
+ kjs/Context.cpp ~ LGPLv2 ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003, 2006 Apple Computer, Inc.
+ kjs/context.h ~ LGPLv2h ~ (C) 1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003, 2006 Apple Computer, Inc.
+ kjs/create_hash_table ~ LGPLv2 ~ # (c) 2000-2002 by Harri Porten <porten@kde.org> and David Faure <faure@kde.org>, 2004 Nikolas Zimmermann <wildfox@kde.org>
+ kjs/create_parser ~ unspec ~ unspec
+ kjs/date_object.cpp ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2004 Apple Computer, Inc.
+ kjs/date_object.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/debugger.cpp ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com)
+ kjs/debugger.h ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com)
+ kjs/DESIGN.ideas ~ unspec ~ unspec
+ kjs/dtoa.cpp ~ MIT ~  * Copyright (c) 1991, 2000, 2001 by Lucent Technologies.
+ kjs/dtoa.h ~ LGPLv2h ~  2003 Apple Computer, Inc.
+ kjs/error_object.cpp ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ kjs/error_object.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/ExecState.cpp ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ kjs/ExecState.h ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ kjs/fpconst.cpp ~ LGPLv2 ~  2003, 2006 Apple Computer, Inc.
+ kjs/function.cpp ~ LGPLv2h ~  1999-2002 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc., 2007 Maksim Orlovich (maksim@kde.org)
+ kjs/function.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2003, 2006 Apple Computer, Inc.
+ kjs/function_object.cpp ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2003, 2004, 2005, 2006 Apple Computer, Inc.
+ kjs/function_object.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2006 Apple Computer, Inc.
+ kjs/global.h.cmake ~ LGPLv2h ~  2002 David Faure (faure@kde.org)
+ kjs/grammar.cpp ~ LGPLv2h ~    Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc., 1999-2000 Harri Porten (porten@kde.org), 2006, 2007 Apple Inc. All rights reserved.
+ kjs/grammar.h ~ LGPLv2h ~    Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006
+ kjs/grammar.y ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2006, 2007 Apple Inc. All rights reserved.
+ kjs/identifier.cpp ~ LGPLv2 ~  2003 Apple Computer, Inc
+ kjs/identifier.h ~ LGPLv2h ~  2003 Apple Computer, Inc
+ kjs/internal.cpp ~ LGPLv2h ~  1999-2002 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2004 Apple Computer, Inc.
+ kjs/internal.h ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com)
+  *  Copyright (C) 2003, 2004, 2005, 2006 Apple Computer, Inc.
+ kjs/interpreter.cpp ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ kjs/interpreter.h ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ kjs/JSImmediate.cpp ~ LGPLv2h ~ (C) 2003-2006 Apple Computer, Inc
+ kjs/JSImmediate.h ~ LGPLv2h ~ (C) 2003-2006 Apple Computer, Inc
+ kjs/JSLock.cpp ~ LGPLv2h ~ (C) 2005 Apple Computer, Inc.
+ kjs/JSLock.h ~ LGPLv2h ~ (C) 2005 Apple Computer, Inc.
+ kjs/JSType.h ~ LGPLv2h ~ (C) 2006 Apple Computer, Inc
+ kjs/JSWrapperObject.cpp ~ LGPLv2h ~ (C) 2006 Maks Orlovich <maksim@kde.org>, 2006 Apple Computer, Inc.
+ kjs/JSWrapperObject.h ~ LGPLv2h ~ (C) 2006 Maks Orlovich <maksim@kde.org>, 2006 Apple Computer, Inc.
+ kjs/keywords.table ~ unspec ~ unspec
+ kjs/kjs.cpp ~ LGPLv2h ~ (C) 2006 Harri Porten (porten@kde.org)
+ kjs/kjs-devel-gdb ~ unspec ~ unspec
+ kjs/lexer.cpp ~ LGPLv2h ~ 1999-2000 Harri Porten (porten@kde.org), 2006 Apple Computer, Inc.
+ kjs/lexer.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/libkjs.map ~ unspec ~ unspec
+ kjs/list.cpp ~ LGPLv2h ~ (C) 2003 Apple Computer, Inc.
+ kjs/list.h ~ LGPLv2h ~ (C) 1999-2001 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ kjs/lookup.cpp ~ LGPLv2h ~ (C) 1999-2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ kjs/lookup.h ~ LGPLv2h ~ (C) 1999-2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ kjs/Mainpage.dox ~ unspec ~ unspec
+ kjs/makenodes.h ~ LGPLv2h ~ (C) 1999-2000 Harri Porten (porten@kde.org), 2006 Apple Computer, Inc.
+ kjs/math_object.cpp ~ LGPLv2h ~ (C) 1999-2000 Harri Porten (porten@kde.org)
+ kjs/math_object.h ~ LGPLv2h ~ (C) 1999-2000 Harri Porten (porten@kde.org)
+ kjs/nodes2string.cpp ~ LGPLv2h ~ (C) 2002 Harri Porten (porten@kde.org), 2003, 2004, 2005, 2006, 2007 Apple Inc. All rights reserved., 2003 Apple Computer, Inc.
+ kjs/nodes.cpp ~ LGPLv2h ~ (C) 1999-2002 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003, 2004, 2005, 2006, 2007 Apple Inc. All rights reserved., 2007 Maksim Orlovich (maksim@kde.org)
+ kjs/nodes.h ~ LGPLv2h ~  (C) 1999-2000 Harri Porten (porten@kde.org),2001 Peter Kelly (pmk@post.com), 2003, 2004, 2005, 2006, 2007 Apple Inc. All rights reserved., 2007 Maksim Orlovich (maksim@kde.org)
+ kjs/number_object.cpp ~ LGPLv2h ~  (C) 1999-2000,2003 Harri Porten (porten@kde.org)
+ kjs/number_object.h ~ LGPLv2h ~ (C) 1999-2000 Harri Porten (porten@kde.org)
+ kjs/object.cpp ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003, 2004, 2005, 2006 Apple Computer, Inc., 2007 Eric Seidel (eric@webkit.org)
+ kjs/object.h ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003, 2004, 2005, 2006 Apple Computer, Inc.
+ kjs/object_object.cpp ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/object_object.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/operations.cpp ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/operations.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/package.cpp ~ LGPLv2h ~  2006-2007 Harri Porten (porten@kde.org)
+ kjs/package.h ~ LGPLv2h ~  2006-2007 Harri Porten (porten@kde.org)
+ kjs/Parser.cpp ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003, 2006 Apple Computer, Inc.
+ kjs/Parser.h ~ LGPLv2h ~ (C) 1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003, 2006 Apple Computer, Inc.
+ kjs/property_map.cpp ~ LGPLv2h ~ (C)2004, 2005, 2006 Apple Computer, Inc.
+ kjs/property_map.h ~ LGPLv2h ~  2004, 2005, 2006 Apple Computer, Inc.
+ kjs/PropertyNameArray.cpp ~ LGPLv2h ~  2006 Apple Computer, Inc
+ kjs/PropertyNameArray.h ~ LGPLv2h ~  2006 Apple Computer, Inc
+ kjs/property_slot.cpp ~ LGPLv2h ~  2005 Apple Computer, Inc.
+ kjs/property_slot.h ~ LGPLv2h ~  2005 Apple Computer, Inc.
+ kjs/protect.h ~ LGPLv2h ~  2004 Apple Computer, Inc.
+ kjs/README ~ unspec ~ unspec
+ kjs/reference.h ~ LGPLv2h ~  2007 Maksim Orlovich (maksim@kde.org)
+ kjs/regexp.cpp ~ LGPLv2h ~  1999-2001,2004 Harri Porten (porten@kde.org), 2003,2004 Apple Computer, Inc., 2006, Maksim Orlovich (maksim@kde.org)
+ kjs/regexp.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/regexp_object.cpp ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ kjs/regexp_object.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/SavedBuiltins.h ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003, 2004, 2005, 2006 Apple Computer, Inc.
+ kjs/scope_chain.cpp ~ LGPLv2h ~  2003 Apple Computer, Inc.
+ kjs/scope_chain.h ~ LGPLv2h ~  2003 Apple Computer, Inc.
+ kjs/scriptfunction.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2003, 2006 Apple Computer, Inc.
+ kjs/semantic_checker.cpp ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003, 2004, 2005, 2006 Apple Computer, Inc., 2007 Maksim Orlovich (maksim@kde.org)
+ kjs/semantic_checker.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003, 2004, 2005, 2006 Apple Computer, Inc., 2007 Maksim Orlovich (maksim@kde.org)
+ kjs/string_object.cpp ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2004 Apple Computer, Inc.
+ kjs/string_object.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org)
+ kjs/test.js ~ unspec ~ unspec
+ kjs/tests/CMakeLists.txt ~ unspec ~ unspec
+ kjs/tests/testkjs.cpp ~ LGPLv2 ~  1999-2000 Harri Porten (porten@kde.org), 2004-2006 Apple Computer, Inc., 2006 Bj�rn Graf (bjoern.graf@gmail.com)
+ kjs/THANKS ~ unspec ~ unspec
+ kjs/types.h ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com)
+ kjs/ustring.cpp ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org), 2004 Apple Computer, Inc.
+ kjs/ustring.h ~ LGPLv2h ~  1999-2000 Harri Porten (porten@kde.org),  2004 Apple Computer, Inc.
+ kjs/value.cpp ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ kjs/value.h ~ LGPLv2h ~  1999-2001 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003-2005 Apple Computer, Inc.
+ kjs/wtf/AlwaysInline.h ~ LGPLv2h ~ 2005 Apple Computer, Inc
+ kjs/wtf/Assertions.h ~ BSD ~  * Copyright (C) 2003 Apple Computer, Inc.  All rights reserved.
+ kjs/wtf/CMakeLists.txt ~ unspec ~ unspec
+ kjs/wtf/FastMalloc.h ~ LGPLv2h ~ 2005 Apple Computer, Inc.
+ kjs/wtf/Forward.h ~ LGPLv2h ~ 2006 Apple Computer, Inc.
+ kjs/wtf/HashCountedSet.h ~ LGPLv2h ~  * Copyright (C) 2005 Apple Computer, Inc.
+ kjs/wtf/HashFunctions.h ~ LGPLv2h ~  * Copyright (C) 2005, 2006 Apple Computer, Inc.
+ kjs/wtf/HashMap.h ~ LGPLv2h ~  * Copyright (C) 2005, 2006 Apple Computer, Inc.
+ kjs/wtf/HashSet.h ~ LGPLv2h ~  * Copyright (C) 2005, 2006 Apple Computer, Inc.
+ kjs/wtf/HashTable.cpp ~ LGPLv2h ~     Copyright (C) 2005 Apple Computer
+ kjs/wtf/HashTable.h ~ LGPLv2h ~  * Copyright (C) 2005, 2006 Apple Computer, Inc.
+ kjs/wtf/HashTraits.h ~ LGPLv2h ~  * Copyright (C) 2005, 2006 Apple Computer, Inc.
+ kjs/wtf/ListRefPtr.h ~ LGPLv2h ~ 2005 Apple Computer, Inc.
+ kjs/wtf/Mainpage.dox ~ unspec ~ unspec
+ kjs/wtf/MathExtras.h ~ BSD ~  * Copyright (C) 2006 Apple Computer, Inc.  All rights reserved.
+ kjs/wtf/Noncopyable.h ~ LGPLv2h ~ 2006 Apple Computer, Inc.
+ kjs/wtf/OwnArrayPtr.h ~ LGPLv2h ~ 2006 Apple Computer, Inc.
+ kjs/wtf/OwnPtr.h ~ LGPLv2h ~ 2006 Apple Computer, Inc.
+ kjs/wtf/PassRefPtr.h ~ LGPLv2h ~ 2005, 2006 Apple Computer, Inc.
+ kjs/wtf/Platform.h ~ BSD ~  * Copyright (C) 2006 Apple Computer, Inc.  All rights reserved.
+ kjs/wtf/RefPtr.h ~ LGPLv2h ~ 2005, 2006 Apple Computer, Inc.
+ kjs/wtf/SharedPtr.h ~ LGPLv2h ~ 2005 Apple Computer, Inc.
+ kjs/wtf/unicode/libc/UnicodeLibC.h ~ LGPLv2h ~ 2007 Harri Porten <porten@kde.org>, 2006 George Staikos <staikos@kde.org>, 2006 Alexey Proskuryakov <ap@nypop.com>
+ kjs/wtf/unicode/qt4/UnicodeQt4.h ~ LGPLv2h ~ 2006 George Staikos <staikos@kde.org>, 2006 Alexey Proskuryakov <ap@nypop.com>
+ kjs/wtf/unicode/UnicodeCategory.h ~ LGPLv2h ~ 2006 George Staikos <staikos@kde.org>
+ kjs/wtf/unicode/Unicode.h ~ LGPLv2h ~ 2006 George Staikos <staikos@kde.org>
+ kjs/wtf/UnusedParam.h ~ LGPLv2h ~ 2006 Apple Computer, Inc.
+ kjs/wtf/Vector.h ~ LGPLv2h ~ 2005, 2006 Apple Computer, Inc.
+ kjs/wtf/VectorTraits.h ~ LGPLv2h ~  * Copyright (C) 2006 Apple Computer, Inc.
+ 
+
  kmetadata/Doxyfile ~ unspec ~ unspec
  kmetadata/Doxyfile.cmake ~ unspec ~ unspec
  kmetadata/ontology.rdf ~ unspec ~ unspec
@@ -2739,7 +2879,7 @@ khtml
 
 kio
 kioslave
-kjs
+
 kjsembed
 
 knotify
