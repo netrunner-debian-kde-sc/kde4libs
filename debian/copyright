@@ -1486,6 +1486,35 @@ kimgio/AUTHORS ~ unspec ~ unspec
  kimgio/xview.cpp ~ LGPLv2 ~ * copyright (c) 1998 Torben Weis <weis@kde.org>, 1999 Oliver Eiden <o.eiden@pop.ruhr.de>
  kimgio/xview.h ~ LGPLv2 ~ * copyright (c) 1998 Torben Weis <weis@kde.org>, 1999 Oliver Eiden <o.eiden@pop.ruhr.de>
 
+ kinit/autostart.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Waldo Bastian <bastian@kde.org>
+ kinit/autostart.h ~ LGPLv2 ~    Copyright (c) 2001 Waldo Bastian <bastian@kde.org>
+ kinit/CMakeLists.txt ~ unspec ~ unspec
+ kinit/config-kdeinit.h.cmake ~ unspec ~ unspec
+ kinit/kinit.cpp ~ LGPLv2 ~  * Copyright (c) 1999-2000 Waldo Bastian <bastian@kde.org>, 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
+ kinit/kinit_win.cpp ~ LGPLv2 ~  * Copyright (c) 1999-2000 Waldo Bastian <bastian@kde.org>,  (c) 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>, 2006 Ralf Habacker <ralf.habacker@freenet.de>
+ kinit/kioslave.cpp ~ LGPLv2 ~  * Copyright (c) 1999-2000 Waldo Bastian <bastian@kde.org>, 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
+ kinit/klauncher_adaptor.cpp ~ unspec ~ (C) 2006 Trolltech AS. All rights reserved.
+ kinit/klauncher_adaptor.h ~ unspec ~ (C) 2006 Trolltech AS. All rights reserved.
+ kinit/klauncher_cmds.h ~ LGPLv2 ~    Copyright (c) 1999 Waldo Bastian <bastian@kde.org>
+ kinit/klauncher.cpp ~ LGPLv2 ~   Copyright (c) 1999 Waldo Bastian <bastian@kde.org>
+ kinit/klauncher.h ~ LGPLv2 ~    Copyright (c) 1999 Waldo Bastian <bastian@kde.org>
+ kinit/klauncher_main.cpp ~ LGPLv2 ~   Copyright (c) 1999 Waldo Bastian <bastian@kde.org>
+ kinit/klauncher_win.cpp ~ LGPLv2 ~   Copyright (c) 1999 Waldo Bastian <bastian@kde.org>, 2006 Ralf Habacker <ralf.habacker@freenet.de>
+ kinit/kwrapper.c ~ LGPLv2 ~   Copyright (c) 1999 Waldo Bastian <bastian@kde.org>, 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
+ kinit/lnusertemp.c ~ LGPLv2 ~   Copyright (c) 2000 Waldo Bastian <bastian@kde.org>
+ kinit/Mainpage.dox ~ XXXX
+ kinit/org.kde.KLauncher.xml ~ unspec ~ unspec
+ kinit/proctitle.cpp ~ LGPLv2h ~  * (c) 2007 Alex Merry <alex.merry@kdemail.net>
+ kinit/proctitle.h ~ LGPLv2h ~  * (c) 2007 Alex Merry <alex.merry@kdemail.net>
+ kinit/README ~ unspec ~ unspec
+ kinit/README.autostart ~ unspec ~ unspec
+ kinit/README.DCOP ~ unspec ~ unspec
+ kinit/README.wrapper ~ unspec ~ unspec
+ kinit/shell.c ~ LGPLv2 ~ (c) 1999 Waldo Bastian <bastian@kde.org>
+ kinit/tests/CMakeLists.txt ~ unspec ~ unspec
+ kinit/tests/klaunchertest.cpp ~ LGPLv2 ~     Copyright (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
+ kinit/wrapper.c ~ LGPLv2 ~ (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
+
  kmetadata/Doxyfile ~ unspec ~ unspec
  kmetadata/Doxyfile.cmake ~ unspec ~ unspec
  kmetadata/ontology.rdf ~ unspec ~ unspec
@@ -2530,7 +2559,7 @@ kdeui
 
 khtml
 
-kinit
+
 kio
 kioslave
 kjs
