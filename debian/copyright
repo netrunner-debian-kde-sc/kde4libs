@@ -1500,7 +1500,7 @@ detailed above or are not licensed under the GPLv2.
  kfile/tests/kfiletreeviewtest.cpp ~ LGPLv2h ~ (C) 2001 Klaas Freitag <freitag@suse.de>
  kfile/tests/kfiletreeviewtest.h ~ LGPLv2h ~ (C) 2001 Klaas Freitag <freitag@suse.de>
 
-kimgio/AUTHORS ~ unspec ~ unspec
+ kimgio/AUTHORS ~ unspec ~ unspec
  kimgio/bmp.desktop ~ unspec ~ unspec
  kimgio/ChangeLog ~ unspec ~ unspec
  kimgio/CMakeLists.txt ~ unspec ~ unspec
@@ -1784,6 +1784,173 @@ kioslave/CMakeLists.txt ~ unspec ~ unspec
  kjs/wtf/Vector.h ~ LGPLv2h ~ 2005, 2006 Apple Computer, Inc.
  kjs/wtf/VectorTraits.h ~ LGPLv2h ~  * Copyright (C) 2006 Apple Computer, Inc.
  
+ kjsembed/AUTHORS ~ unspec ~ unspec
+ kjsembed/autobind/README ~ unspec ~ unspec
+ kjsembed/autobind/shared/util.js ~ LGPLv2h ~ (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/autobind/TODO ~ unspec ~ unspec
+ kjsembed/autobind/values/copyHeaders.sh ~ unspec ~ unspec
+ kjsembed/autobind/values/Doxyfile ~ unspec ~ unspec
+ kjsembed/autobind/values/generatebinding.js ~ LGPLv2h ~	 (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/autobind/values/generateheader.js ~ LGPLv2 ~ (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/autobind/values/generate.js ~ LGPLv2h ~ (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/CMakeLists.txt ~ unspec ~ unspec
+ kjsembed/console/CMakeLists.txt ~ unspec ~ unspec
+ kjsembed/console/console.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/console/console.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/console/console.qrc ~ unspec ~ unspec
+ kjsembed/console/images/* ~ unspec ~ unspec
+ kjsembed/console/jsconsole.ui ~ unspec ~ unspec
+ kjsembed/console/kjs_object_model.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/console/kjs_object_model.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/console/main.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/console/numberedtextview.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/console/numberedtextview.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/docs/KJSEmbed-akademy-2006.odp ~ unspec ~ unspec
+ kjsembed/examples/calc/* ~ unspec ~ unspec
+ kjsembed/examples/clock/clock.js ~ unspec ~ unspec
+ kjsembed/examples/CMakeLists.txt ~ unspec ~ unspec
+ kjsembed/examples/console/console.js ~ LGPLv2h ~ (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/examples/console/console.ui ~ unspec ~ unspec
+ kjsembed/examples/designer/CMakeLists.txt ~ unspec ~ unspec
+ kjsembed/examples/designer/main.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/designer/setup_template.ui ~ unspec ~ unspec
+ kjsembed/examples/designer/widgetbox.xml ~ GPLv2 ~ ** Copyright (C) 1992-2005 Trolltech AS. All rights reserved.
+ kjsembed/examples/docviewer/* ~ unspec ~ unspec
+ kjsembed/examples/editor/bind_qaction.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qaction.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qdialog.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qdialog.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qicon.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qicon.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qlcdnumber.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qlcdnumber.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qtextcursor.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qtextcursor.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qtextedit.cpp ~ LGPLv2h ~  (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qtextedit.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qtimer.cpp ~ LGPLv2h ~  (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qtimer.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qwidget.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qwidget.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qworkspace.cpp ~ LGPLv2h ~  (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bind_qworkspace.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/bootstrap.js ~ LGPLv2 ~     Copyright (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/examples/editor/CMakeLists.txt ~ unspec ~ unspec
+ kjsembed/examples/editor/images/* ~ unspec ~ unspec
+ kjsembed/examples/editor/main.cpp ~ GPLv2 ~ ** Copyright (C) 2005-2005 Trolltech AS. All rights reserved.
+ kjsembed/examples/editor/mainwindow.cpp ~ GPLv2 ~ ** Copyright (C) 2005-2005 Trolltech AS. All rights reserved.
+ kjsembed/examples/editor/mainwindow.h ~ GPLv2 ~ ** Copyright (C) 2005-2005 Trolltech AS. All rights reserved.
+ kjsembed/examples/editor/mdichild.cpp ~ GPLv2 ~ ** Copyright (C) 2005-2005 Trolltech AS. All rights reserved.
+ kjsembed/examples/editor/mdichild.h ~ GPLv2 ~ ** Copyright (C) 2005-2005 Trolltech AS. All rights reserved.
+ kjsembed/examples/editor/mdi.qrc ~ unspec ~ unspec
+ kjsembed/examples/editor/newwindow.js ~ LGPLv2h ~ (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/examples/editor/numberedtextview.cpp ~ LGPLv2h ~     Copyright (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/numberedtextview.h ~ LGPLv2h ~  (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/editor/setup_template.ui ~ unspec ~ unspec
+ kjsembed/examples/embed/CMakeLists.txt ~ unspec ~ unspec
+ kjsembed/examples/embed/embed.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/embed/embed.qrc ~ unspec ~ unspec
+ kjsembed/examples/embed/test.js ~ LGPLv2h ~     Copyright (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/examples/embed/test_object.cpp ~ LGPLv2 ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/embed/test_object.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/embed/test_pointer.cpp ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/embed/test_pointer.h ~ LGPLv2h ~ (C) 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2005, 2006 Richard J. Moore <rich@kde.org>, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/examples/fancy/fancy.js ~ LGPLv2 ~     Copyright (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/examples/grammar/grammar.js ~ unspec ~ unspec
+ kjsembed/examples/scribble/scribble.js ~ unspec ~ unspec
+ kjsembed/kjscmd/CMakeLists.txt ~ unspec ~ unspec
+ kjsembed/kjscmd/console.js ~ LGPLv2h ~ (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/kjscmd/kjscmd.cpp ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjscmd/kjscmd.qrc ~ unspec ~ unspec
+ kjsembed/kjsembed/application.cpp ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/application.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/binding_support.cpp ~ LGPLv2h ~  (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/binding_support.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/bind_qlcdnumber.cpp ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/bind_qlcdnumber.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/bind_qtimer.cpp ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/bind_qtimer.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/brush.cpp ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/brush.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/builtins.cpp ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>kjsembed/kjsembed/builtins.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>kjsembed/kjsembed/CMakeLists.txt ~ unspec ~ unspec
+ kjsembed/kjsembed/color.cpp ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/color.h ~ LGPLv2h ~  (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/dom.cpp ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/dom.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/eventproxy.cpp ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/eventproxy.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/filedialog_binding.cpp ~ LGPLv2h ~  (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/filedialog_binding.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/fileio.cpp ~ LGPLv2h ~  (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/fileio.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/font.cpp ~ LGPLv2h ~  (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/font.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/image.cpp ~ LGPLv2h ~  (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/image.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/iosupport.cpp ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/iosupport.h ~ LGPLv2h ~ (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/jseventmapper.cpp ~ LGPLv2h ~  (C) 2004, 2005, 2006 Ian Reinhart Geiser <geiseri@kde.org>, 2004, 2005, 2006 Matt Broadstone <mbroadst@gmail.com>, 2004, 2005, 2006 Richard J. Moore <rich@kde.org>, 2004, 2005, 2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/jseventmapper.h ~ LGPLv2h ~ (C) 2001,2002,2003,2004,2005,2006 Ian Reinhart Geiser <geiseri@kde.org>, 2001,2002,2003,2004,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2001,2002,2003,2004,2005,2006 Richard J. Moore <rich@kde.org>, 2001,2002,2003,2004,2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/jseventutils.cpp ~ LGPLv2h ~ (C) 2001,2002,2003,2004,2005,2006 Ian Reinhart Geiser <geiseri@kde.org>, 2001,2002,2003,2004,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2001,2002,2003,2004,2005,2006 Richard J. Moore <rich@kde.org>, 2001,2002,2003,2004,2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/jseventutils.h ~ LGPLv2h ~ (C) 2001,2002,2003,2004,2005,2006 Ian Reinhart Geiser <geiseri@kde.org>, 2001,2002,2003,2004,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2001,2002,2003,2004,2005,2006 Richard J. Moore <rich@kde.org>, 2001,2002,2003,2004,2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/kjseglobal.cpp ~ LGPLv2h ~ (C) 2001,2002,2003,2004,2005,2006 Ian Reinhart Geiser <geiseri@kde.org>, 2001,2002,2003,2004,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2001,2002,2003,2004,2005,2006 Richard J. Moore <rich@kde.org>, 2001,2002,2003,2004,2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/kjseglobal.h ~ LGPLv2h ~  (C) 2001,2002,2003,2004,2005,2006 Ian Reinhart Geiser <geiseri@kde.org>, 2001,2002,2003,2004,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2001,2002,2003,2004,2005,2006 Richard J. Moore <rich@kde.org>, 2001,2002,2003,2004,2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/kjsembed.cpp ~ LGPLv2h ~ (C) 2001,2002,2003,2004,2005,2006 Ian Reinhart Geiser <geiseri@kde.org>, 2001,2002,2003,2004,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2001,2002,2003,2004,2005,2006 Richard J. Moore <rich@kde.org>, 2001,2002,2003,2004,2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/kjsembed.h ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/object_binding.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/object_binding.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/pen.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/pen.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/pixmap.cpp ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/pixmap.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/point.cpp ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/pointer.h ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/point.h ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qaction_binding.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qaction_binding.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/QBrush_bind.cpp ~ unspec ~ unspec
+ kjsembed/kjsembed/QBrush_bind.h ~ unspec ~ unspec
+ kjsembed/kjsembed/qformbuilder_binding.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qformbuilder_binding.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qlayout_binding.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qlayout_binding.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qobject_binding.cpp ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qobject_binding.h ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qpainter_binding.cpp ~ LGPLv2h ~   (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qpainter_binding.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/quiloader_binding.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/quiloader_binding.h ~ LGPLv2h ~   (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qwidget_binding.cpp ~ LGPLv2h ~   (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/qwidget_binding.h ~ LGPLv2h ~   (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/rect.cpp ~ LGPLv2h ~    (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/rect.h ~ LGPLv2h ~   (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/settings.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/settings.h ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/size.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/size.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/slotproxy.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/slotproxy.h ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/static_binding.cpp ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/static_binding.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/svg_binding.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/svg_binding.h ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/test/* ~ unspec ~ unspec
+ 
+ kjsembed/kjsembed/url.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/url.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/util.h ~ unspec ~ unspec
+ kjsembed/kjsembed/value_binding.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/value_binding.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/variant_binding.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/kjsembed/variant_binding.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
+ kjsembed/Mainpage.dox ~ XXXX
+ kjsembed/qtonly/CMakeLists.txt ~ BSD ~ (c) 2006, Erik Bunce <kde@bunce.us>
+ kjsembed/qtonly/FindQJSInternal.cmake ~ BSD ~ (c) 2006, Alexander Neundorf <neundorf@kde.org>, 2006, Laurent Montel, <montel@kde.org>, 2006, Erik Bunce <kde@bunce.us>
+ kjsembed/qtonly/README ~ unspec ~ unspec
+ kjsembed/tests/* ~ LGPLv2h ~     Copyright (C) 2005, 2006 KJSEmbed Authors
+ kjsembed/TODO-KDE4 ~ unspec ~ unspec
+ kjsembed/usecases/kpat.txt ~ unspec ~ unspec
+
 
  kmetadata/Doxyfile ~ unspec ~ unspec
  kmetadata/Doxyfile.cmake ~ unspec ~ unspec
@@ -3009,8 +3176,6 @@ khtml
 
 kio
 
-
-kjsembed
 
 knotify
 
