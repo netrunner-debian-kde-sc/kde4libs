@@ -1370,7 +1370,6 @@ detailed above or are not licensed under the GPLv2.
  kdeui/dialogs/kmessageboxmessagehandler.cpp ~ LGPLv2 ~  2006 Michaël Larouche <michael.larouche@kdemail.net>
  kdeui/dialogs/kmessageboxmessagehandler.h ~ LGPLv2 ~  2006 Michaël Larouche <michael.larouche@kdemail.net>
  kdeui/dialogs/knewpassworddialog.cpp ~ LGPLv2 ~    Copyright (C) 1998 Pietro Iglio <iglio@fub.it>, 1999,2000 Geert Jansen <jansen@kde.org>, 2004,2005 Andrew Coles <andrew_coles@yahoo.co.uk>, 2007 Michaël Larouche <larouche@kde.org>
- 
  kdeui/dialogs/knewpassworddialog.h ~ LGPLv2 ~    Copyright (C) 1998 Pietro Iglio <iglio@fub.it>, 1999,2000 Geert Jansen <jansen@kde.org>, 2004,2005 Andrew Coles <andrew_coles@yahoo.co.uk>, 2006,2007 Olivier Goffart  <ogoffart @ kde.org>
  kdeui/dialogs/knewpassworddialog.ui ~ unspec ~ unspec
  kdeui/dialogs/kpassworddialog.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2007 Olivier Goffart <ogoffart at kde.org>
@@ -1379,9 +1378,10 @@ detailed above or are not licensed under the GPLv2.
  kdeui/dialogs/kpixmapregionselectordialog.cpp ~ LGPLv2h ~  2004 Antonio Larrosa <larrosa@kde.org
  kdeui/dialogs/kpixmapregionselectordialog.h ~ LGPLv2h ~  2004 Antonio Larrosa <larrosa@kde.org
  kdeui/dialogs/kprogressdialog.cpp ~ LGPLv2 ~    Copyright (C) 1996 Martynas Kunigelis, 2006-2007 Urs Wolfer <uwolfer at kde.org>
- kdeui/dialogs/kprogressdialog.h ~ LGPLv2 ~ (c) 1996 Martynas Kunigelis // krazy:exclude=copyright (email unknown), 2006-2007 Urs Wolfer <uwolfer at kde.org>
+ kdeui/dialogs/kprogressdialog.h ~ LGPLv2 ~ (c) 1996 Martynas Kunigelis, 2006-2007 Urs Wolfer <uwolfer at kde.org>
  kdeui/dialogs/kshortcutsdialog.cpp ~ LGPLv2h ~ (C) 1998 Mark Donohoe <donohoe@kde.org> Copyright (C) 1997 Nicolas Hadacek <hadacek@kde.org> Copyright (C) 1998 Matthias Ettrich <ettrich@kde.org> Copyright (C) 2001 Ellis Whitehead <ellis@kde.org> Copyright (C) 2006 Hamish Rodda <rodda@kde.org> Copyright (C) 2007 Roberto Raggi <roberto@kdevelop.org> Copyright (C) 2007 Andreas Hartmetz <ahartmetz@gmail.com>
  kdeui/dialogs/kshortcutsdialog.h ~ LGPLv2h ~  1997 Nicolas Hadacek <hadacek@kde.org> Copyright (C) 2001,2001 Ellis Whitehead <ellis@kde.org> Copyright (C) 2006 Hamish Rodda <rodda@kde.org> Copyright (C) 2007 Roberto Raggi <roberto@kdevelop.org> Copyright (C) 2007 Andreas Hartmetz <ahartmetz@gmail.com>
+
 
 
  kdesu/client.cpp ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen 
@@ -1499,6 +1499,475 @@ detailed above or are not licensed under the GPLv2.
  kfile/tests/kdirselectdialogtest.cpp ~ unspec ~ unspec
  kfile/tests/kfiletreeviewtest.cpp ~ LGPLv2h ~ (C) 2001 Klaas Freitag <freitag@suse.de>
  kfile/tests/kfiletreeviewtest.h ~ LGPLv2h ~ (C) 2001 Klaas Freitag <freitag@suse.de>
+
+khtml/BUILDING-TESTREGRESSION ~ unspec ~ unspec
+ khtml/ChangeLog ~ unspec ~ unspec
+ khtml/CMakeLists.txt ~ unspec ~ unspec
+ khtml/config-khtml.h.cmake ~ unspec ~ unspec
+ khtml/css/CMakeLists.txt ~ unspec ~ unspec
+ khtml/css/css_base.cpp ~ LGPLv2h ~ (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Waldo Bastian (bastian@kde.org), 2001 Andreas Schlapbach (schlpbch@iam.unibe.ch), 2001-2003 Dirk Mueller (mueller@kde.org), 2002 Apple Computer, Inc., 2004 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/css/css_base.h ~ LGPLv2h ~  * Copyright 1999-2003 Lars Knoll (knoll@kde.org), 1999 Waldo Bastian (bastian@kde.org), 2002 Apple Computer, Inc., 2004 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/css/css_extensionsimpl.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/css/css_extensionsimpl.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/css/csshelper.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/css/csshelper.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/css/cssparser.cpp ~ LGPLv2h ~  * Copyright 2003 Lars Knoll (knoll@kde.org), 2005 Allan Sandfeld Jensen (kde@carewolf.com), 2004, 2005, 2006 Apple Computer, Inc.
+ khtml/css/cssparser.h ~ LGPLv2h ~  * Copyright 2003 Lars Knoll (knoll@kde.org), 2004, 2005, 2006 Apple Computer, Inc.
+ khtml/css/cssproperties.c ~ unspec ~ Copyright 1999 W. Bastian
+ khtml/css/cssproperties.h ~ unspec ~  Copyright 1998 W. Bastian
+ khtml/css/cssproperties.in ~ unspec ~ unspec
+ khtml/css/css_renderstyledeclarationimpl.cpp ~ LGPLv2h ~  * Copyright 2004  Zack Rusin <zack@kde.org>, 2004,2005 Apple Computer, Inc.
+ khtml/css/css_renderstyledeclarationimpl.h ~ LGPLv2h ~  * Copyright 2004  Zack Rusin <zack@kde.org>
+ khtml/css/css_ruleimpl.cpp ~ LGPLv2h ~  * Copyright 1999-2003 Lars Knoll (knoll@kde.org), 2002-2003 Dirk Mueller (mueller@kde.org), 2002 Apple Computer, Inc.
+ khtml/css/css_ruleimpl.h ~ LGPLv2h ~  * Copyright 1999-2003 Lars Knoll (knoll@kde.org), 2002-2003 Dirk Mueller (mueller@kde.org), 2002 Apple Computer, Inc.
+ khtml/css/cssstyleselector.cpp ~ LGPLv2h ~  * Copyright 1999-2003 Lars Knoll (knoll@kde.org), 2003-2004 Apple Computer, Inc., 2004-2006 Allan Sandfeld Jensen (kde@carewolf.com), 2004 Germain Garand (germain@ebooksfrance.org)
+ khtml/css/cssstyleselector.h ~ LGPLv2 ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 2003, 2005, 2006 Apple Computer, Inc.
+ khtml/css/css_stylesheetimpl.cpp ~ LGPLv2 ~  * Copyright 1999-2003 Lars Knoll (knoll@kde.org), 2004 Apple Computer, Inc.
+ khtml/css/css_stylesheetimpl.h ~ LGPLv2 ~  * Copyright 1999-2003 Lars Knoll (knoll@kde.org), 2004 Apple Computer, Inc.
+ khtml/css/css_valueimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org)
+ khtml/css/css_valueimpl.h ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org)
+ khtml/css/cssvalues.c ~ unspec ~ Copyright 1999 W. Bastian 
+ khtml/css/cssvalues.h ~ unspec ~ Copyright 1998 W. Bastian 
+ khtml/css/cssvalues.in ~ unspec ~ unspec
+ khtml/css/html4.css ~ unspec ~  * Copyright 2000-2003 Lars Knoll (knoll@kde.org)
+ khtml/css/makeparser ~ unspec ~ unspec
+ khtml/css/makeprop ~ LGPLv2 ~ #   Copyright (C) 1999 Waldo Bastian (bastian@kde.org), 2006 Nikolas Zimmermann <zimmermann@kde.org>
+ khtml/css/makevalues ~ LGPLv2 ~ #   Copyright (C) 1999 Waldo Bastian (bastian@kde.org), 2006 Nikolas Zimmermann <zimmermann@kde.org>
+ khtml/css/parser.cpp ~ LGPLv2h ~    Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc., 2002-2003 Lars Knoll (knoll@kde.org), 2003 Apple Computer, 2003 Dirk Mueller (mueller@kde.org)
+ khtml/css/parser.h ~ LGPLv2h ~    Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+ khtml/css/parser.y ~ LGPLv2h ~  *  Copyright (C) 2002-2003 Lars Knoll (knoll@kde.org), 2003 Apple Computer, 2003 Dirk Mueller (mueller@kde.org)
+ khtml/css/quirks.css ~ unspec ~ 2000-2003 Lars Knoll (knoll@kde.org)
+ khtml/css/tokenizer.cpp ~ LGPLv2h ~  * Copyright 2003 Lars Knoll (knoll@kde.org)
+ khtml/css/tokenizer.flex ~ unspec ~ unspec
+ khtml/design.h ~ LGPLv2h ~    Copyright (C) 1997 Martin Jones (mjones@kde.org), 1998 Waldo Bastian (bastian@kde.org), 1998, 1999 Torben Weis (weis@kde.org), 1999 Lars Knoll (knoll@kde.org)
+ khtml/DESIGN.html ~ unspec ~ unspec
+ khtml/dom/css_extensions.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/css_extensions.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/css_rule.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/css_rule.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/css_stylesheet.cpp ~ LGPLv2h ~  * Copyright 1999-2003 Lars Knoll (knoll@kde.org), 2001-2003 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc.
+ khtml/dom/css_stylesheet.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/css_value.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/css_value.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom2_events.cpp ~ LGPLv2h ~  * Copyright 2001 Peter Kelly (pmk@post.com)
+ khtml/dom/dom2_events.h ~ LGPLv2h ~  * Copyright 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ khtml/dom/dom2_range.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org), 2000 Gunnstein Lye (gunnstein@netcom.no), 2000 Frederik Holljen (frederik.holljen@hig.no), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ khtml/dom/dom2_range.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org), 2000 Gunnstein Lye (gunnstein@netcom.no), 2000 Frederik Holljen (frederik.holljen@hig.no), 2001 Peter Kelly (pmk@post.com)
+ khtml/dom/dom2_traversal.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org), 2000 Frederik Holljen (frederik.holljen@hig.no)
+ khtml/dom/dom2_traversal.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org), 2000 Frederik Holljen (frederik.holljen@hig.no)
+ khtml/dom/dom2_views.cpp ~ LGPLv2h ~  * Copyright 2001 Peter Kelly (pmk@post.com)
+ khtml/dom/dom2_views.h ~ LGPLv2h ~  * Copyright 2001 Peter Kelly (pmk@post.com)
+ khtml/dom/dom_core.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_doc.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_doc.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_element.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_element.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_exception.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_html.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_misc.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_misc.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_node.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_node.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_string.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_string.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_text.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_text.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_xml.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/dom_xml.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_base.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_base.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_block.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org), 2004 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/dom/html_block.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org), 2004 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/dom/html_document.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_document.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_element.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_element.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_form.cpp ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_form.h ~ LGPLv2h ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_head.cpp ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_head.h ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_image.cpp ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_image.h ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_inline.cpp ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org), 2001 Dirk mueller (mueller@kde.org)
+ khtml/dom/html_inline.h ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_list.cpp ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_list.h ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_misc.cpp ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_misc.h ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_object.cpp ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_object.h ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_table.cpp ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/dom/html_table.h ~ LGPLv2 ~  * Copyright 1999 Lars Knoll (knoll@kde.org)
+ khtml/domtreeview.cpp ~ GPLv2h ~ (C) 2001 - The Kafka Team <kde-kafka@master.kde.org>
+ khtml/domtreeview.h ~ GPLv2h ~ (C) 2001 - The Kafka Team <kde-kafka@master.kde.org>
+ khtml/ecma/AUTHORS ~ unspec ~ unspec
+ khtml/ecma/CMakeLists.txt ~ unspec ~ unspec
+ khtml/ecma/debugger/breakpointsdock.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/breakpointsdock.h ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/callstackdock.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/callstackdock.h ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/consoledock.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/consoledock.h ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/debugdocument.cpp ~ unspec ~ unspec
+ khtml/ecma/debugger/debugdocument.h ~ unspec ~ unspec
+ khtml/ecma/debugger/debugger.qrc ~ unspec ~ unspec
+ khtml/ecma/debugger/debugwindow.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/debugwindow.h ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/execstatemodel.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/execstatemodel.h ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/images/* ~ unspec ~ unspec
+ khtml/ecma/debugger/jshighlighter.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/jshighlighter.h ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/localvariabledock.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/localvariabledock.h ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/objectmodel.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/objectmodel.h ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/scriptsdock.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/scriptsdock.h ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/watchesdock.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/debugger/watchesdock.h ~ LGPLv2h ~  *  Copyright (C) 2006 Matt Broadstone (mbroadst@gmail.com)
+ khtml/ecma/domparser.cpp ~ LGPLv2h ~  *  Copyright (C) 2005 Anders Carlsson (andersca@mac.com)
+ khtml/ecma/domparser.h ~ LGPLv2h ~  *  Copyright (C) 2005 Anders Carlsson (andersca@mac.com)
+ khtml/ecma/jsk.html ~ GPLv2 ~ 2001 Till Krech <till@snafu.de>
+ khtml/ecma/kjs_audio.cpp ~ LGPLv2h ~  *  Copyright (C) 2006 Germain Garand <germain@ebooksfrance.org>, (C) 2007 Matthias Kretz <kretz@kde.org>
+ khtml/ecma/kjs_audio.h ~ LGPLv2h ~  *  Copyright (C) 2006 Germain Garand <germain@ebooksfrance.org>
+ khtml/ecma/kjs_binding.cpp ~ LGPLv2h ~  *  Copyright (C) 1999-2003 Harri Porten (porten@kde.org), 2001-2003 David Faure (faure@kde.org), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_binding.h ~ LGPLv2h ~  *  Copyright (C) 1999-2001 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_context2d.cpp ~ LGPLv2h ~  *  Copyright (C) 2004 Apple Computer, Inc., 2005 Zack Rusin <zack@kde.org>
+ khtml/ecma/kjs_context2d.h ~ LGPLv2h ~  *  Copyright (C) 2004 Apple Computer, Inc., 2005 Zack Rusin <zack@kde.org>
+ khtml/ecma/kjs_css.cpp ~ LGPLv2h ~  *  Copyright (C) 2000 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_css.h ~ LGPLv2h ~  *  Copyright (C) 2000 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_debugwin.cpp ~ LGPLv2h ~  *  Copyright (C) 2000-2001 Harri Porten (porten@kde.org), 2001,2003 Peter Kelly (pmk@post.com)
+ khtml/ecma/kjs_debugwin.h ~ LGPLv2h ~  *  Copyright (C) 2000-2001 Harri Porten (porten@kde.org), 2001,2003 Peter Kelly (pmk@post.com)
+ khtml/ecma/kjs_dom.cpp ~ LGPLv2h ~  *  Copyright (C) 2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_dom.h ~ LGPLv2h ~  *  Copyright (C) 2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_events.cpp ~ LGPLv2h ~  *  Copyright (C) 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_events.h ~ LGPLv2h ~  *  Copyright (C) 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_html.cpp ~ LGPLv2h ~  *  Copyright (C) 1999-2002 Harri Porten (porten@kde.org), 2001-2003 David Faure (faure@kde.org), 2004 Apple Computer, Inc., 2005 Maksim Orlovich (maksim@kde.org)
+ khtml/ecma/kjs_html.h ~ LGPLv2h ~  *  Copyright (C) 1999 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_mozilla.cpp ~ LGPLv2h ~  *  Copyright (c) 2003 George Staikos (staikos@kde.org)
+ khtml/ecma/kjs_mozilla.h ~ LGPLv2h ~  *  Copyright (C) 2003 George Staikos (staikos@kde.org)
+ khtml/ecma/kjs_navigator.cpp ~ LGPLv2h ~  *  Copyright (C) 2000 Harri Porten (porten@kde.org), 2000 Daniel Molkentin (molkentin@kde.org), 2000 Stefan Schimanski (schimmi@kde.org), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_navigator.h ~ LGPLv2h ~  *  Copyright (C) 2000 Harri Porten (porten@kde.org)
+ khtml/ecma/kjs_proxy.cpp ~ LGPLv2h ~  *  Copyright (C) 1999-2001 Harri Porten (porten@kde.org), 2001,2003 Peter Kelly (pmk@post.com), 2001-2003 David Faure (faure@kde.org)
+ khtml/ecma/kjs_proxy.h ~ LGPLv2h ~  *  Copyright (C) 1999 Harri Porten (porten@kde.org), 2001 Peter Kelly (pmk@post.com)
+ khtml/ecma/kjs_range.cpp ~ LGPLv2h ~  *  Copyright (C) 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_range.h ~ LGPLv2h ~  *  Copyright (C) 2001 Peter Kelly (pmk@post.com)
+ khtml/ecma/kjs_traversal.cpp ~ LGPLv2h ~  *  Copyright (C) 2001 Peter Kelly (pmk@post.com)
+ khtml/ecma/kjs_traversal.h ~ LGPLv2h ~  *  Copyright (C) 2001 Peter Kelly (pmk@post.com)
+ khtml/ecma/kjs_views.cpp ~ LGPLv2h ~  *  Copyright (C) 2001 Peter Kelly (pmk@post.com)
+ khtml/ecma/kjs_views.h ~ LGPLv2h ~  *  Copyright (C) 2001 Peter Kelly (pmk@post.com)
+ khtml/ecma/kjs_window.cpp ~ LGPLv2h ~  *  Copyright (C) 2000-2003 Harri Porten (porten@kde.org), 2001-2003 David Faure (faure@kde.org), 2003 Apple Computer, Inc.
+ khtml/ecma/kjs_window.h ~ LGPLv2h ~  *  Copyright (C) 2000 Harri Porten (porten@kde.org), 2003 Apple Computer, Inc.
+ khtml/ecma/PORTING ~ unspec ~ unspec
+ khtml/ecma/README ~ unspec ~ unspec
+ khtml/ecma/testecma.cpp ~ LGPLv2h ~  *  Copyright (C) 2000 Harri Porten (porten@kde.org)
+ khtml/ecma/THANKS ~ unspec ~ unspec
+ khtml/ecma/TODO ~ unspec ~ unspec
+ khtml/ecma/xmlhttprequest.cpp ~ LGPLv2h ~  *  Copyright (C) 2003 Apple Computer, Inc.
+ khtml/ecma/xmlhttprequest.h ~ LGPLv2h ~  *  Copyright (C) 2003 Apple Computer, Inc.
+ khtml/ecma/xmlserializer.cpp ~ LGPLv2h ~  *  Copyright (C) 2003 Apple Computer, Inc.
+ khtml/ecma/xmlserializer.h ~ LGPLv2h ~  *  Copyright (C) 2003 Apple Computer, Inc.
+ khtml/.emacs-dirvars ~ unspec ~ unspec
+ 
+ 
+ 
+ khtml/html/doctypes.cpp ~ unspec ~ unspec
+ khtml/html/doctypes.gperf ~ unspec ~ unspec
+ khtml/html/dtd.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 2006 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/html/dtd.dtd ~ unspec ~ Dave Raggett <dsr@w3.org>, Arnaud Le Hors <lehors@w3.org>, Ian Jacobs <ij@w3.org>
+ khtml/html/dtd.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org)
+ khtml/html/html_baseimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2000 Simon Hausmann (hausmann@kde.org), 2001-2003 Dirk Mueller (mueller@kde.org)
+ khtml/html/html_baseimpl.h ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 2000-2003 Dirk Mueller (mueller@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2000 Simon Hausmann <hausmann@kde.org>, 2002 Apple Computer, Inc.
+ khtml/html/html_blockimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2003 Apple Computer, Inc., 2004 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/html/html_blockimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2003 Apple Computer, Inc
+ khtml/html/html_canvasimpl.cpp ~ BSD ~  * Copyright (C) 2004 Apple Computer, Inc.  All rights reserved.
+ khtml/html/html_canvasimpl.h ~ BSD ~  * Copyright (C) 2004 Apple Computer, Inc.  All rights reserved.
+ khtml/html/html_documentimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/html/html_documentimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/html/html_elementimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org),  1999 Antti Koivisto (koivisto@kde.org), 2003 Dirk Mueller (mueller@kde.org), 2002 Apple Computer, Inc.
+ khtml/html/html_elementimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org
+ khtml/html/html_formimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2001 Dirk Mueller (mueller@kde.org), 2004, 2005, 2006 Apple Computer, Inc.
+ khtml/html/html_formimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2000 Dirk Mueller (mueller@kde.org), 2004, 2005, 2006 Apple Computer, Inc.
+ khtml/html/html_headimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2001 Dirk Mueller (mueller@kde.org), 2002-2003 Apple Computer, Inc.
+ khtml/html/html_headimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2002-2003 Apple Computer, Inc.
+ 
+ khtml/html/html_imageimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/html/html_imageimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/html/html_inlineimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/html/html_inlineimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/html/html_listimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/html/html_listimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/html/html_miscimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2005 Maksim Orlovich (maksim@kde.org)
+ khtml/html/html_miscimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/html/html_objectimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2000 Stefan Schimanski (1Stein@gmx.de)
+ khtml/html/html_objectimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/html/htmlparser.cpp ~ LGPLv2h ~ (C) 1997 Martin Jones (mjones@kde.org), 1997 Torben Weis (weis@kde.org), 1999,2001 Lars Knoll (knoll@kde.org), 2000,2001 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc.
+ khtml/html/htmlparser.h ~ LGPLv2h ~ (C) 1997 Martin Jones (mjones@kde.org), 1997 Torben Weis (weis@kde.org), 1999,2001 Lars Knoll (knoll@kde.org), 2000,2001 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc.
+ khtml/html/html_tableimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1997 Martin Jones (mjones@kde.org),  1997 Torben Weis (weis@kde.org), 1998 Waldo Bastian (bastian@kde.org), 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2003 Apple Computer, Inc., 2006 Maksim Orlovich (maksim@kde.org)
+ khtml/html/html_tableimpl.h ~ LGPLv2h ~   * Copyright (C) 1997 Martin Jones (mjones@kde.org),  1997 Torben Weis (weis@kde.org), 1998 Waldo Bastian (bastian@kde.org), 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2003 Apple Computer, Inc., 2006 Maksim Orlovich (maksim@kde.org)
+ khtml/html/htmltokenizer.cpp ~ LGPLv2h ~     Copyright (C) 1997 Martin Jones (mjones@kde.org), 1997 Torben Weis (weis@kde.org), 1998 Waldo Bastian (bastian@kde.org), 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2001-2003 Dirk Mueller (mueller@kde.org), 2004 Apple Computer, Inc., 2006 Germain Garand (germain@ebooksfrance.org)
+ khtml/html/htmltokenizer.h ~ LGPLv2h ~     Copyright (C) 1997 Martin Jones (mjones@kde.org), 1997 Torben Weis (weis@kde.org), 1998 Waldo Bastian (bastian@kde.org), 2001 Dirk Mueller (mueller@kde.org)
+ khtml/htmlpageinfo.ui ~ unspec ~ unspec
+ khtml/imload/animprovider.cpp ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/animprovider.h ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/animtimer.cpp ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/animtimer.h ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/array2d.h ~ MIT ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/decoders/gifloader.cpp ~ MIT ~     Copyright (C) 2004 Maksim Orlovich <maksim@kde.org>
+ khtml/imload/decoders/gifloader.h ~ unspec ~ unspec
+ khtml/imload/decoders/jpegloader.cpp ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org), 2000 Dirk Mueller (mueller@kde.org)
+ khtml/imload/decoders/jpegloader.h ~ unspec ~ unspec
+ khtml/imload/decoders/pngloader.cpp ~ MIT ~     Copyright (C) 2004 Maksim Orlovich <maksim@kde.org>
+ khtml/imload/decoders/pngloader.h ~ unspec ~ unspec
+ khtml/imload/DESIGN.txt ~ unspec ~ unspec
+ khtml/imload/image.cpp ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imageformat.h ~ MIT ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/image.h ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imageloader.h ~ MIT ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imageloaderprovider.h ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imagemanager.cpp ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imagemanager.h ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imageowner.h ~ MIT ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imagepainter.cpp ~ MIT ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imagepainter.h ~ MIT ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imageplane.cpp ~ MIT ~     Copyright (C) 2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imageplane.h ~ MIT ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/imagetile.h ~ MIT ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/loaderdatabase.h ~ LGPLv2 ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/pixmapplane.cpp ~ LGPLv2 ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/pixmapplane.h ~ LGPLv2 ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/pixmaptile.h ~ LGPLv2 ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/plane.h ~ LGPLv2 ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/rawimageplane.cpp ~ LGPLv2 ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/rawimageplane.h ~ LGPLv2 ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/scaledimageplane.cpp ~ LGPLv2 ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/scaledimageplane.h ~ LGPLv2 ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/tilecache.h ~ LGPLv2 ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/tile.h ~ LGPLv2 ~     Copyright (C) 2004,2005 Maks Orlovich (maksim@kde.org)
+ khtml/imload/updater.cpp ~ LGPLv2 ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/imload/updater.h ~ LGPLv2 ~     Copyright (C) 2004 Maks Orlovich (maksim@kde.org)
+ khtml/java/build.properties ~ unspec ~ unspec
+ khtml/java/build.xml ~ unspec ~ unspec
+ khtml/java/ChangeLog ~ unspec ~ unspec
+ khtml/java/CMakeLists.txt ~ unspec ~ unspec
+ khtml/java/cr16-action-java.png ~ unspec ~ unspec
+ khtml/java/images/* ~ unspec ~ unspec
+ khtml/java/KJAS_GRAMMAR.txt ~ unspec ~ unspec
+ khtml/java/kjavaappletcontext.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjavaappletcontext.h ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjavaapplet.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjavaapplet.h ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjavaappletserver.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjavaappletserver.h ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjavaappletviewer.cpp ~ LGPLv2h ~  * Copyright (C) 2003 Koos Vriezen <koos.vriezen@xs4all.nl>
+ khtml/java/kjavaappletviewer.desktop ~ unspec ~ unspec
+ khtml/java/kjavaappletviewer.h ~ LGPLv2h ~  * Copyright (C) 2003 Koos Vriezen <koos.vriezen@xs4all.nl>
+ khtml/java/kjavaappletwidget.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjavaappletwidget.h ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjavadownloader.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjavadownloader.h ~ LGPLv2h ~  * Copyright (C) 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjava.jar ~ unspec ~ unspec
+ khtml/java/kjava.policy.in ~ unspec ~ unspec
+ khtml/java/kjava.policy.in.cmake ~ unspec ~ unspec
+ khtml/java/kjavaprocess.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kjavaprocess.h ~ LGPLv2h ~  * Copyright (C) 2000 Richard Moore <rich@kde.org>, 2000 Wynn Wilkes <wynnw@caldera.com>
+ khtml/java/kqeventutil.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Wynn Wilkes <wynnw@caldera.com>, 2002 Till Krech <till@snafu.de>
+ khtml/java/kqeventutil.h ~ LGPLv2h ~  * Copyright (C) 2000 Wynn Wilkes <wynnw@caldera.com>, 2002 Till Krech <till@snafu.de>
+ khtml/java/kxeventutil.cpp ~ LGPLv2h ~  * Copyright (C) 2002 Till Krech <till@snafu.de>
+ khtml/java/kxeventutil.h ~ LGPLv2h ~  * Copyright (C) 2002 Till Krech <till@snafu.de>
+ khtml/java/make-jar ~ unspec ~ unspec
+ khtml/java/netscape* ~ unspec ~ unspec
+ khtml/java/org/kde/* ~ unspec ~ unspec
+ khtml/java/pluginsinfo ~ unspec ~ unspec
+ khtml/java/README ~ unspec ~ unspec
+ khtml/java/tests/* ~ unspec ~ unspec
+ khtml/java/tests/badapplets/BadApplet.jar ~ unspec ~ unspec
+ khtml/java/tests/badapplets/BadApplet.java ~ unspec ~ unspec
+ khtml/java/tests/CMakeLists.txt ~ unspec ~ unspec
+ khtml/java/tests/good_sites ~ unspec ~ unspec
+ khtml/java/tests/testkjavaappletserver.cpp ~ unspec ~ unspec
+ khtml/java/TODO ~ unspec ~ unspec
+ khtml/khtml_browser.rc ~ unspec ~ unspec
+ khtml/khtml_caret.cpp ~ LGPLv2h ~  * Copyright (C) 2003-2004 Leo Savernik <l.savernik@aon.at>
+ khtml/khtml_caret_p.h ~ LGPLv2h ~  * Copyright (C) 2003-2004 Leo Savernik <l.savernik@aon.at>
+ khtml/khtmldefaults.h ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 1999 David Faure <faure@kde.org>
+ khtml/khtml.desktop ~ unspec ~ unspec
+ khtml/khtml-devel-gdb ~ unspec ~ unspec
+ khtml/khtml_events.cpp ~ LGPLv2h ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/khtml_events.h ~ LGPLv2h ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/khtml_export.h ~ LGPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
+ khtml/khtml_ext.cpp ~ LGPLv2h ~  * Copyright (C) 2000-2003 Simon Hausmann <hausmann@kde.org>, George Staikos <staikos@kde.org>, 2001-2003 Laurent Montel <montel@kde.org>, 2001-2003 Dirk Mueller <mueller@kde.org>, 2001-2003 Waldo Bastian <bastian@kde.org>, 2001-2003 David Faure <faure@kde.org>, 2001-2003 Daniel Naber <dnaber@kde.org>
+ khtml/khtml_ext.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 Simon Hausmann <hausmann@kde.org>, George Staikos <staikos@kde.org>, 2001-2003 Laurent Montel <montel@kde.org>, 2001-2003 Dirk Mueller <mueller@kde.org>, 2001-2003 Waldo Bastian <bastian@kde.org>, 2001-2003 David Faure <faure@kde.org>, 2001-2003 Daniel Naber <dnaber@kde.org>
+ khtml/khtml_factory.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/khtml_factory.h ~ LGPLv2h ~  * Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/khtml_factory_init.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/khtml_iface.cc ~ LGPLv2h ~  * Copyright (C) 2002 Stephan Kulow <coolo@kde.org>
+ khtml/khtml_iface.h ~ LGPLv2h ~  *  Copyright (C) 2002 Stephan Kulow <coolo@kde.org>
+ khtml/khtmlimage.cpp ~ LGPLv2h ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/khtmlimage.desktop ~ unspec ~ unspec
+ khtml/khtmlimage.h ~ LGPLv2h ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/khtmlimage_init.cpp ~ LGPLv2h ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/khtml_pagecache.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Waldo Bastian <bastian@kde.org>, 2007 Nick Shaforostoff <shafff@ukr.net>
+ khtml/khtml_pagecache.h ~ LGPLv2 ~  * Copyright (C) 2000  Waldo Bastian <bastian@kde.org>
+ khtml/khtml_part.cpp ~ LGPLv2h ~  * Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, Lars Knoll <knoll@kde.org>, 1999 Antti Koivisto <koivisto@kde.org>, 2000 Simon Hausmann <hausmann@kde.org>, 2000 Stefan Schimanski <1Stein@gmx.de>
+ 2001-2005 George Staikos <staikos@kde.org>, 2001-2003 Dirk Mueller <mueller@kde.org>, 2000-2005 David Faure <faure@kde.org>, 2002 Apple Computer, Inc.
+ khtml/khtml_part.h ~ LGPLv2h ~  * Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, Lars Knoll <knoll@kde.org>, 1999 Antti Koivisto <koivisto@kde.org>, 2000 Simon Hausmann <hausmann@kde.org>, 2000 Stefan Schimanski <1Stein@gmx.de>
+ 2001-2005 George Staikos <staikos@kde.org>, 2001-2003 Dirk Mueller <mueller@kde.org>, 2000-2005 David Faure <faure@kde.org>, 2002 Apple Computer, Inc.
+ khtml/khtmlpart_p.h ~ LGPLv2 ~  * Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 1999-2001 Lars Knoll <knoll@kde.org>, 1999-2001 Antti Koivisto <koivisto@kde.org>, 2000-2001 Simon Hausmann <hausmann@kde.org>, 2000-2001 Dirk Mueller <mueller@kde.org>, 2000 Stefan Schimanski <1Stein@gmx.de>, 2001-2005 George Staikos <staikos@kde.org>
+ khtml/khtml_popupmenu.rc ~ unspec ~ unspec
+ khtml/khtml_printsettings.cpp ~ LGPLv2h ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.be>
+ khtml/khtml_printsettings.h ~ LGPLv2h ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.be>
+ khtml/khtml.rc ~ unspec ~ unspec
+ khtml/khtml_run.cpp ~ LGPLv2h ~  * Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>,  1999 Lars Knoll <knoll@kde.org>, 1999 Antti Koivisto <koivisto@kde.org>, 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/khtml_run.h ~ LGPLv2 h~  * Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>,  1999 Lars Knoll <knoll@kde.org>, 1999 Antti Koivisto <koivisto@kde.org>, 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/khtml_settings.cc ~ LGPLv2 ~    Copyright (C) 1999 David Faure <faure@kde.org>
+ khtml/khtml_settings.h ~ LGPLv2h ~    Copyright (C) 1999 David Faure <faure@kde.org>
+ khtml/khtmlview.cpp ~ LGPLv2h ~  * Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
+ khtml/khtmlview.h ~ LGPLv2h ~    Copyright (C) 1997 Martin Jones (mjones@kde.org)
+ khtml/khtml_wallet_p.h ~ LGPLv2 ~  * Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 1999-2001 Lars Knoll <knoll@kde.org>, 1999-2001 Antti Koivisto <koivisto@kde.org>, 2000-2001 Simon Hausmann <hausmann@kde.org>, 2000-2001 Dirk Mueller <mueller@kde.org>, 2000 Stefan Schimanski <1Stein@gmx.de>, 2001-2003 George Staikos <staikos@kde.org>
+ khtml/kjserrordlgbase.ui ~ unspec ~ unspec
+ khtml/kjserrordlg.cpp ~ unspec ~ unspec
+ khtml/kjserrordlg.h ~ unspec ~ unspec
+ khtml/kmultipart/CMakeLists.txt ~ unspec ~ unspec
+ khtml/kmultipart/kmultipart.cpp ~ LGPLv2h ~    Copyright (C) 2002 David Faure <david@mandrakesoft.com>
+ khtml/kmultipart/kmultipart.desktop ~ unspec ~ unspec
+ khtml/kmultipart/kmultipart.h ~ LGPLv2h ~    Copyright (C) 2002 David Faure <david@mandrakesoft.com>
+ khtml/kmultipart/README ~ unspec ~ unspec
+ khtml/libkhtml.map ~ unspec ~ unspec
+ khtml/Mainpage.dox ~ XXXX
+ khtml/misc/arena.cpp ~ LGPLv2h ~  * Copyright (C) 1998-2000 Netscape Communications Corporation.
+ khtml/misc/arena.h ~ LGPLv2h ~  * Copyright (C) 1998-2000 Netscape Communications Corporation.
+ khtml/misc/blocked_icon.cpp ~ unspec ~ unspec
+ khtml/misc/blocked_icon.png ~ unspec ~ unspec
+ khtml/misc/helper.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), David Carson  <dacarson@gmail.com>
+ khtml/misc/helper.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org)
+ khtml/misc/htmlattrs.c ~ unspec ~ unspec
+ khtml/misc/htmlattrs.h ~ unspec ~ /* Copyright 1999 Lars Knoll */
+ khtml/misc/htmlattrs.in ~ unspec ~ unspec
+ khtml/misc/htmlhashes.cpp ~ LGPLv2h ~     Copyright (C) 1999 Lars Knoll (knoll@mpi-hd.mpg.de)
+ khtml/misc/htmlhashes.h ~ unspec ~ unspec
+ khtml/misc/htmltags.c ~ unspec ~ /* Copyright 1999 Lars Knoll */
+ khtml/misc/htmltags.h ~ unspec ~ /* Copyright 1999 Lars Knoll */
+ khtml/misc/htmltags.in ~ unspec ~ unspec
+ khtml/misc/khtmllayout.h ~ LGPLv2h ~     Copyright (C) 1999 Lars Knoll (knoll@kde.org)
+ khtml/misc/loader_client.h ~ unspec ~ unspec
+ khtml/misc/loader.cpp ~ LGPLv2h ~     Copyright (C) 1998 Lars Knoll (knoll@mpi-hd.mpg.de), 2001-2003 Dirk Mueller (mueller@kde.org), 2002 Waldo Bastian (bastian@kde.org), 2003 Apple Computer, Inc.
+ khtml/misc/loader.h ~ LGPLv2h ~     Copyright (C) 1998 Lars Knoll (knoll@mpi-hd.mpg.de), 2001-2003 Dirk Mueller <mueller@kde.org<, 2003 Apple Computer, Inc
+ khtml/misc/loader_jpeg.cpp ~ MIT ~     Copyright (C) 2000 Dirk Mueller (mueller@kde.org)
+ khtml/misc/loader_jpeg.h ~ MIT ~     Copyright (C) 2000 Dirk Mueller (mueller@kde.org)
+ khtml/misc/makeattrs ~ LGPLv2h ~ #   Copyright (C) 1999 Lars Knoll (knoll@mpi-hd.mpg.de), 2003 Dirk Mueller (mueller@kde.org)
+ khtml/misc/maketags ~ LGPLv2 ~ #   Copyright (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Lars Knoll (knoll@mpi-hd.mpg.de)
+ khtml/misc/multimap.h ~ LGPLv2h ~  * Copyright (C) 2006 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/misc/paintbuffer.cpp ~ LGPLv2 h~  * Copyright (C) 2007 Germain Garand <germain@ebooksfrance.org>
+ khtml/misc/paintbuffer.h ~ LGPLv2h ~  * Copyright (C) 2007 Germain Garand <germain@ebooksfrance.org>
+ khtml/misc/seed.h ~ LGPLv2h ~  * Copyright (C) 2003 Germain Garand <germain@ebooksfrance.org>
+ khtml/misc/shared.h ~ LGPLv2 h~  * Copyright (C) 2005, 2006 Apple Computer, Inc., 2002 Lars Knoll
+ khtml/misc/stringit.cpp ~ LGPLv2h ~     Copyright (C) 2004 Apple Computer
+ khtml/misc/stringit.h ~ LGPLv2h ~     Copyright (C) 1999 Lars Knoll (knoll@mpi-hd.mpg.de), 2004 Apple Computer, Inc.
+ khtml/org.kde.KHTMLPart.xml ~ unspec ~ unspec
+ khtml/pics/* ~ unspec ~ unspec
+ khtml/README.HTMLWidget ~ unspec ~ unspec
+ khtml/rendering/bidi.cpp ~ LGPLv2h ~  * Copyright (C) 2000-2003 Lars Knoll (knoll@kde.org), 2003-2005 Apple Computer, Inc, 2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/bidi.h ~ LGPLv2h ~  * Copyright (C) 2000 Lars Knoll (knoll@kde.org), 2003 Apple Computer, Inc.
+ khtml/rendering/break_lines.cpp ~ unspec ~ unspec
+ khtml/rendering/break_lines.h ~ unspec ~ unspec
+ khtml/rendering/counter_tree.cpp ~ LGPLv2h ~  * Copyright (C) 2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/counter_tree.h ~ LGPLv2h ~  * Copyright (C) 2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/enumerate.cpp ~ LGPLv2h ~  * Copyright (C) 2004-2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/enumerate.h ~ LGPLv2h ~  * Copyright (C) 2004-2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/font.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2000 Dirk Mueller (mueller@kde.org)
+ khtml/rendering/font.h ~ LGPLv2h ~  Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2000 Dirk Mueller (mueller@kde.org)
+ khtml/rendering/img-loading.png ~ unspec ~ unspec
+ khtml/rendering/loading_icon.cpp ~ unspec ~ unspec
+ khtml/rendering/render_applet.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org)
+ khtml/rendering/render_applet.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org)
+ khtml/rendering/render_arena.cpp ~ LGPLv2h ~  * Copyright (C) 2002 Apple Computer, Inc., 2003 Dirk Mueller (mueller@kde.org), Portions are Copyright (C) 1998 Netscape Communications Corporation.
+ khtml/rendering/render_arena.h ~ LGPLv2h ~  * Copyright (C) 2002 Apple Computer, Inc., 2003 Dirk Mueller (mueller@kde.org), Portions are Copyright (C) 1998 Netscape Communications Corporation.
+ khtml/rendering/render_block.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org),  (C) 1999-2003 Antti Koivisto (koivisto@kde.org), 2002-2003 Dirk Mueller (mueller@kde.org), 2003,2005 Apple Computer, Inc., 2004 Germain Garand (germain@ebooksfrance.org), 2005 Allan Sandfeld Jensen (kde@carewolf.com), 2006 Charles Samuels (charles@kde.org)
+ khtml/rendering/render_block.h ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999-2003 Antti Koivisto (koivisto@kde.org), 2002-2003 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc.
+ khtml/rendering/render_body.cpp ~ LGPLv2h ~  * Copyright (C) 2000-2003 Lars Knoll (knoll@kde.org)
+ khtml/rendering/render_body.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 Lars Knoll (knoll@kde.org)
+ khtml/rendering/render_box.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2002-2003 Apple Computer, Inc., 2005 Allan Sandfeld Jensen (kde@carewolf.com), 2006 Samuel Weinig (sam.weinig@gmail.com), 2007 Germain Garand (germain@ebooksfrance.org)
+ khtml/rendering/render_box.h ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2002-2003 Apple Computer, Inc.
+ khtml/rendering/render_br.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Lars Knoll (knoll@kde.org)
+ khtml/rendering/render_br.h ~ LGPLv2h ~  * Copyright (C) 2000 Lars Knoll (knoll@kde.org)
+ khtml/rendering/render_canvas.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 2003 Apple Computer, Inc., 2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/render_canvas.h ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/render_canvasimage.cpp ~ BSD ~  * Copyright (C) 2004 Apple Computer, Inc.  All rights reserved., 2005 Zack Rusin <zack@kde.org>
+ khtml/rendering/render_canvasimage.h ~ BSD ~  * Copyright (C) 2004 Apple Computer, Inc.  All rights reserved., 2005 Zack Rusin <zack@kde.org>
+ khtml/rendering/render_container.cpp ~ LGPLv2h ~  * Copyright (C) 2001-2003 Lars Knoll (knoll@kde.org), 2001 Antti Koivisto (koivisto@kde.org), 2000-2003 Dirk Mueller (mueller@kde.org), 2002-2003 Apple Computer, Inc.
+ khtml/rendering/render_container.h ~ LGPLv2h ~  * Copyright (C) 2001 Antti Koivisto (koivisto@kde.org)
+ khtml/rendering/render_flow.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999-2003 Antti Koivisto (koivisto@kde.org), 2002-2003 Dirk Mueller (mueller@kde.org), 2003-2006 Apple Computer, Inc.
+ khtml/rendering/render_flow.h ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999-2003 Antti Koivisto (koivisto@kde.org), 2002-2003 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc.
+ khtml/rendering/render_form.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2000 Dirk Mueller (mueller@kde.org), 2006 Maksim Orlovich (maksim@kde.org), 2006 Germain Garand (germain@ebooksfrance.org)
+ khtml/rendering/render_form.h ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2000-2003 Dirk Mueller (mueller@kde.org)
+ khtml/rendering/render_frames.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 2000 Simon Hausmann <hausmann@kde.org>, 2000 Stefan Schimanski (1Stein@gmx.de), 2003 Apple Computer, Inc., 2005 Niels Leenheer <niels.leenheer@gmail.com>
+ khtml/rendering/render_frames.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 2000 Simon Hausmann <hausmann@kde.org>
+ khtml/rendering/render_generated.cpp ~ LGPLv2h ~  * Copyright (C) 2004-2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/render_generated.h ~ LGPLv2h ~  * Copyright (C) 2004,2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/render_image.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), (C) 2000-2003 Dirk Mueller (mueller@kde.org), (C) 2003 Apple Computer, Inc.
+ khtml/rendering/render_image.h ~ LGPLv2 ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
+ khtml/rendering/render_inline.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999-2003 Antti Koivisto (koivisto@kde.org), 2002-2003 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc.
+ khtml/rendering/render_inline.h ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999-2003 Antti Koivisto (koivisto@kde.org), (C) 2002-2003 Dirk Mueller (mueller@kde.org), (C) 2003 Apple Computer, Inc.
+ khtml/rendering/render_layer.cpp ~ LGPLv2.1h ~  * Copyright (C) 2003 Apple Computer, Inc., 2006 Germain Garand <germain@ebooksfrance.org>, 2006 Allan Sandfeld Jense <kde@carewolf.com>, Portions are Copyright (C) 1998 Netscape Communications Corporation.
+ khtml/rendering/render_layer.h ~ LGPLv2.1h ~  * Copyright (C) 2003 Apple Computer, Inc., Portions are Copyright (C) 1998 Netscape Communications Corporation.
+ khtml/rendering/render_line.cpp ~ LGPLv2h ~  * Copyright (C) 2003-2006 Apple Computer, Inc., 2006 Germain Garand (germain@ebooksfrance.org
+ khtml/rendering/render_line.h ~ LGPLv2h ~  * Copyright (C) 2003 Apple Computer, Inc.
+ khtml/rendering/render_list.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2000-2002 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc., 2004-2005 Allan Sandfeld Jensen (kde@carewolf.com
+ khtml/rendering/render_list.h ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2004 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/render_object.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org),  1999 Antti Koivisto (koivisto@kde.org), 2000-2003 Dirk Mueller (mueller@kde.org), 2002-2006 Apple Computer, Inc., 2006 Germain Garand <germain@ebooksfrance.org>
+ khtml/rendering/render_object.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 Lars Knoll (knoll@kde.org), 2000 Antti Koivisto (koivisto@kde.org), 2000-2003 Dirk Mueller (mueller@kde.org), 2002-2003 Apple Computer, Inc., 2004 Allan Sandfeld Jensen
+ khtml/rendering/render_replaced.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 2000-2003 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc., (C) 2004-2006 Germain Garand (germain@ebooksfrance.org)
+ khtml/rendering/render_replaced.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 2006 Germain Garand (germain@ebooksfrance.org)
+ khtml/rendering/render_style.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Antti Koivisto (koivisto@kde.org), 1999-2003 Lars Knoll (knoll@kde.org), 2002-2003 Dirk Mueller (mueller@kde.org), 2002-2005 Apple Computer, Inc., 2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/render_style.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 Lars Knoll (knoll@kde.org), 2000 Antti Koivisto (koivisto@kde.org), 2000-2003 Dirk Mueller (mueller@kde.org), 2003-2005 Apple Computer, Inc., 2004-2006 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/render_table.cpp ~ LGPLv2h ~  * Copyright (C) 1997 Martin Jones (mjones@kde.org), 1997 Torben Weis (weis@kde.org), 1998 Waldo Bastian (bastian@kde.org), 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2003 Apple Computer, Inc., 2005 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/rendering/render_table.h ~ LGPLv2h ~  * Copyright (C) 1997 Martin Jones (mjones@kde.org), 1997 Torben Weis (weis@kde.org), 1998 Waldo Bastian (bastian@kde.org), 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2003 Apple Computer, Inc.
+ khtml/rendering/render_text.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1997 Torben Weis (weis@kde.org),1998 Waldo Bastian (bastian@kde.org), 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2003 Apple Computer, Inc.
+ khtml/rendering/render_text.h ~ LGPLv2h ~ 1999-2003 Lars Knoll (knoll@kde.org), 2000-2003 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc.
+ khtml/rendering/table_layout.cpp ~ LGPLv2 ~  * Copyright (C) 2002 Lars Knoll (knoll@kde.org), 2002 Dirk Mueller (mueller@kde.org), 
+ khtml/rendering/table_layout.h ~ LGPLv2 ~  * Copyright (C) 2002 Lars Knoll (knoll@kde.org), 2002 Dirk Mueller (mueller@kde.org)
+ khtml/rendering/table_layout.txt ~ unspec ~ unspec
+ khtml/SAFARI_MERGE ~ unspec ~ unspec
+ khtml/test/* ~ unspec ~ unspec
+ khtml/test_regression.cpp ~ LGPLv2h ~  * Copyright (C) 2001,2003 Peter Kelly (pmk@post.com), 2003,2004 Stephan Kulow (coolo@kde.org), 2004 Dirk Mueller ( mueller@kde.org )
+ khtml/test_regression_fontoverload.cpp ~ LGPLv2h ~  * Copyright (C) 2003 Stephan Kulow (coolo@kde.org)
+ khtml/test_regression_gui_main.cpp ~ LGPLv2h ~  * Copyright (C) 2006 Nikolas Zimmermann <zimmermann@kde.org>m
+ khtml/test_regression_gui.qrc ~ unspec ~ unspec
+ khtml/test_regression_gui.ui ~ unspec ~ unspec
+ khtml/test_regression_gui_window.cpp ~ LGPLv2h ~  * Copyright (C) 2006 Nikolas Zimmermann <zimmermann@kde.org>
+ khtml/test_regression_gui_window.h ~ LGPLv2h ~  * Copyright (C) 2006 Nikolas Zimmermann <zimmermann@kde.org>
+ khtml/test_regression.h ~ LGPLv2h ~  * Copyright (C) 2001,2003 Peter Kelly (pmk@post.com)
+ khtml/tests/CMakeLists.txt ~ unspec ~ unspec
+ khtml/tests/testkhtmlnew.cpp ~ unspec ~ unspec
+ khtml/tests/testkhtmlnew.h ~ unspec ~ unspec
+ khtml/tests/testkhtml.qrc ~ unspec ~ unspec
+ khtml/TODO ~ unspec ~ unspec
+ khtml/xml/dom2_eventsimpl.cpp ~ LGPLv2h ~  * Copyright (C) 2001 Peter Kelly (pmk@post.com), 2001 Tobias Anton (anton@stud.fbi.fh-darmstadt.de), 2003 Apple Computer, Inc,  (C) 2006 Maksim Orlovich (maksim@kde.org)
+ khtml/xml/dom2_eventsimpl.h ~ LGPLv2h ~  * Copyright (C) 2001 Peter Kelly (pmk@post.com), 2001 Tobias Anton (anton@stud.fbi.fh-darmstadt.de), 2002 Apple Computer, Inc.
+ khtml/xml/dom2_rangeimpl.cpp ~ LGPLv2h ~  1999-2003 Lars Knoll (knoll@kde.org), 2001-2003 Dirk Mueller (mueller@kde.org), 2000 Gunnstein Lye (gunnstein@netcom.no), 2000 Frederik Holljen (frederik.holljen@hig.no), 2001 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.c.
+ khtml/xml/dom2_rangeimpl.h ~ LGPLv2h ~ 2000 Gunnstein Lye (gunnstein@netcom.no), 2000 Frederik Holljen (frederik.holljen@hig.no), 2001 Peter Kelly (pmk@post.com)
+ khtml/xml/dom2_traversalimpl.cpp ~ LGPLv2h ~ 1999 Lars Knoll (knoll@kde.org), 2000 Frederik Holljen (frederik.holljen@hig.no), 2001 Peter Kelly (pmk@post.com)
+ khtml/xml/dom2_traversalimpl.h ~ LGPLv2h ~ 1999 Lars Knoll (knoll@kde.org), 2000 Frederik Holljen (frederik.holljen@hig.no), 2001 Peter Kelly (pmk@post.com)
+ khtml/xml/dom2_viewsimpl.cpp ~ LGPLv2h ~ 2001 Peter Kelly (pmk@post.com)
+ khtml/xml/dom2_viewsimpl.h ~ LGPLv2h ~ 2001 Peter Kelly (pmk@post.com)
+ khtml/xml/dom_docimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org)
+ khtml/xml/dom_docimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org)
+ khtml/xml/dom_elementimpl.cpp ~ LGPLv2h ~  1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2001 Peter Kelly (pmk@post.com), 2001 Dirk Mueller (mueller@kde.org), 2006 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/xml/dom_elementimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2001 Peter Kelly (pmk@post.com), 2001 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc.
+ khtml/xml/dom_nodeimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2001 Dirk Mueller (mueller@kde.org), 2003-2006 Apple Computer, Inc., 2006 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/xml/dom_nodeimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2001 Dirk Mueller (mueller@kde.org), 2003 Apple Computer, Inc.
+ khtml/xml/dom_restyler.cpp ~ LGPLv2h ~  * Copyright (C) 2006 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/xml/dom_restyler.h ~ LGPLv2h ~  * Copyright (C) 2006 Allan Sandfeld Jensen (kde@carewolf.com)
+ khtml/xml/dom_stringimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2001-2003 Dirk Mueller ( mueller@kde.org ), 2002 Apple Computer, Inc.
+ khtml/xml/dom_stringimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 2003 Dirk Mueller (mueller@kde.org)
+ khtml/xml/dom_textimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), (C) 2001-2003 Dirk Mueller (mueller@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2002-2003 Apple Computer, Inc.
+ khtml/xml/dom_textimpl.h ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 2001-2003 Dirk Mueller (mueller@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2003 Apple Computer, Inc
+ khtml/xml/dom_xmlimpl.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Peter Kelly (pmk@post.com)
+ khtml/xml/dom_xmlimpl.h ~ LGPLv2h ~  * Copyright (C) 2000 Peter Kelly (pmk@post.com)
+ khtml/xml/xml_tokenizer.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Peter Kelly (pmk@post.com), 2003 Apple Computer, Inc.
+ khtml/xml/xml_tokenizer.h ~ LGPLv2h ~  * Copyright (C) 2000 Peter Kelly (pmk@post.com)
 
  kimgio/AUTHORS ~ unspec ~ unspec
  kimgio/bmp.desktop ~ unspec ~ unspec
@@ -3190,8 +3659,6 @@ knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
 DIRs TODO:
 
 kdeui (half-done)
-
-khtml
 
 kio
 
