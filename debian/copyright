@@ -2058,7 +2058,531 @@ khtml/BUILDING-TESTREGRESSION ~ unspec ~ unspec
  kinit/tests/klaunchertest.cpp ~ LGPLv2 ~     Copyright (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
  kinit/wrapper.c ~ LGPLv2 ~ (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
 
-kioslave/CMakeLists.txt ~ unspec ~ unspec
+kio/application.desktop ~ unspec ~ unspec
+ kio/bookmarks/kbookmark.cc ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkdombuilder.cc ~ LGPLv2h ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2002-2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkdombuilder.h ~ LGPLv2h ~    Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkexporter.h ~ LGPLv2 ~    Copyright (C) 1996-1998 Martin R. Jones <mjones@kde.org>, 2000 David Faure <faure@kde.org>, 2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmark.h ~ LGPLv2 ~    Copyright (C) 2000-2005 David Faure <faure@kde.org>
+ kio/bookmarks/kbookmarkimporter.cc ~ LGPLv2 ~    Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkimporter_crash.cc ~ LGPLv2 ~    Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkimporter_crash.h ~ LGPLv2 ~    Copyright (C) 2002 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkimporter.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/bookmarks/kbookmarkimporter_ie.cc ~ LGPLv2 ~    Copyright (C) 2002-2003  Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkimporter_ie.h ~ LGPLv2 ~    Copyright (C) 2002 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkimporter_ns.cc ~ LGPLv2 ~    Copyright (C) 1996-1998 Martin R. Jones <mjones@kde.org>, 2000 David Faure <faure@kde.org>, 2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkimporter_ns.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/bookmarks/kbookmarkimporter_opera.cc ~ LGPLv2 ~    Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkimporter_opera.h ~ LGPLv2 ~    Copyright (C) 2002 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkimporter_opera_p.h ~ LGPLv2 ~    Copyright (C) 2002 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkmanageradaptor.cc ~ LGPLv2 ~    Copyright (C) 2006 Thiago Macieira <thiago@kde.org>
+ kio/bookmarks/kbookmarkmanageradaptor_p.h ~ LGPLv2 ~    Copyright (C) 2006 Thiago Macieira <thiago@kde.org>
+ kio/bookmarks/kbookmarkmanager.cc ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarkmanager.h ~ LGPLv2h ~    Copyright (C) 2000, 2006 David Faure <faure@kde.org>
+ kio/bookmarks/kbookmarkmenu.cc ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 2006 Daniel Teske <teske@squorn.de>
+ kio/bookmarks/kbookmarkmenu.h ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 2006 Daniel Teske <teske@squorn.de>
+ kio/bookmarks/kbookmarkmenu_p.h ~ LGPLv2h ~    Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/kbookmarknotifier.cc ~ LGPLv2h ~    Copyright (C) 2006 Thiago Macieira <thiago@kde.org>
+ kio/bookmarks/kbookmarknotifier.h ~ LGPLv2h ~    Copyright (C) 2001, 2003 Alexander Kellett <lypanov@kde.org>
+ kio/bookmarks/konqbookmarkmenu.cc ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 2006 Daniel Teske <teske@squorn.de>
+ kio/bookmarks/konqbookmarkmenu.h ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 2006 Daniel Teske <teske@squorn.de>
+ kio/CMakeLists.txt ~ unspec ~ unspec
+ kio/data.protocol ~ unspec ~ unspec
+ kio/DESIGN ~ unspec ~ unspec
+ kio/DESIGN.krun ~ unspec ~ unspec
+ kio/DESIGN.metadata ~ unspec ~ unspec
+ kio/DESIGN.mimetypes ~ unspec ~ unspec
+ kio/DESKTOP_ENTRY_STANDARD ~ unspec ~ unspec
+ kio/httpfilter/httpfilter.cc ~ LGPLv2 ~    Copyright (c) 2002 Waldo Bastian <bastian@kde.org>
+ kio/httpfilter/httpfilter.h ~ LGPLv2 ~    Copyright (c) 2002 Waldo Bastian <bastian@kde.org>
+ kio/kcmodule.desktop ~ unspec ~ unspec
+ kio/kcmoduleinit.desktop ~ unspec ~ unspec
+ kio/kdatatool.desktop ~ unspec ~ unspec
+ kio/kfile/ChangeLog ~ unspec ~ unspec
+ kio/kfile/config-kfile.h ~ LGPLv2h ~     Copyright 1999 Stephan Kulow <coolo@kde.org>
+ kio/kfile/images/* ~ unspec ~ unspec
+ kio/kfile/kabstractfilemodule.cpp ~ LGPLv2h ~     Copyright 2007 David Faure <faure@kde.org>
+ kio/kfile/kabstractfilemodule.h ~ LGPLv2h ~     Copyright 2007 David Faure <faure@kde.org>
+ kio/kfile/kabstractfilewidget.h ~ LGPLv2h ~     Copyright (C) 1997, 1998 Richard Moore <rich@kde.org>,  1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana <grana@ie.iwi.unibe.ch>, 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>, 2001 Frerich Raabe <raabe@kde.org>, 2007 David Faure <faure@kde.org>
+ kio/kfile/kacleditwidget.cpp ~ LGPLv2h ~  *   Copyright (C) 2005 by Sean Harmer <sh@rama.homelinux.org>,  2005 - 2007 Till Adam <adam@kde.org>
+ kio/kfile/kacleditwidget.h ~ LGPLv2h ~  *   Copyright (C) 2005 by Sean Harmer <sh@rama.homelinux.org>,  2005 - 2007 Till Adam <adam@kde.org>
+ kio/kfile/kacleditwidget_p.h ~ LGPLv2h ~  *   Copyright (C) 2005 by Sean Harmer <sh@rama.homelinux.org>,  2005 - 2007 Till Adam <adam@kde.org>
+ kio/kfile/kacleditwidget.qrc ~ unspec ~ unspec
+ kio/kfile/kdevicelistitem.cpp ~ LGPLv2 ~     Copyright (C) 2006 Michael Larouche <michael.larouche@kdemail.net>, 2007 Kevin Ottens <ervin@kde.org>
+ kio/kfile/kdevicelistitem_p.h ~ LGPLv2 ~     Copyright (C) 2006 Michael Larouche <michael.larouche@kdemail.net>, 2007 Kevin Ottens <ervin@kde.org>
+ kio/kfile/kdevicelistmodel.cpp ~ LGPLv2 ~     Copyright (C) 2006 Michael Larouche <michael.larouche@kdemail.net>, 2007 Kevin Ottens <ervin@kde.org>
+ kio/kfile/kdevicelistmodel.h ~ LGPLv2 ~     Copyright (C) 2006 Michael Larouche <michael.larouche@kdemail.net>, 2007 Kevin Ottens <ervin@kde.org>
+ kio/kfile/kdiskfreespace.cpp ~ LGPLv2 ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>, 2007 David Faure <faure@kde.org>
+ kio/kfile/kdiskfreespace.h ~ LGPLv2 ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>, 2007 David Faure <faure@kde.org>
+ kio/kfile/kencodingfiledialog.cpp ~ LGPLv2h ~     Copyright (C) 2003 Joseph Wenninger <jowenn@kde.org>, 2003 Andras Mantia <amantia@freemail.hu>
+ kio/kfile/kencodingfiledialog.h ~ LGPLv2h ~     Copyright (C) 2003 Joseph Wenninger <jowenn@kde.org>, 2003 Andras Mantia <amantia@freemail.hu>
+ kio/kfile/kfile.cpp ~ LGPLv2 ~     Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/kfile/kfiledialog.cpp ~ LGPLv2h ~     Copyright (C) 1997, 1998 Richard Moore <rich@kde.org>, 1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana <grana@ie.iwi.unibe.ch>, 1999,2000,2001,2002,2003 Carsten Pfeiffer <pfeiffer@kde.org>, 2003 Clarence Dang <dang@kde.org>
+ kio/kfile/kfiledialog.h ~ LGPLv2h ~     Copyright (C) 1997, 1998 Richard Moore <rich@kde.org>, 1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana <grana@ie.iwi.unibe.ch>, 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>, 2001 Frerich Raabe <raabe@kde.org>, 2007 David Faure <faure@kde.org>
+ kio/kfile/kfile.h ~ LGPLv2 ~     Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kfilemetainfowidget.cpp ~ LGPLv2 ~     Copyright (C) 2001,2002 Rolf Magnus <ramagnus@kde.org>
+ kio/kfile/kfilemetainfowidget.h ~ LGPLv2 ~     Copyright (C) 2001,2002 Rolf Magnus <ramagnus@kde.org>
+ kio/kfile/kfilemetapreview.cpp ~ LGPLv2 ~  * Copyright (C) 2003 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kfilemetapreview.h ~ LGPLv2 ~  * Copyright (C) 2003 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kfilesharedialog.cpp ~ LGPLv2 ~    Copyright (c) 2001 David Faure <faure@kde.org>, 2001 Laurent Montel <lmontel@mandrakesoft.com>
+ kio/kfile/kfilesharedialog.h ~ LGPLv2 ~    Copyright (c) 2001 David Faure <faure@kde.org>, 2001 Laurent Montel <lmontel@mandrakesoft.com>
+ kio/kfile/kfsprocess.cpp ~ LGPLv2h ~     Copyright (C) 1997 Christian Czezakte (e9025461@student.tuwien.ac.at)
+ kio/kfile/kfsprocess.h ~ LGPLv2h ~     Copyright (C) 1997 Christian Czezakte (e9025461@student.tuwien.ac.at)
+ kio/kfile/kicondialog.cpp ~ LGPLv2 ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>, (C) 2000 Kurt Granroth <granroth@kde.org>, 1997 Christoph Neerfeld <chris@kde.org>, 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kicondialog.h ~ LGPLv2 ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>, (C) 2000 Kurt Granroth <granroth@kde.org>, 1997 Christoph Neerfeld <chris@kde.org>, 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kimagefilepreview.cpp ~ LGPLv2 ~  * Copyright (C) 2001 Martin R. Jones <mjones@kde.org>, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kimagefilepreview.h ~ LGPLv2 ~  * Copyright (C) 2001 Martin R. Jones <mjones@kde.org>, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kmetaprops.cpp ~ LGPLv2 ~     Copyright (C) 2001,2002 Rolf Magnus <ramagnus@kde.org>
+ kio/kfile/kmetaprops.h ~ LGPLv2 ~     Copyright (C) 2001,2002 Rolf Magnus <ramagnus@kde.org>
+ kio/kfile/kopenwithdialog.cpp ~ LGPLv2h ~     Copyright (C) 1997 Torben Weis <weis@stud.uni-frankfurt.de>, 1999 Dirk Mueller <mueller@kde.org>, Portions copyright (C) 1999 Preston Brown <pbrown@kde.org>, Copyright (C) 2007 Pino Toscano <pino@kde.org>
+ kio/kfile/kopenwithdialog.h ~ LGPLv2h ~     Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kfile/kopenwithdialog_p.h ~ LGPLv2h ~     Copyright (C) 2000 David Faure <faure@kde.org>,2007 Pino Toscano <pino@kde.org>
+ kio/kfile/kpreviewprops.cpp ~ LGPLv2 ~     Copyright (C) 2005 Stephan Binner <binner@kde.org>
+ kio/kfile/kpreviewprops.h ~ LGPLv2 ~     Copyright (C) 2005 Stephan Binner <binner@kde.org>
+ kio/kfile/kpreviewwidgetbase.cpp ~ LGPLv2 ~  * Copyright (C) 2003 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kpreviewwidgetbase.h ~ LGPLv2h ~  * Copyright (C) 2001 Frerich Raabe <raabe@kde.org>, 2003 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kpropertiesdesktopadvbase.ui ~ unspec ~ unspec
+ kio/kfile/kpropertiesdesktopbase.ui ~ unspec ~ unspec
+ kio/kfile/kpropertiesdialog.cpp ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 1999, 2000 Preston Brown <pbrown@kde.org>, 2000 Simon Hausmann <hausmann@kde.org>, 2000 David Faure <faure@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
+ kio/kfile/kpropertiesdialog.h ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 1999, 2000 Preston Brown <pbrown@kde.org>, 2000 Simon Hausmann <hausmann@kde.org>, 2000 David Faure <faure@kde.org>
+ kio/kfile/kpropertiesdialogplugin.desktop ~ unspec ~ unspec
+ kio/kfile/kpropsdialog.h ~ unspec ~ unspec
+ kio/kfile/krecentdirs.cpp ~ BSD ~  * Copyright (C)2000 Waldo Bastian <bastian@kde.org>
+ kio/kfile/krecentdirs.h ~ BSD ~  * Copyright (C)2000 Waldo Bastian <bastian@kde.org>
+ kio/kfile/krecentdocument.cpp ~ BSD ~  * Copyright (C)2000 Daniel M. Duley <mosfet@kde.org>
+ kio/kfile/krecentdocument.h ~ BSD ~  * Copyright (C)2000 Daniel M. Duley <mosfet@kde.org>
+ kio/kfile/kurlcombobox.cpp ~ LGPLv2 ~     Copyright (C) 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kurlcombobox.h ~ LGPLv2 ~     Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kurlrequester.cpp ~ LGPLv2 ~     Copyright (C) 1999,2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/kurlrequesterdialog.cpp ~ LGPLv2h ~     Copyright (C) 2000 Wilco Greven <greven@kde.org>
+ kio/kfile/kurlrequesterdialog.h ~ LGPLv2h ~     Copyright (C) 2000 Wilco Greven <greven@kde.org>
+ kio/kfile/kurlrequester.h ~ LGPLv2 ~     Copyright (C) 1999,2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/NOTES ~ unspec ~ unspec
+ kio/kfileplugin.desktop ~ unspec ~ unspec
+ kio/kfile/tests/CMakeLists.txt ~ unspec ~ unspec
+ kio/kfile/tests/kfdtest.cpp ~ unspec ~ unspec
+ kio/kfile/tests/kfdtest.h ~ unspec ~ ** Copyright (C) 2003 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kfile/tests/kfstest.cpp ~ LGPLv2h ~ 1997, 1998 Richard Moore <rich@kde.org>, 1998 Stephan Kulow <coolo@kde.org>
+ kio/kfile/tests/kicondialogtest.cpp ~ unspec ~ unspec
+ kio/kfile/tests/kopenwithtest.cpp ~ LGPLv2h ~     Copyright (C) 2002 Dirk Mueller <mueller@kde.org>, 2003 David Faure <faure@kde.org>
+ kio/kfile/tests/kurlrequestertest.cpp ~ unspec ~ unspec
+ kio/kfile/TODO ~ unspec ~ unspec
+ kio/kio/accept-languages.codes ~ unspec ~ unspec
+ kio/kio/authinfo.cpp ~ LGPLv2h ~  *  Copyright (C) 2000-2001 Dawit Alemayehu <adawit@kde.org>
+ kio/kio/authinfo.h ~ LGPLv2h ~  *  Copyright (C) 2000-2001 Dawit Alemayehu <adawit@kde.org>
+ kio/kio/chmodjob.cpp ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>, David Faure <faure@kde.org>, Waldo Bastian <bastian@kde.org>
+ kio/kio/chmodjob.h ~ LGPLv2h ~     Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/config-kdirwatch.h.cmake ~ unspec ~ unspec
+ kio/kio/connection.cpp ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>, David Faure <faure@kde.org>, 2007 Thiago Macieira <thiago@kde.org>
+ kio/kio/connection.h ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>,  David Faure <faure@kde.org>
+ kio/kio/connection_p.h ~ LGPLv2h ~     Copyright (C) 2007 Thiago Macieira <thiago@kde.org>
+ kio/kio/copyjob.cpp ~ LGPLv2h ~     Copyright 2000       Stephan Kulow <coolo@kde.org>, 2000-2006  David Faure <faure@kde.org>, Waldo Bastian <bastian@kde.org>
+ kio/kio/copyjob.h ~ LGPLv2h ~ (c) 2000 Stephan Kulow <coolo@kde.org>, 2000-2006  David Faure <faure@kde.org>
+ kio/kio/dataprotocol.cpp ~ LGPLv2 ~ // Copyright (C) 2002, 2003 by Leo Savernik <l.savernik@aon.at>
+ kio/kio/dataprotocol.h ~ LGPLv2 ~ // Copyright (C) 2002 by Leo Savernik <l.savernik@aon.at>
+ kio/kio/dataslave.cpp ~ LGPLv2 ~  *  Copyright (c) 2003 Leo Savernik <l.savernik@aon.at>
+ kio/kio/dataslave.h ~ LGPLv2 ~  *  Copyright (c) 2003 Leo Savernik <l.savernik@aon.at>
+ kio/kio/davjob.cpp ~ LGPLv2h ~     Copyright (C) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+ kio/kio/davjob.h ~ LGPLv2h ~     Copyright (C) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+ kio/kio/delegateanimationhandler.cpp ~ LGPLv2h ~    Copyright © 2007 Fredrik Höglund <fredrik@kde.org>
+ kio/kio/delegateanimationhandler_p.h ~ LGPLv2h ~    Copyright © 2007 Fredrik Höglund <fredrik@kde.org>
+ kio/kio/deletejob.cpp ~ LGPLv2h ~ (c) 2000 Stephan Kulow <coolo@kde.org>, 2000-2006  David Faure <faure@kde.org>, 2000 Waldo Bastian <bastian@kde.org>
+ kio/kio/deletejob.h ~ LGPLv2 ~ (c) 2000 Stephan Kulow <coolo@kde.org>, 2000-2006  David Faure <faure@kde.org>
+ kio/kio/directorysizejob.cpp ~ LGPLv2h ~     Copyright (C) 2000, 2006 David Faure <faure@kde.org>
+ kio/kio/directorysizejob.h ~ LGPLv2h ~     Copyright (C) 2000, 2006 David Faure <faure@kde.org>
+ kio/kio/dummyanalyzers/CMakeLists.txt ~ unspec ~ unspec
+ kio/kio/dummyanalyzers/dummyanalyzers.cpp ~ LGPLv2h ~  * Copyright (C) 2006 Jos van den Oever <jos@vandenoever.info>
+ kio/kio/filejob.cpp ~ LGPLv2 ~  *  Copyright (c) 2006 Allan Sandfeld Jensen <kde@carewolf.com>
+ kio/kio/filejob.h ~ LGPLv2 ~  *  Copyright (c) 2006 Allan Sandfeld Jensen <kde@carewolf.com>
+ kio/kio/forwardingslavebase.cpp ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin@ipsquad.net>
+ kio/kio/forwardingslavebase.h ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin@ipsquad.net>
+ kio/kio/global.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/global.h ~ LGPLv2 ~    Copyright (C) 2000-2005 David Faure <faure@kde.org>
+ kio/kio/http_slave_defaults.h ~ LGPLv2 ~    Copyright (C) 2001 Waldo Bastian <bastian@kde.org>
+ kio/kio/ioslave_defaults.h ~ LGPLv2 ~    Copyright (C) 2001 Waldo Bastian <bastian@kde.org>
+ kio/kio/jobclasses.h ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>, David Faure <faure@kde.org>
+ kio/kio/job.cpp ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>, David Faure <faure@kde.org>, Waldo Bastian <bastian@kde.org>
+ kio/kio/job.h ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>, David Faure <faure@kde.org>
+ kio/kio/job_p.h ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>,  David Faure <faure@kde.org>, Waldo Bastian <bastian@kde.org>, 2007 Thiago Macieira <thiago@kde.org>
+ kio/kio/jobuidelegate.cpp ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>,  David Faure <faure@kde.org>, 2006 Kevin Ottens <ervin@kde.org>
+ kio/kio/jobuidelegate.h ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>, David Faure <faure@kde.org>, 2006 Kevin Ottens <ervin@kde.org>
+ kio/kio/kacl.cpp ~ LGPLv2h ~    Copyright (C) 2005 - 2007 Till Adam <adam@kde.org>
+ kio/kio/kacl.h ~ LGPLv2h ~    Copyright (C) 2005 - 2007 Till Adam <adam@kde.org>
+ kio/kio/karchive.cpp ~ LGPLv2 ~    Copyright (C) 2000-2005 David Faure <faure@kde.org>, 2003 Leo Savernik <l.savernik@aon.at>
+ kio/kio/karchive.h ~ LGPLv2 ~    Copyright (C) 2000-2005 David Faure <faure@kde.org>, 2003 Leo Savernik <l.savernik@aon.at>
+ kio/kio/kar.cpp ~ LGPLv2 ~    Copyright (C) 2002 Laurence Anderson <l.d.anderson@warwick.ac.uk>
+ kio/kio/kar.h ~ LGPLv2 ~    Copyright (C) 2002 Laurence Anderson <l.d.anderson@warwick.ac.uk>
+ kio/kio/kautomount.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/kautomount.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/kbuildsycocaprogressdialog.cpp ~ LGPLv2 ~    Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kio/kio/kbuildsycocaprogressdialog.h ~ LGPLv2 ~    Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kio/kio/kdatatool.cpp ~ LGPLv2h ~    Copyright (C) 1998, 1999, 2000 Torben Weis <weis@kde.org>, 2001 David Faure <faure@kde.org>
+ kio/kio/kdatatool.h ~ LGPLv2h ~    Copyright (C) 1998, 1999, 2000 Torben Weis <weis@kde.org>, 2001 David Faure <faure@kde.org>
+ kio/kio/kdbusservicestarter.cpp ~ LGPLv2 ~    Copyright (C) 2003 David Faure <faure@kde.org>
+ kio/kio/kdbusservicestarter.h ~ LGPLv2 ~    Copyright (C) 2003 David Faure <faure@kde.org>
+ kio/kio/kdesktopfileactions.cpp ~ LGPLv2 ~  *  Copyright (C) 1999 Waldo Bastian <bastian@kde.org>,  David Faure   <faure@kde.org>
+ kio/kio/kdesktopfileactions.h ~ LGPLv2 ~  *  Copyright (C) 1999 Waldo Bastian <bastian@kde.org>,  David Faure   <faure@kde.org>
+ kio/kio/kdirlister.cpp ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 2000 Carsten Pfeiffer <pfeiffer@kde.org>, 2003-2005 David Faure <faure@kde.org>, 2001-2006 Michael Brade <brade@kde.org>
+ kio/kio/kdirlister.h ~ LGPLv2h ~    Copyright (C) 1999 David Faure <faure@kde.org>, 2001, 2002, 2004-2006 Michael Brade <brade@kde.org>
+ kio/kio/kdirlister_p.h ~ LGPLv2h ~    Copyright (C) 2002-2006 Michael Brade <brade@kde.org>
+ kio/kio/kdirmodel.cpp ~ LGPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/kio/kdirmodel.h ~ LGPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/kio/kdirnotify.cpp ~ unspec ~ Copyright (C) 2006 Trolltech AS. All rights reserved.
+ kio/kio/kdirnotify.h ~ unspec ~  Copyright (C) 2006 Trolltech AS. All rights reserved.
+ kio/kio/kdirwatch.cpp ~ LGPLv2 ~    Copyright (C) 1998 Sven Radej <sven@lisa.exp.univie.ac.at>, 2006 Dirk Mueller <mueller@kde.org>
+ kio/kio/kdirwatch.h ~ LGPLv2 ~    Copyright (C) 1998 Sven Radej <sven@lisa.exp.univie.ac.at>
+ kio/kio/kdirwatch_p.h ~ LGPLv2 ~  * Copyright (C) 1998 Sven Radej <sven@lisa.exp.univie.ac.at>, 2006 Dirk Mueller <mueller@kde.org>
+ kio/kio/kemailsettings.cpp ~ BSD ~  * Copyright (c) 2000 Alex Zepeda <zipzippy@sonic.net>
+ kio/kio/kemailsettings.h ~ BSD ~  * Copyright (c) 2000 Alex Zepeda <zipzippy@sonic.net>
+ kio/kio/kfilefilter.cpp ~ LGPLv2h ~    Copyright (c) 2001,2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/kfilefilter.h ~ LGPLv2h ~    Copyright (c) 2001,2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/kfileitem.cpp ~ LGPLv2h ~    Copyright (C) 1999-2006 David Faure <faure@kde.org>, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/kfileitemdelegate.cpp ~ LGPLv2h ~    Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kio/kio/kfileitemdelegate.h ~ LGPLv2h ~    Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kio/kio/kfileitem.h ~ LGPLv2h ~    Copyright (C) 1999-2006 David Faure <faure@kde.org>
+ kio/kio/kfilemetainfo.cpp ~ LGPLv2h ~    Copyright (c) 2001,2002 Carsten Pfeiffer <pfeiffer@kde.org>, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/kfilemetainfo.h ~ LGPLv2h ~    Copyright (c) 2001,2002 Carsten Pfeiffer <pfeiffer@kde.org>, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/KFILEMETAINFO_ISSUES ~ unspec ~ unspec
+ kio/kio/kfilemetainfoitem.cpp ~ LGPLv2h ~    Copyright (c) 2007 Jos van den Oever <jos@vandenoever.info>
+ kio/kio/kfilemetainfoitem.h ~ LGPLv2h ~    Copyright (c) 2001,2002 Carsten Pfeiffer <pfeiffer@kde.org>, 2007 Jos van den Oever <jos@vandenoever.info>
+ kio/kio/kfilemetainfo_p.h ~ LGPLv2h ~    Copyright (c) 2007 Jos van den Oever <jos@vandenoever.info>
+ kio/kio/kfileshare.cpp ~ LGPLv2 ~    Copyright (c) 2001 David Faure <faure@kde.org>, 2001 Laurent Montel <lmontel@mandrakesoft.com>
+ kio/kio/kfileshare.h ~ LGPLv2 ~    Copyright (c) 2001 David Faure <faure@kde.org>, 2001 Laurent Montel <lmontel@mandrakesoft.com>
+ kio/kio/kfileshare_p.h ~ LGPLv2 ~    Copyright (c) 2001 David Faure <faure@kde.org>, 2001 Laurent Montel <lmontel@mandrakesoft.com>
+ kio/kio/kfilewrite.desktop ~ unspec ~ unspec
+ kio/kio/kfilewriteplugin.cpp ~ LGPLv2h ~    Copyright (c) 2007 Jos van den Oever <jos@vandenoever.info>
+ kio/kio/kfilewriteplugin.h ~ LGPLv2h ~    Copyright (c) 2007 Jos van den Oever <jos@vandenoever.info>
+ kio/kio/kimageio.cpp ~ LGPLv2 ~ * Copyright (c) 1998 Sirtaj Singh Kang <taj@kde.org>
+ kio/kio/kimageio.h ~ LGPLv2 ~ * Copyright (c) 1998 Sirtaj Singh Kang <taj@kde.org>
+ kio/kio/kio_export.h ~ LGPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
+ kio/kio/klimitediodevice.cpp ~ LGPLv2 ~    Copyright (C) 2001, 2002, 2007 David Faure <faure@kde.org>
+ kio/kio/klimitediodevice.h ~ LGPLv2 ~    Copyright (C) 2001, 2002, 2007 David Faure <faure@kde.org>
+ kio/kio/kmessageboxwrapper.h ~ LGPLv2 ~  *  Copyright (C) 1999 David Faure   <faure@kde.org>
+ kio/kio/kmimetypechooser.cpp ~ LGPLv2 ~    Copyright (C) 2001 - 2004 Anders Lund <anders@alweb.dk>
+ kio/kio/kmimetypechooser.h ~ LGPLv2 ~    Copyright (C) 2001 - 2004 Anders Lund <anders@alweb.dk>
+ kio/kio/kmimetyperesolver.cpp ~ LGPLv2 ~    Copyright (C) 2000, 2006 David Faure <faure@kde.org>, 2000 Rik Hemsley <rik@kde.org>, 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/kmimetyperesolver.h ~ LGPLv2 ~    Copyright (C) 2000, 2006 David Faure <faure@kde.org>, 2000 Rik Hemsley <rik@kde.org>, 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/kmountpoint.cpp ~ LGPLv2 ~  *  Copyright (c) 2003 Waldo Bastian <bastian@kde.org>, 2007 David Faure <faure@kde.org>
+ kio/kio/kmountpoint.h ~ LGPLv2 ~    Copyright (c) 2003 Waldo Bastian <bastian@kde.org>, 2007 David Faure <faure@kde.org>
+ kio/kio/knfsshare.cpp ~ LGPLv2 ~    Copyright (c) 2004 Jan Schaefer <j_schaef@informatik.uni-kl.de>
+ kio/kio/knfsshare.h ~ LGPLv2 ~    Copyright (c) 2004 Jan Schaefer <j_schaef@informatik.uni-kl.de>
+ kio/kio/kprotocolmanager.cpp ~ LGPLv2 ~    Copyright (C) 1999 Torben Weis <weis@kde.org>, 2000- Waldo Bastain <bastain@kde.org>, 2000- Dawit Alemayehu <adawit@kde.org>
+ kio/kio/kprotocolmanager.h ~ LGPLv2 ~    Copyright (C) 1999 Torben Weis <weis@kde.org>, 2000- Waldo Bastain <bastain@kde.org>, 2000- Dawit Alemayehu <adawit@kde.org>
+ kio/kio/kremoteencoding.cpp ~ LGPLv2 ~    Copyright (C) 2003 Thiago Macieira <thiago.macieira@kdemail.net>
+ kio/kio/kremoteencoding.h ~ LGPLv2 ~    Copyright (C) 2003 Thiago Macieira <thiago.macieira@kdemail.net>
+ kio/kio/krun.cpp ~ LGPLv2h ~     Copyright (C) 2000 Torben Weis <weis@kde.org>, 2006 David Faure <faure@kde.org>
+ kio/kio/krun.h ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 2006 David Faure <faure@kde.org>
+ kio/kio/krun_p.h ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>, 2006 David Faure <faure@kde.org>
+ kio/kio/ksambashare.cpp ~ LGPLv2 ~    Copyright (c) 2004 Jan Schaefer <j_schaef@informatik.uni-kl.de>
+ kio/kio/ksambashare.h ~ LGPLv2 ~    Copyright (c) 2004 Jan Schaefer <j_schaef@informatik.uni-kl.de>
+ kio/kio/kscan.cpp ~ LGPLvh2 ~     Copyright (C) 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/kscan.h ~ LGPLv2h ~     Copyright (C) 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/kservicegroup.cpp ~ LGPLv2 ~  *  Copyright (C) 2000 Waldo Bastian <bastian@kde.org>
+ kio/kio/kservicegroupfactory.cpp ~ LGPLv2 ~  *  Copyright (C) 2000 Waldo Bastian <bastian@kde.org>
+ kio/kio/kservicegroupfactory.h ~ LGPLv2 ~    Copyright (C) 2000 Waldo Bastian <bastian@kde.org>
+ kio/kio/kservicegroup.h ~ LGPLv2 ~    Copyright (C) 2000 Waldo Bastian <bastian@kde.org>
+ kio/kio/kshellcompletion.cpp ~ LGPLv2h ~     Copyright (C) 2000 David Smith <dsmith@algonet.se>
+ kio/kio/kshellcompletion.h ~ LGPLv2h ~     Copyright (C) 2000 David Smith  <dsmith@algonet.se>
+ kio/kio/kstatusbarofflineindicator.cpp ~ LGPLv2 ~     Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ kio/kio/kstatusbarofflineindicator.h ~ LGPLv2 ~     Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ kio/kio/ktar.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2003 Leo Savernik <l.savernik@aon.at>
+ kio/kio/ktar.h ~ LGPLv2 ~    Copyright (C) 2000-2005 David Faure <faure@kde.org>, 2003 Leo Savernik <l.savernik@aon.at>
+ kio/kio/kurifilter.cpp ~ LGPLv2h ~  *  Copyright (C) 2000 Yves Arrouye <yves@realnames.com>, 2000 Dawit Alemayehu <adawit at kde.org>
+ kio/kio/kurifilter.h ~ LGPLv2h ~  *  Copyright (C) 2000-2001,2003 Dawit Alemayehu <adawit at kde.org>, 2000 Yves Arrouye <yves@realnames.com>
+ kio/kio/kurlcompletion.cpp ~ LGPLv2h ~    Copyright (C) 2000 David Smith <dsmith@algonet.se>, 2004 Scott Wheeler <wheeler@kde.org>
+ kio/kio/kurlcompletion.h ~ LGPLv2h ~     Copyright (C) 2000 David Smith  <dsmith@algonet.se>
+ kio/kio/kurlpixmapprovider.cpp ~ LGPLv2h ~    Copyright (c) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/kurlpixmapprovider.h ~ LGPLv2h ~    Copyright (c) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kio/kio/kzip.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2002 Holger Schroeder <holger-kde@holgis.net>
+ kio/kio/kzip.h ~ LGPLv2 ~    Copyright (C) 2002 Holger Schroeder <holger-kde@holgis.net>
+ kio/kio/metainfojob.cpp ~ LGPLv2 ~     Copyright (C) 2002 Rolf Magnus <ramagnus@kde.org>
+ kio/kio/metainfojob.h ~ LGPLv2 ~     Copyright (C) 2001 Rolf Magnus <ramagnus@kde.org>
+ kio/kio/netaccess.cpp ~ LGPLv2h ~     Copyright (C) 1997 Torben Weis (weis@kde.org), 1998 Matthias Ettrich (ettrich@kde.org), 1999 David Faure (faure@kde.org)
+ kio/kio/netaccess.h ~ LGPLv2h ~     Copyright (C) 1997 Torben Weis (weis@kde.org), 1998 Matthias Ettrich (ettrich@kde.org), 1999-2004 David Faure (faure@kde.org)
+ 
+ kio/kio/org.kde.KDirNotify.xml ~ unspec ~ unspec
+ kio/kio/passworddialog.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/passworddialog.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2000 Dawit Alemayehu <adawit@kde.org>
+ kio/kio/paste.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/pastedialog.cpp ~ LGPLv2 ~    Copyright (C) 2005 David Faure <faure@kde.org>
+ kio/kio/pastedialog.h ~ LGPLv2 ~    Copyright (C) 2005 David Faure <faure@kde.org>
+ kio/kio/paste.h ~ LGPLv2 ~    Copyright (C) 2000-2005 David Faure <faure@kde.org>
+ kio/kio/predicateproperties.cpp ~ LGPLv2h ~    Copyright (c) 2007 Jos van den Oever <jos@vandenoever.info>
+ kio/kio/predicateproperties.h ~ LGPLv2h ~    Copyright (c) 2007 Jos van den Oever <jos@vandenoever.info>
+ kio/kio/previewjob.cpp ~ LGPLv2h ~     Copyright (C) 2000 David Faure <faure@kde.org>, 2000 Carsten Pfeiffer <pfeiffer@kde.org>, 2001 Malte Starostik <malte.starostik@t-online.de>
+ kio/kio/previewjob.h ~ LGPLv2h ~     Copyright (C) 2000 David Faure <faure@kde.org>, 2000 Carsten Pfeiffer <pfeiffer@kde.org>, 2001 Malte Starostik <malte.starostik@t-online.de>
+ kio/kio/renamedialog.cpp ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>, David Faure <faure@kde.org>, 2001,2006 Holger Freyther <freyther@kde.org>
+ kio/kio/renamedialog.h ~ LGPLv2h ~Copyright (C) 2000 Stephan Kulow <coolo@kde.org>, David Faure <faure@kde.org>, 2001,2006 Holger Freyther <freyther@kde.org>
+ kio/kio/renamedialogplugin.cpp ~ BSD ~  * Copyright (C)  2001, 2006 Holger Freyther <freyther@kde.org>
+ kio/kio/renamedialogplugin.h ~ BSD ~  * Copyright (C)  2001, 2006 Holger Freyther <freyther@kde.org>
+ kio/kio/safesite.cpp ~ LGPLv2h ~  * Copyright (C) 2006 George Staikos <staikos@kde.org>
+ kio/kio/safesite.h ~ LGPLv2h ~  * Copyright (C) 2006 George Staikos <staikos@kde.org>
+ kio/kio/scheduler.cpp ~ LGPLv2 ~    Copyright (C) 2000 Stephan Kulow <coolo@kde.org>, Waldo Bastian <bastian@kde.org>
+ kio/kio/scheduler.h ~ LGPLv2h ~     Copyright (C) 2000 Stephan Kulow <coolo@kde.org>, Waldo Bastian <bastian@kde.org>
+ kio/kio/sessiondata.cpp ~ LGPLv2h ~    Copyright (C) 2000 Dawit Alemayehu <adawit@kde.org>
+ kio/kio/sessiondata.h ~ LGPLv2h ~    Copyright (C) 2000 Dawit Alemayehu <adawit@kde.org
+ kio/kio/skipdialog.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/skipdialog.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/slavebase.cpp ~ LGPLv2 ~  *  Copyright (c) 2000 Waldo Bastian <bastian@kde.org>, 2000 David Faure <faure@kde.org>, 2000 Stephan Kulow <coolo@kde.org>, 2007 Thiago Macieira <thiago@kde.org>
+ kio/kio/slavebase.h ~ LGPLv2h ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/slaveconfig.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Waldo Bastian <bastian@kde.org>
+ kio/kio/slaveconfig.h ~ LGPLv2 ~  *  Copyright (c) 2001 Waldo Bastian <bastian@kde.org>
+ kio/kio/slave.cpp ~ LGPLv2 ~  *  Copyright (c) 2000 Waldo Bastian <bastian@kde.org>,  2000 Stephan Kulow <coolo@kde.org>
+ kio/kio/slave.h ~ LGPLv2 ~  *  Copyright (c) 2000 Waldo Bastian <bastian@kde.org>,  2000 Stephan Kulow <coolo@kde.org>
+ kio/kio/slaveinterface.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/slaveinterface.h ~ LGPLv2h ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kio/slaveinterface_p.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ kio/kioslave.upd ~ unspec ~ unspec
+ kio/kio/tcpslavebase.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Alex Zepeda <zipzippy@sonic.net>, 2001-2003 George Staikos <staikos@kde.org>, 2001 Dawit Alemayehu <adawit@kde.org>
+ kio/kio/tcpslavebase.h ~ LGPLv2h ~  * Copyright (C) 2000 Alex Zepeda <zipzippy@sonic.net>, 2001 George Staikos <staikos@kde.org>, 2001 Dawit Alemayehu <adawit@kde.org>
+ kio/kio/thumbcreator.h ~ LGPLv2h ~     Copyright (C) 2000 Malte Starostik <malte@kde.org>
+ kio/kio/udsentry.cpp ~ LGPLv2h ~    Copyright (C) 2000-2005 David Faure <faure@kde.org>, 2007 Norbert Frese, 2007 Thiago Macieira <thiago@kde.org>
+ kio/kio/udsentry.h ~ LGPLv2 ~    Copyright (C) 2000-2005 David Faure <faure@kde.org>, 2007 Norbert Frese, 2007 Thiago Macieira <thiago@kde.org>
+ kio/kioslave.upd ~ unspec ~ unspec
+ kio/kpasswdserver.desktop ~ unspec ~ unspec
+ kio/kscan.desktop ~ unspec ~ unspec
+ kio/kssl/keygenwizard2.ui ~ unspec ~ unspec
+ kio/kssl/keygenwizard.ui ~ unspec ~ unspec
+ kio/kssl/kopenssl.cpp ~ LGPLv2h ~    Copyright (C) 2001-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kopenssl.h ~ LGPLv2h ~    Copyright (C) 2001-2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksmimecrypto.cpp ~ LGPLv2h ~  * Copyright (C) 2003 Stefan Rompf <sux@loplof.de>
+ kio/kssl/ksmimecrypto.h ~ LGPLv2h ~  * Copyright (C) 2003 Stefan Rompf <sux@loplof.de>
+ kio/kssl/ksslall.h ~ LGPLv2h ~  * Copyright (C) 2001-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/argedaten-root-ca-cert.pem ~ unspec ~ unspec
+ kio/kssl/kssl/belgacom.pem ~ unspec ~ unspec
+ kio/kssl/ksslcallback.c ~ LGPLv2h ~  * Copyright (C) 2000 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/caroot/* ~ unspec ~ unspec
+ kio/kssl/kssl/cert_bundle ~ unspec ~  Copyright (c) 1998 Ralf S. Engelschall, All Rights Reserved. 
+ kio/kssl/kssl/certbundle_Makefile ~ unspec ~ Copyright (c) 1998 Ralf S. Engelschall, All Rights Reserved. 
+ kio/kssl/ksslcertchain.cpp ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcertchain.h ~ LGPLv2h ~  * Copyright (C) 2001-2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcertdialog.cpp ~ LGPLv2h ~  * Copyright (C) 2001-2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcertdialog.h ~ LGPLv2h ~  * Copyright (C) 2001-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/cert_extract.c ~ LGPLv2 ~  Copyrigh Ariel Glenn <ariel@columbia.edu>, 1998 Ralf S. Engelschall <rse@engelschall.com>
+ kio/kssl/ksslcertificatecache.cpp ~ LGPLv2h ~  * Copyright (C) 2000, 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcertificatecache.h ~ LGPLv2h ~  * Copyright (C) 2000, 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcertificate.cpp ~ LGPLv2h ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcertificatefactory.cpp ~ LGPLv2h ~  * Copyright (C) 2000 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcertificatefactory.h ~ LGPLv2h ~  * Copyright (C) 2000 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcertificate.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcertificatehome.cpp ~ LGPLv2h ~  * Copyright (C) 2000-2005 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcertificatehome.h ~ LGPLv2 h~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/certkde ~ unspec ~ unspec
+ kio/kssl/kssl/certum1.pem ~ unspec ~ unspec
+ kio/kssl/kssl/certum2.pem ~ unspec ~ unspec
+ kio/kssl/kssl/certum3.pem ~ unspec ~ unspec
+ kio/kssl/kssl/certum4.pem ~ unspec ~ unspec
+ kio/kssl/kssl/certum.pem ~ unspec ~ unspec
+ kio/kssl/kssl/CMakeLists.txt ~ unspec ~ unspec
+ kio/kssl/kssl/comodo1.pem ~ unspec ~ unspec
+ kio/kssl/kssl/comodo2.pem ~ unspec ~ unspec
+ kio/kssl/kssl/comodo3.pem ~ unspec ~ unspec
+ kio/kssl/kssl/comodo4.pem ~ unspec ~ unspec
+ kio/kssl/kssl/comodo5.pem ~ unspec ~ unspec
+ kio/kssl/kssl/comodo6.pem ~ unspec ~ unspec
+ kio/kssl/kssl/comodo7.pem ~ unspec ~ unspec
+ kio/kssl/ksslconfig.h.cmake ~ LGPLv2h ~  * Copyright (C) 2002 George Staikos <staikos@kde.org>
+ kio/kssl/ksslconnectioninfo.cpp ~ LGPLv2h ~  * Copyright (C) 2000 George Staikos <staikos@kde.org>
+ kio/kssl/ksslconnectioninfo.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kssl.cpp ~ LGPLv2 ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksslcsessioncache.cpp ~ LGPLv2 ~  * Copyright (C) 2003 Stefan Rompf <sux@loplof.de>
+ kio/kssl/ksslcsessioncache.h ~ LGPLv2 ~  * Copyright (C) 2003 Stefan Rompf <sux@loplof.de>
+ kio/kssl/kssldefs.h ~ LGPLv2 ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/dfn-root-ca-cert.pem ~ unspec ~ unspec
+ kio/kssl/kssl/DigiCertAssuredIDRootCA.pem ~ unspec ~ unspec
+ kio/kssl/kssl/DigiCertGlobalRootCA.pem ~ unspec ~ unspec
+ kio/kssl/kssl/DigiCertHighAssuranceEVRootCA.pem ~ unspec ~ unspec
+ kio/kssl/kssl/gd-class2-root.pem ~ unspec ~ unspec
+ kio/kssl/kssl/geotrust-global-1.pem ~ unspec ~ unspec
+ kio/kssl/kssl/geotrust-global-2.pem ~ unspec ~ unspec
+ kio/kssl/kssl/GeoTrust_Universal_CA2.pem ~ unspec ~ unspec
+ kio/kssl/kssl/GeoTrust_Universal_CA.pem ~ unspec ~ unspec
+ kio/kssl/kssl/globalsign-root-r2.pem ~ unspec ~ unspec
+ kio/kssl/kssl.h ~ LGPLv2h ~  * Copyright (C) 2000-2005 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/HOWTO ~ unspec ~ unspec
+ kio/kssl/kssl/icpbrasil.pem ~ unspec ~ unspec
+ kio/kssl/ksslinfodialog.cpp ~ LGPLv2h ~  * Copyright (C) 2000,2001 George Staikos <staikos@kde.org>, 2000 Malte Starostik <malte@kde.org>
+ kio/kssl/ksslinfodialog.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>, 2000 Malte Starostik <malte@kde.org>
+ kio/kssl/kssl/ipsservidores.pem ~ unspec ~ unspec
+ kio/kssl/ksslkeygen.cpp ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslkeygen.h ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslkeygen_p.h ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>, 2007 David Faure <faure@kde.org>
+ kio/kssl/kssl/ksslcalist ~ unspec ~ unspec
+ kio/kssl/kssl/localcerts ~ unspec ~ unspec
+ kio/kssl/kssl/mergelocal ~ unspec ~ unspec
+ kio/kssl/kssl/netlock1.pem ~ unspec ~ unspec
+ kio/kssl/kssl/netlock2.pem ~ unspec ~ unspec
+ kio/kssl/kssl/netlock3.pem ~ unspec ~ unspec
+ kio/kssl/kssl/netlock4.pem ~ unspec ~ unspec
+ kio/kssl/kssl/oces.pem ~ unspec ~ unspec
+ kio/kssl/ksslpeerinfo.cpp ~ LGPLv2h ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksslpeerinfo.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksslpemcallback.cpp ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslpemcallback.h ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslpkcs12.cpp ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslpkcs12.h ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslpkcs7.cpp ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslpkcs7.h ~ LGPLv2h ~  * Copyright (C) 2001-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/quovadis.pem ~ unspec ~ unspec
+ kio/kssl/kssl/qvrca2.pem ~ unspec ~ unspec
+ kio/kssl/kssl/qvrca3.pem ~ unspec ~ unspec
+ kio/kssl/ksslsession.cpp ~ LGPLv2h ~  * Copyright (C) 2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksslsession.h ~ LGPLv2h ~  * Copyright (C) 2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksslsettings.cpp ~ LGPLv2h ~  * Copyright (C) 2000 George Staikos <staikos@kde.org>
+ kio/kssl/ksslsettings.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/sf-class2-root.pem ~ unspec ~ unspec
+ kio/kssl/ksslsigners.cpp ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslsigners.h ~ LGPLv2h ~  * Copyright (C) 2001-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/sonera1.pem ~ unspec ~ unspec
+ kio/kssl/kssl/sonera2.pem ~ unspec ~ unspec
+ kio/kssl/kssl/staatdernederlandenrotca.pem ~ unspec ~ unspec
+ kio/kssl/kssl/startcom.pem ~ unspec ~ unspec
+ kio/kssl/kssl/tcclass2-2011.pem ~ unspec ~ unspec
+ kio/kssl/kssl/tcclass3-2011.pem ~ unspec ~ unspec
+ kio/kssl/ksslutils.cpp ~ LGPLv2h ~  * Copyright (C) 2000,2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslutils.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/utn-network.pem ~ unspec ~ unspec
+ kio/kssl/kssl/utn-sgc.pem ~ unspec ~ unspec
+ kio/kssl/ksslx509map.cpp ~ LGPLv2h ~  * Copyright (C) 2000 George Staikos <staikos@kde.org>
+ kio/kssl/ksslx509map.h ~ LGPLv2h ~  * Copyright (C) 2000-2003 George Staikos <staikos@kde.org>
+ kio/kssl/ksslx509v3.cpp ~ LGPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
+ kio/kssl/ksslx509v3.h ~ LGPLv2h ~  * Copyright (C) 2001-2003 George Staikos <staikos@kde.org>
+ kio/kssl/kssl/xgca.pem ~ unspec ~ unspec
+ kio/kssl/README ~ unspec ~ unspec
+ kio/kssl/RFCs ~ unspec ~ unspec
+ kio/kssl/SECURITY-HOLES ~ unspec ~ unspec
+ kio/kssl/TODO ~ unspec ~ unspec
+ kio/kurifilterplugin.desktop ~ unspec ~ unspec
+ kio/Mainpage.dox ~ XXXX
+ kio/Messages.sh ~ unspec ~ unspec
+ kio/misc/CMakeLists.txt ~ unspec ~ unspec
+ kio/misc/fileshareset ~ LGPLv2h ~ Copyright (C) 2001-2002 MandrakeSoft (pixel@mandrakesoft.com)
+ kio/misc/kmailservice.cpp ~ LGPLv2 ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
+ kio/misc/kmailservice.protocol ~ unspec ~ unspec
+ kio/misc/kntlm/CMakeLists.txt ~ unspec ~ unspec
+ kio/misc/kntlm/des.cpp ~ LGPLv2 ~  * Copyright 1988-1991 Phil Karn <karn@ka9q.net>, 2003 Nikos Mavroyanopoulos <nmav@hellug.gr>
+ kio/misc/kntlm/des.h ~ LGPLv2 ~  * Copyright 1988-1991 Phil Karn <karn@ka9q.net>, 2003 Nikos Mavroyanopoulos <nmav@hellug.gr>
+ kio/misc/kntlm/kntlm.cpp ~ LGPLv2 ~    Copyright (c) 2004 Szombathelyi Gy�gy <gyurco@freemail.hu>
+ kio/misc/kntlm/kntlm_export.h ~ LGPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
+ kio/misc/kntlm/kntlm.h ~ LGPLv2 ~    Copyright (c) 2004 Szombathelyi György <gyurco@freemail.hu>
+ kio/misc/kpac/CMakeLists.txt ~ unspec ~ unspec
+ kio/misc/kpac/dhcp.h ~ LGPLv2 ~    Copyright (c) 2001 Malte Starostik <malte@kde.org>
+ kio/misc/kpac/discovery.cpp ~ LGPLv2h ~    Copyright (c) 2003 Malte Starostik <malte@kde.org>
+ kio/misc/kpac/discovery.h ~ LGPLv2h ~    Copyright (c) 2003 Malte Starostik <malte@kde.org>
+ kio/misc/kpac/downloader.cpp ~ LGPLv2h ~    Copyright (c) 2003 Malte Starostik <malte@kde.org>
+ kio/misc/kpac/downloader.h ~ LGPLv2h ~    Copyright (c) 2003 Malte Starostik <malte@kde.org>
+ kio/misc/kpac/kpac_dhcp_helper.c ~ LGPLv2 ~    Copyright (c) 2001 Malte Starostik <malte@kde.org>
+ kio/misc/kpac/kpactest.pac ~ unspec ~ unspec
+ kio/misc/kpac/proxyscout.cpp ~ LGPLv2h ~    Copyright (c) 2003 Malte Starostik <malte@kde.org>
+ kio/misc/kpac/proxyscout.desktop ~ unspec ~ unspec
+ kio/misc/kpac/proxyscout.h ~ LGPLv2h ~    Copyright (c) 2003 Malte Starostik <malte@kde.org>
+ kio/misc/kpac/proxyscout.notifyrc ~ unspec ~ unspec
+ kio/misc/kpac/README ~ unspec ~ unspec
+ kio/misc/kpac/README.wpad ~ unspec ~ unspec
+ kio/misc/kpac/script.cpp ~ LGPLv2h ~    Copyright (c) 2003 Malte Starostik <malte@kde.org>
+ kio/misc/kpac/script.h ~ LGPLv2h ~    Copyright (c) 2003 Malte Starostik <malte@kde.org>
+ kio/misc/kpac/TODO ~ unspec ~ unspec
+ kio/misc/ksendbugmail/CMakeLists.txt ~ unspec ~ unspec
+ kio/misc/ksendbugmail/main.cpp ~ LGPLv2h ~    Copyright (c) 2000 Bernd Johannes Wuebben <wuebben@math.cornell.edu>, 2000 Stephan Kulow <coolo@kde.org>
+ kio/misc/ksendbugmail/main.h ~ LGPLv2h ~    Copyright (c) 2000 Bernd Johannes Wuebben <wuebben@math.cornell.edu>, 2000 Stephan Kulow <coolo@kde.org>
+ kio/misc/ksendbugmail/smtp.cpp ~ LGPLv2 ~    Copyright (c) 2000 Bernd Johannes Wuebben <wuebben@math.cornell.edu>, 2000 Stephan Kulow <coolo@kde.org>
+ kio/misc/ksendbugmail/smtp.h ~ LGPLv2 ~    Copyright (c) 2000 Bernd Johannes Wuebben <wuebben@math.cornell.edu>, 2000 Stephan Kulow <coolo@kde.org>
+ kio/misc/kssld/CMakeLists.txt ~ unspec ~ unspec
+ kio/misc/kssld/kssld.cpp ~ LGPLv2h ~    Copyright (c) 2001-2005 George Staikos <staikos@kde.org>
+ kio/misc/kssld/kssld.desktop ~ unspec ~ unspec
+ kio/misc/kssld/kssld.h ~ LGPLv2h ~    Copyright (c) 2001-2005 George Staikos <staikos@kde.org>
+ kio/misc/ktelnetservice.cpp ~ LGPLv2h ~    Copyright (c) 2001 Malte Starostik <malte@kde.org>, 2000 Simon Hausmann <hausmann@kde.org>
+ kio/misc/kwalletd/CMakeLists.txt ~ unspec ~ unspec
+ kio/misc/kwalletd/kbetterthankdialogbase.ui ~ unspec ~ unspec
+ kio/misc/kwalletd/kbetterthankdialog.cpp ~ LGPLv2h ~    Copyright (C) 2004 George Staikos <staikos@kde.org>
+ kio/misc/kwalletd/kbetterthankdialog.h ~ LGPLv2h ~    Copyright (C) 2004 George Staikos <staikos@kde.org>
+ kio/misc/kwalletd/ktimeout.cpp ~ LGPLv2h ~    Copyright (c) 2003 George Staikos <staikos@kde.org>
+ kio/misc/kwalletd/ktimeout.h ~ LGPLv2h ~    Copyright (c) 2003 George Staikos <staikos@kde.org>
+ kio/misc/kwalletd/kwalletdadaptor.h ~ LGPLv2h ~   Copyright (c) 2006 Thiago Macieira <thiago@kde.org>
+ kio/misc/kwalletd/kwalletd.cpp ~ LGPLv2h ~    Copyright (c) 2002-2004 George Staikos <staikos@kde.org>
+ kio/misc/kwalletd/kwalletd.desktop ~ unspec ~ unspec
+ kio/misc/kwalletd/kwalletd.h ~ LGPLv2h ~    Copyright (c) 2002-2004 George Staikos <staikos@kde.org>
+ kio/misc/kwalletd/kwalletwizard.cpp ~ LGPLv2h ~    Copyright (C) 2004 George Staikos <staikos@kde.org>
+ kio/misc/kwalletd/kwalletwizard.h ~ LGPLv2h ~    Copyright (C) 2004 George Staikos <staikos@kde.org>
+ kio/misc/kwalletd/kwalletwizardpageexplanation.ui ~ unspec ~ unspec
+ kio/misc/kwalletd/kwalletwizardpageintro.ui ~ unspec ~ unspec
+ kio/misc/kwalletd/kwalletwizardpageoptions.ui ~ unspec ~ unspec
+ kio/misc/kwalletd/kwalletwizardpagepassword.ui ~ unspec ~ unspec
+ kio/misc/kwalletd/tests/CMakeLists.txt ~ unspec ~ unspec
+ kio/misc/kwalletd/tests/kwalletwizardtest.cpp ~ LGPLv2h ~    Copyright (c) 2007 Pino Toscano <pino@kde.org>
+ kio/misc/mms.protocol ~ unspec ~ unspec
+ kio/misc/mmst.protocol ~ unspec ~ unspec
+ kio/misc/mmsu.protocol ~ unspec ~ unspec
+ kio/misc/pnm.protocol ~ unspec ~ unspec
+ kio/misc/rlogin.protocol ~ unspec ~ unspec
+ kio/misc/rtsp.protocol ~ unspec ~ unspec
+ kio/misc/rtspt.protocol ~ unspec ~ unspec
+ kio/misc/rtspu.protocol ~ unspec ~ unspec
+ kio/misc/ssh.protocol ~ unspec ~ unspec
+ kio/misc/telnet.protocol ~ unspec ~ unspec
+ kio/proxytype.pl ~ unspec ~ unspec
+ kio/renamedialogplugin.desktop ~ unspec ~ unspec
+ kio/tests/CMakeLists.txt ~ unspec ~ unspec
+ kio/tests/dataprotocoltest.cpp ~ unspec ~ (C) 2002, 2003 Leo Savernik
+ kio/tests/dummymeta.cpp ~ unspec ~ unspec
+ kio/tests/dummymeta.desktop ~ unspec ~ unspec
+ kio/tests/dummymeta.h ~ unspec ~ unspec
+ kio/tests/getalltest.cpp ~ unspec ~ unspec
+ kio/tests/jobtest.cpp ~ LGPLv2h ~    Copyright (C) 2004-2006 David Faure <faure@kde.org>
+ kio/tests/jobtest.h ~ LGPLv2h ~    Copyright (C) 2004 David Faure <faure@kde.org>
+ kio/tests/kacltest.cpp ~ LGPLv2h ~    Copyright (C) 2005 Till Adam <adam@kde.org>
+ kio/tests/kacltest.h ~ LGPLv2h ~    Copyright (C) 2005 Till Adam <adam@kde.org>
+ kio/tests/karchivetest.cpp ~ LGPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/tests/karchivetest.h ~ LGPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/tests/kbookmarktest.cpp ~ LGPLv2 ~     Copyright (c) 2005 David Faure <faure@kde.org>
+ kio/tests/kbookmarktest.h ~ LGPLv ~     Copyright (c) 2005 David Faure <faure@kde.org>
+ kio/tests/kdcopcheck.cpp ~ unspec ~ unspec
+ kio/tests/kdcopcheck.h ~ unspec ~ unspec
+ kio/tests/kdirlistertest.cpp ~ LGPLv2h ~    Copyright (C) 2007 David Faure <faure@kde.org>
+ kio/tests/kdirlistertest_gui.cpp ~ LGPLv2h ~    Copyright (C) 2001, 2002 Michael Brade <brade@kde.org>
+ kio/tests/kdirlistertest_gui.h ~ LGPLv2h ~    Copyright (C) 2001, 2002 Michael Brade <brade@kde.org>
+ kio/tests/kdirlistertest.h ~ LGPLv2h ~    Copyright (C) 2007 David Faure <faure@kde.org>
+ kio/tests/kdirmodeltest.cpp ~ LGPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/tests/kdirmodeltest_gui.cpp ~ LGPLv2 ~  *  Copyright (C) 2006 David Faure   <faure@kde.org>
+ kio/tests/kdirmodeltest.h ~ LGPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/tests/kdirwatchtest.cpp ~ LGPLv2 ~   Copyright 1998 Sven Radej <sven@lisa.exp.univie.ac.at>
+ kio/tests/kdirwatchtest_gui.cpp ~ LGPLv2 ~  *  Copyright (C) 2006 Dirk Stoecker <kde@dstoecker.de>
+ kio/tests/kdirwatchtest_gui.h ~ LGPLv2 ~  *  Copyright (C) 2006 Dirk Stoecker <kde@dstoecker.de>
+ kio/tests/kdirwatchtest.h ~ LGPLv2 ~   Copyright 1998 Sven Radej <sven@lisa.exp.univie.ac.at>
+ kio/tests/kfileitemtest.cpp ~ LGPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/tests/kfileitemtest.h ~ LGPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/tests/kionetrctest.cpp ~ unspec ~ unspec
+ kio/tests/kiopassdlgtest.cpp ~ unspec ~ unspec
+ kio/tests/kioslavetest.cpp ~ LGPLv2 ~   Copyright 1999 Matt Koss <koss@miesto.sk>
+ kio/tests/kioslavetest.h ~ LGPLv2 ~   Copyright 1999 Matt Koss <koss@miesto.sk>
+ kio/tests/kiotesthelper.h ~ LGPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/tests/kmfitest.cpp ~ unspec ~ unspec
+ kio/tests/kmimetypechoosertest_gui.cpp ~ LGPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kio/tests/kmountpointtest.cpp ~ LGPLv2 ~  *  Copyright (C) 2006 David Faure   <faure@kde.org>
+ kio/tests/kmountpointtest.h ~ LGPLv2 ~  *  Copyright (C) 2006 David Faure   <faure@kde.org>
+ kio/tests/kpropsdlgtest.cpp ~ unspec ~ unspec
+ kio/tests/kprotocolinfotest.cpp ~ LGPLv2 ~  *  Copyright (C) 2002 David Faure   <faure@kde.org>
+ kio/tests/kruntest.cpp ~ LGPLv2 ~  *  Copyright (C) 2002 David Faure   <faure@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
+ kio/tests/kruntest.h ~ LGPLv2 ~  *  Copyright (C) 2002 David Faure   <faure@kde.org>
+ kio/tests/krununittest.cpp ~ LGPLv2 ~  *  Copyright (C) 2003 Waldo Bastian <bastian@kde.org>, 2007 David Faure   <faure@kde.org>
+ kio/tests/krununittest.h ~ LGPLv2 ~  *  Copyright (C) 2005 David Faure   <faure@kde.org>
+ kio/tests/kscantest.cpp ~ unspec ~ unspec
+ kio/tests/ksslkeygentest.cpp ~ unspec ~ unspec
+ kio/tests/ksycocatest.cpp ~ LGPLv2 ~  *  Copyright (C) 2002-2006 David Faure   <faure@kde.org>
+ kio/tests/ksycocaupdatetest.cpp ~ unspec ~ unspec
+ kio/tests/ktartest.cpp ~ LGPLv2 ~  *  Copyright (C) 2002 - 2005 David Faure   <faure@kde.org>
+ kio/tests/kurlcompletiontest.cpp ~ LGPLv2 ~  *  Copyright (C) 2004 David Faure <faure@kde.org>
+ kio/tests/kziptest.cpp ~ LGPLv2 ~  *  Copyright (C) 2002-2006 David Faure   <faure@kde.org>
+ kio/tests/netaccesstest.cpp ~ LGPLv2 ~  *  Copyright (C) 2004 David Faure   <faure@kde.org>
+ kio/tests/previewtest.cpp ~ unspec ~ unspec
+ kio/tests/previewtest.h ~ unspec ~ unspec
+ kio/tests/safesitetest.cpp ~ unspec ~ unspec
+ kio/tests/speed.cpp ~ LGPLv2 ~  *  Copyright (C) 2002, 2003 Stephan Kulow <coolo@kde.org>, 2003 David Faure   <faure@kde.org>
+ kio/tests/speed.h ~ unspec ~ unspec
+ kio/tests/wronglocalsizes.zip ~ unspec ~ unspec
+ kio/useragent.pl ~ unspec ~ unspec
+
+ kioslave/CMakeLists.txt ~ unspec ~ unspec
  kioslave/file/CMakeLists.txt ~ unspec ~ unspec
  kioslave/file/file.cpp ~ LGPLv2h ~ (C) 2000-2002 Stephan Kulow <coolo@kde.org>, 2000-2002 David Faure <faure@kde.org>, 2000-2002 Waldo Bastian <bastian@kde.org>, 2006 Allan Sandfeld Jensen <sandfeld@kde.org>, 2007 Thiago Macieira <thiago@kde.org>
  kioslave/file/file.h ~ LGPLv2 ~ (C) 2000-2002 Stephan Kulow <coolo@kde.org>, 2000-2002 David Faure <faure@kde.org>, 2000-2002 Waldo Bastian <bastian@kde.org>
@@ -3659,8 +4183,6 @@ knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
 DIRs TODO:
 
 kdeui (half-done)
-
-kio
 
 -------------------------------------------------------------------------------
 Legend:
