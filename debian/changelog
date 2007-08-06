@@ -1,8 +1,11 @@
 kde4libs (4:3.92.0.dfsg.1-1) experimental; urgency=low
 
-  * KDE 4, beta 1.
+  * New upstream release. It is KDE4 beta 1.
   * Update *.install files.
   * Prune non-free files, added script prune-nonfree.
+  * Add patches:
+    * 01_kdehome_kde4: set kdehome directory to .kde4.
+    * 02_applications_menu_kde4: append .kde4 to applications.menu.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 28 Jul 2007 12:39:08 +0200
 
