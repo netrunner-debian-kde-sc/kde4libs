@@ -216,6 +216,8 @@ detailed above.
  dnssd/servicetypebrowser.h ~ LGPLv2h ~  (C) 2004 Jakub Stachowski
  dnssd/settings.kcfgc ~ unspec ~ unspec
 
+ includes/* ~ unspec ~ unspec
+
  interfaces/CMakeLists.txt ~ unspec ~ unspec
  interfaces/khexedit/byteseditinterface.h ~ LGPLv2 ~ (C) 2003 by Friedrich W.  H. Kossebau
  interfaces/khexedit/charcolumninterface.h  ~ LGPLv2 ~ (C) 2003 by Friedrich W.  H. Kossebau
