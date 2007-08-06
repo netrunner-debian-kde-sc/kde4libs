@@ -1381,7 +1381,556 @@ detailed above or are not licensed under the GPLv2.
  kdeui/dialogs/kprogressdialog.h ~ LGPLv2 ~ (c) 1996 Martynas Kunigelis, 2006-2007 Urs Wolfer <uwolfer at kde.org>
  kdeui/dialogs/kshortcutsdialog.cpp ~ LGPLv2h ~ (C) 1998 Mark Donohoe <donohoe@kde.org> Copyright (C) 1997 Nicolas Hadacek <hadacek@kde.org> Copyright (C) 1998 Matthias Ettrich <ettrich@kde.org> Copyright (C) 2001 Ellis Whitehead <ellis@kde.org> Copyright (C) 2006 Hamish Rodda <rodda@kde.org> Copyright (C) 2007 Roberto Raggi <roberto@kdevelop.org> Copyright (C) 2007 Andreas Hartmetz <ahartmetz@gmail.com>
  kdeui/dialogs/kshortcutsdialog.h ~ LGPLv2h ~  1997 Nicolas Hadacek <hadacek@kde.org> Copyright (C) 2001,2001 Ellis Whitehead <ellis@kde.org> Copyright (C) 2006 Hamish Rodda <rodda@kde.org> Copyright (C) 2007 Roberto Raggi <roberto@kdevelop.org> Copyright (C) 2007 Andreas Hartmetz <ahartmetz@gmail.com>
-
+kdeui/dialogs/kshortcutsdialog_p.h ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahartmetz@gmail.com)
+ kdeui/dialogs/kshortcutsdialog.ui ~ unspec ~ unspec
+ kdeui/dialogs/kshortcutseditor.h ~ LGPLv2h ~  1997 Nicolas Hadacek <hadacek@kde.org> Copyright (C) 2001,2001 Ellis Whitehead <ellis@kde.org> Copyright (C) 2006 Hamish Rodda <rodda@kde.org> Copyright (C) 2007 Roberto Raggi <roberto@kdevelop.org> Copyright (C) 2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/dialogs/ksplashscreen.cpp ~ LGPLv2h ~  2003 Chris Howells (howells@kde.org)
+ kdeui/dialogs/ksplashscreen.h ~ LGPLv2h ~    Copyright (C) 2003 Chris Howells (howells@kde.org)
+ kdeui/dialogs/kswitchlanguagedialog.cpp ~ LGPLv2h ~  * Copyright (C) 2007 Krzysztof Lichota (lichota@mimuw.edu.pl)
+ kdeui/dialogs/kswitchlanguagedialog.h ~ LGPLv2h ~  * Copyright (C) 2007 Krzysztof Lichota (lichota@mimuw.edu.pl)
+ kdeui/dialogs/ktip-background.png ~ unspec ~ unspec
+ kdeui/dialogs/ktip-bulb.png ~ unspec ~ unspec
+ kdeui/dialogs/ktip.cpp ~ MIT ~  2000-2003 Matthias Hoelzer-Kluepfel <mhk@kde.org>, Tobias Koenig <tokoe@kde.org>, Daniel Molkentin <molkentin@kde.org>
+ kdeui/dialogs/ktip.h ~ MIT ~ 2000-2003 Matthias Hoelzer-Kluepfel <mhk@kde.org>, Tobias Koenig <tokoe@kde.org>, Daniel Molkentin <molkentin@kde.org>
+ kdeui/findreplace/kfind.cpp ~ LGPLv2 ~  2001, S.R.Haque <srhaque@iee.org>. Copyright (C) 2002, David Faure <david@mandrakesoft.com> Copyright (C) 2004, Arend van Beelen jr. <arend@auton.nl>
+ kdeui/findreplace/kfinddialog.cpp ~ LGPLv2 ~  2001, S.R.Haque <srhaque@iee.org>. Copyright (C) 2002, David Faure <david@mandrakesoft.com>
+ kdeui/findreplace/kfinddialog.h ~ LGPLv2 ~  2001, S.R.Haque <srhaque@iee.org>. Copyright (C) 2002, David Faure <david@mandrakesoft.com>
+ kdeui/findreplace/kfinddialog_p.h ~ LGPLv2 ~  2001, S.R.Haque <srhaque@iee.org>. Copyright (C) 2002, David Faure <david@mandrakesoft.com>
+ kdeui/findreplace/kfind.h ~ LGPLv2 ~  2001, S.R.Haque <srhaque@iee.org>. Copyright (C) 2002, David Faure <david@mandrakesoft.com>
+ kdeui/findreplace/kfind_p.h ~ LGPLv2 ~  2001, S.R.Haque <srhaque@iee.org>. Copyright (C) 2002, David Faure <david@mandrakesoft.com> Copyright (C) 2004, Arend van Beelen jr. <arend@auton.nl>
+ kdeui/findreplace/kreplace.cpp ~ LGPLv2 ~  2001, S.R.Haque <srhaque@iee.org>. Copyright (C) 2002, David Faure <david@mandrakesoft.com>
+ kdeui/findreplace/kreplacedialog.cpp ~ LGPLv2 ~  2001, S.R.Haque <srhaque@iee.org>. Copyright (C) 2002, David Faure <david@mandrakesoft.com>
+ kdeui/findreplace/kreplacedialog.h ~ LGPLv2 ~  2001, S.R.Haque <srhaque@iee.org>. Copyright (C) 2002, David Faure <david@mandrakesoft.com>
+ kdeui/findreplace/kreplace.h ~ LGPLv2 ~  2001, S.R.Haque <srhaque@iee.org>. Copyright (C) 2002, David Faure <david@mandrakesoft.com>
+ kdeui/fonts/kfontchooser.cpp ~ LGPLv2h ~ Copyright (C) 1996 Bernd Johannes Wuebben  <wuebben@kde.org>  1999 Preston Brown <pbrown@kde.org>  1999 Mario Weilguni <mweilguni@kde.org>
+ kdeui/fonts/kfontchooser.h ~ LGPLv2h ~  1997 Bernd Johannes Wuebben <wuebben@kde.org>  1999 Preston Brown <pbrown@kde.org>  1999 Mario Weilguni <mweilguni@kde.org>
+ kdeui/fonts/kfontdialog.cpp ~ LGPLv2h ~ Copyright (C) 1996 Bernd Johannes Wuebben  <wuebben@kde.org>  1999 Preston Brown <pbrown@kde.org>  1999 Mario Weilguni <mweilguni@kde.org>
+ kdeui/fonts/kfontdialog.h ~ LGPLv2h ~  1997 Bernd Johannes Wuebben <wuebben@kde.org>  1999 Preston Brown <pbrown@kde.org>  1999 Mario Weilguni <mweilguni@kde.org>
+ kdeui/fonts/kfontrequester.cpp ~ LGPLv2h ~  2003 Nadeem Hasan <nhasan@kde.org>
+ kdeui/fonts/kfontrequester.h ~ LGPLv2h ~  2003 Nadeem Hasan <nhasan@kde.org>
+ kdeui/icons/kiconcache.cpp ~ LGPLv2 ~  * Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kdeui/icons/kiconcache.h ~ LGPLv2 ~  * Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kdeui/icons/kicon.cpp ~ LGPLv2 ~  2006 Hamish Rodda <rodda@kde.org>
+ kdeui/icons/kiconeffect.cpp ~ LGPLv2 ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+ kdeui/icons/kiconeffect.h ~ LGPLv2 ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+ kdeui/icons/kiconengine.cpp ~ LGPLv2 ~  2006 Hamish Rodda <rodda@kde.org>
+ kdeui/icons/kiconengine_p.h ~ LGPLv2 ~  2006 Hamish Rodda <rodda@kde.org>
+ kdeui/icons/kicon.h ~ LGPLv2 ~  2006 Hamish Rodda <rodda@kde.org>
+ kdeui/icons/kiconloader.cpp ~ LGPLv2 ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>,  Antonio Larrosa <larrosa@kde.org>
+ kdeui/icons/kiconloader.h ~ LGPLv2 ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>,  Antonio Larrosa <larrosa@kde.org>
+ kdeui/icons/kicontheme.cpp ~ LGPLv2 ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>,  Antonio Larrosa <larrosa@kde.org>
+ kdeui/icons/kicontheme.h ~ LGPLv2 ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>,  Antonio Larrosa <larrosa@kde.org>
+ kdeui/icons/kpixmapcache.cpp ~ LGPLv2 ~  * Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kdeui/icons/kpixmapcache.h ~ LGPLv2 ~  * Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kdeui/itemviews/kextendableitemdelegate.cpp ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahartmetz@gmail.com)
+ kdeui/itemviews/kextendableitemdelegate.h ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahartmetz@gmail.com)
+ kdeui/itemviews/klistwidget.cpp ~ LGPLv2 ~    Copyright (C) 2000 Reginald Stadlbauer <reggie@kde.org>
+ kdeui/itemviews/klistwidget.h ~ LGPLv2 ~    Copyright (C) 2000 Reginald Stadlbauer <reggie@kde.org>
+ kdeui/itemviews/klistwidgetsearchline.cpp ~ LGPLv2 ~    2003 Scott Wheeler <wheeler@kde.org>  2004 Gustavo Sverzut Barbieri <gsbarbieri@users.sourceforge.net>
+ kdeui/itemviews/klistwidgetsearchline.h ~ LGPLv2 ~    2003 Scott Wheeler <wheeler@kde.org>  2004 Gustavo Sverzut Barbieri <gsbarbieri@users.sourceforge.net>
+ kdeui/itemviews/ktreewidgetsearchline.cpp ~ LGPLv2 ~     2003 Scott Wheeler <wheeler@kde.org>  2005 Rafal Rzepecki <divide@users.sourceforge.net>  2006 Hamish Rodda <rodda@kde.org>
+ kdeui/itemviews/ktreewidgetsearchline.h ~ LGPLv2 ~     2003 Scott Wheeler <wheeler@kde.org>  2005 Rafal Rzepecki <divide@users.sourceforge.net>  2006 Hamish Rodda <rodda@kde.org>
+ kdeui/jobs/kabstractwidgetjobtracker.cpp ~ LGPLv2 ~  2000 Matej Koss <koss@miesto.sk>, 2007 Kevin Ottens <ervin@kde.org>
+ kdeui/jobs/kabstractwidgetjobtracker.h ~ LGPLv2 ~  2000 Matej Koss <koss@miesto.sk>, 2007 Kevin Ottens <ervin@kde.org>
+ kdeui/jobs/kdialogjobuidelegate.cpp ~ LGPLv2h ~  2000 Stephan Kulow <coolo@kde.org>, David Faure <faure@kde.org>, 2006,2007 Kevin Ottens <ervin@kde.org>
+ kdeui/jobs/kdialogjobuidelegate.h ~ LGPLv2h ~  2000 Stephan Kulow <coolo@kde.org>, David Faure <faure@kde.org>, 2006,2007 Kevin Ottens <ervin@kde.org>
+ kdeui/jobs/kstatusbarjobtracker.cpp ~ LGPLv2 ~  2000 Matej Koss <koss@miesto.sk>, 2007 Kevin Ottens <ervin@kde.org>
+ kdeui/jobs/kstatusbarjobtracker.h ~ LGPLv2 ~  2000 Matej Koss <koss@miesto.sk>, 2007 Kevin Ottens <ervin@kde.org>
+ kdeui/jobs/kuiserverjobtracker.cpp ~ LGPLv2 ~  2007 Kevin Ottens <ervin@kde.org>
+ kdeui/jobs/kuiserverjobtracker.h ~ LGPLv2h ~ 2007 Kevin Ottens <ervin@kde.org>
+ kdeui/jobs/kuiserverjobtracker_p.h ~ LGPLv2 ~  2007-2006 Rafael Fernández López <ereslibre@gmail.com>, Kevin Ottens <ervin@kde.org>, 2000 Matej Koss <koss@miesto.sk>, David Faure <faure@kde.org>, Stephan Kulow <coolo@kde.org>
+ kdeui/jobs/kwidgetjobtracker.cpp ~ LGPLv2 ~  2000 Matej Koss <koss@miesto.sk>, 2007 Kevin Ottens <ervin@kde.org>
+ kdeui/jobs/kwidgetjobtracker.h ~ LGPLv2 ~  2000 Matej Koss <koss@miesto.sk>, 2007 Kevin Ottens <ervin@kde.org>
+ kdeui/jobs/org.kde.UiServerCallbacks.xml ~ unspec ~ unspec
+ kdeui/jobs/org.kde.UiServer.xml ~ unspec ~ unspec
+ kdeui/kdepackages.h ~ unspec ~ unspec
+ kdeui/kdeui_export.h ~ LGPLv2h ~  2007 David Faure <faure@kde.org>
+ kdeui/kdeui.pc.in ~ unspec ~ unspec
+ kdeui/kernel/kapplication.cpp ~ LGPLv2h ~  1997 Matthias Kalle Dalheimer (kalle@kde.org), 1998, 1999, 2000 KDE Team
+ kdeui/kernel/kapplication.h ~ LGPLv2h ~  1997 Matthias Kalle Dalheimer (kalle@kde.org), 1998, 1999 KDE Team
+ kdeui/kernel/kapplication_mac.cpp ~ LGPLv2 ~ (C) 2007 Benjamin Reed <rangerrick@befunk.com>
+ kdeui/kernel/kapplication_win.cpp ~ LGPLv2 ~ (C) 2004 Jaroslaw Staniek <js@iidea.pl>
+ kdeui/kernel/kclipboard.cpp ~ LGPLv2 ~  2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/kernel/kclipboard.h ~ LGPLv2 ~  2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/kernel/kglobalsettings.cpp ~ LGPLv2 ~ (C) 2000, 2006 David Faure <faure@kde.org>
+ kdeui/kernel/kglobalsettings.h ~ LGPLv2 ~ (C) 2000,2006 David Faure <faure@kde.org>
+ kdeui/kernel/ksessionmanager.cpp ~ LGPLv2h ~  1997 Matthias Kalle Dalheimer (kalle@kde.org), 1998, 1999 KDE Team
+ kdeui/kernel/ksessionmanager.h ~ LGPLv2h ~  1997 Matthias Kalle Dalheimer (kalle@kde.org), 1998, 1999 KDE Team
+ kdeui/kernel/kstartupinfo.cpp ~ MIT ~ (C) 2001-2003 Lubos Lunak <l.lunak@kde.org>
+ kdeui/kernel/kstartupinfo.h ~ MIT ~ (C) 2001-2003 Lubos Lunak <l.lunak@kde.org>
+ kdeui/kernel/kuniqueapplication.cpp ~ LGPLv2h ~ 1999 Preston Brown <pbrown@kde.org>
+ kdeui/kernel/kuniqueapplication.h ~ LGPLv2h ~ 1999 Preston Brown <pbrown@kde.org>, 2000-2001 Waldo Bastian <bastian@kde.org>
+ kdeui/kernel/kuniqueapplication_p.h ~ LGPLv2h ~      2006 Thiago Macieira <thiagokde.org>
+ kdeui/kernel/start-session-bus.sh ~ unspec ~ unspec
+ kdeui/libkdeui.nmcheck ~ unspec ~ unspec
+ kdeui/libkdeui_weak.nmcheck ~ unspec ~ unspec
+ kdeui/Mainpage.dox ~ LGPLv2 ~ Sirtaj Singh Kang <taj@kde.org>.
+ kdeui/MAINTAINERS ~ unspec ~ unspec
+ kdeui/paged/kpagedialog.cpp ~ LGPLv2h ~  *  Copyright (C) 1999-2001 Mirko Boehm (mirko@kde.org) and Espen Sand (espen@kde.org), Holger Freyther <freyther@kde.org>, 2005-2006 Olivier Goffart <ogoffart at kde.org>
+ kdeui/paged/kpagedialog.h ~ LGPLv2h ~  *  Copyright (C) 1999-2001 Mirko Boehm (mirko@kde.org) and Espen Sand (espen@kde.org), Holger Freyther <freyther@kde.org>, 2005-2006 Olivier Goffart <ogoffart at kde.org>, 2006 Tobias Koenig <tokoe@kde.org>
+ kdeui/paged/kpagedialog_p.h ~ LGPLv2 ~  2007 Matthias Kretz <kretz@kde.org>
+ kdeui/paged/kpagemodel.cpp ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/paged/kpagemodel.h ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/paged/kpagemodel_p.h ~ LGPLv2 ~  2007 Matthias Kretz <kretz@kde.org>
+ kdeui/paged/kpageview.cpp ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/paged/kpageview.h ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/paged/kpageview_p.cpp ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/paged/kpageview_p.h ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/paged/kpagewidget.cpp ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/paged/kpagewidget.h ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/paged/kpagewidgetmodel.cpp ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/paged/kpagewidgetmodel.h ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/paged/kpagewidgetmodel_p.h ~ LGPLv2 ~  2007 Matthias Kretz <kretz@kde.org>
+ kdeui/paged/kpagewidget_p.h ~ LGPLv2 ~  2007 Matthias Kretz <kretz@kde.org>
+ kdeui/plotting/kplotaxis.cpp ~ LGPLv2h ~  2005 Andreas Nicolai <Andreas.Nicolai@gmx.net>
+ kdeui/plotting/kplotaxis.h ~ LGPLv2h ~  2005 Andreas Nicolai <Andreas.Nicolai@gmx.net>
+ kdeui/plotting/kplotobject.cpp ~ LGPLv2h ~  2003 Jason Harris <kstars@30doradus.org>
+ kdeui/plotting/kplotobject.h ~ LGPLv2h ~  2003 Jason Harris <kstars@30doradus.org>
+ kdeui/plotting/kplotpoint.cpp ~ LGPLv2h ~  2003 Jason Harris <kstars@30doradus.org>
+ kdeui/plotting/kplotpoint.h ~ LGPLv2h ~  2003 Jason Harris <kstars@30doradus.org>
+ kdeui/plotting/kplotwidget.cpp ~ LGPLv2h ~  2003 Jason Harris <kstars@30doradus.org>
+ kdeui/plotting/kplotwidget.h ~ LGPLv2h ~  2003 Jason Harris <kstars@30doradus.org>
+ kdeui/plotting/README ~ unspec ~ unspec
+ kdeui/preparetips ~ unspec ~ 2000 by Matthias Kiefer <matthias.kiefer@gmx.de>
+ kdeui/shortcuts/kacceleratormanager.cpp ~ LGPLv2h ~  2002 Matthias Hölzer-Klüpfel <mhk@kde.org>
+ kdeui/shortcuts/kacceleratormanager.h ~ LGPLv2h ~  2002 Matthias Hölzer-Klüpfel <mhk@kde.org>
+ kdeui/shortcuts/kacceleratormanager_private.h ~ LGPLv2h ~  2002 Matthias H�zer-Klpfel <mhk@kde.org>
+ kdeui/shortcuts/kcheckaccelerators.cpp ~ LGPLv2h ~  1997 Matthias Kalle Dalheimer (kalle@kde.org), (C) 1998, 1999, 2000 KDE Team
+ kdeui/shortcuts/kcheckaccelerators.h ~ LGPLv2h ~  1997 Matthias Kalle Dalheimer (kalle@kde.org), 1998, 1999, 2000 KDE Team
+ kdeui/shortcuts/kdedglobalaccel_adaptor.h ~ LGPLv2h ~  2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/shortcuts/kdedglobalaccel.cpp ~ LGPLv2h ~      2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/shortcuts/kdedglobalaccel.desktop ~ unspec ~ unspec
+ kdeui/shortcuts/kdedglobalaccel.h ~ LGPLv2h ~      2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/shortcuts/kdedglobalaccel_interface.h ~ LGPLv2h ~  2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/shortcuts/kgesture.cpp ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahartmetz@gmail.com)
+ kdeui/shortcuts/kgesture.h ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahartmetz@gmail.com)
+ kdeui/shortcuts/kgesturemap.cpp ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahartmetz@gmail.com)
+ kdeui/shortcuts/kgesturemap.h ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahartmetz@gmail.com)
+ kdeui/shortcuts/kglobalaccel.cpp ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>, 2006 Hamish Rodda <rodda@kde.org>
+ kdeui/shortcuts/kglobalaccel.h ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>, 2006 Hamish Rodda <rodda@kde.org>
+ kdeui/shortcuts/kglobalaccel_mac.cpp ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>, 2006 Marijn Kruisselbrink <m.kruisselbrink@student.tue.nl>
+ kdeui/shortcuts/kglobalaccel_mac.h ~ LGPLv2h ~  2006 Marijn Kruisselbrink <m.kruisselbrink@student.tue.nl>
+ kdeui/shortcuts/kglobalaccel_qws.cpp ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>
+ kdeui/shortcuts/kglobalaccel_qws.h ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>
+ kdeui/shortcuts/kglobalaccel_win.cpp ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>
+ kdeui/shortcuts/kglobalaccel_win.h ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>
+ kdeui/shortcuts/kglobalaccel_x11.cpp ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>
+ kdeui/shortcuts/kglobalaccel_x11.h ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>
+ kdeui/shortcuts/kshortcut.cpp ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>, 2006 Hamish Rodda <rodda@kde.org>, 2006 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/shortcuts/kshortcut.h ~ LGPLv2h ~  2001,2002 Ellis Whitehead <ellis@kde.org>, 2006 Hamish Rodda <rodda@kde.org>, 2006 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/shortcuts/kstandardshortcut.cpp ~ LGPLv2 ~  1997 Stefan Taferner (taferner@alpin.or.at), 2000 Nicolas Hadacek (haadcek@kde.org), 2001,2002 Ellis Whitehead (ellis@kde.org)
+ kdeui/shortcuts/kstandardshortcut.h ~ LGPLv2 ~  1997 Stefan Taferner (taferner@kde.org), 2000 Nicolas Hadacek (hadacek@kde.org), 2001,2002 Ellis Whitehead (ellis@kde.org)
+ kdeui/shortcuts/org.kde.KdedGlobalAccel.xml ~ unspec ~ unspec
+ kdeui/sonnet/configdialog.cpp ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/configdialog.h ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/configui.ui ~ unspec ~ unspec
+ kdeui/sonnet/configwidget.cpp ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/configwidget.h ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/dialog.cpp ~ LGPLv2h ~  * Copyright (C)  2003  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/dialog.h ~ LGPLv2h ~  * Copyright (C)  2003  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/highlighter.cpp ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>, 2006  Laurent Montel <montel@kde.org>
+ kdeui/sonnet/highlighter.h ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/sonnetui.ui ~ unspec ~ unspec
+ kdeui/sonnet/tests/backgroundtest.cpp ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/tests/backgroundtest.h ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/tests/CMakeLists.txt ~ unspec ~ unspec
+ kdeui/sonnet/tests/test_config.cpp ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/tests/test_configdialog.cpp ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/tests/test_dialog.cpp ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/tests/test_dialog.h ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/tests/test_highlighter.cpp ~ LGPLv2h ~  * Copyright (C)  2004  Zack Rusin <zack@kde.org>
+ kdeui/sonnet/tests/test_highlighter.h ~ LGPLv2h ~  * Copyright (C)  2006  Laurent Montel <montel@kde.org>
+ kdeui/tests/CMakeLists.txt ~ unspec ~ unspec
+ kdeui/tests/kaccelgentest.cpp ~ unspec ~ unspec
+ kdeui/tests/kactioncollectiontest.cpp ~ unspec ~ unspec
+ kdeui/tests/kactioncollectiontest.h ~ unspec ~ unspec
+ kdeui/tests/kactionselectortest.cpp ~ LGPLv2 ~      2006 David Faure <faure@kde.org>
+ kdeui/tests/kapplication_unittest.cpp ~ LGPLv2 ~     Copyright 2007 David Faure <faure@kde.org>
+ kdeui/tests/kapplication_unittest.h ~ LGPLv2 ~     Copyright 2007 David Faure <faure@kde.org>
+ kdeui/tests/kapptest.cpp ~ LGPLv2 ~      1999 Waldo Bastian <bastian@kde.org>
+ kdeui/tests/kassistantdialogtest.cpp ~ LGPLv2h ~  *   Copyright (C) 1998  Thomas Tanghus (tanghus@kde.org)
+ kdeui/tests/kblendtest.cpp ~ unspec ~ unspec
+ kdeui/tests/kblendtest.h ~ Artistic ~ Copyright Cristian Tibirna <tibirna@kde.org>
+ kdeui/tests/kbugreporttest.cpp ~ LGPLv2h ~  2005 Joseph Wenninger <jowenn@kde.org>
+ kdeui/tests/kbuttongrouptest.cpp ~ LGPLv2h ~  2006 Pino Toscano <toscano.pino@tiscali.it>
+ kdeui/tests/kbuttongrouptest.h ~ LGPLv2h ~  2006 Pino Toscano <toscano.pino@tiscali.it>
+ kdeui/tests/kcharselecttest.cpp ~ unspec ~ unspec
+ kdeui/tests/kcodecactiontest.cpp ~ unspec ~ unspec
+ kdeui/tests/kcodecactiontest.h ~ unspec ~ unspec
+ kdeui/tests/kcolorcollectiontest.cpp ~ unspec ~ unspec
+ kdeui/tests/kcolorcombotest.cpp ~ LGPLv2h ~      2007 David Jarvie <software@astrojar.org.uk>
+ kdeui/tests/kcolorcombotest.h ~ unspec ~ unspec
+ kdeui/tests/kcolordlgtest.cpp ~ LGPLv2h ~  1997 Martin Jones (mjones@kde.org)
+ kdeui/tests/kcolortest.cpp ~ unspec ~ unspec
+ kdeui/tests/kcolortest.h ~ unspec ~ unspec
+ kdeui/tests/kcolorutilstest.cpp ~ unspec ~ unspec
+ kdeui/tests/kcolorutilstest.h ~ unspec ~ unspec
+ kdeui/tests/kcomboboxtest.cpp ~ unspec ~ unspec
+ kdeui/tests/kcomboboxtest.h ~ unspec ~ unspec
+ kdeui/tests/kcompletioncoretest.cpp ~ LGPLv2 ~      2005 Thomas Braxton <brax108@cox.net>
+ kdeui/tests/kcompletioncoretest.h ~ LGPLv2 ~      2005 Thomas Braxton <brax108@cox.net>
+ kdeui/tests/kcompletionuitest.cpp ~ unspec ~ unspec
+ kdeui/tests/kcompletionuitest.h ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/CMakeLists.txt ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/kconfigcompiler_test.cpp ~ LGPLv2h ~ 2005 by Duncan Mac-Vicar <duncan@kde.org>
+ kdeui/tests/kconfig_compiler/kconfigcompiler_test.h ~ LGPLv2h ~ 2005 by Duncan Mac-Vicar <duncan@kde.org>
+ kdeui/tests/kconfig_compiler/myprefs.h ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test10.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test10.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test10.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test10.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test10main.cpp ~ MIT ~  2007 Andreas Pakulat <apaku@gmx.de>
+ kdeui/tests/kconfig_compiler/test1.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test1.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test1.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test1.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test1main.cpp ~ MIT ~  2003 Cornelius Schumacher <schumacher@kde.org>
+ kdeui/tests/kconfig_compiler/test2.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test2.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test2.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test2.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test2main.cpp ~ MIT ~  2003 Cornelius Schumacher <schumacher@kde.org>
+ kdeui/tests/kconfig_compiler/test3.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test3.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test3.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test3.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test3main.cpp ~ MIT ~  2003 Cornelius Schumacher <schumacher@kde.org>
+ kdeui/tests/kconfig_compiler/test4.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test4.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test4.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test4.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test4main.cpp ~ MIT ~  2003,2004 Waldo Bastian <bastian@kde.org>
+ kdeui/tests/kconfig_compiler/test5.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test5.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test5.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test5.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test5main.cpp ~ MIT ~  2004 Waldo Bastian <bastian@kde.org>
+ kdeui/tests/kconfig_compiler/test6.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test6.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test6.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test6.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test6main.cpp ~ MIT ~  2004 Waldo Bastian <bastian@kde.org>
+ kdeui/tests/kconfig_compiler/test7.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test7.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test7.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test7.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test7main.cpp ~ MIT ~  2004 Waldo Bastian <bastian@kde.org>
+ kdeui/tests/kconfig_compiler/test8a.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test8a.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test8a.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test8a.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test8b.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test8b.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test8b.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test8b.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test8main.cpp ~ MIT ~  2005 Michael Brade <brade@kde.org>
+ kdeui/tests/kconfig_compiler/test9.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test9.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test9.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test9.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test9main.cpp ~ MIT ~  2005 Helge Deller <deller@kde.org>
+ kdeui/tests/kconfig_compiler/test_dpointer.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test_dpointer.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test_dpointer.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test_dpointer.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test_dpointer_main.cpp ~ MIT ~  2005 Duncan Mac-Vicar P. <duncan@kde.org>
+ kdeui/tests/kconfig_compiler/test_signal.cpp.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test_signal.h.ref ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test_signal.kcfg ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test_signal.kcfgc ~ unspec ~ unspec
+ kdeui/tests/kconfig_compiler/test_signal_main.cpp ~MIT ~  2006 Michael Larouche <michael.larouche@kdemail.net>
+ kdeui/tests/kconfigguitest.cpp ~ LGPLv2h ~  1997 Matthias Kalle Dalheimer (kalle@kde.org)
+ kdeui/tests/kconfigguitest.h ~ LGPLv2h ~  1997 Matthias Kalle Dalheimer (kalle@kde.org)
+ kdeui/tests/kconfigskeletontest.cpp ~ LGPLv2h ~  2006 Olivier Goffart  <ogoffart at kde.org>
+ kdeui/tests/kconfigskeletontest.h ~ LGPLv2h ~  2006 Olivier Goffart  <ogoffart at kde.org>
+ kdeui/tests/kdatepicktest.cpp ~ unspec ~ unspec
+ kdeui/tests/kdatetabletest.cpp ~ unspec ~ unspec
+ kdeui/tests/kdatetimewidgettest.cpp ~ unspec ~ unspec
+ kdeui/tests/kdatewidgettest.cpp ~ unspec ~ unspec
+ kdeui/tests/kdebugtest_gui.cpp ~ unspec ~ unspec
+ kdeui/tests/kdesattest.cpp ~ unspec ~ unspec
+ kdeui/tests/kdesattest.h ~ Artistic ~ (C) Cristian Tibirna <tibirna@kde.org>
+ kdeui/tests/kdialogbuttonboxtest.cpp ~ LGPLv2h ~  1997 Mario Weilguni (mweilguni@sime.com), 2006 Olivier Goffart
+ kdeui/tests/kdialogtest.cpp ~ unspec ~ unspec
+ kdeui/tests/keditlistboxtest.cpp ~ unspec ~ unspec
+ kdeui/tests/kfindtest.cpp ~ LGPLv2 ~  2004, Arend van Beelen jr. <arend@auton.nl>
+ kdeui/tests/kfindtest.h ~ LGPLv2 ~  2004, Arend van Beelen jr. <arend@auton.nl>
+ kdeui/tests/kfontdialogtest.cpp ~ LGPLv2h ~  1996 Bernd Johannes Wuebben
+ kdeui/tests/kglobalsettingsclient.cpp ~ LGPLv2 ~      2006 David Faure <faure@kde.org>
+ kdeui/tests/kglobalsettingstest.cpp ~ LGPLv2 ~      2006 David Faure <faure@kde.org>
+ kdeui/tests/kglobalsettingstest.h ~ LGPLv2 ~      2006 David Faure <faure@kde.org>
+ kdeui/tests/kglobalshortcuttest.cpp ~ LGPLv2h ~      2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/tests/kglobalshortcuttest.h ~ LGPLv2h ~      2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/tests/kgradienttest.cpp ~ Artistic ~ // Copyright Daniel M. Duley <mosfet@kde.org>
+ kdeui/tests/kgradienttest.h ~ Artistic ~ // Copyright Daniel M. Duley <mosfet@kde.org>
+ kdeui/tests/khashtest.cpp ~ Artistic~ // Copyright Daniel M. Duley <mosfet@kde.org>
+ kdeui/tests/khashtest.h ~ Artistic ~ // Copyright Daniel M. Duley <mosfet@kde.org>
+ kdeui/tests/khboxtest.cpp ~ unspec ~ unspec
+ kdeui/tests/khboxtest.h ~ unspec ~ unspec
+ kdeui/tests/kiconloadertest.cpp ~ unspec ~ unspec
+ kdeui/tests/kinputdialogtest.cpp ~ GPLv2 ~  * Copyright Nadeem Hasan <nhasan@kde.org>
+ kdeui/tests/kjobtrackerstest.cpp ~ LGPLv2 ~   * Copyright (C) 2007 Kevin Ottens <ervin@kde.org>
+ kdeui/tests/kjobtrackerstest.h ~ LGPLv2 ~   * Copyright (C) 2007 Kevin Ottens <ervin@kde.org>
+ kdeui/tests/kledtest.cpp ~ unspec ~ unspec
+ kdeui/tests/kledtest.h ~ unspec ~ unspec
+ kdeui/tests/klineedittest.cpp ~ unspec ~ unspec
+ kdeui/tests/klineedittest.h ~ unspec ~ unspec
+ kdeui/tests/kmainwindowrestoretest.cpp ~ unspec ~ unspec
+ kdeui/tests/kmainwindowrestoretest.h ~ unspec ~ unspec
+ kdeui/tests/kmainwindowtest.cpp ~ unspec ~ unspec
+ kdeui/tests/kmainwindowtest.h ~ unspec ~ unspec
+ kdeui/tests/kmainwindow_unittest.cpp ~ LGPLv2 ~      2006 David Faure <faure@kde.org>
+ kdeui/tests/kmainwindow_unittest.h ~ LGPLv2 ~      2006 David Faure <faure@kde.org>
+ kdeui/tests/kmessageboxtest.cpp ~ unspec ~ unspec
+ kdeui/tests/kmessagetest.cpp ~ LGPLv2 ~  2006 Michaël Larouche <michael.larouche@kdemail.net>
+ kdeui/tests/kmessagetest.h ~ LGPLv2 ~  2006 Michaël Larouche <michael.larouche@kdemail.net>
+ kdeui/tests/knewpassworddialogtest.cpp ~ LGPLv2h ~  2007 Olivier Goffart  <ogoffart at kde.org>
+ kdeui/tests/knotificationrestrictionstest.cpp ~ unspec ~ unspec
+ kdeui/tests/knuminputtest.cpp ~ GPLv2 ~ * Copyright 1999 by Dirk A. Mueller <dmuell@gmx.net>
+ kdeui/tests/knuminputtest.h ~ LPLv2 ~ * Copyright 1999 by Dirk A. Mueller <dmuell@gmx.net>
+ kdeui/tests/kpagedialogtest.cpp ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/tests/kpagedialogtest.h ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/tests/kpagewidgettest.cpp ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/tests/kpagewidgettest.h ~ LGPLv2h ~  2006 Tobias Koenig (tokoe@kde.org)
+ kdeui/tests/kpassivepopuptest.cpp ~ unspec ~ unspec
+ kdeui/tests/kpassivepopuptest.h ~ unspec ~ unspec
+ kdeui/tests/kpassworddialogtest.cpp ~ LGPLv2h ~  2007 Olivier Goffart  <ogoffart at kde.org>
+ kdeui/tests/kpixmapregionselectordialogtest.cpp ~ unspec ~ unspec
+ kdeui/tests/kpopuptest.cpp ~ unspec ~ unspec
+ kdeui/tests/kprogressdialogtest.cpp ~ unspec ~ unspec
+ kdeui/tests/kreplacetest.cpp ~ LGPLv2 ~  2002, David Faure <david@mandrakesoft.com>
+ kdeui/tests/kreplacetest.h ~ LGPLv2 ~  2002, David Faure <david@mandrakesoft.com>
+ kdeui/tests/krulertest.cpp ~ unspec ~ unspec
+ kdeui/tests/krulertest.h ~ unspec ~ unspec
+ kdeui/tests/kselectactiontest.cpp ~ unspec ~ unspec
+ kdeui/tests/kselectactiontest.h ~ unspec ~ unspec
+ kdeui/tests/kseparatortest.cpp ~ LGPLv2h ~  *   Copyright (C) 1997  Michael Roth <mroth@wirlweb.de>
+ kdeui/tests/kshortcuttest.cpp ~ unspec ~ unspec
+ kdeui/tests/kshortcuttest.h ~ unspec ~ unspec
+ kdeui/tests/ksqueezedtextlabeltest.cpp ~ unspec ~ unspec
+ kdeui/tests/kstandardactiontest.cpp ~ unspec ~ unspec
+ kdeui/tests/kstandardactiontest.h ~ unspec ~ unspec
+ kdeui/tests/kstandardshortcuttest.cpp ~ LGPLv2 ~      2005 David Faure <faure@kde.org>
+ kdeui/tests/kstandardshortcuttest.h ~ LGPLv2 ~      2005 David Faure <faure@kde.org>
+ kdeui/tests/kstatusbartest.cpp ~ unspec ~ unspec
+ kdeui/tests/kstatusbartest.h ~ unspec ~ unspec
+ kdeui/tests/ksystemtraytest.cpp ~ unspec ~ unspec
+ kdeui/tests/ktabwidgettest.cpp ~ unspec ~ unspec
+ kdeui/tests/ktabwidgettest.h ~ unspec ~ unspec
+ kdeui/tests/ktextedittest.cpp ~ LGPLv2h ~  2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/tests/ktitlewidgettest.cpp ~ LGPLv2 ~    Copyright (C) 2007 Urs Wolfer <uwolfer @ kde.org>
+ kdeui/tests/ktoolbarlabelactiontest.cpp ~ LGPLv2 ~  2004 Felix Berger <felixberger@beldesign.de>
+ kdeui/tests/ktoolbarlabelactiontestui.rc ~ unspec ~ unspec
+ kdeui/tests/ktoolbartest.cpp ~ unspec ~ unspec
+ kdeui/tests/ktreewidgetsearchlinetest.cpp ~ unspec ~ unspec
+ kdeui/tests/ktreewidgetsearchlinetest.h ~ unspec ~ unspec
+ kdeui/tests/kunbalancedgrdtest.cpp ~ Artistic ~ // Copyright Daniel M. Duley <mosfet@kde.org>
+ kdeui/tests/kunbalancedgrdtest.h ~ Artistic ~ // Copyright Daniel M. Duley <mosfet@kde.org>
+ kdeui/tests/kuniqueapptest.cpp ~ LGPLv2 ~      1999 Waldo Bastian <bastian@kde.org>
+ kdeui/tests/kwindowtest.cpp ~ unspec ~ unspec
+ kdeui/tests/kwindowtest.h ~ unspec ~ unspec
+ kdeui/tests/kwindowtest.rc ~ unspec ~ unspec
+ kdeui/tests/kwordwraptest.cpp ~ LGPLv2 ~  *  Copyright (C) 2003 David Faure   <faure@kde.org>
+ kdeui/tests/kxerrorhandlertest.cpp ~ unspec ~ unspec
+ kdeui/tests/kxmlguitest.cpp ~ unspec ~ unspec
+ kdeui/tests/kxmlguitest.h ~ unspec ~ unspec
+ kdeui/tests/kxmlguitest_part.rc ~ unspec ~ unspec
+ kdeui/tests/kxmlguitest_shell.rc ~ unspec ~ unspec
+ kdeui/tests/RayTracedGear.png ~ unspec ~ unspec
+ kdeui/tests/testimage.png ~ unspec ~ unspec
+ kdeui/tests/testplot_main.cpp ~ GPLv2h ~ (C) 2006 by Jason Harris
+ kdeui/tests/testplot_widget.cpp ~ LGPLv2h ~ (C) 2006 by Jason Harris
+ kdeui/tests/testplot_widget.h ~ LGPLv2h ~ (C) 2006 by Jason Harris
+ kdeui/tests/testqtargs.cpp ~ unspec ~ unspec
+ kdeui/TODO.xmlgui ~ unspec ~ unspec
+ kdeui/ui_standards.rc ~ unspec ~ unspec
+ kdeui/util/fixx11h.h ~ MIT ~  Copyright (C) 2003 Lubos Lunak        <l.lunak@kde.org>
+ kdeui/util/generate_keys.sh ~ GPLv2 ~ (C) 1999 Nicolas HADACEK (hadacek@kde.org)
+ kdeui/util/kaccelgen.h ~ LGPLv2h ~  2000 Keunwoo Lee <klee@cs.washington.edu>
+ kdeui/util/kckey.cpp ~ LGPLv2h ~ unspec
+ kdeui/util/kckey.h ~ LGPLv2h ~ unspec
+ kdeui/util/kcompletionbase.cpp ~ LGPLv2h ~     2000 Dawit Alemayehu <adawit@kde.org>
+ kdeui/util/kcompletion.cpp ~ LGPLv2h ~    Copyright (C) 1999,2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/util/kcompletion.h ~ LGPLv2h ~    Copyright (C) 1999,2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/util/kcompletion_p.h ~ LGPLv2h ~  1999 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/util/kcrash.cpp ~ LGPLv2h ~  * Copyright (C) 2000 Timo Hummel <timo.hummel@sap.com>, Tom Braun <braunt@fh-konstanz.de>
+ kdeui/util/kcrash.h ~ LGPLv2h ~  * Copyright (C) 2000 Timo Hummel <timo.hummel@sap.com>, Tom Braun <braunt@fh-konstanz.de>
+ kdeui/util/kcursor.cpp ~ LGPLv2 ~    Copyright (C) 1998 Kurt Granroth (granroth@kde.org)
+ kdeui/util/kcursor.h ~ LGPLv2 ~    Copyright (C) 1998 Kurt Granroth (granroth@kde.org), 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/util/kcursor_p.h ~ LGPLv2h ~     2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/util/kguiitem.cpp ~ LGPLv2 ~  2001 Holger Freyther (freyher@yahoo.com)
+ kdeui/util/kguiitem.h ~ LGPLv2 ~  2001 Holger Freyther (freyher@yahoo.com)
+ kdeui/util/kkeyserver.cpp ~ LGPLv2h ~  Copyright (C) 2001 Ellis Whitehead <ellis@kde.org>, (C) 2004 Jaroslaw Staniek <js@iidea.pl>
+ kdeui/util/kkeyserver.h ~ LGPLv2h ~  2001 Ellis Whitehead <ellis@kde.org>, 2004 Jaroslaw Staniek <js@iidea.pl>
+ kdeui/util/kkeyserver_mac.cpp ~ LGPLv2h ~  Copyright (C) 2006 Marijn Kruisselbrink <m.kruisselbrink@student.tue.nl>
+ kdeui/util/kkeyserver_mac.h ~ LGPLv2h ~  Copyright (C) 2006 Marijn Kruisselbrink <m.kruisselbrink@student.tue.nl>
+ kdeui/util/kkeyserver_x11.cpp ~ LGPLv2h ~  2001 Ellis Whitehead <ellis@kde.org>, 2004 Jaroslaw Staniek <js@iidea.pl>
+ kdeui/util/kkeyserver_x11.h ~ LGPLv2h ~  2001 Ellis Whitehead <ellis@kde.org>, 2004 Jaroslaw Staniek <js@iidea.pl>
+ kdeui/util/kmanagerselection.cpp ~ MIT ~  Copyright (C) 2003 Lubos Lunak        <l.lunak@kde.org>
+ kdeui/util/kmanagerselection.h ~ MIT ~  Copyright (C) 2003 Lubos Lunak        <l.lunak@kde.org>
+ kdeui/util/knotification.cpp ~ LGPLv2 ~    Copyright (C) 2005-2006 Olivier Goffart <ogoffart at kde.org>
+ kdeui/util/knotification.h ~ LGPLv2 ~    Copyright (C) 2005-2006 Olivier Goffart <ogoffart at kde.org>
+ kdeui/util/knotificationmanager.cpp ~ LGPLv2 ~    Copyright (C) 2005 Olivier Goffart <ogoffart at kde.org>
+ kdeui/util/knotificationmanager_p.h ~ LGPLv2 ~    Copyright (C) 2005 Olivier Goffart <ogoffart at kde.org>, 2006 Thiago Macieira <thiago@kde.org>
+ kdeui/util/knotificationrestrictions.cpp ~ LGPLv2h ~  2006 Aaron Seigo <aseigo@kde.org>
+ kdeui/util/knotificationrestrictions.h ~ LGPLv2h ~  2006 Aaron Seigo <aseigo@kde.org>
+ kdeui/util/knumvalidator.cpp ~ LGPLv2h ~ **   Copyright (C) 1999 Glen Parker <glenebob@nwlink.com>, 2002 Marc Mutz <mutz@kde.org>
+ kdeui/util/knumvalidator.h ~ LGPLv2h ~ ** Copyright (C) 1999 Glen Parker <glenebob@nwlink.com>, 2002 Marc Mutz <mutz@kde.org>
+ kdeui/util/kpassivepopup.cpp ~ LGPLv2h ~  *  (C) 2001-2006 by Richard Moore, (C) 2004-2005 by Sascha Cunz
+ kdeui/util/kpassivepopup.h ~ LGPLv2h ~  * (C) 2001-2006 by Richard Moore, 2004-2005 by Sascha Cunz
+ kdeui/util/kpassivepopupmessagehandler.cpp ~ LGPLv2 ~  2006 Michaël Larouche <michael.larouche@kdemail.net>
+ kdeui/util/kpassivepopupmessagehandler.h ~ LGPLv2 ~  2006 Michaël Larouche <michael.larouche@kdemail.net>
+ kdeui/util/kpixmapprovider.cpp ~ LGPLv2h ~     2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/util/kpixmapprovider.h ~ LGPLv2h ~     2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/util/kstandardguiitem.cpp ~ LGPLv2 ~    Copyright (C) 2001 Holger Freyther <freyther@kde.org>
+ kdeui/util/kstandardguiitem.h ~ LGPLv2 ~    Copyright (C) 2001 Holger Freyther <freyther@kde.org>
+ kdeui/util/ksvgrenderer.cpp ~ LGPLv2h ~  * Copyright (C) 2006 Oswald Buddenhagen <ossi@kde.org>
+ kdeui/util/ksvgrenderer.h ~ LGPLv2h ~  * Copyright (C) 2006 Oswald Buddenhagen <ossi@kde.org>
+ kdeui/util/ksystemtrayicon.cpp ~ LGPLv2h ~  1999 Matthias Ettrich (ettrich@kde.org)
+ kdeui/util/ksystemtrayicon.h ~ LGPLv2 ~    Copyright (C) 1999 Matthias Ettrich <ettrich@kde.org>
+ kdeui/util/kundostack.cpp ~ LGPLv2h ~    Copyright (C) 2006 Peter Simonsson <peter.simonsson@gmail.com>
+ kdeui/util/kundostack.h ~ LGPLv2h ~    Copyright (C) 2006 Peter Simonsson <peter.simonsson@gmail.com>
+ kdeui/util/kwallet.cpp ~ LGPLv2h ~  * Copyright (C) 2002-2004 George Staikos <staikos@kde.org>
+ kdeui/util/kwallet.h ~ LGPLv2h ~  * Copyright (C) 2002-2004 George Staikos <staikos@kde.org>
+ kdeui/util/kwhatsthismanager.cpp ~ LGPLv2h ~  *  Copyright (C) 2004 Peter Rockai (mornfall) <mornfall@danill.sk>
+ kdeui/util/kwhatsthismanager_p.h ~ LGPLv2h ~  *  Copyright (C) 2004 Peter Rockai (mornfall) <mornfall@danill.sk>
+ kdeui/util/kwordwrap.cpp ~ LGPLv2 ~    Copyright (C) 2001 David Faure <faure@kde.org>
+ kdeui/util/kwordwrap.h ~ LGPLv2 ~    Copyright (C) 2001 David Faure <faure@kde.org>
+ kdeui/util/kxerrorhandler.cpp ~ MIT ~    2003 Lubos Lunak <l.lunak@kde.org>
+ kdeui/util/kxerrorhandler.h ~ MIT ~    2003 Lubos Lunak <l.lunak@kde.org>
+ kdeui/util/kxmessages.cpp ~ MIT ~  Copyright (C) 2001-2003 Lubos Lunak        <l.lunak@kde.org>
+ kdeui/util/kxmessages.h ~ MIT ~  Copyright (C) 2001-2003 Lubos Lunak        <l.lunak@kde.org>
+ kdeui/widgets/kactionselector.cpp ~ LGPLv2 ~    Copyright (C) 2002 Anders Lund <anders.lund@lund.tdcadsl.dk>
+ kdeui/widgets/kactionselector.h ~ LGPLv2 ~    Copyright (C) 2002 Anders Lund <anders.lund@lund.tdcadsl.dk>
+ kdeui/widgets/kanimatedbutton.cpp ~ LGPLv2 ~    Copyright (C) 2000 Kurt Granroth <granroth@kde.org>, 2006 Hamish Rodda <rodda@kde.org>
+ kdeui/widgets/kanimatedbutton.h ~ LGPLv2 ~    Copyright (C) 2000 Kurt Granroth <granroth@kde.org>, 2006 Hamish Rodda <rodda@kde.org>
+ kdeui/widgets/karrowbutton.cpp ~ LGPLv2 ~ 	 Copyright (C) 2001 Frerich Raabe <raabe@kde.org>
+ kdeui/widgets/karrowbutton.h ~ LGPLv2 ~    Copyright (C) 2001, 2002 Frerich Raabe <raabe@kde.org>
+ kdeui/widgets/kbuttongroup.cpp ~ LGPLv2h ~  2006 Pino Toscano <toscano.pino@tiscali.it>
+ kdeui/widgets/kbuttongroup.h ~ LGPLv2h ~  2006 Pino Toscano <toscano.pino@tiscali.it>
+ kdeui/widgets/kcharselect.cpp ~ LGPLv2h ~    Copyright (C) 1999 Reginald Stadlbauer <reggie@kde.org>
+ kdeui/widgets/kcharselect-data ~ unspec ~ unspec
+ kdeui/widgets/kcharselectdata.cpp ~ LGPLv2h ~    Copyright (C) 2007 Daniel Laidig <d.laidig@gmx.de>
+ kdeui/widgets/kcharselectdata_p.h ~ LGPLv2h ~    Copyright (C) 2007 Daniel Laidig <d.laidig@gmx.de>
+ kdeui/widgets/kcharselect.h ~ LGPLv2h ~    Copyright (C) 1999 Reginald Stadlbauer <reggie@kde.org>
+ kdeui/widgets/kcharselect_p.h ~ LGPLv2h ~    Copyright (C) 2005 Joseph Wenninger <jowenn@kde.org>
+ kdeui/widgets/kcmodule.cpp ~ LGPLv2h ~     2001 Michael Goffioul <kdeprint@swing.be>, 2004 Frans Englich <frans.englich@telia.com>
+ kdeui/widgets/kcmodule.h ~ LGPLv2h ~     1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ kdeui/widgets/kcombobox.cpp ~ LGPLv2h ~     2000,2001 Dawit Alemayehu <adawit@kde.org>, 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>, 2000 Stefan Schimanski <1Stein@gmx.de>
+ kdeui/widgets/kcombobox.h ~ LGPLv2h ~     2000,2001 Dawit Alemayehu <adawit@kde.org>, 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/widgets/kcompletionbox.cpp ~ LGPLv2h ~     2000,2001,2002 Carsten Pfeiffer <pfeiffer@kde.org>, 2000 Stefan Schimanski <1Stein@gmx.de>, 2000,2001,2002,2003,2004 Dawit Alemayehu <adawit@kde.org>
+ kdeui/widgets/kcompletionbox.h ~ LGPLv2h ~     2000 Carsten Pfeiffer <pfeiffer@kde.org>, 2000 Stefan Schimanski <1Stein@gmx.de>, 2000,2001,2002,2003,2004 Dawit Alemayehu <adawit@kde.org>
+ kdeui/widgets/kdatepicker.cpp ~ LGPLv2h ~  1997 Tim D. Gilman (tdgilman@best.org), 1998-2001 Mirko Boehm (mirko@kde.org), 2007 John Layt <john@layt.net>
+ kdeui/widgets/kdatepicker.h ~ LGPLv2h ~  1997 Tim D. Gilman (tdgilman@best.org), 1998-2001 Mirko Boehm (mirko@kde.org), 2007 John Layt <john@layt.net>
+ kdeui/widgets/kdatetable.cpp ~ LGPLv2h ~  1997 Tim D. Gilman (tdgilman@best.org), 1998-2001 Mirko Boehm (mirko@kde.org), 2007 John Layt <john@layt.net>
+ kdeui/widgets/kdatetable.h ~ LGPLv2h ~  1997 Tim D. Gilman (tdgilman@best.org), 1998-2001 Mirko Boehm (mirko@kde.org), 2007 John Layt <john@layt.net>
+ kdeui/widgets/kdatetable_p.h ~ LGPLv2h ~ Copyright (C) 1997 Tim D. Gilman (tdgilman@best.org), 1998-2001 Mirko Boehm (mirko@kde.org)
+ kdeui/widgets/kdatetimewidget.cpp ~ LGPLv2 ~    Copyright (C) 2002 Hans Petter bieker <bieker@kde.org>
+ kdeui/widgets/kdatetimewidget.h ~ LGPLv2 ~    Copyright (C) 2002 Hans Petter bieker <bieker@kde.org>
+ kdeui/widgets/kdatewidget.cpp ~ LGPLv2 ~  2001 Waldo Bastian (bastian@kde.org), 2007 John Layt <john@layt.net>
+ kdeui/widgets/kdatewidget.h ~ LGPLv2 ~  2001 Waldo Bastian (bastian@kde.org), 2007 John Layt <john@layt.net>
+ kdeui/widgets/kdialogbuttonbox.cpp ~ LGPLv2h ~  1997 Mario Weilguni (mweilguni@sime.com), Copyright (C) 2006 Olivier Goffart <ogoffart@kde.org>
+ kdeui/widgets/kdialogbuttonbox.h ~ LGPLv2 ~  1997 Mario Weilguni (mweilguni@sime.com), 2006 Olivier Goffart <ogoffart@kde.org>
+ kdeui/widgets/keditlistbox.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>, Alexander Neundorf, 2000, 2002 Carsten Pfeiffer <pfeiffer@kde.org> <neundorf@kde.org>
+ kdeui/widgets/keditlistbox.h ~ LGPLv2h ~  2000 David Faure <faure@kde.org>, Alexander Neundorf <neundorf@kde.org>, 
+ kdeui/widgets/khbox.cpp ~ LGPLv2h ~    Copyright (C) 2005 David Faure <faure@kde.org>
+ kdeui/widgets/khbox.h ~ LGPLv2 ~    Copyright (C) 2005 David Faure <faure@kde.org>
+ kdeui/widgets/khelpmenu.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2000 Espen Sand (espen@kde.org)
+ kdeui/widgets/khelpmenu.h ~ LGPLv2h ~  * Copyright (C) 1999-2000 Espen Sand (espen@kde.org)
+ kdeui/widgets/khistorycombobox.cpp ~ LGPLv2h ~     2000,2001 Dawit Alemayehu <adawit@kde.org>, 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>, 2000 Stefan Schimanski <1Stein@gmx.de>
+ kdeui/widgets/khistorycombobox.h ~ LGPLv2h ~     2000,2001 Dawit Alemayehu <adawit@kde.org>, 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/widgets/kkeysequencewidget.cpp ~ LGPLv2h ~  1998 Mark Donohoe <donohoe@kde.org>, 2001 Ellis Whitehead <ellis@kde.org>, 2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/widgets/kkeysequencewidget.h ~ LGPLv2h ~  2001, 2002 Ellis Whitehead <ellis@kde.org>, 2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/widgets/kkeysequencewidget_p.h ~ LGPLv2h ~  2001, 2002 Ellis Whitehead <ellis@kde.org>, 2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/widgets/klanguagebutton.cpp ~ LGPLv2h ~  *  1999-2003 Hans Petter Bieker <bieker@kde.org>, 2007 David Jarvie <software@astrojar.org.uk>
+ kdeui/widgets/klanguagebutton.h ~ LGPLv2h ~  *  1999-2003 Hans Petter Bieker <bieker@kde.org>, (c) 2001  Martijn Klingens <klingens@kde.org>, 2007 David Jarvie <software@astrojar.org.uk>
+ kdeui/widgets/kled.cpp ~ LGPLv2h ~  1998 Jörg Habenicht (j.habenicht@europemail.com)
+ kdeui/widgets/kled.h ~ LGPLv2h ~  1998 Jörg Habenicht (j.habenicht@europemail.com)
+ kdeui/widgets/klineedit.cpp ~ LGPLv2h ~    Copyright (C) 1997 Sven Radej (sven.radej@iname.com), 1999 Patrick Ward <PAT_WARD@HP-USA-om5.om.hp.com>, 1999 Preston Brown <pbrown@kde.org>, 2000, 2001 Dawit Alemayehu <adawit@kde.org>, 2000, 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/widgets/klineedit.h ~ LGPLv2h ~  1997 Sven Radej <sven.radej@iname.com>, 1999 Patrick Ward <PAT_WARD@HP-USA-om5.om.hp.com>, 1999 Preston Brown <pbrown@kde.org>, 2000,2001 Dawit Alemayehu <adawit@kde.org>
+ kdeui/widgets/kmainwindow.cpp ~ LGPLv2 ~  (C) 2000 Reginald Stadlbauer (reggie@kde.org), 1997 Stephan Kulow (coolo@kde.org), 1997-2000 Sven Radej (radej@kde.org), 1997-2000 Matthias Ettrich (ettrich@kde.org), 1999 Chris Schlaeger (cs@kde.org), 2002 Joseph Wenninger (jowenn@kde.org), 2005-2006 Hamish Rodda (rodda@kde.org)
+ kdeui/widgets/kmainwindow.h ~ LGPLv2 ~ (C) 2000 Reginald Stadlbauer (reggie@kde.org), 1997 Stephan Kulow (coolo@kde.org), 1997-2000 Sven Radej (radej@kde.org), 1997-2000 Matthias Ettrich (ettrich@kde.org), 1999 Chris Schlaeger (cs@kde.org), 2002 Joseph Wenninger (jowenn@kde.org), 2005-2006 Hamish Rodda (rodda@kde.org)
+ kdeui/widgets/kmainwindow_p.h ~ LGPLv2 ~ (C) 2000 Reginald Stadlbauer (reggie@kde.org), 1997 Stephan Kulow (coolo@kde.org), 1997-2000 Sven Radej (radej@kde.org), 1997-2000 Matthias Ettrich (ettrich@kde.org), 1999 Chris Schlaeger (cs@kde.org), 2002 Joseph Wenninger (jowenn@kde.org), 2005-2006 Hamish Rodda (rodda@kde.org)
+ kdeui/widgets/kmenubar.cpp ~ LGPLv2h ~  1997, 1998, 1999, 2000  Sven Radej (radej@kde.org), 1997, 1998, 1999, 2000 Matthias Ettrich (ettrich@kde.org), 1999, 2000 Daniel "Mosfet" Duley (mosfet@kde.org)
+ kdeui/widgets/kmenubar.h ~ LGPLv2h ~  1997, 1998, 1999, 2000  Sven Radej (radej@kde.org), 1997, 1998, 1999, 2000 Matthias Ettrich (ettrich@kde.org), 1999, 2000 Daniel "Mosfet" Duley (mosfet@kde.org)
+ kdeui/widgets/kmenu.cpp ~ LGPLv2 ~    Copyright (C) 2000 Daniel M. Duley <mosfet@kde.org>, 2002,2006 Hamish Rodda <rodda@kde.org>, 2006 Olivier Goffart <ogoffart@kde.org>
+ kdeui/widgets/kmenu.h ~ LGPLv2 ~    Copyright (C) 2000 Daniel M. Duley <mosfet@kde.org>, 2006 Olivier Goffart <ogoffart@kde.org>
+ kdeui/widgets/kmultitabbar.cpp ~ LGPLv2h ~ (C) 2001,2002,2003 by Joseph Wenninger <jowenn@kde.org>
+ kdeui/widgets/kmultitabbar.h ~ LGPLv2h ~  (C) 2001,2002,2003 by Joseph Wenninger <jowenn@kde.org>
+ kdeui/widgets/kmultitabbar_p.h ~ LGPLv2h ~ (C) 2003 by Joseph Wenninger <jowenn@kde.org>
+ kdeui/widgets/knuminput.cpp ~ LGPLv2h ~  *      1997 Patrick Dowler <dowler@morgul.fsh.uvic.ca>, 2000 Dirk A. Mueller <mueller@kde.org>, 2002 Marc Mutz <mutz@kde.org>
+ kdeui/widgets/knuminput.h ~ LGPLv2h ~  *   1997 Patrick Dowler <dowler@morgul.fsh.uvic.ca>, 2000 Dirk A. Mueller <mueller@kde.org>, 2002 Marc Mutz <mutz@kde.org>
+ kdeui/widgets/kpixmapregionselectorwidget.cpp ~ LGPLv2h ~  2004 Antonio Larrosa <larrosa@kde.org
+ kdeui/widgets/kpixmapregionselectorwidget.h ~ LGPLv2h ~  2004 Antonio Larrosa <larrosa@kde.org
+ kdeui/widgets/kpushbutton.cpp ~ LGPLv2h ~  2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/widgets/kpushbutton.h ~ LGPLv2h ~  2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/widgets/krestrictedline.cpp ~ LGPLv2h ~  * Copyright (C) 1997 Michael Wiedmann, <mw@miwie.in-berlin.de>
+ kdeui/widgets/krestrictedline.h ~ LGPLv2h ~  * Copyright (C) 1997 Michael Wiedmann, <mw@miwie.in-berlin.de>
+ kdeui/widgets/kruler.cpp ~ LGPLv2h ~  1998 Jörg Habenicht (j.habenicht@europemail.com)
+ kdeui/widgets/kruler.h ~ LGPLv2h ~  1998 Jörg Habenicht (j.habenicht@europemail.com)
+ kdeui/widgets/kselector.cpp ~ LGPLv2h ~  1997 Martin Jones (mjones@kde.org)
+ kdeui/widgets/kselector.h ~ LGPLv2h ~  1997 Martin Jones (mjones@kde.org)
+ kdeui/widgets/kseparator.cpp ~ LGPLv2h ~  *   Copyright (C) 1997  Michael Roth <mroth@wirlweb.de>
+ kdeui/widgets/kseparator.h ~ LGPLv2h ~  *   Copyright (C) 1997  Michael Roth <mroth@wirlweb.de>
+ kdeui/widgets/kshortcutwidget.cpp ~ LGPLv2h ~  2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/widgets/kshortcutwidget.h ~ LGPLv2h ~  2007 Andreas Hartmetz <ahartmetz@gmail.com>
+ kdeui/widgets/kshortcutwidget.ui ~ unspec ~ unspec
+ kdeui/widgets/ksqueezedtextlabel.cpp ~ LGPLv2 ~    Copyright (C) 2000 Ronny Standtke <Ronny.Standtke@gmx.de>
+ kdeui/widgets/ksqueezedtextlabel.h ~ LGPLv2 ~    Copyright (C) 2000 Ronny Standtke <Ronny.Standtke@gmx.de>
+ kdeui/widgets/kstatusbar.cpp ~ LGPLv2h ~  1997 Mark Donohoe (donohoe@kde.org), (C) 1997,1998, 2000 Sven Radej (radej@kde.org), 2007 Aron Boström (aron.bostrom@gmail.com)
+ kdeui/widgets/kstatusbar.h ~ LGPLv2h ~    Copyright (C) 1997 Mark Donohoe (donohoe@kde.org), 1997, 1998 1998 Sven Radej (sven@lisa.exp.univie.ac.at), 2007 Aron Boström (aron.bostrom@gmail.com)
+ kdeui/widgets/kstringvalidator.cpp ~ LGPLv2 ~      2001 Marc Mutz <mutz@kde.org>
+ kdeui/widgets/kstringvalidator.h ~ LGPLv2 ~      2001 Marc Mutz <mutz@kde.org>
+ kdeui/widgets/ktabbar.cpp ~ LGPLv2h ~  2003 Stephan Binner <binner@kde.org>, 2003 Zack Rusin <zack@kde.org>
+ kdeui/widgets/ktabbar.h ~ LGPLv2h ~  2003 Stephan Binner <binner@kde.org>, 2003 Zack Rusin <zack@kde.org>
+ kdeui/widgets/ktabwidget.cpp ~ LGPLv2h ~   Copyright (C) 2003 Stephan Binner <binner@kde.org>, 2003 Zack Rusin <zack@kde.org>
+ kdeui/widgets/ktabwidget.h ~ LGPLv2h ~  2003 Stephan Binner <binner@kde.org>, 2003 Zack Rusin <zack@kde.org>
+ kdeui/widgets/ktextbrowser.cpp ~ LGPLv2h ~  *  Copyright (C) 1999-2000 Espen Sand (espen@kde.org), 2006 Urs Wolfer <uwolfer at fwo.ch>
+ kdeui/widgets/ktextbrowser.h ~ LGPLv2h ~  *  Copyright (C) 1999 Espen Sand (espensa@online.no), 2006 Urs Wolfer <uwolfer at fwo.ch>
+ kdeui/widgets/ktextedit.cpp ~ LGPLv2h ~    Copyright (C) 2002 Carsten Pfeiffer <pfeiffer@kde.org>, 2005 Michael Brade <brade@kde.org>
+ kdeui/widgets/ktextedit.h ~ LGPLv2h ~  2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdeui/widgets/ktimezonewidget.cpp ~ LGPLv2 ~  2005, S.R.Haque <srhaque@iee.org>.
+ kdeui/widgets/ktimezonewidget.h ~ LGPLv2 ~  2005, S.R.Haque <srhaque@iee.org>.
+ kdeui/widgets/ktitlewidget.cpp ~ LGPLv2 ~    Copyright (C) 2007 Urs Wolfer <uwolfer @ kde.org>, 2007 Michaël Larouche <larouche@kde.org>
+ kdeui/widgets/ktitlewidget.h ~ LGPLv2 ~    Copyright (C) 2007 Urs Wolfer <uwolfer @ kde.org>
+ kdeui/widgets/ktoolbar.cpp ~ LGPLv2 ~  (C) 2000 Reginald Stadlbauer (reggie@kde.org), (C) 1997, 1998 Stephan Kulow (coolo@kde.org), (C) 1997, 1998 Mark Donohoe (donohoe@kde.org), (C) 1997, 1998 Sven Radej (radej@kde.org), (C) 1997, 1998 Matthias Ettrich (ettrich@kde.org), (C) 1999 Chris Schlaeger (cs@kde.org), (C) 1999 Kurt Granroth (granroth@kde.org), (C) 2005-2006 Hamish Rodda (rodda@kde.org)
+ kdeui/widgets/ktoolbar.h ~ LGPLv2 ~  (C) 2000 Reginald Stadlbauer (reggie@kde.org), (C) 1997, 1998 Stephan Kulow (coolo@kde.org), (C) 1997, 1998 Mark Donohoe (donohoe@kde.org), (C) 1997, 1998 Sven Radej (radej@kde.org), (C) 1997, 1998 Matthias Ettrich (ettrich@kde.org), (C) 1999 Chris Schlaeger (cs@kde.org), (C) 1999 Kurt Granroth (granroth@kde.org), (C) 2005-2006 Hamish Rodda (rodda@kde.org)
+ kdeui/widgets/kurllabel.cpp ~ LGPLv2h ~ // Copyright (C) 2000 Peter Putzer
+ kdeui/widgets/kurllabel.h ~ LGPLv2 ~    Copyright (C) 1998 Kurt Granroth <granroth@kde.org>, 2000 Peter Putzer <putzer@kde.org>, 2005 Jaroslaw Staniek <js@iidea.pl>
+ kdeui/widgets/kvbox.cpp ~ LGPLv2 ~    Copyright (C) 2005 David Faure <faure@kde.org>
+ kdeui/widgets/kvbox.h ~ LGPLv2 ~    Copyright (C) 2005 David Faure <faure@kde.org>
+ kdeui/widgets/kxyselector.cpp ~ LGPLv2h ~  1997 Martin Jones (mjones@kde.org)
+ kdeui/widgets/kxyselector.h ~ LGPLv2h ~  1997 Martin Jones (mjones@kde.org)
+ kdeui/widgets/TODO ~ unspec ~ unspec
+ kdeui/windowmanagement/kwindowinfo.h ~ LGPLv2h ~  1999 Matthias Ettrich (ettrich@kde.org), 2007 Lubos Lunak (l.lunak@kde.org)
+ kdeui/windowmanagement/kwindowinfo_x11.cpp ~ LGPLv2h ~  1999 Matthias Ettrich (ettrich@kde.org), 2007 Lubos Lunak (l.lunak@kde.org)
+ kdeui/windowmanagement/kwindowsystem.h ~ LGPLv2h ~  1999 Matthias Ettrich (ettrich@kde.org), 2007 Lubos Lunak (l.lunak@kde.org)
+ kdeui/windowmanagement/kwindowsystem_mac.cpp ~ LGPLv2h ~  2007 Laurent Montel (montel@kde.org)
+ kdeui/windowmanagement/kwindowsystem_qws.cpp ~ LGPLv2h ~  2007 Laurent Montel (montel@kde.org)
+ kdeui/windowmanagement/kwindowsystem_win.cpp ~ LGPLv2h ~  2007 Laurent Montel (montel@kde.org)
+ kdeui/windowmanagement/kwindowsystem_x11.cpp ~ LGPLv2h ~  1999 Matthias Ettrich (ettrich@kde.org), 2007 Lubos Lunak (l.lunak@kde.org)
+ kdeui/windowmanagement/netwm.cpp ~ MIT ~    2000 Troll Tech AS, 2003 Lubos Lunak <l.lunak@kde.org>
+ kdeui/windowmanagement/netwm_def.h ~ MIT ~    2000 Troll Tech AS, 2003 Lubos Lunak <l.lunak@kde.org>
+ kdeui/windowmanagement/netwm.h ~ MIT ~    2000 Troll Tech AS, 2003 Lubos Lunak <l.lunak@kde.org>
+ kdeui/windowmanagement/netwm_p.h ~ MIT ~    2000 Troll Tech AS, 2003 Lubos Lunak <l.lunak@kde.org>
+ kdeui/xmlgui/kmainwindowiface.cpp ~ LGPLv2h ~    Copyright (C) 2001 Ian Reinhart Geiser <geiseri@yahoo.com>, 2006 Thiago Macieira <thiago@kde.org>
+ kdeui/xmlgui/kmainwindowiface_p.h ~ LGPLv2h ~    Copyright (C) 2001 Ian Reinhart Geiser <geiseri@yahoo.com>, 2006 Thiago Macieira <thiago@kde.org>
+ kdeui/xmlgui/kmenumenuhandler_p.cpp ~ LGPLv2h ~    Copyright (C) 2006  Olivier Goffart  <ogoffart@kde.org>
+ kdeui/xmlgui/kmenumenuhandler_p.h ~ LGPLv2h ~    Copyright (C) 2006  Olivier Goffart  <ogoffart@kde.org>
+ kdeui/xmlgui/kpartgui.dtd ~ unspec ~ (c) 2000 Federico David Sacerdoti <tech@slinuxmachines.com>, Simon Hausmann <hausmann@kde.org>, Richard J. Moore <rich@kde.org>
+ kdeui/xmlgui/ktoolbarhandler.cpp ~ LGPLv2 ~    Copyright (C) 2002 Simon Hausmann <hausmann@kde.org>
+ kdeui/xmlgui/ktoolbarhandler.h ~ LGPLv2 ~    Copyright (C) 2002 Simon Hausmann <hausmann@kde.org>
+ kdeui/xmlgui/kxmlguibuilder.cpp ~ LGPLv2 ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>, David Faure <faure@kde.org>
+ kdeui/xmlgui/kxmlguibuilder.h ~ LGPLv2 ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>, David Faure <faure@kde.org>
+ kdeui/xmlgui/kxmlguiclient.cpp ~ LGPLv2 ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>, 2000 Kurt Granroth <granroth@kde.org>
+ kdeui/xmlgui/kxmlguiclient.h ~ LGPLv2 ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>, 2000 Kurt Granroth <granroth@kde.org>
+ kdeui/xmlgui/kxmlguifactory.cpp ~ LGPLv2 ~    Copyright (C) 1999,2000 Simon Hausmann <hausmann@kde.org>, 2000 Kurt Granroth <granroth@kde.org>
+ kdeui/xmlgui/kxmlguifactory.h ~ LGPLv2h ~    Copyright (C) 1999 Simon Hausmann <hausmann@kde.org>, 2000 Kurt Granroth <granroth@kde.org>
+ kdeui/xmlgui/kxmlguifactory_p.cpp ~ LGPLv2h ~    Copyright (C) 2001 Simon Hausmann <hausmann@kde.org>
+ kdeui/xmlgui/kxmlguifactory_p.h ~ LGPLv2h ~    Copyright (C) 2001 Simon Hausmann <hausmann@kde.org>
+ kdeui/xmlgui/kxmlguiwindow.cpp ~ LGPLv2 ~ 2000 Reginald Stadlbauer (reggie@kde.org), 1997 Stephan Kulow (coolo@kde.org), 1997-2000 Sven Radej (radej@kde.org), 1997-2000 Matthias Ettrich (ettrich@kde.org), 1999 Chris Schlaeger (cs@kde.org), 2002 Joseph Wenninger (jowenn@kde.org), 2005-2006 Hamish Rodda (rodda@kde.org)
+ kdeui/xmlgui/kxmlguiwindow.h ~ LGPLv2 ~ 2000 Reginald Stadlbauer (reggie@kde.org), 1997 Stephan Kulow (coolo@kde.org), 1997-2000 Sven Radej (radej@kde.org), 1997-2000 Matthias Ettrich (ettrich@kde.org), 1999 Chris Schlaeger (cs@kde.org), 2002 Joseph Wenninger (jowenn@kde.org), 2005-2006 Hamish Rodda (rodda@kde.org)
+ kdeui/xmlgui/kxmlgui.xsd ~ XSD ~  (c) 2000 Federico David Sacerdoti, Simon Hausmann, Richard J. Moore, 2004 Frans Englich
 
 
  kdesu/client.cpp ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen 
@@ -4179,12 +4728,6 @@ knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
  threadweaver/Weaver/Job.h	LGPLv2h	(C) 2004-2006 Mirko Boehm
 
 -------------------------------------------------------------------------------
-
-DIRs TODO:
-
-kdeui (half-done)
-
--------------------------------------------------------------------------------
 Legend:
  - "unspec":    The file contains no specific copyright/license notice. This
                 means that the copyright holder is the KDE Development Team (as
@@ -4207,6 +4750,15 @@ Legend:
             holders make no representation about the suitability of the DTD for
             any purpose. It is provided "as is" without expressed or implied
             warranty. 
+  - "MIT"
+  - "Artistic"
+  - "XSD":             Permission to use, copy, modify and distribute this XSD
+            and its accompanying documentation for any purpose and without fee
+            is hereby granted in perpetuity, provided that the above copyright
+            notice and this paragraph appear in all copies.  The copyright
+            holders make no representation about the suitability of the XSD for
+            any purpose. It is provided "as is" without expressed or implied
+            warranty.
 
 On Debian systems, you can find the complete texts of these licenses at:
   - GPL:      /usr/share/common-licenses/GPL
