@@ -1,6 +1,6 @@
 kde4libs (4:3.92.0.dfsg.1-1) experimental; urgency=low
 
-  * New upstream release. It is KDE4 beta 1.
+  * KDE4 beta 1, first upload to the Debian archive.
   * Update *.install files.
   * Prune non-free files, added script prune-nonfree.
   * Add patches:

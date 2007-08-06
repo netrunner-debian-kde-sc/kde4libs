@@ -49,6 +49,10 @@ the GNU Free Documentation License:
   The full text of the GNU Free Documentation License is available on
   Debian systems in /usr/share/common-licenses/GFDL-1.2
 
+As well, all the Manpages.dox included are under this license, unless specified 
+otherwise below.
+
+
 
 Files under kdoctools/
 As you can read at kdoctools/LICENSE all the files provided under this
@@ -72,12 +76,12 @@ directory are under the following license:
     | CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-Files under include/
 
 Files under kate/
   As you can read at kate/README:
   The Kate Part and its interfaces are licensed under the LGPL version 2,
   not any later version.
+
 
 Files under pics/
 
@@ -152,10 +156,11 @@ Files under pics/
 
 kdelibs copyright situation is a bit complex. The following table tries to detail 
 the copyright/license information of the files that are not under the directories 
-detailed above or are not licensed under the GPLv2.
+detailed above.
 
  file ~	license	~ copyright holder
- -----	-------	  ----------------
+------~---------~------------------
+
  cmake/automoc/CMakeLists.txt ~ unspec ~ unspec
  cmake/automoc/kde4automoc.cpp ~ GPLv2 ~(C) 2007, Matthias Kretz
  cmake/CMakeLists.txt ~ unspec ~ unspec
@@ -243,7 +248,7 @@ detailed above or are not licensed under the GPLv2.
  interfaces/kmediaplayer/kmediaplayer.desktop ~ unspec ~ unspec
  interfaces/kmediaplayer/kmediaplayerengine.desktop ~ unspec ~ unspec
  interfaces/kmediaplayer/kmediaplayer_export.h ~ LGPLv2 ~ 2007 David Faure
- interfaces/kmediaplayer/Mainpage.dox   XXXX
+ interfaces/kmediaplayer/Mainpage.dox ~ GFDL-1.2 ~ unspec
  interfaces/kmediaplayer/org.kde.KMediaPlayer.xml ~ unspec ~ unspec
  interfaces/kmediaplayer/player.cpp ~ MIT ~ (C) 2002 Neil Stevens 
  interfaces/kmediaplayer/player.h ~ MIT ~ (C) 2002 Neil Stevens
@@ -310,14 +315,14 @@ detailed above or are not licensed under the GPLv2.
  interfaces/ktexteditor/texthintinterface.h ~ LGPLv2 ~ (C) 2001 Joseph Wenninger
  interfaces/ktexteditor/variableinterface.h ~ LGPLv2 ~ (C) 2004, Anders Lund, 2005 Dominik Haumann
  interfaces/ktexteditor/view.h ~ LGPLv2 ~ (C) 2001 Christoph Cullmann, 2005 Dominik Haumann
- interfaces/Mainpage.dox ~ XXXX
+ interfaces/Mainpage.dox ~ GFDL-1.2 ~ unspec
  interfaces/terminal/CMakeLists.txt ~ unspec ~ unspec
  interfaces/terminal/kde_terminal_interface.h ~ LGPLv2.1h ~  2002  Dominique Devriese
  interfaces/terminal/test/*  ~ unspec ~ unspec
 
  kconf_update/CMakeLists.txt ~ unspec ~ unspec
  kconf_update/kconf_update.cpp ~ LGPLv2 ~ (c) 2001 Waldo Bastian
- kconf_update/Mainpage.dox ~  XXXX
+ kconf_update/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kconf_update/README.kconf_update ~ unspec ~ unspec
 
  kde3support/CMakeLists.txte ~ unspec ~ unspec
@@ -393,10 +398,9 @@ detailed above or are not licensed under the GPLv2.
  kde3support/kio/kio/* ~ unspec ~ unspec
  kde3support/kparts/dockmainwindow3.cpp ~ LGPLv2h ~ (C) 1999 David Faure, 1999 Simon Hausmann, 2000 Falk Brettschneider
  kde3support/kparts/dockmainwindow3.h ~ LGPLv2h ~ (C) 1999 David Faure, 1999 Simon Hausmann, 2000 Falk Brettschneider
- 
  kde3support/kunittest/CMakeLists.txt ~ unspec ~ unspec
  kde3support/kunittest/kunittest_export.h ~ LGPLv2h ~ (C) 2007 David Faure
- kde3support/kunittest/Mainpage.dox ~ XXXX
+ kde3support/kunittest/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kde3support/kunittest/modrunner.cpp ~ BSD ~ (C)  2005  Jeroen Wijnhout
  kde3support/kunittest/module.h ~ BSD ~ (C)  2005  Jeroen Wijnhout, 
  kde3support/kunittest/runner.cpp ~ BSD ~ (C)  2005  Jeroen Wijnhout, 2004 Zack Rusin
@@ -405,7 +409,7 @@ detailed above or are not licensed under the GPLv2.
  kde3support/kunittest/samplemodule.h ~ BSD ~ (C)  2005  Jeroen Wijnhout
  kde3support/kunittest/tester.cpp ~ BSD ~ (C)  2005  Jeroen Wijnhout
  kde3support/kunittest/tester.h ~ BSD ~ (C)  2005  Jeroen Wijnhout, 2004 Zack Rusin
- kde3support/Mainpage.dox ~ XXXX
+ kde3support/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kde3support/README ~ unspec ~ unspec
  kde3support/tests/CMakeLists.txt ~ unspec ~ unspec
  kde3support/tests/itemcontainertest.cpp ~ GPLv2 ~ (C) 2000 by Michael Reiher
@@ -425,7 +429,6 @@ detailed above or are not licensed under the GPLv2.
  kde3support/tests/kdockwidgettest.h ~ GPLv2h ~ (C) 1999 by Judin Max
  kde3support/tests/krfcdatetest.cpp ~ unspec ~ unspec
  kde3support/tests/krfcdatetest.h ~ unspec ~ unspec
-
 
  kdecore/compression/* ~ LGPLv2 ~ (C) 2000-2005 David Faure 
  kdecore/config/kconfigbackend.cpp ~ GPLv2h ~ (C) 1999 Preston Brown, 1997-1999 Matthias Kalle Dalheime
@@ -465,7 +468,6 @@ detailed above or are not licensed under the GPLv2.
  kdecore/date/ktzfiletimezone.cpp ~ LGPLv2 ~ (c) 2005-2007 David Jarvie
  kdecore/date/ktzfiletimezone.h ~ LGPLv2 ~ (c) 2005-2007 David Jarvie
  kdecore/doc/* ~ unspec ~ unspec
-
  kdecore/io/k3processcontroller.cpp ~ LGPLv2h ~ (C) 1997 Christian Czezakte (e9025461@student.tuwien.ac.at)
  kdecore/io/k3processcontroller.h ~ LGPLv2h ~ (C) 1997 Christian Czezakte (e9025461@student.tuwien.ac.at)
  kdecore/io/k3process.cpp ~ LGPLv2 ~ (C) 1997 Christian Czezatke (e9025461@student.tuwien.ac.at)
@@ -503,7 +505,6 @@ detailed above or are not licensed under the GPLv2.
  kdecore/io/ktemporaryfile.h ~ LGPLv2h ~ 2006 Jaison Lee <lee.jaison@gmail.com>
  kdecore/io/kurl.cpp ~ LGPLv2h ~ (C) 1999 Torben Weis <weis@kde.org>, 2005-2006 David Faure <faure@kde.org>
  kdecore/io/kurl.h ~ LGPLv2h ~ (C) 1999 Torben Weis <weis@kde.org>, 2005-2006 David Faure <faure@kde.org>
-
  kdecore/jobs/kcompositejob.cpp ~ LGPLv2 ~ (C) 2006 Kevin Ottens <ervin@kde.org>
  kdecore/jobs/kcompositejob.h ~ LGPLv2 ~ (C) 2006 Kevin Ottens <ervin@kde.org>
  kdecore/jobs/kcompositejob_p.h ~ LGPLv2 ~ (C) 2006 Kevin Ottens <ervin@kde.org>
@@ -514,7 +515,6 @@ detailed above or are not licensed under the GPLv2.
  kdecore/jobs/kjobtrackerinterface.h ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>
  kdecore/jobs/kjobuidelegate.cpp ~ LGPLv2h ~ (C) 2000 Stephan Kulow <coolo@kde.org>, 2006 Kevin Ottens <ervin@kde.org>, David Faure <faure@kde.org>
  kdecore/jobs/kjobuidelegate.h ~ LGPLv2h ~ (C) 2000 Stephan Kulow <coolo@kde.org>, 2006 Kevin Ottens <ervin@kde.org>, David Faure <faure@kde.org>	
-
  kdecore/kconfig_compiler/checkkcfg.pl ~ unspec ~ unspec
  kdecore/kconfig_compiler/CMakeLists.txt ~ unspec ~ unspec
  kdecore/kconfig_compiler/example/autoexample.cpp ~ LGPLv2h ~ (c) 2003 Cornelius Schumacher <schumacher@kde.org>
@@ -529,17 +529,15 @@ detailed above or are not licensed under the GPLv2.
  kdecore/kconfig_compiler/kconfig_compiler.cpp ~ LGPLv2h ~ (c) 2003 Cornelius Schumacher <schumacher@kde.org>, 2003 Waldo Bastian <bastian@kde.org>, 2003 Zack Rusin <zack@kde.org>, 2006 Michaël Larouche <michael.larouche@kdemail.net>
  kdecore/kconfig_compiler/README.dox ~ unspec ~ unspec
  kdecore/kconfig_compiler/TODO ~ unspec ~ unspec
-
  kdecore/all_languages.desktop ~ unspec ~ unspec
  kdecore/CMakeLists.txt ~ unspec ~ unspec
  kdecore/fakes.c ~ LGPLv2 ~ (C) 2000 Stephan Kulow,  2002 Dirk Mueller, 2002 Oswald Buddenhagen, 2003 Joseph Wenninger, 
                                 2005 Jaroslaw Staniek, 2007 Rafael Fernández López
-
  kdecore/kdebug.areas ~ unspec ~ unspec
  kdecore/kdebugrc ~ unspec ~ unspec
  kdecore/kde-config.cpp ~ LGPLv2h ~ (c) 2006-2007 Christian Ehrlicher, 2000-2007 Stephan Kulow <coolo@kde.org>
  kdecore/kdefakes.h.cmake ~ LGPLv2 ~ (c) 2006 The KDE Project
- kdecore/Mainpage.dox ~ XXXX
+ kdecore/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kdecore/libkdecore.nmcheck ~ unspec ~ unspec
  kdecore/libkdecore_weak.nmcheck ~ unspec ~ unspec
  kdecore/libqt-mt.nmcheck ~ unspec ~ unspec
@@ -550,7 +548,6 @@ detailed above or are not licensed under the GPLv2.
  kdecore/MAINTAINERS ~ unspec ~ unspec
  kdecore/README ~ unspec ~ unspec
  kdecore/standard_weak.nmcheck ~ unspec ~ unspec
-
  kdecore/kernel/kaboutdata.h ~ LGPLv2h ~ (C) 2000 Espen Sand (espen@kde.org)
  kdecore/kernel/kaboutdata.cpp ~ LGPLv2h ~ (C) 2000 Espen Sand (espen@kde.org), 2006 Nicolas GOUTTE <goutte@kde.org>
  kdecore/kernel/kauthorized.cpp ~ LGPLv2h ~ (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org), 1998, 1999, 2000 Waldo Bastian <bastian@kde.org>
@@ -573,7 +570,6 @@ detailed above or are not licensed under the GPLv2.
  kdecore/kernel/ktoolinvocation.h ~ LGPLv2h ~ (c) 1997-1999 Matthias Kalle Dalheimer <kalle@kde.org>, 1997-2000 Matthias Ettrich <ettrich@troll.no>, 1998-2005 Stephan Kulow <coolo@kde.org>, 1999-2004 Waldo Bastian <bastian@kde.org>, 2001-2005 Lubos Lunak <l.lunak@kde.org>
  kdecore/kernel/ktoolinvocation_win.cpp ~ LGPLv2 ~ (C) 2004 Jaroslaw Staniek <js@iidea.pl>,  2006 Ralf Habacker <ralf.habacker@freenet.de>
  kdecore/kernel/ktoolinvocation_x11.cpp ~ LGPLv2h ~ (c) 1997,1998 Matthias Kalle Dalheimer <kalle@kde.org>, 2006 Thiago Macieira <thiago@kde.org>, 2003,2004 Oswald Buddenhagen <ossi@kde.org>, 2000-2004 Frerich Raabe <raabe@kde.org>, 1999 Espen Sand <espen@kde.org>
-
  kdecore/localization/gettext.h ~ LGPLv2 ~ (C) 1995-1998, 2000-2002, 2004-2006 Free Software Foundation, Inc.
  kdecore/localization/guess_ja.cpp ~ BSD ~  * Copyright 2000-2003 Shiro Kawai <shiro@acm.org>, All rights reserved.
  kdecore/localization/guess_ja_p.h ~ BSD ~  * Copyright 2000-2003 Shiro Kawai <shiro@acm.org>, All rights reserved.
@@ -597,11 +593,9 @@ detailed above or are not licensed under the GPLv2.
  kdecore/localization/kuitformats_p.h ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
  kdecore/localization/kuitsemantics.cpp ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
  kdecore/localization/kuitsemantics_p.h ~ LGPLv2h ~ (C) 2007 Chusslove Illich <caslav.ilic@gmx.net>
-
  kdecore/network/config-network.h.cmake ~ unspec ~ unspec
  kdecore/network/ConfigureChecks.cmake ~ unspec ~ unspec
  kdecore/network/ipv6blacklist ~ unspec ~ unspec
- 
  kdecore/network/k3bufferedsocket.cpp ~ MIT ~ (C) 2003-2005 Thiago Macieira <thiago@kde.org>
  kdecore/network/k3bufferedsocket.h ~ MIT ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
  kdecore/network/k3clientsocketbase.cpp ~ MIT ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
@@ -651,7 +645,6 @@ detailed above or are not licensed under the GPLv2.
  kdecore/network/syssocket.h ~ BSD ~ (C) 2003,2005 Thiago Macieira <thiago@kde.org>
  kdecore/network/TODO ~ unspec ~ unspec
  kdecore/network/tests/CMakeLists.txt ~ unspec ~ unspec
-
  kdecore/services/kfoldermimetype.cpp ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>, 2000, 2007 David Faure   <faure@kde.org>
  kdecore/services/kfoldermimetype.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>, 2000-2007 David Faure <faure@kde.org>
  kdecore/services/kmimemagicrule.cpp ~ LGPLv2h ~ 2007 David Faure <faure@kde.org>
@@ -693,8 +686,6 @@ detailed above or are not licensed under the GPLv2.
  kdecore/services/yacc.c ~ LGPLv2h ~ (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
  kdecore/services/yacc.h ~ LGPLv2h ~ (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
  kdecore/services/yacc.y ~ unspec ~ unspec
-
-
  kdecore/sonnet/backgroundchecker.cpp ~ LGPLv2h ~   (C)  2004  Zack Rusin <zack@kde.org>
  kdecore/sonnet/backgroundchecker.h ~ LGPLv2h ~  (C)  2004  Zack Rusin <zack@kde.org>  kdecore/sonnet/backgroundengine.cpp ~ LGPLv2h ~ (C)  2004  Zack Rusin <zack@kde.org>
  kdecore/sonnet/backgroundengine_p.h ~ LGPLv2h ~ (C)  2004  Zack Rusin <zack@kde.org>
@@ -722,7 +713,6 @@ detailed above or are not licensed under the GPLv2.
  kdecore/sonnet/tests/test_filter.h ~ LGPLv2h ~ (C)  2006 David Faure <faure@kde.org>
  kdecore/sonnet/textbreaks.cpp ~ LGPLv2h ~ (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
  kdecore/sonnet/textbreaks_p.h ~ LGPLv2h ~ (c) 2006 Jacob R Rideout <kde@jacobrideout.net>
-
  kdecore/sycoca/kprotocolinfo.cpp ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
  kdecore/sycoca/kprotocolinfofactory.cpp ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2003 Waldo Bastian <bastian@kde.org>
  kdecore/sycoca/kprotocolinfofactory.h ~ LGPLv2 ~ (C) 1999 Torben Weis <weis@kde.org>, 2000,2003 Waldo Bastian <bastian@kde.org>
@@ -736,7 +726,6 @@ detailed above or are not licensed under the GPLv2.
  kdecore/sycoca/ksycocafactory.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
  kdecore/sycoca/ksycoca.h ~ LGPLv2 ~ (C) 1999 Waldo Bastian <bastian@kde.org>
  kdecore/sycoca/ksycocatype.h ~ LGPLv2h ~ (C) 1998, 1999 Torben Weis <weis@kde.org>, Waldo Bastian <bastian@kde.org>
-
  kdecore/tests/Cairo ~ unspec ~ unspec
  kdecore/tests/CMakeLists.txt ~ unspec ~ unspec
  kdecore/tests/cplusplustest.cpp ~ LGPLv2 ~ (c) 1999 Waldo Bastian <bastian@kde.org>
@@ -824,14 +813,12 @@ detailed above or are not licensed under the GPLv2.
  kdecore/tests/Los_Angeles ~ unspec ~ unspec
  kdecore/tests/Paris ~ unspec ~ unspec
  kdecore/tests/startserviceby.cpp ~ LGPLv2 ~ (c) 1999 Waldo Bastian <bastian@kde.org>
-
  kdecore/text/kascii.cpp ~ LGPLv2h ~ (c) 2005 Ingo Kloecker <kloecker@kde.org>
  kdecore/text/kascii.h ~ LGPLv2 ~ (c) 2005 Ingo Kloecker <kloecker@kde.org>
  kdecore/text/kcodecs.cpp ~ LGPLv2 ~ (C) 2000-2001 Dawit Alemayehu <adawit@kde.org>, 2001 Rik Hemsley (rikkus) <rik@kde.org>
  kdecore/text/kcodecs.h ~ LGPLv2 ~  (C) 2000-2001 Dawit Alemayehu <adawit@kde.org>, 2001 Rik Hemsley (rikkus) <rik@kde.org>
  kdecore/text/kstringhandler.cpp ~ LGPLv2h ~ (C) 1999 Ian Zepp (icszepp@islc.net)
  kdecore/text/kstringhandler.h ~ LGPLv2h ~ (C) 1999 Ian Zepp (icszepp@islc.net), 2000 Rik Hemsley (rikkus) <rik@kde.org>
-
  kdecore/util/conversion_check.h ~ LGPLv2h ~ (c) 2006 Thomas Braxton <brax108@cox.net>
  kdecore/util/kallocator.cpp ~ LGPLv2h ~ (C) 1999 Waldo Bastian (bastian@kde.org), 2002 Michael Matz (matz@kde.org)
  kdecore/util/kallocator.h ~ LGPLv2h ~ (C) 1999 Waldo Bastian (bastian@kde.org), 2002 Michael Matz (matz@kde.org)
@@ -878,7 +865,7 @@ detailed above or are not licensed under the GPLv2.
  kded/kbuildservicefactory.cpp   
  kded/kmimefileparser.h ~ LGPLv2h ~ (C) 2007 David Faure
  kded/kbuildsycoca.h ~ LGPLv2 ~ (C) 1999 David Faure 
- kded/Mainpage.dox ~ XXXX
+ kded/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kded/kresourcelist.h ~ LGPLv2 ~ (C) 1999 David Faure
  kded/kctimefactory.h ~ LGPLv2 ~ (C) 2000 Waldo Bastian
  kded/kbuildmimetypefactory.h ~ LGPLv2h ~ (C) 2007 David Faure
@@ -1134,7 +1121,7 @@ detailed above or are not licensed under the GPLv2.
  kdeprint/lpr/printcapentry.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
  kdeprint/lpr/printcapreader.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
  kdeprint/lpr/printcapreader.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
- kdeprint/Mainpage.dox ~ XXXX
+ kdeprint/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kdeprint/management/cjanuswidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
  kdeprint/management/cjanuswidget.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
  kdeprint/management/CMakeLists.txt ~ unspec ~ unspec
@@ -1932,7 +1919,6 @@ kdeui/dialogs/kshortcutsdialog_p.h ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahar
  kdeui/xmlgui/kxmlguiwindow.h ~ LGPLv2 ~ 2000 Reginald Stadlbauer (reggie@kde.org), 1997 Stephan Kulow (coolo@kde.org), 1997-2000 Sven Radej (radej@kde.org), 1997-2000 Matthias Ettrich (ettrich@kde.org), 1999 Chris Schlaeger (cs@kde.org), 2002 Joseph Wenninger (jowenn@kde.org), 2005-2006 Hamish Rodda (rodda@kde.org)
  kdeui/xmlgui/kxmlgui.xsd ~ XSD ~  (c) 2000 Federico David Sacerdoti, Simon Hausmann, Richard J. Moore, 2004 Frans Englich
 
-
  kdesu/client.cpp ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen 
  kdesu/client.h ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen
  kdesu/CMakeLists.txt ~ unspec ~ unspec 
@@ -1943,7 +1929,7 @@ kdeui/dialogs/kshortcutsdialog_p.h ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahar
  kdesu/kdesu_stub.c ~ LGPLv2h ~ (C) 1999,2000 Geert Jansen
  kdesu/libkdesu.nmcheck ~ unspec ~ unspec
  kdesu/libkdesu_weak.nmcheck ~ unspec ~ unspec
- kdesu/Mainpage.dox ~ XXXX
+ kdesu/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kdesu/process.cpp ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen, (c) 1997,1998 by Lars Doelle
  kdesu/process.h ~ LGPLv2 ~ (C) 1999,2000 Geert Jansen
  kdesu/README ~ unspec ~ unspec
@@ -1956,25 +1942,25 @@ kdeui/dialogs/kshortcutsdialog_p.h ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahar
 
  kdefx/CMakeLists.txt ~ unspec ~ unspec
  kdefx/config-processor.h.cmake ~ unspec ~ unspec
+ kdefx/kcpuinfo.cpp ~ BSD ~  * Copyright (C) 2003 Fredrik Höglund <fredrik@kde.org>
+ kdefx/kcpuinfo.h ~ BSD ~  * Copyright (C) 2003 Fredrik Höglund <fredrik@kde.org>
  kdefx/kdefx.cmake ~ unspec ~ unspec
- kdefx/kdefx_export.h ~ LGPLv2h ~ (C) 2007 David Faure
- kdefx/kcpuinfo.cpp
- kdefx/kcpuinfo.h
- kdefx/kdrawutil.cpp
- kdefx/kdrawutil.h
- kdefx/kimageeffect.cpp
- kdefx/kimageeffect.h
- kdefx/kpixmapeffect.cpp
- kdefx/kpixmapeffect.h
- kdefx/kpixmapsplitter.cpp
- kdefx/kpixmapsplitter.h
- kdefx/kstyle-checklist.txt ~ unspec ~ unspec
- kdefx/kstyle.cpp
- kdefx/kstyle.h
- kdefx/Mainpage.dox ~ XXXX
- kdefx/kdefx.nmcheck ~ unspec ~ unspec
+ kdefx/kdefx_export.h ~ LGPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
  kdefx/kdefx.pc.in ~ unspec ~ unspec
- kdefx/kdefx_weak.nmcheck ~ unspec ~ unspec
+ kdefx/kdrawutil.cpp ~ LGPLv2 ~    Copyright (C) 1999 Daniel M. Duley <mosfet@kde.org>
+ kdefx/kdrawutil.h ~ LGPLv2 ~    Copyright (C) 1999 Daniel M. Duley <mosfet@kde.org>
+ kdefx/kimageeffect.cpp ~ BSD ~ (C) 1998, 1999, 2001, 2002 Daniel M. Duley <mosfet@kde.org>, 1998, 1999 Christian Tibirna <ctibirna@total.net>, 1998, 1999 Dirk Mueller <mueller@kde.org>, 1999 Geert Jansen <g.t.jansen@stud.tue.nl>, 2000 Josef Weidendorfer <weidendo@in.tum.de>, 2004 Zack Rusin <zack@kde.org>
+ kdefx/kimageeffect.h ~ LGPLv2 ~  (C) 1998, 1999, 2001, 2002 Daniel M. Duley <mosfet@interaccess.com>,  1998, 1999 Christian Tibirna <ctibirna@total.net>, 1998, 1999 Dirk Mueller <mueller@kde.org>
+ kdefx/kpixmapeffect.cpp ~ LGPLv2 ~  *  1998, 1999 Christian Tibirna <ctibirna@total.net>, 1998, 1999 Daniel M. Duley <daniel.duley@verizon.net>, 1998, 1999 Dirk A. Mueller <mueller@kde.org>
+ kdefx/kpixmapeffect.h ~ LGPLv2 ~  1998, 1999 Christian Tibirna <ctibirna@total.net>, 1998, 1999 Daniel M. Duley <daniel.duley@verizon.net>, 1998, 1999 Dirk A. Mueller <mueller@kde.org>
+ kdefx/kpixmapsplitter.cpp ~ LGPLv2h ~     Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdefx/kpixmapsplitter.h ~ LGPLv2h ~     Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ kdefx/kstyle-checklist.txt ~ unspec ~ unspec
+ kdefx/kstyle.cpp ~ LGPLv2 ~  * Copyright (C) 2004-2005 Maksim Orlovich <maksim@kde.org>, 2005,2006 Sandro Giessl <giessl@kde.org>
+ kdefx/kstyle.h ~ LGPLv2 ~  * Copyright (C) 2004-2005 Maksim Orlovich <maksim@kde.org>, 2005,2006 Sandro Giessl <giessl@kde.org>
+ kdefx/libkdefx.nmcheck ~ unspec ~ unspec
+ kdefx/libkdefx_weak.nmcheck ~ unspec ~ unspec
+ kdefx/Mainpage.dox ~ GFDL-1.2 ~ unspec
 
  kdewidgets/AUTHORS ~ unspec ~ unspec
  kdewidgets/classpreviews.cpp ~ LGPLv2h ~ (C) 2001 Daniel Molkentin <molkentin@kde.org>
@@ -2020,7 +2006,7 @@ kdeui/dialogs/kshortcutsdialog_p.h ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahar
  kfile/kfileplacesmodel.cpp ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>, 2007 David Faure <faure@kde.org>
  kfile/kfileplacesmodel.h ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>, 2007 David Faure <faure@kde.org>	
  kfile/kfileplacesselector.cpp ~ LGPLv2h ~ (C) 2006 by Peter Penz (peter.penz@gmx.at), 2007 by Kevin Ottens (ervin@kde.org) 
- kfile/kfileplacesselector_p.h ~ LGPLv2h ~ (C) 2006 by Peter Penz (peter.penz@gmx.at), 2007 by Kevin Ottens (ervin@kde.org)                
+ kfile/kfileplacesselector_p.h ~ LGPLv2h ~ (C) 2006 by Peter Penz (peter.penz@gmx.at), 2007 by Kevin Ottens (ervin@kde.org)   
  kfile/kfileplacesview.cpp ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>
  kfile/kfileplacesview.h ~ LGPLv2 ~ (C) 2007 Kevin Ottens <ervin@kde.org>
  kfile/kfilepreview.cpp ~ LGPLv2h ~ (C) 1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana <grana@ie.iwi.unibe.ch>, 2000 Werner Trobin <wtrobin@carinthia.com>
@@ -2033,12 +2019,12 @@ kdeui/dialogs/kshortcutsdialog_p.h ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahar
  kfile/kfilewidget.h ~ LGPLv2h ~ (C) 1997, 1998 Richard Moore <rich@kde.org>,  1998 Stephan Kulow <coolo@kde.org>, 1998 Daniel Grana <grana@ie.iwi.unibe.ch>, 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>, 2007 David Faure <faure@kde.org>
  kfile/kprotocolcombo.cpp ~ LGPLv2h ~ (C) 2006 by Aaron J. Seigo (<aseigo@kde.org>)
  kfile/kprotocolcombo_p.h ~ LGPLv2h ~ (C) 2006 by Aaron J. Seigo (<aseigo@kde.org>)
- kfile/kurlbutton.cpp ~ LGPLv2 ~  (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org>              
- kfile/kurlbutton_p.h ~ LGPLv2 ~  (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org> e.org>                   
+ kfile/kurlbutton.cpp ~ LGPLv2 ~  (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org>          
+ kfile/kurlbutton_p.h ~ LGPLv2 ~  (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org> e.org>  
  kfile/kurldropdownbutton.cpp ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>                      
  kfile/kurldropdownbutton_p.h ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>                      
- kfile/kurlnavigatorbutton.cpp ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at, 2006 by Aaron J. Seigo <aseigo@kde.org>                     
- kfile/kurlnavigatorbutton_p.h ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org>                    
+ kfile/kurlnavigatorbutton.cpp ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at, 2006 by Aaron J. Seigo <aseigo@kde.org>  
+ kfile/kurlnavigatorbutton_p.h ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org> 
  kfile/kurlnavigator.cpp ~ LGPLv2 ~  * Copyright (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org>, 2007 by Kevin Ottens <ervin@kde.org>, 2007 by Urs Wolfer <uwolfer @ kde.org>, 2001 Christoph Cullmann <cullmann@kde.org>, 2001 Joseph Wenninger <jowenn@kde.org>, 2001 Anders Lund <anders.lund@lund.tdcadsl.dk>
  kfile/kurlnavigator.h ~ LGPLv2 ~  * Copyright (C) 2006 by Peter Penz <peter.penz@gmx.at>, 2006 by Aaron J. Seigo <aseigo@kde.org>, 2007 by Kevin Ottens <ervin@kde.org>, 2007 by Urs Wolfer <uwolfer @ kde.org>                      *
  kfile/kurltogglebutton.cpp ~ LGPLv2 ~ (C) 2006 by Peter Penz <peter.penz@gmx.at>                      *
@@ -2049,7 +2035,7 @@ kdeui/dialogs/kshortcutsdialog_p.h ~ LGPLv2h ~  2006,2007 Andreas Hartmetz (ahar
  kfile/tests/kfiletreeviewtest.cpp ~ LGPLv2h ~ (C) 2001 Klaas Freitag <freitag@suse.de>
  kfile/tests/kfiletreeviewtest.h ~ LGPLv2h ~ (C) 2001 Klaas Freitag <freitag@suse.de>
 
-khtml/BUILDING-TESTREGRESSION ~ unspec ~ unspec
+ khtml/BUILDING-TESTREGRESSION ~ unspec ~ unspec
  khtml/ChangeLog ~ unspec ~ unspec
  khtml/CMakeLists.txt ~ unspec ~ unspec
  khtml/config-khtml.h.cmake ~ unspec ~ unspec
@@ -2220,7 +2206,6 @@ khtml/BUILDING-TESTREGRESSION ~ unspec ~ unspec
  khtml/.emacs-dirvars ~ unspec ~ unspec
  
  
- 
  khtml/html/doctypes.cpp ~ unspec ~ unspec
  khtml/html/doctypes.gperf ~ unspec ~ unspec
  khtml/html/dtd.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 2006 Allan Sandfeld Jensen (kde@carewolf.com)
@@ -2240,7 +2225,6 @@ khtml/BUILDING-TESTREGRESSION ~ unspec ~ unspec
  khtml/html/html_formimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2000 Dirk Mueller (mueller@kde.org), 2004, 2005, 2006 Apple Computer, Inc.
  khtml/html/html_headimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2001 Dirk Mueller (mueller@kde.org), 2002-2003 Apple Computer, Inc.
  khtml/html/html_headimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org), 2002-2003 Apple Computer, Inc.
- 
  khtml/html/html_imageimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
  khtml/html/html_imageimpl.h ~ LGPLv2h ~  * Copyright (C) 1999 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
  khtml/html/html_inlineimpl.cpp ~ LGPLv2h ~  * Copyright (C) 1999-2003 Lars Knoll (knoll@kde.org), 1999 Antti Koivisto (koivisto@kde.org)
@@ -2384,7 +2368,7 @@ khtml/BUILDING-TESTREGRESSION ~ unspec ~ unspec
  khtml/kmultipart/kmultipart.h ~ LGPLv2h ~    Copyright (C) 2002 David Faure <david@mandrakesoft.com>
  khtml/kmultipart/README ~ unspec ~ unspec
  khtml/libkhtml.map ~ unspec ~ unspec
- khtml/Mainpage.dox ~ XXXX
+ khtml/Mainpage.dox ~ GFDL-1.2 ~ unspec
  khtml/misc/arena.cpp ~ LGPLv2h ~  * Copyright (C) 1998-2000 Netscape Communications Corporation.
  khtml/misc/arena.h ~ LGPLv2h ~  * Copyright (C) 1998-2000 Netscape Communications Corporation.
  khtml/misc/blocked_icon.cpp ~ unspec ~ unspec
@@ -2594,7 +2578,7 @@ khtml/BUILDING-TESTREGRESSION ~ unspec ~ unspec
  kinit/klauncher_win.cpp ~ LGPLv2 ~   Copyright (c) 1999 Waldo Bastian <bastian@kde.org>, 2006 Ralf Habacker <ralf.habacker@freenet.de>
  kinit/kwrapper.c ~ LGPLv2 ~   Copyright (c) 1999 Waldo Bastian <bastian@kde.org>, 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
  kinit/lnusertemp.c ~ LGPLv2 ~   Copyright (c) 2000 Waldo Bastian <bastian@kde.org>
- kinit/Mainpage.dox ~ XXXX
+ kinit/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kinit/org.kde.KLauncher.xml ~ unspec ~ unspec
  kinit/proctitle.cpp ~ LGPLv2h ~  * (c) 2007 Alex Merry <alex.merry@kdemail.net>
  kinit/proctitle.h ~ LGPLv2h ~  * (c) 2007 Alex Merry <alex.merry@kdemail.net>
@@ -2607,7 +2591,7 @@ khtml/BUILDING-TESTREGRESSION ~ unspec ~ unspec
  kinit/tests/klaunchertest.cpp ~ LGPLv2 ~     Copyright (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
  kinit/wrapper.c ~ LGPLv2 ~ (C) 1998 Waldo Bastian (bastian@kde.org), 1999 Mario Weilguni <mweilguni@sime.com>, 2001 Lubos Lunak <l.lunak@kde.org>
 
-kio/application.desktop ~ unspec ~ unspec
+ kio/application.desktop ~ unspec ~ unspec
  kio/bookmarks/kbookmark.cc ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2003 Alexander Kellett <lypanov@kde.org>
  kio/bookmarks/kbookmarkdombuilder.cc ~ LGPLv2h ~    Copyright (C) 2000 David Faure <faure@kde.org>, 2002-2003 Alexander Kellett <lypanov@kde.org>
  kio/bookmarks/kbookmarkdombuilder.h ~ LGPLv2h ~    Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
@@ -3002,7 +2986,7 @@ kio/application.desktop ~ unspec ~ unspec
  kio/kssl/SECURITY-HOLES ~ unspec ~ unspec
  kio/kssl/TODO ~ unspec ~ unspec
  kio/kurifilterplugin.desktop ~ unspec ~ unspec
- kio/Mainpage.dox ~ XXXX
+ kio/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kio/Messages.sh ~ unspec ~ unspec
  kio/misc/CMakeLists.txt ~ unspec ~ unspec
  kio/misc/fileshareset ~ LGPLv2h ~ Copyright (C) 2001-2002 MandrakeSoft (pixel@mandrakesoft.com)
@@ -3141,7 +3125,6 @@ kio/application.desktop ~ unspec ~ unspec
  kioslave/ftp/ftp.cpp ~ LGPLv2h ~ (C) 2000-2006 David Faure <faure@kde.org>
  kioslave/ftp/ftp.h ~ LGPLv2h ~ (C) 2000 David Faure <faure@kde.org>
  kioslave/ftp/ftp.protocol ~ unspec ~ unspec
- 
  kioslave/http/CMakeLists.txt ~ unspec ~ unspec
  kioslave/http/config-gssapi.h.cmake ~ unspec ~ unspec
  kioslave/http/configure.in.bot ~ unspec ~ unspec
@@ -3151,7 +3134,6 @@ kio/application.desktop ~ unspec ~ unspec
  kioslave/http/http.h ~ LGPLv2h ~ (C) 2000,2001 Dawit Alemayehu <adawit@kde.org>, 2000,2001 Waldo Bastian <bastian@kde.org>, 2000,2001 George Staikos <staikos@kde.org>, 2001,2002 Hamish Rodda <rodda@kde.org>
  kioslave/http/http.protocol ~ unspec ~ unspec
  kioslave/http/https.protocol ~ unspec ~ unspec
- 
  kioslave/http/kcookiejar/CMakeLists.txt ~ unspec ~ unspec
  kioslave/http/kcookiejar/domain_info ~ unspec ~ unspec
  kioslave/http/kcookiejar/kcookiejar.cpp ~ MIT ~ (C) 1998-2000 Waldo Bastian (bastian@kde.org), 2000,2001 Dawit Alemayehu (adawit@kde.org)
@@ -3477,7 +3459,6 @@ kio/application.desktop ~ unspec ~ unspec
  kjsembed/kjsembed/svg_binding.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
  kjsembed/kjsembed/svg_binding.h ~ LGPLv2h ~  (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
  kjsembed/kjsembed/test/* ~ unspec ~ unspec
- 
  kjsembed/kjsembed/url.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
  kjsembed/kjsembed/url.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
  kjsembed/kjsembed/util.h ~ unspec ~ unspec
@@ -3485,7 +3466,7 @@ kio/application.desktop ~ unspec ~ unspec
  kjsembed/kjsembed/value_binding.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
  kjsembed/kjsembed/variant_binding.cpp ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
  kjsembed/kjsembed/variant_binding.h ~ LGPLv2h ~ (C) 2005,2006 Ian Reinhart Geiser <geiseri@kde.org>,2005,2006 Matt Broadstone <mbroadst@gmail.com>, 2005,2006 Richard J. Moore <rich@kde.org>, 2005,2006 Erik L. Bunce <kde@bunce.us>
- kjsembed/Mainpage.dox ~ XXXX
+ kjsembed/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kjsembed/qtonly/CMakeLists.txt ~ BSD ~ (c) 2006, Erik Bunce <kde@bunce.us>
  kjsembed/qtonly/FindQJSInternal.cmake ~ BSD ~ (c) 2006, Alexander Neundorf <neundorf@kde.org>, 2006, Laurent Montel, <montel@kde.org>, 2006, Erik Bunce <kde@bunce.us>
  kjsembed/qtonly/README ~ unspec ~ unspec
@@ -3499,7 +3480,7 @@ kio/application.desktop ~ unspec ~ unspec
  kmetadata/ontology.rdf ~ unspec ~ unspec
  kmetadata/README ~ unspec ~ unspec
 
-knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
+ knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
  knewstuff/CMakeLists.txt ~ unspec ~ unspec
  knewstuff/data/knewstuff.svg ~ unspec ~ unspec
  knewstuff/doc/* ~ unspec ~ unspec
@@ -3575,7 +3556,7 @@ knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
  knewstuff/knewstuff2/ui/qstarframe.h ~ LGPLv2h ~     Copyright (c) 2006, 2007 Josef Spillner <spillner@kde.org>
  knewstuff/knewstuff2/ui/uploaddialog.cpp ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>
  knewstuff/knewstuff2/ui/uploaddialog.h ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>, 2007 Josef Spillner <spillner@kde.org>
- knewstuff/Mainpage.dox ~ XXXX
+ knewstuff/Mainpage.dox ~ GFDL-1.2 ~ unspec
  knewstuff/README.knewstuff2 ~ unspec ~ unspec
  knewstuff/tests/* ~ unspec ~ unspec
 
@@ -3795,7 +3776,7 @@ knewstuff/ChangeLog.kstuff ~ unspec ~ unspec
  kstyles/light/lightstyle-v2.h ~ MIT ~   Copyright (c) 2000-2001 Trolltech AS (info@trolltech.com)
  kstyles/light/lightstyle-v3.cpp ~ MIT ~   Copyright (c) 2000-2001 Trolltech AS (info@trolltech.com)
  kstyles/light/lightstyle-v3.h ~ MIT ~   Copyright (c) 2000-2001 Trolltech AS (info@trolltech.com)
- kstyles/Mainpage.dox ~ XXXX
+ kstyles/Mainpage.dox ~ GFDL-1.2 ~ unspec
  kstyles/Messages.sh ~ unspec ~ unspec
  kstyles/oxygen/CMakeLists.txt ~ unspec ~ unspec
  kstyles/oxygen/config/CMakeLists.txt ~ unspec ~ unspec
@@ -4743,24 +4724,40 @@ Legend:
                 option) higher. The listed documents use the GFDL with no
                 Invariant Sections, no Front-Cover Texts, and no Back-Cover
                 Texts.
- - "DTD":             Permission to use, copy, modify and distribute this DTD
-            and its accompanying documentation for any purpose and without fee
-            is hereby granted in perpetuity, provided that the above copyright
-            notice and this paragraph appear in all copies.  The copyright
-            holders make no representation about the suitability of the DTD for
-            any purpose. It is provided "as is" without expressed or implied
-            warranty. 
-  - "MIT"
-  - "Artistic"
-  - "XSD":             Permission to use, copy, modify and distribute this XSD
-            and its accompanying documentation for any purpose and without fee
-            is hereby granted in perpetuity, provided that the above copyright
-            notice and this paragraph appear in all copies.  The copyright
-            holders make no representation about the suitability of the XSD for
-            any purpose. It is provided "as is" without expressed or implied
-            warranty.
+ - "DTD":       Permission to use, copy, modify and distribute this DTD
+                and its accompanying documentation for any purpose and without fee
+                is hereby granted in perpetuity, provided that the above copyright
+                notice and this paragraph appear in all copies.  The copyright
+                holders make no representation about the suitability of the DTD for
+                any purpose. It is provided "as is" without expressed or implied
+                warranty. 
+  - "MIT":      Permission is hereby granted, free of charge, to any person obtaining a copy
+                of this software and associated documentation files (the "Software"), to deal
+                in the Software without restriction, including without limitation the rights
+                to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                copies of the Software, and to permit persons to whom the Software is
+                furnished to do so, subject to the following conditions:
+                The above copyright notice and this permission notice shall be included in
+                all copies or substantial portions of the Software.
+                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                THE SOFTWARE.
+  - "Artistic": Files under the Artistic license.
+  - "XSD":      Permission to use, copy, modify and distribute this XSD
+                and its accompanying documentation for any purpose and without fee
+                is hereby granted in perpetuity, provided that the above copyright
+                notice and this paragraph appear in all copies.  The copyright
+                holders make no representation about the suitability of the XSD for
+                any purpose. It is provided "as is" without expressed or implied
+                warranty.
 
 On Debian systems, you can find the complete texts of these licenses at:
+  - Artistic: /usr/share/common-licenses/Artistic
+  - BSD:      /usr/share/common-licenses/BSD
   - GPL:      /usr/share/common-licenses/GPL
   - GPLv2:    /usr/share/common-licenses/GPL-2
   - LGPLv2:   /usr/share/common-licenses/LGPL-2
