@@ -6,8 +6,11 @@ kde4libs (4:3.92.0.dfsg.1-1) experimental; urgency=low
   * Add patches:
     * 01_kdehome_kde4: set kdehome directory to .kde4.
     * 02_applications_menu_kde4: append .kde4 to applications.menu.
+  * Add warning about experimental packages in README.Debian.
+  * Remade the copyright file, thanks to  Marc 'HE' Brockschmidt, for
+    sharing the fun.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 28 Jul 2007 12:39:08 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 06 Aug 2007 16:38:29 +0200
 
 kde4libs (4:3.91.0-1) alioth; urgency=low
 
