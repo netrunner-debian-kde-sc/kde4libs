@@ -1,7 +1,8 @@
-kde4libs (4:3.92.0-1) experimental; urgency=low
+kde4libs (4:3.92.0.dfsg.1-1) experimental; urgency=low
 
   * KDE 4, beta 1.
   * Update *.install files.
+  * Prune non-free files, added script prune-nonfree.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 28 Jul 2007 12:39:08 +0200
 
