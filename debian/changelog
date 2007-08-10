@@ -1,3 +1,9 @@
+kde4libs (4:3.92.0.dfsg.1-2) experimental; urgency=low
+
+  * Add patch to support strigi-O.5.5.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Aug 2007 23:10:30 +0200
+
 kde4libs (4:3.92.0.dfsg.1-1) experimental; urgency=low
 
   * KDE4 beta 1, first upload to the Debian archive.
