@@ -2,7 +2,7 @@
 
 include debian/cdbs/kde.mk
 
-build/kdelibs-bin::
+install/kdelibs-bin::
 	mv $(CURDIR)/debian/tmp/usr/bin/kunittestmodrunner $(CURDIR)/debian/tmp/usr/bin/kunittestmodrunner4
 	mv $(CURDIR)/debian/tmp/usr/bin/makekdewidgets $(CURDIR)/debian/tmp/usr/bin/makekdewidgets4
 	mv $(CURDIR)/debian/tmp/usr/bin/preparetips $(CURDIR)/debian/tmp/usr/bin/preparetips4
