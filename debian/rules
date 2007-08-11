@@ -2,9 +2,3 @@
 
 include debian/cdbs/kde.mk
 
-install/kdelibs-bin::
-	mv $(CURDIR)/debian/tmp/usr/bin/kunittestmodrunner $(CURDIR)/debian/tmp/usr/bin/kunittestmodrunner4
-	mv $(CURDIR)/debian/tmp/usr/bin/makekdewidgets $(CURDIR)/debian/tmp/usr/bin/makekdewidgets4
-	mv $(CURDIR)/debian/tmp/usr/bin/preparetips $(CURDIR)/debian/tmp/usr/bin/preparetips4
-	mv $(CURDIR)/debian/tmp/usr/bin/kconfig_compiler $(CURDIR)/debian/tmp/usr/bin/kconfig_compiler4
-	mv $(CURDIR)/debian/tmp/usr/bin/ksvgtopng $(CURDIR)/debian/tmp/usr/bin/ksvgtopng4

@@ -1,0 +1,55 @@
+--- kdelibs-3.92.0.orig/kde3support/kunittest/CMakeLists.txt
++++ kdelibs-3.92.0/kde3support/kunittest/CMakeLists.txt
+@@ -23,7 +23,7 @@
+ 
+ target_link_libraries(kunittestmodrunner ${KDE4_KDECORE_LIBS} kunittest)
+ 
+-install(TARGETS kunittestmodrunner DESTINATION ${BIN_INSTALL_DIR} )
++install(TARGETS kunittestmodrunner DESTINATION ${BIN_INSTALL_DIR} RENAME kunittestmodrunner4)
+ 
+ 
+ ########### install files ###############
+--- kdelibs-3.92.0.orig/kdecore/kconfig_compiler/CMakeLists.txt
++++ kdelibs-3.92.0/kdecore/kconfig_compiler/CMakeLists.txt
+@@ -12,7 +12,7 @@
+ 
+ target_link_libraries(kconfig_compiler  ${QT_QTCORE_LIBRARY} ${QT_QTXML_LIBRARY} )
+ 
+-install(TARGETS kconfig_compiler DESTINATION ${BIN_INSTALL_DIR} )
++install(TARGETS kconfig_compiler DESTINATION ${BIN_INSTALL_DIR} RENAME kconfig_compiler4)
+ 
+ 
+ ########### install files ###############
+--- kdelibs-3.92.0.orig/kdeui/CMakeLists.txt
++++ kdelibs-3.92.0/kdeui/CMakeLists.txt
+@@ -461,7 +461,7 @@
+   sonnet/configwidget.h
+   DESTINATION  ${INCLUDE_INSTALL_DIR}/sonnet )
+ 
+-install(PROGRAMS preparetips DESTINATION ${BIN_INSTALL_DIR} )
++install(PROGRAMS preparetips DESTINATION ${BIN_INSTALL_DIR} RENAME preparetips4)
+ 
+ if (Q_WS_MAC)
+   install(PROGRAMS kernel/start-session-bus.sh DESTINATION ${BIN_INSTALL_DIR} )
+--- kdelibs-3.92.0.orig/kdewidgets/CMakeLists.txt
++++ kdelibs-3.92.0/kdewidgets/CMakeLists.txt
+@@ -20,7 +20,7 @@
+ 
+ target_link_libraries(makekdewidgets  ${KDE4_KDECORE_LIBS} )
+ 
+-install(TARGETS makekdewidgets DESTINATION ${BIN_INSTALL_DIR} )
++install(TARGETS makekdewidgets DESTINATION ${BIN_INSTALL_DIR} RENAME makekdewidgets4)
+ 
+ 
+ ########### next target ###############
+--- kdelibs-3.92.0.orig/pics/CMakeLists.txt
++++ kdelibs-3.92.0/pics/CMakeLists.txt
+@@ -9,7 +9,7 @@
+ set(ksvgtopng_SRCS ksvgtopng.cpp )
+ kde4_add_executable(ksvgtopng NOGUI ${ksvgtopng_SRCS})
+ target_link_libraries(ksvgtopng ${KDE4_KDEUI_LIBS})
+-install(TARGETS ksvgtopng DESTINATION ${BIN_INSTALL_DIR} )
++install(TARGETS ksvgtopng DESTINATION ${BIN_INSTALL_DIR} RENAME ksvgtopng4)
+ 
+ ########### next target ###############
+ 
