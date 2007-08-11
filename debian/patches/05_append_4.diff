@@ -1,25 +1,23 @@
 --- kdelibs-3.92.0.orig/kde3support/kunittest/CMakeLists.txt
 +++ kdelibs-3.92.0/kde3support/kunittest/CMakeLists.txt
-@@ -23,7 +23,7 @@
+@@ -23,6 +23,7 @@
  
  target_link_libraries(kunittestmodrunner ${KDE4_KDECORE_LIBS} kunittest)
  
--install(TARGETS kunittestmodrunner DESTINATION ${BIN_INSTALL_DIR} )
-+install(TARGETS kunittestmodrunner DESTINATION ${BIN_INSTALL_DIR} RENAME kunittestmodrunner4)
++set_target_properties(kunittestmodrunner PROPERTIES OUTPUT_NAME kunittestmodrunner4)
+ install(TARGETS kunittestmodrunner DESTINATION ${BIN_INSTALL_DIR} )
  
  
- ########### install files ###############
 --- kdelibs-3.92.0.orig/kdecore/kconfig_compiler/CMakeLists.txt
 +++ kdelibs-3.92.0/kdecore/kconfig_compiler/CMakeLists.txt
-@@ -12,7 +12,7 @@
+@@ -12,6 +12,7 @@
  
  target_link_libraries(kconfig_compiler  ${QT_QTCORE_LIBRARY} ${QT_QTXML_LIBRARY} )
  
--install(TARGETS kconfig_compiler DESTINATION ${BIN_INSTALL_DIR} )
-+install(TARGETS kconfig_compiler DESTINATION ${BIN_INSTALL_DIR} RENAME kconfig_compiler4)
++set_target_properties(kconfig_compiler PROPERTIES OUTPUT_NAME kconfig_compiler4)
+ install(TARGETS kconfig_compiler DESTINATION ${BIN_INSTALL_DIR} )
  
  
- ########### install files ###############
 --- kdelibs-3.92.0.orig/kdeui/CMakeLists.txt
 +++ kdelibs-3.92.0/kdeui/CMakeLists.txt
 @@ -461,7 +461,7 @@
@@ -33,23 +31,70 @@
    install(PROGRAMS kernel/start-session-bus.sh DESTINATION ${BIN_INSTALL_DIR} )
 --- kdelibs-3.92.0.orig/kdewidgets/CMakeLists.txt
 +++ kdelibs-3.92.0/kdewidgets/CMakeLists.txt
-@@ -20,7 +20,7 @@
+@@ -20,6 +20,7 @@
  
  target_link_libraries(makekdewidgets  ${KDE4_KDECORE_LIBS} )
  
--install(TARGETS makekdewidgets DESTINATION ${BIN_INSTALL_DIR} )
-+install(TARGETS makekdewidgets DESTINATION ${BIN_INSTALL_DIR} RENAME makekdewidgets4)
++set_target_properties(makekdewidgets PROPERTIES OUTPUT_NAME makekdewidgets4)
+ install(TARGETS makekdewidgets DESTINATION ${BIN_INSTALL_DIR} )
  
  
- ########### next target ###############
 --- kdelibs-3.92.0.orig/pics/CMakeLists.txt
 +++ kdelibs-3.92.0/pics/CMakeLists.txt
-@@ -9,7 +9,7 @@
+@@ -9,6 +9,7 @@
  set(ksvgtopng_SRCS ksvgtopng.cpp )
  kde4_add_executable(ksvgtopng NOGUI ${ksvgtopng_SRCS})
  target_link_libraries(ksvgtopng ${KDE4_KDEUI_LIBS})
--install(TARGETS ksvgtopng DESTINATION ${BIN_INSTALL_DIR} )
-+install(TARGETS ksvgtopng DESTINATION ${BIN_INSTALL_DIR} RENAME ksvgtopng4)
++set_target_properties(ksvgtopng PROPERTIES OUTPUT_NAME ksvgtopng4)
+ install(TARGETS ksvgtopng DESTINATION ${BIN_INSTALL_DIR} )
  
  ########### next target ###############
+--- kdelibs-3.92.0.orig/cmake/modules/FindKDE4Internal.cmake
++++ kdelibs-3.92.0/cmake/modules/FindKDE4Internal.cmake
+@@ -402,10 +402,10 @@
+    if (WIN32)
+       set(LIBRARY_OUTPUT_PATH  ${EXECUTABLE_OUTPUT_PATH} )
+       # CMAKE_CFG_INTDIR is the output subdirectory created e.g. by XCode and MSVC
+-      set(KDE4_KCFGC_EXECUTABLE       ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/kconfig_compiler )
++      set(KDE4_KCFGC_EXECUTABLE       ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/kconfig_compiler4 )
+       set(KDE4_AUTOMOC_EXECUTABLE     ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/kde4automoc )
+       set(KDE4_MEINPROC_EXECUTABLE    ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/meinproc4 )
+-      set(KDE4_MAKEKDEWIDGETS_EXECUTABLE    ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/makekdewidgets )
++      set(KDE4_MAKEKDEWIDGETS_EXECUTABLE    ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/makekdewidgets4 )
+    else (WIN32)
+       set(LIBRARY_OUTPUT_PATH  ${CMAKE_BINARY_DIR}/lib )
+       set(KDE4_KCFGC_EXECUTABLE       ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/kconfig_compiler.shell )
+@@ -417,9 +417,9 @@
+    set(KDE4_LIB_DIR ${LIBRARY_OUTPUT_PATH}/${CMAKE_CFG_INTDIR})
+ 
+    # when building kdelibs, make the kcfg rules depend on the binaries...
+-   set( _KDE4_KCONFIG_COMPILER_DEP kconfig_compiler)
++   set( _KDE4_KCONFIG_COMPILER_DEP kconfig_compiler4)
+    set( _KDE4_AUTOMOC_EXECUTABLE_DEP kde4automoc)
+-   set( _KDE4_MAKEKDEWIDGETS_DEP makekdewidgets)
++   set( _KDE4_MAKEKDEWIDGETS_DEP makekdewidgets4)
+    set( _KDE4_MEINPROC_EXECUTABLE_DEP meinproc4)
+ 
+    set(KDE4_INSTALLED_VERSION_OK TRUE)
+@@ -545,8 +545,8 @@
+ 
+    # at first look in LIBEXEC_INSTALL_DIR and no default paths,
+    # if this didn't succeed, the second call makes cmake search again, but in the standard paths
+-   find_program(KDE4_KCFGC_EXECUTABLE NAME kconfig_compiler PATHS ${KDE4_BIN_INSTALL_DIR} NO_DEFAULT_PATH )
+-   find_program(KDE4_KCFGC_EXECUTABLE NAME kconfig_compiler )
++   find_program(KDE4_KCFGC_EXECUTABLE NAME kconfig_compiler4 PATHS ${KDE4_BIN_INSTALL_DIR} NO_DEFAULT_PATH )
++   find_program(KDE4_KCFGC_EXECUTABLE NAME kconfig_compiler4 )
+ 
+    find_program(KDE4_AUTOMOC_EXECUTABLE NAME kde4automoc PATHS ${KDE4_BIN_INSTALL_DIR} NO_DEFAULT_PATH )
+    find_program(KDE4_AUTOMOC_EXECUTABLE NAME kde4automoc )
+@@ -554,8 +554,8 @@
+    find_program(KDE4_MEINPROC_EXECUTABLE NAME meinproc4 PATHS ${KDE4_BIN_INSTALL_DIR} NO_DEFAULT_PATH )
+    find_program(KDE4_MEINPROC_EXECUTABLE NAME meinproc4 )
+ 
+-   find_program(KDE4_MAKEKDEWIDGETS_EXECUTABLE NAME makekdewidgets PATHS ${KDE4_BIN_INSTALL_DIR} NO_DEFAULT_PATH )
+-   find_program(KDE4_MAKEKDEWIDGETS_EXECUTABLE NAME makekdewidgets )
++   find_program(KDE4_MAKEKDEWIDGETS_EXECUTABLE NAME makekdewidgets4 PATHS ${KDE4_BIN_INSTALL_DIR} NO_DEFAULT_PATH )
++   find_program(KDE4_MAKEKDEWIDGETS_EXECUTABLE NAME makekdewidgets4 )
+ 
+ endif (_kdeBootStrapping)
  
