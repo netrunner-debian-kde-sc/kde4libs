@@ -43,3 +43,6 @@ Files not installed due to conflicts with current kdelibs-data:
     /usr/share/emoticons/Default/wilted_rose.png
     /usr/share/emoticons/Default/foot_in_mouth.png
     /usr/share/emoticons/Default/sad.png
+
+Files not installed because they are provided by hicolor-icon-theme
+	/usr/share/icons/hicolor/index.theme

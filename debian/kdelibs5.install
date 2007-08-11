@@ -106,8 +106,8 @@ usr/lib/libkaudiodevicelist.so.4.0.0
 usr/lib/libkde3support.so.4
 usr/lib/libkde3support.so.4.0.0
 
-usr/lib/libkdeprint_management.so.4
-usr/lib/libkdeprint_management.so.4.0.0
+usr/lib/libkdeprint_management.so.5
+usr/lib/libkdeprint_management.so.5.0.0
 
 usr/lib/libkdnssd.so.4
 usr/lib/libkdnssd.so.4.0.0
