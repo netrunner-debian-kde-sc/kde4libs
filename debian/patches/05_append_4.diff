@@ -51,7 +51,7 @@
  ########### next target ###############
 --- kdelibs-3.92.0.orig/cmake/modules/FindKDE4Internal.cmake
 +++ kdelibs-3.92.0/cmake/modules/FindKDE4Internal.cmake
-@@ -402,10 +402,10 @@
+@@ -402,24 +402,24 @@
     if (WIN32)
        set(LIBRARY_OUTPUT_PATH  ${EXECUTABLE_OUTPUT_PATH} )
        # CMAKE_CFG_INTDIR is the output subdirectory created e.g. by XCode and MSVC
@@ -63,8 +63,14 @@
 +      set(KDE4_MAKEKDEWIDGETS_EXECUTABLE    ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/makekdewidgets4 )
     else (WIN32)
        set(LIBRARY_OUTPUT_PATH  ${CMAKE_BINARY_DIR}/lib )
-       set(KDE4_KCFGC_EXECUTABLE       ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/kconfig_compiler.shell )
-@@ -417,9 +417,9 @@
+-      set(KDE4_KCFGC_EXECUTABLE       ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/kconfig_compiler.shell )
++      set(KDE4_KCFGC_EXECUTABLE       ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/kconfig_compiler4.shell )
+       set(KDE4_AUTOMOC_EXECUTABLE     ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/kde4automoc.shell )
+       set(KDE4_MEINPROC_EXECUTABLE    ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/meinproc4.shell )
+-      set(KDE4_MAKEKDEWIDGETS_EXECUTABLE    ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/makekdewidgets.shell )
++      set(KDE4_MAKEKDEWIDGETS_EXECUTABLE    ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}/makekdewidgets4.shell )
+    endif (WIN32)
+ 
     set(KDE4_LIB_DIR ${LIBRARY_OUTPUT_PATH}/${CMAKE_CFG_INTDIR})
  
     # when building kdelibs, make the kcfg rules depend on the binaries...
@@ -98,3 +104,36 @@
  
  endif (_kdeBootStrapping)
  
+--- kdelibs-3.92.0.orig/doc/api/doxygen-preprocess-kcfg.sh
++++ kdelibs-3.92.0/doc/api/doxygen-preprocess-kcfg.sh
+@@ -2,7 +2,7 @@
+ # Generates and cleans KConfigXT source code during a API dox build
+ #
+ 
+-kcfg_compiler="`kde4-config --prefix`/bin/kconfig_compiler"
++kcfg_compiler="`kde4-config --prefix`/bin/kconfig_compiler4"
+ if test -z "$kcfg_compiler"; then
+ 	echo "kconfig_compiler not found!"
+ 	exit 1;
+--- kdelibs-3.92.0.orig/kdecore/kconfig_compiler/checkkcfg.pl
++++ kdelibs-3.92.0/kdecore/kconfig_compiler/checkkcfg.pl
+@@ -15,7 +15,7 @@
+ 
+ $kcfgc = $file . "c";
+ 
+-$cmd = "./kconfig_compiler $file $kcfgc";
++$cmd = "./kconfig_compiler4 $file $kcfgc";
+ 
+ #print "CMD $cmd\n";
+ 
+--- kdelibs-3.92.0.orig/kdeui/tests/kconfig_compiler/CMakeLists.txt
++++ kdelibs-3.92.0/kdeui/tests/kconfig_compiler/CMakeLists.txt
+@@ -8,7 +8,7 @@
+    add_custom_command(
+       OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/${_testName}.cpp ${CMAKE_CURRENT_BINARY_DIR}/${_testName}.h
+       COMMAND ${KDE4_KCFGC_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/${_testName}.kcfg ${CMAKE_CURRENT_SOURCE_DIR}/${_testName}.kcfgc
+-      DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/${_testName}.kcfg ${CMAKE_CURRENT_SOURCE_DIR}/${_testName}.kcfgc kconfig_compiler)
++      DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/${_testName}.kcfg ${CMAKE_CURRENT_SOURCE_DIR}/${_testName}.kcfgc kconfig_compiler4)
+ 
+ #   set_source_files_properties(${CMAKE_CURRENT_BINARY_DIR}/${_testName}.h PROPERTIES GENERATED TRUE)
+    qt4_generate_moc(${CMAKE_CURRENT_BINARY_DIR}/${_testName}.h ${CMAKE_CURRENT_BINARY_DIR}/${_testName}.moc )

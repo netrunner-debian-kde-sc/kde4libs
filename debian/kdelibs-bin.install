@@ -1,7 +1,6 @@
 usr/bin/checkXML
 usr/bin/js
 usr/bin/kbuildsycoca4
-usr/bin/kconfig_compiler4
 usr/bin/kcookiejar4
 usr/bin/kde4-config
 usr/bin/kde4automoc

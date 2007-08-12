@@ -1,3 +1,5 @@
+usr/bin/kconfig_compiler4
+
 usr/include/*
 
 usr/lib/libcupsdconf.so
