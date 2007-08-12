@@ -7,6 +7,8 @@ usr/bin/preparetips
 
 usr/include/*
 
+usr/lib/qt4/plugins/designer/kdewidgets.so
+
 usr/lib/libcupsdconf.so
 usr/lib/libkaudiodevicelist.so
 usr/lib/libkde3support.so

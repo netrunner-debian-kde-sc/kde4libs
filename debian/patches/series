@@ -1,4 +1,6 @@
-01_kdehome_kde4.diff
-02_applications_menu_kde4.diff
-03_strigi-0.5.5_support.diff
-04_libkdeprint_management_soname.diff
+01_libkdeprint_management_soname.diff
+02_strigi-0.5.5_support.diff
+10_kdehome_kde4.diff
+11_applications_menu_kde4.diff
+12_no_emoticons.diff
+13_qt4_designer_plugins_path.diff

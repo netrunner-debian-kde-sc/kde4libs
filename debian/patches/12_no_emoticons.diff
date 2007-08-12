@@ -1,0 +1,10 @@
+--- kdelibs-3.92.0.orig/pics/CMakeLists.txt
++++ kdelibs-3.92.0/pics/CMakeLists.txt
+@@ -1,6 +1,6 @@
+ 
+ add_subdirectory( hicolor )
+-add_subdirectory( emoticons )
++#add_subdirectory( emoticons )
+ add_subdirectory( oxygen )
+ 
+ include_directories( ${KDE4_KDEUI_INCLUDES} )

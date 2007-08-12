@@ -7,6 +7,9 @@ kde4libs (4:3.92.0.dfsg.1-2) experimental; urgency=low
     * checkXML, kconfig_compiler, ksvgtopng, kunittestmodrunner,
       makekdewidgets, preparetips.
   * Add kdelibs5-dev conflicts against kdelibs4-dev.
+  * Remove qt4-designer-kde4-plugins package. No need to have an extra package
+    as qt4 designer plugins are higky dependent on kdelibs5 and development.
+  * Add qt4_designer_plugins_path patch to fix plugins installation path.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
