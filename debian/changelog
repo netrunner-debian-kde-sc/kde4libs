@@ -3,7 +3,10 @@ kde4libs (4:3.92.0.dfsg.1-2) experimental; urgency=low
   +++ Changes by Fathi Boudra:
 
   * Add patch to support strigi-0.5.5.
-  * TODO: Move binaries like kconfig_compiler, etc... to kdelibs5-dev.
+  * Move binaries to kdelibs5-dev:
+    * checkXML, kconfig_compiler, ksvgtopng, kunittestmodrunner,
+      makekdewidgets, preparetips.
+  * Add kdelibs5-dev conflicts against kdelibs4-dev.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 

@@ -1,4 +1,9 @@
+usr/bin/checkXML
 usr/bin/kconfig_compiler
+usr/bin/ksvgtopng
+usr/bin/kunittestmodrunner
+usr/bin/makekdewidgets
+usr/bin/preparetips
 
 usr/include/*
 

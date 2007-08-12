@@ -44,6 +44,7 @@ Depends: kdelibs5 (= ${binary:Version}), shared-mime-info,
  libxslt1-dev, libxtst-dev, libgif-dev | libungif4-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, xsltproc
+Conflicts: kdelibs4-dev
 Description: development files for the KDE 4 beta core libraries
  This package contains all the headers and other related files needed
  to compile KDE applications, or develop applications which use the

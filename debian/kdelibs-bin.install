@@ -1,4 +1,3 @@
-usr/bin/checkXML
 usr/bin/js
 usr/bin/kbuildsycoca4
 usr/bin/kcookiejar4
@@ -12,13 +11,9 @@ usr/bin/kjscmd
 usr/bin/kjsconsole
 usr/bin/kross
 usr/bin/kshell4
-usr/bin/ksvgtopng4
-usr/bin/kunittestmodrunner4
 usr/bin/kwrapper4
-usr/bin/makekdewidgets4
 usr/bin/meinproc4
 usr/bin/nepomuk-rcgen
-usr/bin/preparetips4
 
 usr/lib/libkdeinit4_kaddprinterwizard.so
 usr/lib/libkdeinit4_klauncher.so
