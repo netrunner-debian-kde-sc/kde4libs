@@ -3,7 +3,7 @@ kde4libs (4:3.92.0.dfsg.1-2) experimental; urgency=low
   +++ Changes by Fathi Boudra:
 
   * Add patch to support strigi-0.5.5.
-  * Move kconfig_compiler4 to kdelibs5-dev.
+  * TODO: Move binaries like kconfig_compiler, etc... to kdelibs5-dev.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
@@ -11,8 +11,6 @@ kde4libs (4:3.92.0.dfsg.1-2) experimental; urgency=low
     (KDE3). See list in no-install.list.
   * Add patch 04_libkdeprint_management_soname.diff to avoid same soname name
     than in current KDE version.
-  * Add patch to append '4' to kunittestmodrunner, makekdewidgets, preparetips,
-    kconfig_compiler, ksvgtopng to avoid conflicts with the current versions.
   * Build-Depend only on libungif4-dev. kdegraphics b-d on imlib11 that b-d on
     libungif4-dev, if we build against libgif-dev, this kdelibs version and
     kdegraphics3 can not co-exist.
