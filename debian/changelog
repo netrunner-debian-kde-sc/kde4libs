@@ -14,14 +14,14 @@ kde4libs (4:3.92.0.dfsg.1-2) experimental; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * No shipping emoticons images to avoid conflicts with current kdebase-data
-    (KDE3). See list in no-install.list.
+    (KDE3), patch 12. See list in no-install.list.
   * Add patch 04_libkdeprint_management_soname.diff to avoid same soname name
     than in current KDE version.
   * Build-Depend only on libungif4-dev. kdegraphics b-d on imlib11 that b-d on
     libungif4-dev, if we build against libgif-dev, this kdelibs version and
     kdegraphics3 can not co-exist.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Aug 2007 19:33:41 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 13 Aug 2007 02:21:33 +0200
 
 kde4libs (4:3.92.0.dfsg.1-1) experimental; urgency=low
 
