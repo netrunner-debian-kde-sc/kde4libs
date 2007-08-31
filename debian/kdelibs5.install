@@ -26,7 +26,6 @@ usr/lib/kde4/krossmoduleforms.so
 usr/lib/kde4/kspell_aspell.so
 usr/lib/kde4/kspell_enchant.so
 usr/lib/kde4/kspell_hspell.so
-usr/lib/kde4/kstyle_plastik_config.so
 usr/lib/kde4/ktexteditor_docwordcompletion.so
 usr/lib/kde4/ktexteditor_insertfile.so
 usr/lib/kde4/ktexteditor_kdatatool.so
@@ -70,8 +69,6 @@ usr/lib/kde4/plugins/imageformats/kimg_tiff.so
 usr/lib/kde4/plugins/imageformats/kimg_xcf.so
 usr/lib/kde4/plugins/imageformats/kimg_xview.so
 usr/lib/kde4/plugins/phonon_platform/kde.so
-usr/lib/kde4/plugins/styles/keramik.so
-usr/lib/kde4/plugins/styles/plastik.so
 
 usr/lib/libkdecore.so.5
 usr/lib/libkdecore.so.5.0.0

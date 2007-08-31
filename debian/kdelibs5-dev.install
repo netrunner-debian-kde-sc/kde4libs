@@ -1,6 +1,5 @@
 usr/bin/checkXML
 usr/bin/kconfig_compiler
-usr/bin/ksvgtopng
 usr/bin/kunittestmodrunner
 usr/bin/makekdewidgets
 usr/bin/preparetips
@@ -44,6 +43,8 @@ usr/lib/libthreadweaver.so
 usr/lib/libnepomuk-middleware.so
 usr/lib/libnepomuk.so
 
+usr/lib/kde4/cmake/KDE4Config.cmake
+
 usr/share/kde4/apps/cmake/modules/CheckPointerMember.cmake
 usr/share/kde4/apps/cmake/modules/CheckPrototypeExists.cmake
 usr/share/kde4/apps/cmake/modules/CheckStructMember.cmake
@@ -53,6 +54,7 @@ usr/share/kde4/apps/cmake/modules/FindAkode.cmake
 usr/share/kde4/apps/cmake/modules/FindAlsa.cmake
 usr/share/kde4/apps/cmake/modules/FindAvahi.cmake
 usr/share/kde4/apps/cmake/modules/FindBerkeleyDB.cmake
+usr/share/kde4/apps/cmake/modules/FindBlitz.cmake
 usr/share/kde4/apps/cmake/modules/FindCarbon.cmake
 usr/share/kde4/apps/cmake/modules/FindCups.cmake
 usr/share/kde4/apps/cmake/modules/FindDNSSD.cmake
@@ -75,6 +77,7 @@ usr/share/kde4/apps/cmake/modules/FindKdepimLibs.cmake
 usr/share/kde4/apps/cmake/modules/FindKonto.cmake
 usr/share/kde4/apps/cmake/modules/FindKorundum.cmake
 usr/share/kde4/apps/cmake/modules/FindLibArt.cmake
+usr/share/kde4/apps/cmake/modules/FindLibintl.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXml2.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXslt.cmake
 usr/share/kde4/apps/cmake/modules/FindLinuxWirelesstools.cmake
@@ -83,6 +86,7 @@ usr/share/kde4/apps/cmake/modules/FindMusicBrainz.cmake
 usr/share/kde4/apps/cmake/modules/FindMySQL.cmake
 usr/share/kde4/apps/cmake/modules/FindOpenEXR.cmake
 usr/share/kde4/apps/cmake/modules/FindOpenSSL.cmake
+usr/share/kde4/apps/cmake/modules/FindPackageHandleStandardArgs.cmake
 usr/share/kde4/apps/cmake/modules/FindPCRE.cmake
 usr/share/kde4/apps/cmake/modules/FindPNG.cmake
 usr/share/kde4/apps/cmake/modules/FindPkgConfig.cmake
