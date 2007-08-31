@@ -2,8 +2,6 @@ Files not installed because they conflict with current kdelibs-data:
 
     /usr/share/locale/all_languages
 
-    /usr/share/emoticons/Default/*
-
 Files not installed because they are provided by hicolor-icon-theme:
 
     /usr/share/icons/hicolor/index.theme
