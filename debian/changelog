@@ -2,12 +2,13 @@ kde4libs (4:3.93.0-1) experimental; urgency=low
 
   * New upstream version.
    - Remove patches: 01_libkdeprint_management_soname and
-     02_strigi-0.5.5_support merged upstream. And 12_no_emoticon is not 
+     02_strigi-0.5.5_support merged upstream. And 12_no_emoticon is not
      longer needed.
   * Update *.install files.
+  * Update not-installed.list
   * Remove prune-nonfree, there is not longer non-free stuff.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 30 Aug 2007 13:09:08 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 03 Sep 2007 20:13:59 +0200
 
 kde4libs (4:3.92.0.dfsg.1-2) experimental; urgency=low
 
