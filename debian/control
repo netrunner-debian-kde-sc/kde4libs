@@ -27,7 +27,7 @@ Package: kdelibs5
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
- kdelibs-bin(>= ${binary:Version}), xbase-clients
+ kdelibs-bin(>= ${binary:Version}), xbase-clients, shared-mime-info
 Description: core libraries for all KDE 4 beta applications
  This package contains all the shared libraries. You need these libraries to
  run KDE applications.
