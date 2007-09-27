@@ -7,8 +7,10 @@ kde4libs (4:3.94.0-1) UNRELEASED; urgency=low
   * Add kdelibs5 dependency on shared-mime-info
   * Update *.install files
   * Install man pages
+  * Rename debian/no-install.txt to debian/not-installed and reformat it for
+    being usable with "debian/rules list-missing"
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Sep 2007 18:28:02 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Sep 2007 20:31:49 +0200
 
 kde4libs (4:3.93.0-1) experimental; urgency=low
 
