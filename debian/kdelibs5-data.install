@@ -67,7 +67,6 @@ usr/share/icons/hicolor/48x48/actions/presence_away.png
 usr/share/icons/hicolor/48x48/actions/presence_offline.png
 usr/share/icons/hicolor/48x48/actions/presence_online.png
 
-
 usr/share/kde4/apps/katepart/katepartreadonlyui.rc
 usr/share/kde4/apps/katepart/katepartui.rc
 usr/share/kde4/apps/katepart/jscript/indentation_c.js
@@ -216,6 +215,7 @@ usr/share/kde4/apps/katepart/syntax/mandoc.xml
 usr/share/kde4/apps/katepart/syntax/monobasic.xml
 usr/share/kde4/apps/katepart/syntax/roff.xml
 usr/share/kde4/apps/katepart/syntax/xorg.xml
+usr/share/kde4/apps/katepart/syntax/zonnon.xml
 
 usr/share/kde4/apps/kcertpart/kcertpart.rc
 

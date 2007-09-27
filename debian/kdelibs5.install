@@ -1,4 +1,5 @@
 usr/lib/kde4/katepart.so
+usr/lib/kde4/kcertpart.so
 usr/lib/kde4/kcm_crypto.so
 usr/lib/kde4/kcm_phonon.so
 usr/lib/kde4/kded_globalaccel.so
@@ -7,6 +8,7 @@ usr/lib/kde4/kded_kdeprintd.so
 usr/lib/kde4/kded_kssld.so
 usr/lib/kde4/kded_kwalletd.so
 usr/lib/kde4/kded_proxyscout.so
+usr/lib/kde4/kdeprint_cups.so
 usr/lib/kde4/kdeprint_ext.so
 usr/lib/kde4/kdeprint_lpdunix.so
 usr/lib/kde4/kdeprint_lpr.so
@@ -47,15 +49,12 @@ usr/lib/kde4/libexec/kpac_dhcp_helper
 usr/lib/kde4/libexec/ksendbugmail
 usr/lib/kde4/libexec/make_driver_db_cups
 usr/lib/kde4/libexec/make_driver_db_lpr
-usr/lib/kde4/libkcertpart.so
 usr/lib/kde4/libkdeprint_management_module.so
 usr/lib/kde4/libkfilemodule.so
 usr/lib/kde4/libkhtmlpart.so
 usr/lib/kde4/libkmultipart.so
-usr/lib/kde4/libnotepadpart.so
-usr/lib/kde4/libspellcheckplugin.so
+usr/lib/kde4/notepadpart.so
 usr/lib/kde4/phonon_fake.so
-usr/lib/kde4/kdeprint_cups.so
 usr/lib/kde4/plugins/imageformats/kimg_dds.so
 usr/lib/kde4/plugins/imageformats/kimg_eps.so
 usr/lib/kde4/plugins/imageformats/kimg_exr.so
@@ -65,10 +64,10 @@ usr/lib/kde4/plugins/imageformats/kimg_pcx.so
 usr/lib/kde4/plugins/imageformats/kimg_psd.so
 usr/lib/kde4/plugins/imageformats/kimg_rgb.so
 usr/lib/kde4/plugins/imageformats/kimg_tga.so
-usr/lib/kde4/plugins/imageformats/kimg_tiff.so
 usr/lib/kde4/plugins/imageformats/kimg_xcf.so
 usr/lib/kde4/plugins/imageformats/kimg_xview.so
 usr/lib/kde4/plugins/phonon_platform/kde.so
+usr/lib/kde4/spellcheckplugin.so
 
 usr/lib/libkdecore.so.5
 usr/lib/libkdecore.so.5.0.0

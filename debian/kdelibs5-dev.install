@@ -75,9 +75,11 @@ usr/share/kde4/apps/cmake/modules/FindKDEWIN32.cmake
 usr/share/kde4/apps/cmake/modules/FindKdepim.cmake
 usr/share/kde4/apps/cmake/modules/FindKdepimLibs.cmake
 usr/share/kde4/apps/cmake/modules/FindKonto.cmake
+usr/share/kde4/apps/cmake/modules/FindKopete.cmake
 usr/share/kde4/apps/cmake/modules/FindKorundum.cmake
 usr/share/kde4/apps/cmake/modules/FindLibArt.cmake
 usr/share/kde4/apps/cmake/modules/FindLibintl.cmake
+usr/share/kde4/apps/cmake/modules/FindLibraryEx.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXml2.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXslt.cmake
 usr/share/kde4/apps/cmake/modules/FindLinuxWirelesstools.cmake
@@ -96,6 +98,7 @@ usr/share/kde4/apps/cmake/modules/FindPostgreSQL.cmake
 usr/share/kde4/apps/cmake/modules/FindQCA2.cmake
 usr/share/kde4/apps/cmake/modules/FindQt4.cmake
 usr/share/kde4/apps/cmake/modules/FindRUBY.cmake
+usr/share/kde4/apps/cmake/modules/FindSane.cmake
 usr/share/kde4/apps/cmake/modules/FindSasl2.cmake
 usr/share/kde4/apps/cmake/modules/FindSharedMimeInfo.cmake
 usr/share/kde4/apps/cmake/modules/FindSoprano.cmake
