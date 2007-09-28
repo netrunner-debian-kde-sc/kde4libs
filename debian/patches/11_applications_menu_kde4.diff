@@ -1,6 +1,6 @@
---- kdelibs-3.92.0.orig/kded/CMakeLists.txt
-+++ kdelibs-3.92.0/kded/CMakeLists.txt
-@@ -61,7 +61,7 @@
+--- a/kded/CMakeLists.txt
++++ b/kded/CMakeLists.txt
+@@ -69,7 +69,7 @@
  
  ########### install files ###############
  
@@ -9,8 +9,8 @@
  install( FILES kdedmodule.desktop  DESTINATION  ${SERVICETYPES_INSTALL_DIR} )
  install( FILES kded.upd  DESTINATION  ${DATA_INSTALL_DIR}/kconf_update )
  
---- kdelibs-3.92.0.orig/kded/kbuildsycoca.cpp
-+++ kdelibs-3.92.0/kded/kbuildsycoca.cpp
+--- a/kded/kbuildsycoca.cpp
++++ b/kded/kbuildsycoca.cpp
 @@ -374,7 +374,7 @@
       connect(g_vfolder, SIGNAL(newService(const QString &, KService::Ptr *)),
               this, SLOT(slotCreateEntry(const QString &, KService::Ptr *)));
