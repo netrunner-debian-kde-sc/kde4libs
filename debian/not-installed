@@ -1,7 +1,3 @@
 # Files not installed because they conflict with current kdelibs-data:
 
 ./usr/share/locale/all_languages
-
-# Not install because a matching programm is missing:
-
-./usr/share/man/man1/checkXML.1

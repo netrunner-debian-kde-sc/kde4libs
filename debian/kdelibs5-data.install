@@ -26,11 +26,20 @@ usr/share/dbus-1/interfaces/org.kde.Solid.Networking.Client.xml
 usr/share/dbus-1/interfaces/org.kde.UiServer.xml
 usr/share/dbus-1/interfaces/org.kde.UiServerCallbacks.xml
 
+usr/share/doc/kde4/HTML/en/common/kde-default.css
+usr/share/doc/kde4/HTML/en/common/kde_logo_bg.png
+usr/share/doc/kde4/HTML/en/common/top-left.png
+usr/share/doc/kde4/HTML/en/common/top-middle.png
+usr/share/doc/kde4/HTML/en/common/top-right-konqueror.png
+
 usr/share/doc/kde4/HTML/en/common/artistic-license.html
 usr/share/doc/kde4/HTML/en/common/block_title_bottom.png
 usr/share/doc/kde4/HTML/en/common/block_title_mid.png
 usr/share/doc/kde4/HTML/en/common/block_title_top.png
 usr/share/doc/kde4/HTML/en/common/bsd-license.html
+usr/share/doc/kde4/HTML/en/common/bottom-left.png
+usr/share/doc/kde4/HTML/en/common/bottom-middle.png
+usr/share/doc/kde4/HTML/en/common/bottom-right.png
 usr/share/doc/kde4/HTML/en/common/doxygen.css
 usr/share/doc/kde4/HTML/en/common/favicon.ico
 usr/share/doc/kde4/HTML/en/common/fdl-license
@@ -40,6 +49,8 @@ usr/share/doc/kde4/HTML/en/common/footer.html
 usr/share/doc/kde4/HTML/en/common/gpl-license
 usr/share/doc/kde4/HTML/en/common/gpl-license.html
 usr/share/doc/kde4/HTML/en/common/header.html
+usr/share/doc/kde4/HTML/en/common/kde-default.css
+usr/share/doc/kde4/HTML/en/common/kde_logo_bg.png
 usr/share/doc/kde4/HTML/en/common/lgpl-license
 usr/share/doc/kde4/HTML/en/common/lgpl-license.html
 usr/share/doc/kde4/HTML/en/common/mainfooter.html
@@ -50,6 +61,9 @@ usr/share/doc/kde4/HTML/en/common/top.jpg
 usr/share/doc/kde4/HTML/en/common/top-kde.jpg
 usr/share/doc/kde4/HTML/en/common/top-left.jpg
 usr/share/doc/kde4/HTML/en/common/top-right.jpg
+usr/share/doc/kde4/HTML/en/common/top-left.png
+usr/share/doc/kde4/HTML/en/common/top-middle.png
+usr/share/doc/kde4/HTML/en/common/top-right-konqueror.png
 usr/share/doc/kde4/HTML/en/common/x11-license.html
 usr/share/doc/kde4/HTML/en/common/xml.dcl
 usr/share/doc/kde4/HTML/en/sonnet/index.cache.bz2
