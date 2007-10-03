@@ -13,7 +13,6 @@ usr/lib/libkaudiodevicelist.so
 usr/lib/libkde3support.so
 usr/lib/libkdecore.so
 usr/lib/libkdefakes.so
-usr/lib/libkdefx.so
 usr/lib/libkdeprint.so
 usr/lib/libkdeprint_management.so
 usr/lib/libkdesu.so
@@ -40,7 +39,6 @@ usr/lib/libphonon.so
 usr/lib/libphononexperimental.so
 usr/lib/libsolid.so
 usr/lib/libthreadweaver.so
-usr/lib/libnepomuk-middleware.so
 usr/lib/libnepomuk.so
 
 usr/lib/kde4/cmake/KDE4Config.cmake
@@ -79,7 +77,6 @@ usr/share/kde4/apps/cmake/modules/FindKopete.cmake
 usr/share/kde4/apps/cmake/modules/FindKorundum.cmake
 usr/share/kde4/apps/cmake/modules/FindLibArt.cmake
 usr/share/kde4/apps/cmake/modules/FindLibintl.cmake
-usr/share/kde4/apps/cmake/modules/FindLibraryEx.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXml2.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXslt.cmake
 usr/share/kde4/apps/cmake/modules/FindLinuxWirelesstools.cmake

@@ -75,8 +75,6 @@ usr/lib/libkdecore.so.5.0.0
 usr/lib/libkdefakes.so.5
 usr/lib/libkdefakes.so.5.0.0
 
-usr/lib/libkdefx.so.5
-usr/lib/libkdefx.so.5.0.0
 
 usr/lib/libkdeprint.so.5
 usr/lib/libkdeprint.so.5.0.0
@@ -153,8 +151,6 @@ usr/lib/libkutils.so.4.0.0
 usr/lib/libkwalletbackend.so.4
 usr/lib/libkwalletbackend.so.4.0.0
 
-usr/lib/libnepomuk-middleware.so.4
-usr/lib/libnepomuk-middleware.so.4.0.0
 
 usr/lib/libnepomuk.so.4
 usr/lib/libnepomuk.so.4.0.0
