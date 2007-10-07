@@ -54,7 +54,7 @@ usr/lib/kde4/libkfilemodule.so
 usr/lib/kde4/libkhtmlpart.so
 usr/lib/kde4/libkmultipart.so
 usr/lib/kde4/notepadpart.so
-usr/lib/kde4/phonon_fake.so
+usr/lib/kde4/plugins/designer/kdewidgets.so
 usr/lib/kde4/plugins/imageformats/kimg_dds.so
 usr/lib/kde4/plugins/imageformats/kimg_eps.so
 usr/lib/kde4/plugins/imageformats/kimg_exr.so

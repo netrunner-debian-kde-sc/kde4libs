@@ -9,7 +9,7 @@ etc/kde4/ksslcalist
 etc/kde4/accept-languages.codes
 etc/kde4/ui/kprintpreviewui.rc
 etc/kde4/ui/ui_standards.rc
-etc/xdg/menus/applications.menu.kde4
+etc/xdg/menus/applications.menu
 
 usr/share/dbus-1/interfaces/org.kde.KdedGlobalAccel.xml
 usr/share/dbus-1/interfaces/org.kde.KCookieServer.xml
@@ -66,7 +66,6 @@ usr/share/doc/kde4/HTML/en/common/top-middle.png
 usr/share/doc/kde4/HTML/en/common/top-right-konqueror.png
 usr/share/doc/kde4/HTML/en/common/x11-license.html
 usr/share/doc/kde4/HTML/en/common/xml.dcl
-usr/share/doc/kde4/HTML/en/sonnet/index.cache.bz2
 usr/share/doc/kde4/HTML/en/sonnet/index.docbook
 
 usr/share/icons/hicolor/16x16/actions/presence_away.png
@@ -1924,7 +1923,6 @@ usr/share/kde4/services/metainfo.protocol
 usr/share/kde4/services/mms.protocol
 usr/share/kde4/services/mmst.protocol
 usr/share/kde4/services/mmsu.protocol
-usr/share/kde4/services/phononbackends/fake.desktop
 usr/share/kde4/services/pnm.protocol
 usr/share/kde4/services/qimageioplugins/bmp.desktop
 usr/share/kde4/services/qimageioplugins/dds.desktop
