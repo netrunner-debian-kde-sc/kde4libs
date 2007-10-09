@@ -9,7 +9,7 @@ etc/kde4/ksslcalist
 etc/kde4/accept-languages.codes
 etc/kde4/ui/kprintpreviewui.rc
 etc/kde4/ui/ui_standards.rc
-etc/xdg/menus/applications.menu
+etc/xdg/menus/applications.menu.kde4
 
 usr/share/dbus-1/interfaces/org.kde.KdedGlobalAccel.xml
 usr/share/dbus-1/interfaces/org.kde.KCookieServer.xml

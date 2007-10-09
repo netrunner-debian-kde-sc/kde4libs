@@ -54,7 +54,6 @@ usr/lib/kde4/libkfilemodule.so
 usr/lib/kde4/libkhtmlpart.so
 usr/lib/kde4/libkmultipart.so
 usr/lib/kde4/notepadpart.so
-usr/lib/kde4/plugins/designer/kdewidgets.so
 usr/lib/kde4/plugins/imageformats/kimg_dds.so
 usr/lib/kde4/plugins/imageformats/kimg_eps.so
 usr/lib/kde4/plugins/imageformats/kimg_exr.so
@@ -68,6 +67,8 @@ usr/lib/kde4/plugins/imageformats/kimg_xcf.so
 usr/lib/kde4/plugins/imageformats/kimg_xview.so
 usr/lib/kde4/plugins/phonon_platform/kde.so
 usr/lib/kde4/spellcheckplugin.so
+
+usr/lib/qt4/plugins/designer/kdewidgets.so
 
 usr/lib/libkdecore.so.5
 usr/lib/libkdecore.so.5.0.0
