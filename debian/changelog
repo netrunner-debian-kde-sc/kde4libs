@@ -12,6 +12,10 @@ kde4libs (4:3.94.0-1) UNRELEASED; urgency=low
   * Update patches.
   * Depend on up to date libsoprano.
 
+  +++ Changes by Sune Vuorela
+
+  * kjscmd also exists in kjscmd from kdebindings. Adding conflict.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Oct 2007 20:09:26 +0200
 
 kde4libs (4:3.93.0-1) experimental; urgency=low

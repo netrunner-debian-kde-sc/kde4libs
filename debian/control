@@ -68,6 +68,7 @@ Description: developer documentation for the KDE 4 beta core libraries
 Package: kdelibs-bin
 Architecture: any
 Depends: ${shlibs:Depends}
+Conflicts: kjscmd
 Description: binaries for all the KDE 4 beta core applications
  This package contains all the common core binaries used by all KDE 4
  applications.
