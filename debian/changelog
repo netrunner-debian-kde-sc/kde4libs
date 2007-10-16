@@ -1,6 +1,6 @@
-kde4libs (4:3.94.0-1) UNRELEASED; urgency=low
+kde4libs (4:3.94.0-1) experimental; urgency=low
 
-  * KDE4 beta3
+  * KDE4 beta3.
 
   +++ Changes by Armin Berres:
 
@@ -12,7 +12,7 @@ kde4libs (4:3.94.0-1) UNRELEASED; urgency=low
   * Update patches.
   * Depend on up to date libsoprano.
 
-  +++ Changes by Sune Vuorela
+  +++ Changes by Sune Vuorela:
 
   * kjscmd also exists in kjscmd from kdebindings. Adding conflict.
 
