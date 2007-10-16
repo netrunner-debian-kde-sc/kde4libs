@@ -2,7 +2,7 @@ Source: kde4libs
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>, Armin Berres <trigger+debian@space-based.de>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, shared-mime-info,
  libasound2-dev, libcupsys2-dev, libdbus-1-dev, libkeyutils-dev, libqt4-dev,
  libsoprano-dev (>= 1.93.0~svn720955-1), libstreamanalyzer-dev (>= 0.5.3),
