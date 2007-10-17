@@ -11,12 +11,13 @@ kde4libs (4:3.94.0-1) experimental; urgency=low
     being usable with "debian/rules list-missing".
   * Update patches.
   * Depend on up to date libsoprano.
+  * Conflict with libpulse0 for preventing crashes.
 
   +++ Changes by Sune Vuorela:
 
   * kjscmd also exists in kjscmd from kdebindings. Adding conflict.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Oct 2007 20:09:26 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Oct 2007 12:03:22 +0200
 
 kde4libs (4:3.93.0-1) experimental; urgency=low
 
