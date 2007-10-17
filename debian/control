@@ -27,7 +27,7 @@ Package: kdelibs5
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
- kdelibs-bin(>= ${binary:Version}), xbase-clients, shared-mime-info,
+ kdelibs-bin(>= ${binary:Version}), kde-icons-oxygen (>= ${source:Version}), xbase-clients, shared-mime-info,
  hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd
 Conflicts: libpulse0
 Description: core libraries for all KDE 4 beta applications
@@ -42,7 +42,7 @@ Section: libdevel
 Architecture: any
 Depends: kdelibs5 (= ${binary:Version}), shared-mime-info,
  libasound2-dev, libcupsys2-dev, libdbus-1-dev, libkeyutils-dev, libqt4-dev,
- libsoprano-dev (>= 1.93.0~svn720955-1), libstreamanalyzer-dev, libxml2-dev,
+ libsoprano-dev (>= 1.95.0~beta2-1), libstreamanalyzer-dev, libxml2-dev,
  libxml2-utils, libxslt1-dev, libxtst-dev, libungif4-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, xsltproc
