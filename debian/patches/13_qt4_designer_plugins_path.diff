@@ -1,5 +1,5 @@
---- kdelibs-3.92.0.orig/kdewidgets/CMakeLists.txt
-+++ kdelibs-3.92.0/kdewidgets/CMakeLists.txt
+--- a/kdewidgets/CMakeLists.txt
++++ b/kdewidgets/CMakeLists.txt
 @@ -48,7 +48,7 @@
  target_link_libraries(kdewidgets  ${KDE4_KIO_LIBS} kde3support)
  set_target_properties(kdewidgets PROPERTIES INSTALL_RPATH_USE_LINK_PATH TRUE  SKIP_BUILD_RPATH TRUE BUILD_WITH_INSTALL_RPATH TRUE INSTALL_RPATH ${LIB_INSTALL_DIR})
