@@ -60,6 +60,7 @@ usr/share/doc/kde4/HTML/en/common/top.jpg
 usr/share/doc/kde4/HTML/en/common/x11-license.html
 usr/share/doc/kde4/HTML/en/common/xml.dcl
 usr/share/doc/kde4/HTML/en/sonnet/index.docbook
+usr/share/doc/kde4/HTML/en/sonnet/index.cache.bz2
 usr/share/icons/hicolor/16x16/actions/presence_away.png
 usr/share/icons/hicolor/16x16/actions/presence_offline.png
 usr/share/icons/hicolor/16x16/actions/presence_online.png
@@ -82,6 +83,7 @@ usr/share/kde4/apps/katepart/jscript/lisp.js
 usr/share/kde4/apps/katepart/jscript/sort.js
 usr/share/kde4/apps/katepart/katepartreadonlyui.rc
 usr/share/kde4/apps/katepart/katepartui.rc
+usr/share/kde4/apps/katepart/syntax/abap.xml
 usr/share/kde4/apps/katepart/syntax/abc.xml
 usr/share/kde4/apps/katepart/syntax/actionscript.xml
 usr/share/kde4/apps/katepart/syntax/ada.xml
@@ -119,9 +121,11 @@ usr/share/kde4/apps/katepart/syntax/desktop.xml
 usr/share/kde4/apps/katepart/syntax/diff.xml
 usr/share/kde4/apps/katepart/syntax/djangotemplate.xml
 usr/share/kde4/apps/katepart/syntax/doxygen.xml
+usr/share/kde4/apps/katepart/syntax/dtd.xml
 usr/share/kde4/apps/katepart/syntax/e.xml
 usr/share/kde4/apps/katepart/syntax/eiffel.xml
 usr/share/kde4/apps/katepart/syntax/email.xml
+usr/share/kde4/apps/katepart/syntax/erlang.xml
 usr/share/kde4/apps/katepart/syntax/euphoria.xml
 usr/share/kde4/apps/katepart/syntax/ferite.xml
 usr/share/kde4/apps/katepart/syntax/fgl-4gl.xml
@@ -145,6 +149,7 @@ usr/share/kde4/apps/katepart/syntax/java.xml
 usr/share/kde4/apps/katepart/syntax/javadoc.xml
 usr/share/kde4/apps/katepart/syntax/javascript-php.xml
 usr/share/kde4/apps/katepart/syntax/javascript.xml
+usr/share/kde4/apps/katepart/syntax/json.xml
 usr/share/kde4/apps/katepart/syntax/jsp.xml
 usr/share/kde4/apps/katepart/syntax/kbasic.xml
 usr/share/kde4/apps/katepart/syntax/language.dtd
@@ -169,6 +174,7 @@ usr/share/kde4/apps/katepart/syntax/monobasic.xml
 usr/share/kde4/apps/katepart/syntax/mup.xml
 usr/share/kde4/apps/katepart/syntax/nasm.xml
 usr/share/kde4/apps/katepart/syntax/nemerle.xml
+usr/share/kde4/apps/katepart/syntax/noweb.xml
 usr/share/kde4/apps/katepart/syntax/objectivec.xml
 usr/share/kde4/apps/katepart/syntax/objectivecpp.xml
 usr/share/kde4/apps/katepart/syntax/ocaml.xml
@@ -195,6 +201,7 @@ usr/share/kde4/apps/katepart/syntax/rpmspec.xml
 usr/share/kde4/apps/katepart/syntax/rsiidl.xml
 usr/share/kde4/apps/katepart/syntax/ruby.xml
 usr/share/kde4/apps/katepart/syntax/sather.xml
+usr/share/kde4/apps/katepart/syntax/scala.xml
 usr/share/kde4/apps/katepart/syntax/scheme.xml
 usr/share/kde4/apps/katepart/syntax/sci.xml
 usr/share/kde4/apps/katepart/syntax/sgml.xml

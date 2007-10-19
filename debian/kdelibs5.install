@@ -76,7 +76,6 @@ usr/lib/libkdecore.so.5.0.0
 usr/lib/libkdefakes.so.5
 usr/lib/libkdefakes.so.5.0.0
 
-
 usr/lib/libkdeprint.so.5
 usr/lib/libkdeprint.so.5.0.0
 
@@ -133,6 +132,9 @@ usr/lib/libkntlm.so.4.0.0
 
 usr/lib/libkparts.so.4
 usr/lib/libkparts.so.4.0.0
+
+usr/lib/libkpty.so.4
+usr/lib/libkpty.so.4.0.0
 
 usr/lib/libkrosscore.so.4
 usr/lib/libkrosscore.so.4.0.0

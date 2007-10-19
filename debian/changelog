@@ -1,6 +1,8 @@
 kde4libs (4:3.94.0-2) experimental; urgency=low
 
-  * svn branch pull to r726725.
+  +++ Changes by Fathi Boudra:
+
+  * Pull SVN branch to r726725.
 
   +++ Changes by Armin Berres:
 
@@ -8,6 +10,10 @@ kde4libs (4:3.94.0-2) experimental; urgency=low
   * Make kdelibs5-dev depend on recent soprano.
   * Add dependency of kdelibs5 on kde-icons-oxygen. It is needed by nearly
     every KDE4 application.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Update *.install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 20:56:22 +0200
 

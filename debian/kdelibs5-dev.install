@@ -28,6 +28,7 @@ usr/lib/libknewstuff2.so
 usr/lib/libknotifyconfig.so
 usr/lib/libkntlm.so
 usr/lib/libkparts.so
+usr/lib/libkpty.so
 usr/lib/libkrosscore.so
 usr/lib/libkrossui.so
 usr/lib/libktexteditor.so
