@@ -82,7 +82,7 @@ Package: kdelibs-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs5 (= ${binary:Version}), qt-x11-free-dbg, libc6-dbg [amd64]
+Depends: kdelibs5 (= ${binary:Version}), libqt4-debug, libc6-dbg [amd64]
 Description: debugging symbols for kdelibs
  This package contains the debugging symbols associated with kdelibs.
  They will automatically be used by gdb for debugging kdelibs-related
