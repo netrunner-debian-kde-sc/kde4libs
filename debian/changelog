@@ -1,3 +1,10 @@
+kde4libs (4:3.94.0-3) experimental; urgency=low
+
+  * Lower the dependency on kde-icons-oxygen to a recommends. Otherwise we
+    have a circular dependency when building the packages.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 19 Oct 2007 14:30:35 +0200
+
 kde4libs (4:3.94.0-2) experimental; urgency=low
 
   +++ Changes by Fathi Boudra:
