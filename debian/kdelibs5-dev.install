@@ -7,13 +7,10 @@ usr/bin/preparetips
 usr/include/*
 
 
-usr/lib/libcupsdconf.so
 usr/lib/libkaudiodevicelist.so
 usr/lib/libkde3support.so
 usr/lib/libkdecore.so
 usr/lib/libkdefakes.so
-usr/lib/libkdeprint.so
-usr/lib/libkdeprint_management.so
 usr/lib/libkdesu.so
 usr/lib/libkdeui.so
 usr/lib/libkdnssd.so
@@ -54,7 +51,6 @@ usr/share/kde4/apps/cmake/modules/FindAvahi.cmake
 usr/share/kde4/apps/cmake/modules/FindBerkeleyDB.cmake
 usr/share/kde4/apps/cmake/modules/FindBlitz.cmake
 usr/share/kde4/apps/cmake/modules/FindCarbon.cmake
-usr/share/kde4/apps/cmake/modules/FindCups.cmake
 usr/share/kde4/apps/cmake/modules/FindDNSSD.cmake
 usr/share/kde4/apps/cmake/modules/FindENCHANT.cmake
 usr/share/kde4/apps/cmake/modules/FindEigen.cmake

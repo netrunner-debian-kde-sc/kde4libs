@@ -4,17 +4,11 @@ usr/lib/kde4/kcm_crypto.so
 usr/lib/kde4/kcm_phonon.so
 usr/lib/kde4/kded_globalaccel.so
 usr/lib/kde4/kded_kcookiejar.so
-usr/lib/kde4/kded_kdeprintd.so
 usr/lib/kde4/kded_kssld.so
 usr/lib/kde4/kded_kwalletd.so
 usr/lib/kde4/kded_proxyscout.so
-usr/lib/kde4/kdeprint_cups.so
-usr/lib/kde4/kdeprint_ext.so
-usr/lib/kde4/kdeprint_lpdunix.so
-usr/lib/kde4/kdeprint_lpr.so
-usr/lib/kde4/kdeprint_rlpr.so
-usr/lib/kde4/kdeprint_tool_escputil.so
 usr/lib/kde4/kfileaudiopreview.so
+usr/lib/kde4/khtmladaptorpart.so
 usr/lib/kde4/khtmlimagepart.so
 usr/lib/kde4/kio_file.so
 usr/lib/kde4/kio_ftp.so
@@ -37,8 +31,6 @@ usr/lib/kde4/libexec/kgrantpty
 usr/lib/kde4/libexec/kmailservice
 usr/lib/kde4/libexec/ktelnetservice
 usr/lib/kde4/libexec/lnusertemp
-usr/lib/kde4/libexec/cupsdoprint
-usr/lib/kde4/libexec/kaddprinterwizard
 usr/lib/kde4/libexec/kconf_update
 usr/lib/kde4/libexec/kdesu_stub
 usr/lib/kde4/libexec/kdontchangethehostname
@@ -47,9 +39,6 @@ usr/lib/kde4/libexec/kioslave
 usr/lib/kde4/libexec/klauncher
 usr/lib/kde4/libexec/kpac_dhcp_helper
 usr/lib/kde4/libexec/ksendbugmail
-usr/lib/kde4/libexec/make_driver_db_cups
-usr/lib/kde4/libexec/make_driver_db_lpr
-usr/lib/kde4/libkdeprint_management_module.so
 usr/lib/kde4/libkfilemodule.so
 usr/lib/kde4/libkhtmlpart.so
 usr/lib/kde4/libkmultipart.so
@@ -76,8 +65,6 @@ usr/lib/libkdecore.so.5.0.0
 usr/lib/libkdefakes.so.5
 usr/lib/libkdefakes.so.5.0.0
 
-usr/lib/libkdeprint.so.5
-usr/lib/libkdeprint.so.5.0.0
 
 usr/lib/libkdesu.so.5
 usr/lib/libkdesu.so.5.0.0
@@ -91,8 +78,6 @@ usr/lib/libkhtml.so.5.0.0
 usr/lib/libkio.so.5
 usr/lib/libkio.so.5.0.0
 
-usr/lib/libcupsdconf.so.4
-usr/lib/libcupsdconf.so.4.0.0
 
 usr/lib/libkaudiodevicelist.so.4
 usr/lib/libkaudiodevicelist.so.4.0.0
@@ -100,8 +85,6 @@ usr/lib/libkaudiodevicelist.so.4.0.0
 usr/lib/libkde3support.so.4
 usr/lib/libkde3support.so.4.0.0
 
-usr/lib/libkdeprint_management.so.5
-usr/lib/libkdeprint_management.so.5.0.0
 
 usr/lib/libkdnssd.so.4
 usr/lib/libkdnssd.so.4.0.0
