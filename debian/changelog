@@ -1,16 +1,12 @@
-kde4libs (4:3.94.0-3) experimental; urgency=low
+kde4libs (4:3.95.0-1) experimental; urgency=low
 
-
-  +++ Changes by Fathi Boudra:
-
-  * Pull SVN branch to r729265.
+  * New upstream release: KDE4 beta 4.
 
   +++ Changes by Armin Berres:
 
   * Lower the dependency on kde-icons-oxygen to a recommends. Otherwise we
     have a circular dependency when building the packages.
-
-  * Update *.install files for the branch pull.
+  * Update *.install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Oct 2007 14:47:24 +0200
 
