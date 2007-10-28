@@ -30,7 +30,6 @@ Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
  kdelibs-bin(>= ${binary:Version}), xbase-clients, shared-mime-info,
  hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd
 Recommends: kde-icons-oxygen (>= ${source:Version})
-Conflicts: libpulse0
 Description: core libraries for all KDE 4 beta applications
  This package contains all the shared libraries. You need these libraries to
  run KDE applications.
