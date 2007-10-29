@@ -8,13 +8,11 @@ kde4libs (4:3.95.0-1) experimental; urgency=low
 
   +++ Changes by Armin Berres:
 
-  * Lower the dependency on kde-icons-oxygen to a recommends. Otherwise we
-    have a circular dependency when building the packages.
   * Update *.install files.
 
   +++ Changes by Sune Vuorela:
 
-  * Leet shlibs hacking
+  * Leet shlibs hacking.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Oct 2007 14:47:24 +0200
 
