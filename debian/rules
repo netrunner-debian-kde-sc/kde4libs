@@ -2,7 +2,7 @@
 
 RUNTIME_DEPS := "kde-icons-oxygen, kdebase-runtime-bin, kdebase-runtime-data"
 CURRENTVERSION := $(shell head -1 debian/changelog  | sed 's/[^(]*(\([^)]*\)).*/\1/')
-DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(CURRENTVERSION))'  #In general we shouldn't bump on each upload, but in the beta cycles,
+DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(CURRENTVERSION)), $(RUNTIME_DEPS)'  #In general we shouldn't bump on each upload, but in the beta cycles,
                                                                         #it is probably good. Else on upstream versions it is probably a good thing.
 
 include debian/cdbs/kde.mk
@@ -10,6 +10,6 @@ include debian/cdbs/kde.mk
 # Generate shlibs local files
 $(patsubst %,binary-fixup/%,$(DEB_ALL_PACKAGES)) :: binary-fixup/%: binary-strip/%
         if test -e debian/$(cdbs_curpkg)/DEBIAN/shlibs ; then \
-                sed 's/>=[^)]*/= $(CURRENTVERSION), $(RUNTIME_DEPS)/' debian/$(cdbs_curpkg)/DEBIAN/shlibs >> debian/shlibs.local ;\
+                sed 's/>=[^)]*/= $(CURRENTVERSION)/;s/, $(RUNTIME_DEPS)//' debian/$(cdbs_curpkg)/DEBIAN/shlibs >> debian/shlibs.local ;\
         fi
 
