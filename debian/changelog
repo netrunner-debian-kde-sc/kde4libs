@@ -5,6 +5,7 @@ kde4libs (4:3.95.0-1) experimental; urgency=low
   +++ Changes by Fathi Boudra:
 
   * Remove libpulse0 conflict. It was a temporary workaround.
+  * Remove 11_applications_menu patch.
 
   +++ Changes by Armin Berres:
 

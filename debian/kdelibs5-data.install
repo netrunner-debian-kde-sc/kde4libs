@@ -8,7 +8,7 @@ etc/kde4/kdebug.areas
 etc/kde4/kdebugrc
 etc/kde4/ksslcalist
 etc/kde4/ui/ui_standards.rc
-etc/xdg/menus/applications.menu.kde4
+etc/xdg/menus/applications.menu
 usr/share/dbus-1/interfaces/org.kde.KCookieServer.xml
 usr/share/dbus-1/interfaces/org.kde.KDirNotify.xml
 usr/share/dbus-1/interfaces/org.kde.KHTMLPart.xml
