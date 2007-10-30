@@ -5,7 +5,8 @@ kde4libs (4:3.95.0-1) experimental; urgency=low
   +++ Changes by Fathi Boudra:
 
   * Remove libpulse0 conflict. It was a temporary workaround.
-  * Remove 11_applications_menu patch.
+  * Update 11_applications_menu patch. We must keep the extension unchanged.
+  * Add 12_deprecate_applnk patch. We use /usr/share/applications in any case.
 
   +++ Changes by Armin Berres:
 
