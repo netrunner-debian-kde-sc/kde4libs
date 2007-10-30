@@ -8,8 +8,6 @@ DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(CURRENTVERSION)), $(RUNTIME
 include debian/cdbs/kde.mk
 
 # Generate shlibs local files
-$(patsubst %,binary-fixup/%,$(DEB_ALL_PACKAGES)) :: binary-fixup/%: binary-strip/%
-        if test -e debian/$(cdbs_curpkg)/DEBIAN/shlibs ; then \
-                sed 's/>=[^)]*/= $(CURRENTVERSION)/;s/, $(RUNTIME_DEPS)//' debian/$(cdbs_curpkg)/DEBIAN/shlibs >> debian/shlibs.local ;\
-        fi
+common-binary-fixup-arch :: 
+	sed 's/>=[^)]*/= $(CURRENTVERSION)/;s/, $(RUNTIME_DEPS)//' debian/kdelibs5/DEBIAN/shlibs >> debian/shlibs.local ;\
 
