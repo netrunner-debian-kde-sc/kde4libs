@@ -1,0 +1,8 @@
+--- a/config-prefix.h.cmake
++++ b/config-prefix.h.cmake
+@@ -35,4 +35,4 @@
+ #define SYSCONF_INSTALL_DIR "${SYSCONF_INSTALL_DIR}"
+ 
+ /* Only used by KStandardDirs */
+-#define APPLNK_INSTALL_DIR "${SHARE_INSTALL_PREFIX}/applnk"
++#define APPLNK_INSTALL_DIR "${SHARE_INSTALL_PREFIX}/applications"
