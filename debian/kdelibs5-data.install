@@ -7,8 +7,10 @@ etc/kde4/colors/Web.colors
 etc/kde4/kdebug.areas
 etc/kde4/kdebugrc
 etc/kde4/ksslcalist
+etc/kde4/kdxspreviewrc
 etc/kde4/ui/ui_standards.rc
 etc/xdg/menus/kde4-applications.menu
+usr/share/dbus-1/interfaces/org.kde.kded.xml
 usr/share/dbus-1/interfaces/org.kde.KCookieServer.xml
 usr/share/dbus-1/interfaces/org.kde.KDirNotify.xml
 usr/share/dbus-1/interfaces/org.kde.KHTMLPart.xml
@@ -1785,7 +1787,6 @@ usr/share/kde4/services/kcertpart.desktop
 usr/share/kde4/services/kcm_phonon.desktop
 usr/share/kde4/services/kded/kcookiejar.desktop
 usr/share/kde4/services/kded/kdedglobalaccel.desktop
-usr/share/kde4/services/kded/kpasswdserver.desktop
 usr/share/kde4/services/kded/kssld.desktop
 usr/share/kde4/services/kded/kwalletd.desktop
 usr/share/kde4/services/kded/proxyscout.desktop

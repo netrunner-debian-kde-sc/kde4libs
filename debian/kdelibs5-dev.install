@@ -90,6 +90,7 @@ usr/share/kde4/apps/cmake/modules/FindPlasma.cmake
 usr/share/kde4/apps/cmake/modules/FindPopplerQt4.cmake
 usr/share/kde4/apps/cmake/modules/FindPostgreSQL.cmake
 usr/share/kde4/apps/cmake/modules/FindQCA2.cmake
+usr/share/kde4/apps/cmake/modules/FindQImageBlitz.cmake
 usr/share/kde4/apps/cmake/modules/FindQt4.cmake
 usr/share/kde4/apps/cmake/modules/FindRUBY.cmake
 usr/share/kde4/apps/cmake/modules/FindSane.cmake
