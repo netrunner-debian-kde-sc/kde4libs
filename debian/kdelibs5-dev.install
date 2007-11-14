@@ -40,6 +40,7 @@ usr/lib/libnepomuk.so
 
 usr/lib/kde4/cmake/KDE4Config.cmake
 
+
 usr/share/kde4/apps/cmake/modules/CheckPointerMember.cmake
 usr/share/kde4/apps/cmake/modules/CheckPrototypeExists.cmake
 usr/share/kde4/apps/cmake/modules/CheckStructMember.cmake
@@ -55,6 +56,8 @@ usr/share/kde4/apps/cmake/modules/FindDNSSD.cmake
 usr/share/kde4/apps/cmake/modules/FindENCHANT.cmake
 usr/share/kde4/apps/cmake/modules/FindEigen.cmake
 usr/share/kde4/apps/cmake/modules/FindFAM.cmake
+usr/share/kde4/apps/cmake/modules/FindFFmpeg.cmake
+usr/share/kde4/apps/cmake/modules/FindFlac.cmake
 usr/share/kde4/apps/cmake/modules/FindFlex.cmake
 usr/share/kde4/apps/cmake/modules/FindFontconfig.cmake
 usr/share/kde4/apps/cmake/modules/FindFreetype.cmake
@@ -80,6 +83,7 @@ usr/share/kde4/apps/cmake/modules/FindLinuxWirelesstools.cmake
 usr/share/kde4/apps/cmake/modules/FindMsgfmt.cmake
 usr/share/kde4/apps/cmake/modules/FindMusicBrainz.cmake
 usr/share/kde4/apps/cmake/modules/FindMySQL.cmake
+usr/share/kde4/apps/cmake/modules/FindOggVorbis.cmake
 usr/share/kde4/apps/cmake/modules/FindOpenEXR.cmake
 usr/share/kde4/apps/cmake/modules/FindOpenSSL.cmake
 usr/share/kde4/apps/cmake/modules/FindPackageHandleStandardArgs.cmake
