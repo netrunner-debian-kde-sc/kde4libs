@@ -9,7 +9,7 @@ Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, shared-mime-info,
  libxml2-dev, libxml2-utils,  libxslt1-dev, libxtst-dev, libungif4-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
-Standards-Version: 3.7.2
+Standards-Version: 3.7.3
 
 Package: kdelibs5-data
 Section: libs
