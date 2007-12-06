@@ -3,6 +3,8 @@ kde4libs (4:3.97.0-1) experimental; urgency=low
   * New upstream release.
   * Update *.install files.
   * Update Standards-Version to 3.7.2.
+  * Remove README.Debian, packages are stable now.
+  * Update package descriptions, remove referencies to beta status.
   * TODO (maybe): kfreebsd support.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Dec 2007 02:21:24 +0100

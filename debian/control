@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>, Armin Berres <trigger+debian@space-based.de>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, shared-mime-info,
  libasound2-dev, libcupsys2-dev, libdbus-1-dev, libkeyutils-dev, libqt4-dev,
- libsoprano-dev (>= 1.97.0~beta4-1), libstreamanalyzer-dev (>= 0.5.7),
+ libsoprano-dev (>= 1.98.0~rc1-1), libstreamanalyzer-dev (>= 0.5.7),
  libxml2-dev, libxml2-utils,  libxslt1-dev, libxtst-dev, libungif4-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
@@ -15,7 +15,7 @@ Package: kdelibs5-data
 Section: libs
 Architecture: all
 Depends: hicolor-icon-theme
-Description: core shared data for all KDE 4 beta applications
+Description: core shared data for all KDE 4 applications
  This package contains all the architecture independent data files
  commonly used by KDE applications. You need these data files to run
  KDE applications.
@@ -29,7 +29,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
  kdelibs-bin(>= ${binary:Version}), xbase-clients, shared-mime-info,
  hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd
-Description: core libraries for all KDE 4 beta applications
+Description: core libraries for all KDE 4 applications
  This package contains all the shared libraries. You need these libraries to
  run KDE applications.
  .
@@ -41,12 +41,12 @@ Section: libdevel
 Architecture: any
 Depends: kdelibs5 (= ${binary:Version}), shared-mime-info,
  libasound2-dev, libcupsys2-dev, libdbus-1-dev, libkeyutils-dev, libqt4-dev,
- libsoprano-dev (>= 1.97.0~beta4-1), libstreamanalyzer-dev (>= 0.5.7),
+ libsoprano-dev (>= 1.98.0~rc1-1), libstreamanalyzer-dev (>= 0.5.7),
  libxml2-dev, libxml2-utils, libxslt1-dev, libxtst-dev, libungif4-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
 Conflicts: kdelibs4-dev
-Description: development files for the KDE 4 beta core libraries
+Description: development files for the KDE 4 core libraries
  This package contains all the headers and other related files needed
  to compile KDE applications, or develop applications which use the
  core KDE libraries.
@@ -58,7 +58,7 @@ Package: kdelibs5-doc
 Section: doc
 Architecture: all
 Provides: kdelibs-doc
-Description: developer documentation for the KDE 4 beta core libraries
+Description: developer documentation for the KDE 4 core libraries
  This package contains documentation for the core KDE libraries, of
  use more for developers creating applications which use the core
  KDE libraries, than regular users.
@@ -70,7 +70,7 @@ Package: kdelibs-bin
 Architecture: any
 Depends: ${shlibs:Depends}
 Conflicts: kjscmd
-Description: binaries for all the KDE 4 beta core applications
+Description: binaries for all the KDE 4 core applications
  This package contains all the common core binaries used by all KDE 4
  applications.
  .
