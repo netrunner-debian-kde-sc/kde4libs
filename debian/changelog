@@ -5,10 +5,13 @@ kde4libs (4:3.97.0-1) experimental; urgency=low
   * Update Standards-Version to 3.7.2.
   * Remove README.Debian, packages are stable now.
   * Update package descriptions, remove referencies to beta status.
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
+    happier.
+
   * TODO (maybe): kfreebsd support.
   * TODO: demote hal to Suggest, see mornfall's mail in -talk
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Dec 2007 02:21:24 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 07 Dec 2007 16:26:15 +0100
 
 kde4libs (4:3.96.0-1) experimental; urgency=low
 
