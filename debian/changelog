@@ -7,10 +7,10 @@ kde4libs (4:3.97.0-1) experimental; urgency=low
   * Update package descriptions, remove referencies to beta status.
   * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
     happier.
-  * Do not build depend on libasound2-dev and libkeyutils-dev in the arches
+  * Do not build depend on libasound2-dev and libkeyutils-dev in the archs
     they do not exist.
   * Move Depends on hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd, 
-    to Recommends.
+    to Recommends. (Closes: #452255)
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 09 Dec 2007 14:29:38 +0100
 
