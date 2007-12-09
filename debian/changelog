@@ -9,10 +9,11 @@ kde4libs (4:3.97.0-1) experimental; urgency=low
     happier.
   * Do not build depend on libasound2-dev and libkeyutils-dev in the archs
     they do not exist.
-  * Move Depends on hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd, 
+  * Move Depends on hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd,
     to Recommends. (Closes: #452255)
+  * Add lintian override for extra-license-file warnings in kdelibs5-data.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 09 Dec 2007 14:29:38 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 09 Dec 2007 15:47:28 +0100
 
 kde4libs (4:3.96.0-1) experimental; urgency=low
 
