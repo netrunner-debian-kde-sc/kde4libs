@@ -7,7 +7,7 @@ kde4libs (4:3.97.0-2) experimental; urgency=low
   * Add patch to hardcode /dev/ptmx as ptm device to work around broken
     build environments.
 
-  +++ changes by Ana Beatriz Guerrero Lopez:
+  +++ Changes by Ana Beatriz Guerrero Lopez:
   
   * Add patch for kfreebsd support.
 
