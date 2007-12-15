@@ -1,9 +1,17 @@
 kde4libs (4:3.97.0-2) experimental; urgency=low
 
+  * The "Pizza with Champagne" release.
+
+  +++ Changes by Armin Berres:
+
   * Add patch to hardcode /dev/ptmx as ptm device to work around broken
     build environments.
 
- -- Armin Berres <trigger+debian@space-based.de>  Sat, 15 Dec 2007 01:24:26 +0100
+  +++ changes by Ana Beatriz Guerrero Lopez:
+  
+  * Add patch for kfreebsd support.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 15 Dec 2007 03:31:22 +0100
 
 kde4libs (4:3.97.0-1) experimental; urgency=low
 

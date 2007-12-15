@@ -1,0 +1,94 @@
+--- kde4libs-3.96.0/kpty/kpty.cpp.orig	2007-11-28 03:19:29.000000000 +0100
++++ kde4libs-3.96.0/kpty/kpty.cpp	2007-11-28 03:23:53.000000000 +0100
+@@ -88,24 +88,24 @@
+ # include <utmp.h>
+ #endif
+ 
+-#if defined (__FreeBSD__) || defined (__NetBSD__) || defined (__OpenBSD__) || defined (__bsdi__) || defined(__APPLE__) || defined (__DragonFly__)
++#if defined(HAVE_TCGETATTR)
++# define _tcgetattr(fd, ttmode) tcgetattr(fd, ttmode)
++#elif defined(TIOCGETA)
+ # define _tcgetattr(fd, ttmode) ioctl(fd, TIOCGETA, (char *)ttmode)
++#elif defined(TCGETS)
++# define _tcgetattr(fd, ttmode) ioctl(fd, TCGETS, (char *)ttmode)
+ #else
+-# if defined(_HPUX_SOURCE) || defined(__Lynx__) || defined (__CYGWIN__)
+-#  define _tcgetattr(fd, ttmode) tcgetattr(fd, ttmode)
+-# else
+-#  define _tcgetattr(fd, ttmode) ioctl(fd, TCGETS, (char *)ttmode)
+-# endif
++# error
+ #endif
+ 
+-#if defined (__FreeBSD__) || defined (__NetBSD__) || defined (__OpenBSD__) || defined (__bsdi__) || defined(__APPLE__) || defined (__DragonFly__)
++#if defined(HAVE_TCSETATTR) && defined(TCSANOW)
++# define _tcsetattr(fd, ttmode) tcsetattr(fd, TCSANOW, ttmode)
++#elif defined(TIOCSETA)
+ # define _tcsetattr(fd, ttmode) ioctl(fd, TIOCSETA, (char *)ttmode)
++#elif defined(TCSETS)
++# define _tcsetattr(fd, ttmode) ioctl(fd, TCSETS, (char *)ttmode)
+ #else
+-# if defined(_HPUX_SOURCE) || defined(__CYGWIN__)
+-#  define _tcsetattr(fd, ttmode) tcsetattr(fd, TCSANOW, ttmode)
+-# else
+-#  define _tcsetattr(fd, ttmode) ioctl(fd, TCSETS, (char *)ttmode)
+-# endif
++# error
+ #endif
+ 
+ #if defined (_HPUX_SOURCE)
+--- kde4libs-3.96.0/kio/kfile/kpropertiesdialog.cpp.orig	2007-11-28 04:33:19.000000000 +0100
++++ kde4libs-3.96.0/kio/kfile/kpropertiesdialog.cpp	2007-11-28 05:16:12.000000000 +0100
+@@ -1916,7 +1916,15 @@
+     fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
+ #else
+     fileSystemSupportsACLs =
+-      getxattr( path.data(), "system.posix_acl_access", NULL, 0 ) >= 0 || errno == ENODATA;
++      getxattr( path.data(), "system.posix_acl_access", NULL, 0 ) >= 0
++#ifdef ENODATA
++           || (errno == ENODATA)
++#endif
++#ifdef ENOATTR
++           || (errno == ENOATTR)
++#endif
++           ;
++
+ #endif
+     return fileSystemSupportsACLs;
+ }
+--- kde4libs-3.96.0/kioslave/file/file.cpp.orig	2007-11-28 09:06:02.000000000 +0100
++++ kde4libs-3.96.0/kioslave/file/file.cpp	2007-11-28 09:07:29.000000000 +0100
+@@ -361,9 +361,10 @@
+     }
+ 
+ #ifdef HAVE_FADVISE
++#ifdef POSIX_FADV_SEQUENTIAL
+     posix_fadvise( fd, 0, 0, POSIX_FADV_SEQUENTIAL);
+ #endif
+-
++#endif
+     // Determine the mimetype of the file to be retrieved, and emit it.
+     // This is mandatory in all slaves (for KRun/BrowserRun to work)
+     // In real "remote" slaves, this is usually done using findByNameAndContent
+@@ -869,8 +870,10 @@
+     }
+ 
+ #ifdef HAVE_FADVISE
++#ifdef POSIX_FADV_SEQUENTIAL
+     posix_fadvise(src_fd,0,0,POSIX_FADV_SEQUENTIAL);
+ #endif
++#endif
+     // WABA: Make sure that we keep writing permissions ourselves,
+     // otherwise we can be in for a surprise on NFS.
+     mode_t initialMode;
+@@ -892,8 +895,10 @@
+     }
+ 
+ #ifdef HAVE_FADVISE
++#ifdef POSIX_FADV_SEQUENTIAL
+     posix_fadvise(dest_fd,0,0,POSIX_FADV_SEQUENTIAL);
+ #endif
++#endif
+ 
+ #ifdef HAVE_POSIX_ACL
+     acl = acl_get_fd(src_fd);
