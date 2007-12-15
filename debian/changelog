@@ -17,9 +17,9 @@ kde4libs (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release.
   * Update *.install files.
-  * Update Standards-Version to 3.7.2.
+  * Update Standards-Version to 3.7.3.
   * Remove README.Debian, packages are stable now.
-  * Update package descriptions, remove referencies to beta status.
+  * Update package descriptions, remove references to beta status.
   * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
     happier.
   * Do not build depend on libasound2-dev and libkeyutils-dev in the archs
