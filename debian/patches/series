@@ -2,3 +2,4 @@
 11_kde4_applications_menu.diff
 12_deprecate_applnk.diff
 13_qt4_designer_plugins_path.diff
+14_hardcode_ptm_device.diff
