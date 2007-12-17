@@ -1,3 +1,9 @@
+kde4libs (4:3.97.0-3) experimental; urgency=low
+
+  * Remove extra LDFLAGS. Included via CDBS now. 
+
+ -- Armin Berres <trigger+debian@space-based.de>  Mon, 17 Dec 2007 23:51:26 +0100
+
 kde4libs (4:3.97.0-2) experimental; urgency=low
 
   * The "Pizza with Champagne" release.

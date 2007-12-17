@@ -6,9 +6,6 @@ DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(CURRENTVERSION)), $(RUNTIME
 #In general we shouldn't bump on each upload, but in the beta cycles,
 #it is probably good. Else on upstream versions it is probably a good thing.
 
-
-export LDFLAGS+="-Wl,--as-needed"
-
 include debian/cdbs/kde.mk
 
 # Generate shlibs local files
