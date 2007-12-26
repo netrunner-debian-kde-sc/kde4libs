@@ -3,4 +3,4 @@
 12_deprecate_applnk.diff
 13_qt4_designer_plugins_path.diff
 14_hardcode_ptm_device.diff
-14_kfreebsd_support.diff
+15_kfreebsd_support.diff
