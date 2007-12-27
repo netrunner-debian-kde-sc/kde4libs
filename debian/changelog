@@ -1,6 +1,6 @@
-kde4libs (4:3.98.0~svn753150-1) experimental; urgency=low
+kde4libs (4:3.98.0~svn753247-1) experimental; urgency=low
 
-  * Svn snapshot of revision 753150.
+  * Svn snapshot of revision 753247.
   * Remove extra LDFLAGS. Included via CDBS now.
   * Update patches.
   * Update installed files.
