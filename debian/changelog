@@ -1,3 +1,11 @@
+kde4libs (4:3.98.0~svn753247-2) UNRELEASED; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * Build-dep on soprano >= 1.99~rc2-1. (Closes: #458334)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Dec 2007 22:32:07 +0100
+
 kde4libs (4:3.98.0~svn753247-1) experimental; urgency=low
 
   * Svn snapshot of revision 753247.
