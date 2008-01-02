@@ -108,10 +108,6 @@ usr/lib/libkwalletbackend.so.4
 usr/lib/libkwalletbackend.so.4.0.0
 usr/lib/libnepomuk.so.4
 usr/lib/libnepomuk.so.4.0.0
-usr/lib/libphononexperimental.so.4
-usr/lib/libphononexperimental.so.4.0.0
-usr/lib/libphonon.so.4
-usr/lib/libphonon.so.4.0.0
 usr/lib/libsolid.so.4
 usr/lib/libsolid.so.4.0.0
 usr/lib/libthreadweaver.so.4

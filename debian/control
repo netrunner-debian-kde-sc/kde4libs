@@ -88,3 +88,31 @@ Description: debugging symbols for kdelibs
  This package contains the debugging symbols associated with kdelibs.
  They will automatically be used by gdb for debugging kdelibs-related
  issues.
+
+Package: libphonon-dev
+Section: libdevel
+Architecture: any
+Depends: libphonon4 (= ${binary:Version})
+Replaces: kdelibs5-dev (<< 4:3.98.0~svn753247-2)
+Description: cross-platform multimedia framework (development)
+ Phonon is a cross-platform multimedia framework that enables the use of audio
+ and video content in Qt and KDE applications.
+ .
+ Current backends include Xine and GStreamer.
+ .
+ This package contains the Phonon development files.
+
+Package: libphonon4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdelibs5 (<< 4:3.98.0~svn753247-2)
+Description: cross-platform multimedia framework (runtime)
+ Phonon is a cross-platform multimedia framework that enables the use of audio
+ and video content in Qt and KDE applications.
+ .
+ Current backends include Xine and GStreamer.
+ .
+ This package contains the files necessary for running applications that use
+ the Phonon library.
+
