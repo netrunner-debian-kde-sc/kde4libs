@@ -1,7 +1,9 @@
---- kde4libs-3.96.0/kpty/kpty.cpp.orig	2007-11-28 03:19:29.000000000 +0100
-+++ kde4libs-3.96.0/kpty/kpty.cpp	2007-11-28 03:23:53.000000000 +0100
-@@ -88,24 +88,24 @@
- # include <utmp.h>
+Index: kde4libs-3.98.0~svn755919/kpty/kpty.cpp
+===================================================================
+--- kde4libs-3.98.0~svn755919.orig/kpty/kpty.cpp	2008-01-02 13:17:23.000000000 +0100
++++ kde4libs-3.98.0~svn755919/kpty/kpty.cpp	2008-01-02 19:32:32.000000000 +0100
+@@ -108,24 +108,24 @@
+ # define _NEW_TTY_CTRL
  #endif
  
 -#if defined (__FreeBSD__) || defined (__NetBSD__) || defined (__OpenBSD__) || defined (__bsdi__) || defined(__APPLE__) || defined (__DragonFly__)
@@ -36,10 +38,12 @@
 +# error
  #endif
  
- #if defined (_HPUX_SOURCE)
---- kde4libs-3.96.0/kio/kfile/kpropertiesdialog.cpp.orig	2007-11-28 04:33:19.000000000 +0100
-+++ kde4libs-3.96.0/kio/kfile/kpropertiesdialog.cpp	2007-11-28 05:16:12.000000000 +0100
-@@ -1916,7 +1916,15 @@
+ #include <kdebug.h>
+Index: kde4libs-3.98.0~svn755919/kio/kfile/kpropertiesdialog.cpp
+===================================================================
+--- kde4libs-3.98.0~svn755919.orig/kio/kfile/kpropertiesdialog.cpp	2008-01-02 13:17:07.000000000 +0100
++++ kde4libs-3.98.0~svn755919/kio/kfile/kpropertiesdialog.cpp	2008-01-02 19:32:32.000000000 +0100
+@@ -1887,7 +1887,15 @@
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
      fileSystemSupportsACLs =
@@ -56,8 +60,10 @@
  #endif
      return fileSystemSupportsACLs;
  }
---- kde4libs-3.96.0/kioslave/file/file.cpp.orig	2007-11-28 09:06:02.000000000 +0100
-+++ kde4libs-3.96.0/kioslave/file/file.cpp	2007-11-28 09:07:29.000000000 +0100
+Index: kde4libs-3.98.0~svn755919/kioslave/file/file.cpp
+===================================================================
+--- kde4libs-3.98.0~svn755919.orig/kioslave/file/file.cpp	2008-01-02 13:16:20.000000000 +0100
++++ kde4libs-3.98.0~svn755919/kioslave/file/file.cpp	2008-01-02 19:32:32.000000000 +0100
 @@ -361,9 +361,10 @@
      }
  
@@ -70,7 +76,7 @@
      // Determine the mimetype of the file to be retrieved, and emit it.
      // This is mandatory in all slaves (for KRun/BrowserRun to work)
      // In real "remote" slaves, this is usually done using findByNameAndContent
-@@ -869,8 +870,10 @@
+@@ -875,8 +876,10 @@
      }
  
  #ifdef HAVE_FADVISE
@@ -81,7 +87,7 @@
      // WABA: Make sure that we keep writing permissions ourselves,
      // otherwise we can be in for a surprise on NFS.
      mode_t initialMode;
-@@ -892,8 +895,10 @@
+@@ -898,8 +901,10 @@
      }
  
  #ifdef HAVE_FADVISE
