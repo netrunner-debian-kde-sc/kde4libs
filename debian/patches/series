@@ -1,3 +1,4 @@
+09_disable_debug_messages_if_not_explicitly_enabled.diff
 10_kdehome_kde4.diff
 11_kde4_applications_menu.diff
 12_deprecate_applnk.diff

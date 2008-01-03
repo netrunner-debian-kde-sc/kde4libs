@@ -1,0 +1,15 @@
+We build with debugging symbols enabled, that's why we get a lot of debugging
+messages on the konsole. This patch disables these messages. Kdebugdialog
+can be used to enable them. 
+See also 04_disable_debug_by_default.diff in kdebase-runtime.
+--- a/kdecore/io/kdebug.cpp
++++ b/kdecore/io/kdebug.cpp
+@@ -314,7 +314,7 @@
+         }
+ 
+         KConfigGroup cg(config, QString::number(area));
+-        int mode = cg.readEntry(key, 2);
++        int mode = cg.readEntry(key, 4);
+         return OutputMode(mode);
+     }
+ 
