@@ -1,18 +1,21 @@
 kde4libs (4:4.0.0-1) UNRELEASED; urgency=low
- 
-  * New upstream release. KDE 4.0.0 yay! 
+
+  * New upstream release. KDE 4.0.0 yay!
 
   +++ Changes by Armin Berres:
 
   * Add patch to disable debug information by default. They can be enabled
     with kdebugdialog.
+  * Add patch to build no special debug code, but release code, and remove
+    all hardcoded optimization and debug compiler flags. Use $(CXXFLAGS) and
+    $(CFLAGS) instead.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update patch 15_kfreebsd_support to build in kfreebsd after latest changes
     in ConfigureChecks.cmake.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 04 Jan 2008 16:44:56 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 06 Jan 2008 16:53:56 +0100
 
 kde4libs (4:3.98.0~svn755919-1) experimental; urgency=low
 
