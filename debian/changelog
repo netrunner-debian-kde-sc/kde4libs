@@ -15,10 +15,6 @@ kde4libs (4:4.0.0-1) UNRELEASED; urgency=low
   * Update patch 15_kfreebsd_support to build in kfreebsd after latest changes
     in ConfigureChecks.cmake.
 
-  +++ Changes by Fathi Boudra:
-
-  * Bump soprano build-dep version to >= 2.0.0-1.
-
   +++ Changes by Matthew Rosewarne:
 
   * Add Homepage: to control.
