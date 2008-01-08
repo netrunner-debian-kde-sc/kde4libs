@@ -12,6 +12,7 @@ Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, shared-mime-info,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
 Standards-Version: 3.7.3
+Homepage: http://www.kde.org/
 
 Package: kdelibs5-data
 Section: libs
@@ -94,6 +95,7 @@ Section: libdevel
 Architecture: any
 Depends: libphonon4 (= ${binary:Version})
 Replaces: kdelibs5-dev (<< 4:3.98.0~svn755919-1)
+Homepage: http://phonon.kde.org/
 Description: cross-platform multimedia framework (development)
  Phonon is a cross-platform multimedia framework that enables the use of audio
  and video content in Qt and KDE applications.
@@ -107,6 +109,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:3.98.0~svn755919-1)
+Homepage: http://phonon.kde.org/
 Description: cross-platform multimedia framework (runtime)
  Phonon is a cross-platform multimedia framework that enables the use of audio
  and video content in Qt and KDE applications.
