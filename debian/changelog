@@ -19,6 +19,10 @@ kde4libs (4:4.0.0-1) UNRELEASED; urgency=low
 
   * Bump soprano build-dep version to >= 2.0.0-1.
 
+  +++ Changes by Matthew Rosewarne:
+
+  * Add Homepage: to control.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 06 Jan 2008 16:53:56 +0100
 
 kde4libs (4:3.98.0~svn755919-1) experimental; urgency=low
