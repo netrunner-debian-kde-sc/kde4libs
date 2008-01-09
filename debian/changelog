@@ -1,4 +1,4 @@
-kde4libs (4:4.0.0-1) UNRELEASED; urgency=low
+kde4libs (4:4.0.0-1) experimental; urgency=low
 
   * New upstream release. KDE 4.0.0 yay!
 
@@ -13,16 +13,17 @@ kde4libs (4:4.0.0-1) UNRELEASED; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update patch 15_kfreebsd_support to build in kfreebsd after latest changes
-    in ConfigureChecks.cmake.
+    in ConfigureChecks.cmake. 
+  * Update lintian overides.
 
   +++ Changes by Matthew Rosewarne:
 
   * Add Homepage: to control.
   * Tweak package descriptions.
-  * Replace dependency on xbase-clients with xauth
-  * Replace source:Version with binary:Version
+  * Replace dependency on xbase-clients with xauth.
+  * Replace source:Version with binary:Version.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 06 Jan 2008 16:53:56 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Jan 2008 06:12:25 +0100
 
 kde4libs (4:3.98.0~svn755919-1) experimental; urgency=low
 
