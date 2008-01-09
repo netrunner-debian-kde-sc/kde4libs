@@ -1,3 +1,6 @@
+I do not think we can push this patch to upstream since the:
+CMAKE_SYSTEM_NAME MATCHES kFreeBSD stuff, needs the Debian patched
+cmake. 
 Index: kde4libs-3.98.0~svn755919/kpty/kpty.cpp
 ===================================================================
 --- kde4libs-3.98.0~svn755919.orig/kpty/kpty.cpp	2008-01-02 13:17:23.000000000 +0100
