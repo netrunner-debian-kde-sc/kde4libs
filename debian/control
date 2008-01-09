@@ -19,12 +19,11 @@ Section: libs
 Architecture: all
 Depends: hicolor-icon-theme
 Description: core shared data for all KDE 4 applications
- This package contains all the architecture-independent data files
- commonly used by KDE applications. You need these data files to run
- KDE applications.
+ This package contains architecture-independent data files needed to run KDE 4
+ applications.
  .
- This package is part of KDE, and a component of the KDE libraries module.
- See the 'kde' and 'kdelibs' packages for more information.
+ This package is part of the KDE 4 libraries module.
+
 
 Package: kdelibs5
 Section: libs
@@ -33,11 +32,9 @@ Depends: ${shlibs:Depends}, kdelibs5-data (>= ${binary:Version}),
  kdelibs-bin(>= ${binary:Version}), shared-mime-info, xauth
 Recommends: hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd
 Description: core libraries for all KDE 4 applications
- This package contains all the shared libraries. You need these libraries to
- run KDE applications.
+ This package contains shared libraries needed to run KDE 4 applications.
  .
- This package is part of KDE, and a component of the KDE libraries module.
- See the 'kde' and 'kdelibs' packages for more information.
+ This package is part of the KDE 4 libraries module.
 
 Package: kdelibs5-dev
 Section: libdevel
@@ -50,11 +47,10 @@ Depends: kdelibs5 (= ${binary:Version}), shared-mime-info,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
 Conflicts: kdelibs4-dev
 Description: development files for the KDE 4 core libraries
- This package contains all the headers and other files needed to build KDE
+ This package contains headers and other files needed to build KDE 4
  applications or develop applications that use the KDE core libraries.
  .
- This package is part of KDE, and a component of the KDE libraries module.
- See the 'kde' and 'kdelibs' packages for more information.
+ This package is part of the KDE 4 libraries module.
 
 Package: kdelibs5-doc
 Section: doc
@@ -64,8 +60,7 @@ Description: developer documentation for the KDE 4 core libraries
  This package contains the API documentation for the KDE core libraries,
  for use by KDE 4 application developers.
  .
- This package is part of KDE, and a component of the KDE libraries module.
- See the 'kde' and 'kdelibs' packages for more information.
+ This package is part of the KDE 4 libraries module.
 
 Package: kdelibs-bin
 Architecture: any
@@ -74,8 +69,7 @@ Conflicts: kjscmd
 Description: executables for all KDE 4 core applications
  This package contains common executables used by all KDE 4 applications.
  .
- This package is part of KDE, and a component of the KDE libraries module.
- See the 'kde' and 'kdelibs' packages for more information.
+ This package is part of the KDE 4 libraries module.
 
 Package: kdelibs-dbg
 Section: libdevel
