@@ -5,3 +5,4 @@ kdelibs-bin: no-shlibs-control-file usr/lib/libkdeinit4_kconf_update.so
 kdelibs-bin: no-shlibs-control-file usr/lib/libkdeinit4_kio_http_cache_cleaner.so
 kdelibs-bin: postinst-must-call-ldconfig usr/lib/libkdeinit4_kconf_update.so
 kdelibs-bin: package-name-doesnt-match-sonames libkdeinit4-kbuildsycoca4 libkdeinit4-kconf_update libkdeinit4-kded4 libkdeinit4-kio_http_cache_cleaner libkdeinit4-klauncher
+
