@@ -29,7 +29,7 @@ Description: core shared data for all KDE 4 applications
 Package: kdelibs5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
+Depends: ${shlibs:Depends}, kdelibs5-data (>= ${binary:Version}),
  kdelibs-bin(>= ${binary:Version}), shared-mime-info, xauth
 Recommends: hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd
 Description: core libraries for all KDE 4 applications
@@ -50,8 +50,8 @@ Depends: kdelibs5 (= ${binary:Version}), shared-mime-info,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
 Conflicts: kdelibs4-dev
 Description: development files for the KDE 4 core libraries
- This package contains all the headers and other files needed to compile KDE
- applications or develop applications which use the KDE core libraries.
+ This package contains all the headers and other files needed to build KDE
+ applications or develop applications that use the KDE core libraries.
  .
  This package is part of KDE, and a component of the KDE libraries module.
  See the 'kde' and 'kdelibs' packages for more information.
@@ -104,7 +104,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:3.98.0~svn755919-1)
-Description: cross-platform multimedia framework (runtime)
+Description: cross-platform multimedia framework
  Phonon is a cross-platform multimedia framework that enables the use of audio
  and video content in Qt and KDE 4 applications.
  .
