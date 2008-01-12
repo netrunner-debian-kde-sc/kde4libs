@@ -5,7 +5,7 @@
      const CanvasPatternImpl *pattern = static_cast<const CanvasPatternImpl*>(style);
  
 -    float penWidth = qMax(p->pen().widthF(), 1.0);
-+    float penWidth = qMax(p->pen().widthF(), qreal(1.0));
++    qreal penWidth = qMax<qreal>(p->pen().widthF(), 1.0);
      const QRectF rect = path.controlPointRect().adjusted(-penWidth, -penWidth, penWidth, penWidth);
  
      return pattern->clipForRepeat(p->brushOrigin(), rect);
