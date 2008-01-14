@@ -30,7 +30,6 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${binary:Version}),
  kdelibs-bin(>= ${binary:Version}), shared-mime-info, xauth
-Recommends: hal | kfreebsd-gnu | hurd, pmount | kfreebsd-gnu | hurd
 Description: core libraries for all KDE 4 applications
  This package contains shared libraries needed to run KDE 4 applications.
  .
