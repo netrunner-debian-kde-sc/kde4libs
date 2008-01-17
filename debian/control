@@ -70,11 +70,13 @@ Description: executables for all KDE 4 core applications
  .
  This package is part of the KDE 4 libraries module.
 
-Package: kdelibs-dbg
+Package: kdelibs5-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
 Depends: kdelibs5 (= ${binary:Version}), libqt4-debug, libc6-dbg [amd64]
+Conflicts: kdelibs-dbg (>= 4:3.91.0-1), kdelibs-dbg (<< 4:4.0.0-2)
+Replaces: kdelibs-dbg (>= 4:3.91.0-1), kdelibs-dbg (<< 4:4.0.0-2)
 Description: debugging symbols for kdelibs
  This package contains the debugging symbols associated with kdelibs.
  They will automatically be used by gdb for debugging kdelibs-related
