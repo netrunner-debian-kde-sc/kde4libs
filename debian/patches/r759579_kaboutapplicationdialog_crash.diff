@@ -1,0 +1,26 @@
+--- a/kdeui/dialogs/kaboutapplicationdialog.cpp
++++ b/kdeui/dialogs/kaboutapplicationdialog.cpp
+@@ -55,11 +55,6 @@
+   : KDialog(parent),
+     d(new Private(this))
+ {
+-    setPlainCaption(i18n("About %1", aboutData->programName()));
+-    setButtons(KDialog::Close);
+-    setDefaultButton(KDialog::Close);
+-    setModal(false);
+-
+     if (aboutData == 0)
+         aboutData = KGlobal::mainComponent().aboutData();
+ 
+@@ -72,6 +67,11 @@
+         return;
+     }
+ 
++    setPlainCaption(i18n("About %1", aboutData->programName()));
++    setButtons(KDialog::Close);
++    setDefaultButton(KDialog::Close);
++    setModal(false);
++
+     KTitleWidget *titleWidget = new KTitleWidget(this);
+ 
+     titleWidget->setPixmap(qApp->windowIcon().pixmap(64, 64), KTitleWidget::ImageLeft);

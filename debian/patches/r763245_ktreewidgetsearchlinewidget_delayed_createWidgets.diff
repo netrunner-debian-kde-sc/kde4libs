@@ -1,0 +1,14 @@
+--- a/kdeui/itemviews/ktreewidgetsearchline.cpp
++++ b/kdeui/itemviews/ktreewidgetsearchline.cpp
+@@ -585,8 +585,9 @@
+ {
+   d->treeWidget = treeWidget;
+ 
+-  createWidgets();
+-
++  // can't call createWidgets directly because it calls virtual functions
++  // that might not work if called directly from here due to how inheritance works
++  QMetaObject::invokeMethod(this, SLOT(createWidgets()), Qt::QueuedConnection);
+ }
+ 
+ KTreeWidgetSearchLineWidget::~KTreeWidgetSearchLineWidget()
