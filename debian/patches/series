@@ -8,4 +8,4 @@
 15_kfreebsd_support.diff
 16_arm_fixes.diff
 r759579_kaboutapplicationdialog_crash.diff
-r763245_ktreewidgetsearchlinewidget_delayed_createWidgets.diff
+r763245_r763431_ktreewidgetsearchlinewidget_delayed_createWidgets.diff
