@@ -16,6 +16,14 @@ kde4libs (4:4.0.0-3) UNRELEASED; urgency=low
 
   * Update to debhelper 6.
 
+  +++ Changes by Matthew Rosewarne:
+
+  * Change libphonon-dev to Architecture: all.
+  * Make dependencies binNMU-friendly.
+  * Bump Soprano minimum version to 2.0.0.
+  * Remove redundant Depends: shared-mime-info from kdelibs5-dev.
+  * Add Suggests: kdelibs5-doc to kdelibs5-dev.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jan 2008 14:05:04 +0100
 
 kde4libs (4:4.0.0-2) unstable; urgency=low
