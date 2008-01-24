@@ -18,7 +18,6 @@ kde4libs (4:4.0.0-3) UNRELEASED; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
-  * Change libphonon-dev to Architecture: all.
   * Make dependencies binNMU-friendly.
   * Bump Soprano minimum version to 2.0.0.
   * Remove redundant Depends: shared-mime-info from kdelibs5-dev.
