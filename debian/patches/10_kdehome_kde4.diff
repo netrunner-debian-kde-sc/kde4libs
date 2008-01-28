@@ -9,3 +9,36 @@
  #endif
      }
  
+--- a/kdeui/util/kcrash.cpp
++++ b/kdeui/util/kcrash.cpp
+@@ -500,7 +500,7 @@
+ 
+   if (!kde_home || !kde_home[0])
+   {
+-     kde_home = "~/.kde/";
++     kde_home = "~/.kde4/";
+   }
+ 
+   if (kde_home[0] == '~')
+--- a/kinit/lnusertemp.c
++++ b/kinit/lnusertemp.c
+@@ -123,7 +123,7 @@
+ 
+   if (!kde_home || !kde_home[0])
+   {
+-     kde_home = "~/.kde/";
++     kde_home = "~/.kde4/";
+   }
+ 
+   if (kde_home[0] == '~')
+--- a/kinit/wrapper.c
++++ b/kinit/wrapper.c
+@@ -142,7 +142,7 @@
+ 
+   if (!kde_home || !kde_home[0])
+   {
+-     kde_home = "~/.kde/";
++     kde_home = "~/.kde4/";
+   }
+ 
+   if (kde_home[0] == '~')
