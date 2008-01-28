@@ -13,10 +13,6 @@ kde4libs (4:4.0.0-3) UNRELEASED; urgency=low
       a delay, because other way calls to virtual functions does not work
       correctly.
 
-  +++ Changes by Ana Beatriz Guerrero Lopez:
-
-  * Update to debhelper 6.
-
   +++ Changes by Matthew Rosewarne:
 
   * Make dependencies binNMU-friendly.
