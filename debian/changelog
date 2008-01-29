@@ -18,7 +18,6 @@ kde4libs (4:4.0.0-3) UNRELEASED; urgency=low
   * Bump Soprano minimum version to 2.0.0.
   * Remove redundant Depends: shared-mime-info from kdelibs5-dev.
   * Add Suggests: kdelibs5-doc to kdelibs5-dev.
-  * Add Depends: dbus-x11 to kdelibs-bin.
 
   +++ Changes by Armin Berres:
 
@@ -29,7 +28,7 @@ kde4libs (4:4.0.0-3) UNRELEASED; urgency=low
 
   * Make kdelibs5-dev installable on GNU/kFreeBSD. Thanks to Aurelien Jarno.
     (Closes: #462338)
-  * Add dbus-x11 dependency. Thanks to Chris Desjardins.
+  * Add dbus-x11 dependency to kdelibs5. Thanks to Chris Desjardins.
   * Add Vcs-Browser and Vcs-Svn fields.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jan 2008 14:05:04 +0100
