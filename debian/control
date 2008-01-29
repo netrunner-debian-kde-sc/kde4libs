@@ -13,6 +13,8 @@ Build-Depends: cdbs, debhelper (>= 6), quilt, cmake, shared-mime-info,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdelibs
+Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdelibs
 
 Package: kdelibs5
 Section: libs
