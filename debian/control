@@ -37,8 +37,9 @@ Description: core shared data for all KDE 4 applications
 Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), libasound2-dev,
- libcupsys2-dev, libdbus-1-dev, libkeyutils-dev, libqt4-dev,
+Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}),
+ libcupsys2-dev, libdbus-1-dev, libqt4-dev,
+ libasound2-dev [linux-any], libkeyutils-dev [linux-any],
  libsoprano-dev (>= 2.0.0-1), libstreamanalyzer-dev (>= 0.5.7),
  libxml2-dev, libxml2-utils, libxslt1-dev, libxtst-dev, libungif4-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
