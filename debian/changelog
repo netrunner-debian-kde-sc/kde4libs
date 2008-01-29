@@ -18,6 +18,7 @@ kde4libs (4:4.0.0-3) UNRELEASED; urgency=low
   * Bump Soprano minimum version to 2.0.0.
   * Remove redundant Depends: shared-mime-info from kdelibs5-dev.
   * Add Suggests: kdelibs5-doc to kdelibs5-dev.
+  * Add Depends: dbus-x11 to kdelibs-bin.
 
   +++ Changes by Armin Berres:
 

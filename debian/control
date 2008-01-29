@@ -66,7 +66,7 @@ Description: developer documentation for the KDE 4 core libraries
 
 Package: kdelibs-bin
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, dbus-x11
 Conflicts: kjscmd
 Description: executables for all KDE 4 core applications
  This package contains common executables used by all KDE 4 applications.
