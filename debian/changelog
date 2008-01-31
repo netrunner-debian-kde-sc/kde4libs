@@ -19,6 +19,13 @@ kde4libs (4:4.0.1-1) UNRELEASED; urgency=low
   * Add dbus-x11 dependency to kdelibs5. Thanks to Chris Desjardins.
   * Add Vcs-Browser and Vcs-Svn fields.
 
+  +++ Changes by Adeodato Simó:
+
+  * Cherry pick from /branches/KDE/4.0:
+
+    + r769072_make_stackingOrder_work: fix KWindowSystem::stackingOrder() to
+      actually return a non-empty list with the list of windows.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jan 2008 14:05:04 +0100
 
 kde4libs (4:4.0.0-2) unstable; urgency=low

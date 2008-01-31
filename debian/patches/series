@@ -7,3 +7,4 @@
 14_hardcode_ptm_device.diff
 15_kfreebsd_support.diff
 16_arm_fixes.diff
+r769072_make_stackingOrder_work.diff
