@@ -1,10 +1,8 @@
 I do not think we can push this patch to upstream since the:
 CMAKE_SYSTEM_NAME MATCHES kFreeBSD stuff, needs the Debian patched
 cmake. 
-Index: kde4libs-3.98.0~svn755919/kpty/kpty.cpp
-===================================================================
---- kde4libs-3.98.0~svn755919.orig/kpty/kpty.cpp	2008-01-02 13:17:23.000000000 +0100
-+++ kde4libs-3.98.0~svn755919/kpty/kpty.cpp	2008-01-04 16:36:41.000000000 +0100
+--- a/kpty/kpty.cpp
++++ b/kpty/kpty.cpp
 @@ -108,24 +108,24 @@
  # define _NEW_TTY_CTRL
  #endif
@@ -42,10 +40,8 @@ Index: kde4libs-3.98.0~svn755919/kpty/kpty.cpp
  #endif
  
  #include <kdebug.h>
-Index: kde4libs-3.98.0~svn755919/kio/kfile/kpropertiesdialog.cpp
-===================================================================
---- kde4libs-3.98.0~svn755919.orig/kio/kfile/kpropertiesdialog.cpp	2008-01-02 13:17:07.000000000 +0100
-+++ kde4libs-3.98.0~svn755919/kio/kfile/kpropertiesdialog.cpp	2008-01-04 16:36:41.000000000 +0100
+--- a/kio/kfile/kpropertiesdialog.cpp
++++ b/kio/kfile/kpropertiesdialog.cpp
 @@ -1887,7 +1887,15 @@
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
@@ -63,10 +59,8 @@ Index: kde4libs-3.98.0~svn755919/kio/kfile/kpropertiesdialog.cpp
  #endif
      return fileSystemSupportsACLs;
  }
-Index: kde4libs-3.98.0~svn755919/kioslave/file/file.cpp
-===================================================================
---- kde4libs-3.98.0~svn755919.orig/kioslave/file/file.cpp	2008-01-02 13:16:20.000000000 +0100
-+++ kde4libs-3.98.0~svn755919/kioslave/file/file.cpp	2008-01-04 16:36:41.000000000 +0100
+--- a/kioslave/file/file.cpp
++++ b/kioslave/file/file.cpp
 @@ -361,9 +361,10 @@
      }
  
@@ -101,10 +95,8 @@ Index: kde4libs-3.98.0~svn755919/kioslave/file/file.cpp
  
  #ifdef HAVE_POSIX_ACL
      acl = acl_get_fd(src_fd);
-Index: kde4libs-3.98.0~svn755919/ConfigureChecks.cmake
-===================================================================
---- kde4libs-3.98.0~svn755919.orig/ConfigureChecks.cmake	2008-01-04 16:36:58.000000000 +0100
-+++ kde4libs-3.98.0~svn755919/ConfigureChecks.cmake	2008-01-04 16:38:04.000000000 +0100
+--- a/ConfigureChecks.cmake
++++ b/ConfigureChecks.cmake
 @@ -150,11 +150,11 @@
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
@@ -119,4 +111,4 @@ Index: kde4libs-3.98.0~svn755919/ConfigureChecks.cmake
 +    endif (CMAKE_SYSTEM_NAME MATCHES Linux OR CMAKE_SYSTEM_NAME MATCHES Darwin OR CMAKE_SYSTEM_NAME MATCHES GNU/FreeBSD OR CMAKE_SYSTEM_NAME MATCHES kFreeBSD)
      if (HAVE_UTMPX)
        set(utmp utmpx)
-     else (HAVE_UTMPX)
+       if (login_in_libutil)
