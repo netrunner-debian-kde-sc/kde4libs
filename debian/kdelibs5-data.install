@@ -1,4 +1,3 @@
-/usr/share/kde4/apps/nepomuk/ontologies/xss.rdfs
 etc/kde4/accept-languages.codes
 etc/kde4/colors/40.colors
 etc/kde4/colors/Oxygen.colors
@@ -25,6 +24,7 @@ usr/share/dbus-1/interfaces/org.kde.Solid.Networking.Client.xml
 usr/share/dbus-1/interfaces/org.kde.UiServer.xml
 usr/share/dbus-1/interfaces/org.kde.UiServerCallbacks.xml
 usr/share/dbus-1/interfaces/org.kde.kded.xml
+usr/share/doc/kde4/HTML/en/common
 usr/share/doc/kde4/HTML/en/common/1.png
 usr/share/doc/kde4/HTML/en/common/10.png
 usr/share/doc/kde4/HTML/en/common/2.png
@@ -716,6 +716,7 @@ usr/share/kde4/apps/ksgmltools2/customization/ko/entities/underArtisticLicense.d
 usr/share/kde4/apps/ksgmltools2/customization/ko/entities/underBSDLicense.docbook
 usr/share/kde4/apps/ksgmltools2/customization/ko/entities/underFDL.docbook
 usr/share/kde4/apps/ksgmltools2/customization/ko/entities/underGPL.docbook
+usr/share/kde4/apps/ksgmltools2/customization/ko/entities/underLGPL.docbook
 usr/share/kde4/apps/ksgmltools2/customization/ko/entities/underX11License.docbook
 usr/share/kde4/apps/ksgmltools2/customization/ko/entities/update-doc.docbook
 usr/share/kde4/apps/ksgmltools2/customization/ko/lang.entities
@@ -1777,6 +1778,7 @@ usr/share/kde4/apps/nepomuk/ontologies/rdfs.rdfs
 usr/share/kde4/apps/nepomuk/ontologies/xesam.desktop
 usr/share/kde4/apps/nepomuk/ontologies/xesam.rdfs
 usr/share/kde4/apps/nepomuk/ontologies/xss.desktop
+usr/share/kde4/apps/nepomuk/ontologies/xss.rdfs
 usr/share/kde4/apps/nepomuk/pics/rating.png
 usr/share/kde4/apps/phonon/phonon.notifyrc
 usr/share/kde4/apps/proxyscout/proxyscout.notifyrc

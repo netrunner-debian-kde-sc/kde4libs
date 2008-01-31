@@ -11,6 +11,8 @@ kde4libs (4:4.0.1-1) UNRELEASED; urgency=low
 
   * Update 10_kdehome_kde4 patch. Set kde home directory to ~/.kde4
     where ~/.kde was used. Thanks to Jonathan Riddell and Suse people.
+  * Update installed files.
+  * Drop no more needed patch 16_arm_fixes.diff.
 
   +++ Changes by Fathi Boudra:
 

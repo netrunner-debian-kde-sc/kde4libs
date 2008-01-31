@@ -1,3 +1,10 @@
 # Files not installed because they conflict with current kdelibs-data:
 
 ./usr/share/locale/all_languages
+
+# installed via kdelibs5-data.manpages
+./usr/share/man/man1/checkXML.1
+./usr/share/man/man1/kde4-config.1
+./usr/share/man/man7/kdeoptions.7
+./usr/share/man/man7/qtoptions.7
+./usr/share/man/man8/kbuildsycoca4.8
