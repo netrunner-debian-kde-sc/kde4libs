@@ -1,16 +1,4 @@
-kde4libs (4:4.0.0-3) UNRELEASED; urgency=low
-
-  +++ Changes by Adeodato Simó:
-
-  * Cherry pick a couple patches from /branches/KDE/4.0:
-
-    + r759579_kaboutapplicationdialog_crash: do not crash when aboutData is
-      NULL in the constructor.
-
-    + r763245_r763431_ktreewidgetsearchlinewidget_delayed_createWidgets: do
-      not create the widgets directly in the constructor, but invoke them with
-      a delay, because other way calls to virtual functions does not work
-      correctly.
+kde4libs (4:4.0.1-1) UNRELEASED; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
