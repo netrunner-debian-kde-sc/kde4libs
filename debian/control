@@ -49,10 +49,8 @@ Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}),
 Suggests: kdelibs5-doc (= ${source:Version})
 Conflicts: kdelibs4-dev
 Description: development files for the KDE 4 core libraries
- This package contains headers and other files needed to build KDE 4
- applications or develop applications that use the KDE core libraries.
- .
- This package is part of the KDE 4 libraries module.
+ This package contains development files for building KDE 4 applications and
+ other software that uses the KDE 4 libraries.
 
 Package: kdelibs5-doc
 Section: doc
@@ -80,30 +78,29 @@ Priority: extra
 Depends: kdelibs5 (= ${binary:Version}), libqt4-debug, libc6-dbg [amd64]
 Conflicts: kdelibs-dbg (>= 4:3.91.0-1)
 Replaces: kdelibs-dbg (>= 4:3.91.0-1)
-Description: debugging symbols for kdelibs
- This package contains the debugging symbols associated with kdelibs.
- They will automatically be used by gdb for debugging kdelibs-related
- issues.
+Description: debugging symbols for the KDE 4 libraries module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 libraries module.
 
 Package: libphonon-dev
 Section: libdevel
 Architecture: any
 Depends: libphonon4 (= ${binary:Version})
 Replaces: kdelibs5-dev (<< 4:3.98.0~svn755919-1)
-Description: cross-platform multimedia framework (development)
- Phonon is a cross-platform multimedia framework that enables the use of audio
- and video content in Qt and KDE 4 applications.
+Description: development files for the Phonon multimedia framework
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
  .
- This package contains development files necessary to build applications that
- use Phonon.
+ This package contains development files for building software that uses the
+ Phonon libraries.
 
 Package: libphonon4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:3.98.0~svn755919-1)
-Description: cross-platform multimedia framework
- Phonon is a cross-platform multimedia framework that enables the use of audio
- and video content in Qt and KDE 4 applications.
+Description: Phonon multimedia framework for Qt 4
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
  .
  This package contains the files necessary to run applications that use Phonon.
