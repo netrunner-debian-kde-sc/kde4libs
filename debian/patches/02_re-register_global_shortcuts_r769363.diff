@@ -1,0 +1,81 @@
+Re-register global shortcuts if kded4 is restarted.
+KDE BUG: 156578
+
+--- a/kdeui/shortcuts/kglobalaccel.cpp
++++ b/kdeui/shortcuts/kglobalaccel.cpp
+@@ -61,19 +61,22 @@
+ 
+ //TODO what was the problem that got fixed recently in the old version? - forward port if necessary
+ 
+-KGlobalAccelPrivate::KGlobalAccelPrivate()
++KGlobalAccelPrivate::KGlobalAccelPrivate(KGlobalAccel* q)
+      : isUsingForeignComponentName(false),
+        enabled(true),
+        iface("org.kde.kded", "/modules/kdedglobalaccel", QDBusConnection::sessionBus())
+ {
+     // Make sure kded is running
+-    if (!QDBusConnection::sessionBus().interface()->isServiceRegistered("org.kde.kded")) {
++    QDBusConnectionInterface* bus = QDBusConnection::sessionBus().interface();
++    if (!bus->isServiceRegistered("org.kde.kded")) {
+         KToolInvocation::klauncher(); // this calls startKdeinit
+     }
++    QObject::connect(bus, SIGNAL(serviceOwnerChanged(QString,QString,QString)),
++            q, SLOT(_k_serviceOwnerChanged(QString,QString,QString)));
+ }
+ 
+ KGlobalAccel::KGlobalAccel()
+-    : d(new KGlobalAccelPrivate)
++    : d(new KGlobalAccelPrivate(this))
+ {
+     qDBusRegisterMetaType<QList<int> >();
+ 
+@@ -274,8 +277,16 @@
+     action->d->setActiveGlobalShortcutNoEnable(shortcutFromIntList(keys));
+ }
+ 
++void KGlobalAccelPrivate::_k_serviceOwnerChanged(const QString& name, const QString& oldOwner, const QString& newOwner)
++{
++    Q_UNUSED(oldOwner);
++    if (name == QLatin1String("org.kde.kded") && !newOwner.isEmpty()) {
++        // kded was restarted (what? you mean it crashes sometimes?)
++        reRegisterAll();
++    }
++}
+ 
+-void KGlobalAccelPrivate::_k_reRegisterAll()
++void KGlobalAccelPrivate::reRegisterAll()
+ {
+     //### Special case for isUsingForeignComponentName?
+ 
+--- a/kdeui/shortcuts/kglobalaccel.h
++++ b/kdeui/shortcuts/kglobalaccel.h
+@@ -119,7 +119,7 @@
+ 
+     Q_PRIVATE_SLOT(d, void _k_invokeAction(const QStringList&))
+     Q_PRIVATE_SLOT(d, void _k_shortcutGotChanged(const QStringList&, const QList<int>&))
+-    Q_PRIVATE_SLOT(d, void _k_reRegisterAll())
++    Q_PRIVATE_SLOT(d, void _k_serviceOwnerChanged(const QString&, const QString&, const QString&))
+ };
+ 
+ #endif // _KGLOBALACCEL_H_
+--- a/kdeui/shortcuts/kglobalaccel_p.h
++++ b/kdeui/shortcuts/kglobalaccel_p.h
+@@ -33,7 +33,7 @@
+ class KGlobalAccelPrivate
+ {
+ public:
+-    KGlobalAccelPrivate();
++    KGlobalAccelPrivate(KGlobalAccel*);
+ 
+     ///Propagate any shortcut changes to the KDED module that does the bookkeeping
+     ///and the key grabbing.
+@@ -49,7 +49,8 @@
+ 
+     void _k_invokeAction(const QStringList&);
+     void _k_shortcutGotChanged(const QStringList&, const QList<int>&);
+-    void _k_reRegisterAll();
++    void _k_serviceOwnerChanged(const QString& name, const QString& oldOwner, const QString& newOwner);
++    void reRegisterAll();
+ 
+     //for all actions with (isEnabled() && globalShortcutAllowed())
+     QHash<QString, KAction *> nameToAction;

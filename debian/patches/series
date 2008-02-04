@@ -1,4 +1,5 @@
 01_make_stackingOrder_work_r769072.diff
+02_re-register_global_shortcuts_r769363.diff
 08_add_debian_build_type.diff
 09_disable_debug_messages_if_not_explicitly_enabled.diff
 10_kdehome_kde4.diff
@@ -7,3 +8,4 @@
 13_qt4_designer_plugins_path.diff
 14_hardcode_ptm_device.diff
 15_kfreebsd_support.diff
+

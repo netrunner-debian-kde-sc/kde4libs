@@ -1,4 +1,4 @@
-kde4libs (4:4.0.1-1) UNRELEASED; urgency=low
+kde4libs (4:4.0.1-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -22,21 +22,25 @@ kde4libs (4:4.0.1-1) UNRELEASED; urgency=low
     (Closes: #462338)
   * Add dbus-x11 dependency to kdelibs5. Thanks to Chris Desjardins.
   * Add Vcs-Browser and Vcs-Svn fields.
+  * Cherry pick from branches/KDE/4.0:
+
+    + 02_re-register_global_shortcuts_r769363:
+      Re-register global shortcuts if kded4 is restarted.
 
   +++ Changes by Adeodato Simó:
 
   * Cherry pick from /branches/KDE/4.0:
 
-    + r769072_make_stackingOrder_work: fix KWindowSystem::stackingOrder() to
+    + 01_make_stackingOrder_work_r769072: fix KWindowSystem::stackingOrder() to
       actually return a non-empty list with the list of windows.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update to debhelper 6.
-  * Add versioned b-d on cdbs (>=0.4.51) to get debhelper 6 support and fixed
+  * Add versioned b-d on cdbs (>= 0.4.51) to get debhelper 6 support and fixed
     cmake.mk class.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Feb 2008 03:37:48 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Feb 2008 09:59:44 +0100
 
 kde4libs (4:4.0.0-2) unstable; urgency=low
 
