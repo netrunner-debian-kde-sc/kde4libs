@@ -17,5 +17,5 @@ include debian/cdbs/kde.mk
 
 # Generate shlibs local files
 common-binary-fixup-arch :: 
-	sed 's/>=[^)]*/= $(CURRENTVERSION)/;s/, $(RUNTIME_DEPS)//' debian/kdelibs5/DEBIAN/shlibs >> debian/shlibs.local ;\
+	sed 's/>=[^)]*/= $(CURRENTVERSION)/;s/, $(RUNTIME_DEPS)//' debian/kdelibs5/DEBIAN/shlibs > debian/shlibs.local ;\
 
