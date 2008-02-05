@@ -12,6 +12,7 @@ DEB_DBG_PACKAGE_libphonon4 := kdelibs5-dbg
 #In general we shouldn't bump on each upload, but in the beta cycles,
 #it is probably good. Else on upstream versions it is probably a good thing.
 DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(CURRENTVERSION)), $(RUNTIME_DEPS)'  
+DEB_DH_MAKESHLIBS_ARGS_libphonon4 := -V'libphonon4 (>= $(CURRENTVERSION))'
 
 include debian/cdbs/kde.mk
 
