@@ -2,7 +2,7 @@
 
 THIS_SHOULD_GO_TO_UNSTABLE := 1
 
-RUNTIME_DEPS := kde-icons-oxygen, kdebase-runtime, kdebase-runtime-data
+RUNTIME_DEPS := kdebase-runtime
 CURRENTVERSION := $(shell head -1 debian/changelog  | sed 's/[^(]*(\([^)]*\)).*/\1/')
 
 DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg

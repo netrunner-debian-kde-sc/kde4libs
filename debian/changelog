@@ -1,6 +1,8 @@
 kde4libs (4:4.0.1-2) UNRELEASED; urgency=low
 
   * Add versioned shlibs to libphonon4.
+  * Remove kde-icons-oxygen and kdebase-runtime-data from the shlibs file of
+    kdelibs5. kdebase-runtime depends on them anyway.
 
  -- Armin Berres <trigger+debian@space-based.de>  Tue, 05 Feb 2008 15:14:30 +0100
 
