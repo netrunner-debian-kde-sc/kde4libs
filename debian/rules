@@ -3,20 +3,18 @@
 THIS_SHOULD_GO_TO_UNSTABLE := 1
 
 RUNTIME_DEPS := kdebase-runtime
-CURRENTVERSION := $(shell head -1 debian/changelog  | sed 's/[^(]*(\([^)]*\)).*/\1/')
+UPSTREAMVERSION := 4:4.0.1-1
 
 DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg
 DEB_DBG_PACKAGE_kdelibs-bin := kdelibs5-dbg
 DEB_DBG_PACKAGE_libphonon4 := kdelibs5-dbg
 
-#In general we shouldn't bump on each upload, but in the beta cycles,
-#it is probably good. Else on upstream versions it is probably a good thing.
-DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(CURRENTVERSION)), $(RUNTIME_DEPS)'  
-DEB_DH_MAKESHLIBS_ARGS_libphonon4 := -V'libphonon4 (>= $(CURRENTVERSION))'
+#bump version for every new upstream version!
+DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(UPSTREAMVERSION)), $(RUNTIME_DEPS)'
+DEB_DH_MAKESHLIBS_ARGS_libphonon4 := -V'libphonon4 (>= $(UPSTREAMVERSION))'
+
+# remove the dependency on kdebase-runtime
+DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime
 
 include debian/cdbs/kde.mk
-
-# Generate shlibs local files
-common-binary-fixup-arch :: 
-	sed 's/>=[^)]*/= $(CURRENTVERSION)/;s/, $(RUNTIME_DEPS)//' debian/kdelibs5/DEBIAN/shlibs > debian/shlibs.local ;\
 
