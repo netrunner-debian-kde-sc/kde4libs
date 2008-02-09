@@ -11,6 +11,10 @@ kde4libs (4:4.0.1-2) UNRELEASED; urgency=low
     way to remove the dependency on kdebase-runtime. shlibs.local is no more
     needed now.
 
+  +++ Changes by Matthew Rosewarne:
+
+  * Build-Depend on libgif-dev instead of libungif4-dev.
+
   +++ Changes by Modestas Vainius:
 
   * New patch 16_postgresql_include_path_fix.diff, which adds PostgreSQL
