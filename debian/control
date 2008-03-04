@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, shared-mime-inf
  libcupsys2-dev, libdbus-1-dev, libqt4-dev,
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libkeyutils-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
- libsoprano-dev (>= 2.0.0-1), libstreamanalyzer-dev (>= 0.5.7),
+ libsoprano-dev (>= 2.0.0), libstreamanalyzer-dev (>= 0.5.7),
  libxml2-dev, libxml2-utils,  libxslt1-dev, libxtst-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
@@ -42,7 +42,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}),
  libcupsys2-dev, libdbus-1-dev, libqt4-dev,
  libasound2-dev [linux-any], libkeyutils-dev [linux-any],
- libsoprano-dev (>= 2.0.0-1), libstreamanalyzer-dev (>= 0.5.7),
+ libsoprano-dev (>= 2.0.0), libstreamanalyzer-dev (>= 0.5.7),
  libxml2-dev, libxml2-utils, libxslt1-dev, libxtst-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
