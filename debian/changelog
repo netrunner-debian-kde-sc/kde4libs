@@ -24,10 +24,9 @@ kde4libs (4:4.0.2-1) UNRELEASED; urgency=low
   
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Remove patches that now are included by upstream:
+  * Drop patches pulled from KDE's SVN, now part of the release
     - 01_make_stackingOrder_work_r769072.diff
     - 02_re-register_global_shortcuts_r769363.diff 
- 
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2008 12:52:59 +0100
 
