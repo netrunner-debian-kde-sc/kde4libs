@@ -3,8 +3,17 @@ kde4libs (4:4.0.2-2) UNRELEASED; urgency=low
   +++ Changes by Matthew Rosewarne:
 
   * Added build-dependencies for FindStrigi.cmake and FindX11.cmake.
+    - libstrigiqtdbusclient-dev
+    - libxcomposite-dev
+    - libxdamage-dev
+    - libxkbfile-dev
+    - libxpm-dev
+    - libxss-dev
+    - libxv-dev
+    - libxxf86misc-dev
+    - libxxf86vm-dev
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 08 Mar 2008 12:00:45 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 08 Mar 2008 13:16:35 -0500
 
 kde4libs (4:4.0.2-1) unstable; urgency=low
 
