@@ -1,0 +1,5 @@
+depends last
+dst:usr/share/doc/kde4/HTML/
+mime:text/.*
+mime:image/.*
+mime:application/(?!(x-executable|x-sharedlib)).*
