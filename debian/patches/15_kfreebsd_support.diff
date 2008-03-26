@@ -1,9 +1,9 @@
 I do not think we can push this patch to upstream since the:
 CMAKE_SYSTEM_NAME MATCHES kFreeBSD stuff, needs the Debian patched
 cmake. 
---- a/kpty/kpty.cpp
-+++ b/kpty/kpty.cpp
-@@ -108,24 +108,24 @@
+--- kde4libs-4.0.66+svn790271.orig/kpty/kpty.cpp
++++ kde4libs-4.0.66+svn790271/kpty/kpty.cpp
+@@ -107,24 +107,24 @@
  # define _NEW_TTY_CTRL
  #endif
  
@@ -40,8 +40,8 @@ cmake.
  #endif
  
  #include <kdebug.h>
---- a/kio/kfile/kpropertiesdialog.cpp
-+++ b/kio/kfile/kpropertiesdialog.cpp
+--- kde4libs-4.0.66+svn790271.orig/kio/kfile/kpropertiesdialog.cpp
++++ kde4libs-4.0.66+svn790271/kio/kfile/kpropertiesdialog.cpp
 @@ -1887,7 +1887,15 @@
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
@@ -59,8 +59,8 @@ cmake.
  #endif
      return fileSystemSupportsACLs;
  }
---- a/kioslave/file/file.cpp
-+++ b/kioslave/file/file.cpp
+--- kde4libs-4.0.66+svn790271.orig/kioslave/file/file.cpp
++++ kde4libs-4.0.66+svn790271/kioslave/file/file.cpp
 @@ -361,9 +361,10 @@
      }
  
@@ -95,8 +95,8 @@ cmake.
  
  #ifdef HAVE_POSIX_ACL
      acl = acl_get_fd(src_fd);
---- a/ConfigureChecks.cmake
-+++ b/ConfigureChecks.cmake
+--- kde4libs-4.0.66+svn790271.orig/ConfigureChecks.cmake
++++ kde4libs-4.0.66+svn790271/ConfigureChecks.cmake
 @@ -150,11 +150,11 @@
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)

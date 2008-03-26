@@ -3,16 +3,14 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake,
- hspell, libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
- libaspell-dev, libavahi-common-dev, libbz2-dev, libcupsys2-dev, libdbus-1-dev,
- libenchant-dev, libfam-dev, libgif-dev, libjasper-dev,
- libkeyutils-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libopenexr-dev,
- libpcre3-dev, libqt4-dev, libsoprano-dev (>= 2.0.0),
- libstreamanalyzer-dev (>= 0.5.7), libstrigiqtdbusclient-dev, libtiff4-dev,
- libxcomposite-dev, libxdamage-dev, libxkbfile-dev, libxml2-dev, libxml2-utils,
- libxpm-dev, libxslt1-dev, libxss-dev, libxtst-dev, libxv-dev, libxxf86misc-dev,
- libxxf86vm-dev, shared-mime-info, xsltproc
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, shared-mime-info,
+ libcupsys2-dev, libdbus-1-dev, libqt4-dev (>= 4.4.0~),
+ libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
+ libkeyutils-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
+ libsoprano-dev (>= 2.0.97~), libstreamanalyzer-dev (>= 0.5.7),
+ libxml2-dev, libxml2-utils,  libxslt1-dev, libxtst-dev, libgif-dev,
+ libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
+ libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdelibs
@@ -42,9 +40,9 @@ Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}),
- libcupsys2-dev, libdbus-1-dev, libqt4-dev,
+ libcupsys2-dev, libdbus-1-dev, libqt4-dev (>= 4.4.0~),
  libasound2-dev [linux-any], libkeyutils-dev [linux-any],
- libsoprano-dev (>= 2.0.0), libstreamanalyzer-dev (>= 0.5.7),
+ libsoprano-dev (>= 2.0.97~), libstreamanalyzer-dev (>= 0.5.7),
  libxml2-dev, libxml2-utils, libxslt1-dev, libxtst-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
@@ -77,7 +75,7 @@ Package: kdelibs5-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs5 (= ${binary:Version}), libqt4-debug, libc6-dbg [amd64]
+Depends: kdelibs5 (= ${binary:Version}), libqt4-dbg (>= 4.4.0~), libc6-dbg [amd64]
 Conflicts: kdelibs-dbg (>= 4:3.91.0-1)
 Replaces: kdelibs-dbg (>= 4:3.91.0-1)
 Description: debugging symbols for the KDE 4 libraries module

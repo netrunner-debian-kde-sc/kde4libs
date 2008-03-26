@@ -8,7 +8,6 @@ usr/bin/kdeinit4_shutdown
 usr/bin/kdeinit4_wrapper
 usr/bin/kjs
 usr/bin/kjscmd
-usr/bin/kjsconsole
 usr/bin/kross
 usr/bin/kshell4
 usr/bin/kwrapper4

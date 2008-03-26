@@ -31,6 +31,7 @@ usr/include/skipdlg.h
 usr/include/solid/*
 usr/include/sonnet/*
 usr/include/threadweaver/*
+usr/lib/kde4/plugins/script/libkrossqtsplugin.so
 usr/lib/libkaudiodevicelist.so
 usr/lib/libkde3support.so
 usr/lib/libkdecore.so
@@ -62,6 +63,7 @@ usr/lib/libthreadweaver.so
 usr/share/kde4/apps/cmake/modules/CheckPointerMember.cmake
 usr/share/kde4/apps/cmake/modules/CheckPrototypeExists.cmake
 usr/share/kde4/apps/cmake/modules/CheckStructMember.cmake
+usr/share/kde4/apps/cmake/modules/cmake-modules-styleguide.txt
 usr/share/kde4/apps/cmake/modules/config-alsa.h.cmake
 usr/share/kde4/apps/cmake/modules/FindACL.cmake
 usr/share/kde4/apps/cmake/modules/FindAGG.cmake
@@ -141,6 +143,7 @@ usr/share/kde4/apps/cmake/modules/FindTaglib.cmake
 usr/share/kde4/apps/cmake/modules/FindTIFF.cmake
 usr/share/kde4/apps/cmake/modules/FindUSB.cmake
 usr/share/kde4/apps/cmake/modules/FindX11.cmake
+usr/share/kde4/apps/cmake/modules/FindXine.cmake
 usr/share/kde4/apps/cmake/modules/FindXKB.cmake
 usr/share/kde4/apps/cmake/modules/FindXmms.cmake
 usr/share/kde4/apps/cmake/modules/kde4automoc.files.in

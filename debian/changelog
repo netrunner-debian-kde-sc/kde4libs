@@ -1,19 +1,14 @@
-kde4libs (4:4.0.2-2) UNRELEASED; urgency=low
+kde4libs (4:4.0.66+svn790271-1) experimental; urgency=low
 
-  +++ Changes by Matthew Rosewarne:
+  * First KDE 4.1 snapshot packaged, this is going to experimental.
+  * Update installed files.
+  * Refresh and update patches.
+  * Bump to new version number where needed.
+  * Add some versioned depends on Qt4 4.4.
+  * Replace libqt4-debug with libqt4-dbg.
+  * Build depend on soprano >= 2.0.97~.
 
-  * Added build-dependencies for FindStrigi.cmake and FindX11.cmake.
-    - libstrigiqtdbusclient-dev
-    - libxcomposite-dev
-    - libxdamage-dev
-    - libxkbfile-dev
-    - libxpm-dev
-    - libxss-dev
-    - libxv-dev
-    - libxxf86misc-dev
-    - libxxf86vm-dev
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 08 Mar 2008 13:16:35 -0500
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 21 Mar 2008 17:09:16 +0100
 
 kde4libs (4:4.0.2-1) unstable; urgency=low
 

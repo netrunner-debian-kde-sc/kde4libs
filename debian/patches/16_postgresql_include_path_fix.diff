@@ -1,11 +1,10 @@
---- kde4libs-4.0.1/cmake/modules/FindPostgreSQL.cmake	2008-01-05 01:59:39.000000000 +0200
-+++ kde4libs-4.0.1/cmake/modules/FindPostgreSQL.cmake	2008-02-07 03:07:49.000000000 +0200
-@@ -20,6 +20,8 @@
- find_path(POSTGRESQL_INCLUDE_DIR libpq-fe.h
-    /usr/include/pgsql
-    /usr/local/include/pgsql
-+   /usr/include/postgresql
-+   /usr/local/include/postgresql
+--- kde4libs-4.0.66+svn790271.orig/cmake/modules/FindPostgreSQL.cmake
++++ kde4libs-4.0.66+svn790271/cmake/modules/FindPostgreSQL.cmake
+@@ -21,6 +21,7 @@
+    /usr/include/pgsql/
+    /usr/local/include/pgsql/
+    /usr/include/postgresql/
++   /usr/local/include/postgresql/
  )
  
  find_library(POSTGRESQL_LIBRARIES NAMES pq)

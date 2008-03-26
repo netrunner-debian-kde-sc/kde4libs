@@ -1,17 +1,6 @@
---- kde4libs-4.0.2.orig/kded/CMakeLists.txt
-+++ kde4libs-4.0.2/kded/CMakeLists.txt
-@@ -67,7 +67,7 @@
- 
- ########### install files ###############
- 
--install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus )
-+install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus RENAME kde4-applications.menu)
- install( FILES kdedmodule.desktop  DESTINATION  ${SERVICETYPES_INSTALL_DIR} )
- install( FILES kded.upd  DESTINATION  ${DATA_INSTALL_DIR}/kconf_update )
- 
---- kde4libs-4.0.2.orig/kded/kbuildsycoca.cpp
-+++ kde4libs-4.0.2/kded/kbuildsycoca.cpp
-@@ -319,7 +319,7 @@
+--- kde4libs-4.0.10~svn783501.orig/kded/kbuildsycoca.cpp
++++ kde4libs-4.0.10~svn783501/kded/kbuildsycoca.cpp
+@@ -322,7 +322,7 @@
       connect(g_vfolder, SIGNAL(newService(const QString &, KService::Ptr *)),
               this, SLOT(slotCreateEntry(const QString &, KService::Ptr *)));
  
@@ -20,3 +9,14 @@
  
       KServiceGroup::Ptr entry = g_bsgf->addNew("/", kdeMenu->directoryFile, KServiceGroup::Ptr(), false);
       entry->setLayoutInfo(kdeMenu->layoutList);
+--- kde4libs-4.0.10~svn783501.orig/kded/CMakeLists.txt
++++ kde4libs-4.0.10~svn783501/kded/CMakeLists.txt
+@@ -67,7 +67,7 @@
+ 
+ ########### install files ###############
+ 
+-install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus )
++install( FILES applications.menu  DESTINATION ${SYSCONF_INSTALL_DIR}/xdg/menus RENAME kde4-applications.menu)
+ install( FILES kdedmodule.desktop DESTINATION  ${SERVICETYPES_INSTALL_DIR} )
+ install( FILES kded.upd           DESTINATION  ${DATA_INSTALL_DIR}/kconf_update )
+ 

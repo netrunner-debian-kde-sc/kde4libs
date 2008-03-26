@@ -1,6 +1,6 @@
---- a/kdecore/kernel/kstandarddirs.cpp
-+++ b/kdecore/kernel/kstandarddirs.cpp
-@@ -1470,7 +1470,7 @@
+--- kde4libs-4.0.10~svn783501.orig/kdecore/kernel/kstandarddirs.cpp
++++ kde4libs-4.0.10~svn783501/kdecore/kernel/kstandarddirs.cpp
+@@ -1478,7 +1478,7 @@
  #ifdef Q_WS_MACX
          localKdeDir =  QDir::homePath() + "/Library/Preferences/KDE/";
  #else
@@ -9,8 +9,8 @@
  #endif
      }
  
---- a/kdeui/util/kcrash.cpp
-+++ b/kdeui/util/kcrash.cpp
+--- kde4libs-4.0.10~svn783501.orig/kdeui/util/kcrash.cpp
++++ kde4libs-4.0.10~svn783501/kdeui/util/kcrash.cpp
 @@ -500,7 +500,7 @@
  
    if (!kde_home || !kde_home[0])
@@ -20,8 +20,8 @@
    }
  
    if (kde_home[0] == '~')
---- a/kinit/lnusertemp.c
-+++ b/kinit/lnusertemp.c
+--- kde4libs-4.0.10~svn783501.orig/kinit/lnusertemp.c
++++ kde4libs-4.0.10~svn783501/kinit/lnusertemp.c
 @@ -123,7 +123,7 @@
  
    if (!kde_home || !kde_home[0])
@@ -31,8 +31,8 @@
    }
  
    if (kde_home[0] == '~')
---- a/kinit/wrapper.c
-+++ b/kinit/wrapper.c
+--- kde4libs-4.0.10~svn783501.orig/kinit/wrapper.c
++++ kde4libs-4.0.10~svn783501/kinit/wrapper.c
 @@ -142,7 +142,7 @@
  
    if (!kde_home || !kde_home[0])
