@@ -1,4 +1,4 @@
-kde4libs (4:4.0.66+svn790271-1) experimental; urgency=low
+kde4libs (4:4.0.66+svn790535-1) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged, this is going to experimental.
   * Update installed files.
@@ -8,7 +8,7 @@ kde4libs (4:4.0.66+svn790271-1) experimental; urgency=low
   * Replace libqt4-debug with libqt4-dbg.
   * Build depend on soprano >= 2.0.97~.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 21 Mar 2008 17:09:16 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 26 Mar 2008 23:49:16 +0100
 
 kde4libs (4:4.0.2-1) unstable; urgency=low
 
