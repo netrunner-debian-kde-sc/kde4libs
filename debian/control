@@ -47,6 +47,7 @@ Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}),
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
 Suggests: kdelibs5-doc (= ${source:Version})
+Replaces: kdebase-runtime-data (<< 4:4.0.60)
 Conflicts: kdelibs4-dev
 Description: development files for the KDE 4 core libraries
  This package contains development files for building KDE 4 applications and
