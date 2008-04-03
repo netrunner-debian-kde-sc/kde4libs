@@ -87,6 +87,7 @@ usr/share/kde4/apps/katepart/jscript/indentation_c.js
 usr/share/kde4/apps/katepart/jscript/jstest.js
 usr/share/kde4/apps/katepart/jscript/lisp.js
 usr/share/kde4/apps/katepart/jscript/python.js
+usr/share/kde4/apps/katepart/jscript/ruby.js
 usr/share/kde4/apps/katepart/jscript/sort.js
 usr/share/kde4/apps/katepart/katepartreadonlyui.rc
 usr/share/kde4/apps/katepart/katepartui.rc

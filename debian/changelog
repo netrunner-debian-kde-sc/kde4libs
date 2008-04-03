@@ -1,11 +1,13 @@
-kde4libs (4:4.0.66+svn791114-2~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.68-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
 
   +++ Changes by Modestas Vainius:
 
   * Add Replaces: kdebase-runtime-data << KDE 4.1 for kdelibs5-dev due to
     common file /usr/share/kde4/apps/cmake/modules/FindXine.cmake
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2008 12:52:59 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Apr 2008 22:37:56 +0200
 
 kde4libs (4:4.0.66+svn791114-1) experimental; urgency=low
 
