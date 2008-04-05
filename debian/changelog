@@ -1,4 +1,4 @@
-kde4libs (4:4.0.68-1) UNRELEASED; urgency=low
+kde4libs (4:4.0.68-1) experimental; urgency=low
 
   * New upstream snapshot.
 
@@ -6,6 +6,11 @@ kde4libs (4:4.0.68-1) UNRELEASED; urgency=low
 
   * Add Replaces: kdebase-runtime-data << KDE 4.1 for kdelibs5-dev due to
     common file /usr/share/kde4/apps/cmake/modules/FindXine.cmake
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Tighten build depend version on libstreamanalyzer-dev 0.5.8-2
+    from experimental.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Apr 2008 22:37:56 +0200
 
