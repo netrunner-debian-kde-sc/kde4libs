@@ -1,4 +1,4 @@
-kde4libs (4:4.0.68+svn794096-1) UNRELEASED; urgency=low
+kde4libs (4:4.0.68+svn794174-1) UNRELEASED; urgency=low
 
    * New upstream development snapshot:
      - The latest upstream commit is r794096 by whiting
