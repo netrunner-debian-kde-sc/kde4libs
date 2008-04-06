@@ -1,3 +1,29 @@
+kde4libs (4:4.0.68+svn794096-1) UNRELEASED; urgency=low
+
+   * New upstream development snapshot:
+     - The latest upstream commit is r794096 by whiting
+     - Date: Sun, 06 Apr 2008 14:49:02 -0000
+
+   +++ Changes by Modestas Vainius:
+
+   * Sort *.install files
+   * Drop 16_postgresql_include_path_fix.diff - merged upstream.
+   * Add 17_findservicebydesktoppath_try_realfilepath.diff to improve
+     desktop file location by path on the systems where e.g. /usr is a
+     symlink. Please note this patch still does not fix what I developed
+     it for. So it's useless but it does not hurt. Work in progress.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Apr 2008 22:12:02 +0300
+
+kde4libs (4:4.0.68-2~pre1) experimental; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Add 17_findservicebydesktoppath_try_realfilepath.diff to fix service path
+    resolution for non-canonical paths.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Apr 2008 13:40:21 +0300
+
 kde4libs (4:4.0.68-1) experimental; urgency=low
 
   * New upstream snapshot.

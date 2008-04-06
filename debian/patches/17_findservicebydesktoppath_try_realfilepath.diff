@@ -1,0 +1,31 @@
+diff -uNr kde4libs-4.0.68.o/kdecore/services/kservicefactory.cpp kde4libs-4.0.68/kdecore/services/kservicefactory.cpp
+--- kde4libs-4.0.68.o/kdecore/services/kservicefactory.cpp	2008-04-06 13:18:10.000000000 +0300
++++ kde4libs-4.0.68/kdecore/services/kservicefactory.cpp	2008-04-06 13:27:36.000000000 +0300
+@@ -125,17 +125,24 @@
+     return newService;
+ }
+ 
+-KService::Ptr KServiceFactory::findServiceByDesktopPath(const QString &_name)
++KService::Ptr KServiceFactory::findServiceByDesktopPath(const QString &name)
+ {
+     if (!m_relNameDict) return KService::Ptr(); // Error!
+ 
+     // Warning : this assumes we're NOT building a database
+     // KBuildServiceFactory reimplements it for the case where we are building one
+ 
++    QString _name = name;
+     int offset = m_relNameDict->find_string( _name );
+     if (!offset) {
+-        qDebug( "findServiceByDesktopPath: %s not found", qPrintable( _name ) );
+-        return KService::Ptr(); // Not found
++        // We might have been given a symlink or non-canonical path of some sort.
++        // Therefore try looking up KStandardDirs::realFilePath'ed path too.
++        _name = KStandardDirs::realFilePath(_name);
++        offset = m_relNameDict->find_string(_name);
++        if (!offset) {
++            qDebug( "findServiceByDesktopPath: %s not found", qPrintable( name ) );
++            return KService::Ptr(); // Not found
++        }
+     }
+ 
+     KService::Ptr newService(createEntry(offset));
