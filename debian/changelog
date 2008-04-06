@@ -15,15 +15,6 @@ kde4libs (4:4.0.68+svn794096-1) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Apr 2008 22:12:02 +0300
 
-kde4libs (4:4.0.68-2~pre1) experimental; urgency=low
-
-  +++ Changes by Modestas Vainius:
-
-  * Add 17_findservicebydesktoppath_try_realfilepath.diff to fix service path
-    resolution for non-canonical paths.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Apr 2008 13:40:21 +0300
-
 kde4libs (4:4.0.68-1) experimental; urgency=low
 
   * New upstream snapshot.
