@@ -1,7 +1,7 @@
 usr/bin/kbuildsycoca4
 usr/bin/kcookiejar4
-usr/bin/kde4-config
 usr/bin/kde4automoc
+usr/bin/kde4-config
 usr/bin/kded4
 usr/bin/kdeinit4
 usr/bin/kdeinit4_shutdown

@@ -1,3 +1,10 @@
+kde4libs (4:4.0.69-1) experimental; urgency=low
+
+  * New upstream development snapshot.
+  * Update and sort *.install files.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Sun, 13 Apr 2008 23:02:09 +0200
+
 kde4libs (4:4.0.68+svn796328-1) experimental; urgency=low
 
   * New upstream development snapshot.
