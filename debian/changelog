@@ -1,3 +1,12 @@
+kde4libs (4:4.0.68+svn796328-1) experimental; urgency=low
+
+  * New upstream development snapshot.
+  * Add new build depends after Qt4 have updated its build depends:
+    libpng-dev, libssl-dev, libsm-dev and libice-dev.
+  * Add version to the RUNTIME_DEPS in debian/rules.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 13 Apr 2008 12:39:09 +0200
+
 kde4libs (4:4.0.68+svn794641-1) experimental; urgency=low
 
    * New upstream development snapshot.
