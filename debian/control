@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, shared-mime-inf
  libcupsys2-dev, libdbus-1-dev, libqt4-dev (>= 4.4.0~),
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libkeyutils-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
- libpng-dev, libssl-dev, libsm-dev, libice-dev,
+ libpng-dev, libssl-dev, libsm-dev,
  libsoprano-dev (>= 2.0.97~), libstreamanalyzer-dev (>= 0.5.8-2),
  libxml2-dev, libxml2-utils,  libxslt1-dev, libxtst-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,

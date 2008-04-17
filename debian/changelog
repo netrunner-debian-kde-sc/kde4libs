@@ -1,18 +1,26 @@
-kde4libs (4:4.0.69-1) experimental; urgency=low
+kde4libs (4:4.0.69+svn797872-1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot:
+    - The latest upstream commit is r797872 by dhaumann
+    - Date: Wed, 16 Apr 2008 23:29:29 -0000
+
+  +++ Changes by Armin Berres:
 
   * New upstream development snapshot.
   * Update and sort *.install files.
 
- -- Armin Berres <trigger+debian@space-based.de>  Sun, 13 Apr 2008 23:02:09 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez
 
-kde4libs (4:4.0.68+svn796328-1) experimental; urgency=low
-
-  * New upstream development snapshot.
   * Add new build depends after Qt4 have updated its build depends:
-    libpng-dev, libssl-dev, libsm-dev and libice-dev.
+    libpng-dev, libssl-dev, libsm-dev.
   * Add version to the RUNTIME_DEPS in debian/rules.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 13 Apr 2008 12:39:09 +0200
+  +++ Changes by Modestas Vainius:
+
+  * New version of 17_findservicebydesktoppath_try_realfilepath.diff. Still
+    incomplete.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 17 Apr 2008 03:01:59 +0300
 
 kde4libs (4:4.0.68+svn794641-1) experimental; urgency=low
 
