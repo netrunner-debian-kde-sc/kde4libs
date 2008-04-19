@@ -47,7 +47,6 @@ usr/lib/kde4/notepadpart.so
 usr/lib/kde4/plugins/imageformats/kimg_dds.so
 usr/lib/kde4/plugins/imageformats/kimg_eps.so
 usr/lib/kde4/plugins/imageformats/kimg_exr.so
-usr/lib/kde4/plugins/imageformats/kimg_ico.so
 usr/lib/kde4/plugins/imageformats/kimg_jp2.so
 usr/lib/kde4/plugins/imageformats/kimg_pcx.so
 usr/lib/kde4/plugins/imageformats/kimg_psd.so
@@ -81,10 +80,12 @@ usr/lib/libkimproxy.so.4
 usr/lib/libkimproxy.so.4.1.0
 usr/lib/libkio.so.5
 usr/lib/libkio.so.5.1.0
-usr/lib/libkjsembed.so.4
-usr/lib/libkjsembed.so.4.1.0
 usr/lib/libkjs.so.4
 usr/lib/libkjs.so.4.1.0
+usr/lib/libkjsapi.so.4
+usr/lib/libkjsapi.so.4.1.0
+usr/lib/libkjsembed.so.4
+usr/lib/libkjsembed.so.4.1.0
 usr/lib/libkmediaplayer.so.4
 usr/lib/libkmediaplayer.so.4.1.0
 usr/lib/libknewstuff2.so.4

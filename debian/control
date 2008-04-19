@@ -40,14 +40,7 @@ Description: core shared data for all KDE 4 applications
 Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}),
- libcupsys2-dev, libdbus-1-dev, libqt4-dev (>= 4.4.0~),
- libasound2-dev [linux-any], libkeyutils-dev [linux-any],
- libpng-dev, libssl-dev, libsm-dev, libice-dev,
- libsoprano-dev (>= 2.0.97~), libstreamanalyzer-dev (>= 0.5.8-2),
- libxml2-dev, libxml2-utils, libxslt1-dev, libxtst-dev, libgif-dev,
- libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
- libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc
+Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), libqt4-dev (>= 4.4.0~), libsoprano-dev (>= 2.0.97~)
 Suggests: kdelibs5-doc (= ${source:Version})
 Replaces: kdebase-runtime-data (<< 4:4.0.60)
 Conflicts: kdelibs4-dev

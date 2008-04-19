@@ -1,12 +1,17 @@
-kde4libs (4:4.0.69+svn797872-1) UNRELEASED; urgency=low
+kde4libs (4:4.0.70+svn798712-1~pre1) UNRELEASED; urgency=low
+
+  +++ Auto changes by Debian KDE Builder:
 
   * New upstream development snapshot:
-    - The latest upstream commit is r797872 by dhaumann
-    - Date: Wed, 16 Apr 2008 23:29:29 -0000
+    - The latest upstream commit is r798712 by porten
+    - Date: Sat, 19 Apr 2008 01:18:31 -0000
+  * Corrections to *.install files:
+    - kdelibs5-dev.install: 7 new file(s) added;
+    - kdelibs5.install: 2 new file(s) added; 1 file(s) removed;
+    - kdelibs5-data.install: 8 new file(s) added; 8 file(s) removed;
 
   +++ Changes by Armin Berres:
 
-  * New upstream development snapshot.
   * Update and sort *.install files.
 
   +++ Changes by Ana Beatriz Guerrero Lopez
@@ -19,8 +24,11 @@ kde4libs (4:4.0.69+svn797872-1) UNRELEASED; urgency=low
 
   * New version of 17_findservicebydesktoppath_try_realfilepath.diff. Still
     incomplete.
+  * Shrink *-dev dependency list of kdelibs5-dev to libqt4-dev (>= 4.4.0~),
+    libsoprano-dev (>= 2.0.97~). Thanks to Sune Vuorela for determining this
+    set from #include's of the public headers.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 17 Apr 2008 03:01:59 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Apr 2008 04:50:33 +0300
 
 kde4libs (4:4.0.68+svn794641-1) experimental; urgency=low
 
