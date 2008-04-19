@@ -154,6 +154,8 @@ usr/share/kde4/apps/cmake/modules/FindXmms.cmake
 usr/share/kde4/apps/cmake/modules/KDE4Defaults.cmake
 usr/share/kde4/apps/cmake/modules/KDE4Macros.cmake
 usr/share/kde4/apps/cmake/modules/KDELibsDependencies.cmake
+usr/share/kde4/apps/cmake/modules/KDELibsImports-debian.cmake
+usr/share/kde4/apps/cmake/modules/KDELibsImports.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddCompileFlags.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddFileDependencies.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddLinkFlags.cmake
