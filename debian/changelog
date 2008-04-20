@@ -1,4 +1,4 @@
-kde4libs (4:4.0.70+svn798712-1~pre3) UNRELEASED; urgency=low
+kde4libs (4:4.0.70+svn798712-1~pre4) UNRELEASED; urgency=low
 
   +++ Auto changes by Debian KDE Builder:
 
@@ -27,6 +27,8 @@ kde4libs (4:4.0.70+svn798712-1~pre3) UNRELEASED; urgency=low
   * Shrink *-dev dependency list of kdelibs5-dev to libqt4-dev (>= 4.4.0~),
     libsoprano-dev (>= 2.0.97~). Thanks to Sune Vuorela for determining this
     set from #include's of the public headers.
+  * Add 18_always_set_cmake_policy.diff patch to set CMake policy settings
+    regardless of KDE_FOUND value.
   * Introduce 97_cmake26_imported_link_interfaces.diff which messes up with
     upstream build system a bit with the intention to reduce excess linkage:
     - Most changes need cmake 2.6 or later. Make kdelibs5-dev depend on
@@ -45,7 +47,7 @@ kde4libs (4:4.0.70+svn798712-1~pre3) UNRELEASED; urgency=low
       respective public KDE library. KDE4_*_LIBRARY semantics were not changed
       and they still point to the result of find_library().
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2008 03:21:53 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2008 04:51:49 +0300
 
 kde4libs (4:4.0.68+svn794641-1) experimental; urgency=low
 

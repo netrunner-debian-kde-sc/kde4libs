@@ -7,4 +7,5 @@
 14_hardcode_ptm_device.diff
 15_kfreebsd_support.diff
 17_findservicebydesktoppath_try_realfilepath.diff
+18_always_set_cmake_policy.diff
 97_cmake26_imported_link_interfaces.diff
