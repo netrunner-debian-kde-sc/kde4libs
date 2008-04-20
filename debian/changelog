@@ -1,14 +1,7 @@
-kde4libs (4:4.0.70+svn798712-1~pre5) UNRELEASED; urgency=low
-
-  +++ Auto changes by Debian KDE Builder:
+kde4libs (4:4.0.70+svn799089-1) experimental; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r798712 by porten
-    - Date: Sat, 19 Apr 2008 01:18:31 -0000
-  * Corrections to *.install files:
-    - kdelibs5-dev.install: 7 new file(s) added;
-    - kdelibs5.install: 2 new file(s) added; 1 file(s) removed;
-    - kdelibs5-data.install: 8 new file(s) added; 8 file(s) removed;
+    - The latest upstream commit is r799089.
 
   +++ Changes by Armin Berres:
 
