@@ -1,4 +1,4 @@
-kde4libs (4:4.0.70+svn798712-1~pre2) UNRELEASED; urgency=low
+kde4libs (4:4.0.70+svn798712-1~pre3) UNRELEASED; urgency=low
 
   +++ Auto changes by Debian KDE Builder:
 
@@ -45,7 +45,7 @@ kde4libs (4:4.0.70+svn798712-1~pre2) UNRELEASED; urgency=low
       respective public KDE library. KDE4_*_LIBRARY semantics were not changed
       and they still point to the result of find_library().
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2008 02:28:52 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2008 03:21:53 +0300
 
 kde4libs (4:4.0.68+svn794641-1) experimental; urgency=low
 
