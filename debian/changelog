@@ -50,8 +50,9 @@ kde4libs (4:4.0.70+svn799089-1) experimental; urgency=low
   * Build-depend on libglu1-mesa-dev as libqt4-dev 4.4.0~rc1-5 is dropping it
     from Depends.
   * Add myself to Uploaders.
+  * Add 19_findqt4_optional_x11.diff - make X11 optional for in FindQt4.cmake.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2008 20:03:34 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2008 22:12:38 +0300
 
 kde4libs (4:4.0.68+svn794641-1) experimental; urgency=low
 
