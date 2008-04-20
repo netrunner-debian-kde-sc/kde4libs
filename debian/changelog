@@ -22,15 +22,15 @@ kde4libs (4:4.0.70+svn799089-1) experimental; urgency=low
     set from #include's of the public headers.
   * Add 18_always_set_cmake_policy.diff patch to set CMake policy settings
     regardless of KDE_FOUND value.
-  * Introduce 97_cmake26_imported_link_interfaces.diff which messes up with
-    upstream build system a bit with the intention to reduce excess linkage:
-    - Most changes need cmake 2.6 or later. Make kdelibs5-dev depend on
+  * Introduce 97_use_imported_targets_with_cmake26.diff which changes the way
+    libraries dependences are exported when built with CMake 2.6:
+    - Rationale behind this is to reduce excess linkage.
+    - Build-depend on cmake 2.6 or later. Make kdelibs5-dev depend on
       cmake 2.6.
-    - Make use of LINK_INTERFACE_LIBRARIES target property to control which
-      libraries are exported via link interface (probably needs more tweaking).
-    - Do not use export_library_dependencies() to export library dependences.
-      This method was the main source of excess linkage problems. Use a brand
-      new install(EXPORT) instead which supports LINK_INTERFACE_LIBRARIES.
+    - Do not use export_library_dependencies() to export library dependences
+      with CMake 2.6. This method was the main source of excess linkage
+      problems. Use a brand new install(EXPORT) instead which supports
+      LINK_INTERFACE_LIBRARIES.
     - Due to the change above, add "EXPORT kdelibs" property for all public 
       install(TARGETS).
     - Rewrite the part of FindKDE4Install.cmake which deals with
@@ -39,10 +39,19 @@ kde4libs (4:4.0.70+svn799089-1) experimental; urgency=low
       make each KDE4_*_LIBS variable refer to the IMPORTED target of the
       respective public KDE library. KDE4_*_LIBRARY semantics were not changed
       and they still point to the result of find_library().
+  * Add 98_link_interface_libraries.diff which:
+    - Tweaks target_link_libraries() calls where dependences where were
+      missing.
+    - Makes use of LINK_INTERFACE_LIBRARIES target property to control which
+      libraries are exported via link interface (property values probably need
+      more tweaking). This is CMake 2.6 or only, ignored for CMake 2.4.
   * Make kdelibs shlibs "dynamic" and ensure kdebase-runtime from KDE 4.1
     series is used as runtime dependency.
+  * Build-depend on libglu1-mesa-dev as libqt4-dev 4.4.0~rc1-5 is dropping it
+    from Depends.
+  * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2008 13:47:52 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2008 20:03:34 +0300
 
 kde4libs (4:4.0.68+svn794641-1) experimental; urgency=low
 

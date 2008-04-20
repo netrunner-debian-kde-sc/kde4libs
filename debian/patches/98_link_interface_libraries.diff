@@ -1,0 +1,326 @@
+--- kde4libs.orig/dnssd/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/dnssd/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -61,6 +61,7 @@
+ else (HAVE_DNSSD)
+   target_link_libraries(kdnssd ${KDE4_KDEUI_LIBS})
+ endif (HAVE_DNSSD)
++set_target_properties(kdnssd PROPERTIES LINK_INTERFACE_LIBRARIES "kdeui")
+ 
+ set_target_properties(kdnssd PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
+ install(TARGETS kdnssd ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+--- kde4libs.orig/interfaces/ktexteditor/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/interfaces/ktexteditor/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -25,6 +25,7 @@
+ kde4_add_library(ktexteditor SHARED ${ktexteditor_LIB_SRCS})
+ 
+ target_link_libraries(ktexteditor  ${KDE4_KDECORE_LIBS} ${QT_QTDBUS_LIBRARY} kparts )
++set_target_properties(ktexteditor PROPERTIES LINK_INTERFACE_LIBRARIES "kparts")
+ 
+ set_target_properties(ktexteditor PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
+ install(TARGETS ktexteditor ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+--- kde4libs.orig/kde3support/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kde3support/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -78,7 +78,9 @@
+ 
+ kde4_add_library(kde3support SHARED ${kde3support_LIB_SRCS})
+ 
+-target_link_libraries(kde3support  ${KDE4_KPARTS_LIBS} ${KDE4_KPTY_LIBS} ${QT_QTXML_LIBRARY} ${QT_QT3SUPPORT_LIBRARY} ${KDE4_KFILE_LIBS})
++target_link_libraries(kde3support  ${KDE4_KPARTS_LIBS} ${KDE4_KPTY_LIBS} ${QT_QTXML_LIBRARY}
++   ${QT_QT3SUPPORT_LIBRARY} ${KDE4_KFILE_LIBS} ${X11_X11_LIB} )
++set_target_properties(kde3support PROPERTIES LINK_INTERFACE_LIBRARIES "kio;${QT_QT3SUPPORT_LIBRARY}")
+ 
+ set_target_properties(kde3support PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
+ install(TARGETS kde3support ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+--- kde4libs.orig/kdecore/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kdecore/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -105,6 +105,7 @@
+    if (NOT HAVE_TRUNC)
+        target_link_libraries(kdefakes  m )
+    endif (NOT HAVE_TRUNC)
++   set_target_properties(kdefakes PROPERTIES LINK_INTERFACE_LIBRARIES "")
+    install(TARGETS kdefakes ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS} )
+ 
+ endif (UNIX)
+@@ -242,6 +243,7 @@
+ kde4_add_library(kdecore SHARED ${kdecore_LIB_SRCS})
+ 
+ target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
++set_target_properties(kdecore PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};${QT_QTNETWORK_LIBRARY};${QT_QTDBUS_LIBRARY}")
+ 
+ set_target_properties(kdecore PROPERTIES VERSION ${KDE_NON_GENERIC_LIB_VERSION} SOVERSION ${KDE_NON_GENERIC_LIB_SOVERSION} )
+ install(TARGETS kdecore ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+--- kde4libs.orig/kded/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kded/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -13,7 +13,7 @@
+ 
+ kde4_add_kdeinit_executable(kded4  ${kded_KDEINIT_SRCS})
+ 
+-target_link_libraries(kdeinit_kded4  ${KDE4_KIO_LIBS} )
++target_link_libraries(kdeinit_kded4  ${KDE4_KIO_LIBS} ${X11_X11_LIB} )
+ 
+ install(TARGETS kdeinit_kded4 ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+--- kde4libs.orig/kdesu/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kdesu/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -18,6 +18,7 @@
+ kde4_add_library(kdesu SHARED ${kdesu_LIB_SRCS})
+ 
+ target_link_libraries(kdesu ${KDE4_KPTY_LIBS} )
++set_target_properties(kdesu PROPERTIES LINK_INTERFACE_LIBRARIES "kpty")
+ 
+ if(KDESU_USE_SUDO_DEFAULT)
+    set_source_files_properties(su.cpp
+--- kde4libs.orig/kdeui/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kdeui/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -280,7 +280,8 @@
+ 
+ kde4_add_library(kdeui SHARED ${kdeui_LIB_SRCS})
+ 
+-target_link_libraries(kdeui  ${QT_QTSVG_LIBRARY} ${KDE4_KDECORE_LIBS} ${X11_LIBRARIES} ${QT_QTGUI_LIBRARY} ${QT_QTXML_LIBRARY} )
++target_link_libraries(kdeui ${QT_QTSVG_LIBRARY} ${KDE4_KDECORE_LIBS} ${X11_X11_LIB} ${QT_QTGUI_LIBRARY} ${QT_QTXML_LIBRARY} ${QT_QTDBUS_LIBRARY} )
++set_target_properties(kdeui PROPERTIES LINK_INTERFACE_LIBRARIES "kdecore;${QT_QTSVG_LIBRARY};${QT_QTGUI_LIBRARY};${QT_QTGUI_LIBRARY};${QT_QTXML_LIBRARY};${QT_QTDBUS_LIBRARY}" )
+ 
+ if(MINGW)
+    target_link_libraries(kdeui gdi32)
+@@ -302,6 +303,10 @@
+    target_link_libraries(kdeui ${X11_Xrender_LIB})
+ endif(X11_Xrender_FOUND)
+ 
++if (X11_ICE_FOUND)
++   target_link_libraries(kdeui ${X11_X_PRE_LIBS} ${X11_ICE_LIB})
++endif(X11_ICE_FOUND)
++
+ set_target_properties(kdeui PROPERTIES VERSION ${KDE_NON_GENERIC_LIB_VERSION} SOVERSION ${KDE_NON_GENERIC_LIB_SOVERSION} )
+ install(TARGETS kdeui ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ ########### install files ###############
+@@ -521,7 +526,7 @@
+ endif ( Q_WS_QWS )
+ 
+ kde4_add_plugin( kded_globalaccel ${kded_globalaccel_SRCS} )
+-target_link_libraries(kded_globalaccel ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} )
++target_link_libraries(kded_globalaccel ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} ${X11_X11_LIB} ${QT_QTDBUS_LIBRARY})
+ 
+ install( TARGETS kded_globalaccel DESTINATION ${PLUGIN_INSTALL_DIR} )
+ 
+--- kde4libs.orig/kfile/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kfile/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -37,6 +37,7 @@
+    ${STRIGI_LIBRARIES}
+    ${KDE4_SOLID_LIBS}
+ )
++set_target_properties(kfile PROPERTIES LINK_INTERFACE_LIBRARIES "kde3support")
+ 
+ set_target_properties(kfile PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
+ install(TARGETS kfile ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+--- kde4libs.orig/khtml/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/khtml/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -296,7 +296,9 @@
+ 
+ kde4_add_library(khtml SHARED ${khtml_LIB_SRCS})
+ 
+-target_link_libraries(khtml ${KDE4_KPARTS_LIBS} ktexteditor kjs ${KDE4_PHONON_LIBS} ${JPEG_LIBRARIES} ${GIF_LIBRARIES} ${PNG_LIBRARIES} )
++target_link_libraries(khtml ${KDE4_KPARTS_LIBS} ktexteditor kjs ${X11_X11_LIB}
++   ${KDE4_PHONON_LIBS} ${JPEG_LIBRARIES} ${GIF_LIBRARIES} ${PNG_LIBRARIES} )
++set_target_properties(khtml PROPERTIES LINK_INTERFACE_LIBRARIES "")
+ 
+ set_target_properties(khtml PROPERTIES VERSION ${KDE_NON_GENERIC_LIB_VERSION} SOVERSION ${KDE_NON_GENERIC_LIB_SOVERSION} )
+ 
+@@ -342,7 +344,7 @@
+ 
+ kde4_add_plugin(khtmlpart WITH_PREFIX ${khtmlpart_PART_SRCS})
+ 
+-target_link_libraries(khtmlpart  ${KDE4_KDECORE_LIBS} khtml )
++target_link_libraries(khtmlpart  ${KDE4_KPARTS_LIBS} khtml )
+ 
+ install(TARGETS khtmlpart  DESTINATION ${PLUGIN_INSTALL_DIR} )
+ 
+--- kde4libs.orig/khtml/kmultipart/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/khtml/kmultipart/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -9,7 +9,7 @@
+ 
+ kde4_add_plugin(kmultipart WITH_PREFIX ${kmultipart_PART_SRCS})
+ 
+-target_link_libraries(kmultipart  ${KDE4_KPARTS_LIBS} )
++target_link_libraries(kmultipart  ${KDE4_KPARTS_LIBS} ${ZLIB_LIBRARY} )
+ 
+ install(TARGETS kmultipart  DESTINATION ${PLUGIN_INSTALL_DIR} )
+ 
+--- kde4libs.orig/kinit/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kinit/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -136,7 +136,7 @@
+ kde4_add_kdeinit_executable( klauncher NOGUI ${klauncher_KDEINIT_SRCS})
+ set_target_properties(kdeinit_klauncher PROPERTIES DEFINE_SYMBOL MAKE_KLAUNCHER)
+ 
+-target_link_libraries(kdeinit_klauncher  ${KDE4_KIO_LIBS} )
++target_link_libraries(kdeinit_klauncher  ${KDE4_KIO_LIBS} ${X11_X11_LIB} )
+ 
+ install(TARGETS kdeinit_klauncher ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+--- kde4libs.orig/kio/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kio/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -235,7 +235,9 @@
+ 
+ kde4_add_library(kio SHARED ${kio_LIB_SRCS})
+ 
+-target_link_libraries(kio ${KDE4_KDEUI_LIBS} ${ZLIB_LIBRARY} ${STRIGI_STREAMANALYZER_LIBRARY} ${STRIGI_STREAMS_LIBRARY} ${KDE4_SOLID_LIBS})
++target_link_libraries(kio ${KDE4_KDEUI_LIBS} ${QT_QTNETWORK_LIBRARY} ${X11_X11_LIB}
++  ${ZLIB_LIBRARY} ${STRIGI_STREAMANALYZER_LIBRARY} ${STRIGI_STREAMS_LIBRARY} ${KDE4_SOLID_LIBS} )
++set_target_properties(kio PROPERTIES LINK_INTERFACE_LIBRARIES "kdeui")
+ 
+ 
+ set(SYS_INOTIFY_H_FOUND 0)
+--- kde4libs.orig/kioslave/http/CMakeLists.txt	2008-04-20 17:33:41.000000000 +0000
++++ kde4libs/kioslave/http/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -37,7 +37,7 @@
+ 
+ kde4_add_kdeinit_executable( kio_http_cache_cleaner NOGUI ${kio_http_cache_cleaner_KDEINIT_SRCS})
+ 
+-target_link_libraries(kdeinit_kio_http_cache_cleaner  ${KDE4_KIO_LIBS} )
++target_link_libraries(kdeinit_kio_http_cache_cleaner  ${KDE4_KIO_LIBS} ${ZLIB_LIBRARY} )
+ 
+ install(TARGETS kdeinit_kio_http_cache_cleaner ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+@@ -57,7 +57,7 @@
+ 
+ kde4_add_plugin(kio_http ${kio_http_PART_SRCS})
+ 
+-target_link_libraries(kio_http ${KDE4_KIO_LIBS} kntlm )
++target_link_libraries(kio_http ${KDE4_KIO_LIBS} kntlm ${ZLIB_LIBRARY} )
+ if(GSSAPI_FOUND)
+   target_link_libraries(kio_http ${GSSAPI_LIBS} )
+ endif(GSSAPI_FOUND)
+--- kde4libs.orig/kioslave/http/kcookiejar/CMakeLists.txt	2008-04-20 17:33:41.000000000 +0000
++++ kde4libs/kioslave/http/kcookiejar/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -45,7 +45,7 @@
+ 
+ kde4_add_plugin(kded_kcookiejar ${kded_kcookiejar_PART_SRCS})
+ 
+-target_link_libraries(kded_kcookiejar  ${KDE4_KIO_LIBS} ${QT_QT3SUPPORT_LIBRARY} )
++target_link_libraries(kded_kcookiejar  ${KDE4_KIO_LIBS} ${QT_QT3SUPPORT_LIBRARY} ${X11_X11_LIB} )
+ 
+ install(TARGETS kded_kcookiejar  DESTINATION ${PLUGIN_INSTALL_DIR} )
+ 
+--- kde4libs.orig/kjs/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kjs/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -167,6 +167,7 @@
+ 
+ if(UNIX)
+    target_link_libraries(${KJSLIBNAME} m)
++   set_target_properties(${KJSLIBNAME} PROPERTIES LINK_INTERFACE_LIBRARIES "")
+ endif(UNIX)
+ 
+ if(PCRE_FOUND)
+--- kde4libs.orig/knewstuff/knewstuff2/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/knewstuff/knewstuff2/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -54,6 +54,7 @@
+ kde4_add_library(knewstuff2 SHARED ${knewstuff2_core_SRCS} ${knewstuff2_dxs_SRCS} ${knewstuff2_ui_SRCS} ${knewstuff2_SRCS})
+ 
+ target_link_libraries(knewstuff2 ${KDE4_KIO_LIBS} ${QT_QTNETWORK_LIBRARY})
++set_target_properties(knewstuff2 PROPERTIES LINK_INTERFACE_LIBRARIES "kio")
+ set_target_properties(knewstuff2 PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
+ install(TARGETS knewstuff2 ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+--- kde4libs.orig/knotify/config/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/knotify/config/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -19,6 +19,7 @@
+ 
+ # Needs KIO for KUrlRequester
+ target_link_libraries(knotifyconfig  ${KDE4_KIO_LIBS} ${KDE4_PHONON_LIBS}  )
++set_target_properties(knotifyconfig PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};${QT_QTGUI_LIBRARY}")
+ 
+ set_target_properties(knotifyconfig PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
+ install(TARGETS knotifyconfig ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+--- kde4libs.orig/kparts/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kparts/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -25,6 +25,7 @@
+ kde4_add_library(kparts SHARED ${kparts_LIB_SRCS})
+ 
+ target_link_libraries(kparts  ${KDE4_KDECORE_LIBS} kdeui kio)
++set_target_properties(kparts PROPERTIES LINK_INTERFACE_LIBRARIES "kio")
+ 
+ set_target_properties(kparts PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
+ install(TARGETS kparts ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+--- kde4libs.orig/kpty/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kpty/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -12,6 +12,7 @@
+ kde4_add_library(kpty SHARED ${kpty_LIB_SRCS})
+ 
+ target_link_libraries(kpty ${KDE4_KDECORE_LIBS} ${UTIL_LIBRARY} ${UTEMPTER_LIBRARY})
++set_target_properties(kpty PROPERTIES LINK_INTERFACE_LIBRARIES "kdecore")
+ 
+ set_target_properties(kpty PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
+ install(TARGETS kpty ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+--- kde4libs.orig/kross/core/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kross/core/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -12,6 +12,7 @@
+ 
+ kde4_add_library(krosscore SHARED ${krosscore_LIB_SRCS})
+ target_link_libraries(krosscore ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} ${QT_QTSCRIPT_LIBRARY})
++set_target_properties(krosscore PROPERTIES LINK_INTERFACE_LIBRARIES "kdecore;${QT_QTSCRIPT_LIBRARY}")
+ set_target_properties(krosscore PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
+ install(TARGETS krosscore ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+--- kde4libs.orig/kross/ui/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kross/ui/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -15,6 +15,7 @@
+ 
+ kde4_add_library(krossui SHARED ${krossui_LIB_SRCS})
+ target_link_libraries(krossui krosscore ${KDE4_KDEUI_LIBS} ${KDE4_KPARTS_LIBS} ${KDE4_KIO_LIBS})
++set_target_properties(krossui PROPERTIES LINK_INTERFACE_LIBRARIES "kdeui;kparts")
+ set_target_properties(krossui PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
+ install(TARGETS krossui ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+--- kde4libs.orig/kutils/CMakeLists.txt	2008-04-20 17:33:42.000000000 +0000
++++ kde4libs/kutils/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -31,6 +31,7 @@
+ kde4_add_library(kutils SHARED ${kutils_LIB_SRCS})
+ 
+ target_link_libraries(kutils  ${KDE4_KDEUI_LIBS} ${KDE4_KPARTS_LIBS} )
++set_target_properties(kutils PROPERTIES LINK_INTERFACE_LIBRARIES "kdeui")
+ 
+ set_target_properties(kutils PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
+ install(TARGETS kutils ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+--- kde4libs.orig/phonon/libkaudiodevicelist/CMakeLists.txt	2008-04-20 17:33:41.000000000 +0000
++++ kde4libs/phonon/libkaudiodevicelist/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -28,7 +28,8 @@
+ endif(ALSA_FOUND)
+ 
+ kde4_add_library(kaudiodevicelist SHARED ${kaudiodevicelist_LIB_SRCS})
+-target_link_libraries(kaudiodevicelist ${KDE4_SOLID_LIBS} ${KDE4_PHONON_LIBS} ${ASOUND_LIBRARY})
++target_link_libraries(kaudiodevicelist ${KDE4_KDECORE_LIBS} ${KDE4_SOLID_LIBS} ${KDE4_PHONON_LIBS} ${ASOUND_LIBRARY})
++set_target_properties(kaudiodevicelist PROPERTIES LINK_INTERFACE_LIBRARIES "solid")
+ 
+ set_target_properties(kaudiodevicelist PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
+ 
+--- kde4libs.orig/solid/solid/CMakeLists.txt	2008-04-20 17:33:41.000000000 +0000
++++ kde4libs/solid/solid/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -181,6 +181,7 @@
+ kde4_add_library(solid SHARED ${solid_LIB_SRCS})
+ 
+ target_link_libraries(solid ${QT_QTCORE_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${QT_QTGUI_LIBRARY} ${solid_OPTIONAL_LIBS})
++set_target_properties(solid PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY}")
+ 
+ set_target_properties(solid PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
+ install(TARGETS solid ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+--- kde4libs.orig/sonnet/plugins/hspell/CMakeLists.txt	2008-04-20 17:33:41.000000000 +0000
++++ kde4libs/sonnet/plugins/hspell/CMakeLists.txt	2008-04-20 17:33:46.000000000 +0000
+@@ -9,7 +9,7 @@
+ 
+ kde4_add_plugin(kspell_hspell ${kspell_hspell_PART_SRCS})
+ 
+-target_link_libraries(kspell_hspell  ${KDE4_KDECORE_LIBS} ${HSPELL_LIBRARIES} )
++target_link_libraries(kspell_hspell  ${KDE4_KDECORE_LIBS} ${HSPELL_LIBRARIES} ${ZLIB_LIBRARY} )
+ 
+ install(TARGETS kspell_hspell  DESTINATION ${PLUGIN_INSTALL_DIR} )
+ 
+--- kde4libs.orig/phonon/kcm/CMakeLists.txt	2008-04-20 17:33:41.000000000 +0000
++++ kde4libs/phonon/kcm/CMakeLists.txt	2008-04-20 17:34:02.000000000 +0000
+@@ -5,7 +5,7 @@
+ 
+ kde4_add_plugin(kcm_phonon ${kcmphonon_SRCS})
+ target_link_libraries(kcm_phonon ${KDE4_PHONON_LIBS} ${KDE4_KUTILS_LIBS}
+-	${KDE4_KAUDIODEVICELIST_LIBS})
++	${KDE4_KAUDIODEVICELIST_LIBS} ${KDE4_KIO_LIBS})
+ 
+ install(TARGETS kcm_phonon  DESTINATION ${PLUGIN_INSTALL_DIR} )
+ 
