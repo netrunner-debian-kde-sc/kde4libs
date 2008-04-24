@@ -1,6 +1,6 @@
 --- a/ConfigureChecks.cmake
 +++ b/ConfigureChecks.cmake
-@@ -188,13 +188,7 @@
+@@ -192,13 +192,7 @@
      set(HAVE_OPENPTY)
  
      EXECUTE_PROCESS(

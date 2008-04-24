@@ -42,7 +42,7 @@ cmake.
  #include <kdebug.h>
 --- kde4libs-4.0.66+svn790271.orig/kio/kfile/kpropertiesdialog.cpp
 +++ kde4libs-4.0.66+svn790271/kio/kfile/kpropertiesdialog.cpp
-@@ -1887,7 +1887,15 @@
+@@ -1868,7 +1868,15 @@
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
      fileSystemSupportsACLs =
@@ -97,7 +97,7 @@ cmake.
      acl = acl_get_fd(src_fd);
 --- kde4libs-4.0.66+svn790271.orig/ConfigureChecks.cmake
 +++ kde4libs-4.0.66+svn790271/ConfigureChecks.cmake
-@@ -150,11 +150,11 @@
+@@ -154,11 +154,11 @@
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
      endif (NOT login_in_libc)

@@ -6,7 +6,7 @@ icons.
 Debug output is not completely disabled, because QT_NO_DEBUG is not set.
 --- kde4libs-4.0.66+svn790271.orig/cmake/modules/FindKDE4Internal.cmake
 +++ kde4libs-4.0.66+svn790271/cmake/modules/FindKDE4Internal.cmake
-@@ -897,11 +897,13 @@
+@@ -896,11 +896,13 @@
     set(CMAKE_CXX_FLAGS_DEBUG          "-g -O2 -fno-reorder-blocks -fno-schedule-insns -fno-inline")
     set(CMAKE_CXX_FLAGS_DEBUGFULL      "-g3 -fno-inline")
     set(CMAKE_CXX_FLAGS_PROFILE        "-g3 -fno-inline -ftest-coverage -fprofile-arcs")

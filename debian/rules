@@ -14,5 +14,8 @@ DEB_DH_MAKESHLIBS_ARGS_libphonon4 := -V'libphonon4 (>= $(UPSTREAMVERSION))'
 # remove the dependency on kdebase-runtime
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime
 
+# Disable --as-needed. KDELibs is pretty clean now.
+DEB_KDE_LINK_WITH_AS_NEEDED := no
+
 include debian/cdbs/kde.mk
 

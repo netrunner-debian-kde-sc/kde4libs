@@ -1,6 +1,6 @@
 --- kde4libs-4.0.10~svn783501.orig/kded/kbuildsycoca.cpp
 +++ kde4libs-4.0.10~svn783501/kded/kbuildsycoca.cpp
-@@ -322,7 +322,7 @@
+@@ -307,7 +307,7 @@
       connect(g_vfolder, SIGNAL(newService(const QString &, KService::Ptr *)),
               this, SLOT(slotCreateEntry(const QString &, KService::Ptr *)));
  

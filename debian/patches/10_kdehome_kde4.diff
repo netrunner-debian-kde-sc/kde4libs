@@ -22,7 +22,7 @@
    if (kde_home[0] == '~')
 --- kde4libs-4.0.10~svn783501.orig/kinit/lnusertemp.c
 +++ kde4libs-4.0.10~svn783501/kinit/lnusertemp.c
-@@ -123,7 +123,7 @@
+@@ -127,7 +127,7 @@
  
    if (!kde_home || !kde_home[0])
    {

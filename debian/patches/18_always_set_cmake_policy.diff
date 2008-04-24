@@ -2,7 +2,7 @@ Index: kde4libs-4.0.70+svn798712/cmake/modules/FindKDE4Internal.cmake
 ===================================================================
 --- kde4libs-4.0.70+svn798712.orig/cmake/modules/FindKDE4Internal.cmake	2008-04-20 04:40:43.000000000 +0300
 +++ kde4libs-4.0.70+svn798712/cmake/modules/FindKDE4Internal.cmake	2008-04-20 04:41:27.000000000 +0300
-@@ -217,6 +217,24 @@
+@@ -218,6 +218,24 @@
  # this is required now by cmake 2.6 and so must not be skipped by if(KDE4_FOUND) below
  cmake_minimum_required(VERSION 2.4.5 FATAL_ERROR)
  
@@ -27,7 +27,7 @@ Index: kde4libs-4.0.70+svn798712/cmake/modules/FindKDE4Internal.cmake
  if(KDE4_FOUND)
    # Already found in this cmake run, nothing more to do
  else(KDE4_FOUND)
-@@ -658,24 +676,6 @@
+@@ -672,24 +690,6 @@
  endif(WIN32)
  
  
