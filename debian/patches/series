@@ -8,6 +8,6 @@
 15_kfreebsd_support.diff
 17_findservicebydesktoppath_try_realfilepath.diff
 18_always_set_cmake_policy.diff
-19_findqt4_optional_x11.diff
+19_findqt4_optional_x11_pthread.diff
 97_use_imported_targets_with_cmake26.diff
 98_link_interface_libraries.diff

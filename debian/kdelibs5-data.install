@@ -254,6 +254,7 @@ usr/share/kde4/apps/kcharselect/kcharselect-data
 usr/share/kde4/apps/kcm_componentchooser/kcm_instantmessenger.desktop
 usr/share/kde4/apps/kcm_componentchooser/kcm_ktexteditor.desktop
 usr/share/kde4/apps/kcm_phonon/listview-background.png
+usr/share/kde4/apps/kconf_update/devicepreference.upd
 usr/share/kde4/apps/kconf_update/kcookiescfg.upd
 usr/share/kde4/apps/kconf_update/kded.upd
 usr/share/kde4/apps/kconf_update/kio_help.upd
