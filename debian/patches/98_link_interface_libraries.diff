@@ -7,7 +7,7 @@
 -  target_link_libraries(kdnssd ${KDE4_KDEUI_LIBS})
 +  target_link_libraries(kdnssd ${KDE4_KDEUI_LIBS} ${QT_QTDBUS_LIBRARY} )
  endif (HAVE_DNSSD)
-+set_target_properties(kdnssd PROPERTIES LINK_INTERFACE_LIBRARIES "$(QT_QTCORE_LIBRARY")
++set_target_properties(kdnssd PROPERTIES LINK_INTERFACE_LIBRARIES "$(QT_QTCORE_LIBRARY}")
  
  set_target_properties(kdnssd PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kdnssd ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
