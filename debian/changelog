@@ -1,10 +1,11 @@
-kde4libs (4:4.0.71+svn801160-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.71+svn801225-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r801160 by neundorf
-    - Date: Fri, 25 Apr 2008 20:24:01 -0000
+    - The latest upstream commit is r801225 by mueller
+    - Date: Sat, 26 Apr 2008 01:10:13 -0000
   * Corrections to *.install files:
-    - kdelibs5-data.install: 1 new file(s) added;
+    - kdelibs5-dev.install: 1 new file(s) added;
+    - kdelibs5-data.install: 2 file(s) removed;
 
   +++ Changes by Modestas Vainius:
 
@@ -19,8 +20,9 @@ kde4libs (4:4.0.71+svn801160-1~pre1) UNRELEASED; urgency=low
     *.install files and Replaces for libphonon-dev appropriately.
   * Enhance 19_findqt4_optional_x11.diff patch. Do not implicitly add
     -lphread.
+  * Build depend on libenchant-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 25 Apr 2008 23:40:24 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Apr 2008 04:23:28 +0300
 
 kde4libs (4:4.0.70+svn799089-2) experimental; urgency=low
 

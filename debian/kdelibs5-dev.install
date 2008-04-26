@@ -931,4 +931,5 @@ usr/share/kde4/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
 usr/share/kde4/apps/cmake/modules/kde4_exec_via_sh.cmake
 usr/share/kde4/apps/cmake/modules/kde4automoc.files.in
 usr/share/kde4/apps/cmake/modules/kde4init_dummy.cpp.in
+usr/share/kde4/apps/cmake/modules/kde4init_win32lib_dummy.cpp.in
 usr/share/kde4/apps/cmake/modules/kde4uic.cmake
