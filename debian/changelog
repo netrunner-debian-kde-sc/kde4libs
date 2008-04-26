@@ -3,9 +3,6 @@ kde4libs (4:4.0.71+svn801225-1~pre1) UNRELEASED; urgency=low
   * New upstream development snapshot:
     - The latest upstream commit is r801225 by mueller
     - Date: Sat, 26 Apr 2008 01:10:13 -0000
-  * Corrections to *.install files:
-    - kdelibs5-dev.install: 1 new file(s) added;
-    - kdelibs5-data.install: 2 file(s) removed;
 
   +++ Changes by Modestas Vainius:
 
