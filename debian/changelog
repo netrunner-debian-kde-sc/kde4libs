@@ -1,8 +1,11 @@
-kde4libs (4:4.0.71+svn801225-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.71+svn801786-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r801225 by mueller
-    - Date: Sat, 26 Apr 2008 01:10:13 -0000
+    - The latest upstream commit is r801786 by qbast
+    - Date: Sun, 27 Apr 2008 19:02:07 -0000
+  * Corrections to *.install files:
+    - kdelibs5-dev.install: 1 new file(s) added;
+    - kdelibs5.install: 1 new file(s) added;
 
   +++ Changes by Modestas Vainius:
 
@@ -12,6 +15,8 @@ kde4libs (4:4.0.71+svn801225-1~pre1) UNRELEASED; urgency=low
       Those 3 libraries are no longer implicitly provided by any kdelibs
       target. This may cause a few link time FTBFSes.
     - Further update LINK_INTERFACE_LIBRARIES of other public libraries.
+  * Export ${KDE4_THREADWEAVER_LIBRARIES} and an alias for
+    ${KDE4_THREADWEAVER_LIBS} to restore compatibility.
   * Fix offsets in other patches so they apply cleanly.
   * Move usr/include/KDE/Phonon from kdelibs5-dev to libphonon-dev. Update
     *.install files and Replaces for libphonon-dev appropriately.
@@ -19,7 +24,7 @@ kde4libs (4:4.0.71+svn801225-1~pre1) UNRELEASED; urgency=low
     -lphread.
   * Build depend on libenchant-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Apr 2008 04:23:28 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 Apr 2008 22:17:01 +0300
 
 kde4libs (4:4.0.70+svn799089-2) experimental; urgency=low
 

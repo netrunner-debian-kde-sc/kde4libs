@@ -3,3 +3,4 @@ depends kdelibs-bin
 dst:usr/lib/kde4/libexec/
 mime:application/x-sharedlib.* ! link:
 dst:usr/lib/.+\.so[\d.]+$ link:
+dst:/kconf_update_bin/

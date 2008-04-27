@@ -830,6 +830,7 @@ usr/share/kde4/apps/cmake/modules/FindAvahi.cmake
 usr/share/kde4/apps/cmake/modules/FindBerkeleyDB.cmake
 usr/share/kde4/apps/cmake/modules/FindBlitz.cmake
 usr/share/kde4/apps/cmake/modules/FindBlueZ.cmake
+usr/share/kde4/apps/cmake/modules/FindBoost.cmake
 usr/share/kde4/apps/cmake/modules/FindCarbon.cmake
 usr/share/kde4/apps/cmake/modules/FindDNSSD.cmake
 usr/share/kde4/apps/cmake/modules/FindENCHANT.cmake
