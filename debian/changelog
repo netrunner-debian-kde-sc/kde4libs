@@ -6,6 +6,10 @@ kde4libs (4:4.0.71+svn801786-1~pre1) UNRELEASED; urgency=low
   * Corrections to *.install files:
     - kdelibs5-dev.install: 1 new file(s) added;
     - kdelibs5.install: 1 new file(s) added;
+  
+  * New upstream snapshot:
+    - Fixes heap based buffer overflow via specially encoded image.
+      CVE-2008-1670 (Closes: #478283)
 
   +++ Changes by Modestas Vainius:
 
