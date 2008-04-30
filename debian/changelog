@@ -1,8 +1,6 @@
-kde4libs (4:4.0.71+svn802698-1) experimental; urgency=low
+kde4libs (4:4.0.72-1) experimental; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r802693 by mojo
-    - Date: Wed, 30 Apr 2008 10:46:20 -0000
+  * New upstream snapshot. (r802761)
 
   * Fixes heap based buffer overflow via specially encoded image.
     CVE-2008-1670 (Closes: #478283)
@@ -31,7 +29,7 @@ kde4libs (4:4.0.71+svn802698-1) experimental; urgency=low
     - In addition, kio implies solid.
   * Move dbus-1 XML interfaces to kdelibs5-dev.install.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 15:08:30 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 18:03:58 +0200
 
 kde4libs (4:4.0.70+svn799089-2) experimental; urgency=low
 
