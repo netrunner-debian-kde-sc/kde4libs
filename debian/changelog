@@ -1,11 +1,8 @@
-kde4libs (4:4.0.71+svn801786-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.71+svn802698-1) experimental; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r801786 by qbast
-    - Date: Sun, 27 Apr 2008 19:02:07 -0000
-  * Corrections to *.install files:
-    - kdelibs5-dev.install: 1 new file(s) added;
-    - kdelibs5.install: 1 new file(s) added;
+    - The latest upstream commit is r801786 by pdamsten
+    - Date: Wed Apr 30 09:58:16 2008 -0000
   
   * New upstream snapshot:
     - Fixes heap based buffer overflow via specially encoded image.
@@ -28,7 +25,7 @@ kde4libs (4:4.0.71+svn801786-1~pre1) UNRELEASED; urgency=low
     -lphread.
   * Build depend on libenchant-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 Apr 2008 22:17:01 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 14:00:51 +0200
 
 kde4libs (4:4.0.70+svn799089-2) experimental; urgency=low
 
