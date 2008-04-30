@@ -3,3 +3,4 @@ depends libphonon-dev
 link:usr/lib/.+\.so\.[\d.]+$
 dst:apps/cmake/
 dst:/include/
+dst:dbus-\d+/interfaces/.*\.xml

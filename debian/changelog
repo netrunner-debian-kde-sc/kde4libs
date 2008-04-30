@@ -1,12 +1,11 @@
 kde4libs (4:4.0.71+svn802698-1) experimental; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r801786 by pdamsten
-    - Date: Wed Apr 30 09:58:16 2008 -0000
-  
-  * New upstream snapshot:
-    - Fixes heap based buffer overflow via specially encoded image.
-      CVE-2008-1670 (Closes: #478283)
+    - The latest upstream commit is r802693 by mojo
+    - Date: Wed, 30 Apr 2008 10:46:20 -0000
+
+  * Fixes heap based buffer overflow via specially encoded image.
+    CVE-2008-1670 (Closes: #478283)
 
   +++ Changes by Modestas Vainius:
 
@@ -24,8 +23,15 @@ kde4libs (4:4.0.71+svn802698-1) experimental; urgency=low
   * Enhance 19_findqt4_optional_x11.diff patch. Do not implicitly add
     -lphread.
   * Build depend on libenchant-dev.
+  * Add 99_more_implicit_link_libs.diff which adds more implicit link
+    interface libraries to diverge from upstream as least as possible.
+    - In addition, kdecore implies QtDBus, QtXml, QtNetwork.
+    - In addition, kdeui implies QtSvg. 
+    - In addition, kde3support and ktuils imply kparts.
+    - In addition, kio implies solid.
+  * Move dbus-1 XML interfaces to kdelibs5-dev.install.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 14:00:51 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 15:08:30 +0300
 
 kde4libs (4:4.0.70+svn799089-2) experimental; urgency=low
 
