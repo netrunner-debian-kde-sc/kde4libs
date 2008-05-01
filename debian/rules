@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-UPSTREAMVERSION := $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(.*\)-.*/\1/')
+UPSTREAMVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(.*\)-.*/\1/')
 RUNTIME_DEPS := kdebase-runtime (>= 4:4.0.66)
 
 DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg
@@ -15,4 +15,3 @@ DEB_DH_MAKESHLIBS_ARGS_libphonon4 := -V'libphonon4 (>= $(UPSTREAMVERSION))'
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime
 
 include debian/cdbs/kde.mk
-

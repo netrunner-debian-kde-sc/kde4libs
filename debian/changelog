@@ -1,3 +1,19 @@
+kde4libs (4:4.0.72+svn803012-1~pre1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot:
+    - The latest upstream commit is r803012 by sebsauer
+    - Date: Thu, 01 May 2008 16:01:42 -0000
+  
+  * 99 patch is disabled. Build is not for public usage.
+
+  +++ Changes by Modestas Vainius:
+
+  * Add libacl1-dev to build depends. Refresh 98 patch (kio_file build
+    failure).
+  * Allow to set UPSTREAMVERSION in the environment.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 May 2008 19:53:12 +0300
+
 kde4libs (4:4.0.72-1) experimental; urgency=low
 
   * New upstream snapshot. (r802761)

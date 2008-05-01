@@ -11,4 +11,4 @@
 19_findqt4_optional_x11_pthread.diff
 97_use_imported_targets_with_cmake26.diff
 98_link_interface_libraries.diff
-99_more_implicit_link_libs.diff
+#99_more_implicit_link_libs.diff
