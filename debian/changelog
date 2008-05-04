@@ -12,7 +12,12 @@ kde4libs (4:4.0.72+svn803012-1~pre1) UNRELEASED; urgency=low
     failure).
   * Allow to set UPSTREAMVERSION in the environment.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 May 2008 19:53:12 +0300
+  +++ Changes by Armin Berres:
+
+  * kdelibs5-dev must replace kdelibs-data << 4:4.0.72-1 after the move of the 
+    dbus-1 XML interfaces.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 May 2008 23:37:47 +0200
 
 kde4libs (4:4.0.72-1) experimental; urgency=low
 
