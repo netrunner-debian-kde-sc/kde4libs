@@ -1,8 +1,8 @@
-kde4libs (4:4.0.72+svn803012-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.72+svn804262-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r803012 by sebsauer
-    - Date: Thu, 01 May 2008 16:01:42 -0000
+    - The latest upstream commit is r804262 by dfaure
+    - Date: Mon, 05 May 2008 13:40:54 -0000
   
   * 99 patch is disabled. Build is not for public usage.
 
