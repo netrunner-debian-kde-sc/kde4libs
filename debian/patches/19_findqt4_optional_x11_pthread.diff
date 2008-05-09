@@ -1,6 +1,6 @@
---- kde4libs-4.0.70+svn798712.orig/cmake/modules/FindQt4.cmake	2008-04-20 19:11:27.000000000 +0000
-+++ kde4libs-4.0.70+svn798712/cmake/modules/FindQt4.cmake	2008-04-20 19:11:34.000000000 +0000
-@@ -1341,10 +1341,9 @@
+--- a/cmake/modules/FindQt4.cmake
++++ b/cmake/modules/FindQt4.cmake
+@@ -1427,10 +1427,9 @@
    IF(UNIX)
      # on OS X X11 may not be required
      IF (Q_WS_X11)

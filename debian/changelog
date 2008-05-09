@@ -1,21 +1,25 @@
-kde4libs (4:4.0.72+svn804262-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.73-1) UNRELEASED; urgency=low
 
+  [ Debian Qt/KDE Maintainers ]
   * New upstream development snapshot:
-    - The latest upstream commit is r804262 by dfaure
-    - Date: Mon, 05 May 2008 13:40:54 -0000
-  
+    - The latest upstream commit is r804973 by mueller
+    - Date: Wed May 7 09:03:08 2008 UTC
+
   * 99 patch is disabled. Build is not for public usage.
 
   +++ Changes by Modestas Vainius:
 
-  * Add libacl1-dev to build depends. Refresh 98 patch (kio_file build
-    failure).
+  * Add libacl1-dev to build depends.
+    Refresh 98 patch (kio_file build failure).
   * Allow to set UPSTREAMVERSION in the environment.
 
   +++ Changes by Armin Berres:
 
-  * kdelibs5-dev must replace kdelibs-data << 4:4.0.72-1 after the move of the 
+  * kdelibs5-dev must replace kdelibs-data << 4:4.0.72-1 after the move of the
     dbus-1 XML interfaces.
+
+  +++ Changes by Fathi Boudra:
+  * Add 20 patch to use DejaVu font as default font.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 May 2008 23:37:47 +0200
 

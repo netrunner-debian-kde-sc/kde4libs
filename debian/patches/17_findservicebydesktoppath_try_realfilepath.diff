@@ -1,5 +1,5 @@
---- kde4libs-4.0.68+svn794096/kdecore/services/kservicefactory.cpp	2008-03-19 11:23:39.000000000 +0200
-+++ kde4libs-4.0.68+svn794096/kdecore/services/kservicefactory.cpp	2008-04-07 00:42:29.000000000 +0300
+--- a/kdecore/services/kservicefactory.cpp
++++ b/kdecore/services/kservicefactory.cpp
 @@ -125,16 +125,10 @@
      return newService;
  }
@@ -46,8 +46,8 @@
  KService::Ptr KServiceFactory::findServiceByMenuId(const QString &_menuId)
  {
      if (!m_menuIdDict) return KService::Ptr(); // Error!
---- kde4libs-4.0.68+svn794096/kdecore/services/kservicefactory.h	2008-03-26 00:51:27.000000000 +0200
-+++ kde4libs-4.0.68+svn794096/kdecore/services/kservicefactory.h	2008-04-07 00:44:00.000000000 +0300
+--- a/kdecore/services/kservicefactory.h
++++ b/kdecore/services/kservicefactory.h
 @@ -123,6 +123,8 @@
      virtual void virtual_hook( int id, void* data );
  private:
