@@ -1,6 +1,5 @@
 kde4libs (4:4.0.73-1) UNRELEASED; urgency=low
 
-  [ Debian Qt/KDE Maintainers ]
   * New upstream development snapshot:
     - The latest upstream commit is r804973 by mueller
     - Date: Wed May 7 09:03:08 2008 UTC
