@@ -4,8 +4,6 @@ kde4libs (4:4.0.73-1) UNRELEASED; urgency=low
     - The latest upstream commit is r804973 by mueller
     - Date: Wed May 7 09:03:08 2008 UTC
 
-  * 99 patch is disabled. Build is not for public usage.
-
   +++ Changes by Modestas Vainius:
 
   * Add libacl1-dev to build depends.
@@ -24,6 +22,7 @@ kde4libs (4:4.0.73-1) UNRELEASED; urgency=low
     started flaking out because it got stuck in libfam. This is a workaround
     until FAM backend is fixed.
   * Add 20 patch to use DejaVu font as default font.
+  * Add libxml2-utils dependency to kdelibs-bin: meinproc4 needs it.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 May 2008 23:37:47 +0200
 
