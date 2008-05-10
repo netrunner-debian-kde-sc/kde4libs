@@ -18,6 +18,11 @@ kde4libs (4:4.0.73-1) UNRELEASED; urgency=low
     dbus-1 XML interfaces.
 
   +++ Changes by Fathi Boudra:
+
+  * Add 01_use_inotify_as_kdirwatch_backend_r805437 patch:
+    Make inotify the default backend of KDirWatch. At about that time kded4
+    started flaking out because it got stuck in libfam. This is a workaround
+    until FAM backend is fixed.
   * Add 20 patch to use DejaVu font as default font.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 May 2008 23:37:47 +0200

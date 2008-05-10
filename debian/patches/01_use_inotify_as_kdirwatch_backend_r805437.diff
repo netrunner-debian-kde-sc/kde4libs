@@ -1,0 +1,11 @@
+--- a/kio/kio/kdirwatch.cpp
++++ b/kio/kio/kdirwatch.cpp
+@@ -124,7 +124,7 @@
+   m_nfsPollInterval = config.readEntry("NFSPollInterval", 5000);
+   m_PollInterval = config.readEntry("PollInterval", 500);
+ 
+-  QString method = config.readEntry("PreferredMethod", "Fam");
++  QString method = config.readEntry("PreferredMethod", "inotify");
+   if (method == "Fam")
+   {
+     m_preferredMethod = Fam;
