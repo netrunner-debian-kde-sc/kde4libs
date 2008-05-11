@@ -12,7 +12,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.0~), sha
  libxml2-dev, libxml2-utils,  libxslt1-dev, libxtst-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc,
- libglu1-mesa-dev, libenchant-dev, libacl1-dev
+ libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~svn805317)
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdelibs
@@ -41,7 +41,7 @@ Description: core shared data for all KDE 4 applications
 Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), cmake (>= 2.6.0~), libqt4-dev (>= 4.4.0~), libsoprano-dev (>= 2.0.98)
+Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), cmake (>= 2.6.0~), libqt4-dev (>= 4.4.0~), libsoprano-dev (>= 2.0.98), automoc (>= 1.0~svn805317)
 Suggests: kdelibs5-doc (= ${source:Version})
 Replaces: kdebase-runtime-data (<< 4:4.0.60), kdelibs5-data (<< 4:4.0.72-1)
 Conflicts: kdelibs4-dev

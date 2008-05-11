@@ -1,14 +1,20 @@
-kde4libs (4:4.0.73+svn805937-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.73+svn806390-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r805937 by aacid
-    - Date: Fri May 9 19:24:00 2008 UTC
+    - The latest upstream commit is r806390 by uwolfer
+    - Date: Sun, 11 May 2008 10:32:27 -0000
+
+  * Corrections to *.install files:
+    - kdelibs5-dev.install: 1 new file(s) added;
+    - kdelibs-bin.install: 1 file(s) removed;
 
   +++ Changes by Modestas Vainius:
 
   * Add libacl1-dev to build depends.
     Refresh 98 patch (kio_file build failure).
   * Allow to set UPSTREAMVERSION in the environment.
+  * Use external automoc. Build-depend on automoc (>= 1.0~svn805317), make
+    kdelibs5-dev depend on it too.
 
   +++ Changes by Armin Berres:
 
@@ -20,7 +26,7 @@ kde4libs (4:4.0.73+svn805937-1~pre1) UNRELEASED; urgency=low
   * Add 20 patch to use DejaVu font as default font.
   * Add libxml2-utils dependency to kdelibs-bin: meinproc4 needs it.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 May 2008 00:48:09 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 May 2008 13:51:16 +0300
 
 kde4libs (4:4.0.72-1) experimental; urgency=low
 
