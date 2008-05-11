@@ -1,8 +1,8 @@
 kde4libs (4:4.0.73+svn805937-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r804973 by mueller
-    - Date: Wed May 7 09:03:08 2008 UTC
+    - The latest upstream commit is r805937 by aacid
+    - Date: Fri May 9 19:24:00 2008 UTC
 
   +++ Changes by Modestas Vainius:
 
@@ -17,10 +17,6 @@ kde4libs (4:4.0.73+svn805937-1~pre1) UNRELEASED; urgency=low
 
   +++ Changes by Fathi Boudra:
 
-  * Add 01_use_inotify_as_kdirwatch_backend_r805437 patch:
-    Make inotify the default backend of KDirWatch. At about that time kded4
-    started flaking out because it got stuck in libfam. This is a workaround
-    until FAM backend is fixed.
   * Add 20 patch to use DejaVu font as default font.
   * Add libxml2-utils dependency to kdelibs-bin: meinproc4 needs it.
 
