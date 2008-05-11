@@ -1,4 +1,4 @@
-kde4libs (4:4.0.73-1) UNRELEASED; urgency=low
+kde4libs (4:4.0.73+svn805937-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
     - The latest upstream commit is r804973 by mueller
@@ -24,7 +24,7 @@ kde4libs (4:4.0.73-1) UNRELEASED; urgency=low
   * Add 20 patch to use DejaVu font as default font.
   * Add libxml2-utils dependency to kdelibs-bin: meinproc4 needs it.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 May 2008 23:37:47 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 May 2008 00:48:09 +0300
 
 kde4libs (4:4.0.72-1) experimental; urgency=low
 
