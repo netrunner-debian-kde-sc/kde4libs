@@ -218,7 +218,7 @@
  
 --- a/kio/CMakeLists.txt
 +++ b/kio/CMakeLists.txt
-@@ -238,7 +238,10 @@
+@@ -236,7 +236,10 @@
  
  kde4_add_library(kio SHARED ${kio_LIB_SRCS})
  
