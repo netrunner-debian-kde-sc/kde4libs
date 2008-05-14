@@ -1,4 +1,6 @@
 libkaudiodevicelist.so.4 kdelibs5 #MINVER#
+ _ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
+ _ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
  _ZN6Phonon11AudioDevice12ceaseToExistEv@Base 4:4.0.72
  _ZN6Phonon11AudioDeviceC1EN5Solid6DeviceE10KSharedPtrI13KSharedConfigE@Base 4:4.0.72
  _ZN6Phonon11AudioDeviceC1ER12KConfigGroup@Base 4:4.0.72
@@ -28,6 +30,7 @@ libkaudiodevicelist.so.4 kdelibs5 #MINVER#
  _ZN6Phonon21AudioDeviceEnumeratorD0Ev@Base 4:4.0.72
  _ZN6Phonon21AudioDeviceEnumeratorD1Ev@Base 4:4.0.72
  _ZN6Phonon21AudioDeviceEnumeratorD2Ev@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.0.72
  _ZNK6Phonon11AudioDevice11isAvailableEv@Base 4:4.0.72
  _ZNK6Phonon11AudioDevice15isCaptureDeviceEv@Base 4:4.0.72
  _ZNK6Phonon11AudioDevice16isAdvancedDeviceEv@Base 4:4.0.72
@@ -2181,6 +2184,7 @@ libkdecore.so.5 kdelibs5 #MINVER#
  _ZN12KConfigGroup10writeEntryERK7QStringRK5QListI8QVariantE6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
  _ZN12KConfigGroup10writeEntryERK7QStringRK8QVariant6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
  _ZN12KConfigGroup10writeEntryERK7QStringS2_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
+ _ZN12KConfigGroup10writeEntryIiEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
  _ZN12KConfigGroup11changeGroupEPKc@Base 4:4.0.72
  _ZN12KConfigGroup11changeGroupERK7QString@Base 4:4.0.72
  _ZN12KConfigGroup11deleteEntryEPKc6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
@@ -4285,6 +4289,9 @@ libkdecore.so.5 kdelibs5 #MINVER#
  _ZNK12KConfigGroup9readEntryERK7QStringRK5QListI8QVariantE@Base 4:4.0.72
  _ZNK12KConfigGroup9readEntryERK7QStringRK8QVariant@Base 4:4.0.72
  _ZNK12KConfigGroup9readEntryERK7QStringS2_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryIiEET_RK7QStringRKS1_@Base 4:4.0.72
  _ZNK12KDesktopFile10readDeviceEv@Base 4:4.0.72
  _ZNK12KDesktopFile11actionGroupERK7QString@Base 4:4.0.72
  _ZNK12KDesktopFile11hasLinkTypeEv@Base 4:4.0.72
@@ -5082,7 +5089,6 @@ libkdecore.so.5 kdelibs5 #MINVER#
  _ZNK8KService13pluginKeywordEv@Base 4:4.0.72
  _ZNK8KService13substituteUidEv@Base 4:4.0.72
  _ZNK8KService14allowAsDefaultEv@Base 4:4.0.72
- _ZNK8KService14createInstanceIN6Sonnet6ClientEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
  _ZNK8KService14hasServiceTypeERK7QString@Base 4:4.0.72
  _ZNK8KService15dbusStartupTypeEv@Base 4:4.0.72
  _ZNK8KService15terminalOptionsEv@Base 4:4.0.72
@@ -8708,6 +8714,7 @@ libkdeui.so.5 kdelibs5 #MINVER#
  _ZN18KRecentFilesActionD0Ev@Base 4:4.0.72
  _ZN18KRecentFilesActionD1Ev@Base 4:4.0.72
  _ZN18KRecentFilesActionD2Ev@Base 4:4.0.72
+ _ZN18KServiceTypeTrader23createInstanceFromQueryI7QDialogEEPT_RK7QStringP7QWidgetP7QObjectS6_RK5QListI8QVariantEPS4_@Base 4:4.0.72
  _ZN18KSqueezedTextLabel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72
  _ZN18KSqueezedTextLabel11qt_metacastEPKc@Base 4:4.0.72
  _ZN18KSqueezedTextLabel11resizeEventEP12QResizeEvent@Base 4:4.0.72
@@ -9329,9 +9336,6 @@ libkdeui.so.5 kdelibs5 #MINVER#
  _ZN6KStyle11qt_metacastEPKc@Base 4:4.0.72
  _ZN6KStyle12defaultStyleEv@Base 4:4.0.72
  _ZN6KStyle13extractOptionIPKNS_18DoubleButtonOptionEEET_PNS_6OptionE@Base 4:4.0.72
- _ZN6KStyle13extractOptionIPNS_10IconOptionEEET_PNS_6OptionE@Base 4:4.0.72
- _ZN6KStyle13extractOptionIPNS_10TextOptionEEET_PNS_6OptionE@Base 4:4.0.72
- _ZN6KStyle13extractOptionIPNS_11ColorOptionEEET_PNS_6OptionE@Base 4:4.0.72
  _ZN6KStyle13extractOptionIPNS_17TitleButtonOptionEEET_PNS_6OptionE@Base 4:4.0.72
  _ZN6KStyle16staticMetaObjectE@Base 4:4.0.72
  _ZN6KStyle19setWidgetLayoutPropENS_10WidgetTypeEii@Base 4:4.0.72
@@ -10401,7 +10405,13 @@ libkdeui.so.5 kdelibs5 #MINVER#
  _ZNK12KColorScheme10decorationENS_14DecorationRoleE@Base 4:4.0.72
  _ZNK12KColorScheme10foregroundENS_14ForegroundRoleE@Base 4:4.0.72
  _ZNK12KColorScheme5shadeENS_9ShadeRoleE@Base 4:4.0.72
+ _ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryI5QFontEET_PKcRKS2_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.0.72
  _ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.0.72
  _ZNK12KEditListBox10downButtonEv@Base 4:4.0.72
  _ZNK12KEditListBox10metaObjectEv@Base 4:4.0.72
  _ZNK12KEditListBox11currentItemEv@Base 4:4.0.72
@@ -12105,6 +12115,7 @@ libkfile.so.4 kdelibs5 #MINVER#
  _ZN11KFileWidgetD0Ev@Base 4:4.0.72
  _ZN11KFileWidgetD1Ev@Base 4:4.0.72
  _ZN11KFileWidgetD2Ev@Base 4:4.0.72
+ _ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
  _ZN12KDirOperator10completionERK7QString@Base 4:4.0.72
  _ZN12KDirOperator10createViewEP7QWidgetN5KFile8FileViewE@Base 4:4.0.72
  _ZN12KDirOperator10readConfigERK12KConfigGroup@Base 4:4.0.72
@@ -12388,6 +12399,8 @@ libkfile.so.4 kdelibs5 #MINVER#
  _ZN24KDirSortFilterProxyModelD0Ev@Base 4:4.0.72
  _ZN24KDirSortFilterProxyModelD1Ev@Base 4:4.0.72
  _ZN24KDirSortFilterProxyModelD2Ev@Base 4:4.0.72
+ _ZN5Solid6Device2asINS_12StorageDriveEEEPT_v@Base 4:4.0.72
+ _ZN5Solid6Device2asINS_13StorageAccessEEEPT_v@Base 4:4.0.72
  _ZNK11KFileWidget10metaObjectEv@Base 4:4.0.72
  _ZNK11KFileWidget11selectedUrlEv@Base 4:4.0.72
  _ZNK11KFileWidget12cancelButtonEv@Base 4:4.0.72
@@ -12405,6 +12418,7 @@ libkfile.so.4 kdelibs5 #MINVER#
  _ZNK11KFileWidget7baseUrlEv@Base 4:4.0.72
  _ZNK11KFileWidget7toolBarEv@Base 4:4.0.72
  _ZNK11KFileWidget8okButtonEv@Base 4:4.0.72
+ _ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.0.72
  _ZNK12KDirOperator10isSelectedERK9KFileItem@Base 4:4.0.72
  _ZNK12KDirOperator10metaObjectEv@Base 4:4.0.72
  _ZNK12KDirOperator10mimeFilterEv@Base 4:4.0.72
@@ -14320,6 +14334,7 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN3KJS6JSCell4markEv@Base 4:4.0.72
  _ZN3KJS6JSCellD0Ev@Base 4:4.0.72
  _ZN3KJS6JSCellD1Ev@Base 4:4.0.72
+ _ZN3KJS7JSValue9getObjectEv@Base 4:4.0.72
  _ZN3KJS7JSValueD0Ev@Base 4:4.0.72
  _ZN3KJS7JSValueD1Ev@Base 4:4.0.72
  _ZN3KJS7UStringC1ERK7QString@Base 4:4.0.72
@@ -14327,7 +14342,6 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN3KJS7UStringC2ERK7QString@Base 4:4.0.72
  _ZN3KJS7UStringC2ERKN3DOM9DOMStringE@Base 4:4.0.72
  _ZN3KJS8JSObject18getOwnPropertySlotEPNS_9ExecStateERKNS_10IdentifierERNS_12PropertySlotE@Base 4:4.0.72
- _ZN3KJS8JSObjectC2EPNS_7JSValueE@Base 4:4.0.72
  _ZN5khtml10ChildFrame11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72
  _ZN5khtml10ChildFrame11qt_metacastEPKc@Base 4:4.0.72
  _ZN5khtml10ChildFrame16liveConnectEventEmRK7QStringRK5QListI5QPairIN6KParts20LiveConnectExtension4TypeES1_EE@Base 4:4.0.72
@@ -14715,6 +14729,9 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLViewD1Ev@Base 4:4.0.72
  _ZN9KHTMLViewD2Ev@Base 4:4.0.72
  _ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryIjEET_RK7QStringRKS1_@Base 4:4.0.72
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.0.72
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4:4.0.72
  _ZNK13KHTMLSettings11minFontSizeEv@Base 4:4.0.72
@@ -15300,9 +15317,15 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZNK3DOM9MediaList9mediaTextEv@Base 4:4.0.72
  _ZNK3KJS10Identifier7qstringEv@Base 4:4.0.72
  _ZNK3KJS10Identifier9domStringEv@Base 4:4.0.72
+ _ZNK3KJS7JSValue4typeEv@Base 4:4.0.72
+ _ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.0.72
+ _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.0.72
+ _ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateERb@Base 4:4.0.72
+ _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.0.72
  _ZNK3KJS7UString7qstringEv@Base 4:4.0.72
  _ZNK3KJS7UString9domStringEv@Base 4:4.0.72
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.0.72
+ _ZNK3KJS8JSObject8inheritsEPKNS_9ClassInfoE@Base 4:4.0.72
  _ZNK5khtml10ChildFrame10metaObjectEv@Base 4:4.0.72
  _ZNK5khtml10MouseEvent6offsetEv@Base 4:4.0.72
  _ZNK9KHTMLPart10activeNodeEv@Base 4:4.0.72
@@ -16076,6 +16099,9 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZN12KAutoUnmountD0Ev@Base 4:4.0.72
  _ZN12KAutoUnmountD1Ev@Base 4:4.0.72
  _ZN12KAutoUnmountD2Ev@Base 4:4.0.72
+ _ZN12KConfigGroup10writeCheckIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
+ _ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
+ _ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.72
  _ZN12KSMIMECrypto11signMessageERK10QByteArrayRS0_RK10KSSLPKCS12RK5QListIP15KSSLCertificateEb@Base 4:4.0.72
  _ZN12KSMIMECrypto14decryptMessageERK10QByteArrayRS0_RK10KSSLPKCS12@Base 4:4.0.72
  _ZN12KSMIMECrypto14encryptMessageERK10QByteArrayRS0_NS_4algoERK5QListIP15KSSLCertificateE@Base 4:4.0.72
@@ -16892,8 +16918,8 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZN18KSSLConnectionInfoC2Ev@Base 4:4.0.72
  _ZN18KSSLConnectionInfoD1Ev@Base 4:4.0.72
  _ZN18KSSLConnectionInfoD2Ev@Base 4:4.0.72
- _ZN18KServiceTypeTrader23createInstanceFromQueryI10KOCRDialogEEPT_RK7QStringS6_P7QObjectRK5QListI8QVariantEPS4_@Base 4:4.0.72
- _ZN18KServiceTypeTrader23createInstanceFromQueryI11KScanDialogEEPT_RK7QStringS6_P7QObjectRK5QListI8QVariantEPS4_@Base 4:4.0.72
+ _ZN18KServiceTypeTrader23createInstanceFromQueryI10KOCRDialogEEPT_RK7QStringP7QWidgetP7QObjectS6_RK5QListI8QVariantEPS4_@Base 4:4.0.72
+ _ZN18KServiceTypeTrader23createInstanceFromQueryI11KScanDialogEEPT_RK7QStringP7QWidgetP7QObjectS6_RK5QListI8QVariantEPS4_@Base 4:4.0.72
  _ZN18KSslCertificateBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72
  _ZN18KSslCertificateBox11qt_metacastEPKc@Base 4:4.0.72
  _ZN18KSslCertificateBox14setCertificateERK15QSslCertificateNS_16CertificatePartyE@Base 4:4.0.72
@@ -18464,6 +18490,8 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZNK12KArchiveFile6isFileEv@Base 4:4.0.72
  _ZNK12KArchiveFile8positionEv@Base 4:4.0.72
  _ZNK12KAutoUnmount10metaObjectEv@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.0.72
  _ZNK12KSSLPeerInfo8peerHostEv@Base 4:4.0.72
  _ZNK12KSSLSettings11warnOnEnterEv@Base 4:4.0.72
  _ZNK12KSSLSettings11warnOnLeaveEv@Base 4:4.0.72
@@ -18889,11 +18917,6 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZNK8KArchive6isOpenEv@Base 4:4.0.72
  _ZNK8KArchive8fileNameEv@Base 4:4.0.72
  _ZNK8KArchive9directoryEv@Base 4:4.0.72
- _ZNK8KService14createInstanceI16KFileWritePluginEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
- _ZNK8KService14createInstanceI16KUriFilterPluginEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
- _ZNK8KService14createInstanceI23KPropertiesDialogPluginEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
- _ZNK8KService14createInstanceI9KDataToolEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
- _ZNK8KService14createInstanceIN3KIO18RenameDialogPluginEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
  _ZNK9KBookmark11isSeparatorEv@Base 4:4.0.72
  _ZNK9KBookmark11parentGroupEv@Base 4:4.0.72
  _ZNK9KBookmark12metaDataItemERK7QString@Base 4:4.0.72
@@ -19747,6 +19770,7 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJSeqERKNS_7UStringEPKc@Base 4:4.0.72
  _ZN3KJSeqERKNS_7UStringES2_@Base 4:4.0.72
  _ZN3KJSltERKNS_7UStringES2_@Base 4:4.0.72
+ _ZN3KJSplERKNS_7UStringES2_@Base 4:4.0.72
  _ZNK3KJS11Interpreter11builtinDateEv@Base 4:4.0.72
  _ZNK3KJS11Interpreter12builtinArrayEv@Base 4:4.0.72
  _ZNK3KJS11Interpreter12builtinErrorEv@Base 4:4.0.72
@@ -19806,11 +19830,14 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZNK3KJS7JSValue15toInt32SlowCaseEPNS_9ExecStateERb@Base 4:4.0.72
  _ZNK3KJS7JSValue16toUInt32SlowCaseEPNS_9ExecStateERb@Base 4:4.0.72
  _ZNK3KJS7JSValue20toIntegerPreserveNaNEPNS_9ExecStateE@Base 4:4.0.72
+ _ZNK3KJS7JSValue4typeEv@Base 4:4.0.72
  _ZNK3KJS7JSValue7toFloatEPNS_9ExecStateE@Base 4:4.0.72
+ _ZNK3KJS7JSValue8isObjectEv@Base 4:4.0.72
  _ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.0.72
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.0.72
  _ZNK3KJS7JSValue8toUInt16EPNS_9ExecStateE@Base 4:4.0.72
  _ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateE@Base 4:4.0.72
+ _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.0.72
  _ZNK3KJS7JSValue9toIntegerEPNS_9ExecStateE@Base 4:4.0.72
  _ZNK3KJS7UString10UTF8StringEv@Base 4:4.0.72
  _ZNK3KJS7UString14toStrictUInt32EPb@Base 4:4.0.72
@@ -19843,6 +19870,7 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZNK3KJS8JSObject3getEPNS_9ExecStateEj@Base 4:4.0.72
  _ZNK3KJS8JSObject4typeEv@Base 4:4.0.72
  _ZNK3KJS8JSObject6canPutEPNS_9ExecStateERKNS_10IdentifierE@Base 4:4.0.72
+ _ZNK3KJS8JSObject8inheritsEPKNS_9ClassInfoE@Base 4:4.0.72
  _ZNK3KJS8JSObject8toNumberEPNS_9ExecStateE@Base 4:4.0.72
  _ZNK3KJS8JSObject8toObjectEPNS_9ExecStateE@Base 4:4.0.72
  _ZNK3KJS8JSObject8toStringEPNS_9ExecStateE@Base 4:4.0.72
@@ -21670,6 +21698,7 @@ libktexteditor.so.4 kdelibs5 #MINVER#
  _ZN11KTextEditor9AttributeD2Ev@Base 4:4.0.72
  _ZN11KTextEditor9AttributeaSERKS0_@Base 4:4.0.72
  _ZN11KTextEditor9AttributepLERKS0_@Base 4:4.0.72
+ _ZN8KService14createInstanceIN11KTextEditor6PluginEEEPT_RK10KSharedPtrIS_EP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
  _ZNK11KTextEditor10ConfigPage10metaObjectEv@Base 4:4.0.72
  _ZNK11KTextEditor10SmartRange10childAfterEPKS0_@Base 4:4.0.72
  _ZNK11KTextEditor10SmartRange11childBeforeEPKS0_@Base 4:4.0.72
@@ -21768,7 +21797,6 @@ libktexteditor.so.4 kdelibs5 #MINVER#
  _ZNK11KTextEditor9Attribute7effectsEv@Base 4:4.0.72
  _ZNK11KTextEditor9Attribute7outlineEv@Base 4:4.0.72
  _ZNK11KTextEditor9Attribute8fontBoldEv@Base 4:4.0.72
- _ZNK8KService14createInstanceIN11KTextEditor6PluginEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
  _ZTCN11KTextEditor8DocumentE0_N6KParts12ReadOnlyPartE@Base 4:4.0.72
  _ZTCN11KTextEditor8DocumentE0_N6KParts13ReadWritePartE@Base 4:4.0.72
  _ZTCN11KTextEditor8DocumentE0_N6KParts4PartE@Base 4:4.0.72
@@ -22098,6 +22126,7 @@ libkutils.so.4 kdelibs5 #MINVER#
  _ZN17KCModuleContainerD0Ev@Base 4:4.0.72
  _ZN17KCModuleContainerD1Ev@Base 4:4.0.72
  _ZN17KCModuleContainerD2Ev@Base 4:4.0.72
+ _ZN8KService14createInstanceI8KCModuleEEPT_RK10KSharedPtrIS_EP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
  _ZN9KSettings10Dispatcher14componentNamesEv@Base 4:4.0.72
  _ZN9KSettings10Dispatcher17registerComponentERK14KComponentDataP7QObjectPKc@Base 4:4.0.72
  _ZN9KSettings10Dispatcher17syncConfigurationEv@Base 4:4.0.72
@@ -22207,7 +22236,6 @@ libkutils.so.4 kdelibs5 #MINVER#
  _ZNK15KPluginSelector7Private18DependenciesWidget10metaObjectEv@Base 4:4.0.72
  _ZNK15KPluginSelector7Private20QListViewSpecialized11viewOptionsEv@Base 4:4.0.72
  _ZNK17KCModuleContainer10metaObjectEv@Base 4:4.0.72
- _ZNK8KService14createInstanceI8KCModuleEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
  _ZNK9KSettings10PluginPage10metaObjectEv@Base 4:4.0.72
  _ZNK9KSettings16ComponentsDialog10metaObjectEv@Base 4:4.0.72
  _ZNK9KSettings6Dialog10metaObjectEv@Base 4:4.0.72

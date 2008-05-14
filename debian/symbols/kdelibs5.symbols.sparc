@@ -5082,7 +5082,7 @@ libkdecore.so.5 kdelibs5 #MINVER#
  _ZNK8KService13pluginKeywordEv@Base 4:4.0.72
  _ZNK8KService13substituteUidEv@Base 4:4.0.72
  _ZNK8KService14allowAsDefaultEv@Base 4:4.0.72
- _ZNK8KService14createInstanceIN6Sonnet6ClientEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
+ _ZNK8KService14createInstanceI14KConfigBackendEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
  _ZNK8KService14hasServiceTypeERK7QString@Base 4:4.0.72
  _ZNK8KService15dbusStartupTypeEv@Base 4:4.0.72
  _ZNK8KService15terminalOptionsEv@Base 4:4.0.72
@@ -10401,6 +10401,8 @@ libkdeui.so.5 kdelibs5 #MINVER#
  _ZNK12KColorScheme10decorationENS_14DecorationRoleE@Base 4:4.0.72
  _ZNK12KColorScheme10foregroundENS_14ForegroundRoleE@Base 4:4.0.72
  _ZNK12KColorScheme5shadeENS_9ShadeRoleE@Base 4:4.0.72
+ _ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.0.72
+ _ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.0.72
  _ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.0.72
  _ZNK12KEditListBox10downButtonEv@Base 4:4.0.72
  _ZNK12KEditListBox10metaObjectEv@Base 4:4.0.72
@@ -16892,8 +16894,6 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZN18KSSLConnectionInfoC2Ev@Base 4:4.0.72
  _ZN18KSSLConnectionInfoD1Ev@Base 4:4.0.72
  _ZN18KSSLConnectionInfoD2Ev@Base 4:4.0.72
- _ZN18KServiceTypeTrader23createInstanceFromQueryI10KOCRDialogEEPT_RK7QStringS6_P7QObjectRK5QListI8QVariantEPS4_@Base 4:4.0.72
- _ZN18KServiceTypeTrader23createInstanceFromQueryI11KScanDialogEEPT_RK7QStringS6_P7QObjectRK5QListI8QVariantEPS4_@Base 4:4.0.72
  _ZN18KSslCertificateBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72
  _ZN18KSslCertificateBox11qt_metacastEPKc@Base 4:4.0.72
  _ZN18KSslCertificateBox14setCertificateERK15QSslCertificateNS_16CertificatePartyE@Base 4:4.0.72
@@ -18890,7 +18890,6 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZNK8KArchive8fileNameEv@Base 4:4.0.72
  _ZNK8KArchive9directoryEv@Base 4:4.0.72
  _ZNK8KService14createInstanceI16KFileWritePluginEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
- _ZNK8KService14createInstanceI16KUriFilterPluginEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
  _ZNK8KService14createInstanceI23KPropertiesDialogPluginEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
  _ZNK8KService14createInstanceI9KDataToolEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
  _ZNK8KService14createInstanceIN3KIO18RenameDialogPluginEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72
