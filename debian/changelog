@@ -1,8 +1,9 @@
 kde4libs (4:4.0.74-1) UNRELEASED; urgency=low
 
   * New upstream snapshot.
+  * Raise the added shlibs dependency for kdebase-runtime to 4:4.0.72.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 May 2008 23:13:49 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 May 2008 16:31:32 +0200
 
 kde4libs (4:4.0.73+svn806390-1) experimental; urgency=low
 
