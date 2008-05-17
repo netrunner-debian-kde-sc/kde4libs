@@ -1,8 +1,6 @@
-kde4libs (4:4.0.74-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.74-1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r808122 by uwolfer
-    - Date: Thu, 15 May 2008 19:27:25 -0000
+  * New upstream snapshot.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 May 2008 23:13:49 +0300
 
