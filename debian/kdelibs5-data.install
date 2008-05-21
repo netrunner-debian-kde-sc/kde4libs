@@ -1095,5 +1095,4 @@ usr/share/kde4/servicetypes/phononbackend.desktop
 usr/share/kde4/servicetypes/qimageio_plugin.desktop
 usr/share/kde4/servicetypes/renamedialogplugin.desktop
 usr/share/kde4/servicetypes/sonnetspeller.desktop
-usr/share/man/man1/makekdewidgets.1
 usr/share/mime/packages/kde.xml

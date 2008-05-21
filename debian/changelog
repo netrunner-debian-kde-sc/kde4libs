@@ -1,4 +1,4 @@
-kde4libs (4:4.0.80-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.80-1~pre2) UNRELEASED; urgency=low
 
   * New upstream development milestone (KDE 4.1 Beta1).
 
@@ -8,10 +8,12 @@ kde4libs (4:4.0.80-1~pre1) UNRELEASED; urgency=low
     Pass -DKDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT=on to cmake which enables
     equivalent functionality.
   * Update install files.
+    - Add makekdewidgets.1 man page to kdelibs5-dev.
+    - Move checkXML.1 from kdelibs5-data to kdelibs5-dev. Bump replaces.
   * Refresh patches.
   * Ligthen cmake build-dependency to 2.4.5.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 May 2008 21:13:07 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 May 2008 22:53:51 +0300
 
 kde4libs (4:4.0.74-1) experimental; urgency=low
 
