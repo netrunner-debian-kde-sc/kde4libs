@@ -298,6 +298,9 @@ usr/include/KDE/KDoubleValidator
 usr/include/KDE/KEMailSettings
 usr/include/KDE/KEditListBox
 usr/include/KDE/KEditToolBar
+usr/include/KDE/KEmoticons
+usr/include/KDE/KEmoticonsProvider
+usr/include/KDE/KEmoticonsTheme
 usr/include/KDE/KEncodingFileDialog
 usr/include/KDE/KExtendableItemDelegate
 usr/include/KDE/KFadeWidgetEffect
@@ -322,6 +325,7 @@ usr/include/KDE/KFloatValidator
 usr/include/KDE/KFolderType
 usr/include/KDE/KFontAction
 usr/include/KDE/KFontChooser
+usr/include/KDE/KFontComboBox
 usr/include/KDE/KFontDialog
 usr/include/KDE/KFontRequester
 usr/include/KDE/KFontSizeAction
@@ -544,6 +548,8 @@ usr/include/KDE/KRemoteEncoding
 usr/include/KDE/KReplace
 usr/include/KDE/KReplaceDialog
 usr/include/KDE/KRestrictedLine
+usr/include/KDE/KRichTextEdit
+usr/include/KDE/KRichTextWidget
 usr/include/KDE/KRuler
 usr/include/KDE/KRun
 usr/include/KDE/KSambaShare
@@ -923,8 +929,7 @@ usr/share/kde4/apps/cmake/modules/FindXmms.cmake
 usr/share/kde4/apps/cmake/modules/KDE4Defaults.cmake
 usr/share/kde4/apps/cmake/modules/KDE4Macros.cmake
 usr/share/kde4/apps/cmake/modules/KDELibsDependencies.cmake
-usr/share/kde4/apps/cmake/modules/KDELibsImports-debian.cmake
-usr/share/kde4/apps/cmake/modules/KDELibsImports.cmake
+usr/share/kde4/apps/cmake/modules/KDELibsDependenciesInternal.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddCompileFlags.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddFileDependencies.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddLinkFlags.cmake

@@ -7,8 +7,10 @@ DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg
 DEB_DBG_PACKAGE_kdelibs-bin := kdelibs5-dbg
 DEB_DBG_PACKAGE_libphonon4 := kdelibs5-dbg
 
+DEB_CMAKE_EXTRA_FLAGS += -DKDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT=on
+
 #bump version for every new upstream version!
-DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(UPSTREAMVERSION)), $(RUNTIME_DEPS)'
+DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(UPSTREAMVERSION)), $(RUNTIME_DEPS)' -- -z
 DEB_DH_MAKESHLIBS_ARGS_libphonon4 := -V'libphonon4 (>= $(UPSTREAMVERSION))'
 
 # remove the dependency on kdebase-runtime

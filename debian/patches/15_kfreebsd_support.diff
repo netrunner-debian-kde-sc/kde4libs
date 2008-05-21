@@ -42,7 +42,7 @@ cmake.
  #include <kdebug.h>
 --- a/kio/kfile/kpropertiesdialog.cpp
 +++ b/kio/kfile/kpropertiesdialog.cpp
-@@ -1868,7 +1868,15 @@
+@@ -1871,7 +1871,15 @@
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
      fileSystemSupportsACLs =
@@ -73,7 +73,7 @@ cmake.
      // Determine the mimetype of the file to be retrieved, and emit it.
      // This is mandatory in all slaves (for KRun/BrowserRun to work)
      // In real "remote" slaves, this is usually done using findByNameAndContent
-@@ -881,8 +882,10 @@
+@@ -882,8 +883,10 @@
      }
  
  #ifdef HAVE_FADVISE
@@ -84,7 +84,7 @@ cmake.
      // WABA: Make sure that we keep writing permissions ourselves,
      // otherwise we can be in for a surprise on NFS.
      mode_t initialMode;
-@@ -904,8 +907,10 @@
+@@ -905,8 +908,10 @@
      }
  
  #ifdef HAVE_FADVISE

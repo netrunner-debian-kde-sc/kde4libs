@@ -10,7 +10,7 @@
 +set_target_properties(kdnssd PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY}")
  
  set_target_properties(kdnssd PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
- install(TARGETS kdnssd ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS kdnssd ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/interfaces/kimproxy/library/CMakeLists.txt
 +++ b/interfaces/kimproxy/library/CMakeLists.txt
 @@ -16,7 +16,7 @@
@@ -42,7 +42,7 @@
 +set_target_properties(ktexteditor PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};${QT_QTGUI_LIBRARY};kdeui;kparts")
  
  set_target_properties(ktexteditor PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
- install(TARGETS ktexteditor ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS ktexteditor ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/kate/CMakeLists.txt
 +++ b/kate/CMakeLists.txt
 @@ -145,7 +145,7 @@
@@ -66,7 +66,7 @@
 +set_target_properties(kde3support PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};kdecore;kdeui;${QT_QTGUI_LIBRARY};kio;${QT_QT3SUPPORT_LIBRARY}")
  
  set_target_properties(kde3support PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
- install(TARGETS kde3support ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS kde3support ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/kdecore/CMakeLists.txt
 +++ b/kdecore/CMakeLists.txt
 @@ -105,6 +105,7 @@
@@ -74,7 +74,7 @@
         target_link_libraries(kdefakes  m )
     endif (NOT HAVE_TRUNC)
 +   set_target_properties(kdefakes PROPERTIES LINK_INTERFACE_LIBRARIES "")
-    install(TARGETS kdefakes ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS} )
+    install(TARGETS kdefakes ${INSTALL_TARGETS_DEFAULT_ARGS} )
  
  endif (UNIX)
 @@ -242,6 +243,7 @@
@@ -83,8 +83,8 @@
  target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
 +set_target_properties(kdecore PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY}")
  
- set_target_properties(kdecore PROPERTIES VERSION ${KDE_NON_GENERIC_LIB_VERSION} SOVERSION ${KDE_NON_GENERIC_LIB_SOVERSION} )
- install(TARGETS kdecore ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ set_target_properties(kdecore PROPERTIES 
+                               VERSION ${KDE_NON_GENERIC_LIB_VERSION} 
 --- a/kded/CMakeLists.txt
 +++ b/kded/CMakeLists.txt
 @@ -13,7 +13,7 @@
@@ -117,7 +117,7 @@
     set_source_files_properties(su.cpp
 --- a/kdeui/CMakeLists.txt
 +++ b/kdeui/CMakeLists.txt
-@@ -280,7 +280,8 @@
+@@ -292,7 +292,8 @@
  
  kde4_add_library(kdeui SHARED ${kdeui_LIB_SRCS})
  
@@ -127,7 +127,7 @@
  
  if(MINGW)
     target_link_libraries(kdeui gdi32)
-@@ -302,6 +303,10 @@
+@@ -314,6 +315,10 @@
     target_link_libraries(kdeui ${X11_Xrender_LIB})
  endif(X11_Xrender_FOUND)
  
@@ -136,9 +136,9 @@
 +endif(X11_ICE_FOUND)
 +
  set_target_properties(kdeui PROPERTIES VERSION ${KDE_NON_GENERIC_LIB_VERSION} SOVERSION ${KDE_NON_GENERIC_LIB_SOVERSION} )
- install(TARGETS kdeui ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS kdeui ${INSTALL_TARGETS_DEFAULT_ARGS})
  ########### install files ###############
-@@ -521,7 +526,7 @@
+@@ -547,7 +552,7 @@
  endif ( Q_WS_QWS )
  
  kde4_add_plugin( kded_globalaccel ${kded_globalaccel_SRCS} )
@@ -158,10 +158,10 @@
 +set_target_properties(kfile PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};${QT_QTGUI_LIBRARY};kio;kdeui")
  
  set_target_properties(kfile PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
- install(TARGETS kfile ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS kfile ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/khtml/CMakeLists.txt
 +++ b/khtml/CMakeLists.txt
-@@ -297,7 +297,11 @@
+@@ -321,7 +321,11 @@
  
  kde4_add_library(khtml SHARED ${khtml_LIB_SRCS})
  
@@ -174,7 +174,7 @@
  
  set_target_properties(khtml PROPERTIES VERSION ${KDE_NON_GENERIC_LIB_VERSION} SOVERSION ${KDE_NON_GENERIC_LIB_SOVERSION} )
  
-@@ -343,7 +347,7 @@
+@@ -393,7 +397,7 @@
  
  kde4_add_plugin(khtmlpart WITH_PREFIX ${khtmlpart_PART_SRCS})
  
@@ -296,16 +296,16 @@
  endif(GSSAPI_FOUND)
 --- a/kioslave/http/kcookiejar/CMakeLists.txt
 +++ b/kioslave/http/kcookiejar/CMakeLists.txt
-@@ -25,7 +25,7 @@
+@@ -26,7 +26,7 @@
      set_target_properties(kcookiejar4 PROPERTIES COMPILE_FLAGS "-include \"${CMAKE_CURRENT_SOURCE_DIR}/qdeclareqlistint_hack.h\"" )
- endif(MSVC)
+ endif(CMAKE_COMPILER_IS_GNUCXX)
  
 -target_link_libraries( kcookiejar4 ${KDE4_KDECORE_LIBS} )
 +target_link_libraries( kcookiejar4 ${KDE4_KDECORE_LIBS} ${QT_QTDBUS_LIBRARY} )
  
  install(TARGETS kcookiejar4 DESTINATION ${BIN_INSTALL_DIR} )
  
-@@ -45,7 +45,7 @@
+@@ -46,7 +46,7 @@
  
  kde4_add_plugin(kded_kcookiejar ${kded_kcookiejar_PART_SRCS})
  
@@ -316,7 +316,7 @@
  
 --- a/kjs/CMakeLists.txt
 +++ b/kjs/CMakeLists.txt
-@@ -167,6 +167,7 @@
+@@ -195,6 +195,7 @@
  
  if(UNIX)
     target_link_libraries(${KJSLIBNAME} m)
@@ -334,7 +334,7 @@
 +target_link_libraries(knewstuff2 ${KDE4_KIO_LIBS} ${QT_QTNETWORK_LIBRARY} ${QT_QTXML_LIBRARY} )
 +set_target_properties(knewstuff2 PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY}")
  set_target_properties(knewstuff2 PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
- install(TARGETS knewstuff2 ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS knewstuff2 ${INSTALL_TARGETS_DEFAULT_ARGS})
  
 --- a/knotify/config/CMakeLists.txt
 +++ b/knotify/config/CMakeLists.txt
@@ -345,7 +345,7 @@
 +set_target_properties(knotifyconfig PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};${QT_QTGUI_LIBRARY}")
  
  set_target_properties(knotifyconfig PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
- install(TARGETS knotifyconfig ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS knotifyconfig ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/kparts/CMakeLists.txt
 +++ b/kparts/CMakeLists.txt
 @@ -24,7 +24,8 @@
@@ -357,7 +357,7 @@
 +set_target_properties(kparts PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};kdecore;kio;kdeui")
  
  set_target_properties(kparts PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
- install(TARGETS kparts ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS kparts ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/kpty/CMakeLists.txt
 +++ b/kpty/CMakeLists.txt
 @@ -12,6 +12,7 @@
@@ -367,7 +367,7 @@
 +set_target_properties(kpty PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};kdecore")
  
  set_target_properties(kpty PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
- install(TARGETS kpty ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS kpty ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/kross/core/CMakeLists.txt
 +++ b/kross/core/CMakeLists.txt
 @@ -11,7 +11,8 @@
@@ -378,7 +378,7 @@
 +target_link_libraries(krosscore ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} ${QT_QTSCRIPT_LIBRARY} ${QT_QTXML_LIBRARY})
 +set_target_properties(krosscore PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTSCRIPT_LIBRARY};${QT_QTCORE_LIBRARY};${QT_QTGUI_LIBRARY}")
  set_target_properties(krosscore PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
- install(TARGETS krosscore ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS krosscore ${INSTALL_TARGETS_DEFAULT_ARGS})
  
 --- a/kross/modules/CMakeLists.txt
 +++ b/kross/modules/CMakeLists.txt
@@ -410,11 +410,11 @@
 +target_link_libraries(krossui krosscore ${KDE4_KDEUI_LIBS} ${KDE4_KPARTS_LIBS} ${KDE4_KIO_LIBS} ${QT_QTXML_LIBRARY})
 +set_target_properties(krossui PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};${QT_QTGUI_LIBRARY};kparts")
  set_target_properties(krossui PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
- install(TARGETS krossui ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS krossui ${INSTALL_TARGETS_DEFAULT_ARGS})
  
 --- a/kutils/CMakeLists.txt
 +++ b/kutils/CMakeLists.txt
-@@ -30,7 +30,8 @@
+@@ -49,7 +49,8 @@
  
  kde4_add_library(kutils SHARED ${kutils_LIB_SRCS})
  
@@ -423,7 +423,7 @@
 +set_target_properties(kutils PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};${QT_QTGUI_LIBRARY};kdeui")
  
  set_target_properties(kutils PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
- install(TARGETS kutils ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS kutils ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/phonon/libkaudiodevicelist/CMakeLists.txt
 +++ b/phonon/libkaudiodevicelist/CMakeLists.txt
 @@ -28,7 +28,8 @@
@@ -445,7 +445,7 @@
 +set_target_properties(solid PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY}")
  
  set_target_properties(solid PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
- install(TARGETS solid ${KDELIBS_EXPORT} ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS solid ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/sonnet/plugins/hspell/CMakeLists.txt
 +++ b/sonnet/plugins/hspell/CMakeLists.txt
 @@ -9,7 +9,7 @@

@@ -271,6 +271,10 @@ usr/share/kde4/apps/kdeui/about/kde_infopage_rtl.css
 usr/share/kde4/apps/kdeui/about/top-middle.png
 usr/share/kde4/apps/kdeui/about/top-right.png
 usr/share/kde4/apps/kdeui/pics/aboutkde.png
+usr/share/kde4/apps/kdeui/pics/kdeprint_nup1.png
+usr/share/kde4/apps/kdeui/pics/kdeprint_nup2.png
+usr/share/kde4/apps/kdeui/pics/kdeprint_nup4.png
+usr/share/kde4/apps/kdeui/pics/kdeprint_nupother.png
 usr/share/kde4/apps/kdeui/pics/ktip-bulb.png
 usr/share/kde4/apps/kdewidgets/pics/k3iconview.png
 usr/share/kde4/apps/kdewidgets/pics/k3listview.png
@@ -993,6 +997,10 @@ usr/share/kde4/apps/phonon/phonon.notifyrc
 usr/share/kde4/apps/proxyscout/proxyscout.notifyrc
 usr/share/kde4/services/crypto.desktop
 usr/share/kde4/services/data.protocol
+usr/share/kde4/services/emoticonstheme_adium.desktop
+usr/share/kde4/services/emoticonstheme_kde.desktop
+usr/share/kde4/services/emoticonstheme_pidgin.desktop
+usr/share/kde4/services/emoticonstheme_xmpp.desktop
 usr/share/kde4/services/file.protocol
 usr/share/kde4/services/ftp.protocol
 usr/share/kde4/services/ghelp.protocol
@@ -1068,6 +1076,7 @@ usr/share/kde4/servicetypes/kcmoduleinit.desktop
 usr/share/kde4/servicetypes/kconfigbackend.desktop
 usr/share/kde4/servicetypes/kdatatool.desktop
 usr/share/kde4/servicetypes/kdedmodule.desktop
+usr/share/kde4/servicetypes/kemoticonsTheme.desktop
 usr/share/kde4/servicetypes/kfileplugin.desktop
 usr/share/kde4/servicetypes/kfilewrite.desktop
 usr/share/kde4/servicetypes/kmediaplayer.desktop
@@ -1086,4 +1095,5 @@ usr/share/kde4/servicetypes/phononbackend.desktop
 usr/share/kde4/servicetypes/qimageio_plugin.desktop
 usr/share/kde4/servicetypes/renamedialogplugin.desktop
 usr/share/kde4/servicetypes/sonnetspeller.desktop
+usr/share/man/man1/makekdewidgets.1
 usr/share/mime/packages/kde.xml

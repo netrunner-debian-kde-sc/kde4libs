@@ -1,3 +1,18 @@
+kde4libs (4:4.0.80-1~pre1) UNRELEASED; urgency=low
+
+  * New upstream development milestone (KDE 4.1 Beta1).
+
+  +++ Changes by Modestas Vainius:
+
+  * Disable 97 patch (will be removed later).
+    Pass -DKDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT=on to cmake which enables
+    equivalent functionality.
+  * Update install files.
+  * Refresh patches.
+  * Ligthen cmake build-dependency to 2.4.5.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 May 2008 21:13:07 +0300
+
 kde4libs (4:4.0.74-1) experimental; urgency=low
 
   * New upstream snapshot.

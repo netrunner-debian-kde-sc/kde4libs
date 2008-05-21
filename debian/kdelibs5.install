@@ -1,4 +1,8 @@
 usr/lib/kconf_update_bin/phonon_devicepreference_update
+usr/lib/kde4/emoticonstheme_adium.so
+usr/lib/kde4/emoticonstheme_kde.so
+usr/lib/kde4/emoticonstheme_pidgin.so
+usr/lib/kde4/emoticonstheme_xmpp.so
 usr/lib/kde4/katepart.so
 usr/lib/kde4/kcertpart.so
 usr/lib/kde4/kcm_crypto.so

@@ -4,7 +4,7 @@ can be used to enable them.
 See also 04_disable_debug_by_default.diff in kdebase-runtime.
 --- a/kdecore/io/kdebug.cpp
 +++ b/kdecore/io/kdebug.cpp
-@@ -314,7 +314,7 @@
+@@ -313,7 +313,7 @@
          }
  
          KConfigGroup cg(config, QString::number(area));
