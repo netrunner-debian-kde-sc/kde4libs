@@ -8080,6 +8080,7 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN15KRichTextWidget11qt_metacastEPKc@Base 4:4.0.80
  _ZN15KRichTextWidget13createActionsEP17KActionCollection@Base 4:4.0.80
  _ZN15KRichTextWidget16staticMetaObjectE@Base 4:4.0.80
+ _ZN15KRichTextWidget17setActionsEnabledEb@Base 4:4.0.80+svn812470
  _ZN15KRichTextWidget18setRichTextSupportERK6QFlagsINS_21RichTextSupportValuesEE@Base 4:4.0.80
  _ZN15KRichTextWidget18updateActionStatesEv@Base 4:4.0.80
  _ZN15KRichTextWidget7Private13_k_manageLinkEv@Base 4:4.0.80
@@ -23717,14 +23718,12 @@ libkutils.so.4 kdelibs5 #MINVER#
  _ZN14KCModuleLoader19showLastLoaderErrorEP7QWidget@Base 4:4.0.72 1
  _ZN15KEmoticonsTheme11addEmoticonERK7QStringS2_N18KEmoticonsProvider17AddEmoticonOptionE@Base 4:4.0.80
  _ZN15KEmoticonsTheme12setThemeNameERK7QString@Base 4:4.0.80
- _ZN15KEmoticonsTheme14parseEmoticonsERK7QString6QFlagsINS_13ParseModeEnumEERK11QStringList@Base 4:4.0.80
  _ZN15KEmoticonsTheme14removeEmoticonERK7QString@Base 4:4.0.80
  _ZN15KEmoticonsTheme19KEmoticonsThemeDataC1Ev@Base 4:4.0.80
  _ZN15KEmoticonsTheme19KEmoticonsThemeDataC2Ev@Base 4:4.0.80
  _ZN15KEmoticonsTheme19KEmoticonsThemeDataD1Ev@Base 4:4.0.80
  _ZN15KEmoticonsTheme19KEmoticonsThemeDataD2Ev@Base 4:4.0.80
  _ZN15KEmoticonsTheme4saveEv@Base 4:4.0.80
- _ZN15KEmoticonsTheme8tokenizeERK7QString6QFlagsINS_13ParseModeEnumEE@Base 4:4.0.80
  _ZN15KEmoticonsTheme9createNewEv@Base 4:4.0.80
  _ZN15KEmoticonsTheme9loadThemeERK7QString@Base 4:4.0.80
  _ZN15KEmoticonsThemeC1EP18KEmoticonsProvider@Base 4:4.0.80
@@ -23915,8 +23914,10 @@ libkutils.so.4 kdelibs5 #MINVER#
  _ZNK13KCMultiDialog10metaObjectEv@Base 4:4.0.72 1
  _ZNK13KPrintPreview10metaObjectEv@Base 4:4.0.72 1
  _ZNK15KEmoticonsTheme12emoticonsMapEv@Base 4:4.0.80
+ _ZNK15KEmoticonsTheme14parseEmoticonsERK7QString6QFlagsINS_13ParseModeEnumEERK11QStringList@Base 4:4.0.80+svn812470
  _ZNK15KEmoticonsTheme6isNullEv@Base 4:4.0.80
  _ZNK15KEmoticonsTheme8fileNameEv@Base 4:4.0.80
+ _ZNK15KEmoticonsTheme8tokenizeERK7QString6QFlagsINS_13ParseModeEnumEE@Base 4:4.0.80+svn812470
  _ZNK15KEmoticonsTheme9themeNameEv@Base 4:4.0.80
  _ZNK15KEmoticonsTheme9themePathEv@Base 4:4.0.80
  _ZNK15KPluginSelector10metaObjectEv@Base 4:4.0.72 1
