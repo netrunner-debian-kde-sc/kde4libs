@@ -1,9 +1,13 @@
-kde4libs (4:4.0.80-2) experimental; urgency=low
+kde4libs (4:4.0.80+svn813869-1) UNRELEASED; urgency=low
 
-  * Add libxcursor-dev build dependency. 
+  * New upstream development snapshot:
+
+  +++ Changes by Armin Berres:
+
+  * Add libxcursor-dev build dependency.
   * Recommend the new default font ttf-dejavu.
 
- -- Armin Berres <trigger+debian@space-based.de>  Tue, 27 May 2008 23:31:37 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 May 2008 23:43:30 +0200
 
 kde4libs (4:4.0.80-1) experimental; urgency=low
 
