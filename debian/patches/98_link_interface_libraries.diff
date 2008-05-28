@@ -424,18 +424,6 @@
  
  set_target_properties(kutils PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kutils ${INSTALL_TARGETS_DEFAULT_ARGS})
---- a/phonon/libkaudiodevicelist/CMakeLists.txt
-+++ b/phonon/libkaudiodevicelist/CMakeLists.txt
-@@ -28,7 +28,8 @@
- endif(ALSA_FOUND)
- 
- kde4_add_library(kaudiodevicelist SHARED ${kaudiodevicelist_LIB_SRCS})
--target_link_libraries(kaudiodevicelist ${KDE4_SOLID_LIBS} ${KDE4_PHONON_LIBS} ${ASOUND_LIBRARY})
-+target_link_libraries(kaudiodevicelist ${KDE4_KDECORE_LIBS} ${KDE4_SOLID_LIBS} ${KDE4_PHONON_LIBS} ${ASOUND_LIBRARY})
-+set_target_properties(kaudiodevicelist PROPERTIES LINK_INTERFACE_LIBRARIES "${QT_QTCORE_LIBRARY};solid")
- 
- set_target_properties(kaudiodevicelist PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
- 
 --- a/solid/solid/CMakeLists.txt
 +++ b/solid/solid/CMakeLists.txt
 @@ -181,6 +181,7 @@
