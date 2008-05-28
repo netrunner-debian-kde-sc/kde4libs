@@ -1,2 +1,0 @@
-dst:usr/include/.*(?i:phonon)/.*
-dst:usr/lib/libphonon.*\.so$
