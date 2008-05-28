@@ -12,7 +12,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.4.5), shar
  libxml2-dev, libxml2-utils,  libxslt1-dev, libxtst-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc,
- libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~svn805317)
+ libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~svn805317),
+ libxcursor-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdelibs
@@ -23,6 +24,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
  kdelibs-bin(>= ${binary:Version}), dbus-x11, shared-mime-info, xauth
+Recommends: ttf-dejavu
 Description: core libraries for all KDE 4 applications
  This package contains shared libraries needed to run KDE 4 applications.
  .
