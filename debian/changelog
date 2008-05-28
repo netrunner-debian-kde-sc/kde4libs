@@ -7,6 +7,11 @@ kde4libs (4:4.0.80+svn813869-1) UNRELEASED; urgency=low
   * Add libxcursor-dev build dependency.
   * Recommend the new default font ttf-dejavu.
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+ 
+  * Remove phonon package stuff, it has been split out from kde4libs.
+  * Add build depends on phonon-dev.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 May 2008 23:43:30 +0200
 
 kde4libs (4:4.0.80-1) experimental; urgency=low
