@@ -1,10 +1,9 @@
-kde4libs (4:4.0.81+svn814005-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.81+svn814071-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r814005 by tyrerj
-    - Date: Thu, 29 May 2008 07:34:02 -0000
-
-  * Corrections to *.install files:
+    - The latest upstream commit is r814071 by rpedersen
+    - Date: Thu, 29 May 2008 10:16:43 -0000
+  * Update install files:
     - kdelibs5-dev.install: 1 new file(s) added; 2 file(s) removed;
     - kdelibs5.install: 5 file(s) removed;
     - kdelibs5-data.install: 10 file(s) removed;
@@ -23,8 +22,9 @@ kde4libs (4:4.0.81+svn814005-1~pre1) UNRELEASED; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Drop 18_always_set_cmake_policy.diff patch - applied upstream.
+  * Make kdelibs5-dev depend on libphonon-dev, KDE4Internal.cmake REQUIRES it.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 11:00:03 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 14:34:13 +0300
 
 kde4libs (4:4.0.80-1) experimental; urgency=low
 
