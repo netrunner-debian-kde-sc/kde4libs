@@ -1,0 +1,20 @@
+Index: kstandarddirs.cpp
+===================================================================
+--- a/kdecore/kernel/kstandarddirs.cpp   (revision 813271)
++++ b/kdecore/kernel/kstandarddirs.cpp   (working copy)
+@@ -1021,8 +1021,13 @@
+                     break;
+                 }
+             }
+-            if (ok)
+-                candidates.append(installdir);
++            if (ok) {
++                if (candidates.isEmpty()) {
++                    candidates.append(installdir);
++                } else {
++                    candidates.insert(1, installdir);
++                }
++            }
+         }
+
+         dirs = d->absolutes.value(type);
