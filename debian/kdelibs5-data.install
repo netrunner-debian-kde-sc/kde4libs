@@ -238,8 +238,6 @@ usr/share/kde4/apps/kcertpart/kcertpart.rc
 usr/share/kde4/apps/kcharselect/kcharselect-data
 usr/share/kde4/apps/kcm_componentchooser/kcm_instantmessenger.desktop
 usr/share/kde4/apps/kcm_componentchooser/kcm_ktexteditor.desktop
-usr/share/kde4/apps/kcm_phonon/listview-background.png
-usr/share/kde4/apps/kconf_update/devicepreference.upd
 usr/share/kde4/apps/kconf_update/kcookiescfg.upd
 usr/share/kde4/apps/kconf_update/kded.upd
 usr/share/kde4/apps/kconf_update/kio_help.upd
@@ -322,10 +320,6 @@ usr/share/kde4/apps/khtml/css/presentational.css
 usr/share/kde4/apps/khtml/css/quirks.css
 usr/share/kde4/apps/khtml/domain_info
 usr/share/kde4/apps/khtml/error.html
-usr/share/kde4/apps/khtml/icons/crystalsvg/22x22/actions/dbgnext.png
-usr/share/kde4/apps/khtml/icons/crystalsvg/22x22/actions/dbgrun.png
-usr/share/kde4/apps/khtml/icons/crystalsvg/22x22/actions/dbgrunto.png
-usr/share/kde4/apps/khtml/icons/crystalsvg/22x22/actions/dbgstep.png
 usr/share/kde4/apps/khtml/khtml.rc
 usr/share/kde4/apps/khtml/khtml_browser.rc
 usr/share/kde4/apps/kjava/kjava.jar
@@ -991,9 +985,7 @@ usr/share/kde4/apps/kssl/ca-bundle.crt
 usr/share/kde4/apps/ktexteditor_docwordcompletion/docwordcompletionui.rc
 usr/share/kde4/apps/ktexteditor_insertfile/ktexteditor_insertfileui.rc
 usr/share/kde4/apps/ktexteditor_kdatatool/ktexteditor_kdatatoolui.rc
-usr/share/kde4/apps/libphonon/hardwaredatabase
 usr/share/kde4/apps/nepomuk/
-usr/share/kde4/apps/phonon/phonon.notifyrc
 usr/share/kde4/apps/proxyscout/proxyscout.notifyrc
 usr/share/kde4/services/crypto.desktop
 usr/share/kde4/services/data.protocol
@@ -1010,7 +1002,6 @@ usr/share/kde4/services/http_cache_cleaner.desktop
 usr/share/kde4/services/https.protocol
 usr/share/kde4/services/katepart.desktop
 usr/share/kde4/services/kcertpart.desktop
-usr/share/kde4/services/kcm_phonon.desktop
 usr/share/kde4/services/kded/kcookiejar.desktop
 usr/share/kde4/services/kded/kdedglobalaccel.desktop
 usr/share/kde4/services/kded/kssld.desktop
@@ -1091,7 +1082,6 @@ usr/share/kde4/servicetypes/kscan.desktop
 usr/share/kde4/servicetypes/ktexteditor.desktop
 usr/share/kde4/servicetypes/ktexteditorplugin.desktop
 usr/share/kde4/servicetypes/kurifilterplugin.desktop
-usr/share/kde4/servicetypes/phononbackend.desktop
 usr/share/kde4/servicetypes/qimageio_plugin.desktop
 usr/share/kde4/servicetypes/renamedialogplugin.desktop
 usr/share/kde4/servicetypes/sonnetspeller.desktop

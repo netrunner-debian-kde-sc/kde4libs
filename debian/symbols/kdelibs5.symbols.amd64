@@ -1,51 +1,3 @@
-libkaudiodevicelist.so.4 kdelibs5 #MINVER#
-| kdelibs5 (>= 4:4.0.72)
-* Build-Depends-Package: kdelibs5-dev
- _ZN6Phonon11AudioDevice12ceaseToExistEv@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceC1EN5Solid6DeviceE10KSharedPtrI13KSharedConfigE@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceC1ER12KConfigGroup@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceC1ERK7QStringS3_10KSharedPtrI13KSharedConfigE@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceC1ERKS0_@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceC1Ev@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceC2EN5Solid6DeviceE10KSharedPtrI13KSharedConfigE@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceC2ER12KConfigGroup@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceC2ERK7QStringS3_10KSharedPtrI13KSharedConfigE@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceC2ERKS0_@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceC2Ev@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceD1Ev@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceD2Ev@Base 4:4.0.72 1
- _ZN6Phonon11AudioDeviceaSERKS0_@Base 4:4.0.72 1
- _ZN6Phonon16HardwareDatabase8containsERK7QString@Base 4:4.0.72 1
- _ZN6Phonon16HardwareDatabase8entryForERK7QString@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumerator11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumerator11qt_metacastEPKc@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumerator13devicePluggedERKNS_11AudioDeviceE@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumerator15deviceUnpluggedERKNS_11AudioDeviceE@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumerator16staticMetaObjectE@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumerator23availableCaptureDevicesEv@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumerator24availablePlaybackDevicesEv@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumerator4selfEv@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumeratorC1EPNS_28AudioDeviceEnumeratorPrivateE@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumeratorC2EPNS_28AudioDeviceEnumeratorPrivateE@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumeratorD0Ev@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumeratorD1Ev@Base 4:4.0.72 1
- _ZN6Phonon21AudioDeviceEnumeratorD2Ev@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice11isAvailableEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice15isCaptureDeviceEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice16isAdvancedDeviceEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice16isPlaybackDeviceEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice17initialPreferenceEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice5indexEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice6driverEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice7isValidEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice8cardNameEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice8iconNameEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDevice9deviceIdsEv@Base 4:4.0.72 1
- _ZNK6Phonon11AudioDeviceeqERKS0_@Base 4:4.0.72 1
- _ZNK6Phonon21AudioDeviceEnumerator10metaObjectEv@Base 4:4.0.72 1
- _ZTIN6Phonon21AudioDeviceEnumeratorE@Base 4:4.0.72 1
- _ZTSN6Phonon21AudioDeviceEnumeratorE@Base 4:4.0.72 1
- _ZTVN6Phonon21AudioDeviceEnumeratorE@Base 4:4.0.72 1
 libkde3support.so.4 kdelibs5 #MINVER#
 | kdelibs5 (>= 4:4.0.72)
 * Build-Depends-Package: kdelibs5-dev
@@ -10133,9 +10085,11 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN9KTextEdit23setCheckSpellingEnabledEb@Base 4:4.0.72 1
  _ZN9KTextEdit24setSpellCheckingLanguageERK7QString@Base 4:4.0.72 1
  _ZN9KTextEdit30setSpellCheckingConfigFileNameERK7QString@Base 4:4.0.72 1
+ _ZN9KTextEdit5eventEP6QEvent@Base 4:4.0.81+svn813924
  _ZN9KTextEdit7Private12slotAllowTabEv@Base 4:4.0.72 1
  _ZN9KTextEdit7Private13menuActivatedEP7QAction@Base 4:4.0.72 1
  _ZN9KTextEdit7Private15slotReplaceTextERK7QStringiii@Base 4:4.0.72 1
+ _ZN9KTextEdit7Private16overrideShortcutEPK9QKeyEvent@Base 4:4.0.81+svn813924
  _ZN9KTextEdit7Private17slotFindHighlightERK7QStringii@Base 4:4.0.72 1
  _ZN9KTextEdit7Private18slotSpellCheckDoneERK7QString@Base 4:4.0.72 1
  _ZN9KTextEdit7Private20spellCheckerCanceledEv@Base 4:4.0.72 1

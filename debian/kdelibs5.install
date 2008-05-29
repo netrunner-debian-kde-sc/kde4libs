@@ -1,4 +1,3 @@
-usr/lib/kconf_update_bin/phonon_devicepreference_update
 usr/lib/kde4/emoticonstheme_adium.so
 usr/lib/kde4/emoticonstheme_kde.so
 usr/lib/kde4/emoticonstheme_pidgin.so
@@ -6,7 +5,6 @@ usr/lib/kde4/emoticonstheme_xmpp.so
 usr/lib/kde4/katepart.so
 usr/lib/kde4/kcertpart.so
 usr/lib/kde4/kcm_crypto.so
-usr/lib/kde4/kcm_phonon.so
 usr/lib/kde4/kded_globalaccel.so
 usr/lib/kde4/kded_kcookiejar.so
 usr/lib/kde4/kded_kssld.so
@@ -59,12 +57,9 @@ usr/lib/kde4/plugins/imageformats/kimg_rgb.so
 usr/lib/kde4/plugins/imageformats/kimg_tga.so
 usr/lib/kde4/plugins/imageformats/kimg_xcf.so
 usr/lib/kde4/plugins/imageformats/kimg_xview.so
-usr/lib/kde4/plugins/phonon_platform/kde.so
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4.1.0
 usr/lib/kde4/spellcheckplugin.so
-usr/lib/libkaudiodevicelist.so.4
-usr/lib/libkaudiodevicelist.so.4.1.0
 usr/lib/libkde3support.so.4
 usr/lib/libkde3support.so.4.1.0
 usr/lib/libkdecore.so.5

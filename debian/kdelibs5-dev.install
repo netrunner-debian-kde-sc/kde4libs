@@ -796,7 +796,6 @@ usr/include/solid/*
 usr/include/sonnet/*
 usr/include/threadweaver/*
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so
-usr/lib/libkaudiodevicelist.so
 usr/lib/libkde3support.so
 usr/lib/libkdecore.so
 usr/lib/libkdefakes.so
@@ -836,7 +835,6 @@ usr/share/dbus-1/interfaces/org.kde.KMediaPlayer.xml
 usr/share/dbus-1/interfaces/org.kde.KSpeech.xml
 usr/share/dbus-1/interfaces/org.kde.KWallet.xml
 usr/share/dbus-1/interfaces/org.kde.KdedGlobalAccel.xml
-usr/share/dbus-1/interfaces/org.kde.Phonon.AudioOutput.xml
 usr/share/dbus-1/interfaces/org.kde.Solid.Networking.Client.xml
 usr/share/dbus-1/interfaces/org.kde.kded.xml
 usr/share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
@@ -904,6 +902,7 @@ usr/share/kde4/apps/cmake/modules/FindOpenSSL.cmake
 usr/share/kde4/apps/cmake/modules/FindPCRE.cmake
 usr/share/kde4/apps/cmake/modules/FindPNG.cmake
 usr/share/kde4/apps/cmake/modules/FindPackageHandleStandardArgs.cmake
+usr/share/kde4/apps/cmake/modules/FindPhonon.cmake
 usr/share/kde4/apps/cmake/modules/FindPkgConfig.cmake
 usr/share/kde4/apps/cmake/modules/FindPlasma.cmake
 usr/share/kde4/apps/cmake/modules/FindPopplerQt4.cmake
