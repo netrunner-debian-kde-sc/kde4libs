@@ -9,6 +9,7 @@
 17_findservicebydesktoppath_try_realfilepath.diff
 19_findqt4_optional_x11_pthread.diff
 20_use_dejavu_as_default_font.diff
+21_kstandarddirs_prefer_kde4apps.diff
 #97_use_imported_targets_with_cmake26.diff
 98_link_interface_libraries.diff
 99_more_implicit_link_libs.diff
