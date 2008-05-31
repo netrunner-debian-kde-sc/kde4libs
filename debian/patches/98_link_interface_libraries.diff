@@ -45,7 +45,7 @@
  install(TARGETS ktexteditor ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/kate/CMakeLists.txt
 +++ b/kate/CMakeLists.txt
-@@ -145,7 +145,7 @@
+@@ -152,7 +152,7 @@
  kde4_add_plugin(katepart ${katepart_PART_SRCS})
  
  # linking
@@ -117,7 +117,7 @@
     set_source_files_properties(su.cpp
 --- a/kdeui/CMakeLists.txt
 +++ b/kdeui/CMakeLists.txt
-@@ -292,7 +292,8 @@
+@@ -293,7 +293,8 @@
  
  kde4_add_library(kdeui SHARED ${kdeui_LIB_SRCS})
  
@@ -127,7 +127,7 @@
  
  if(MINGW)
     target_link_libraries(kdeui gdi32)
-@@ -314,6 +315,10 @@
+@@ -315,6 +316,10 @@
     target_link_libraries(kdeui ${X11_Xrender_LIB})
  endif(X11_Xrender_FOUND)
  
@@ -138,7 +138,7 @@
  set_target_properties(kdeui PROPERTIES VERSION ${KDE_NON_GENERIC_LIB_VERSION} SOVERSION ${KDE_NON_GENERIC_LIB_SOVERSION} )
  install(TARGETS kdeui ${INSTALL_TARGETS_DEFAULT_ARGS})
  ########### install files ###############
-@@ -547,7 +552,7 @@
+@@ -548,7 +553,7 @@
  endif ( Q_WS_QWS )
  
  kde4_add_plugin( kded_globalaccel ${kded_globalaccel_SRCS} )

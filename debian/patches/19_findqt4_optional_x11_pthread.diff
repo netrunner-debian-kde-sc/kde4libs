@@ -1,6 +1,6 @@
 --- a/cmake/modules/FindQt4.cmake
 +++ b/cmake/modules/FindQt4.cmake
-@@ -1427,10 +1427,9 @@
+@@ -1428,10 +1428,9 @@
    IF(UNIX)
      # on OS X X11 may not be required
      IF (Q_WS_X11)

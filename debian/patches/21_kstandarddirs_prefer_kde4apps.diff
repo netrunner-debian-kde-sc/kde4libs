@@ -1,8 +1,6 @@
-Index: kstandarddirs.cpp
-===================================================================
---- a/kdecore/kernel/kstandarddirs.cpp   (revision 813271)
-+++ b/kdecore/kernel/kstandarddirs.cpp   (working copy)
-@@ -1021,8 +1021,13 @@
+--- a/kdecore/kernel/kstandarddirs.cpp
++++ b/kdecore/kernel/kstandarddirs.cpp
+@@ -1018,8 +1018,13 @@
                      break;
                  }
              }
@@ -16,5 +14,5 @@ Index: kstandarddirs.cpp
 +                }
 +            }
          }
-
+ 
          dirs = d->absolutes.value(type);

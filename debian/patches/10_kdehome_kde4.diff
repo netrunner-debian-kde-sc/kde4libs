@@ -1,6 +1,6 @@
 --- a/kdecore/kernel/kstandarddirs.cpp
 +++ b/kdecore/kernel/kstandarddirs.cpp
-@@ -1479,7 +1479,7 @@
+@@ -1476,7 +1476,7 @@
  #ifdef Q_WS_MACX
          localKdeDir =  QDir::homePath() + "/Library/Preferences/KDE/";
  #else

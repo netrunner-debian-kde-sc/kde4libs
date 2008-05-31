@@ -22,7 +22,7 @@
                                VERSION ${KDE_NON_GENERIC_LIB_VERSION} 
 --- a/kdeui/CMakeLists.txt
 +++ b/kdeui/CMakeLists.txt
-@@ -293,7 +293,7 @@
+@@ -294,7 +294,7 @@
  kde4_add_library(kdeui SHARED ${kdeui_LIB_SRCS})
  
  target_link_libraries(kdeui ${QT_QTSVG_LIBRARY} ${KDE4_KDECORE_LIBS} ${X11_X11_LIB} ${QT_QTGUI_LIBRARY} ${QT_QTXML_LIBRARY} ${QT_QTDBUS_LIBRARY} )
