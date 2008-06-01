@@ -1,9 +1,8 @@
-kde4libs (4:4.0.81+svn814166-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.81+svn815057-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r814166 by rpedersen
-    - Date: Thu, 29 May 2008 14:29:32 -0000
-
+    - The latest upstream commit is r815057 by mpyne
+    - Date: Sun Jun 1 03:12:51 2008 UTC
   * Update install files:
     - kdelibs5-dev.install: 1 new file(s) added; 2 file(s) removed;
     - kdelibs5.install: 5 file(s) removed;
