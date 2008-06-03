@@ -161,7 +161,7 @@
  install(TARGETS kfile ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/khtml/CMakeLists.txt
 +++ b/khtml/CMakeLists.txt
-@@ -321,7 +321,11 @@
+@@ -326,7 +326,11 @@
  
  kde4_add_library(khtml SHARED ${khtml_LIB_SRCS})
  
@@ -174,7 +174,7 @@
  
  set_target_properties(khtml PROPERTIES VERSION ${KDE_NON_GENERIC_LIB_VERSION} SOVERSION ${KDE_NON_GENERIC_LIB_SOVERSION} )
  
-@@ -393,7 +397,7 @@
+@@ -401,7 +405,7 @@
  
  kde4_add_plugin(khtmlpart WITH_PREFIX ${khtmlpart_PART_SRCS})
  

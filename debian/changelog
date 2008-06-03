@@ -1,8 +1,6 @@
-kde4libs (4:4.0.81+svn816138-1) UNRELEASED; urgency=low
+kde4libs (4:4.0.81+svn816106-1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r816138 by 
-    - Date: 
+  * New upstream development snapshot.
 
   +++ Changes by Armin Berres:
 
@@ -10,7 +8,7 @@ kde4libs (4:4.0.81+svn816138-1) UNRELEASED; urgency=low
   * Recommend the new default font ttf-dejavu.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
- 
+
   * Remove phonon package stuff, it has been split out from kde4libs.
   * Add build depends on phonon-dev.
   * Update UPSTREAMVERSION in debian/rules.
