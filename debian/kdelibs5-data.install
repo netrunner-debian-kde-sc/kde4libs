@@ -76,6 +76,7 @@ usr/share/kde4/apps/LICENSES/LGPL_V3
 usr/share/kde4/apps/LICENSES/QPL_V1.0
 usr/share/kde4/apps/katepart/katepartsimpleui.rc
 usr/share/kde4/apps/katepart/katepartui.rc
+usr/share/kde4/apps/katepart/script/cstyle.js
 usr/share/kde4/apps/katepart/script/jstest.js
 usr/share/kde4/apps/katepart/script/lisp.js
 usr/share/kde4/apps/katepart/script/python.js
