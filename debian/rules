@@ -1,8 +1,8 @@
 #!/usr/bin/make -f
 
 #UPSTREAMVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(.*\)-.*/\1/')
-UPSTREAMVERSION ?= 4:4.0.81+svn813924
-RUNTIME_DEPS := kdebase-runtime (>= 4:4.0.80)
+UPSTREAMVERSION ?= 4:4.0.81
+RUNTIME_DEPS := kdebase-runtime (>= 4:4.0.81)
 
 DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg
 DEB_DBG_PACKAGE_kdelibs-bin := kdelibs5-dbg
