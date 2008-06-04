@@ -25,6 +25,7 @@ kde4libs (4:4.0.81+svn816106-1) UNRELEASED; urgency=low
   * Patch kstandarddirs to look in home, installpath, prefix/path  except when
     config files, where home, /etc/kde4, prefix/path, installpath is
     preferred. Patch developed in cooperation with fedora
+  * Add README file about the configuration stuff
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 17:51:57 +0300
 
