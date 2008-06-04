@@ -35,3 +35,7 @@ install|upgrade)
 	rm_conffile kdelibs5-data /etc/kde4/kdeprintrc
     fi
 esac
+
+#DEBHELPER#
+
+exit 0
