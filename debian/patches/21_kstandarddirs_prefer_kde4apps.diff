@@ -100,7 +100,7 @@ diff -ur kdelibs-4.0.80/kdecore/kernel/kstandarddirs.cpp kdelibs-4.0.80-kstandar
                  }
 +                // UGLY HACK - forward porting Chris CHeney's HACK - Rex Dieter
 +                if ( local && (!strcmp("config", type)))
-+                  candidates.append("/etc/kde/");
++                  candidates.append("/etc/kde4/");
 +                //
                  local = false;
              }
