@@ -1,18 +1,160 @@
---- a/kdecore/kernel/kstandarddirs.cpp
-+++ b/kdecore/kernel/kstandarddirs.cpp
-@@ -1018,8 +1018,13 @@
-                     break;
+Fix kstarndarddirs order more or less. Path by Sune Vuorela, later refined by fedora people (https://bugzilla.redhat.com/show_bug.cgi?id=447965)
+Hopefully soon pushed upstream.
+
+diff -ur kdelibs-4.0.80/kdecore/kernel/kstandarddirs.cpp kdelibs-4.0.80-kstandarddirs/kdecore/kernel/kstandarddirs.cpp
+--- kdelibs-4.0.80/kdecore/kernel/kstandarddirs.cpp	2008-05-21 13:08:57.000000000 +0200
++++ kdelibs-4.0.80-kstandarddirs/kdecore/kernel/kstandarddirs.cpp	2008-05-30 18:07:29.000000000 +0200
+@@ -77,9 +77,12 @@
+     bool checkRestrictions : 1;
+     QMap<QByteArray, bool> restrictions;
+     QStringList xdgdata_prefixes;
++    QString localXdgdatahome;
+     QStringList xdgconf_prefixes;
++    QString localXdgconfhome;
+ 
+     QStringList prefixes;
++    QString localKdehome;
+ 
+     // Directory dictionaries
+     QMap<QByteArray, QStringList> absolutes;
+@@ -954,10 +957,62 @@
+                 restrictionActive = true;
+             d->dataRestrictionActive = false; // Reset
+         }
++        const QStringList *prefixList = 0;
++	QString home;
++        if (strncmp(type, "xdgdata-", 8) == 0)
++	{
++            prefixList = &(d->xdgdata_prefixes);
++	    home=d->localXdgdatahome;
++	}
++        else if (strncmp(type, "xdgconf-", 8) == 0)
++	{
++            prefixList = &(d->xdgconf_prefixes);
++	    home=d->localXdgconfhome;
++	}
++        else
++	{
++            prefixList = &d->prefixes;
++	    home=d->localKdehome;
++	}
+ 
+         QStringList dirs;
+         dirs = d->relatives.value(type);
+ 
++	if(!home.isNull())
++	{
++                for (QStringList::ConstIterator it = dirs.begin();
++                     it != dirs.end(); ++it)
++                {
++                    if ( (*it).startsWith('%'))
++                        continue;
++                    QString path = realPath( home + *it );
++                    testdir.setPath(path);
++                    if (restrictionActive)
++                        continue;
++                    if (!candidates.contains(path))
++                        candidates.append(path);
++                }
++
++	}
++
++        // make sure we find the path where it's installed
++        // for non-config files, we want the installed path _first_, so /usr/share/kde4 takes precedence over /usr/share
++        if (strcmp("config", type)) {
++            QString installdir = installPath( type );
++            if (!installdir.isEmpty()) {
++                bool ok = true;
++                foreach (const QString &s, candidates) {
++                    if (installdir.startsWith(s)) {
++                        ok = false;
++                        break;
++                    }
++                }
++                if (ok) {
++                        candidates.append(installdir);
++                }
++            }
++        }
++
+         if (!dirs.isEmpty())
+         {
+             bool local = true;
+@@ -983,13 +1038,6 @@
+                 }
+             }
+ 
+-            const QStringList *prefixList = 0;
+-            if (strncmp(type, "xdgdata-", 8) == 0)
+-                prefixList = &(d->xdgdata_prefixes);
+-            else if (strncmp(type, "xdgconf-", 8) == 0)
+-                prefixList = &(d->xdgconf_prefixes);
+-            else
+-                prefixList = &d->prefixes;
+ 
+             for (QStringList::ConstIterator pit = prefixList->begin();
+                  pit != prefixList->end();
+@@ -1007,22 +1055,30 @@
+                     if ((local || testdir.exists()) && !candidates.contains(path))
+                         candidates.append(path);
+                 }
++                // UGLY HACK - forward porting Chris CHeney's HACK - Rex Dieter
++                if ( local && (!strcmp("config", type)))
++                  candidates.append("/etc/kde/");
++                //
+                 local = false;
+             }
+         }
+ 
+         // make sure we find the path where it's installed
+-        QString installdir = installPath( type );
+-        if (!installdir.isEmpty()) {
+-            bool ok = true;
+-            foreach (const QString &s, candidates) {
+-                if (installdir.startsWith(s)) {
+-                    ok = false;
+-                    break;
++        // for config files, we want the installed path _last_, so profiles take precedence
++        if (!strcmp("config", type)) {
++            QString installdir = installPath( type );
++            if (!installdir.isEmpty()) {
++                bool ok = true;
++                foreach (const QString &s, candidates) {
++                    if (installdir.startsWith(s)) {
++                        ok = false;
++                        break;
++                    }
++                }
++                if (ok) {
++                        candidates.append(installdir);
                  }
              }
 -            if (ok)
 -                candidates.append(installdir);
-+            if (ok) {
-+                if (candidates.isEmpty()) {
-+                    candidates.append(installdir);
-+                } else {
-+                    candidates.insert(1, installdir);
-+                }
-+            }
          }
  
          dirs = d->absolutes.value(type);
+@@ -1487,6 +1543,7 @@
+     {
+         localKdeDir = KShell::tildeExpand(localKdeDir);
+         addPrefix(localKdeDir);
++        d->localKdehome=localKdeDir;
+     }
+ 
+ #ifdef Q_WS_MACX
+@@ -1545,6 +1602,7 @@
+ 
+     localXdgDir = KShell::tildeExpand(localXdgDir);
+     addXdgConfigPrefix(localXdgDir);
++    d->localXdgconfhome=localXdgDir;
+ 
+     for (QStringList::ConstIterator it = xdgdirList.begin();
+          it != xdgdirList.end(); ++it)
+@@ -1593,6 +1651,7 @@
+ 
+     localXdgDir = KShell::tildeExpand(localXdgDir);
+     addXdgDataPrefix(localXdgDir);
++    d->localXdgdatahome=localXdgDir;
+ 
+     for (QStringList::ConstIterator it = xdgdirList.begin();
+          it != xdgdirList.end(); ++it)

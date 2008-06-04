@@ -19,6 +19,13 @@ kde4libs (4:4.0.81+svn816106-1) UNRELEASED; urgency=low
   * Drop 18_always_set_cmake_policy.diff patch - applied upstream.
   * Make kdelibs5-dev depend on libphonon-dev, KDE4Internal.cmake REQUIRES it.
 
+  +++ Changes by Sune Vuorela:
+
+  * Install config files in /usr/share/kde4/config
+  * Patch kstandarddirs to look in home, installpath, prefix/path  except when
+    config files, where home, /etc/kde4, prefix/path, installpath is
+    preferred. Patch developed in cooperation with fedora
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 17:51:57 +0300
 
 kde4libs (4:4.0.80-1) experimental; urgency=low
