@@ -1,8 +1,8 @@
-kde4libs (4:4.0.81+svn817073-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.81+svn818551-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r817073 by rodda
-    - Date: Thu, 05 Jun 2008 07:42:32 -0000
+    - The latest upstream commit is r818551 by nsams
+    - Date: Mon, 09 Jun 2008 10:09:59 -0000
 
   +++ Changes by Armin Berres:
 
@@ -29,7 +29,7 @@ kde4libs (4:4.0.81+svn817073-1~pre1) UNRELEASED; urgency=low
     preferred. Patch developed in cooperation with fedora (Closes: #484897).
   * Add README file about the configuration stuff
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Jun 2008 11:51:15 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jun 2008 14:23:49 +0300
 
 kde4libs (4:4.0.80-1) experimental; urgency=low
 

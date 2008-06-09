@@ -2632,14 +2632,14 @@ libkdecore.so.5 kdelibs5 #MINVER#
  _ZN15KToolInvocation12invokeMailerERK7QStringS2_S2_S2_S2_S2_RK11QStringListRK10QByteArray@Base 4:4.0.72 1
  _ZN15KToolInvocation12startKdeinitEv@Base 4:4.0.72 1
  _ZN15KToolInvocation13invokeBrowserERK7QStringRK10QByteArray@Base 4:4.0.72 1
- _ZN15KToolInvocation14invokeTerminalERK7QStringRK10QByteArray@Base 4:4.0.72 1
+ _ZN15KToolInvocation14invokeTerminalERK7QStringS2_RK10QByteArray@Base 4:4.0.81+svn817073
  _ZN15KToolInvocation15kdeinitExecWaitERK7QStringRK11QStringListPS0_PiRK10QByteArray@Base 4:4.0.72 1
  _ZN15KToolInvocation16staticMetaObjectE@Base 4:4.0.72 1
  _ZN15KToolInvocation17kapplication_hookER11QStringListR10QByteArray@Base 4:4.0.72 1
  _ZN15KToolInvocation18isMainThreadActiveEP7QString@Base 4:4.0.72 1
  _ZN15KToolInvocation18startServiceByNameERK7QStringRK11QStringListPS0_S6_PiRK10QByteArrayb@Base 4:4.0.72 1
  _ZN15KToolInvocation18startServiceByNameERK7QStringS2_PS0_S3_PiRK10QByteArrayb@Base 4:4.0.72 1
- _ZN15KToolInvocation20startServiceInternalEPKcRK7QStringRK11QStringListPS2_S8_PiRK10QByteArrayb@Base 4:4.0.72 1
+ _ZN15KToolInvocation20startServiceInternalEPKcRK7QStringRK11QStringListPS2_S8_PiRK10QByteArraybS4_@Base 4:4.0.81+svn818551
  _ZN15KToolInvocation25startServiceByDesktopNameERK7QStringRK11QStringListPS0_S6_PiRK10QByteArrayb@Base 4:4.0.72 1
  _ZN15KToolInvocation25startServiceByDesktopNameERK7QStringS2_PS0_S3_PiRK10QByteArrayb@Base 4:4.0.72 1
  _ZN15KToolInvocation25startServiceByDesktopPathERK7QStringRK11QStringListPS0_S6_PiRK10QByteArrayb@Base 4:4.0.72 1
@@ -2992,6 +2992,7 @@ libkdecore.so.5 kdelibs5 #MINVER#
  _ZN21KSystemTimeZoneSourceD0Ev@Base 4:4.0.72 1
  _ZN21KSystemTimeZoneSourceD1Ev@Base 4:4.0.72 1
  _ZN21KSystemTimeZoneSourceD2Ev@Base 4:4.0.72 1
+ _ZN21KTzfileTimeZoneSource8locationEv@Base 4:4.0.81+svn817073
  _ZN21KTzfileTimeZoneSourceC1ERK7QString@Base 4:4.0.72 1
  _ZN21KTzfileTimeZoneSourceC2ERK7QString@Base 4:4.0.72 1
  _ZN21KTzfileTimeZoneSourceD0Ev@Base 4:4.0.72 1
@@ -4245,6 +4246,9 @@ libkdecore.so.5 kdelibs5 #MINVER#
  _ZNK12KConfigGroup9readEntryERK7QStringRK5QListI8QVariantE@Base 4:4.0.72 1
  _ZNK12KConfigGroup9readEntryERK7QStringRK8QVariant@Base 4:4.0.72 1
  _ZNK12KConfigGroup9readEntryERK7QStringS2_@Base 4:4.0.72 1
+ _ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.0.81+svn817073
+ _ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.0.81+svn817073
+ _ZNK12KConfigGroup9readEntryIiEET_RK7QStringRKS1_@Base 4:4.0.81+svn817073
  _ZNK12KDesktopFile10readDeviceEv@Base 4:4.0.72 1
  _ZNK12KDesktopFile11actionGroupERK7QString@Base 4:4.0.72 1
  _ZNK12KDesktopFile11hasLinkTypeEv@Base 4:4.0.72 1
@@ -5043,8 +5047,6 @@ libkdecore.so.5 kdelibs5 #MINVER#
  _ZNK8KService13pluginKeywordEv@Base 4:4.0.72 1
  _ZNK8KService13substituteUidEv@Base 4:4.0.72 1
  _ZNK8KService14allowAsDefaultEv@Base 4:4.0.72 1
- _ZNK8KService14createInstanceI14KConfigBackendEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.80
- _ZNK8KService14createInstanceIN6Sonnet6ClientEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72 1
  _ZNK8KService14hasServiceTypeERK7QString@Base 4:4.0.72 1
  _ZNK8KService15dbusStartupTypeEv@Base 4:4.0.72 1
  _ZNK8KService15terminalOptionsEv@Base 4:4.0.72 1
@@ -7030,9 +7032,7 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN12KPixmapCache7Private11indexDeviceEv@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private11unmmapFilesEv@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private13checkLockFileEv@Base 4:4.0.72 1
- _ZN12KPixmapCache7Private13kpc_magic_lenE@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private13removeEntriesEi@Base 4:4.0.72 1
- _ZN12KPixmapCache7Private14kpc_header_lenE@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private14loadDataHeaderEv@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private15binarySearchKeyER11QDataStreamRK7QStringi@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private15loadIndexHeaderEv@Base 4:4.0.72 1
@@ -7041,14 +7041,16 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN12KPixmapCache7Private19invalidateMmapFilesEv@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private21scheduleRemoveEntriesEi@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private4initEv@Base 4:4.0.72 1
+ _ZN12KPixmapCache7Private7mCachesE@Base 4:4.0.81+svn817073
  _ZN12KPixmapCache7Private8indexKeyERK7QString@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private8loadDataEiR7QPixmap@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private8mmapFileERK7QStringPNS0_8MmapInfoEi@Base 4:4.0.72 1
- _ZN12KPixmapCache7Private9kpc_magicE@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private9mmapFilesEv@Base 4:4.0.72 1
  _ZN12KPixmapCache7Private9writeDataERK7QStringRK7QPixmap@Base 4:4.0.72 1
  _ZN12KPixmapCache7PrivateC1EPS_@Base 4:4.0.72 1
  _ZN12KPixmapCache7PrivateC2EPS_@Base 4:4.0.72 1
+ _ZN12KPixmapCache7PrivateD1Ev@Base 4:4.0.81+svn817073
+ _ZN12KPixmapCache7PrivateD2Ev@Base 4:4.0.81+svn817073
  _ZN12KPixmapCache7discardEv@Base 4:4.0.72 1
  _ZN12KPixmapCache8setValidEb@Base 4:4.0.72 1
  _ZN12KPixmapCacheC1ERK7QString@Base 4:4.0.72 1
@@ -7325,7 +7327,6 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN13KRichTextEdit16setTextStrikeOutEb@Base 4:4.0.80
  _ZN13KRichTextEdit16setTextUnderlineEb@Base 4:4.0.80
  _ZN13KRichTextEdit16staticMetaObjectE@Base 4:4.0.80
- _ZN13KRichTextEdit17mouseReleaseEventEP11QMouseEvent@Base 4:4.0.80
  _ZN13KRichTextEdit17selectionFinishedEv@Base 4:4.0.80
  _ZN13KRichTextEdit17switchToPlainTextEv@Base 4:4.0.80
  _ZN13KRichTextEdit18enableRichTextModeEv@Base 4:4.0.80
@@ -8032,6 +8033,7 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN15KRichTextWidget11qt_metacastEPKc@Base 4:4.0.80
  _ZN15KRichTextWidget13createActionsEP17KActionCollection@Base 4:4.0.80
  _ZN15KRichTextWidget16staticMetaObjectE@Base 4:4.0.80
+ _ZN15KRichTextWidget17mouseReleaseEventEP11QMouseEvent@Base 4:4.0.81+svn818551
  _ZN15KRichTextWidget17setActionsEnabledEb@Base 4:4.0.80+svn812470
  _ZN15KRichTextWidget18setRichTextSupportERK6QFlagsINS_21RichTextSupportValuesEE@Base 4:4.0.80
  _ZN15KRichTextWidget18updateActionStatesEv@Base 4:4.0.80
@@ -8039,7 +8041,6 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN15KRichTextWidget7Private15_k_setListStyleEi@Base 4:4.0.80
  _ZN15KRichTextWidget7Private16_k_formatPainterEb@Base 4:4.0.80
  _ZN15KRichTextWidget7Private20_k_updateMiscActionsEv@Base 4:4.0.80
- _ZN15KRichTextWidget7Private22_k_onSelectionFinishedEv@Base 4:4.0.80
  _ZN15KRichTextWidget7Private25_k_setTextBackgroundColorEv@Base 4:4.0.80
  _ZN15KRichTextWidget7Private25_k_setTextForegroundColorEv@Base 4:4.0.80
  _ZN15KRichTextWidget7Private26_k_updateCharFormatActionsERK15QTextCharFormat@Base 4:4.0.80
@@ -8750,6 +8751,7 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN18KRecentFilesActionD0Ev@Base 4:4.0.72 1
  _ZN18KRecentFilesActionD1Ev@Base 4:4.0.72 1
  _ZN18KRecentFilesActionD2Ev@Base 4:4.0.72 1
+ _ZN18KServiceTypeTrader23createInstanceFromQueryI7QDialogEEPT_RK7QStringP7QWidgetP7QObjectS6_RK5QListI8QVariantEPS4_@Base 4:4.0.81+svn817073
  _ZN18KSqueezedTextLabel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72 1
  _ZN18KSqueezedTextLabel11qt_metacastEPKc@Base 4:4.0.72 1
  _ZN18KSqueezedTextLabel11resizeEventEP12QResizeEvent@Base 4:4.0.72 1
@@ -9381,9 +9383,6 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN6KStyle11qt_metacastEPKc@Base 4:4.0.72 1
  _ZN6KStyle12defaultStyleEv@Base 4:4.0.72 1
  _ZN6KStyle13extractOptionIPKNS_18DoubleButtonOptionEEET_PNS_6OptionE@Base 4:4.0.72 1
- _ZN6KStyle13extractOptionIPNS_10IconOptionEEET_PNS_6OptionE@Base 4:4.0.72 1
- _ZN6KStyle13extractOptionIPNS_10TextOptionEEET_PNS_6OptionE@Base 4:4.0.72 1
- _ZN6KStyle13extractOptionIPNS_11ColorOptionEEET_PNS_6OptionE@Base 4:4.0.72 1
  _ZN6KStyle13extractOptionIPNS_17TitleButtonOptionEEET_PNS_6OptionE@Base 4:4.0.72 1
  _ZN6KStyle16staticMetaObjectE@Base 4:4.0.72 1
  _ZN6KStyle19setWidgetLayoutPropENS_10WidgetTypeEii@Base 4:4.0.72 1
@@ -9926,7 +9925,6 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN9KLineEdit13completionBoxEb@Base 4:4.0.72 1
  _ZN9KLineEdit13focusOutEventEP11QFocusEvent@Base 4:4.0.72 1
  _ZN9KLineEdit13keyPressEventEP9QKeyEvent@Base 4:4.0.72 1
- _ZN9KLineEdit13overrideAccelEPK9QKeyEvent@Base 4:4.0.72 1
  _ZN9KLineEdit13returnPressedERK7QString@Base 4:4.0.72 1
  _ZN9KLineEdit13userCancelledERK7QString@Base 4:4.0.72 1
  _ZN9KLineEdit14makeCompletionERK7QString@Base 4:4.0.72 1
@@ -10088,6 +10086,7 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZN9KTextEdit5eventEP6QEvent@Base 4:4.0.81+svn813924
  _ZN9KTextEdit7Private12slotAllowTabEv@Base 4:4.0.72 1
  _ZN9KTextEdit7Private13menuActivatedEP7QAction@Base 4:4.0.72 1
+ _ZN9KTextEdit7Private14handleShortcutEPK9QKeyEvent@Base 4:4.0.81+svn817073
  _ZN9KTextEdit7Private15slotReplaceTextERK7QStringiii@Base 4:4.0.72 1
  _ZN9KTextEdit7Private16overrideShortcutEPK9QKeyEvent@Base 4:4.0.81+svn813924
  _ZN9KTextEdit7Private17slotFindHighlightERK7QStringii@Base 4:4.0.72 1
@@ -10457,6 +10456,11 @@ libkdeui.so.5 kdebase-runtime (>= 4:4.0.72), kdelibs5 #MINVER#
  _ZNK12KColorScheme10decorationENS_14DecorationRoleE@Base 4:4.0.72 1
  _ZNK12KColorScheme10foregroundENS_14ForegroundRoleE@Base 4:4.0.72 1
  _ZNK12KColorScheme5shadeENS_9ShadeRoleE@Base 4:4.0.72 1
+ _ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.0.81+svn817073
+ _ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.0.81+svn817073
+ _ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.0.81+svn817073
+ _ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.0.81+svn817073
+ _ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.0.81+svn817073
  _ZNK12KEditListBox10downButtonEv@Base 4:4.0.72 1
  _ZNK12KEditListBox10metaObjectEv@Base 4:4.0.72 1
  _ZNK12KEditListBox11currentItemEv@Base 4:4.0.72 1
@@ -12180,6 +12184,7 @@ libkfile.so.4 kdelibs5 #MINVER#
  _ZN11KFileWidget11getStartUrlERK4KUrlR7QString@Base 4:4.0.72 1
  _ZN11KFileWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72 1
  _ZN11KFileWidget11qt_metacastEPKc@Base 4:4.0.72 1
+ _ZN11KFileWidget11resizeEventEP12QResizeEvent@Base 4:4.0.81+svn818551
  _ZN11KFileWidget11setStartDirERK4KUrl@Base 4:4.0.72 1
  _ZN11KFileWidget12fileSelectedERK7QString@Base 4:4.0.72 1
  _ZN11KFileWidget12setSelectionERK7QString@Base 4:4.0.72 1
@@ -12208,6 +12213,7 @@ libkfile.so.4 kdelibs5 #MINVER#
  _ZN11KFileWidgetD0Ev@Base 4:4.0.72 1
  _ZN11KFileWidgetD1Ev@Base 4:4.0.72 1
  _ZN11KFileWidgetD2Ev@Base 4:4.0.72 1
+ _ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.81+svn817073
  _ZN12KDirOperator10completionERK7QString@Base 4:4.0.72 1
  _ZN12KDirOperator10createViewEP7QWidgetN5KFile8FileViewE@Base 4:4.0.72 1
  _ZN12KDirOperator10readConfigERK12KConfigGroup@Base 4:4.0.72 1
@@ -12408,6 +12414,7 @@ libkfile.so.4 kdelibs5 #MINVER#
  _ZN15KFilePlacesView6setUrlERK4KUrl@Base 4:4.0.72 1
  _ZN15KFilePlacesView7Private13adaptItemSizeEv@Base 4:4.0.72 1
  _ZN15KFilePlacesView7Private15_k_placeClickedERK11QModelIndex@Base 4:4.0.72 1
+ _ZN15KFilePlacesView7Private15_k_trashUpdatedEP4KJob@Base 4:4.0.81+svn818551
  _ZN15KFilePlacesView7Private15setCurrentIndexERK11QModelIndex@Base 4:4.0.72 1
  _ZN15KFilePlacesView7Private16updateHiddenRowsEv@Base 4:4.0.72 1
  _ZN15KFilePlacesView7Private17_k_placeActivatedERK11QModelIndex@Base 4:4.0.72 1
@@ -12440,6 +12447,7 @@ libkfile.so.4 kdelibs5 #MINVER#
  _ZN16KDirSelectDialog7Private21_k_slotCurrentChangedEv@Base 4:4.0.72 1
  _ZN16KDirSelectDialog7Private23_k_slotComboTextChangedERK7QString@Base 4:4.0.72 1
  _ZN16KDirSelectDialog7Private9slotMkdirEv@Base 4:4.0.72 1
+ _ZN16KDirSelectDialog9hideEventEP10QHideEvent@Base 4:4.0.81+svn818551
  _ZN16KDirSelectDialogC1ERK4KUrlbP7QWidget@Base 4:4.0.72 1
  _ZN16KDirSelectDialogC2ERK4KUrlbP7QWidget@Base 4:4.0.72 1
  _ZN16KDirSelectDialogD0Ev@Base 4:4.0.72 1
@@ -12491,6 +12499,8 @@ libkfile.so.4 kdelibs5 #MINVER#
  _ZN24KDirSortFilterProxyModelD0Ev@Base 4:4.0.72 1
  _ZN24KDirSortFilterProxyModelD1Ev@Base 4:4.0.72 1
  _ZN24KDirSortFilterProxyModelD2Ev@Base 4:4.0.72 1
+ _ZN5Solid6Device2asINS_12StorageDriveEEEPT_v@Base 4:4.0.81+svn817073
+ _ZN5Solid6Device2asINS_13StorageAccessEEEPT_v@Base 4:4.0.81+svn817073
  _ZNK11KFileWidget10metaObjectEv@Base 4:4.0.72 1
  _ZNK11KFileWidget11selectedUrlEv@Base 4:4.0.72 1
  _ZNK11KFileWidget12cancelButtonEv@Base 4:4.0.72 1
@@ -12508,6 +12518,7 @@ libkfile.so.4 kdelibs5 #MINVER#
  _ZNK11KFileWidget7baseUrlEv@Base 4:4.0.72 1
  _ZNK11KFileWidget7toolBarEv@Base 4:4.0.72 1
  _ZNK11KFileWidget8okButtonEv@Base 4:4.0.72 1
+ _ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.0.81+svn817073
  _ZNK12KDirOperator10isSelectedERK9KFileItem@Base 4:4.0.72 1
  _ZNK12KDirOperator10metaObjectEv@Base 4:4.0.72 1
  _ZNK12KDirOperator10mimeFilterEv@Base 4:4.0.72 1
@@ -14404,6 +14415,7 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN3DOM8RGBColoraSERKS0_@Base 4:4.0.72 1
  _ZN3DOM9DOMString5splitEj@Base 4:4.0.72 1
  _ZN3DOM9DOMString6insertES0_j@Base 4:4.0.72 1
+ _ZN3DOM9DOMString6numberEf@Base 4:4.0.81+svn817073
  _ZN3DOM9DOMString6removeEji@Base 4:4.0.72 1
  _ZN3DOM9DOMString8truncateEj@Base 4:4.0.72 1
  _ZN3DOM9DOMStringC1EPK5QCharj@Base 4:4.0.72 1
@@ -14465,6 +14477,7 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN3KJS6JSCell4markEv@Base 4:4.0.72 1
  _ZN3KJS6JSCellD0Ev@Base 4:4.0.72 1
  _ZN3KJS6JSCellD1Ev@Base 4:4.0.72 1
+ _ZN3KJS7JSValue9getObjectEv@Base 4:4.0.81+svn817073
  _ZN3KJS7JSValueD0Ev@Base 4:4.0.72 1
  _ZN3KJS7JSValueD1Ev@Base 4:4.0.72 1
  _ZN3KJS7UStringC1ERK7QString@Base 4:4.0.72 1
@@ -14472,7 +14485,6 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN3KJS7UStringC2ERK7QString@Base 4:4.0.72 1
  _ZN3KJS7UStringC2ERKN3DOM9DOMStringE@Base 4:4.0.72 1
  _ZN3KJS8JSObject18getOwnPropertySlotEPNS_9ExecStateERKNS_10IdentifierERNS_12PropertySlotE@Base 4:4.0.72 1
- _ZN3KJS8JSObjectC2EPNS_7JSValueE@Base 4:4.0.72 1
  _ZN5khtml10ChildFrame11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72 1
  _ZN5khtml10ChildFrame11qt_metacastEPKc@Base 4:4.0.72 1
  _ZN5khtml10ChildFrame16liveConnectEventEmRK7QStringRK5QListI5QPairIN6KParts20LiveConnectExtension4TypeES1_EE@Base 4:4.0.72 1
@@ -14518,7 +14530,6 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLPart11decFontSizeEPKii@Base 4:4.0.72 1
  _ZN9KHTMLPart11frameExistsERK7QString@Base 4:4.0.72 1
  _ZN9KHTMLPart11incFontSizeEPKii@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLPart11onFirstDataERK7QString@Base 4:4.0.72 1
  _ZN9KHTMLPart11onFirstDataEv@Base 4:4.0.80
  _ZN9KHTMLPart11partManagerEv@Base 4:4.0.72 1
  _ZN9KHTMLPart11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72 1
@@ -14585,7 +14596,6 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLPart14slotPrintFrameEv@Base 4:4.0.72 1
  _ZN9KHTMLPart14stopAnimationsEv@Base 4:4.0.72 1
  _ZN9KHTMLPart14stopAutoScrollEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLPart15extendSelectionEPN3DOM8NodeImplEiRNS0_4NodeERlbb@Base 4:4.0.72 1
  _ZN9KHTMLPart15findFrameParentEPN6KParts12ReadOnlyPartERK7QStringPPN5khtml10ChildFrameE@Base 4:4.0.72 1
  _ZN9KHTMLPart15resetFromScriptEv@Base 4:4.0.72 1
  _ZN9KHTMLPart15setCaretVisibleEb@Base 4:4.0.72 1
@@ -14621,7 +14631,6 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLPart16staticMetaObjectE@Base 4:4.0.72 1
  _ZN9KHTMLPart17checkLinkSecurityERK4KUrlRK16KLocalizedStringRK7QString@Base 4:4.0.72 1
  _ZN9KHTMLPart17extendSelectionToEiiRKN3DOM4NodeE@Base 4:4.0.80
-#MISSING: 4:4.0.80# _ZN9KHTMLPart17extendSelectionToEiiiiRKN3DOM4NodeE@Base 4:4.0.72 1
  _ZN9KHTMLPart17preloadStyleSheetERK7QStringS2_@Base 4:4.0.72 1
  _ZN9KHTMLPart17setAutoloadImagesEb@Base 4:4.0.72 1
  _ZN9KHTMLPart17setJScriptEnabledEb@Base 4:4.0.72 1
@@ -14691,7 +14700,6 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLPart23disableJSErrorExtensionEv@Base 4:4.0.72 1
  _ZN9KHTMLPart23slotFindDialogDestroyedEv@Base 4:4.0.72 1
  _ZN9KHTMLPart23togglePopupPassivePopupEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLPart24emitCaretPositionChangedERKN3DOM4NodeEl@Base 4:4.0.72 1
  _ZN9KHTMLPart24emitCaretPositionChangedERKN3DOM8PositionE@Base 4:4.0.80
  _ZN9KHTMLPart24handleMouseMoveEventDragEPN5khtml14MouseMoveEventE@Base 4:4.0.80
  _ZN9KHTMLPart24handleMouseMoveEventOverEPN5khtml14MouseMoveEventE@Base 4:4.0.80
@@ -14751,15 +14759,12 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLPartD2Ev@Base 4:4.0.72 1
  _ZN9KHTMLView10closeEventEP11QCloseEvent@Base 4:4.0.72 1
  _ZN9KHTMLView10paintEventEP11QPaintEvent@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView10placeCaretEPN5khtml8CaretBoxE@Base 4:4.0.72 1
  _ZN9KHTMLView10scrollTickEv@Base 4:4.0.72 1
  _ZN9KHTMLView10timerEventEP11QTimerEvent@Base 4:4.0.72 1
  _ZN9KHTMLView10wheelEventEP11QWheelEvent@Base 4:4.0.72 1
  _ZN9KHTMLView11delayedInitEv@Base 4:4.0.72 1
  _ZN9KHTMLView11eventFilterEP7QObjectP6QEvent@Base 4:4.0.72 1
  _ZN9KHTMLView11findTimeoutEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView11moveCaretByEbNS_13CaretMovementEi@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView11moveCaretToEPN3DOM8NodeImplElb@Base 4:4.0.72 1
  _ZN9KHTMLView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72 1
  _ZN9KHTMLView11qt_metacastEPKc@Base 4:4.0.72 1
  _ZN9KHTMLView11resizeEventEP12QResizeEvent@Base 4:4.0.72 1
@@ -14784,21 +14789,15 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLView14updateContentsERK5QRect@Base 4:4.0.72 1
  _ZN9KHTMLView14updateContentsEiiii@Base 4:4.0.72 1
  _ZN9KHTMLView15addStaticObjectEb@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView15extendSelectionEPN3DOM8NodeImplElS2_l@Base 4:4.0.72 1
  _ZN9KHTMLView15findAheadActiveEb@Base 4:4.0.72 1
  _ZN9KHTMLView15handleAccessKeyEPK9QKeyEvent@Base 4:4.0.72 1
  _ZN9KHTMLView15keyReleaseEventEP9QKeyEvent@Base 4:4.0.72 1
  _ZN9KHTMLView15mousePressEventEP11QMouseEvent@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView15moveCaretByLineEbi@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView15moveCaretByPageEb@Base 4:4.0.72 1
  _ZN9KHTMLView15repaintContentsERK5QRect@Base 4:4.0.72 1
  _ZN9KHTMLView15repaintContentsEiiii@Base 4:4.0.72 1
  _ZN9KHTMLView15scheduleRepaintEiiiib@Base 4:4.0.72 1
  _ZN9KHTMLView15setMarginHeightEi@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView15updateSelectionEPN3DOM8NodeImplElS2_l@Base 4:4.0.72 1
  _ZN9KHTMLView16dispatchKeyEventEP9QKeyEvent@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView16placeCaretOnCharEPN5khtml8CaretBoxE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView16placeCaretOnLineEPN5khtml8CaretBoxEiii@Base 4:4.0.72 1
  _ZN9KHTMLView16restoreScrollBarEv@Base 4:4.0.72 1
  _ZN9KHTMLView16scheduleRelayoutEPN5khtml12RenderObjectE@Base 4:4.0.72 1
  _ZN9KHTMLView16scrollContentsByEii@Base 4:4.0.72 1
@@ -14811,26 +14810,15 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLView17displayAccessKeysEv@Base 4:4.0.72 1
  _ZN9KHTMLView17focusNextPrevNodeEb@Base 4:4.0.72 1
  _ZN9KHTMLView17mouseReleaseEventEP11QMouseEvent@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView17moveCaretNextLineEi@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView17moveCaretNextPageEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView17moveCaretNextWordEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView17moveCaretPrevLineEi@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView17moveCaretPrevPageEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView17moveCaretPrevWordEv@Base 4:4.0.72 1
  _ZN9KHTMLView17repaintAccessKeysEv@Base 4:4.0.72 1
  _ZN9KHTMLView17unscheduleRepaintEv@Base 4:4.0.72 1
  _ZN9KHTMLView18caretKeyPressEventEP9QKeyEvent@Base 4:4.0.72 1
  _ZN9KHTMLView18dispatchMouseEventEiPN3DOM8NodeImplES2_biP11QMouseEventbii@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView18ensureCaretVisibleEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView18ensureNodeHasFocusEPN3DOM8NodeImplE@Base 4:4.0.72 1
  _ZN9KHTMLView18focusNextPrevChildEb@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView18moveCaretToLineEndEv@Base 4:4.0.72 1
  _ZN9KHTMLView18removeStaticObjectEb@Base 4:4.0.72 1
  _ZN9KHTMLView18slotPaletteChangedEv@Base 4:4.0.72 1
  _ZN9KHTMLView18tripleClickTimeoutEv@Base 4:4.0.72 1
  _ZN9KHTMLView18unscheduleRelayoutEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView20foldSelectionToCaretEPN3DOM8NodeImplElS2_l@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView20moveCaretToLineBeginEv@Base 4:4.0.72 1
  _ZN9KHTMLView20setIgnoreWheelEventsEb@Base 4:4.0.72 1
  _ZN9KHTMLView20setMouseEventsTargetEP7QWidget@Base 4:4.0.72 1
  _ZN9KHTMLView20setupSmoothScrollingEii@Base 4:4.0.72 1
@@ -14840,19 +14828,15 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLView22clearCompletionHistoryERK7QString@Base 4:4.0.72 1
  _ZN9KHTMLView22dispatchKeyEventHelperEP9QKeyEventb@Base 4:4.0.72 1
  _ZN9KHTMLView22focusNodeWithAccessKeyE5QCharPS_@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView22recalcAndStoreCaretPosEPN5khtml8CaretBoxE@Base 4:4.0.72 1
  _ZN9KHTMLView22setHasNormalBackgroundEv@Base 4:4.0.72 1
  _ZN9KHTMLView22setHasStaticBackgroundEb@Base 4:4.0.72 1
  _ZN9KHTMLView22setSmoothScrollingModeENS_19SmoothScrollingModeE@Base 4:4.0.72 1
  _ZN9KHTMLView22updateFindAheadTimeoutEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView23moveCaretToLineBoundaryEb@Base 4:4.0.72 1
  _ZN9KHTMLView26addNonPasswordStorableSiteERK7QString@Base 4:4.0.72 1
  _ZN9KHTMLView26setVerticalScrollBarPolicyEN2Qt15ScrollBarPolicyE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView27moveCaretToDocumentBoundaryEb@Base 4:4.0.72 1
  _ZN9KHTMLView28checkExternalWidgetsPositionEv@Base 4:4.0.72 1
  _ZN9KHTMLView28setHorizontalScrollBarPolicyEN2Qt15ScrollBarPolicyE@Base 4:4.0.72 1
  _ZN9KHTMLView29setSmoothScrollingModeDefaultENS_19SmoothScrollingModeE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView31setCaretDisplayPolicyNonFocusedEi@Base 4:4.0.72 1
  _ZN9KHTMLView4initEv@Base 4:4.0.72 1
  _ZN9KHTMLView5clearEv@Base 4:4.0.72 1
  _ZN9KHTMLView5eventEP6QEvent@Base 4:4.0.72 1
@@ -14860,21 +14844,16 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLView5printEb@Base 4:4.0.72 1
  _ZN9KHTMLView6layoutEv@Base 4:4.0.72 1
  _ZN9KHTMLView6renderEP8QPainterRK5QRectRK6QPoint@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView7caretOnEv@Base 4:4.0.72 1
  _ZN9KHTMLView7clearedEv@Base 4:4.0.72 1
  _ZN9KHTMLView7setPartEP9KHTMLPart@Base 4:4.0.72 1
  _ZN9KHTMLView8addChildEP7QWidgetii@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView8caretOffEv@Base 4:4.0.72 1
  _ZN9KHTMLView8completeEb@Base 4:4.0.72 1
  _ZN9KHTMLView8scrollByEii@Base 4:4.0.72 1
  _ZN9KHTMLView8scrollToERK5QRect@Base 4:4.0.72 1
  _ZN9KHTMLView8zoomViewEi@Base 4:4.0.72 1
  _ZN9KHTMLView9dropEventEP10QDropEvent@Base 4:4.0.72 1
  _ZN9KHTMLView9findAheadEb@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView9hideCaretEv@Base 4:4.0.72 1
  _ZN9KHTMLView9hideEventEP10QHideEvent@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView9initCaretEb@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN9KHTMLView9showCaretEb@Base 4:4.0.72 1
  _ZN9KHTMLView9showEventEP10QShowEvent@Base 4:4.0.72 1
  _ZN9KHTMLViewC1EP9KHTMLPartP7QWidget@Base 4:4.0.72 1
  _ZN9KHTMLViewC2EP9KHTMLPartP7QWidget@Base 4:4.0.72 1
@@ -14882,6 +14861,9 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZN9KHTMLViewD1Ev@Base 4:4.0.72 1
  _ZN9KHTMLViewD2Ev@Base 4:4.0.72 1
  _ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.0.72 1
+ _ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.0.81+svn817073
+ _ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.0.81+svn817073
+ _ZNK12KConfigGroup9readEntryIjEET_RK7QStringRKS1_@Base 4:4.0.81+svn817073
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.0.72 1
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4:4.0.72 1
  _ZNK13KHTMLSettings11minFontSizeEv@Base 4:4.0.72 1
@@ -15470,7 +15452,9 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZNK3DOM9DOMString6lengthEv@Base 4:4.0.72 1
  _ZNK3DOM9DOMString6stringEv@Base 4:4.0.72 1
  _ZNK3DOM9DOMString7isEmptyEv@Base 4:4.0.72 1
+ _ZNK3DOM9DOMString7toFloatEPb@Base 4:4.0.81+svn817073
  _ZNK3DOM9DOMString7unicodeEv@Base 4:4.0.72 1
+ _ZNK3DOM9DOMString8endsWithERKS0_@Base 4:4.0.81+svn817073
  _ZNK3DOM9DOMStringixEj@Base 4:4.0.72 1
  _ZNK3DOM9LinkStyle6isNullEv@Base 4:4.0.72 1
  _ZNK3DOM9MediaList4itemEm@Base 4:4.0.72 1
@@ -15480,9 +15464,16 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZNK3DOM9MediaList9mediaTextEv@Base 4:4.0.72 1
  _ZNK3KJS10Identifier7qstringEv@Base 4:4.0.72 1
  _ZNK3KJS10Identifier9domStringEv@Base 4:4.0.72 1
+ _ZNK3KJS7JSValue4typeEv@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue7toInt32EPNS_9ExecStateERb@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateERb@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.0.81+svn817073
  _ZNK3KJS7UString7qstringEv@Base 4:4.0.72 1
  _ZNK3KJS7UString9domStringEv@Base 4:4.0.72 1
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.0.72 1
+ _ZNK3KJS8JSObject8inheritsEPKNS_9ClassInfoE@Base 4:4.0.81+svn817073
  _ZNK5khtml10ChildFrame10metaObjectEv@Base 4:4.0.72 1
  _ZNK5khtml10MouseEvent6offsetEv@Base 4:4.0.72 1
  _ZNK9KHTMLPart10activeNodeEv@Base 4:4.0.72 1
@@ -15548,7 +15539,6 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZNK9KHTMLView12visibleWidthEv@Base 4:4.0.72 1
  _ZNK9KHTMLView13contentsWidthEv@Base 4:4.0.72 1
  _ZNK9KHTMLView13visibleHeightEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZNK9KHTMLView14caretOverridesEv@Base 4:4.0.72 1
  _ZNK9KHTMLView14contentsHeightEv@Base 4:4.0.72 1
  _ZNK9KHTMLView14nodeUnderMouseEv@Base 4:4.0.72 1
  _ZNK9KHTMLView15applyTransformsERiS0_S0_S0_@Base 4:4.0.72 1
@@ -15566,7 +15556,6 @@ libkhtml.so.5 kdelibs5 #MINVER#
  _ZNK9KHTMLView23nonPasswordStorableSiteERK7QString@Base 4:4.0.72 1
  _ZNK9KHTMLView23nonSharedNodeUnderMouseEv@Base 4:4.0.72 1
  _ZNK9KHTMLView25isScrollingFromMouseWheelEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZNK9KHTMLView28caretDisplayPolicyNonFocusedEv@Base 4:4.0.72 1
  _ZNK9KHTMLView9contentsXEv@Base 4:4.0.72 1
  _ZNK9KHTMLView9contentsYEv@Base 4:4.0.72 1
  _ZNK9KHTMLView9mediaTypeEv@Base 4:4.0.72 1
@@ -16111,6 +16100,7 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZN11KFileDialog6setUrlERK4KUrlb@Base 4:4.0.72 1
  _ZN11KFileDialog6slotOkEv@Base 4:4.0.72 1
  _ZN11KFileDialog7setModeE6QFlagsIN5KFile4ModeEE@Base 4:4.0.72 1
+ _ZN11KFileDialog9hideEventEP10QHideEvent@Base 4:4.0.81+svn818551
  _ZN11KFileDialog9setFilterERK7QString@Base 4:4.0.72 1
  _ZN11KFileDialogC1ERK4KUrlRK7QStringP7QWidgetS7_@Base 4:4.0.72 1
  _ZN11KFileDialogC2ERK4KUrlRK7QStringP7QWidgetS7_@Base 4:4.0.72 1
@@ -16269,6 +16259,9 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZN12KAutoUnmountD0Ev@Base 4:4.0.72 1
  _ZN12KAutoUnmountD1Ev@Base 4:4.0.72 1
  _ZN12KAutoUnmountD2Ev@Base 4:4.0.72 1
+ _ZN12KConfigGroup10writeCheckIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.81+svn817073
+ _ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.81+svn817073
+ _ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.0.81+svn817073
  _ZN12KSMIMECrypto11signMessageERK10QByteArrayRS0_RK10KSSLPKCS12RK5QListIP15KSSLCertificateEb@Base 4:4.0.72 1
  _ZN12KSMIMECrypto14decryptMessageERK10QByteArrayRS0_RK10KSSLPKCS12@Base 4:4.0.72 1
  _ZN12KSMIMECrypto14encryptMessageERK10QByteArrayRS0_NS_4algoERK5QListIP15KSSLCertificateE@Base 4:4.0.72 1
@@ -16306,6 +16299,8 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZN12KUrlComboBox12urlActivatedERK4KUrl@Base 4:4.0.72 1
  _ZN12KUrlComboBox13addDefaultUrlERK4KUrlRK5QIconRK7QString@Base 4:4.0.72 1
  _ZN12KUrlComboBox13addDefaultUrlERK4KUrlRK7QString@Base 4:4.0.72 1
+ _ZN12KUrlComboBox14mouseMoveEventEP11QMouseEvent@Base 4:4.0.81+svn817073
+ _ZN12KUrlComboBox15mousePressEventEP11QMouseEvent@Base 4:4.0.81+svn817073
  _ZN12KUrlComboBox16staticMetaObjectE@Base 4:4.0.72 1
  _ZN12KUrlComboBox19KUrlComboBoxPrivate10updateItemEPKNS0_13KUrlComboItemEiRK5QIcon@Base 4:4.0.72 1
  _ZN12KUrlComboBox19KUrlComboBoxPrivate13insertUrlItemEPKNS0_13KUrlComboItemE@Base 4:4.0.72 1
@@ -16394,7 +16389,6 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZN13KOpenSSLProxy10SSL_set_fdEP6ssl_sti@Base 4:4.0.72 1
  _ZN13KOpenSSLProxy10X509_printEP8_IO_FILEP7x509_st@Base 4:4.0.72 1
  _ZN13KOpenSSLProxy10i2d_PKCS12EP6PKCS12PPh@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN13KOpenSSLProxy11ASN1_i2d_fpEP8_IO_FILEPh@Base 4:4.0.72 1
  _ZN13KOpenSSLProxy11CRYPTO_freeEPv@Base 4:4.0.72 1
  _ZN13KOpenSSLProxy11EVP_des_cbcEv@Base 4:4.0.72 1
  _ZN13KOpenSSLProxy11EVP_rc2_cbcEv@Base 4:4.0.72 1
@@ -16434,7 +16428,6 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZN13KOpenSSLProxy14RAND_file_nameEPcm@Base 4:4.0.72 1
  _ZN13KOpenSSLProxy14RAND_load_fileEPKcl@Base 4:4.0.72 1
  _ZN13KOpenSSLProxy14X509_STORE_newEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN13KOpenSSLProxy14X509_asn1_methEv@Base 4:4.0.72 1
  _ZN13KOpenSSLProxy15BIO_new_mem_bufEPvi@Base 4:4.0.72 1
  _ZN13KOpenSSLProxy15ERR_clear_errorEv@Base 4:4.0.72 1
  _ZN13KOpenSSLProxy15EVP_PKEY_assignEP11evp_pkey_stiPc@Base 4:4.0.72 1
@@ -16978,6 +16971,7 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZN17KFileItemDelegate16staticMetaObjectE@Base 4:4.0.72 1
  _ZN17KFileItemDelegate18setShowInformationENS_11InformationE@Base 4:4.0.72 1
  _ZN17KFileItemDelegate18setShowInformationERK5QListINS_11InformationEE@Base 4:4.0.72 1
+ _ZN17KFileItemDelegate7Private15extensionStringERK7QString@Base 4:4.0.81+svn818551
  _ZN17KFileItemDelegate7Private17setVerticalMarginENS0_10MarginTypeEiiii@Base 4:4.0.72 1
  _ZN17KFileItemDelegate7Private19setHorizontalMarginENS0_10MarginTypeEiiii@Base 4:4.0.72 1
  _ZN17KFileItemDelegate7PrivateC1EPS_@Base 4:4.0.72 1
@@ -17086,8 +17080,8 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZN18KSSLConnectionInfoC2Ev@Base 4:4.0.72 1
  _ZN18KSSLConnectionInfoD1Ev@Base 4:4.0.72 1
  _ZN18KSSLConnectionInfoD2Ev@Base 4:4.0.72 1
- _ZN18KServiceTypeTrader23createInstanceFromQueryI10KOCRDialogEEPT_RK7QStringS6_P7QObjectRK5QListI8QVariantEPS4_@Base 4:4.0.72 1
- _ZN18KServiceTypeTrader23createInstanceFromQueryI11KScanDialogEEPT_RK7QStringS6_P7QObjectRK5QListI8QVariantEPS4_@Base 4:4.0.72 1
+ _ZN18KServiceTypeTrader23createInstanceFromQueryI10KOCRDialogEEPT_RK7QStringP7QWidgetP7QObjectS6_RK5QListI8QVariantEPS4_@Base 4:4.0.81+svn817073
+ _ZN18KServiceTypeTrader23createInstanceFromQueryI11KScanDialogEEPT_RK7QStringP7QWidgetP7QObjectS6_RK5QListI8QVariantEPS4_@Base 4:4.0.81+svn817073
  _ZN18KSslCertificateBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72 1
  _ZN18KSslCertificateBox11qt_metacastEPKc@Base 4:4.0.72 1
  _ZN18KSslCertificateBox14setCertificateERK15QSslCertificateNS_16CertificatePartyE@Base 4:4.0.72 1
@@ -18665,6 +18659,7 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZNK12KArchiveFile6isFileEv@Base 4:4.0.72 1
  _ZNK12KArchiveFile8positionEv@Base 4:4.0.72 1
  _ZNK12KAutoUnmount10metaObjectEv@Base 4:4.0.72 1
+ _ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.0.81+svn817073
  _ZNK12KSSLPeerInfo8peerHostEv@Base 4:4.0.72 1
  _ZNK12KSSLSettings11warnOnEnterEv@Base 4:4.0.72 1
  _ZNK12KSSLSettings11warnOnLeaveEv@Base 4:4.0.72 1
@@ -19094,10 +19089,6 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZNK8KArchive6isOpenEv@Base 4:4.0.72 1
  _ZNK8KArchive8fileNameEv@Base 4:4.0.72 1
  _ZNK8KArchive9directoryEv@Base 4:4.0.72 1
- _ZNK8KService14createInstanceI16KFileWritePluginEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72 1
- _ZNK8KService14createInstanceI16KUriFilterPluginEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72 1
- _ZNK8KService14createInstanceI23KPropertiesDialogPluginEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72 1
- _ZNK8KService14createInstanceI9KDataToolEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72 1
  _ZNK8KService14createInstanceIN3KIO18RenameDialogPluginEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72 1
  _ZNK9KBookmark11isSeparatorEv@Base 4:4.0.72 1
  _ZNK9KBookmark11parentGroupEv@Base 4:4.0.72 1
@@ -19199,7 +19190,6 @@ libkio.so.5 kdelibs5 #MINVER#
  _ZNK9KSSLPKCS77isValidEv@Base 4:4.0.72 1
  _ZNK9KSSLPKCS78toStringEv@Base 4:4.0.72 1
  _ZNK9KSSLPKCS78validateEv@Base 4:4.0.72 1
- _ZSt8for_eachIPP7QWidgetSt9mem_fun_tIvS0_EET0_T_S6_S5_@Base 4:4.0.73+svn806390
  _ZTI10KAutoMount@Base 4:4.0.72 1
  _ZTI10KDirLister@Base 4:4.0.72 1
  _ZTI10KOCRDialog@Base 4:4.0.72 1
@@ -19679,7 +19669,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.0.80
  _ZN3KJS10Identifier3addEPKNS_5UCharEi@Base 4:4.0.72 1
  _ZN3KJS10Identifier3addEPKc@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS10Identifier3addEPNS_7UString3RepE@Base 4:4.0.72 1
  _ZN3KJS10Identifier5equalEPKNS_7UString3RepEPKNS_5UCharEi@Base 4:4.0.72 1
  _ZN3KJS10Identifier5equalEPKNS_7UString3RepEPKc@Base 4:4.0.72 1
  _ZN3KJS10Identifier5equalEPKNS_7UString3RepES4_@Base 4:4.0.72 1
@@ -19695,15 +19684,12 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS11FunctionImp14deletePropertyEPNS_9ExecStateERKNS_10IdentifierE@Base 4:4.0.72 1
  _ZN3KJS11FunctionImp15argumentsGetterEPNS_9ExecStateEPNS_8JSObjectERKNS_10IdentifierERKNS_12PropertySlotE@Base 4:4.0.72 1
  _ZN3KJS11FunctionImp16getParameterNameEi@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS11FunctionImp16passInParametersEPNS_9ExecStateERKNS_4ListE@Base 4:4.0.72 1
  _ZN3KJS11FunctionImp18getOwnPropertySlotEPNS_9ExecStateERKNS_10IdentifierERNS_12PropertySlotE@Base 4:4.0.72 1
  _ZN3KJS11FunctionImp3putEPNS_9ExecStateERKNS_10IdentifierEPNS_7JSValueEi@Base 4:4.0.72 1
  _ZN3KJS11FunctionImp4infoE@Base 4:4.0.72 1
  _ZN3KJS11FunctionImp4markEv@Base 4:4.0.72 1
  _ZN3KJS11FunctionImp9constructEPNS_9ExecStateERKNS_4ListE@Base 4:4.0.80
-#MISSING: 4:4.0.80# _ZN3KJS11FunctionImpC1EPNS_9ExecStateERKNS_10IdentifierEPNS_16FunctionBodyNodeE@Base 4:4.0.72 1
  _ZN3KJS11FunctionImpC1EPNS_9ExecStateERKNS_10IdentifierEPNS_16FunctionBodyNodeERKNS_10ScopeChainE@Base 4:4.0.80
-#MISSING: 4:4.0.80# _ZN3KJS11FunctionImpC2EPNS_9ExecStateERKNS_10IdentifierEPNS_16FunctionBodyNodeE@Base 4:4.0.72 1
  _ZN3KJS11FunctionImpC2EPNS_9ExecStateERKNS_10IdentifierEPNS_16FunctionBodyNodeERKNS_10ScopeChainE@Base 4:4.0.80
  _ZN3KJS11FunctionImpD0Ev@Base 4:4.0.72 1
  _ZN3KJS11FunctionImpD1Ev@Base 4:4.0.72 1
@@ -19760,7 +19746,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS12PropertySlot15undefinedGetterEPNS_9ExecStateEPNS_8JSObjectERKNS_10IdentifierERKS0_@Base 4:4.0.72 1
  _ZN3KJS12jsNumberCellEd@Base 4:4.0.72 1
  _ZN3KJS13ArrayInstance12lengthGetterEPNS_9ExecStateEPNS_8JSObjectERKNS_10IdentifierERKNS_12PropertySlotE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS13ArrayInstance13resizeStorageEj@Base 4:4.0.72 1
  _ZN3KJS13ArrayInstance14deletePropertyEPNS_9ExecStateERKNS_10IdentifierE@Base 4:4.0.72 1
  _ZN3KJS13ArrayInstance14deletePropertyEPNS_9ExecStateEj@Base 4:4.0.72 1
  _ZN3KJS13ArrayInstance16getPropertyNamesEPNS_9ExecStateERNS_17PropertyNameArrayE@Base 4:4.0.72 1
@@ -19775,7 +19760,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS13ArrayInstance4sortEPNS_9ExecStateE@Base 4:4.0.72 1
  _ZN3KJS13ArrayInstance4sortEPNS_9ExecStateEPNS_8JSObjectE@Base 4:4.0.72 1
  _ZN3KJS13ArrayInstance9setLengthEj@Base 4:4.0.80
-#MISSING: 4:4.0.80# _ZN3KJS13ArrayInstance9setLengthEjPNS_9ExecStateE@Base 4:4.0.72 1
  _ZN3KJS13ArrayInstanceC1EPNS_8JSObjectERKNS_4ListE@Base 4:4.0.72 1
  _ZN3KJS13ArrayInstanceC1EPNS_8JSObjectEj@Base 4:4.0.72 1
  _ZN3KJS13ArrayInstanceC2EPNS_8JSObjectERKNS_4ListE@Base 4:4.0.72 1
@@ -19794,11 +19778,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS17CommonIdentifiersC1Ev@Base 4:4.0.72 1
  _ZN3KJS17CommonIdentifiersC2Ev@Base 4:4.0.72 1
  _ZN3KJS17PropertyNameArray3addERKNS_10IdentifierE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS19DeclaredFunctionImp4infoE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS19DeclaredFunctionImp7executeEPNS_9ExecStateE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS19DeclaredFunctionImp9constructEPNS_9ExecStateERKNS_4ListE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS19DeclaredFunctionImpC1EPNS_9ExecStateERKNS_10IdentifierEPNS_16FunctionBodyNodeERKNS_10ScopeChainE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS19DeclaredFunctionImpC2EPNS_9ExecStateERKNS_10IdentifierEPNS_16FunctionBodyNodeERKNS_10ScopeChainE@Base 4:4.0.72 1
  _ZN3KJS19InternalFunctionImp4infoE@Base 4:4.0.72 1
  _ZN3KJS19InternalFunctionImpC1EPNS_17FunctionPrototypeE@Base 4:4.0.72 1
  _ZN3KJS19InternalFunctionImpC1EPNS_17FunctionPrototypeERKNS_10IdentifierE@Base 4:4.0.72 1
@@ -19837,8 +19816,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS6Lookup4findEPKNS_9HashTableEPKNS_5UCharEj@Base 4:4.0.72 1
  _ZN3KJS6Lookup4findEPKNS_9HashTableERKNS_10IdentifierE@Base 4:4.0.72 1
  _ZN3KJS6Lookup9findEntryEPKNS_9HashTableERKNS_10IdentifierE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7CString6appendEPKc@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7CString6appendEPKci@Base 4:4.0.72 1
  _ZN3KJS7CStringC1EPKc@Base 4:4.0.72 1
  _ZN3KJS7CStringC1EPKcm@Base 4:4.0.72 1
  _ZN3KJS7CStringC1ERKS0_@Base 4:4.0.72 1
@@ -19849,11 +19826,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS7CStringD2Ev@Base 4:4.0.72 1
  _ZN3KJS7CStringaSEPKc@Base 4:4.0.72 1
  _ZN3KJS7CStringaSERKS0_@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7Context4markEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7ContextC1EPNS_8JSObjectEPNS_11InterpreterES2_PNS_16FunctionBodyNodeENS_8CodeTypeEPS0_PNS_11FunctionImpEPKNS_4ListE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7ContextC2EPNS_8JSObjectEPNS_11InterpreterES2_PNS_16FunctionBodyNodeENS_8CodeTypeEPS0_PNS_11FunctionImpEPKNS_4ListE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7ContextD1Ev@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7ContextD2Ev@Base 4:4.0.72 1
  _ZN3KJS7JSValue15toInt32SlowCaseEdRb@Base 4:4.0.72 1
  _ZN3KJS7JSValue16toUInt32SlowCaseEdRb@Base 4:4.0.72 1
  _ZN3KJS7JSValueD0Ev@Base 4:4.0.72 1
@@ -19872,7 +19844,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS7UString3Rep5emptyE@Base 4:4.0.72 1
  _ZN3KJS7UString3Rep6createEN3WTF10PassRefPtrIS1_EEii@Base 4:4.0.80
  _ZN3KJS7UString3Rep6createEPNS_5UCharEi@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7UString3Rep6createEPS1_ii@Base 4:4.0.72 1
  _ZN3KJS7UString3Rep7destroyEv@Base 4:4.0.72 1
  _ZN3KJS7UString3setEPKci@Base 4:4.0.72 1
  _ZN3KJS7UString4fromEd@Base 4:4.0.72 1
@@ -19880,16 +19851,13 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS7UString4fromEj@Base 4:4.0.72 1
  _ZN3KJS7UString4fromEl@Base 4:4.0.72 1
  _ZN3KJS7UString4nullEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7UString6appendEPKNS_5UCharEi@Base 4:4.0.72 1
  _ZN3KJS7UString6appendEPKc@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7UString6appendEPKci@Base 4:4.0.72 1
  _ZN3KJS7UString6appendERKS0_@Base 4:4.0.72 1
  _ZN3KJS7UString6appendERKS0_ii@Base 4:4.0.72 1
  _ZN3KJS7UString6appendEt@Base 4:4.0.72 1
  _ZN3KJS7UStringC1ENS0_5EmptyE@Base 4:4.0.72 1
  _ZN3KJS7UStringC1EPKNS_5UCharEi@Base 4:4.0.72 1
  _ZN3KJS7UStringC1EPKc@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7UStringC1EPKci@Base 4:4.0.72 1
  _ZN3KJS7UStringC1EPKcm@Base 4:4.0.80
  _ZN3KJS7UStringC1EPNS_5UCharEib@Base 4:4.0.72 1
  _ZN3KJS7UStringC1ERKN3WTF6VectorINS_5UCharELm0EEE@Base 4:4.0.72 1
@@ -19898,7 +19866,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS7UStringC2ENS0_5EmptyE@Base 4:4.0.72 1
  _ZN3KJS7UStringC2EPKNS_5UCharEi@Base 4:4.0.72 1
  _ZN3KJS7UStringC2EPKc@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS7UStringC2EPKci@Base 4:4.0.72 1
  _ZN3KJS7UStringC2EPKcm@Base 4:4.0.80
  _ZN3KJS7UStringC2EPNS_5UCharEib@Base 4:4.0.72 1
  _ZN3KJS7UStringC2ERKN3WTF6VectorINS_5UCharELm0EEE@Base 4:4.0.72 1
@@ -19928,7 +19895,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS8JSObject14callAsFunctionEPNS_9ExecStateEPS0_RKNS_4ListE@Base 4:4.0.72 1
  _ZN3KJS8JSObject14deletePropertyEPNS_9ExecStateERKNS_10IdentifierE@Base 4:4.0.72 1
  _ZN3KJS8JSObject14deletePropertyEPNS_9ExecStateEj@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS8JSObject15getPropertySlotEPNS_9ExecStateERKNS_10IdentifierERNS_12PropertySlotE@Base 4:4.0.72 1
  _ZN3KJS8JSObject15getPropertySlotEPNS_9ExecStateEjRNS_12PropertySlotE@Base 4:4.0.72 1
  _ZN3KJS8JSObject16getPropertyNamesEPNS_9ExecStateERNS_17PropertyNameArrayE@Base 4:4.0.72 1
  _ZN3KJS8JSObject17putDirectFunctionEPNS_19InternalFunctionImpEi@Base 4:4.0.72 1
@@ -19947,7 +19913,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJS8isPosInfEd@Base 4:4.0.72 1
  _ZN3KJS8jsStringEPKc@Base 4:4.0.72 1
  _ZN3KJS8jsStringEPKci@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN3KJS8jsStringEPNS_9ExecStateEPKNS_7JSValueE@Base 4:4.0.72 1
  _ZN3KJS8jsStringERKNS_7UStringE@Base 4:4.0.72 1
  _ZN3KJS8jsStringEv@Base 4:4.0.72 1
  _ZN3KJS9Collector10memoryFullE@Base 4:4.0.72 1
@@ -19979,6 +19944,7 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZN3KJSeqERKNS_7UStringEPKc@Base 4:4.0.72 1
  _ZN3KJSeqERKNS_7UStringES2_@Base 4:4.0.72 1
  _ZN3KJSltERKNS_7UStringES2_@Base 4:4.0.72 1
+ _ZN3KJSplERKNS_7UStringES2_@Base 4:4.0.81+svn817073
  _ZNK3KJS11FunctionImp19implementsConstructEv@Base 4:4.0.80
  _ZNK3KJS11FunctionImp8toSourceEv@Base 4:4.0.80
  _ZNK3KJS11Interpreter11builtinDateEv@Base 4:4.0.72 1
@@ -20015,15 +19981,12 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZNK3KJS11Interpreter30builtinReferenceErrorPrototypeEv@Base 4:4.0.72 1
  _ZNK3KJS11PropertyMap24containsGettersOrSettersEv@Base 4:4.0.72 1
  _ZNK3KJS11PropertyMap26getEnumerablePropertyNamesERNS_17PropertyNameArrayE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZNK3KJS11PropertyMap27getSparseArrayPropertyNamesERNS_17PropertyNameArrayE@Base 4:4.0.72 1
  _ZNK3KJS11PropertyMap3getERKNS_10IdentifierE@Base 4:4.0.72 1
  _ZNK3KJS11PropertyMap3getERKNS_10IdentifierERj@Base 4:4.0.72 1
  _ZNK3KJS11PropertyMap4markEv@Base 4:4.0.72 1
  _ZNK3KJS11PropertyMap4saveERNS_15SavedPropertiesE@Base 4:4.0.72 1
  _ZNK3KJS11PropertyMap7isEmptyEv@Base 4:4.0.72 1
  _ZNK3KJS13ArrayInstance7getItemEj@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZNK3KJS19DeclaredFunctionImp19implementsConstructEv@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZNK3KJS19DeclaredFunctionImp8toSourceEv@Base 4:4.0.72 1
  _ZNK3KJS19InternalFunctionImp14implementsCallEv@Base 4:4.0.72 1
  _ZNK3KJS19InternalFunctionImp21implementsHasInstanceEv@Base 4:4.0.72 1
  _ZNK3KJS4List2atEi@Base 4:4.0.72 1
@@ -20038,16 +20001,22 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZNK3KJS6JSCell9getStringEv@Base 4:4.0.72 1
  _ZNK3KJS6JSCell9getUInt32ERj@Base 4:4.0.72 1
  _ZNK3KJS7JSValue10getByIndexEPNS_9ExecStateEj@Base 4:4.0.80
+ _ZNK3KJS7JSValue11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.0.81+svn817073
  _ZNK3KJS7JSValue15toInt32SlowCaseEPNS_9ExecStateERb@Base 4:4.0.72 1
  _ZNK3KJS7JSValue16toUInt32SlowCaseEPNS_9ExecStateERb@Base 4:4.0.72 1
  _ZNK3KJS7JSValue20toIntegerPreserveNaNEPNS_9ExecStateE@Base 4:4.0.72 1
+ _ZNK3KJS7JSValue4typeEv@Base 4:4.0.81+svn817073
  _ZNK3KJS7JSValue7toFloatEPNS_9ExecStateE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.0.72 1
+ _ZNK3KJS7JSValue8isObjectEv@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue8isStringEv@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.0.81+svn817073 1
+ _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.0.81+svn817073 1
  _ZNK3KJS7JSValue8toUInt16EPNS_9ExecStateE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateE@Base 4:4.0.72 1
+ _ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateE@Base 4:4.0.81+svn817073 1
+ _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.0.81+svn817073
  _ZNK3KJS7JSValue9toIntegerEPNS_9ExecStateE@Base 4:4.0.72 1
  _ZNK3KJS7UString10UTF8StringEv@Base 4:4.0.72 1
+ _ZNK3KJS7UString12expandedSizeEmm@Base 4:4.0.81+svn817073
  _ZNK3KJS7UString14toStrictUInt32EPb@Base 4:4.0.72 1
  _ZNK3KJS7UString30spliceSubstringsWithSeparatorsEPKNS0_5RangeEiPKS0_i@Base 4:4.0.72 1
  _ZNK3KJS7UString4findENS_5UCharEi@Base 4:4.0.72 1
@@ -20078,6 +20047,7 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZNK3KJS8JSObject3getEPNS_9ExecStateEj@Base 4:4.0.72 1
  _ZNK3KJS8JSObject4typeEv@Base 4:4.0.72 1
  _ZNK3KJS8JSObject6canPutEPNS_9ExecStateERKNS_10IdentifierE@Base 4:4.0.72 1
+ _ZNK3KJS8JSObject8inheritsEPKNS_9ClassInfoE@Base 4:4.0.81+svn817073
  _ZNK3KJS8JSObject8toNumberEPNS_9ExecStateE@Base 4:4.0.72 1
  _ZNK3KJS8JSObject8toObjectEPNS_9ExecStateE@Base 4:4.0.72 1
  _ZNK3KJS8JSObject8toStringEPNS_9ExecStateE@Base 4:4.0.72 1
@@ -20090,7 +20060,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZTIN3KJS11InterpreterE@Base 4:4.0.72 1
  _ZTIN3KJS13ArrayInstanceE@Base 4:4.0.72 1
  _ZTIN3KJS13PackageObjectE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZTIN3KJS19DeclaredFunctionImpE@Base 4:4.0.72 1
  _ZTIN3KJS19InternalFunctionImpE@Base 4:4.0.72 1
  _ZTIN3KJS21StandardGlobalPackageE@Base 4:4.0.72 1
  _ZTIN3KJS6JSCellE@Base 4:4.0.72 1
@@ -20103,7 +20072,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZTSN3KJS11InterpreterE@Base 4:4.0.72 1
  _ZTSN3KJS13ArrayInstanceE@Base 4:4.0.72 1
  _ZTSN3KJS13PackageObjectE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZTSN3KJS19DeclaredFunctionImpE@Base 4:4.0.72 1
  _ZTSN3KJS19InternalFunctionImpE@Base 4:4.0.72 1
  _ZTSN3KJS21StandardGlobalPackageE@Base 4:4.0.72 1
  _ZTSN3KJS6JSCellE@Base 4:4.0.72 1
@@ -20115,7 +20083,6 @@ libkjs.so.4 kdelibs5 #MINVER#
  _ZTVN3KJS11InterpreterE@Base 4:4.0.72 1
  _ZTVN3KJS13ArrayInstanceE@Base 4:4.0.72 1
  _ZTVN3KJS13PackageObjectE@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZTVN3KJS19DeclaredFunctionImpE@Base 4:4.0.72 1
  _ZTVN3KJS19InternalFunctionImpE@Base 4:4.0.72 1
  _ZTVN3KJS21StandardGlobalPackageE@Base 4:4.0.72 1
  _ZTVN3KJS6JSCellE@Base 4:4.0.72 1
@@ -20131,9 +20098,6 @@ libkjsapi.so.4 kdelibs5 #MINVER#
  _ZN10KJSContext11interpreterEv@Base 4:4.0.72 1
  _ZN10KJSContextC1EP16KJSContextHandle@Base 4:4.0.72 1
  _ZN10KJSContextC2EP16KJSContextHandle@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN12KJSPrototype14defineConstantEP10KJSContextRK7QStringRK9KJSObject@Base 4:4.0.74
-#MISSING: 4:4.0.80# _ZN12KJSPrototype14defineConstantEP10KJSContextRK7QStringS4_@Base 4:4.0.72 1
-#MISSING: 4:4.0.80# _ZN12KJSPrototype14defineConstantEP10KJSContextRK7QStringd@Base 4:4.0.72 1
  _ZN12KJSPrototype14defineConstantERK7QStringRK9KJSObject@Base 4:4.0.80
  _ZN12KJSPrototype14defineConstantERK7QStringS2_@Base 4:4.0.80
  _ZN12KJSPrototype14defineConstantERK7QStringd@Base 4:4.0.80
@@ -20154,12 +20118,10 @@ libkjsapi.so.4 kdelibs5 #MINVER#
  _ZN14KJSInterpreter8evaluateERK7QStringiS2_P9KJSObject@Base 4:4.0.72 1
  _ZN14KJSInterpreterC1EP20KJSInterpreterHandle@Base 4:4.0.72 1
  _ZN14KJSInterpreterC1ERK15KJSGlobalObject@Base 4:4.0.80
-#MISSING: 4:4.0.80# _ZN14KJSInterpreterC1ERK9KJSObject@Base 4:4.0.72 1
  _ZN14KJSInterpreterC1ERKS_@Base 4:4.0.72 1
  _ZN14KJSInterpreterC1Ev@Base 4:4.0.72 1
  _ZN14KJSInterpreterC2EP20KJSInterpreterHandle@Base 4:4.0.72 1
  _ZN14KJSInterpreterC2ERK15KJSGlobalObject@Base 4:4.0.80
-#MISSING: 4:4.0.80# _ZN14KJSInterpreterC2ERK9KJSObject@Base 4:4.0.72 1
  _ZN14KJSInterpreterC2ERKS_@Base 4:4.0.72 1
  _ZN14KJSInterpreterC2Ev@Base 4:4.0.72 1
  _ZN14KJSInterpreterD1Ev@Base 4:4.0.72 1
@@ -20235,22 +20197,18 @@ libkjsapi.so.4 kdelibs5 #MINVER#
 libkjsembed.so.4 kdelibs5 #MINVER#
 | kdelibs5 (>= 4:4.0.72)
 * Build-Depends-Package: kdelibs5-dev
- _Z13qvariant_castI11QSizePolicyET_RK8QVariant@Base 4:4.0.73+svn806390
  _Z13qvariant_castI12QKeySequenceET_RK8QVariant@Base 4:4.0.73+svn806390
- _Z13qvariant_castI5QDateET_RK8QVariant@Base 4:4.0.73+svn806390
  _Z13qvariant_castI5QIconET_RK8QVariant@Base 4:4.0.73+svn806390
  _Z13qvariant_castI5QListIP7QWidgetEET_RK8QVariant@Base 4:4.0.73+svn806390
- _Z13qvariant_castI5QTimeET_RK8QVariant@Base 4:4.0.73+svn806390
  _Z13qvariant_castI7QCursorET_RK8QVariant@Base 4:4.0.73+svn806390
  _Z13qvariant_castI7QLocaleET_RK8QVariant@Base 4:4.0.73+svn806390
  _Z13qvariant_castI8QPaletteET_RK8QVariant@Base 4:4.0.73+svn806390
  _Z13qvariant_castI9QDateTimeET_RK8QVariant@Base 4:4.0.73+svn806390
- _Z17qRegisterMetaTypeI5QListIP7QWidgetEEiPKcPT_@Base 4:4.0.73+svn806390
  _Z21qMetaTypeDeleteHelperI5QListIP7QWidgetEEvPT_@Base 4:4.0.73+svn806390
  _Z24qMetaTypeConstructHelperI5QListIP7QWidgetEEPvPKT_@Base 4:4.0.73+svn806390
- _Z9qMakePairIP15QTreeWidgetItemPN13QFormInternal7DomItemEE5QPairIT_T0_ERKS6_RKS7_@Base 4:4.0.73+svn806390
- _Z9qMakePairIPN13QFormInternal7DomItemEP15QTreeWidgetItemE5QPairIT_T0_ERKS6_RKS7_@Base 4:4.0.73+svn806390
+ _Z8qWarningv@Base 4:4.0.81+svn818551
  _ZN11QMetaTypeIdI5QListIP7QWidgetEE14qt_metatype_idEv@Base 4:4.0.73+svn806390
+ _ZN11QStringListC1ERKS_@Base 4:4.0.81+svn818551
  _ZN13QFormInternal10DomInclude4readERK11QDomElement@Base 4:4.0.73+svn806390
  _ZN13QFormInternal10DomInclude5clearEb@Base 4:4.0.73+svn806390
  _ZN13QFormInternal10DomIncludeC1Ev@Base 4:4.0.73+svn806390
@@ -20488,6 +20446,7 @@ libkjsembed.so.4 kdelibs5 #MINVER#
  _ZN13QFormInternal14DomConnectionsC2Ev@Base 4:4.0.73+svn806390
  _ZN13QFormInternal14DomConnectionsD1Ev@Base 4:4.0.73+svn806390
  _ZN13QFormInternal14DomConnectionsD2Ev@Base 4:4.0.73+svn806390
+ _ZN13QFormInternal14enumKeyToValueIN11QSizePolicy6PolicyEEET_RK9QMetaEnumPKcPKS3_@Base 4:4.0.81+svn818551
  _ZN13QFormInternal15DomCustomWidget15setElementClassERK7QString@Base 4:4.0.73+svn806390
  _ZN13QFormInternal15DomCustomWidget15setElementSlotsEPNS_8DomSlotsE@Base 4:4.0.73+svn806390
  _ZN13QFormInternal15DomCustomWidget16setElementHeaderEPNS_9DomHeaderE@Base 4:4.0.73+svn806390
@@ -20940,6 +20899,7 @@ libkjsembed.so.4 kdelibs5 #MINVER#
  _ZN13QFormInternal8DomSlotsC2Ev@Base 4:4.0.73+svn806390
  _ZN13QFormInternal8DomSlotsD1Ev@Base 4:4.0.73+svn806390
  _ZN13QFormInternal8DomSlotsD2Ev@Base 4:4.0.73+svn806390
+ _ZN13QFormInternal8metaEnumINS_26QAbstractFormBuilderGadgetEEE9QMetaEnumPKcPKT_@Base 4:4.0.81+svn818551
  _ZN13QFormInternal9DomAction18setElementPropertyERK5QListIPNS_11DomPropertyEE@Base 4:4.0.73+svn806390
  _ZN13QFormInternal9DomAction19setElementAttributeERK5QListIPNS_11DomPropertyEE@Base 4:4.0.73+svn806390
  _ZN13QFormInternal9DomAction4readERK11QDomElement@Base 4:4.0.73+svn806390
@@ -21032,6 +20992,8 @@ libkjsembed.so.4 kdelibs5 #MINVER#
  _ZN13QFormInternal9DomWidgetC2Ev@Base 4:4.0.73+svn806390
  _ZN13QFormInternal9DomWidgetD1Ev@Base 4:4.0.73+svn806390
  _ZN13QFormInternal9DomWidgetD2Ev@Base 4:4.0.73+svn806390
+ _ZN20QGlobalStaticDeleterI4QMapI7QStringbEED1Ev@Base 4:4.0.81+svn818551
+ _ZN20QGlobalStaticDeleterI5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS1_17QFormBuilderExtraEEED1Ev@Base 4:4.0.81+svn818551
  _ZN3KJS6JSCell4markEv@Base 4:4.0.73+svn806390
  _ZN3KJS6JSCellD0Ev@Base 4:4.0.73+svn806390
  _ZN3KJS6JSCellD1Ev@Base 4:4.0.73+svn806390
@@ -21042,177 +21004,134 @@ libkjsembed.so.4 kdelibs5 #MINVER#
  _ZN3KJS8JSObject18getOwnPropertySlotEPNS_9ExecStateERKNS_10IdentifierERNS_12PropertySlotE@Base 4:4.0.73+svn806390
  _ZN4QMapI7QStringP30QDesignerCustomWidgetInterfaceE13detach_helperEv@Base 4:4.0.73+svn806390
  _ZN4QMapI7QStringP30QDesignerCustomWidgetInterfaceE8freeDataEP8QMapData@Base 4:4.0.73+svn806390
- _ZN4QMapI7QStringbE13detach_helperEv@Base 4:4.0.73+svn806390
+ _ZN4QMapI7QStringP30QDesignerCustomWidgetInterfaceED1Ev@Base 4:4.0.81+svn818551
+ _ZN4QMapI7QStringbE6insertERKS0_RKb@Base 4:4.0.81+svn818551
  _ZN4QMapI7QStringbE8freeDataEP8QMapData@Base 4:4.0.73+svn806390
- _ZN4QMapIP7QObjectP11QLayoutItemE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN4QMapIP7QObjectP11QLayoutItemE8freeDataEP8QMapData@Base 4:4.0.73+svn806390
- _ZN5QHashI10QByteArraybE13detach_helperEv@Base 4:4.0.73+svn806390
+ _ZN4QMapI7QStringbED1Ev@Base 4:4.0.81+svn818551
  _ZN5QHashI10QByteArraybE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.0.73+svn806390
  _ZN5QHashI10QByteArraybE8freeDataEP9QHashData@Base 4:4.0.73+svn806390
  _ZN5QHashI7QStringP12QActionGroupE13detach_helperEv@Base 4:4.0.73+svn806390
  _ZN5QHashI7QStringP12QActionGroupE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.0.73+svn806390
  _ZN5QHashI7QStringP12QActionGroupE8freeDataEP9QHashData@Base 4:4.0.73+svn806390
+ _ZN5QHashI7QStringP12QActionGroupED1Ev@Base 4:4.0.81+svn818551
  _ZN5QHashI7QStringP7QActionE13detach_helperEv@Base 4:4.0.73+svn806390
  _ZN5QHashI7QStringP7QActionE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.0.73+svn806390
  _ZN5QHashI7QStringP7QActionE8freeDataEP9QHashData@Base 4:4.0.73+svn806390
- _ZN5QHashI7QStringPN13QFormInternal11DomPropertyEE13detach_helperEv@Base 4:4.0.73+svn806390
+ _ZN5QHashI7QStringP7QActionED1Ev@Base 4:4.0.81+svn818551
  _ZN5QHashI7QStringPN13QFormInternal11DomPropertyEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.0.73+svn806390
  _ZN5QHashI7QStringPN13QFormInternal11DomPropertyEE8freeDataEP9QHashData@Base 4:4.0.73+svn806390
- _ZN5QHashI7QStringS0_E13detach_helperEv@Base 4:4.0.73+svn806390
+ _ZN5QHashI7QStringPN13QFormInternal11DomPropertyEED1Ev@Base 4:4.0.81+svn818551
  _ZN5QHashI7QStringS0_E13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.0.73+svn806390
  _ZN5QHashI7QStringS0_E8freeDataEP9QHashData@Base 4:4.0.73+svn806390
+ _ZN5QHashI7QStringS0_ED1Ev@Base 4:4.0.81+svn818551
  _ZN5QHashIP6QLabel7QStringE13detach_helperEv@Base 4:4.0.73+svn806390
  _ZN5QHashIP6QLabel7QStringE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.0.73+svn806390
  _ZN5QHashIP6QLabel7QStringE8freeDataEP9QHashData@Base 4:4.0.73+svn806390
+ _ZN5QHashIP6QLabel7QStringED1Ev@Base 4:4.0.81+svn818551
  _ZN5QHashIP7QObjectbE13detach_helperEv@Base 4:4.0.73+svn806390
  _ZN5QHashIP7QObjectbE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.0.73+svn806390
  _ZN5QHashIP7QObjectbE8freeDataEP9QHashData@Base 4:4.0.73+svn806390
- _ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE13detach_helperEv@Base 4:4.0.73+svn806390
+ _ZN5QHashIP7QObjectbED1Ev@Base 4:4.0.81+svn818551
  _ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.0.73+svn806390
- _ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE5eraseENS6_8iteratorE@Base 4:4.0.73+svn806390
+ _ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE6detachEv@Base 4:4.0.81+svn818551
  _ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE8freeDataEP9QHashData@Base 4:4.0.73+svn806390
  _ZN5QListI10QByteArrayE6appendERKS0_@Base 4:4.0.73+svn806390
- _ZN5QListI5QPairIP15QTreeWidgetItemPN13QFormInternal7DomItemEEE13detach_helperEv@Base 4:4.0.73+svn806390
  _ZN5QListI5QPairIP15QTreeWidgetItemPN13QFormInternal7DomItemEEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
- _ZN5QListI5QPairIP15QTreeWidgetItemPN13QFormInternal7DomItemEEE6appendERKS6_@Base 4:4.0.73+svn806390
- _ZN5QListI5QPairIP15QTreeWidgetItemPN13QFormInternal7DomItemEEED2Ev@Base 4:4.0.73+svn806390
- _ZN5QListI5QPairIPN13QFormInternal7DomItemEP15QTreeWidgetItemEE13detach_helperEv@Base 4:4.0.73+svn806390
+ _ZN5QListI5QPairIP15QTreeWidgetItemPN13QFormInternal7DomItemEEE5eraseENS7_8iteratorE@Base 4:4.0.81+svn818551
  _ZN5QListI5QPairIPN13QFormInternal7DomItemEP15QTreeWidgetItemEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
- _ZN5QListI5QPairIPN13QFormInternal7DomItemEP15QTreeWidgetItemEE6appendERKS6_@Base 4:4.0.73+svn806390
- _ZN5QListI5QPairIPN13QFormInternal7DomItemEP15QTreeWidgetItemEED2Ev@Base 4:4.0.73+svn806390
+ _ZN5QListI5QPairIPN13QFormInternal7DomItemEP15QTreeWidgetItemEE5eraseENS7_8iteratorE@Base 4:4.0.81+svn818551
  _ZN5QListI7QStringE5clearEv@Base 4:4.0.73+svn806390
+ _ZN5QListI7QStringE6appendERKS0_@Base 4:4.0.81+svn817073
  _ZN5QListI7QStringED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIP11QLayoutItemE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIP11QLayoutItemE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
- _ZN5QListIP11QLayoutItemE5clearEv@Base 4:4.0.73+svn806390
  _ZN5QListIP11QLayoutItemE6appendERKS1_@Base 4:4.0.73+svn806390
  _ZN5QListIP11QLayoutItemED1Ev@Base 4:4.0.73+svn806390
- _ZN5QListIP11QLayoutItemEpLERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIP30QDesignerCustomWidgetInterfaceE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIP30QDesignerCustomWidgetInterfaceE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
- _ZN5QListIP30QDesignerCustomWidgetInterfaceE6appendERKS1_@Base 4:4.0.73+svn806390
  _ZN5QListIP30QDesignerCustomWidgetInterfaceED1Ev@Base 4:4.0.73+svn806390
- _ZN5QListIP7QActionE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIP7QActionE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIP7QActionED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIP7QObjectE6appendERKS1_@Base 4:4.0.73+svn806390
- _ZN5QListIP7QObjectE9removeAllERKS1_@Base 4:4.0.73+svn806390
- _ZN5QListIP7QObjectEpLERKS2_@Base 4:4.0.73+svn806390
+ _ZN5QListIP7QObjectED1Ev@Base 4:4.0.81+svn817073
  _ZN5QListIP7QWidgetE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIP7QWidgetE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIP7QWidgetE6appendERKS1_@Base 4:4.0.73+svn806390
- _ZN5QListIP7QWidgetE9removeAllERKS1_@Base 4:4.0.73+svn806390
  _ZN5QListIP7QWidgetED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal10DomIncludeEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal10DomIncludeEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal10DomIncludeEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal10DomIncludeEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal10DomIncludeEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal11DomPropertyEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal11DomPropertyEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal11DomPropertyEE5clearEv@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal11DomPropertyEE6appendERKS2_@Base 4:4.0.73+svn806390
+ _ZN5QListIPN13QFormInternal11DomPropertyEEC1ERKS3_@Base 4:4.0.81+svn818551
  _ZN5QListIPN13QFormInternal11DomPropertyEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal11DomResourceEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal11DomResourceEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal11DomResourceEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal11DomResourceEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal11DomResourceEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal12DomActionRefEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal12DomActionRefEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal12DomActionRefEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal12DomActionRefEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal12DomActionRefEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal12DomColorRoleEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal12DomColorRoleEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal12DomColorRoleEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal12DomColorRoleEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal12DomColorRoleEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal13DomConnectionEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal13DomConnectionEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal13DomConnectionEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal13DomConnectionEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal13DomConnectionEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal13DomLayoutItemEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal13DomLayoutItemEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal13DomLayoutItemEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal13DomLayoutItemEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal13DomLayoutItemEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal13DomWidgetDataEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal13DomWidgetDataEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal13DomWidgetDataEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal13DomWidgetDataEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal13DomWidgetDataEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal14DomActionGroupEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal14DomActionGroupEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal14DomActionGroupEE5clearEv@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal14DomActionGroupEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal14DomActionGroupEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal15DomCustomWidgetEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal15DomCustomWidgetEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal15DomCustomWidgetEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal15DomCustomWidgetEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal15DomCustomWidgetEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal15DomGradientStopEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal15DomGradientStopEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal15DomGradientStopEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal15DomGradientStopEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal15DomGradientStopEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal15DomPropertyDataEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal15DomPropertyDataEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal15DomPropertyDataEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal15DomPropertyDataEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal15DomPropertyDataEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal17DomConnectionHintEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal17DomConnectionHintEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal17DomConnectionHintEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal17DomConnectionHintEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal17DomConnectionHintEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal6DomRowEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal6DomRowEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal6DomRowEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal6DomRowEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal6DomRowEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal7DomItemEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal7DomItemEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal7DomItemEE5clearEv@Base 4:4.0.73+svn806390
+ _ZN5QListIPN13QFormInternal7DomItemEE5clearEv@Base 4:4.0.81+svn818551
  _ZN5QListIPN13QFormInternal7DomItemEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal7DomItemEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal8DomColorEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal8DomColorEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal8DomColorEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal8DomColorEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal8DomColorEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal8DomImageEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal8DomImageEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal8DomImageEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal8DomImageEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal8DomImageEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomActionEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal9DomActionEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomActionEE5clearEv@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomActionEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomActionEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomColumnEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal9DomColumnEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomColumnEE5clearEv@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomColumnEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomColumnEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomLayoutEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal9DomLayoutEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomLayoutEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal9DomLayoutEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomLayoutEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomScriptEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal9DomScriptEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomScriptEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal9DomScriptEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomScriptEED1Ev@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomWidgetEE13detach_helperEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal9DomWidgetEE4freeEPN9QListData4DataE@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomWidgetEE5clearEv@Base 4:4.0.73+svn806390
- _ZN5QListIPN13QFormInternal9DomWidgetEE6appendERKS2_@Base 4:4.0.73+svn806390
  _ZN5QListIPN13QFormInternal9DomWidgetEED1Ev@Base 4:4.0.73+svn806390
+ _ZN5QPairI7QStringS0_ED1Ev@Base 4:4.0.81+svn818551
+ _ZN6QDebugD1Ev@Base 4:4.0.81+svn818551
+ _ZN6QDebuglsERK7QString@Base 4:4.0.81+svn818551
+ _ZN7QObject2trEPKcS1_@Base 4:4.0.81+svn818551
+ _ZN7QStringC1ERK13QLatin1String@Base 4:4.0.81+svn818551
+ _ZN7QVectorI5QPairId6QColorEED1Ev@Base 4:4.0.81+svn818551
  _ZN8KJSEmbed10extractIntEPN3KJS9ExecStateEPNS0_7JSValueEi@Base 4:4.0.73+svn806390
  _ZN8KJSEmbed10extractIntEPN3KJS9ExecStateERKNS0_4ListEii@Base 4:4.0.73+svn806390
  _ZN8KJSEmbed11ActionGroup10bindMethodEPN3KJS9ExecStateER11PointerBase@Base 4:4.0.73+svn806390
@@ -21282,6 +21201,8 @@ libkjsembed.so.4 kdelibs5 #MINVER#
  _ZN8KJSEmbed14VariantBindingC2EPN3KJS9ExecStateERK8QVariant@Base 4:4.0.73+svn806390
  _ZN8KJSEmbed14VariantFactory14VariantMethodsE@Base 4:4.0.73+svn806390
  _ZN8KJSEmbed14convertToValueEPN3KJS9ExecStateERK8QVariant@Base 4:4.0.73+svn806390
+ _ZN8KJSEmbed14extractIntegerIN2Qt10BrushStyleEEET_PN3KJS9ExecStateERKNS4_4ListEiS3_@Base 4:4.0.81+svn817073
+ _ZN8KJSEmbed14extractIntegerIN2Qt11GlobalColorEEET_PN3KJS9ExecStateERKNS4_4ListEiS3_@Base 4:4.0.81+svn817073
  _ZN8KJSEmbed14extractQStringEPN3KJS9ExecStateEPNS0_7JSValueE7QString@Base 4:4.0.73+svn806390
  _ZN8KJSEmbed14extractQStringEPN3KJS9ExecStateERKNS0_4ListEi7QString@Base 4:4.0.73+svn806390
  _ZN8KJSEmbed14extractVariantEPN3KJS9ExecStateEPNS0_7JSValueE@Base 4:4.0.73+svn806390
@@ -21398,6 +21319,8 @@ libkjsembed.so.4 kdelibs5 #MINVER#
  _ZN8KJSEmbed9SvgWidget9p_staticsE@Base 4:4.0.73+svn806390
  _ZN8KJSEmbed9SvgWidgetC1EPN3KJS9ExecStateEP10QSvgWidget@Base 4:4.0.73+svn806390
  _ZN8KJSEmbed9SvgWidgetC2EPN3KJS9ExecStateEP10QSvgWidget@Base 4:4.0.73+svn806390
+ _ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 4:4.0.81+svn818551
+ _ZN9QHashData8willGrowEv@Base 4:4.0.81+svn818551
  _ZN9QUiLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.73+svn806390
  _ZN9QUiLoader11qt_metacastEPKc@Base 4:4.0.73+svn806390
  _ZN9QUiLoader12createActionEP7QObjectRK7QString@Base 4:4.0.73+svn806390
@@ -21506,31 +21429,32 @@ libkjsembed.so.4 kdelibs5 #MINVER#
  _ZNK13QFormInternal9DomWidget5writeER12QDomDocumentRK7QString@Base 4:4.0.73+svn806390
  _ZNK16QUiLoaderPrivate14setupWidgetMapEv@Base 4:4.0.73+svn806390
  _ZNK3KJS10Identifier7qstringEv@Base 4:4.0.73+svn806390
+ _ZNK3KJS6JSCell8isNumberEv@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue4typeEv@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.0.81+svn817073
+ _ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateE@Base 4:4.0.81+svn817073
  _ZNK3KJS7UString7qstringEv@Base 4:4.0.73+svn806390
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.0.73+svn806390
- _ZNK4QMapI7QStringP30QDesignerCustomWidgetInterfaceE15mutableFindNodeEPPN8QMapData4NodeERKS0_@Base 4:4.0.73+svn806390
- _ZNK4QMapI7QStringP30QDesignerCustomWidgetInterfaceE6valuesEv@Base 4:4.0.73+svn806390
- _ZNK4QMapI7QStringbE15mutableFindNodeEPPN8QMapData4NodeERKS0_@Base 4:4.0.73+svn806390
- _ZNK4QMapI7QStringbE4keysEv@Base 4:4.0.73+svn806390
- _ZNK4QMapIP7QObjectP11QLayoutItemE15mutableFindNodeEPPN8QMapData4NodeERKS1_@Base 4:4.0.73+svn806390
- _ZNK5QHashI10QByteArraybE4keysEv@Base 4:4.0.73+svn806390
+ _ZNK3KJS8JSObject8inheritsEPKNS_9ClassInfoE@Base 4:4.0.81+svn817073
  _ZNK5QHashI10QByteArraybE8findNodeERKS0_Pj@Base 4:4.0.73+svn806390
  _ZNK5QHashI7QStringP12QActionGroupE8findNodeERKS0_Pj@Base 4:4.0.73+svn806390
  _ZNK5QHashI7QStringP7QActionE8findNodeERKS0_Pj@Base 4:4.0.73+svn806390
+ _ZNK5QHashI7QStringPN13QFormInternal11DomPropertyEE5valueERKS0_@Base 4:4.0.81+svn818551
+ _ZNK5QHashI7QStringPN13QFormInternal11DomPropertyEE5valueERKS0_RKS3_@Base 4:4.0.81+svn818551
  _ZNK5QHashI7QStringPN13QFormInternal11DomPropertyEE8findNodeERKS0_Pj@Base 4:4.0.73+svn806390
  _ZNK5QHashI7QStringS0_E8findNodeERKS0_Pj@Base 4:4.0.73+svn806390
- _ZNK5QHashIP6QLabel7QStringE8findNodeERKS1_Pj@Base 4:4.0.73+svn806390
  _ZNK5QHashIP7QObjectbE8findNodeERKS1_Pj@Base 4:4.0.73+svn806390
  _ZNK5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE8findNodeERKS3_Pj@Base 4:4.0.73+svn806390
- _ZNK5QListIP7QObjectE8containsERKS1_@Base 4:4.0.73+svn806390
- _ZNK5QListIP7QWidgetEeqERKS2_@Base 4:4.0.73+svn806390
  _ZNK8KJSEmbed13ObjectBinding4typeEv@Base 4:4.0.73+svn806390
+ _ZNK8KJSEmbed13ObjectBinding6objectI7QObjectEEPT_v@Base 4:4.0.81+svn817073
  _ZNK8KJSEmbed13ObjectBinding8toStringEPN3KJS9ExecStateE@Base 4:4.0.73+svn806390
  _ZNK8KJSEmbed13ObjectBinding8typeNameEv@Base 4:4.0.73+svn806390
  _ZNK8KJSEmbed13ObjectBinding9classNameEv@Base 4:4.0.73+svn806390
  _ZNK8KJSEmbed13ObjectBinding9ownershipEv@Base 4:4.0.73+svn806390
  _ZNK8KJSEmbed14QObjectBinding6accessEv@Base 4:4.0.73+svn806390
  _ZNK8KJSEmbed14QObjectBinding6canPutEPN3KJS9ExecStateERKNS1_10IdentifierE@Base 4:4.0.73+svn806390
+ _ZNK8KJSEmbed14QObjectBinding7qobjectI7QObjectEEPT_v@Base 4:4.0.81+svn817073
  _ZNK8KJSEmbed14QObjectBinding8toStringEPN3KJS9ExecStateE@Base 4:4.0.73+svn806390
  _ZNK8KJSEmbed14QObjectBinding9classNameEv@Base 4:4.0.73+svn806390
  _ZNK8KJSEmbed14VariantBinding3argEPKc@Base 4:4.0.73+svn806390
@@ -23311,6 +23235,7 @@ libktexteditor.so.4 kdelibs5 #MINVER#
  _ZN11KTextEditor9AttributeD2Ev@Base 4:4.0.72 1
  _ZN11KTextEditor9AttributeaSERKS0_@Base 4:4.0.72 1
  _ZN11KTextEditor9AttributepLERKS0_@Base 4:4.0.72 1
+ _ZN8KService14createInstanceIN11KTextEditor6PluginEEEPT_RK10KSharedPtrIS_EP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.81+svn817073
  _ZNK11KTextEditor10ConfigPage10metaObjectEv@Base 4:4.0.72 1
  _ZNK11KTextEditor10SmartRange10childAfterEPKS0_@Base 4:4.0.72 1
  _ZNK11KTextEditor10SmartRange11childBeforeEPKS0_@Base 4:4.0.72 1
@@ -23409,7 +23334,6 @@ libktexteditor.so.4 kdelibs5 #MINVER#
  _ZNK11KTextEditor9Attribute7effectsEv@Base 4:4.0.72 1
  _ZNK11KTextEditor9Attribute7outlineEv@Base 4:4.0.72 1
  _ZNK11KTextEditor9Attribute8fontBoldEv@Base 4:4.0.72 1
- _ZNK8KService14createInstanceIN11KTextEditor6PluginEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72 1
  _ZTCN11KTextEditor8DocumentE0_N6KParts12ReadOnlyPartE@Base 4:4.0.72 1
  _ZTCN11KTextEditor8DocumentE0_N6KParts13ReadWritePartE@Base 4:4.0.72 1
  _ZTCN11KTextEditor8DocumentE0_N6KParts4PartE@Base 4:4.0.72 1
@@ -23791,6 +23715,7 @@ libkutils.so.4 kdelibs5 #MINVER#
  _ZN18KEmoticonsProviderD0Ev@Base 4:4.0.80
  _ZN18KEmoticonsProviderD1Ev@Base 4:4.0.80
  _ZN18KEmoticonsProviderD2Ev@Base 4:4.0.80
+ _ZN8KService14createInstanceI8KCModuleEEPT_RK10KSharedPtrIS_EP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.81+svn817073
  _ZN9KSettings10Dispatcher14componentNamesEv@Base 4:4.0.72 1
  _ZN9KSettings10Dispatcher17registerComponentERK14KComponentDataP7QObjectPKc@Base 4:4.0.72 1
  _ZN9KSettings10Dispatcher17syncConfigurationEv@Base 4:4.0.72 1
@@ -23897,7 +23822,6 @@ libkutils.so.4 kdelibs5 #MINVER#
  _ZNK18KEmoticonsProvider8fileNameEv@Base 4:4.0.80
  _ZNK18KEmoticonsProvider9themeNameEv@Base 4:4.0.80
  _ZNK18KEmoticonsProvider9themePathEv@Base 4:4.0.80
- _ZNK8KService14createInstanceI8KCModuleEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.0.72 1
  _ZNK9KSettings10PluginPage10metaObjectEv@Base 4:4.0.72 1
  _ZNK9KSettings16ComponentsDialog10metaObjectEv@Base 4:4.0.72 1
  _ZNK9KSettings6Dialog10metaObjectEv@Base 4:4.0.72 1
@@ -24136,6 +24060,7 @@ libnepomuk.so.4 kdelibs5 #MINVER#
  _ZN7Nepomuk15ResourceManager11notifyErrorERK7QStringi@Base 4:4.0.72 1
  _ZN7Nepomuk15ResourceManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.0.72 1
  _ZN7Nepomuk15ResourceManager11qt_metacastEPKc@Base 4:4.0.72 1
+ _ZN7Nepomuk15ResourceManager14removeResourceERK7QString@Base 4:4.0.81+svn817073
  _ZN7Nepomuk15ResourceManager16resourceModifiedERK7QString@Base 4:4.0.72 1
  _ZN7Nepomuk15ResourceManager16slotStoreChangedEv@Base 4:4.0.72 1
  _ZN7Nepomuk15ResourceManager16staticMetaObjectE@Base 4:4.0.72 1
