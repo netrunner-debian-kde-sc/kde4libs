@@ -1,9 +1,10 @@
 Fix kstarndarddirs order more or less. Path by Sune Vuorela, later refined by fedora people (https://bugzilla.redhat.com/show_bug.cgi?id=447965)
 Hopefully soon pushed upstream.
 
-diff -ur kdelibs-4.0.80/kdecore/kernel/kstandarddirs.cpp kdelibs-4.0.80-kstandarddirs/kdecore/kernel/kstandarddirs.cpp
---- kdelibs-4.0.80/kdecore/kernel/kstandarddirs.cpp	2008-05-21 13:08:57.000000000 +0200
-+++ kdelibs-4.0.80-kstandarddirs/kdecore/kernel/kstandarddirs.cpp	2008-05-30 18:07:29.000000000 +0200
+Index: kde4libs-4.0.80/kdecore/kernel/kstandarddirs.cpp
+===================================================================
+--- kde4libs-4.0.80.orig/kdecore/kernel/kstandarddirs.cpp	2008-06-10 23:16:18.000000000 +0000
++++ kde4libs-4.0.80/kdecore/kernel/kstandarddirs.cpp	2008-06-10 23:28:20.000000000 +0000
 @@ -77,9 +77,12 @@
      bool checkRestrictions : 1;
      QMap<QByteArray, bool> restrictions;
@@ -94,14 +95,18 @@ diff -ur kdelibs-4.0.80/kdecore/kernel/kstandarddirs.cpp kdelibs-4.0.80-kstandar
  
              for (QStringList::ConstIterator pit = prefixList->begin();
                   pit != prefixList->end();
-@@ -1007,22 +1055,30 @@
-                     if ((local || testdir.exists()) && !candidates.contains(path))
+@@ -1004,25 +1052,33 @@
+                     testdir.setPath(path);
+                     if (local && restrictionActive)
+                         continue;
+-                    if ((local || testdir.exists()) && !candidates.contains(path))
++                    if ((local || testdir.exists()) && !candidates.contains(path) && path!=QString("/usr/share/config/")) // /usr/share/config is in debian used for kde3 stuff, so we don't want that in kde4 world.
                          candidates.append(path);
                  }
 +                // UGLY HACK - forward porting Chris CHeney's HACK - Rex Dieter
 +                if ( local && (!strcmp("config", type)))
 +                  candidates.append("/etc/kde4/");
-+                //
++                // 
                  local = false;
              }
          }
