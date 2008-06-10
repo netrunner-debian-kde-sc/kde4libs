@@ -1,4 +1,4 @@
-kde4libs (4:4.0.81+svn818551-1~pre1) UNRELEASED; urgency=low
+kde4libs (4:4.0.82+svn819047-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -18,6 +18,7 @@ kde4libs (4:4.0.81+svn818551-1~pre1) UNRELEASED; urgency=low
 
   * Drop 18_always_set_cmake_policy.diff patch - applied upstream.
   * Make kdelibs5-dev depend on libphonon-dev, KDE4Internal.cmake REQUIRES it.
+  * Bump shlibs to 4.0.82.
 
   +++ Changes by Sune Vuorela:
 
@@ -27,7 +28,7 @@ kde4libs (4:4.0.81+svn818551-1~pre1) UNRELEASED; urgency=low
     preferred. Patch developed in cooperation with fedora (Closes: #484897).
   * Add README file about the configuration stuff
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jun 2008 14:23:49 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 21:06:42 +0300
 
 kde4libs (4:4.0.80-1) experimental; urgency=low
 
