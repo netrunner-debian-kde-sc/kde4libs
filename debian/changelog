@@ -27,6 +27,7 @@ kde4libs (4:4.0.82+svn819794-1) UNRELEASED; urgency=low
     config files, where home, /etc/kde4, prefix/path, installpath is
     preferred. Patch developed in cooperation with fedora (Closes: #484897).
   * Add README file about the configuration stuff.
+  * Versioned build-dep on shared-mime-info
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 21:06:42 +0300
 
