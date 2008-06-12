@@ -1,8 +1,6 @@
-Index: b/kdecore/kernel/kstandarddirs.cpp
-===================================================================
 --- a/kdecore/kernel/kstandarddirs.cpp
 +++ b/kdecore/kernel/kstandarddirs.cpp
-@@ -1011,6 +1011,10 @@
+@@ -1009,6 +1009,10 @@
                          if ((local || testdir.exists()) && !candidates.contains(path))
                              candidates.append(path);
                      }

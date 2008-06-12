@@ -11,7 +11,7 @@
  install(TARGETS kde3support ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/kdecore/CMakeLists.txt
 +++ b/kdecore/CMakeLists.txt
-@@ -243,7 +243,7 @@
+@@ -246,7 +246,7 @@
  kde4_add_library(kdecore SHARED ${kdecore_LIB_SRCS})
  
  target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
