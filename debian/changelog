@@ -1,4 +1,4 @@
-kde4libs (4:4.0.82+svn819794-1) UNRELEASED; urgency=low
+kde4libs (4:4.0.82+svn819867-1) experimental; urgency=low
 
   * New upstream development snapshot.
 
@@ -13,6 +13,8 @@ kde4libs (4:4.0.82+svn819794-1) UNRELEASED; urgency=low
   * Add build depends on phonon-dev.
   * Update UPSTREAMVERSION in debian/rules.
   * Update installed files.
+  * Add Conflicts with libkjsembed-dev from KDE 3 to kdelibs5-dev.
+    (Closes: #480686)
 
   +++ Changes by Modestas Vainius:
 
@@ -23,11 +25,11 @@ kde4libs (4:4.0.82+svn819794-1) UNRELEASED; urgency=low
   +++ Changes by Sune Vuorela:
 
   * Install config files in /usr/share/kde4/config.
-  * Patch kstandarddirs to look in home, installpath, prefix/path  except when
+  * Patch kstandarddirs to look in home, installpath, prefix/path except when
     config files, where home, /etc/kde4, prefix/path, installpath is
-    preferred. Patch developed in cooperation with fedora (Closes: #484897).
+    preferred. Patch developed in cooperation with Fedora. (Closes: #484897).
   * Add README file about the configuration stuff.
-  * Versioned build-dep on shared-mime-info
+  * Versioned build-dep on shared-mime-info.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 21:06:42 +0300
 
