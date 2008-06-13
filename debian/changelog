@@ -31,7 +31,7 @@ kde4libs (4:4.0.82+svn819867-1) experimental; urgency=low
   * Add README file about the configuration stuff.
   * Versioned build-dep on shared-mime-info.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 21:06:42 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jun 2008 22:25:06 +0200
 
 kde4libs (4:4.0.80-1) experimental; urgency=low
 
