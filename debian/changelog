@@ -21,6 +21,7 @@ kde4libs (4:4.0.82+svn819867-1) experimental; urgency=low
   * Drop 18_always_set_cmake_policy.diff patch - applied upstream.
   * Make kdelibs5-dev depend on libphonon-dev, KDE4Internal.cmake REQUIRES it.
   * Bump shlibs to 4.0.82.
+  * Exclude dependancy on phonon metapackage.
 
   +++ Changes by Sune Vuorela:
 
@@ -31,7 +32,7 @@ kde4libs (4:4.0.82+svn819867-1) experimental; urgency=low
   * Add README file about the configuration stuff.
   * Versioned build-dep on shared-mime-info.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jun 2008 22:25:06 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2008 00:05:51 +0300
 
 kde4libs (4:4.0.80-1) experimental; urgency=low
 
