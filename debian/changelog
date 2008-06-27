@@ -1,3 +1,9 @@
+kde4libs (4:4.0.84-1) experimental; urgency=low
+
+  * New upstream snapshot
+
+ -- Sune Vuorela <debian@pusling.com>  Fri, 27 Jun 2008 19:19:33 +0200
+
 kde4libs (4:4.0.82+svn819867-1) experimental; urgency=low
 
   * New upstream development snapshot.

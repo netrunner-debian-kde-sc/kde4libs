@@ -954,3 +954,5 @@ usr/share/kde4/apps/cmake/modules/kde4automoc.files.in
 usr/share/kde4/apps/cmake/modules/kde4init_dummy.cpp.in
 usr/share/kde4/apps/cmake/modules/kde4init_win32lib_dummy.cpp.in
 usr/share/kde4/apps/cmake/modules/kde4uic.cmake
+usr/share/man/man1/kdecmake.1
+usr/share/man/man1/makekdewidgets.1

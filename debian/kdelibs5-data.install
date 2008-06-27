@@ -133,6 +133,7 @@ usr/share/kde4/apps/katepart/syntax/fgl-4gl.xml
 usr/share/kde4/apps/katepart/syntax/fgl-per.xml
 usr/share/kde4/apps/katepart/syntax/fortran.xml
 usr/share/kde4/apps/katepart/syntax/freebasic.xml
+usr/share/kde4/apps/katepart/syntax/fstab.xml
 usr/share/kde4/apps/katepart/syntax/gap.xml
 usr/share/kde4/apps/katepart/syntax/gdl.xml
 usr/share/kde4/apps/katepart/syntax/gettext.xml
@@ -196,6 +197,7 @@ usr/share/kde4/apps/katepart/syntax/python.xml
 usr/share/kde4/apps/katepart/syntax/r.xml
 usr/share/kde4/apps/katepart/syntax/rapidq.xml
 usr/share/kde4/apps/katepart/syntax/rexx.xml
+usr/share/kde4/apps/katepart/syntax/rhtml.xml
 usr/share/kde4/apps/katepart/syntax/rib.xml
 usr/share/kde4/apps/katepart/syntax/roff.xml
 usr/share/kde4/apps/katepart/syntax/rpmspec.xml
@@ -1006,7 +1008,6 @@ usr/share/kde4/services/kcertpart.desktop
 usr/share/kde4/services/kded/kcookiejar.desktop
 usr/share/kde4/services/kded/kdedglobalaccel.desktop
 usr/share/kde4/services/kded/kssld.desktop
-usr/share/kde4/services/kded/kwalletd.desktop
 usr/share/kde4/services/kded/proxyscout.desktop
 usr/share/kde4/services/khtml.desktop
 usr/share/kde4/services/khtmladaptorpart.desktop
@@ -1021,6 +1022,7 @@ usr/share/kde4/services/ktexteditor_docwordcompletion.desktop
 usr/share/kde4/services/ktexteditor_docwordcompletion_config.desktop
 usr/share/kde4/services/ktexteditor_insertfile.desktop
 usr/share/kde4/services/ktexteditor_kdatatool.desktop
+usr/share/kde4/services/kwalletd.desktop
 usr/share/kde4/services/metainfo.protocol
 usr/share/kde4/services/mms.protocol
 usr/share/kde4/services/mmst.protocol

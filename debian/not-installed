@@ -8,3 +8,7 @@
 ./usr/share/man/man7/kdeoptions.7
 ./usr/share/man/man7/qtoptions.7
 ./usr/share/man/man8/kbuildsycoca4.8
+
+#installed in kdelibs5-dev
+./usr/share/man/man1/kdecmake.1
+./usr/share/man/man1/makekdewidgets.1

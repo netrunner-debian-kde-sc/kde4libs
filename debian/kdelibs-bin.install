@@ -9,6 +9,7 @@ usr/bin/kjs
 usr/bin/kjscmd
 usr/bin/kross
 usr/bin/kshell4
+usr/bin/kwalletd
 usr/bin/kwrapper4
 usr/bin/meinproc4
 usr/bin/nepomuk-rcgen
@@ -17,3 +18,4 @@ usr/lib/libkdeinit4_kconf_update.so
 usr/lib/libkdeinit4_kded4.so
 usr/lib/libkdeinit4_kio_http_cache_cleaner.so
 usr/lib/libkdeinit4_klauncher.so
+usr/lib/libkdeinit4_kwalletd.so

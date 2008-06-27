@@ -8,7 +8,6 @@ usr/lib/kde4/kcm_crypto.so
 usr/lib/kde4/kded_globalaccel.so
 usr/lib/kde4/kded_kcookiejar.so
 usr/lib/kde4/kded_kssld.so
-usr/lib/kde4/kded_kwalletd.so
 usr/lib/kde4/kded_proxyscout.so
 usr/lib/kde4/kfileaudiopreview.so
 usr/lib/kde4/khtmladaptorpart.so
