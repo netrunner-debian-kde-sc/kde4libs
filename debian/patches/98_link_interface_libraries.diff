@@ -1,3 +1,5 @@
+Index: b/dnssd/CMakeLists.txt
+===================================================================
 --- a/dnssd/CMakeLists.txt
 +++ b/dnssd/CMakeLists.txt
 @@ -59,8 +59,9 @@
@@ -11,6 +13,8 @@
  
  set_target_properties(kdnssd PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kdnssd ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/interfaces/kimproxy/library/CMakeLists.txt
+===================================================================
 --- a/interfaces/kimproxy/library/CMakeLists.txt
 +++ b/interfaces/kimproxy/library/CMakeLists.txt
 @@ -16,7 +16,7 @@
@@ -22,6 +26,8 @@
  
  set_target_properties(kimproxy PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  
+Index: b/interfaces/kmediaplayer/CMakeLists.txt
+===================================================================
 --- a/interfaces/kmediaplayer/CMakeLists.txt
 +++ b/interfaces/kmediaplayer/CMakeLists.txt
 @@ -14,7 +14,7 @@
@@ -33,6 +39,8 @@
  
  set_target_properties(kmediaplayer PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kmediaplayer ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/interfaces/ktexteditor/CMakeLists.txt
+===================================================================
 --- a/interfaces/ktexteditor/CMakeLists.txt
 +++ b/interfaces/ktexteditor/CMakeLists.txt
 @@ -25,6 +25,7 @@
@@ -43,6 +51,8 @@
  
  set_target_properties(ktexteditor PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS ktexteditor ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/kate/CMakeLists.txt
+===================================================================
 --- a/kate/CMakeLists.txt
 +++ b/kate/CMakeLists.txt
 @@ -146,7 +146,7 @@
@@ -54,6 +64,8 @@
  
  if(KDE4_ENABLE_FINAL)
  	macro_add_file_dependencies(${CMAKE_CURRENT_BINARY_DIR}/katepart_final_cpp.cpp )
+Index: b/kde3support/CMakeLists.txt
+===================================================================
 --- a/kde3support/CMakeLists.txt
 +++ b/kde3support/CMakeLists.txt
 @@ -78,7 +78,9 @@
@@ -67,6 +79,8 @@
  
  set_target_properties(kde3support PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kde3support ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/kdecore/CMakeLists.txt
+===================================================================
 --- a/kdecore/CMakeLists.txt
 +++ b/kdecore/CMakeLists.txt
 @@ -108,6 +108,7 @@
@@ -85,6 +99,8 @@
  
  set_target_properties(kdecore PROPERTIES 
                                VERSION ${KDE_NON_GENERIC_LIB_VERSION} 
+Index: b/kded/CMakeLists.txt
+===================================================================
 --- a/kded/CMakeLists.txt
 +++ b/kded/CMakeLists.txt
 @@ -13,7 +13,7 @@
@@ -105,6 +121,8 @@
  
  install(TARGETS kdeinit_kbuildsycoca4 ${INSTALL_TARGETS_DEFAULT_ARGS})
  
+Index: b/kdesu/CMakeLists.txt
+===================================================================
 --- a/kdesu/CMakeLists.txt
 +++ b/kdesu/CMakeLists.txt
 @@ -18,6 +18,7 @@
@@ -115,6 +133,8 @@
  
  if(KDESU_USE_SUDO_DEFAULT)
     set_source_files_properties(su.cpp
+Index: b/kdeui/CMakeLists.txt
+===================================================================
 --- a/kdeui/CMakeLists.txt
 +++ b/kdeui/CMakeLists.txt
 @@ -293,7 +293,8 @@
@@ -147,6 +167,8 @@
  
  install( TARGETS kded_globalaccel DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kfile/CMakeLists.txt
+===================================================================
 --- a/kfile/CMakeLists.txt
 +++ b/kfile/CMakeLists.txt
 @@ -37,7 +37,9 @@
@@ -159,6 +181,8 @@
  
  set_target_properties(kfile PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kfile ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/khtml/CMakeLists.txt
+===================================================================
 --- a/khtml/CMakeLists.txt
 +++ b/khtml/CMakeLists.txt
 @@ -326,7 +326,11 @@
@@ -183,17 +207,21 @@
  
  install(TARGETS khtmlpart  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/khtml/java/CMakeLists.txt
+===================================================================
 --- a/khtml/java/CMakeLists.txt
 +++ b/khtml/java/CMakeLists.txt
 @@ -23,7 +23,7 @@
  
  kde4_add_plugin(kjavaappletviewer ${kjavaappletviewer_PART_SRCS})
  
--target_link_libraries(kjavaappletviewer  ${KDE4_KPARTS_LIBS} ${QT_QT3SUPPORT_LIBRARY} )
-+target_link_libraries(kjavaappletviewer  ${KDE4_KPARTS_LIBS} ${QT_QT3SUPPORT_LIBRARY} ${QT_QTDBUS_LIBRARY} )
+-target_link_libraries(kjavaappletviewer ${KDE4_KPARTS_LIBS})
++target_link_libraries(kjavaappletviewer  ${KDE4_KPARTS_LIBS} ${QT_QTDBUS_LIBRARY} )
  
  install(TARGETS kjavaappletviewer  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/khtml/kmultipart/CMakeLists.txt
+===================================================================
 --- a/khtml/kmultipart/CMakeLists.txt
 +++ b/khtml/kmultipart/CMakeLists.txt
 @@ -9,7 +9,7 @@
@@ -205,9 +233,11 @@
  
  install(TARGETS kmultipart  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kinit/CMakeLists.txt
+===================================================================
 --- a/kinit/CMakeLists.txt
 +++ b/kinit/CMakeLists.txt
-@@ -133,7 +133,7 @@
+@@ -137,7 +137,7 @@
  kde4_add_kdeinit_executable( klauncher NOGUI ${klauncher_KDEINIT_SRCS})
  set_target_properties(kdeinit_klauncher PROPERTIES DEFINE_SYMBOL MAKE_KLAUNCHER)
  
@@ -216,6 +246,8 @@
  
  install(TARGETS kdeinit_klauncher ${INSTALL_TARGETS_DEFAULT_ARGS})
  
+Index: b/kio/CMakeLists.txt
+===================================================================
 --- a/kio/CMakeLists.txt
 +++ b/kio/CMakeLists.txt
 @@ -236,7 +236,10 @@
@@ -230,6 +262,8 @@
  
  
  set(SYS_INOTIFY_H_FOUND 0)
+Index: b/kio/misc/kpac/CMakeLists.txt
+===================================================================
 --- a/kio/misc/kpac/CMakeLists.txt
 +++ b/kio/misc/kpac/CMakeLists.txt
 @@ -15,7 +15,7 @@
@@ -241,6 +275,8 @@
  
  # this needs -lresolv e.g on Slackware, but not on FreeBSD
  if (HAVE_RESOLV_LIBRARY)
+Index: b/kio/misc/kssld/CMakeLists.txt
+===================================================================
 --- a/kio/misc/kssld/CMakeLists.txt
 +++ b/kio/misc/kssld/CMakeLists.txt
 @@ -6,7 +6,7 @@
@@ -252,17 +288,8 @@
  
  install(TARGETS kded_kssld  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- a/kio/misc/kwalletd/CMakeLists.txt
-+++ b/kio/misc/kwalletd/CMakeLists.txt
-@@ -22,7 +22,7 @@
- kde4_add_plugin(kded_kwalletd ${kded_kwalletd_PART_SRCS})
- 
- # uses kio for KDirWatch
--target_link_libraries(kded_kwalletd  ${KDE4_KIO_LIBS} kwalletbackend )
-+target_link_libraries(kded_kwalletd  ${KDE4_KIO_LIBS} kwalletbackend ${QT_QTDBUS_LIBRARY} )
- 
- install(TARGETS kded_kwalletd  DESTINATION ${PLUGIN_INSTALL_DIR} )
- 
+Index: b/kioslave/ftp/CMakeLists.txt
+===================================================================
 --- a/kioslave/ftp/CMakeLists.txt
 +++ b/kioslave/ftp/CMakeLists.txt
 @@ -13,7 +13,7 @@
@@ -274,6 +301,8 @@
  
  install(TARGETS kio_ftp  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kioslave/http/CMakeLists.txt
+===================================================================
 --- a/kioslave/http/CMakeLists.txt
 +++ b/kioslave/http/CMakeLists.txt
 @@ -37,7 +37,7 @@
@@ -294,6 +323,8 @@
  if(GSSAPI_FOUND)
    target_link_libraries(kio_http ${GSSAPI_LIBS} )
  endif(GSSAPI_FOUND)
+Index: b/kioslave/http/kcookiejar/CMakeLists.txt
+===================================================================
 --- a/kioslave/http/kcookiejar/CMakeLists.txt
 +++ b/kioslave/http/kcookiejar/CMakeLists.txt
 @@ -26,7 +26,7 @@
@@ -314,6 +345,8 @@
  
  install(TARGETS kded_kcookiejar  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kjs/CMakeLists.txt
+===================================================================
 --- a/kjs/CMakeLists.txt
 +++ b/kjs/CMakeLists.txt
 @@ -195,6 +195,7 @@
@@ -324,6 +357,8 @@
  endif(UNIX)
  
  if(PCRE_FOUND)
+Index: b/knewstuff/knewstuff2/CMakeLists.txt
+===================================================================
 --- a/knewstuff/knewstuff2/CMakeLists.txt
 +++ b/knewstuff/knewstuff2/CMakeLists.txt
 @@ -53,7 +53,8 @@
@@ -336,6 +371,8 @@
  set_target_properties(knewstuff2 PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
  install(TARGETS knewstuff2 ${INSTALL_TARGETS_DEFAULT_ARGS})
  
+Index: b/knotify/config/CMakeLists.txt
+===================================================================
 --- a/knotify/config/CMakeLists.txt
 +++ b/knotify/config/CMakeLists.txt
 @@ -19,6 +19,7 @@
@@ -346,6 +383,8 @@
  
  set_target_properties(knotifyconfig PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS knotifyconfig ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/kparts/CMakeLists.txt
+===================================================================
 --- a/kparts/CMakeLists.txt
 +++ b/kparts/CMakeLists.txt
 @@ -24,7 +24,8 @@
@@ -358,6 +397,8 @@
  
  set_target_properties(kparts PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kparts ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/kpty/CMakeLists.txt
+===================================================================
 --- a/kpty/CMakeLists.txt
 +++ b/kpty/CMakeLists.txt
 @@ -12,6 +12,7 @@
@@ -368,6 +409,8 @@
  
  set_target_properties(kpty PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kpty ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/kross/core/CMakeLists.txt
+===================================================================
 --- a/kross/core/CMakeLists.txt
 +++ b/kross/core/CMakeLists.txt
 @@ -11,7 +11,8 @@
@@ -380,6 +423,8 @@
  set_target_properties(krosscore PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
  install(TARGETS krosscore ${INSTALL_TARGETS_DEFAULT_ARGS})
  
+Index: b/kross/modules/CMakeLists.txt
+===================================================================
 --- a/kross/modules/CMakeLists.txt
 +++ b/kross/modules/CMakeLists.txt
 @@ -12,5 +12,5 @@
@@ -389,6 +434,8 @@
 -target_link_libraries(krossmoduleforms ${QT_QTUITOOLS_LIBRARY} ${QT_QTDESIGNER_LIBRARY} ${KDE4_KPARTS_LIBS} ${KDE4_KFILE_LIBS} krosscore krossui)
 +target_link_libraries(krossmoduleforms ${QT_QTUITOOLS_LIBRARY} ${QT_QTDESIGNER_LIBRARY} ${QT_QTXML_LIBRARY} ${KDE4_KPARTS_LIBS} ${KDE4_KFILE_LIBS} krosscore)
  install(TARGETS krossmoduleforms DESTINATION ${PLUGIN_INSTALL_DIR})
+Index: b/kross/qts/CMakeLists.txt
+===================================================================
 --- a/kross/qts/CMakeLists.txt
 +++ b/kross/qts/CMakeLists.txt
 @@ -3,7 +3,7 @@
@@ -400,6 +447,8 @@
  set_target_properties(krossqtsplugin PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
  install(TARGETS krossqtsplugin DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/script)
  
+Index: b/kross/ui/CMakeLists.txt
+===================================================================
 --- a/kross/ui/CMakeLists.txt
 +++ b/kross/ui/CMakeLists.txt
 @@ -14,7 +14,8 @@
@@ -412,6 +461,8 @@
  set_target_properties(krossui PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
  install(TARGETS krossui ${INSTALL_TARGETS_DEFAULT_ARGS})
  
+Index: b/kutils/CMakeLists.txt
+===================================================================
 --- a/kutils/CMakeLists.txt
 +++ b/kutils/CMakeLists.txt
 @@ -49,7 +49,8 @@
@@ -424,6 +475,8 @@
  
  set_target_properties(kutils PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kutils ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/solid/solid/CMakeLists.txt
+===================================================================
 --- a/solid/solid/CMakeLists.txt
 +++ b/solid/solid/CMakeLists.txt
 @@ -181,6 +181,7 @@
@@ -434,6 +487,8 @@
  
  set_target_properties(solid PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS solid ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/sonnet/plugins/hspell/CMakeLists.txt
+===================================================================
 --- a/sonnet/plugins/hspell/CMakeLists.txt
 +++ b/sonnet/plugins/hspell/CMakeLists.txt
 @@ -9,7 +9,7 @@
@@ -445,9 +500,11 @@
  
  install(TARGETS kspell_hspell  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
+Index: b/kjsembed/kjsembed/CMakeLists.txt
+===================================================================
 --- a/kjsembed/kjsembed/CMakeLists.txt
 +++ b/kjsembed/kjsembed/CMakeLists.txt
-@@ -69,6 +69,7 @@
+@@ -67,6 +67,7 @@
  kde4_add_library(${KJSEMBEDLIBNAME} SHARED ${kjsembed_LIB_SRCS})
  
  target_link_libraries(${KJSEMBEDLIBNAME} ${KDE4_KDECORE_LIBS} ${QT_QTUITOOLS_LIBRARY} ${QT_QTGUI_LIBRARY} ${QT_QTSVG_LIBRARY} ${QT_QTXML_LIBRARY} ${QT_QTCORE_LIBRARY} ${KJSLIBNAME} )
@@ -455,6 +512,8 @@
  
  set_target_properties(${KJSEMBEDLIBNAME} PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS ${KJSEMBEDLIBNAME} ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: b/kioslave/file/CMakeLists.txt
+===================================================================
 --- a/kioslave/file/CMakeLists.txt
 +++ b/kioslave/file/CMakeLists.txt
 @@ -20,6 +20,10 @@

@@ -1,3 +1,5 @@
+Index: b/config-prefix.h.cmake
+===================================================================
 --- a/config-prefix.h.cmake
 +++ b/config-prefix.h.cmake
 @@ -35,4 +35,4 @@

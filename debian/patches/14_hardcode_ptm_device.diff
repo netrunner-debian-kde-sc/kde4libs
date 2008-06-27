@@ -1,3 +1,5 @@
+Index: b/ConfigureChecks.cmake
+===================================================================
 --- a/ConfigureChecks.cmake
 +++ b/ConfigureChecks.cmake
 @@ -192,13 +192,7 @@

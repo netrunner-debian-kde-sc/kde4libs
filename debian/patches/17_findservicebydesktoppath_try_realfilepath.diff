@@ -1,3 +1,5 @@
+Index: b/kdecore/services/kservicefactory.cpp
+===================================================================
 --- a/kdecore/services/kservicefactory.cpp
 +++ b/kdecore/services/kservicefactory.cpp
 @@ -125,16 +125,10 @@
@@ -46,6 +48,8 @@
  KService::Ptr KServiceFactory::findServiceByMenuId(const QString &_menuId)
  {
      if (!m_menuIdDict) return KService::Ptr(); // Error!
+Index: b/kdecore/services/kservicefactory.h
+===================================================================
 --- a/kdecore/services/kservicefactory.h
 +++ b/kdecore/services/kservicefactory.h
 @@ -123,6 +123,8 @@

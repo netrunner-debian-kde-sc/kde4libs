@@ -1,6 +1,8 @@
 I do not think we can push this patch to upstream since the:
 CMAKE_SYSTEM_NAME MATCHES kFreeBSD stuff, needs the Debian patched
 cmake. 
+Index: b/kpty/kpty.cpp
+===================================================================
 --- a/kpty/kpty.cpp
 +++ b/kpty/kpty.cpp
 @@ -107,24 +107,24 @@
@@ -40,6 +42,8 @@ cmake.
  #endif
  
  #include <kdebug.h>
+Index: b/kio/kfile/kpropertiesdialog.cpp
+===================================================================
 --- a/kio/kfile/kpropertiesdialog.cpp
 +++ b/kio/kfile/kpropertiesdialog.cpp
 @@ -1871,7 +1871,15 @@
@@ -59,6 +63,8 @@ cmake.
  #endif
      return fileSystemSupportsACLs;
  }
+Index: b/kioslave/file/file.cpp
+===================================================================
 --- a/kioslave/file/file.cpp
 +++ b/kioslave/file/file.cpp
 @@ -361,9 +361,10 @@
@@ -95,6 +101,8 @@ cmake.
  
  #ifdef HAVE_POSIX_ACL
      acl = acl_get_fd(src_fd);
+Index: b/ConfigureChecks.cmake
+===================================================================
 --- a/ConfigureChecks.cmake
 +++ b/ConfigureChecks.cmake
 @@ -154,11 +154,11 @@
