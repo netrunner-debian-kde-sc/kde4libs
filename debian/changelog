@@ -4,16 +4,16 @@ kde4libs (4:4.0.84+svn828257-1) UNRELEASED; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
   
-  * Update 98_link_interface_libraries.diff (coming soon)
   * Remove patches 97_use_imported_targets_with_cmake26.diff and 
     99_more_implicit_link_libs.diff
+  * Update 98_link_interface_libraries.diff
   * Add 90_reduce_linking.diff by A. Neundorf.
 
   +++ Changes by Armin Berres:
  
   * Disable debug output of KMail by default.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jul 2008 10:15:54 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jul 2008 15:15:51 +0200
 
 kde4libs (4:4.0.84-1) experimental; urgency=low
 
