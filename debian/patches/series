@@ -5,6 +5,7 @@
 13_qt4_designer_plugins_path.diff
 14_hardcode_ptm_device.diff
 15_kfreebsd_support.diff
+16_debian_menu.diff
 17_findservicebydesktoppath_try_realfilepath.diff
 19_findqt4_optional_x11_pthread.diff
 20_use_dejavu_as_default_font.diff
