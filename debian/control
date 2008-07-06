@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.4.5), 
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.0), 
  shared-mime-info (>= 0.20), libphonon-dev (>= 4:4.2~),
  libcupsys2-dev, libdbus-1-dev, libqt4-dev (>= 4.4.0~),
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
