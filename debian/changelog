@@ -3,6 +3,8 @@ kde4libs (4:4.0.85+svn829409-0) UNRELEASED; urgency=low
   +++ Changes by Sune Vuorela:
 
   * Yay. Now Debian menu items in Debian menu instead of in Lost & Found.
+  * Remove deprecate applnk patch. It is already deprecated, no need for the
+    patch. It only removes legacy handling.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
