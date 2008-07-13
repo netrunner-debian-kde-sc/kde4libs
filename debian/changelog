@@ -1,4 +1,4 @@
-kde4libs (4:4.0.98-0) UNRELEASED; urgency=low
+kde4libs (4:4.0.98-1) unstable; urgency=low
 
   * New upstream release, Release Candidate 1.
 
@@ -13,7 +13,7 @@ kde4libs (4:4.0.98-0) UNRELEASED; urgency=low
   * Do not install kdecmake.1 because it is not created when building in hppa
     with cmake 2.4.8. (Closes: #488661)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Jul 2008 17:05:33 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Jul 2008 01:10:40 +0200
 
 kde4libs (4:4.0.84+svn828328-1) unstable; urgency=low
 
