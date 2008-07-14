@@ -1,0 +1,6 @@
+--- a/kdoctools/customization/fr/entities/underLGPL.docbook
++++ b/kdoctools/customization/fr/entities/underLGPL.docbook
+@@ -0,0 +1,3 @@
++<para>Ce programme est soumis aux termes de la <ulink
++url="common/lgpl-license.html">Licence Générale Publique GNU Limitée (GNU Lesser General Public License)</ulink>.</para>
++
