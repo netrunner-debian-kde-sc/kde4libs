@@ -1,3 +1,11 @@
+kde4libs (4:4.0.98-3) UNRELEASED; urgency=medium
+
+  +++ Changes by Modestas Vainius:
+
+  * Do not require cmake 2.6 (kdelibs5-dev).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 Jul 2008 23:12:39 +0300
+
 kde4libs (4:4.0.98-2) unstable; urgency=medium
 
   * Add patch 01_ to add missing LGPL entity needed to build french
