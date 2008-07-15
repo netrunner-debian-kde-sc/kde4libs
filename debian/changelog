@@ -1,4 +1,4 @@
-kde4libs (4:4.0.98-2) unstable; urgency=low
+kde4libs (4:4.0.98-2) unstable; urgency=medium
 
   * Add patch 01_ to add missing LGPL entity needed to build french
     translations.
