@@ -1,4 +1,6 @@
-kde4libs (4:4.0.98-3) UNRELEASED; urgency=medium
+kde4libs (4:4.0.98+svn833207-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
 
   +++ Changes by Modestas Vainius:
 
