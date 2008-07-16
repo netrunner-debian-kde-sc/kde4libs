@@ -1,4 +1,4 @@
-kde4libs (4:4.0.98+svn833207-1) UNRELEASED; urgency=low
+kde4libs (4:4.0.98+svn833207-1) unstable; urgency=low
 
   * New upstream snapshot.
 
@@ -6,7 +6,11 @@ kde4libs (4:4.0.98+svn833207-1) UNRELEASED; urgency=low
 
   * Do not require cmake 2.6 (kdelibs5-dev).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 Jul 2008 23:12:39 +0300
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove patch 01, merged upstream.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Jul 2008 15:17:41 +0200
 
 kde4libs (4:4.0.98-2) unstable; urgency=medium
 
