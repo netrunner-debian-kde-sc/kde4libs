@@ -2,8 +2,8 @@
 THIS_SHOULD_GO_TO_UNSTABLE=1
 
 #UPSTREAMVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(.*\)-.*/\1/')
-UPSTREAMVERSION ?= 4:4.0.84
-RUNTIME_DEPS := kdebase-runtime (>= 4:4.0.84)
+UPSTREAMVERSION ?= 4:4.1.0
+RUNTIME_DEPS := kdebase-runtime (>= 4:4.1.0)
 
 DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg
 DEB_DBG_PACKAGE_kdelibs-bin := kdelibs5-dbg
