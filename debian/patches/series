@@ -10,4 +10,3 @@
 20_use_dejavu_as_default_font.diff
 22_hack_in_etc_kde4_in_kstandarddirs.diff
 90_reduced_linking.diff
-98_link_interface_libraries.diff

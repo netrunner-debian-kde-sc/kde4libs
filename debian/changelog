@@ -5,6 +5,7 @@ kde4libs (4:4.1.0-0) UNRELEASED; urgency=low
   * Update UPSTREAMVERSION to 4.1.0 in debian/rules.
   * Keep build-depend on cmake >= 2.4.5, but force everything build depending
     on kdelibs5-dev use cmake 2.6.
+  * Remove patch 98_link_interface_libraries, merged upstream.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 24 Jul 2008 02:53:41 +0200
 
