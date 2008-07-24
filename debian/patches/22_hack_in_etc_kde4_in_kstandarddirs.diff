@@ -1,6 +1,6 @@
---- kde4libs-4.0.84+svn828171.orig/kdecore/kernel/kstandarddirs.cpp
-+++ kde4libs-4.0.84+svn828171/kdecore/kernel/kstandarddirs.cpp
-@@ -1011,6 +1011,10 @@
+--- kde4libs-4.1.0.orig/kdecore/kernel/kstandarddirs.cpp
++++ kde4libs-4.1.0/kdecore/kernel/kstandarddirs.cpp
+@@ -1010,6 +1010,10 @@
                          if ((local || testdir.exists()) && !candidates.contains(path))
                              candidates.append(path);
                      }

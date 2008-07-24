@@ -1,8 +1,6 @@
-Index: b/cmake/modules/FindQt4.cmake
-===================================================================
---- a/cmake/modules/FindQt4.cmake
-+++ b/cmake/modules/FindQt4.cmake
-@@ -1434,10 +1434,9 @@
+--- kde4libs-4.1.0.orig/cmake/modules/FindQt4.cmake
++++ kde4libs-4.1.0/cmake/modules/FindQt4.cmake
+@@ -1430,10 +1430,9 @@
    IF(UNIX)
      # on OS X X11 may not be required
      IF (Q_WS_X11)
