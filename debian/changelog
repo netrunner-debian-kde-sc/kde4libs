@@ -1,3 +1,26 @@
+kde4libs (4:4.1.0-2~pre3) UNRELEASED; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Add 01_r840377_840379_unload_on_close.diff patch.
+    Fixes a nasty bug which makes some KDE4 apps stay in memory when closed
+    resulting into excessive memory usage after some time.
+  * Readd usr/share/man/man1/kdecmake.1 kdelibs5-dev.
+  * Build depend on cmake >= 2.6.
+  * Update automoc build-dependency.
+  * Replace unofficial 90 patch with the one taken from KDE 4.1 branch.
+    (02_41branch_link_interface_libraries.diff). It is the version "supported"
+    by upstream with some extra features. It does not seem to be much different
+    from the previous 90_ patch.
+  * Add 99_conservative_link_interface_libraries.diff which *adds* some more
+    LINK_INTERFACE_LIBRARIES to reduce linking failures of third party
+    applications. This patch surely does not break anything, it only adds more
+    libraries which are eliminated by --as-needed in Debian packaging.
+    However, it might help to link a random KDE4 3rd party application against
+    our kde4libs.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Aug 2008 12:52:04 +0300
+
 kde4libs (4:4.1.0-1) unstable; urgency=low
 
   * New upstream release 4.1.0.
