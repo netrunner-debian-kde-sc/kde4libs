@@ -1,4 +1,4 @@
-kde4libs (4:4.1.0-2~pre3) UNRELEASED; urgency=low
+kde4libs (4:4.1.0-2) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:
 
@@ -19,7 +19,11 @@ kde4libs (4:4.1.0-2~pre3) UNRELEASED; urgency=low
     However, it might help to link a random KDE4 3rd party application against
     our kde4libs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Aug 2008 12:52:04 +0300
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Rename debian/kdelibs5.bug-presubj to right filename debian/kdelibs5.presubj.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Aug 2008 20:29:38 +0200
 
 kde4libs (4:4.1.0-1) unstable; urgency=low
 
