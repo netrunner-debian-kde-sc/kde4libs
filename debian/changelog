@@ -22,6 +22,7 @@ kde4libs (4:4.1.0-2) unstable; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Rename debian/kdelibs5.bug-presubj to right filename debian/kdelibs5.presubj.
+  * Replace libcupsys2-dev with libcups2-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Aug 2008 20:29:38 +0200
 
