@@ -1,0 +1,738 @@
+--- a/kross/console/CMakeLists.txt
++++ b/kross/console/CMakeLists.txt
+@@ -7,5 +7,5 @@
+ 
+ set(kross_SRCS main.cpp )
+ kde4_add_executable(kross ${kross_SRCS})
+-target_link_libraries(kross  ${KDE4_KDECORE_LIBS} krosscore )
++target_link_libraries(kross  ${KDE4_KDEUI_LIBS} krosscore )
+ install(TARGETS kross DESTINATION ${BIN_INSTALL_DIR})
+--- a/kross/core/CMakeLists.txt
++++ b/kross/core/CMakeLists.txt
+@@ -15,6 +15,7 @@
+ set_target_properties(krosscore PROPERTIES VERSION ${GENERIC_LIB_VERSION} 
+                                 SOVERSION ${GENERIC_LIB_SOVERSION} )
+ 
++
+ install(TARGETS krosscore ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ install(FILES
+@@ -22,6 +23,7 @@
+     krossconfig.h
+     errorinterface.h
+     childreninterface.h
++    wrapperinterface.h
+     metatype.h
+     metafunction.h
+     interpreter.h
+--- a/kross/core/krossconfig.h
++++ b/kross/core/krossconfig.h
+@@ -58,7 +58,7 @@
+     // The version number of Kross. For example the interpreters use
+     // it do be sure there are linked against the correct core version
+     // and if the numbers don't match, the interpreter is not loaded.
+-    #define KROSS_VERSION 10
++    #define KROSS_VERSION 11
+ 
+     // The export macro for interpreter plugins.
+     #define KROSS_EXPORT_INTERPRETER( InterpreterImpl ) \
+@@ -83,6 +83,7 @@
+     #define KROSS_JAVA_LIBRARY "libkrossjava"
+     #define KROSS_FALCON_LIBRARY "krossfalcon"
+     #define KROSS_QTSCRIPT_LIBRARY "krossqts"
++    #define KROSS_LUA_LIBRARY "kloss"
+ 
+ }
+ 
+--- a/kross/core/manager.cpp
++++ b/kross/core/manager.cpp
+@@ -58,6 +58,12 @@
+ 
+             /// The collection of \a Action instances.
+             ActionCollection* collection;
++
++            /// List with custom handlers for metatypes.
++            QHash<QByteArray, MetaTypeHandler*> wrappers;
++
++            /// Strict type handling enabled or disabled.
++            bool strictTypesEnabled;
+     };
+ 
+ }
+@@ -118,6 +124,7 @@
+     , ChildrenInterface()
+     , d( new Private() )
+ {
++    d->strictTypesEnabled = true;
+     setObjectName("Kross");
+     d->collection = new ActionCollection("main");
+ 
+@@ -198,6 +205,18 @@
+     }
+ #endif
+ 
++#ifdef KROSS_LUA_LIBRARY
++    if( void* funcPtr = loadLibrary(KROSS_LUA_LIBRARY, "krossinterpreter") ) {
++        d->interpreterinfos.insert("lua",
++            new InterpreterInfo("lua",
++                funcPtr, // library
++                "*.lua *.luac", // file filter-wildcard
++                QStringList() << "application/x-lua" // mimetypes
++            )
++        );
++    }
++#endif
++
+     // fill the list of supported interpreternames.
+     QHash<QString, InterpreterInfo*>::Iterator it( d->interpreterinfos.begin() );
+     for(; it != d->interpreterinfos.end(); ++it)
+@@ -211,6 +230,7 @@
+ 
+ Manager::~Manager()
+ {
++    qDeleteAll(d->wrappers.values());
+     qDeleteAll(d->interpreterinfos.values());
+     qDeleteAll(d->modules.values());
+     delete d->collection;
+@@ -366,4 +386,34 @@
+     return this->objects().keys();
+ }
+ 
++MetaTypeHandler* Manager::metaTypeHandler(const QByteArray& typeName) const
++{
++    return d->wrappers.contains(typeName) ? d->wrappers[typeName] : 0;
++}
++
++void Manager::registerMetaTypeHandler(const QByteArray& typeName, MetaTypeHandler::FunctionPtr* handler)
++{
++    d->wrappers.insert(typeName, new MetaTypeHandler(handler));
++}
++
++void Manager::registerMetaTypeHandler(const QByteArray& typeName, MetaTypeHandler::FunctionPtr2* handler)
++{
++    d->wrappers.insert(typeName, new MetaTypeHandler(handler));
++}
++
++void Manager::registerMetaTypeHandler(const QByteArray& typeName, MetaTypeHandler* handler)
++{
++    d->wrappers.insert(typeName, handler);
++}
++
++bool Manager::strictTypesEnabled() const
++{
++    return d->strictTypesEnabled;
++}
++
++void Manager::setStrictTypesEnabled(bool enabled)
++{
++    d->strictTypesEnabled = enabled;
++}
++
+ #include "manager.moc"
+--- a/kross/core/manager.h
++++ b/kross/core/manager.h
+@@ -28,6 +28,7 @@
+ 
+ #include "krossconfig.h"
+ #include "childreninterface.h"
++#include "metatype.h"
+ 
+ namespace Kross {
+ 
+@@ -109,6 +110,72 @@
+              */
+             ActionCollection* actionCollection() const;
+ 
++            /**
++             * \return the \a MetaTypeHandler instance for custom types
++             * of type \p typeName .
++             *
++             * \since 4.2
++             */
++            MetaTypeHandler* metaTypeHandler(const QByteArray& typeName) const;
++
++            /**
++             * Register a handler for custom types.
++             *
++             * See also the \a WrapperInterface class.
++             *
++             * \param typeName The custom type the handler should handle.
++             * \param handler Function that should be called to handle
++             * a custom type.
++             *
++             * \since 4.2
++             */
++            void registerMetaTypeHandler(const QByteArray& typeName, MetaTypeHandler::FunctionPtr* handler);
++
++            /**
++             * Register a handler for custom types.
++             *
++             * See also the \a WrapperInterface class.
++             *
++             * \param typeName The custom type the handler should handle.
++             * \param handler Function that should be called to handle
++             * a custom type.
++             *
++             * \since 4.2
++             */
++            void registerMetaTypeHandler(const QByteArray& typeName, MetaTypeHandler::FunctionPtr2* handler);
++
++            /**
++             * Register a handler for custom types.
++             *
++             * See also the \a WrapperInterface class.
++             *
++             * \param typeName The custom type the handler should handle.
++             * \param handler Function that should be called to handle
++             * a custom type.
++             *
++             * \since 4.2
++             */
++            void registerMetaTypeHandler(const QByteArray& typeName, MetaTypeHandler* handler);
++
++            /**
++             * Returns true if strict type handling is enabled.
++             *
++             * \since 4.2
++             */
++            bool strictTypesEnabled() const;
++
++            /**
++             * Enable more strict type handling. If enabled then scripting-backends don't
++             * handle unknown pointer-types where no MetaTypeHandler was registered for.
++             * If disabled, such unknown types will be reinterpret_cast to QObject* what
++             * allows to also handle unknown QObject's but will also result in a crash
++             * if the unknown type isn't a QObject. Per default strict type handling is
++             * enabled.
++             *
++             * \since 4.2
++             */
++            void setStrictTypesEnabled(bool enabled);
++
+         public Q_SLOTS:
+ 
+             /**
+--- a/kross/core/metatype.h
++++ b/kross/core/metatype.h
+@@ -129,6 +129,35 @@
+             bool m_owner;
+     };
+ 
++    /**
++     * Base class for metatype-handlers as used returned by
++     * the Kross::Manager::metaTypeHandler() method.
++     *
++     * \since 4.2
++     */
++    class KROSSCORE_EXPORT MetaTypeHandler
++    {
++        public:
++            typedef QVariant (FunctionPtr) (void*);
++            typedef QVariant (FunctionPtr2) (MetaTypeHandler* handler, void*);
++
++            explicit MetaTypeHandler() : m_func1(0), m_func2(0) {}
++            explicit MetaTypeHandler(FunctionPtr *func) : m_func1(func), m_func2(0) {}
++            explicit MetaTypeHandler(FunctionPtr2 *func) : m_func1(0), m_func2(func) {}
++            virtual ~MetaTypeHandler() {}
++
++            /**
++             * This got called by the scripting-backend if the type-handler
++             * is called to translate a void-star pointer to a QVariant.
++             */
++            virtual QVariant callHandler(void* ptr) {
++                return m_func1 ? m_func1(ptr) : m_func2 ? m_func2(this, ptr) : QVariant();
++            }
++
++        private:
++            FunctionPtr  *m_func1;
++            FunctionPtr2 *m_func2;
++    };
+ }
+ 
+ #endif
+--- /dev/null
++++ b/kross/core/wrapperinterface.h
+@@ -0,0 +1,95 @@
++/***************************************************************************
++ * wrapperinterface.h
++ * This file is part of the KDE project
++ * copyright (C)2008 by Sebastian Sauer  <mail@dipe.org>
++ *
++ * This program is free software; you can redistribute it and/or
++ * modify it under the terms of the GNU Library General Public
++ * License as published by the Free Software Foundation; either
++ * version 2 of the License, or (at your option) any later version.
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++ * Library General Public License for more details.
++ * You should have received a copy of the GNU Library General Public License
++ * along with this program; see the file COPYING.  If not, write to
++ * the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
++ * Boston, MA 02110-1301, USA.
++ ***************************************************************************/
++
++#ifndef KROSS_WRAPPERINTERFACE_H
++#define KROSS_WRAPPERINTERFACE_H
++
++#include "krossconfig.h"
++
++namespace Kross {
++
++    /**
++     * Wrapper-class used to provide handlers for custom types.
++     *
++     * Custom types are types other then QObject*, QWidget* or one
++     * of the base types supported by QVariant. By using the
++     * Kross::registerMetaTypeHandler() method such custom handlers
++     * can be registered and used to either translate various
++     * types to a by QVariant supported type or by providing on
++     * the fly an own wrapper class that inherits from QObject
++     * and does provide access to the functionality of the
++     * wrapped custom type.
++     *
++     * Following sample demonstrates the usage by registering
++     * a handler for the type "TestObject*". Once such a type
++     * got returned by a C++ class, the handler got called. If
++     * we return a QObject that implements the WrapperInterface,
++     * what is not needed, then the wrappedObject() method will
++     * be used to translate the wrapper back to the wrapped
++     * object if a C++ function got called and the wrapper is
++     * passed as argument.
++     *
++     * \code
++     * // This is our wrapper class we are using to e.g. provide
++     * // additional functionality on the fly or to provide access
++     * // to a C++ type that does not inherit from QObject.
++     * class MyWrapper : public QObject, public Kross::WrapperInterface {
++     *     public:
++     *         MyWrapper(QObject* obj) : QObject(obj) {}
++     *         void* wrappedObject() const { return parent(); }
++     * };
++     * // This function will be called by Kross if a type named
++     * // "TestObject*" got returned by a C++ method.
++     * QVariant TestObjectHandler(void* ptr)
++     * {
++     *     TestObject* obj = static_cast<TestObject*>(ptr);
++     *     MyWrapper* w = new MyWrapper(obj);
++     *     QVariant r;
++     *     r.setValue( (QObject*)w );
++     *     return r;
++     * }
++     * // and somewhere else we finally register our function.
++     * Kross::Manager::self().registerMetaTypeHandler("TestObject*", TestObjectHandler);
++     * \endcode
++     *
++     * \since 4.2
++     */
++    class KROSSCORE_EXPORT WrapperInterface
++    {
++        public:
++
++            /**
++             * Destructor.
++             */
++            virtual ~WrapperInterface() {}
++
++            /**
++             * This method got called by Kross if the wrapper-instance
++             * got passed to a C++ slot. It is recommed to return here
++             * the wrapped instance, but you don't need to.
++             */
++            virtual void* wrappedObject() const = 0;
++
++            //void wrapperConstructed() {}
++            //void wrapperDestroyed() {}
++    };
++
++}
++
++#endif
+--- a/kross/modules/form.cpp
++++ b/kross/modules/form.cpp
+@@ -73,6 +73,23 @@
+ using namespace Kross;
+ 
+ /*********************************************************************************
++ * FormList
++ */
++
++FormListView::FormListView(QWidget* parent) : QListWidget(parent) {}
++FormListView::~FormListView() {}
++void FormListView::clear() { QListWidget::clear(); }
++void FormListView::remove(int index) { delete QListWidget::item(index); }
++void FormListView::addItem(const QString& text) { QListWidget::addItem(text); }
++int FormListView::count() { return QListWidget::count(); }
++int FormListView::current() { return QListWidget::currentRow(); }
++void FormListView::setCurrent(int row) { QListWidget::setCurrentRow(row); }
++QString FormListView::text(int row) {
++    QListWidgetItem *item = QListWidget::item(row);
++    return item ? item->text() : QString();
++}
++
++/*********************************************************************************
+  * FormDialog
+  */
+ 
+@@ -599,6 +616,14 @@
+     return widget;
+ }
+ 
++QWidget* FormModule::createListView(QWidget* parent)
++{
++    FormListView* widget = new FormListView(parent);
++    if( parent && parent->layout() )
++        parent->layout()->addWidget(widget);
++    return widget;
++}
++
+ QObject* FormModule::loadPart(QWidget* parent, const QString& name, const QUrl& url)
+ {
+     //name e.g. "libkghostview"
+--- a/kross/modules/form.h
++++ b/kross/modules/form.h
+@@ -22,6 +22,7 @@
+ 
+ #include <QtGui/QWidget>
+ #include <QtCore/QUrl>
++#include <QtGui/QListWidget>
+ 
+ #include <kpagedialog.h>
+ //#include <kfilewidget.h>
+@@ -29,6 +30,25 @@
+ namespace Kross {
+ 
+     /**
++     * The FormListView class provides access to a ListView.
++     */
++    class FormListView : public QListWidget
++    {
++            Q_OBJECT
++        public:
++            explicit FormListView(QWidget* parent);
++            virtual ~FormListView();
++        public Q_SLOTS:
++            void clear();
++            void remove(int index);
++            void addItem(const QString& text);
++            int count();
++            int current();
++            void setCurrent(int row);
++            QString text(int row);
++    };
++
++    /**
+      * The FormFileWidget class provides access to a KFileWidget.
+      */
+     class FormFileWidget : public QWidget
+@@ -463,6 +483,15 @@
+             QWidget* createFileWidget(QWidget* parent, const QString& startDirOrVariable = QString());
+ 
+             /**
++             * Create and return a new \a FormListView instance.
++             *
++             * \param parent the parent QWidget the new \a FormListView instance
++             * is a child of.
++             * \return the new \a FormFileWidget instance or NULL.
++             */
++            QWidget* createListView(QWidget* parent);
++
++            /**
+              * Load and return a KPart component.
+              * \param parent The parent QWidget the KPart's widget will be child of.
+              * \param name The name of the KPart library like e.g. "libkhtmlpart".
+--- a/kross/test/main.cpp
++++ b/kross/test/main.cpp
+@@ -23,6 +23,7 @@
+ #include "../core/action.h"
+ #include "../core/interpreter.h"
+ #include "../core/manager.h"
++#include "../core/wrapperinterface.h"
+ 
+ // Qt
+ 
+@@ -121,6 +122,16 @@
+     return ERROR_OK;
+ }
+ 
++QVariant OtherObjectHandler(void* ptr)
++{
++    OtherObject* obj = static_cast<OtherObject*>(ptr);
++    kDebug()<<"OtherObjectHandler objectName="<<(obj ? obj->objectName() : "NULL");
++    OtherObjectWrapper* wrapper = new OtherObjectWrapper(obj);
++    QVariant r;
++    r.setValue( (QObject*) wrapper );
++    return r;
++}
++
+ int main(int argc, char **argv)
+ {
+     int result = 0;
+@@ -163,6 +174,8 @@
+     Kross::Manager::self().addObject( testobj1 );
+     Kross::Manager::self().addObject( testobj2 );
+ 
++    Kross::Manager::self().registerMetaTypeHandler("OtherObject*", OtherObjectHandler);
++
+     foreach(const QString &file, scriptfiles) {
+         result = runScriptFile(file);
+         if(result != ERROR_OK)
+--- a/kross/test/testobject.cpp
++++ b/kross/test/testobject.cpp
+@@ -34,6 +34,7 @@
+     setObjectName(name);
+ 
+     qRegisterMetaType<TestObject*>("TestObject");
++    //qRegisterMetaType< QList<TestObject*> >("QList<TestObject*>");
+ 
+     QTimer* timer = new QTimer(this);
+     timer->setObjectName("TestTimer");
+@@ -245,10 +246,47 @@
+ TestObject* TestObject::func_testobject_qobject(QObject* obj)
+ {
+     TestObject* tobj = dynamic_cast<TestObject*>(obj);
+-    Q_ASSERT(tobj);
+     return tobj;
+ }
+ 
++void TestObject::func_void_testobjectlist(QList<TestObject*> l)
++{
++    kDebug() << "TestObject::func_void_testobjectlist " << l.count();
++    foreach(TestObject* obj, l)
++        kDebug() << "  " << (obj ? obj->objectName() : "NULL");
++}
++
++QList<TestObject*> TestObject::func_testobjectlist_testobjectlist(QList<TestObject*> l)
++{
++    kDebug() << "TestObject::func_testobjectlist_testobjectlist " << l.count();
++    return l;
++}
++
++/*****************************************************************************************
++ * OtherObject
++ */
++
++OtherObject* TestObject::func_otherobject(const QByteArray& name)
++{
++    if( OtherObject* obj = findChild<OtherObject*>(name) )
++        return obj;
++    return new OtherObject(this, name);
++}
++
++OtherObject* TestObject::func_otherobject_otherobject(OtherObject* obj)
++{
++    return obj;
++}
++
++QList<OtherObject*> TestObject::func_otherobjectlist_otherobjectlist(QList<OtherObject*> l)
++{
++    return l;
++}
++
++/*****************************************************************************************
++ * TestThread
++ */
++
+ TestThread::TestThread(TestObject* parent, int steps, int msecs)
+     : QThread(parent)
+     , m_testobject(parent)
+--- a/kross/test/testobject.h
++++ b/kross/test/testobject.h
+@@ -47,8 +47,11 @@
+ 
+ #include "../core/action.h"
+ #include "../core/object.h"
++#include "../core/wrapperinterface.h"
+ 
+-/// \internal
++class OtherObject;
++
++/// \internal class to test functionality within krosstest
+ class TestObject : public QObject
+ {
+         Q_OBJECT
+@@ -105,6 +108,8 @@
+     public Q_SLOTS:
+ 
+         QObject* myself() { return this; }
++        TestObject* myself2() { return this; }
++        QList<TestObject*> myself3() { return QList<TestObject*>() << this; }
+ 
+         // return a TestThread instance.
+         QObject* createThread(int steps, int msecs, bool start = false);
+@@ -186,12 +191,41 @@
+         void func_void_testobject(TestObject*);
+         TestObject* func_testobject_testobject(TestObject*);
+         TestObject* func_testobject_qobject(QObject*);
++        void func_void_testobjectlist(QList<TestObject*>);
++        QList<TestObject*> func_testobjectlist_testobjectlist(QList<TestObject*>);
++
++        // OtherObject
++        OtherObject* func_otherobject(const QByteArray& name);
++        OtherObject* func_otherobject_otherobject(OtherObject*);
++        QList<OtherObject*> func_otherobjectlist_otherobjectlist(QList<OtherObject*>);
++};
+ 
+-        //QObject* self() { return this; }
++/// \internal class used in TestObject to test functionality within krosstest
++class OtherObject : public QObject
++{
++        Q_OBJECT
++    public:
++        explicit OtherObject(TestObject* testobj, const QByteArray& name) : QObject(testobj) { setObjectName(name); }
++    public Q_SLOTS:
++        QObject* testObject() const { return parent(); }
++};
++
++/// \internal class used in a handler within krosstest to provide a OtherObject wrapper on demand
++class OtherObjectWrapper : public QObject, public Kross::WrapperInterface
++{
++        Q_OBJECT
++    public:
++        OtherObjectWrapper(QObject* obj) : QObject(obj) {
++            Q_ASSERT(obj);
++            setObjectName(QString("%1_wrapper").arg(obj->objectName()).toLatin1());
++        }
++        void* wrappedObject() const { return parent(); }
++    public Q_SLOTS:
++        QObject* parentObject() const { return parent(); }
+ };
+ 
+ /**
+-* \internal class to test threading functionality.
++* \internal class to test threading functionality within krosstest.
+ *
+ * Following python code does provide a sample how this class
+ * may used to test the threading functionality.
+--- a/kross/test/unittest.py
++++ b/kross/test/unittest.py
+@@ -277,6 +277,22 @@
+ 		myclass = MyClass(s)
+ 		self.assert_( self.object1.call_krossobject_method(myclass, "myMethod") == s )
+ 
++	def testOtherObject(self):
++		otherobj1 = self.object1.func_otherobject("OtherObject1")
++		otherobj2 = self.object1.func_otherobject("OtherObject2")
++		#print "otherobj1=%s otherobj1.objectName=%s dir(otherobj1)=%s" % (otherobj1, otherobj1.objectName, dir(otherobj1))
++
++		self.assert_( otherobj1.objectName == "OtherObject1_wrapper" )
++		self.assert_( otherobj2.objectName == "OtherObject2_wrapper" )
++		self.assert_( otherobj1.parentObject().objectName == "OtherObject1" )
++		self.assert_( otherobj2.parentObject().objectName == "OtherObject2" )
++		self.assert_( self.object1.func_otherobject_otherobject(otherobj1).objectName == otherobj1.objectName )
++
++		l = self.object1.func_otherobjectlist_otherobjectlist( [otherobj1,otherobj2] )
++		self.assert_( len(l) == 2 )
++		self.assert_( l[0].objectName == "OtherObject1_wrapper" )
++		self.assert_( l[1].parentObject().objectName == "OtherObject2" )
++
+ print "__name__ = %s" % __name__
+ #print "__main__ = %s %s" % (__main__,dir(__main__))
+ #print "TestObject3.name = %s" % TestObject3.name()
+--- a/kross/ui/model.cpp
++++ b/kross/ui/model.cpp
+@@ -208,7 +208,7 @@
+                                 return item->action->icon();
+                     } break;
+                     case Qt::DisplayRole:
+-                        return item->action->text().remove("&");
++                        return item->action->text().remove('&');
+                     case Qt::ToolTipRole: // fall through
+                     case Qt::WhatsThisRole: {
+                         if( d->mode & ToolTips ) {
+--- a/kross/ui/view.cpp
++++ b/kross/ui/view.cpp
+@@ -32,8 +32,6 @@
+ #include <QtGui/QHeaderView>
+ #include <QtGui/QTreeView>
+ #include <QtGui/QLabel>
+-#include <QtGui/QLineEdit>
+-#include <QtGui/QComboBox>
+ 
+ #include <kapplication.h>
+ //#include <kdeversion.h>
+@@ -46,9 +44,11 @@
+ #include <kpagedialog.h>
+ #include <kaction.h>
+ #include <kactioncollection.h>
+-#include <kurlrequester.h>
++#include <kcombobox.h>
+ #include <kicondialog.h>
+ #include <klocale.h>
++#include <klineedit.h>
++#include <kurlrequester.h>
+ 
+ //#include <ktar.h>
+ //#include <kio/netaccess.h>
+@@ -88,11 +88,11 @@
+                 return type == ActionType ? action->isEnabled() : collection->isEnabled();
+             }
+ 
+-            QLineEdit* nameedit;
+-            QLineEdit* textedit;
+-            QLineEdit* commentedit;
+-            QLineEdit* iconedit;
+-            QComboBox* interpreteredit;
++            KLineEdit* nameedit;
++            KLineEdit* textedit;
++            KLineEdit* commentedit;
++            KLineEdit* iconedit;
++            KComboBox* interpreteredit;
+             KUrlRequester* fileedit;
+             //QCheckBox* enabledcheckbox;
+ 
+@@ -150,7 +150,7 @@
+ 
+     QLabel* namelabel = new QLabel(i18n("Name:"), w);
+     gridlayout->addWidget(namelabel, 0, 0);
+-    d->nameedit = new QLineEdit(w);
++    d->nameedit = new KLineEdit(w);
+     namelabel->setBuddy(d->nameedit);
+     d->nameedit->setText( d->name() );
+     d->nameedit->setEnabled(false);
+@@ -158,14 +158,14 @@
+ 
+     QLabel* textlabel = new QLabel(i18n("Text:"), w);
+     gridlayout->addWidget(textlabel, 1, 0);
+-    d->textedit = new QLineEdit(w);
++    d->textedit = new KLineEdit(w);
+     textlabel->setBuddy(d->textedit);
+     d->textedit->setText( d->text() );
+     gridlayout->addWidget(d->textedit, 1, 1);
+ 
+     QLabel* commentlabel = new QLabel(i18n("Comment:"), w);
+     gridlayout->addWidget(commentlabel, 2, 0);
+-    d->commentedit = new QLineEdit(w);
++    d->commentedit = new KLineEdit(w);
+     commentlabel->setBuddy(d->commentedit);
+     d->commentedit->setText( d->description() );
+     gridlayout->addWidget(d->commentedit, 2, 1);
+@@ -176,7 +176,7 @@
+     QHBoxLayout* iconlayout = new QHBoxLayout();
+     iconlayout->setMargin(0);
+     iconbox->setLayout(iconlayout);
+-    d->iconedit = new QLineEdit(iconbox);
++    d->iconedit = new KLineEdit(iconbox);
+     iconlabel->setBuddy(d->iconedit);
+     d->iconedit->setText( d->iconName() );
+     iconlayout->addWidget(d->iconedit, 1);
+@@ -193,7 +193,7 @@
+     if( d->type == Private::ActionType ) {
+         QLabel* interpreterlabel = new QLabel(i18n("Interpreter:"), w);
+         gridlayout->addWidget(interpreterlabel, 4, 0);
+-        d->interpreteredit = new QComboBox(w);
++        d->interpreteredit = new KComboBox(w);
+         interpreterlabel->setBuddy(d->interpreteredit);
+         d->interpreteredit->setMaxVisibleItems(10);
+         d->interpreteredit->insertItems(0, Manager::self().interpreters());
+--- a/kross/ui/view.h
++++ b/kross/ui/view.h
+@@ -31,7 +31,7 @@
+ 
+ #include <kdialog.h>
+ 
+-class QLineEdit;
++class KLineEdit;
+ class QComboBox;
+ class QItemSelection;
+ class KActionCollection;

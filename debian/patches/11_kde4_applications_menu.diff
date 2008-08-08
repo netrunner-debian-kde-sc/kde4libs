@@ -1,5 +1,3 @@
-Index: b/kded/kbuildsycoca.cpp
-===================================================================
 --- a/kded/kbuildsycoca.cpp
 +++ b/kded/kbuildsycoca.cpp
 @@ -307,7 +307,7 @@
@@ -11,8 +9,6 @@ Index: b/kded/kbuildsycoca.cpp
  
       KServiceGroup::Ptr entry = g_bsgf->addNew("/", kdeMenu->directoryFile, KServiceGroup::Ptr(), false);
       entry->setLayoutInfo(kdeMenu->layoutList);
-Index: b/kded/CMakeLists.txt
-===================================================================
 --- a/kded/CMakeLists.txt
 +++ b/kded/CMakeLists.txt
 @@ -67,7 +67,7 @@

@@ -1,5 +1,3 @@
-Index: b/kdeui/kernel/kglobalsettings.cpp
-===================================================================
 --- a/kdeui/kernel/kglobalsettings.cpp
 +++ b/kdeui/kernel/kglobalsettings.cpp
 @@ -326,7 +326,7 @@

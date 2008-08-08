@@ -1,5 +1,5 @@
---- kdelibs-4.1.0/interfaces/ktexteditor/CMakeLists.txt	2008-05-21 14:06:25.000000000 +0300
-+++ kdelibs-branch/interfaces/ktexteditor/CMakeLists.txt	2008-08-01 10:37:49.000000000 +0300
+--- a/interfaces/ktexteditor/CMakeLists.txt
++++ b/interfaces/ktexteditor/CMakeLists.txt
 @@ -26,7 +26,11 @@
  
  target_link_libraries(ktexteditor  ${KDE4_KDECORE_LIBS} ${QT_QTDBUS_LIBRARY} kparts )
@@ -13,8 +13,8 @@
  install(TARGETS ktexteditor ${INSTALL_TARGETS_DEFAULT_ARGS})
  
  ########### install files ###############
---- kdelibs-4.1.0/kde3support/CMakeLists.txt	2008-07-03 08:06:23.000000000 +0300
-+++ kdelibs-branch/kde3support/CMakeLists.txt	2008-08-01 10:37:39.000000000 +0300
+--- a/kde3support/CMakeLists.txt
++++ b/kde3support/CMakeLists.txt
 @@ -81,7 +81,9 @@
  target_link_libraries(kde3support  ${KDE4_KPARTS_LIBS} ${KDE4_KPTY_LIBS} ${QT_QTXML_LIBRARY} ${QT_QT3SUPPORT_LIBRARY} ${KDE4_KFILE_LIBS} ${X11_LIBRARIES})
  
@@ -26,8 +26,8 @@
  
  install(TARGETS kde3support ${INSTALL_TARGETS_DEFAULT_ARGS})
  
---- kdelibs-4.1.0/kdecore/CMakeLists.txt	2008-07-03 08:06:30.000000000 +0300
-+++ kdelibs-branch/kdecore/CMakeLists.txt	2008-08-01 10:39:38.000000000 +0300
+--- a/kdecore/CMakeLists.txt
++++ b/kdecore/CMakeLists.txt
 @@ -246,9 +246,17 @@
  
  target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
@@ -49,8 +49,8 @@
  
  install(TARGETS kdecore ${INSTALL_TARGETS_DEFAULT_ARGS})
  
---- kdelibs-4.1.0/kdeui/CMakeLists.txt	2008-07-15 22:50:58.000000000 +0300
-+++ kdelibs-branch/kdeui/CMakeLists.txt	2008-08-01 10:39:57.000000000 +0300
+--- a/kdeui/CMakeLists.txt
++++ b/kdeui/CMakeLists.txt
 @@ -320,7 +320,9 @@
  endif(X11_Xrender_FOUND)
  
@@ -62,8 +62,8 @@
  
  install(TARGETS kdeui ${INSTALL_TARGETS_DEFAULT_ARGS})
  ########### install files ###############
---- kdelibs-4.1.0/khtml/CMakeLists.txt	2008-07-03 08:06:21.000000000 +0300
-+++ kdelibs-branch/khtml/CMakeLists.txt	2008-08-01 10:38:13.000000000 +0300
+--- a/khtml/CMakeLists.txt
++++ b/khtml/CMakeLists.txt
 @@ -336,7 +336,9 @@
  target_link_libraries(khtml ${KDE4_KPARTS_LIBS} ktexteditor kjs ${KDE4_PHONON_LIBS} ${JPEG_LIBRARIES} ${GIF_LIBRARIES} ${PNG_LIBRARIES} ${X11_LIBRARIES})
  
@@ -75,8 +75,8 @@
  
  
  set(CREATE_HASH_TABLE ${CMAKE_SOURCE_DIR}/kjs/create_hash_table )
---- kdelibs-4.1.0/kio/CMakeLists.txt	2008-07-15 22:50:57.000000000 +0300
-+++ kdelibs-branch/kio/CMakeLists.txt	2008-08-01 10:37:53.000000000 +0300
+--- a/kio/CMakeLists.txt
++++ b/kio/CMakeLists.txt
 @@ -267,7 +267,9 @@
  endif(X11_Xrender_FOUND)
  
@@ -88,8 +88,8 @@
  
  
  ########### install files ###############
---- kdelibs-4.1.0/kparts/CMakeLists.txt	2008-07-03 08:06:26.000000000 +0300
-+++ kdelibs-branch/kparts/CMakeLists.txt	2008-08-01 10:39:49.000000000 +0300
+--- a/kparts/CMakeLists.txt
++++ b/kparts/CMakeLists.txt
 @@ -27,7 +27,9 @@
  target_link_libraries(kparts  ${KDE4_KDECORE_LIBS} kdeui kio)
  
@@ -101,8 +101,8 @@
  
  
  install(TARGETS kparts ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdelibs-4.1.0/kross/core/CMakeLists.txt	2008-07-03 08:06:23.000000000 +0300
-+++ kdelibs-branch/kross/core/CMakeLists.txt	2008-08-01 10:38:00.000000000 +0300
+--- a/kross/core/CMakeLists.txt
++++ b/kross/core/CMakeLists.txt
 @@ -13,7 +13,9 @@
  kde4_add_library(krosscore SHARED ${krosscore_LIB_SRCS})
  target_link_libraries(krosscore ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} ${QT_QTSCRIPT_LIBRARY} ${QT_QTXML_LIBRARY})
@@ -112,5 +112,5 @@
 +                                ${KDE4_DISABLE_PROPERTY_}LINK_INTERFACE_LIBRARIES "kdecore;${QT_QTSCRIPT_LIBRARY};${QT_QTXML_LIBRARY}"
 +)
  
- install(TARGETS krosscore ${INSTALL_TARGETS_DEFAULT_ARGS})
  
+ install(TARGETS krosscore ${INSTALL_TARGETS_DEFAULT_ARGS})

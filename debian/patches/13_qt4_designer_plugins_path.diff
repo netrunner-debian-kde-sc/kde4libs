@@ -1,5 +1,3 @@
-Index: b/kdewidgets/CMakeLists.txt
-===================================================================
 --- a/kdewidgets/CMakeLists.txt
 +++ b/kdewidgets/CMakeLists.txt
 @@ -55,7 +55,7 @@

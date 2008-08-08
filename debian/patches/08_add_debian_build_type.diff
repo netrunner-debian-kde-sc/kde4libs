@@ -4,8 +4,8 @@ Define NDEBUG, otherwise we get pure debug code. Kfind will start in one instead
 of twenty seconds with this define e.g. because of enabled caching of unknown
 icons.
 Debug output is not completely disabled, because QT_NO_DEBUG is not set.
---- kde4libs-4.1.0.orig/cmake/modules/FindKDE4Internal.cmake
-+++ kde4libs-4.1.0/cmake/modules/FindKDE4Internal.cmake
+--- a/cmake/modules/FindKDE4Internal.cmake
++++ b/cmake/modules/FindKDE4Internal.cmake
 @@ -948,11 +948,13 @@
     set(CMAKE_CXX_FLAGS_DEBUG          "-g -O2 -fno-reorder-blocks -fno-schedule-insns -fno-inline")
     set(CMAKE_CXX_FLAGS_DEBUGFULL      "-g3 -fno-inline")
