@@ -1,11 +1,11 @@
-kde4libs (4:4.1.0-3) UNRELEASED; urgency=low
+kde4libs (4:4.1.0-3) unstable; urgency=low
 
   +++ Changes by Fathi Boudra:
 
   * Update kross to version 11 (r838337). Fix build of latest kdevplatform
     and kdevelop4 (Closes: #491272).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Aug 2008 17:31:45 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Aug 2008 18:56:06 +0200
 
 kde4libs (4:4.1.0-2) unstable; urgency=low
 
