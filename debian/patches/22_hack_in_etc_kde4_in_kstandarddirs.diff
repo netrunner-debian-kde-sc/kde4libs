@@ -1,3 +1,15 @@
+In the case of config files, we want a local sysadm dir added as well.
+
+The priorities is as follows:
+
+ - peoples homedir (.kde4)
+ - for config files, /etc/kde4/
+ - what's defined in KDEDIRS
+ - the default install path.
+
+With this patch, we can also install all config files into /usr/ as they just can get
+overridden by adding new files to /etc/kde4 by the sysadm.
+
 --- a/kdecore/kernel/kstandarddirs.cpp
 +++ b/kdecore/kernel/kstandarddirs.cpp
 @@ -1010,6 +1010,10 @@

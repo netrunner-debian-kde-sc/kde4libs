@@ -1,3 +1,8 @@
+both gnome and kde seems to claim the application.menu name in the XDG menu dir.
+We can't have that - or having kde and gnome conflicting would be bad bad bad, so both  parties divert
+from the name. The path is hardcoded though, so needs to be patched in.
+
+
 --- a/kded/kbuildsycoca.cpp
 +++ b/kded/kbuildsycoca.cpp
 @@ -307,7 +307,7 @@

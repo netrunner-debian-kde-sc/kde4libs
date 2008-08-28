@@ -1,3 +1,7 @@
+Include the Debian menu. Else all would end up under lost & found.
+
+Patch by Sune Vuorela.
+
 --- a/kded/applications.menu
 +++ b/kded/applications.menu
 @@ -426,5 +426,12 @@

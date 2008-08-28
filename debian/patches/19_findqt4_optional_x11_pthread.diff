@@ -1,3 +1,5 @@
+qt doesn't expose the x11 headers to the world, so no need to make it required.
+
 --- a/cmake/modules/FindQt4.cmake
 +++ b/cmake/modules/FindQt4.cmake
 @@ -1430,10 +1430,9 @@
