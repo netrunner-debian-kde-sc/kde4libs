@@ -9,6 +9,7 @@ kde4libs (4:4.1.1-0try1) experimental; urgency=low
     - remove 02_41branch_link_interface_libraries.diff
     - remove 99_conservative_link_interface_libraries.diff, no need to be more
       conservative than upstream.
+  * New file, FindEigen2.cmake. put in kdelibs5-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Aug 2008 22:41:00 +0200
 
