@@ -1,23 +1,14 @@
---- a/kross/console/CMakeLists.txt
-+++ b/kross/console/CMakeLists.txt
-@@ -7,5 +7,5 @@
- 
- set(kross_SRCS main.cpp )
- kde4_add_executable(kross ${kross_SRCS})
--target_link_libraries(kross  ${KDE4_KDECORE_LIBS} krosscore )
-+target_link_libraries(kross  ${KDE4_KDEUI_LIBS} krosscore )
- install(TARGETS kross DESTINATION ${BIN_INSTALL_DIR})
 --- a/kross/core/CMakeLists.txt
 +++ b/kross/core/CMakeLists.txt
-@@ -15,6 +15,7 @@
- set_target_properties(krosscore PROPERTIES VERSION ${GENERIC_LIB_VERSION} 
-                                 SOVERSION ${GENERIC_LIB_SOVERSION} )
+@@ -17,6 +17,7 @@
+                                 ${KDE4_DISABLE_PROPERTY_}LINK_INTERFACE_LIBRARIES "kdecore;${QT_QTSCRIPT_LIBRARY};${QT_QTXML_LIBRARY}"
+ )
  
 +
  install(TARGETS krosscore ${INSTALL_TARGETS_DEFAULT_ARGS})
  
  install(FILES
-@@ -22,6 +23,7 @@
+@@ -24,6 +25,7 @@
      krossconfig.h
      errorinterface.h
      childreninterface.h
