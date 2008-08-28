@@ -1,3 +1,5 @@
+In a build environment /dev/ptmx is not always present.
+Bypass build time check as /dev/ptmx is alsways present at runtime.
 --- a/ConfigureChecks.cmake
 +++ b/ConfigureChecks.cmake
 @@ -192,13 +192,7 @@
