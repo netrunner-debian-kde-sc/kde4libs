@@ -1,17 +1,17 @@
-kde4libs (4:4.1.1-0try1) experimental; urgency=low
+kde4libs (4:4.1.1-1) experimental; urgency=low
 
-  * New upstream release
+  * New upstream release.
 
   +++ Changes by Sune Vuorela:
 
-  * Update patches.
-    - remove 01_r840377_840379_unload_on_close.diff  from upstream
-    - remove 02_41branch_link_interface_libraries.diff
+  * Update patches;
+    - remove 01_r840377_840379_unload_on_close.diff merged upstream
+    - remove 02_41branch_link_interface_libraries.diff.
     - remove 99_conservative_link_interface_libraries.diff, no need to be more
       conservative than upstream.
-  * New file, FindEigen2.cmake. put in kdelibs5-dev.
+  * Add new file FindEigen2.cmake in kdelibs5-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Aug 2008 22:41:00 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Sep 2008 00:22:08 +0200
 
 kde4libs (4:4.1.0-3) unstable; urgency=low
 
