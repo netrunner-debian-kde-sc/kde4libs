@@ -1,4 +1,3 @@
-01_kross_version_11_r838337.diff
 08_add_debian_build_type.diff
 09_disable_debug_messages_if_not_explicitly_enabled.diff
 11_kde4_applications_menu.diff
