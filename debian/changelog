@@ -1,6 +1,7 @@
 kde4libs (4:4.1.2-0) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update UPSTREAMVERSION to 4.1.2 in debian/rules.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 22:59:33 +0200
 
