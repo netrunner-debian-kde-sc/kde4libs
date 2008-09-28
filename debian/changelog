@@ -1,9 +1,9 @@
-kde4libs (4:4.1.2-0) UNRELEASED; urgency=low
+kde4libs (4:4.1.2-1) experimental; urgency=low
 
   * New upstream release.
   * Update UPSTREAMVERSION to 4.1.2 in debian/rules.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 22:59:33 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 28 Sep 2008 12:33:31 +0200
 
 kde4libs (4:4.1.1-1) experimental; urgency=low
 
