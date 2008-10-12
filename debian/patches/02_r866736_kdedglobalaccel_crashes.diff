@@ -1,0 +1,46 @@
+SVN commit 866736 by mjansen:
+
+Fix those kdedglobalaccel crashes. It's not safe to assume the config file
+has a correct content. Somehow it get's messed up sometimes and contains
+something like this:
+
+  next=Meta+B,Meta+B,
+  nextTrack=Meta+B,Meta+B,
+
+BUG:171870
+CCBUG:171206
+
+ M  +10 -2     kdedglobalaccel.cpp  
+
+
+Index: kde4libs-4.1.2/kdeui/shortcuts/kdedglobalaccel.cpp
+===================================================================
+--- kde4libs-4.1.2.orig/kdeui/shortcuts/kdedglobalaccel.cpp	2008-07-03 07:06:28.000000000 +0200
++++ kde4libs-4.1.2/kdeui/shortcuts/kdedglobalaccel.cpp	2008-10-12 20:36:21.000000000 +0200
+@@ -361,8 +361,9 @@
+ 
+ void KdedGlobalAccel::unRegister(const QStringList &actionId)
+ {
+-    Q_ASSERT(actionId.size()==4);
++    kDebug(125) << actionId;
+ 
++    Q_ASSERT(actionId.size()==4);
+     if (actionId.size() < 4) {
+         return;
+     }
+@@ -586,7 +587,14 @@
+     
+             foreach (int key, ad->keys) {
+                 if (key != 0) {
+-                    d->keyToAction.insert(key, ad);
++                    if (d->keyToAction.contains(key)) {
++                        // The shortcut is already used. The config file is
++                        // broken. Ignore the request.
++                        ad->keys.removeAll(key);
++                        kWarning() << "Shortcut found twice in kglobalshortcutsrc.";
++                    } else {
++                        d->keyToAction.insert(key, ad);
++                    }
+                 }
+             }
+         }

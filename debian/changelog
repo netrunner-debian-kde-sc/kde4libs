@@ -1,3 +1,9 @@
+kde4libs (4:4.1.2-2) experimental; urgency=low
+
+  * Fix kdedglobalaccel crashes. Patch 02. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 12 Oct 2008 20:00:14 +0200
+
 kde4libs (4:4.1.2-1) experimental; urgency=low
 
   * New upstream release.
