@@ -9,8 +9,11 @@ kde4libs (4:4.1.3-1) experimental; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Bump shlibs to 4.1.3.
+  * Loosen kdebase-runtime dependency back to 4.1.0. There seems to be no
+    other easy way to solve experimental buildd failures. This should not
+    hurt too much.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Sep 2008 00:22:08 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Nov 2008 09:56:56 +0200
 
 kde4libs (4:4.1.2-2) experimental; urgency=low
 
