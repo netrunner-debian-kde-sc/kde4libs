@@ -1,3 +1,13 @@
+kde4libs (4:4.1.3-2) experimental; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Bump kdebase-runtime dependency back to 4.1.3. The previous change was
+    a mistake.
+  * Bump kdelibs5 shlibs to 4.1.3-2 to ease the pain.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Nov 2008 22:18:05 +0200
+
 kde4libs (4:4.1.3-1) experimental; urgency=low
 
   * New upstream release
