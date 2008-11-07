@@ -6,6 +6,10 @@ kde4libs (4:4.1.3-2) experimental; urgency=low
     a mistake.
   * Bump kdelibs5 shlibs to 4.1.3-2 to ease the pain.
 
+  +++ Changes by Sune Vuorela:
+
+  * Add patch for http cache cleaner to keep the cache revision in sync.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Nov 2008 22:18:05 +0200
 
 kde4libs (4:4.1.3-1) experimental; urgency=low
