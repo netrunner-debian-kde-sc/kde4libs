@@ -1,3 +1,39 @@
+kde4libs (4:4.1.73+svn885249-0r1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot.
+
+  TODO: check where new upstream man pages belong.
+
+  +++ Changes by Modestas Vainius:
+
+  * Resync patches:
+    - 01_http_cache_cleaner_branch_881252.diff - remove, stolen from upstream.
+    - 01_kross_version_11_r838337.diff - remove, stolen from unstream.
+    - 08_add_debian_build_type.diff - refresh.
+    - 13_qt4_designer_plugins_path.diff - refresh.
+    - 14_hardcode_ptm_device.diff - refresh.
+    - 15_kfreebsd_support.diff - refresh.
+    - 16_debian_menu.diff - refresh.
+    - 17_findservicebydesktoppath_try_realfilepath.diff - remove, incomplete.
+    - 18_always_set_cmake_policy.diff - remove, obsolete.
+    - 19_findqt4_optional_x11_pthread.diff - refresh.
+    - 20_use_dejavu_as_default_font.diff - refresh.
+    - 22_hack_in_etc_kde4_in_kstandarddirs.diff - refresh.
+  * Update cmake (build-)dependency to 2.6.2
+  * Build with -DCMAKE_USE_RELATIVE_PATHS=ON.
+  * Bump standards-version to 3.8.0:
+    - add README.source.
+  * Cleanup old conflicts/replaces (for KDE 4.0 prerelease versions).
+  * Add new packages for Plasma. They were based on the respective Plasma
+    packages from kdebase-workspace.
+    - libplasma3 - contains Plasma library and plugins.
+    - libplasma-dev - contains Plasma development files.
+    - Bump plasma ABI to plasma-abi-4.2-1.
+    - kdelibs5-data replaces kdebase-workspace-data and libplasma2 from KDE 4.1
+  * Update install and installgen files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Nov 2008 00:34:40 +0200
+
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
   +++ Changes by Modestas Vainius:

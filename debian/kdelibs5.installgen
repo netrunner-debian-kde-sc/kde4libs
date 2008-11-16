@@ -1,5 +1,6 @@
-# Depends on kdelibs-bin to deal with libkdeinit4 first
-depends kdelibs-bin
+# Depends on kdelibs-bin which deals with libkdeinit4 first
+depends kdelibs-bin libplasma3
+
 dst:usr/lib/kde4/libexec/
 mime:application/x-sharedlib.* ! link:
 dst:usr/lib/.+\.so[\d.]+$ link:

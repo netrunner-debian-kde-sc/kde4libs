@@ -2,7 +2,7 @@ qt doesn't expose the x11 headers to the world, so no need to make it required.
 
 --- a/cmake/modules/FindQt4.cmake
 +++ b/cmake/modules/FindQt4.cmake
-@@ -1430,10 +1430,9 @@
+@@ -1457,10 +1457,9 @@
    IF(UNIX)
      # on OS X X11 may not be required
      IF (Q_WS_X11)

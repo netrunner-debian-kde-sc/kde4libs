@@ -1,11 +1,11 @@
 --- a/kdewidgets/CMakeLists.txt
 +++ b/kdewidgets/CMakeLists.txt
-@@ -55,7 +55,7 @@
+@@ -53,7 +53,7 @@
                         )
  endif(NOT WIN32)
  
 -install(TARGETS kdewidgets  DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/designer )
 +install(TARGETS kdewidgets  DESTINATION /usr/lib/qt4/plugins/designer )
  
- 
- ########### install files ###############
+ if (QT_QT3SUPPORT_FOUND)
+   

@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6), 
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.2),
  shared-mime-info (>= 0.20), libphonon-dev (>= 4:4.2.0),
  libcups2-dev, libdbus-1-dev, libqt4-dev (>= 4.4.0~),
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
@@ -15,7 +15,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6),
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc,
  libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~svn834416),
  libxcursor-dev
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdelibs
 Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdelibs
@@ -35,6 +35,7 @@ Package: kdelibs5-data
 Section: libs
 Architecture: all
 Depends: hicolor-icon-theme
+Replaces: kdebase-workspace-data (<< 4:4.1.66), libplasma2
 Description: core shared data for all KDE 4 applications
  This package contains architecture-independent data files needed to run KDE 4
  applications.
@@ -44,7 +45,7 @@ Description: core shared data for all KDE 4 applications
 Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), cmake (>= 2.6.0), automoc (>= 1.0~svn834416),
+Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), cmake (>= 2.6.2), automoc (>= 1.0~svn834416),
  ${sameVersionDep:libqt4-dev}, ${sameVersionDep:libsoprano-dev}, ${sameVersionDep:libphonon-dev}
 #Suggests: kdelibs5-doc (= ${source:Version})
 Replaces: kdebase-runtime-data (<< 4:4.0.60), kdelibs5-data (<< 4:4.0.80-1)
@@ -72,13 +73,49 @@ Description: executables for all KDE 4 core applications
  .
  This package is part of the KDE 4 libraries module.
 
+Package: libplasma3
+Section: libs
+Architecture: any
+Priority: optional
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
+Provides: ${plasma:abi-provides}
+Replaces: libplasma2
+Conflicts: libplasma2
+Description: library for the KDE 4 Plasma desktop
+ Plasma is one of the key technologies of KDE 4 (also known as the "Pillars
+ of KDE"), and one of the most visible to users. It is the component that
+ is "in charge" of the desktop interface; the desktop, panel (often referred
+ simply as the task bar), and related elements. Plasma aims to change the
+ traditional concepts of the "Desktop", incorporating semantic application
+ elements, and bringing cooperating technologies to the user's fingertips in
+ a way that is visually appealing while easing work flow.
+ .
+ This package contains the KDE 4 Plasma library and plugins. It is part of the
+ KDE 4 libraries module.
+
+Package: libplasma-dev
+Section: libdevel
+Architecture: any
+Priority: optional
+Depends: libplasma3 (= ${binary:Version}), kdelibs5-dev (= ${binary:Version})
+Description: development files for the KDE 4 Plasma desktop
+ Plasma is one of the key technologies of KDE 4 (also known as the "Pillars
+ of KDE"), and one of the most visible to users. It is the component that
+ is "in charge" of the desktop interface; the desktop, panel (often referred
+ simply as the task bar), and related elements. Plasma aims to change the
+ traditional concepts of the "Desktop", incorporating semantic application
+ elements, and bringing cooperating technologies to the user's fingertips in
+ a way that is visually appealing while easing work flow.
+ .
+ This package contains headers and other development files needed to build
+ software that uses the KDE 4 Plasma library. It is part of the KDE 4
+ libraries module.
+
 Package: kdelibs5-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs5 (= ${binary:Version}), libqt4-dbg (>= 4.4.0~), libc6-dbg [amd64]
-Conflicts: kdelibs-dbg (>= 4:3.91.0-1)
-Replaces: kdelibs-dbg (>= 4:3.91.0-1)
+Depends: kdelibs5 (= ${binary:Version}), libqt4-dbg (>= 4.4.3), libc6-dbg [amd64]
 Description: debugging symbols for the KDE 4 libraries module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE 4 libraries module.
