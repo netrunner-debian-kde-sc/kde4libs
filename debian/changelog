@@ -31,8 +31,10 @@ kde4libs (4:4.1.73+svn885249-0r1) UNRELEASED; urgency=low
     - Bump plasma ABI to plasma-abi-4.2-1.
     - kdelibs5-data replaces kdebase-workspace-data and libplasma2 from KDE 4.1
   * Update install and installgen files.
+  * Make kdelibs5 conflict with kdebase-runtime << 4:4.1.73 because some
+    stuff does not work (e.g. kwallet) and there are other issues.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Nov 2008 00:34:40 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Nov 2008 04:51:34 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
