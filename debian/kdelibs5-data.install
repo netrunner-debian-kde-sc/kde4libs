@@ -1,4 +1,5 @@
-etc/xdg/menus/applications.menu
+../config.README usr/share/kde4/config
+etc/xdg/menus/kde4-applications.menu
 usr/share/doc/kde4/HTML/en/common/1.png
 usr/share/doc/kde4/HTML/en/common/10.png
 usr/share/doc/kde4/HTML/en/common/2.png

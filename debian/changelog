@@ -1,8 +1,12 @@
-kde4libs (4:4.1.73+svn885249-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.73+svn885397-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   TODO: check where new upstream man pages belong.
+  TODO: sort out kdelibs-bin <=> kdelibs5 for:
+    - libkdeinit4_klauncher.so
+    - libkdeinit4_kio_http_cache_cleaner.so
+    - libkdeinit4_kconf_update.so
 
   +++ Changes by Modestas Vainius:
 
@@ -34,7 +38,7 @@ kde4libs (4:4.1.73+svn885249-0r1) UNRELEASED; urgency=low
   * Make kdelibs5 recommend kdebase-runtime >= 4:4.1.73 because some
     stuff does not work (e.g. kwallet) with previous versions.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Nov 2008 04:51:34 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Nov 2008 12:54:08 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 

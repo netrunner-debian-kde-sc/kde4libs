@@ -21,6 +21,7 @@ usr/include/KDE/Plasma/ExtenderItem
 usr/include/KDE/Plasma/FlashingLabel
 usr/include/KDE/Plasma/Frame
 usr/include/KDE/Plasma/FrameSvg
+usr/include/KDE/Plasma/GLApplet
 usr/include/KDE/Plasma/GroupBox
 usr/include/KDE/Plasma/IconWidget
 usr/include/KDE/Plasma/Label
@@ -73,6 +74,7 @@ usr/include/plasma/dialog.h
 usr/include/plasma/extender.h
 usr/include/plasma/extenderitem.h
 usr/include/plasma/framesvg.h
+usr/include/plasma/glapplet.h
 usr/include/plasma/package.h
 usr/include/plasma/packagemetadata.h
 usr/include/plasma/packagestructure.h
