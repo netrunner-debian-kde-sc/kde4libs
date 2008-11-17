@@ -97,7 +97,8 @@ Package: libplasma-dev
 Section: libdevel
 Architecture: any
 Priority: optional
-Depends: libplasma3 (= ${binary:Version}), kdelibs5-dev (= ${binary:Version})
+Depends: libplasma3 (= ${binary:Version}), kdelibs5-dev (= ${binary:Version}),
+ ${sameVersionDep:libqt4-opengl-dev:libplasma3}
 Description: development files for the KDE 4 Plasma desktop
  Plasma is one of the key technologies of KDE 4 (also known as the "Pillars
  of KDE"), and one of the most visible to users. It is the component that
