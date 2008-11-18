@@ -9,7 +9,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.2),
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libkeyutils-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libpng-dev, libssl-dev, libsm-dev,
- libsoprano-dev (>= 2.1), libstreamanalyzer-dev,
+ libsoprano-dev (>= 2.1), libstreamanalyzer-dev (>= 0.5.11-2),
  libxml2-dev, libxml2-utils,  libxslt1-dev, libxtst-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc,
@@ -26,6 +26,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
  kdelibs-bin(>= ${binary:Version}), dbus-x11, shared-mime-info, xauth
 Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.1.73)
+Replaces: kdelibs-bin (<< 4:4.1.74)
 Description: core libraries for all KDE 4 applications
  This package contains shared libraries needed to run KDE 4 applications.
  .

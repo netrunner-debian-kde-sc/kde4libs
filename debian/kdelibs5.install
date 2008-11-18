@@ -67,6 +67,9 @@ usr/lib/libkdecore.so.5
 usr/lib/libkdecore.so.5.2.0
 usr/lib/libkdefakes.so.5
 usr/lib/libkdefakes.so.5.2.0
+usr/lib/libkdeinit4_kconf_update.so
+usr/lib/libkdeinit4_kio_http_cache_cleaner.so
+usr/lib/libkdeinit4_klauncher.so
 usr/lib/libkdesu.so.5
 usr/lib/libkdesu.so.5.2.0
 usr/lib/libkdeui.so.5

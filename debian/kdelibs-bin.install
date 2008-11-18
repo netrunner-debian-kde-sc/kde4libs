@@ -18,7 +18,4 @@ usr/bin/meinproc4
 usr/bin/nepomuk-rcgen
 usr/bin/preparetips
 usr/lib/libkdeinit4_kbuildsycoca4.so
-usr/lib/libkdeinit4_kconf_update.so
 usr/lib/libkdeinit4_kded4.so
-usr/lib/libkdeinit4_kio_http_cache_cleaner.so
-usr/lib/libkdeinit4_klauncher.so
