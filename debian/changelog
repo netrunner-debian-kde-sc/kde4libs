@@ -1,4 +1,4 @@
-kde4libs (4:4.1.73+svn886187-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.73+svn886384-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -27,8 +27,9 @@ kde4libs (4:4.1.73+svn886187-0r1) UNRELEASED; urgency=low
   * Add new packages for Plasma. They were based on the respective Plasma
     packages from kdebase-workspace.
     - libplasma3 - contains Plasma library and plugins.
-    - libplasma-dev - contains Plasma development files. In addition, make it
-      depend on libqt4-opengl-dev since GLApplet uses its header.
+    - libplasma-dev - contains Plasma development files. Build depend on
+      libqt4-opengl-dev and make libplasma-dev depend on libqt4-opengl-dev
+      since GLApplet uses its header.
     - Bump plasma ABI to plasma-abi-4.2-1.
     - kdelibs5-data replaces kdebase-workspace-data and libplasma2 from KDE 4.1
   * Update install and installgen files.
@@ -41,7 +42,7 @@ kde4libs (4:4.1.73+svn886187-0r1) UNRELEASED; urgency=low
     - libkdeinit4_kio_http_cache_cleaner.so
     - libkdeinit4_kconf_update.so
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 18 Nov 2008 22:10:24 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 19 Nov 2008 11:55:40 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
