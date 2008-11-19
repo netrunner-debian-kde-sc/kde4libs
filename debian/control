@@ -80,8 +80,6 @@ Architecture: any
 Priority: optional
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
 Provides: ${plasma:abi-provides}
-Replaces: libplasma2
-Conflicts: libplasma2
 Description: library for the KDE 4 Plasma desktop
  Plasma is one of the key technologies of KDE 4 (also known as the "Pillars
  of KDE"), and one of the most visible to users. It is the component that
