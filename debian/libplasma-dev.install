@@ -50,6 +50,7 @@ usr/include/KDE/Plasma/SvgWidget
 usr/include/KDE/Plasma/TabBar
 usr/include/KDE/Plasma/TextEdit
 usr/include/KDE/Plasma/Theme
+usr/include/KDE/Plasma/ToolButton
 usr/include/KDE/Plasma/ToolTipContent
 usr/include/KDE/Plasma/ToolTipManager
 usr/include/KDE/Plasma/TreeView

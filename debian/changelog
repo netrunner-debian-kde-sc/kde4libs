@@ -1,4 +1,4 @@
-kde4libs (4:4.1.73+svn886384-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.80+svn886812-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -42,7 +42,7 @@ kde4libs (4:4.1.73+svn886384-0r1) UNRELEASED; urgency=low
     - libkdeinit4_kio_http_cache_cleaner.so
     - libkdeinit4_kconf_update.so
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 19 Nov 2008 11:55:40 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 20 Nov 2008 11:31:39 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
