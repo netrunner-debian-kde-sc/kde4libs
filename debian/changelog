@@ -1,4 +1,4 @@
-kde4libs (4:4.1.80+svn886812-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.80+svn887492-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -41,8 +41,9 @@ kde4libs (4:4.1.80+svn886812-0r1) UNRELEASED; urgency=low
     - libkdeinit4_klauncher.so
     - libkdeinit4_kio_http_cache_cleaner.so
     - libkdeinit4_kconf_update.so
+  * Build depend on soprano >= 2.1.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 20 Nov 2008 11:31:39 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Nov 2008 15:47:53 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
