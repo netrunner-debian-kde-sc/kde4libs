@@ -1,4 +1,0 @@
-dst:usr/lib/libplasma\.so link:libplasma\.so[\d.]+$
-dst:apps/cmake/modules/FindPlasma
-dst:/include/plasma
-dst:/include/KDE/Plasma

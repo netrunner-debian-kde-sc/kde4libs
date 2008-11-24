@@ -1,8 +1,0 @@
-depends last
-
-missing dst:usr/share/locale/all_languages$
-
-dst:usr/share/doc/kde4/HTML/
-mime:text/.*
-mime:image/.*
-mime:application/(?!(x-executable|x-sharedlib)).*

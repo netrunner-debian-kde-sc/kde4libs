@@ -1,5 +1,0 @@
-# The following belongs to kdelibs5
-skip dst:usr/lib/libkdeinit4_(klauncher|kio_http_cache_cleaner|kconf_update)\.so$
-
-dst:usr/bin/
-dst:libkdeinit4_.*\.so
