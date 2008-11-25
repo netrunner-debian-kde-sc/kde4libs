@@ -1,0 +1,34 @@
+--- a/kded/CMakeLists.txt
++++ b/kded/CMakeLists.txt
+@@ -67,7 +67,7 @@
+ 
+ ########### install files ###############
+ 
+-install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus )
++install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus RENAME kde4-applications.menu)
+ install( FILES kdedmodule.desktop DESTINATION  ${SERVICETYPES_INSTALL_DIR} )
+ install( FILES kded.upd           DESTINATION  ${DATA_INSTALL_DIR}/kconf_update )
+ 
+--- a/kded/vfolder_menu.cpp
++++ b/kded/vfolder_menu.cpp
+@@ -771,8 +771,10 @@
+    QString result;
+ 
+    QString xdgMenuPrefix = QString::fromLocal8Bit(qgetenv("XDG_MENU_PREFIX"));
+-   if (!xdgMenuPrefix.isEmpty())
+-   {
++   // enforce kde4 prefix unless XDG_MENU_PREFIX is set (LP: #297195)
++   if (xdgMenuPrefix.isEmpty())
++      xdgMenuPrefix = QString("kde4-");
++
+       QFileInfo fileInfo(fileName);
+ 
+       QString fileNameOnly = fileInfo.fileName();
+@@ -782,7 +784,6 @@
+       QString baseName = QDir::cleanPath(m_docInfo.baseDir +
+                                          fileInfo.path() + '/' + fileNameOnly);
+       result = KStandardDirs::locate("xdgconf-menu", baseName);
+-   }
+ 
+    if (result.isEmpty())
+    {
