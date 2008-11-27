@@ -46,7 +46,7 @@ Description: core shared data for all KDE 4 applications
 Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), cmake (>= 2.6.2), automoc (>= 1.0~svn834416),
+Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), cmake (>= 2.6.2), automoc (>= 1.0~svn850570),
  ${sameVersionDep:libqt4-dev}, ${sameVersionDep:libsoprano-dev}, ${sameVersionDep:libphonon-dev}
 #Suggests: kdelibs5-doc (= ${source:Version})
 Replaces: kdebase-runtime-data (<< 4:4.0.60), kdelibs5-data (<< 4:4.0.80-1)
