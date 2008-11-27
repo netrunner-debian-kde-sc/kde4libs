@@ -1,3 +1,8 @@
+usr/bin/checkXML
+usr/bin/kconfig_compiler
+usr/bin/kunittestmodrunner
+usr/bin/makekdewidgets
+usr/bin/preparetips
 usr/include/KDE/ConversionCheck/QVconvertible
 usr/include/KDE/ConversionCheck/type_toQString
 usr/include/KDE/ConversionCheck/type_toQVariant

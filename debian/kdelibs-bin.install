@@ -1,6 +1,4 @@
-usr/bin/checkXML
 usr/bin/kbuildsycoca4
-usr/bin/kconfig_compiler
 usr/bin/kcookiejar4
 usr/bin/kde4-config
 usr/bin/kded4
@@ -11,11 +9,8 @@ usr/bin/kjs
 usr/bin/kjscmd
 usr/bin/kross
 usr/bin/kshell4
-usr/bin/kunittestmodrunner
 usr/bin/kwrapper4
-usr/bin/makekdewidgets
 usr/bin/meinproc4
 usr/bin/nepomuk-rcgen
-usr/bin/preparetips
 usr/lib/libkdeinit4_kbuildsycoca4.so
 usr/lib/libkdeinit4_kded4.so
