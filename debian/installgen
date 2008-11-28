@@ -8,7 +8,10 @@ dst:/include/KDE/Plasma
 dst:usr/lib/libplasma\.so[\d.]+$
 
 [kdelibs5-dev]
-dst:usr/lib/lib[^/]+\.so$ link:usr/lib/[^/]+\.so\.
+# Some binaries are -dev only
+dst:usr/bin/(checkXML|kconfig_compiler|kunittestmodrunner|makekdewidgets|preparetips)$
+dst:/man/.*/(checkXML|kconfig_compiler|kunittestmodrunner|makekdewidgets|preparetips|kdecmake)\.\d
+dst:usr/lib/.+\.so$ link:usr/lib/.+\.so\.
 dst:apps/cmake/
 dst:/include/
 dst:dbus-\d+/interfaces/

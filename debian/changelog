@@ -1,8 +1,6 @@
-kde4libs (4:4.1.80+svn889844-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.80+svn889833-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
-
-  TODO: check where new upstream man pages belong.
 
   +++ Changes by Modestas Vainius:
 
@@ -43,17 +41,18 @@ kde4libs (4:4.1.80+svn889844-0r1) UNRELEASED; urgency=low
     - libkdeinit4_kconf_update.so
   * Build depend on soprano >= 2.1.1.
   * Use better approach to enforcing kde4- prefix to applications.menu. The
-    previous way broken menu spec and made 3rd party applications end up in 
+    previous way broken menu spec and made 3rd party applications end up in
     Lost&Found menu. 11_kde4_applications_menu.diff patch was replaced by
     11_default_kde4_xdg_menu_prefix.diff. Thanks to Harald Sitter for the
     heads up.
   * Switch to new installgen file format.
+  * Move upstream manpages from debian/*.manpages to debian/*.install files.
 
   +++ Changes by George Kiagiadakis:
 
   * Update automoc (build-)dependency to 1.0~svn850570.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Nov 2008 20:40:17 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 13:01:58 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
