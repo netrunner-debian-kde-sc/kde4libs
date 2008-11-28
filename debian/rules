@@ -2,7 +2,7 @@
 
 UPSTREAMVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(.*\)-.*/\1/')
 #UPSTREAMVERSION ?= 4:4.1.3-2
-PLASMA_ABI=plasma-abi-4.2-2
+PLASMA_ABI=plasma-abi-4.2-1
 RUNTIME_DEPS := kdebase-runtime (>= 4:4.1.73)
 
 DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg
