@@ -24,7 +24,8 @@ kde4libs (4:4.1.80+svn889833-0r1) UNRELEASED; urgency=low
   * Cleanup old conflicts/replaces (for KDE 4.0 prerelease versions).
   * Add new packages for Plasma. They were based on the respective Plasma
     packages from kdebase-workspace.
-    - libplasma3 - contains Plasma library and plugins.
+    - libplasma3 - contains Plasma library and plugins. Make kdelibs5-dbg
+      recommend it.
     - libplasma-dev - contains Plasma development files. Build depend on
       libqt4-opengl-dev and make libplasma-dev depend on libqt4-opengl-dev
       since GLApplet uses its header.
@@ -52,7 +53,7 @@ kde4libs (4:4.1.80+svn889833-0r1) UNRELEASED; urgency=low
 
   * Update automoc (build-)dependency to 1.0~svn850570.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 13:01:58 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 17:08:18 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 

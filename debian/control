@@ -116,6 +116,7 @@ Section: libdevel
 Architecture: any
 Priority: extra
 Depends: kdelibs5 (= ${binary:Version}), libqt4-dbg (>= 4.4.3), libc6-dbg [amd64]
+Recommends: libplasma3 (= ${binary:Version})
 Description: debugging symbols for the KDE 4 libraries module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE 4 libraries module.
