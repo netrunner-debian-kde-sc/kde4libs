@@ -1,4 +1,4 @@
-kde4libs (4:4.1.81+svn890553-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.81+svn890646-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -55,7 +55,7 @@ kde4libs (4:4.1.81+svn890553-0r1) UNRELEASED; urgency=low
 
   * Update automoc (build-)dependency to 1.0~svn850570.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Nov 2008 17:37:52 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Nov 2008 20:49:59 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
