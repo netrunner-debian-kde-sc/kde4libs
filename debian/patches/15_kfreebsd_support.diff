@@ -41,7 +41,7 @@ cmake.
  
  #include <kdebug.h>
 --- a/kio/kfile/kpropertiesdialog.cpp
-+++ b/kio/kfile/kpropertiesdialog.cpp
++++ b/kio/kfile/kpropertiesdialog.cpp	
 @@ -1879,7 +1879,15 @@
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
@@ -59,44 +59,8 @@ cmake.
  #endif
      return fileSystemSupportsACLs;
  }
---- a/kioslave/file/file.cpp
-+++ b/kioslave/file/file.cpp
-@@ -361,9 +361,10 @@
-     }
- 
- #ifdef HAVE_FADVISE
-+#ifdef POSIX_FADV_SEQUENTIAL
-     posix_fadvise( fd, 0, 0, POSIX_FADV_SEQUENTIAL);
- #endif
--
-+#endif
-     // Determine the mimetype of the file to be retrieved, and emit it.
-     // This is mandatory in all slaves (for KRun/BrowserRun to work)
-     // In real "remote" slaves, this is usually done using findByNameAndContent
-@@ -882,8 +883,10 @@
-     }
- 
- #ifdef HAVE_FADVISE
-+#ifdef POSIX_FADV_SEQUENTIAL
-     posix_fadvise(src_fd,0,0,POSIX_FADV_SEQUENTIAL);
- #endif
-+#endif
-     // WABA: Make sure that we keep writing permissions ourselves,
-     // otherwise we can be in for a surprise on NFS.
-     mode_t initialMode;
-@@ -905,8 +908,10 @@
-     }
- 
- #ifdef HAVE_FADVISE
-+#ifdef POSIX_FADV_SEQUENTIAL
-     posix_fadvise(dest_fd,0,0,POSIX_FADV_SEQUENTIAL);
- #endif
-+#endif
- 
- #ifdef HAVE_POSIX_ACL
-     acl = acl_get_fd(src_fd);
 --- a/ConfigureChecks.cmake
-+++ b/ConfigureChecks.cmake
++++ b/ConfigureChecks.cmake	
 @@ -153,11 +153,11 @@
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
@@ -112,3 +76,13 @@ cmake.
      if (HAVE_UTMPX)
        set(utmp utmpx)
        if (login_in_libutil)
+--- a/kioslave/file/file.cpp
++++ b/kioslave/file/file.cpp
+@@ -307,6 +307,7 @@
+     }
+ 
+ #ifdef HAVE_FADVISE
++#ifdef POSIX_FADV_SEQUENTIAL
+     posix_fadvise( fd, 0, 0, POSIX_FADV_SEQUENTIAL);
+ #endif
+ 
