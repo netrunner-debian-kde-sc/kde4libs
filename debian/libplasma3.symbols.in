@@ -2552,6 +2552,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-2
  _ZNK6Plasma6Applet8extenderEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Applet8locationEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Applet8sizeHintEN2Qt8SizeHintERK6QSizeF@Base 4:4.1.80+svn889833
+ _ZNK6Plasma6Applet9destroyedEv@Base 4:4.1.81+svn891126
  _ZNK6Plasma6Applet9mapToViewEPK13QGraphicsViewRK6QRectF@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Applet9saveStateER12KConfigGroup@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Corona10metaObjectEv@Base 4:4.1.80+svn889833

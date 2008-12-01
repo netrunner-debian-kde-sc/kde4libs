@@ -1,4 +1,4 @@
-kde4libs (4:4.1.81+svn890646-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.81+svn891126-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -29,10 +29,10 @@ kde4libs (4:4.1.81+svn890646-0r1) UNRELEASED; urgency=low
     - libplasma-dev - contains Plasma development files. Build depend on
       libqt4-opengl-dev and make libplasma-dev depend on libqt4-opengl-dev
       since GLApplet uses its header.
-    - Bump plasma ABI to plasma-abi-4.2-1.
+    - Bump plasma ABI to plasma-abi-4.2-2.
     - kdelibs5-data replaces kdebase-workspace-data and libplasma2 from KDE 4.1
   * Update install and installgen files.
-  * Make kdelibs5 recommend kdebase-runtime >= 4:4.1.73 because some
+  * Make kdelibs5 recommend kdebase-runtime >= 4:4.1.80 because some
     stuff does not work (e.g. kwallet) with previous versions.
   * Build depend on strigi >= 0.5.11-2.
   * Move some libkdeinit4 stuff to kdelibs5 since their executables are in
@@ -48,7 +48,7 @@ kde4libs (4:4.1.81+svn890646-0r1) UNRELEASED; urgency=low
     heads up.
   * Switch to new installgen file format.
   * Move upstream manpages from debian/*.manpages to debian/*.install files.
-  * Build depend on pkg-kde-tools 0.3~pre5, add symbols file for libplasma3,
+  * Build depend on pkg-kde-tools 0.3, add symbols file for libplasma3,
     add appropriate hooks to debian/rules.
 
   +++ Changes by George Kiagiadakis:
@@ -59,7 +59,7 @@ kde4libs (4:4.1.81+svn890646-0r1) UNRELEASED; urgency=low
   
   * Rework slightly patch 15_kfreebsd_support.diff.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Nov 2008 20:49:59 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Dec 2008 14:50:03 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
