@@ -41,7 +41,7 @@ cmake.
  
  #include <kdebug.h>
 --- a/kio/kfile/kpropertiesdialog.cpp
-+++ b/kio/kfile/kpropertiesdialog.cpp	
++++ b/kio/kfile/kpropertiesdialog.cpp
 @@ -1879,7 +1879,15 @@
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
@@ -60,7 +60,7 @@ cmake.
      return fileSystemSupportsACLs;
  }
 --- a/ConfigureChecks.cmake
-+++ b/ConfigureChecks.cmake	
++++ b/ConfigureChecks.cmake
 @@ -153,11 +153,11 @@
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
@@ -78,11 +78,14 @@ cmake.
        if (login_in_libutil)
 --- a/kioslave/file/file.cpp
 +++ b/kioslave/file/file.cpp
-@@ -307,6 +307,7 @@
+@@ -307,8 +307,10 @@
      }
  
  #ifdef HAVE_FADVISE
 +#ifdef POSIX_FADV_SEQUENTIAL
      posix_fadvise( fd, 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
++#endif
  
+     // Determine the mimetype of the file to be retrieved, and emit it.
+     // This is mandatory in all slaves (for KRun/BrowserRun to work)
