@@ -1,4 +1,4 @@
-kde4libs (4:4.1.81+svn891975-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.81+svn892147-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -50,6 +50,10 @@ kde4libs (4:4.1.81+svn891975-0r1) UNRELEASED; urgency=low
   * Move upstream manpages from debian/*.manpages to debian/*.install files.
   * Build depend on pkg-kde-tools 0.3, add symbols file for libplasma3,
     add appropriate hooks to debian/rules.
+  * kdelibs5-dev conflicts with kdepimlibs5-dev (<< 4:4.1.81+svn891439) because
+    of upstream changes.
+  * Add 24_findkdepimlibs_no_hardcoded_paths.diff to remove hardcoded cmake
+    modules paths from FindKdepimLibs.cmake.
 
   +++ Changes by George Kiagiadakis:
 
@@ -59,7 +63,7 @@ kde4libs (4:4.1.81+svn891975-0r1) UNRELEASED; urgency=low
   
   * Rework slightly patch 15_kfreebsd_support.diff.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Dec 2008 16:06:00 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Dec 2008 20:15:23 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
