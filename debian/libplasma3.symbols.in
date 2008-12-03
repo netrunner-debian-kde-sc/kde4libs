@@ -1964,6 +1964,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-2
  _ZN6Plasma8Extender13setAppearanceENS0_10AppearanceE@Base 4:4.1.80+svn889833
  _ZN6Plasma8Extender14itemAddedEventEPNS_12ExtenderItemERK7QPointF@Base 4:4.1.80+svn889833
  _ZN6Plasma8Extender15geometryChangedEv@Base 4:4.1.80+svn889833
+ _ZN6Plasma8Extender15mousePressEventEP24QGraphicsSceneMouseEvent@Base 4:4.1.81+svn891975
  _ZN6Plasma8Extender16itemRemovedEventEPNS_12ExtenderItemE@Base 4:4.1.80+svn889833
  _ZN6Plasma8Extender16staticMetaObjectE@Base 4:4.1.80+svn889833
  _ZN6Plasma8Extender18itemHoverMoveEventEPNS_12ExtenderItemERK7QPointF@Base 4:4.1.80+svn889833
@@ -3022,6 +3023,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-2
  _ZThn{vt:8}_N6Plasma8ComboBoxD0Ev@Base 4:4.1.80+svn889833
  _ZThn{vt:8}_N6Plasma8ComboBoxD1Ev@Base 4:4.1.80+svn889833
  _ZThn{vt:8}_N6Plasma8Extender10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@Base 4:4.1.80+svn889833
+ _ZThn{vt:8}_N6Plasma8Extender15mousePressEventEP24QGraphicsSceneMouseEvent@Base 4:4.1.81+svn891975
  _ZThn{vt:8}_N6Plasma8ExtenderD0Ev@Base 4:4.1.80+svn889833
  _ZThn{vt:8}_N6Plasma8ExtenderD1Ev@Base 4:4.1.80+svn889833
  _ZThn{vt:8}_N6Plasma8GLAppletD0Ev@Base 4:4.1.80+svn889833
