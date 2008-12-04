@@ -1529,7 +1529,6 @@ usr/share/kde4/apps/cmake/modules/FindGStreamer.cmake
 usr/share/kde4/apps/cmake/modules/FindGettext.cmake
 usr/share/kde4/apps/cmake/modules/FindGphoto2.cmake
 usr/share/kde4/apps/cmake/modules/FindKDE4Internal.cmake
-usr/share/kde4/apps/cmake/modules/FindKDEWIN.cmake
 usr/share/kde4/apps/cmake/modules/FindKDEWIN32.cmake
 usr/share/kde4/apps/cmake/modules/FindKDEWIN_Packager.cmake
 usr/share/kde4/apps/cmake/modules/FindKNepomuk.cmake

@@ -1,0 +1,59 @@
+--- a/kdecore/services/kservicefactory.cpp
++++ b/kdecore/services/kservicefactory.cpp
+@@ -125,16 +125,10 @@
+     return newService;
+ }
+ 
+-KService::Ptr KServiceFactory::findServiceByDesktopPath(const QString &_name)
++KService::Ptr KServiceFactory::serviceFromPath(const QString &_name)
+ {
+-    if (!m_relNameDict) return KService::Ptr(); // Error!
+-
+-    // Warning : this assumes we're NOT building a database
+-    // KBuildServiceFactory reimplements it for the case where we are building one
+-
+     int offset = m_relNameDict->find_string( _name );
+     if (!offset) {
+-        kDebug() << QString("findServiceByDesktopPath: %1 not found").arg( _name );
+         return KService::Ptr(); // Not found
+     }
+ 
+@@ -151,6 +145,27 @@
+     return newService;
+ }
+ 
++KService::Ptr KServiceFactory::findServiceByDesktopPath(const QString &_name)
++{
++    if (!m_relNameDict) return KService::Ptr(); // Error!
++
++    // Warning : this assumes we're NOT building a database
++    // KBuildServiceFactory reimplements it for the case where we are building one
++
++    KService::Ptr newService(serviceFromPath( _name ));
++    if ( !newService ) {
++        // We might have been given a symlink or non-canonical path of some sort.
++        // Therefore try looking up KStandardDirs::realFilePath'ed path too.
++        newService = serviceFromPath( KStandardDirs::realFilePath( _name ) );
++    }
++
++    if ( !newService ) {
++        qDebug( "findServiceByDesktopPath: %s not found", qPrintable( _name ) );
++        return KService::Ptr(); // Not found
++    }
++    return newService;
++}
++
+ KService::Ptr KServiceFactory::findServiceByMenuId(const QString &_menuId)
+ {
+     if (!m_menuIdDict) return KService::Ptr(); // Error!
+--- a/kdecore/services/kservicefactory.h
++++ b/kdecore/services/kservicefactory.h
+@@ -123,6 +123,8 @@
+     virtual void virtual_hook( int id, void* data );
+ private:
+     class KServiceFactoryPrivate* d;
++
++    KService::Ptr serviceFromPath(const QString &_name);
+ };
+ 
+ #endif

@@ -1,6 +1,6 @@
 --- a/cmake/modules/FindKdepimLibs.cmake
 +++ b/cmake/modules/FindKdepimLibs.cmake
-@@ -56,19 +56,15 @@
+@@ -57,12 +57,8 @@
  if( KDEPIMLIBS_INCLUDE_DIR )
    set(KDEPIMLIBS_FOUND TRUE)
  
@@ -14,11 +14,15 @@
    # if this file could not be loaded, we found an older version of Kdepimlibs, tell the
    # developer that he should update kdepimlibs. Alex
    if (NOT _newKdepimLibsFound)
-      message(FATAL_ERROR "You need a newer version of kdepimlibs, please update it")
+@@ -70,9 +66,9 @@
    endif (NOT _newKdepimLibsFound)
-   
--  include("${kdepimlibs_cmake_module_dir}/KDEPimLibsLibraryTargets.cmake")
-+  include(KDEPimLibsLibraryTargets)
+ 
+   # this is for compatibility, starting next monday only the version with prefix will be installed, Alex
+-  include("${kdepimlibs_cmake_module_dir}/KDEPimLibsLibraryTargetsWithPrefix.cmake" OPTIONAL RESULT_VARIABLE KDEPimLibsLibraryTargetsWithPrefix_LOADED)
++  include(KDEPimLibsLibraryTargetsWithPrefix OPTIONAL RESULT_VARIABLE KDEPimLibsLibraryTargetsWithPrefix_LOADED)
+   if(NOT KDEPimLibsLibraryTargetsWithPrefix_LOADED)
+-     include("${kdepimlibs_cmake_module_dir}/KDEPimLibsLibraryTargets.cmake")
++     include(KDEPimLibsLibraryTargets)
+   endif(NOT KDEPimLibsLibraryTargetsWithPrefix_LOADED)
  
    _kdepimlibs_set_lib_vars( AKONADI        akonadi-kde)
-   _kdepimlibs_set_lib_vars( AKONADI_KMIME  akonadi-kmime)

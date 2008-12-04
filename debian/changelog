@@ -1,4 +1,4 @@
-kde4libs (4:4.1.81+svn892147-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.82+svn892669-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -12,7 +12,7 @@ kde4libs (4:4.1.81+svn892147-0r1) UNRELEASED; urgency=low
     - 14_hardcode_ptm_device.diff - refresh.
     - 15_kfreebsd_support.diff - refresh.
     - 16_debian_menu.diff - refresh.
-    - 17_findservicebydesktoppath_try_realfilepath.diff - remove, incomplete.
+    - 17_findservicebydesktoppath_try_realfilepath.diff - refresh.
     - 18_always_set_cmake_policy.diff - remove, obsolete.
     - 19_findqt4_optional_x11_pthread.diff - refresh.
     - 20_use_dejavu_as_default_font.diff - refresh.
@@ -63,7 +63,7 @@ kde4libs (4:4.1.81+svn892147-0r1) UNRELEASED; urgency=low
   
   * Rework slightly patch 15_kfreebsd_support.diff.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Dec 2008 20:15:23 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Dec 2008 01:32:03 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
