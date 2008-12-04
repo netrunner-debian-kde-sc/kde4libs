@@ -1,3 +1,7 @@
+This patch is an attempt to make KDE find desktop files
+and other stuff when /usr or anything else in the file
+path is a symlink.
+
 --- a/kdecore/services/kservicefactory.cpp
 +++ b/kdecore/services/kservicefactory.cpp
 @@ -125,16 +125,10 @@
