@@ -2148,6 +2148,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-2
  _ZN9QUiLoaderD0Ev@Base 4:4.1.80+svn889833
  _ZN9QUiLoaderD1Ev@Base 4:4.1.80+svn889833
  _ZN9QUiLoaderD2Ev@Base 4:4.1.80+svn889833
+#DEPRECATED: PRIVATE: TEMPLINST# _ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.1.82+svn892669
  _ZNK13QFormInternal10DomInclude5writeER12QDomDocumentRK7QString@Base 4:4.1.80+svn889833
  _ZNK13QFormInternal10DomPalette5writeER12QDomDocumentRK7QString@Base 4:4.1.80+svn889833
  _ZNK13QFormInternal11DomDateTime5writeER12QDomDocumentRK7QString@Base 4:4.1.80+svn889833
