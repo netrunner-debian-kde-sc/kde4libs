@@ -1,0 +1,65 @@
+--- a/kdeui/kernel/kglobalsettings.cpp
++++ b/kdeui/kernel/kglobalsettings.cpp
+@@ -322,7 +322,7 @@
+     _generalFont = new QFont("Lucida Grande", 13);
+ #else
+     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
+-    _generalFont = new QFont("Sans Serif", 10);
++    _generalFont = new QFont("DejaVu Sans", 9);
+ #endif
+     _generalFont->setStyleHint(QFont::SansSerif);
+ 
+@@ -341,7 +341,7 @@
+     _fixedFont = new QFont("Monaco", 10);
+ #else
+     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
+-    _fixedFont = new QFont("Monospace", 10);
++    _fixedFont = new QFont("DejaVu Sans Mon", 9);
+ #endif
+     _fixedFont->setStyleHint(QFont::TypeWriter);
+ 
+@@ -360,7 +360,7 @@
+     _toolBarFont = new QFont("Lucida Grande", 11);
+ #else
+     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
+-    _toolBarFont = new QFont("Sans Serif", 8);
++    _toolBarFont = new QFont("DejaVu Sans", 8);
+ #endif
+     _toolBarFont->setStyleHint(QFont::SansSerif);
+ 
+@@ -379,7 +379,7 @@
+     _menuFont = new QFont("Lucida Grande", 13);
+ #else
+     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
+-    _menuFont = new QFont("Sans Serif", 10);
++    _menuFont = new QFont("DejaVu Sans", 9);
+ #endif
+     _menuFont->setStyleHint(QFont::SansSerif);
+ 
+@@ -395,7 +395,7 @@
+         return *_windowTitleFont;
+ 
+     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
+-    _windowTitleFont = new QFont("Sans Serif", 9, QFont::Bold);
++    _windowTitleFont = new QFont("DejaVu Sans", 9, QFont::Bold);
+     _windowTitleFont->setStyleHint(QFont::SansSerif);
+ 
+     KConfigGroup g( KGlobal::config(), "WM" );
+@@ -410,7 +410,7 @@
+         return *_taskbarFont;
+ 
+     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
+-    _taskbarFont = new QFont("Sans Serif", 10);
++    _taskbarFont = new QFont("DejaVu Sans", 9);
+     _taskbarFont->setStyleHint(QFont::SansSerif);
+ 
+     KConfigGroup g( KGlobal::config(), "General" );
+@@ -486,7 +486,7 @@
+         return *_smallestReadableFont;
+ 
+     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
+-    _smallestReadableFont = new QFont("Sans Serif", 8);
++    _smallestReadableFont = new QFont("DejaVu Sans", 8);
+     _smallestReadableFont->setStyleHint(QFont::SansSerif);
+ 
+     KConfigGroup g( KGlobal::config(), "General" );

@@ -1,65 +1,29 @@
 --- a/kdeui/kernel/kglobalsettings.cpp
 +++ b/kdeui/kernel/kglobalsettings.cpp
-@@ -322,7 +322,7 @@
-     _generalFont = new QFont("Lucida Grande", 13);
- #else
-     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
--    _generalFont = new QFont("Sans Serif", 10);
-+    _generalFont = new QFont("DejaVu Sans", 9);
+@@ -373,7 +373,7 @@
+ 
+ // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
+ static const char GeneralId[] =      "General";
+-static const char DefaultFont[] =    "Sans Serif";
++static const char DefaultFont[] =    "DejaVu Sans";
+ #ifdef Q_WS_MAC
+ static const char DefaultMacFont[] = "Lucida Grande";
  #endif
-     _generalFont->setStyleHint(QFont::SansSerif);
- 
-@@ -341,7 +341,7 @@
-     _fixedFont = new QFont("Monaco", 10);
+@@ -386,13 +386,13 @@
+     { GeneralId, "toolBarFont", DefaultMacFont, 11, -1, QFont::SansSerif },
+     { GeneralId, "menuFont",    DefaultMacFont, 13, -1, QFont::SansSerif },
  #else
-     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
--    _fixedFont = new QFont("Monospace", 10);
-+    _fixedFont = new QFont("DejaVu Sans Mon", 9);
+-    { GeneralId, "font",        DefaultFont, 10, -1, QFont::SansSerif },
+-    { GeneralId, "fixed",       "Monospace", 10, -1, QFont::TypeWriter },
++    { GeneralId, "font",        DefaultFont,  9, -1, QFont::SansSerif },
++    { GeneralId, "fixed", "DejaVu Sans Mon",  9, -1, QFont::TypeWriter },
+     { GeneralId, "toolBarFont", DefaultFont,  8, -1, QFont::SansSerif },
+-    { GeneralId, "menuFont",    DefaultFont, 10, -1, QFont::SansSerif },
++    { GeneralId, "menuFont",    DefaultFont,  9, -1, QFont::SansSerif },
  #endif
-     _fixedFont->setStyleHint(QFont::TypeWriter);
+     { "WM",      "activeFont",           DefaultFont,  9, QFont::Bold, QFont::SansSerif },// inconsistency
+-    { GeneralId, "taskbarFont",          DefaultFont, 10, -1, QFont::SansSerif },
++    { GeneralId, "taskbarFont",          DefaultFont,  9, -1, QFont::SansSerif },
+     { GeneralId, "smallestReadableFont", DefaultFont,  8, -1, QFont::SansSerif }
+ };
  
-@@ -360,7 +360,7 @@
-     _toolBarFont = new QFont("Lucida Grande", 11);
- #else
-     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
--    _toolBarFont = new QFont("Sans Serif", 8);
-+    _toolBarFont = new QFont("DejaVu Sans", 8);
- #endif
-     _toolBarFont->setStyleHint(QFont::SansSerif);
- 
-@@ -379,7 +379,7 @@
-     _menuFont = new QFont("Lucida Grande", 13);
- #else
-     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
--    _menuFont = new QFont("Sans Serif", 10);
-+    _menuFont = new QFont("DejaVu Sans", 9);
- #endif
-     _menuFont->setStyleHint(QFont::SansSerif);
- 
-@@ -395,7 +395,7 @@
-         return *_windowTitleFont;
- 
-     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
--    _windowTitleFont = new QFont("Sans Serif", 9, QFont::Bold);
-+    _windowTitleFont = new QFont("DejaVu Sans", 9, QFont::Bold);
-     _windowTitleFont->setStyleHint(QFont::SansSerif);
- 
-     KConfigGroup g( KGlobal::config(), "WM" );
-@@ -410,7 +410,7 @@
-         return *_taskbarFont;
- 
-     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
--    _taskbarFont = new QFont("Sans Serif", 10);
-+    _taskbarFont = new QFont("DejaVu Sans", 9);
-     _taskbarFont->setStyleHint(QFont::SansSerif);
- 
-     KConfigGroup g( KGlobal::config(), "General" );
-@@ -486,7 +486,7 @@
-         return *_smallestReadableFont;
- 
-     // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
--    _smallestReadableFont = new QFont("Sans Serif", 8);
-+    _smallestReadableFont = new QFont("DejaVu Sans", 8);
-     _smallestReadableFont->setStyleHint(QFont::SansSerif);
- 
-     KConfigGroup g( KGlobal::config(), "General" );
