@@ -1,4 +1,4 @@
-kde4libs (4:4.1.82+svn893271-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.82+svn893527-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -63,6 +63,8 @@ kde4libs (4:4.1.82+svn893271-0r1) UNRELEASED; urgency=low
   
   * Rework slightly patch 15_kfreebsd_support.diff.
   * Redo patch 20_use_dejavu_as_default_font.diff.
+  * Update 24_findkdepimlibs_no_hardcoded_paths.diff after updates in the
+    KDE's SVN.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Dec 2008 16:02:04 +0100
 
