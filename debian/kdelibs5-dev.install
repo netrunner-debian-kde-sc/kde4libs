@@ -1295,6 +1295,7 @@ usr/include/ktextbrowser.h
 usr/include/ktextedit.h
 usr/include/ktexteditor/annotationinterface.h
 usr/include/ktexteditor/attribute.h
+usr/include/ktexteditor/codecompletionmodelcontrollerinterface.h
 usr/include/ktexteditor/codecompletioninterface.h
 usr/include/ktexteditor/codecompletionmodel.h
 usr/include/ktexteditor/commandinterface.h
