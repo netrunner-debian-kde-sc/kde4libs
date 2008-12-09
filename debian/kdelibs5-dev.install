@@ -1295,9 +1295,9 @@ usr/include/ktextbrowser.h
 usr/include/ktextedit.h
 usr/include/ktexteditor/annotationinterface.h
 usr/include/ktexteditor/attribute.h
-usr/include/ktexteditor/codecompletionmodelcontrollerinterface.h
 usr/include/ktexteditor/codecompletioninterface.h
 usr/include/ktexteditor/codecompletionmodel.h
+usr/include/ktexteditor/codecompletionmodelcontrollerinterface.h
 usr/include/ktexteditor/commandinterface.h
 usr/include/ktexteditor/configinterface.h
 usr/include/ktexteditor/configpage.h
@@ -1530,6 +1530,7 @@ usr/share/kde4/apps/cmake/modules/FindGStreamer.cmake
 usr/share/kde4/apps/cmake/modules/FindGettext.cmake
 usr/share/kde4/apps/cmake/modules/FindGphoto2.cmake
 usr/share/kde4/apps/cmake/modules/FindKDE4Internal.cmake
+usr/share/kde4/apps/cmake/modules/FindKDE4Workspace.cmake
 usr/share/kde4/apps/cmake/modules/FindKDEWIN32.cmake
 usr/share/kde4/apps/cmake/modules/FindKDEWIN_Packager.cmake
 usr/share/kde4/apps/cmake/modules/FindKNepomuk.cmake
