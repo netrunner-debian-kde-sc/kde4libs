@@ -322,6 +322,7 @@ usr/include/KDE/KFileTreeBranch
 usr/include/KDE/KFileTreeView
 usr/include/KDE/KFilterBase
 usr/include/KDE/KFilterDev
+usr/include/KDE/KFilterProxySearchLine
 usr/include/KDE/KFind
 usr/include/KDE/KFindDialog
 usr/include/KDE/KFloatValidator
