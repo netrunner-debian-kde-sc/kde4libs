@@ -1648,6 +1648,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-2
  _ZN6Plasma5Theme15settingsChangedEv@Base 4:4.1.80+svn889833
  _ZN6Plasma5Theme16packageStructureEv@Base 4:4.1.80+svn889833
  _ZN6Plasma5Theme16staticMetaObjectE@Base 4:4.1.80+svn889833
+ _ZN6Plasma5Theme17releaseRectsCacheERK7QString@Base 4:4.1.85+svn895706
  _ZN6Plasma5Theme20insertIntoRectsCacheERK7QStringS3_RK6QRectF@Base 4:4.1.80+svn889833
  _ZN6Plasma5Theme20invalidateRectsCacheERK7QString@Base 4:4.1.80+svn889833
  _ZN6Plasma5Theme20setUseGlobalSettingsEb@Base 4:4.1.80+svn889833
@@ -1763,6 +1764,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-2
  _ZN6Plasma6Dialog17mouseReleaseEventEP11QMouseEvent@Base 4:4.1.80+svn889833
  _ZN6Plasma6Dialog17setGraphicsWidgetEP15QGraphicsWidget@Base 4:4.1.80+svn889833
  _ZN6Plasma6Dialog22setResizeHandleCornersE6QFlagsINS0_12ResizeCornerEE@Base 4:4.1.80+svn889833
+ _ZN6Plasma6Dialog5eventEP6QEvent@Base 4:4.1.85+svn895706
  _ZN6Plasma6Dialog9hideEventEP10QHideEvent@Base 4:4.1.80+svn889833
  _ZN6Plasma6Dialog9showEventEP10QShowEvent@Base 4:4.1.80+svn889833
  _ZN6Plasma6DialogC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:4.1.80+svn889833
