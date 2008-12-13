@@ -1,4 +1,4 @@
-libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-2
+libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-3
 * Build-Depends-Package: libplasma-dev
 #DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI11QStringListET_RK8QVariant@Base 4:4.1.80+svn889833
 #DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI12QKeySequenceET_RK8QVariant@Base 4:4.1.80+svn889833
@@ -1403,6 +1403,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-2
  _ZN6Plasma14AbstractRunner3runERKNS_13RunnerContextERKNS_10QueryMatchE@Base 4:4.1.80+svn889833
  _ZN6Plasma14AbstractRunner4initEv@Base 4:4.1.80+svn889833
  _ZN6Plasma14AbstractRunner5matchERNS_13RunnerContextE@Base 4:4.1.80+svn889833
+ _ZN6Plasma14AbstractRunner7bigLockEv@Base 4:4.1.85+svn896225
  _ZN6Plasma14AbstractRunner8setSpeedENS0_5SpeedE@Base 4:4.1.80+svn889833
  _ZN6Plasma14AbstractRunner9addActionERK7QStringP7QAction@Base 4:4.1.80+svn889833
  _ZN6Plasma14AbstractRunner9addActionERK7QStringRK5QIconS3_@Base 4:4.1.80+svn889833
@@ -2406,7 +2407,6 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-2
  _ZNK6Plasma14AbstractRunner6actionERK7QString@Base 4:4.1.80+svn889833
  _ZNK6Plasma14AbstractRunner6configEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma14AbstractRunner7actionsEv@Base 4:4.1.80+svn889833
- _ZNK6Plasma14AbstractRunner7bigLockEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma14AbstractRunner7packageEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma14AbstractRunner8priorityEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma14ToolTipContent15windowToPreviewEv@Base 4:4.1.80+svn889833
