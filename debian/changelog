@@ -2,6 +2,8 @@ kde4libs (4:4.1.85+svn897388-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
+  - kfmclient is no longer needed (Closes: #508601).
+
   +++ Changes by Modestas Vainius:
 
   * Resync patches:
