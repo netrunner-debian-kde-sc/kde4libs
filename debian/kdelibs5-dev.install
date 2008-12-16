@@ -1497,6 +1497,7 @@ usr/share/dbus-1/interfaces/org.kde.KWallet.xml
 usr/share/dbus-1/interfaces/org.kde.Solid.Networking.Client.xml
 usr/share/dbus-1/interfaces/org.kde.kded.xml
 usr/share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
+usr/share/kde4/apps/cmake/modules/BasicFindPackageVersion.cmake.in
 usr/share/kde4/apps/cmake/modules/CheckPointerMember.cmake
 usr/share/kde4/apps/cmake/modules/CheckPrototypeExists.cmake
 usr/share/kde4/apps/cmake/modules/CheckStructMember.cmake
@@ -1610,6 +1611,7 @@ usr/share/kde4/apps/cmake/modules/MacroOptionalAddSubdirectory.cmake
 usr/share/kde4/apps/cmake/modules/MacroOptionalDependPackage.cmake
 usr/share/kde4/apps/cmake/modules/MacroOptionalFindPackage.cmake
 usr/share/kde4/apps/cmake/modules/MacroPushRequiredVars.cmake
+usr/share/kde4/apps/cmake/modules/MacroWriteBasicCMakeVersionFile.cmake
 usr/share/kde4/apps/cmake/modules/NepomukMacros.cmake
 usr/share/kde4/apps/cmake/modules/PythonCompile.py
 usr/share/kde4/apps/cmake/modules/PythonMacros.cmake

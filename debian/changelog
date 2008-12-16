@@ -1,7 +1,6 @@
-kde4libs (4:4.1.85+svn896225-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.85+svn897388-0r1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - kfmclient is no longer needed (Closes: #508601).
+  * New upstream development snapshot.
 
   +++ Changes by Modestas Vainius:
 
@@ -69,7 +68,7 @@ kde4libs (4:4.1.85+svn896225-0r1) UNRELEASED; urgency=low
   * Fix patch 09_disable_debug_messages_if_not_explicitly_enabled.diff. Now
     really only debug output is disabled.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Dec 2008 22:39:49 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Dec 2008 01:49:01 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
