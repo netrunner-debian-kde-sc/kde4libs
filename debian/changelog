@@ -1,4 +1,4 @@
-kde4libs (4:4.1.85+svn897388-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.85+svn897899-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -70,7 +70,7 @@ kde4libs (4:4.1.85+svn897388-0r1) UNRELEASED; urgency=low
   * Fix patch 09_disable_debug_messages_if_not_explicitly_enabled.diff. Now
     really only debug output is disabled.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Dec 2008 01:49:01 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Dec 2008 12:08:06 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
