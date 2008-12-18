@@ -2616,6 +2616,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-4
  _ZNK6Plasma8ComboBox4textEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma8Delegate10metaObjectEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma8Delegate11roleMappingENS0_13SpecificRolesE@Base 4:4.1.80+svn889833
+ _ZNK6Plasma8Delegate11showToolTipEv@Base 4:4.1.85+svn898214
  _ZNK6Plasma8Delegate14rectAfterTitleERK20QStyleOptionViewItemRK11QModelIndex@Base 4:4.1.80+svn889833
  _ZNK6Plasma8Delegate17rectAfterSubTitleERK20QStyleOptionViewItemRK11QModelIndex@Base 4:4.1.80+svn889833
  _ZNK6Plasma8Delegate5paintEP8QPainterRK20QStyleOptionViewItemRK11QModelIndex@Base 4:4.1.80+svn889833
