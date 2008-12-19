@@ -1738,6 +1738,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-4
  _ZN6Plasma6Corona17clearContainmentsEv@Base 4:4.1.80+svn889833
  _ZN6Plasma6Corona17loadDefaultLayoutEv@Base 4:4.1.80+svn889833
  _ZN6Plasma6Corona17requestConfigSyncEv@Base 4:4.1.80+svn889833
+ _ZN6Plasma6Corona17requireConfigSyncEv@Base 4:4.1.85+svn899104
  _ZN6Plasma6Corona17setAppletMimeTypeERK7QString@Base 4:4.1.80+svn889833
  _ZN6Plasma6Corona18addOffscreenWidgetEP15QGraphicsWidget@Base 4:4.1.80+svn889833
  _ZN6Plasma6Corona18releaseVisualFocusEv@Base 4:4.1.80+svn889833
