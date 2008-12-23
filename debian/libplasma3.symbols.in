@@ -2571,6 +2571,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-4
  _ZNK6Plasma6Corona20containmentForScreenEii@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Corona21availableScreenRegionEi@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Corona6configEv@Base 4:4.1.80+svn889833
+ _ZNK6Plasma6Corona9freeEdgesEi@Base 4:4.1.86+svn900462
  _ZNK6Plasma6Dialog10metaObjectEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Dialog13resizeCornersEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Slider10metaObjectEv@Base 4:4.1.80+svn889833

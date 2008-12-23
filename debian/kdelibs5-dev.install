@@ -1562,7 +1562,6 @@ usr/share/kde4/apps/cmake/modules/FindOggVorbis.cmake
 usr/share/kde4/apps/cmake/modules/FindOpenEXR.cmake
 usr/share/kde4/apps/cmake/modules/FindOpenSSL.cmake
 usr/share/kde4/apps/cmake/modules/FindPCRE.cmake
-usr/share/kde4/apps/cmake/modules/FindPNG.cmake
 usr/share/kde4/apps/cmake/modules/FindPhonon.cmake
 usr/share/kde4/apps/cmake/modules/FindPopplerQt4.cmake
 usr/share/kde4/apps/cmake/modules/FindPostgreSQL.cmake
@@ -1584,7 +1583,6 @@ usr/share/kde4/apps/cmake/modules/FindSharedMimeInfo.cmake
 usr/share/kde4/apps/cmake/modules/FindSoprano.cmake
 usr/share/kde4/apps/cmake/modules/FindSqlite.cmake
 usr/share/kde4/apps/cmake/modules/FindStrigi.cmake
-usr/share/kde4/apps/cmake/modules/FindTIFF.cmake
 usr/share/kde4/apps/cmake/modules/FindTaglib.cmake
 usr/share/kde4/apps/cmake/modules/FindUSB.cmake
 usr/share/kde4/apps/cmake/modules/FindX11.cmake
