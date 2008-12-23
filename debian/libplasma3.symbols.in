@@ -1020,6 +1020,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-4
  _ZN6Plasma10IconWidgetD2Ev@Base 4:4.1.80+svn889833
  _ZN6Plasma10PaintUtils10shadowBlurER6QImageiRK6QColor@Base 4:4.1.80+svn889833
  _ZN6Plasma10PaintUtils10shadowTextE7QString6QColorS2_6QPointi@Base 4:4.1.80+svn889833
+ _ZN6Plasma10PaintUtils10shadowTextE7QStringRK5QFont6QColorS5_6QPointi@Base 4:4.1.86+svn900830
  _ZN6Plasma10PaintUtils10transitionERK7QPixmapS3_d@Base 4:4.1.80+svn889833
  _ZN6Plasma10PaintUtils16roundedRectangleERK6QRectFd@Base 4:4.1.80+svn889833
  _ZN6Plasma10PushButton10styleSheetEv@Base 4:4.1.80+svn889833
