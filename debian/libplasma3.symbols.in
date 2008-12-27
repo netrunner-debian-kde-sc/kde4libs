@@ -1610,6 +1610,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-4
  _ZN6Plasma5Label11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.1.80+svn889833
  _ZN6Plasma5Label11qt_metacastEPKc@Base 4:4.1.80+svn889833
  _ZN6Plasma5Label11resizeEventEP25QGraphicsSceneResizeEvent@Base 4:4.1.80+svn889833
+ _ZN6Plasma5Label12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.1.86+svn901977
  _ZN6Plasma5Label13linkActivatedERK7QString@Base 4:4.1.80+svn889833
  _ZN6Plasma5Label13setStyleSheetERK7QString@Base 4:4.1.80+svn889833
  _ZN6Plasma5Label16staticMetaObjectE@Base 4:4.1.80+svn889833
@@ -2500,6 +2501,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-4
  _ZNK6Plasma5Label12nativeWidgetEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma5Label4textEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma5Label5imageEv@Base 4:4.1.80+svn889833
+ _ZNK6Plasma5Label9alignmentEv@Base 4:4.1.86+svn901977
  _ZNK6Plasma5Meter10labelColorEi@Base 4:4.1.80+svn889833
  _ZNK6Plasma5Meter10metaObjectEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma5Meter14labelAlignmentEi@Base 4:4.1.80+svn889833
