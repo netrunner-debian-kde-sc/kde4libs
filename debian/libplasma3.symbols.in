@@ -1,4 +1,4 @@
-libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-4
+libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-5
 * Build-Depends-Package: libplasma-dev
 #DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI11QStringListET_RK8QVariant@Base 4:4.1.80+svn889833
 #DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI12QKeySequenceET_RK8QVariant@Base 4:4.1.80+svn889833
@@ -1195,6 +1195,8 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-4
  _ZN6Plasma12AppletScript16constraintsEventE6QFlagsINS_10ConstraintEE@Base 4:4.1.80+svn889833
  _ZN6Plasma12AppletScript16staticMetaObjectE@Base 4:4.1.80+svn889833
  _ZN6Plasma12AppletScript17contextualActionsEv@Base 4:4.1.80+svn889833
+ _ZN6Plasma12AppletScript17setFailedToLaunchEbRK7QString@Base 4:4.1.86+svn903258
+ _ZN6Plasma12AppletScript24setConfigurationRequiredEbRK7QString@Base 4:4.1.86+svn903258
  _ZN6Plasma12AppletScript26showConfigurationInterfaceEv@Base 4:4.1.80+svn889833
  _ZN6Plasma12AppletScript28setHasConfigurationInterfaceEb@Base 4:4.1.80+svn889833
  _ZN6Plasma12AppletScript9setAppletEPNS_6AppletE@Base 4:4.1.80+svn889833
@@ -2328,6 +2330,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-4
  _ZNK6Plasma11Containment9wallpaperEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma11PopupApplet10metaObjectEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma11PopupApplet14isPassivePopupEv@Base 4:4.1.80+svn889833
+ _ZNK6Plasma11PopupApplet14isPopupShowingEv@Base 4:4.1.86+svn903258
  _ZNK6Plasma11PopupApplet14popupPlacementEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma11PopupApplet9popupIconEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma11RadioButton10metaObjectEv@Base 4:4.1.80+svn889833
@@ -2538,6 +2541,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-4
  _ZNK6Plasma6Applet13isContainmentEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Applet13popupPositionERK5QSize@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Applet14globalShortcutEv@Base 4:4.1.80+svn889833
+ _ZNK6Plasma6Applet14isPopupShowingEv@Base 4:4.1.86+svn903258
  _ZNK6Plasma6Applet15aspectRatioModeEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Applet15backgroundHintsEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma6Applet17hasFailedToLaunchEv@Base 4:4.1.80+svn889833
