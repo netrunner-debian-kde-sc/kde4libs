@@ -1616,6 +1616,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-5
  _ZN6Plasma5Label13linkActivatedERK7QString@Base 4:4.1.80+svn889833
  _ZN6Plasma5Label13setStyleSheetERK7QString@Base 4:4.1.80+svn889833
  _ZN6Plasma5Label16staticMetaObjectE@Base 4:4.1.80+svn889833
+ _ZN6Plasma5Label17setScaledContentsEb@Base 4:4.1.86+svn904608
  _ZN6Plasma5Label7setTextERK7QString@Base 4:4.1.80+svn889833
  _ZN6Plasma5Label8setImageERK7QString@Base 4:4.1.80+svn889833
  _ZN6Plasma5LabelC1EP15QGraphicsWidget@Base 4:4.1.80+svn889833
@@ -2502,6 +2503,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-5
  _ZNK6Plasma5Frame8sizeHintEN2Qt8SizeHintERK6QSizeF@Base 4:4.1.80+svn889833
  _ZNK6Plasma5Label10metaObjectEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma5Label12nativeWidgetEv@Base 4:4.1.80+svn889833
+ _ZNK6Plasma5Label17hasScaledContentsEv@Base 4:4.1.86+svn904608
  _ZNK6Plasma5Label4textEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma5Label5imageEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma5Label9alignmentEv@Base 4:4.1.86+svn901977
