@@ -11,7 +11,7 @@
  install( FILES kded.upd           DESTINATION  ${DATA_INSTALL_DIR}/kconf_update )
 --- a/kded/vfolder_menu.cpp
 +++ b/kded/vfolder_menu.cpp
-@@ -771,8 +771,10 @@
+@@ -769,8 +769,10 @@
     QString result;
  
     QString xdgMenuPrefix = QString::fromLocal8Bit(qgetenv("XDG_MENU_PREFIX"));
@@ -24,7 +24,7 @@
        QFileInfo fileInfo(fileName);
  
        QString fileNameOnly = fileInfo.fileName();
-@@ -782,7 +784,6 @@
+@@ -780,7 +782,6 @@
        QString baseName = QDir::cleanPath(m_docInfo.baseDir +
                                           fileInfo.path() + '/' + fileNameOnly);
        result = KStandardDirs::locate("xdgconf-menu", baseName);
