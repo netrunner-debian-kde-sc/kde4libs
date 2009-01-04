@@ -1,3 +1,7 @@
+#Relax cmake version requirements in Debian as cmake 2.6.2-3 in
+# which kdelibs5-dev depends upon has the needed patch for 
+# /usr/lib/cmake support
+
 --- a/cmake/modules/FindKDE4Internal.cmake
 +++ b/cmake/modules/FindKDE4Internal.cmake
 @@ -540,11 +540,11 @@
