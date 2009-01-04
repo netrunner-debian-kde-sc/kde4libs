@@ -1,4 +1,5 @@
-I do not think we can push this patch to upstream since the:
+Make kdelibs build in Debian's kFreeBSD.
+We can not push this patch to upstream since the:
 CMAKE_SYSTEM_NAME MATCHES kFreeBSD stuff, needs the Debian patched
 cmake. 
 --- a/kpty/kpty.cpp

@@ -1,3 +1,4 @@
+Use DejaVu Sans as default font and adjusts sizes accordingly.
 --- a/kdeui/kernel/kglobalsettings.cpp
 +++ b/kdeui/kernel/kglobalsettings.cpp
 @@ -374,7 +374,7 @@
