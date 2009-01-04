@@ -617,6 +617,7 @@ usr/include/KDE/KTextEdit
 usr/include/KDE/KTextEditor/Attribute
 usr/include/KDE/KTextEditor/CodeCompletionInterface
 usr/include/KDE/KTextEditor/CodeCompletionModel
+usr/include/KDE/KTextEditor/CodeCompletionModelControllerInterface
 usr/include/KDE/KTextEditor/Command
 usr/include/KDE/KTextEditor/CommandExtension
 usr/include/KDE/KTextEditor/CommandInterface
@@ -1595,6 +1596,8 @@ usr/share/kde4/apps/cmake/modules/KDE4Macros.cmake
 usr/share/kde4/apps/cmake/modules/KDELibsDependencies.cmake
 usr/share/kde4/apps/cmake/modules/KDELibsLibraryTargets-debian.cmake
 usr/share/kde4/apps/cmake/modules/KDELibsLibraryTargets.cmake
+usr/share/kde4/apps/cmake/modules/KDELibsToolsTargets-debian.cmake
+usr/share/kde4/apps/cmake/modules/KDELibsToolsTargets.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddCompileFlags.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddFileDependencies.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddLinkFlags.cmake
