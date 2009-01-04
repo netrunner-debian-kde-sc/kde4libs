@@ -1764,6 +1764,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-5
  _ZN6Plasma6Dialog13dialogResizedEv@Base 4:4.1.80+svn889833
  _ZN6Plasma6Dialog13dialogVisibleEb@Base 4:4.1.80+svn889833
  _ZN6Plasma6Dialog13inControlAreaERK6QPoint@Base 4:4.1.80+svn889833
+ _ZN6Plasma6Dialog13keyPressEventEP9QKeyEvent@Base 4:4.1.87+svn905313
  _ZN6Plasma6Dialog14graphicsWidgetEv@Base 4:4.1.80+svn889833
  _ZN6Plasma6Dialog14mouseMoveEventEP11QMouseEvent@Base 4:4.1.80+svn889833
  _ZN6Plasma6Dialog15mousePressEventEP11QMouseEvent@Base 4:4.1.80+svn889833
