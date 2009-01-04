@@ -1,19 +1,17 @@
 --- a/cmake/modules/FindKDE4Internal.cmake
 +++ b/cmake/modules/FindKDE4Internal.cmake
-@@ -574,13 +574,13 @@
- option(KDE4_BUILD_TESTS  "Build the tests")
- option(KDE4_ENABLE_HTMLHANDBOOK  "Create targets htmlhandbook for creating the html versions of the docbook docs")
- 
+@@ -540,11 +540,11 @@
+ # if CMake 2.6.3 or above is used, provide an option which should be used by other KDE packages
+ # whether to install a CMake FooConfig.cmake into lib/foo/cmake/ or /lib/cmake/foo/
+ # (with 2.6.3 and above also lib/cmake/foo/ is supported):
 -if(${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}.${CMAKE_PATCH_VERSION} VERSION_GREATER 2.6.2)
 +if(${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}.${CMAKE_PATCH_VERSION} VERSION_GREATER 2.6.1)
-    option(KDE4_USE_COMMON_CMAKE_PACKAGE_CONFIG_DIR 
-           "Prefer to install the <package>Config.cmake files to lib/cmake/<package> instead to lib/<package>/cmake" 
-           TRUE)
+    option(KDE4_USE_COMMON_CMAKE_PACKAGE_CONFIG_DIR "Prefer to install the <package>Config.cmake files to lib/cmake/<package> instead to lib/<package>/cmake" TRUE)
 -else(${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}.${CMAKE_PATCH_VERSION} VERSION_GREATER 2.6.2)
 +else(${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}.${CMAKE_PATCH_VERSION} VERSION_GREATER 2.6.1)
     set(KDE4_USE_COMMON_CMAKE_PACKAGE_CONFIG_DIR  FALSE)
 -endif(${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}.${CMAKE_PATCH_VERSION} VERSION_GREATER 2.6.2)
 +endif(${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}.${CMAKE_PATCH_VERSION} VERSION_GREATER 2.6.1)
  
- 
- # This is obsolete now. I just keep it here so in case somebody stumbles upon it somewhere
+ # Position-Independent-Executable is a feature of Binutils, Libc, and GCC that creates an executable
+ # which is something between a shared library and a normal executable.
