@@ -31,11 +31,10 @@ kde4libs (4:4.1.87+svn906111-0r1) UNRELEASED; urgency=low
   * Add new packages for Plasma. They were based on the respective Plasma
     packages from kdebase-workspace.
     - libplasma3 - contains Plasma library and plugins. Make kdelibs5-dbg
-      recommend it.
-    - libplasma-dev - contains Plasma development files. Build depend on
-      libqt4-opengl-dev and make libplasma-dev depend on libqt4-opengl-dev
-      since GLApplet uses its header.
-    - Bump plasma ABI to plasma-abi-4.2-2.
+      recommend it;
+    - add Plasma headers to kdelibs5-dev, make it provide libplasma-dev and
+      recommend libqt4-opengl-dev needed to build GLapplet stuff;
+    - Bump plasma ABI to plasma-abi-4.2-6;
     - kdelibs5-data replaces kdebase-workspace-data and libplasma2 from KDE 4.1
   * Update install and installgen files.
   * Make kdelibs5 recommend kdebase-runtime >= 4:4.1.80 because some
