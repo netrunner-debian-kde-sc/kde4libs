@@ -2073,16 +2073,6 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZN6Plasma8TreeViewD0Ev@Base 4:4.1.80+svn889833
  _ZN6Plasma8TreeViewD1Ev@Base 4:4.1.80+svn889833
  _ZN6Plasma8TreeViewD2Ev@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZN6Plasma8UiLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZN6Plasma8UiLoader11qt_metacastEPKc@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZN6Plasma8UiLoader12createLayoutERK7QStringP19QGraphicsLayoutItem@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZN6Plasma8UiLoader12createWidgetERK7QStringP15QGraphicsWidget@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZN6Plasma8UiLoader16staticMetaObjectE@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZN6Plasma8UiLoaderC1EP7QObject@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZN6Plasma8UiLoaderC2EP7QObject@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZN6Plasma8UiLoaderD0Ev@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZN6Plasma8UiLoaderD1Ev@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZN6Plasma8UiLoaderD2Ev@Base 4:4.1.80+svn889833
  _ZN6Plasma9ScrollBar10singleStepEv@Base 4:4.1.80+svn889833
  _ZN6Plasma9ScrollBar10styleSheetEv@Base 4:4.1.80+svn889833
  _ZN6Plasma9ScrollBar11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.1.80+svn889833
@@ -2664,9 +2654,6 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZNK6Plasma8TextEdit4textEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma8TreeView10metaObjectEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma8TreeView12nativeWidgetEv@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZNK6Plasma8UiLoader10metaObjectEv@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZNK6Plasma8UiLoader16availableLayoutsEv@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZNK6Plasma8UiLoader16availableWidgetsEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma9ScrollBar10metaObjectEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma9ScrollBar12nativeWidgetEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma9ScrollBar5valueEv@Base 4:4.1.80+svn889833
@@ -2745,7 +2732,6 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZTIN6Plasma8LineEditE@Base 4:4.1.80+svn889833
  _ZTIN6Plasma8TextEditE@Base 4:4.1.80+svn889833
  _ZTIN6Plasma8TreeViewE@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZTIN6Plasma8UiLoaderE@Base 4:4.1.80+svn889833
  _ZTIN6Plasma9ScrollBarE@Base 4:4.1.80+svn889833
  _ZTIN6Plasma9SvgWidgetE@Base 4:4.1.80+svn889833
  _ZTIN6Plasma9WallpaperE@Base 4:4.1.80+svn889833
@@ -2806,7 +2792,6 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZTSN6Plasma8LineEditE@Base 4:4.1.80+svn889833
  _ZTSN6Plasma8TextEditE@Base 4:4.1.80+svn889833
  _ZTSN6Plasma8TreeViewE@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZTSN6Plasma8UiLoaderE@Base 4:4.1.80+svn889833
  _ZTSN6Plasma9ScrollBarE@Base 4:4.1.80+svn889833
  _ZTSN6Plasma9SvgWidgetE@Base 4:4.1.80+svn889833
  _ZTSN6Plasma9WallpaperE@Base 4:4.1.80+svn889833
@@ -2867,7 +2852,6 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZTVN6Plasma8LineEditE@Base 4:4.1.80+svn889833
  _ZTVN6Plasma8TextEditE@Base 4:4.1.80+svn889833
  _ZTVN6Plasma8TreeViewE@Base 4:4.1.80+svn889833
-#MISSING: 4:4.1.87+svn906111-0r1# _ZTVN6Plasma8UiLoaderE@Base 4:4.1.80+svn889833
  _ZTVN6Plasma9ScrollBarE@Base 4:4.1.80+svn889833
  _ZTVN6Plasma9SvgWidgetE@Base 4:4.1.80+svn889833
  _ZTVN6Plasma9WallpaperE@Base 4:4.1.80+svn889833
