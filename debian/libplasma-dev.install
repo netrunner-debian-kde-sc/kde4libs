@@ -54,7 +54,6 @@ usr/include/KDE/Plasma/ToolButton
 usr/include/KDE/Plasma/ToolTipContent
 usr/include/KDE/Plasma/ToolTipManager
 usr/include/KDE/Plasma/TreeView
-usr/include/KDE/Plasma/UiLoader
 usr/include/KDE/Plasma/Version
 usr/include/KDE/Plasma/View
 usr/include/KDE/Plasma/Wallpaper
@@ -90,7 +89,6 @@ usr/include/plasma/scripting/appletscript.h
 usr/include/plasma/scripting/dataenginescript.h
 usr/include/plasma/scripting/runnerscript.h
 usr/include/plasma/scripting/scriptengine.h
-usr/include/plasma/scripting/uiloader.h
 usr/include/plasma/service.h
 usr/include/plasma/servicejob.h
 usr/include/plasma/svg.h
