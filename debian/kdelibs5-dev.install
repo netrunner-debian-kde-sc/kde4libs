@@ -1667,6 +1667,7 @@ usr/share/kde4/apps/cmake/modules/FindKopete.cmake
 usr/share/kde4/apps/cmake/modules/FindKorundum.cmake
 usr/share/kde4/apps/cmake/modules/FindLCMS.cmake
 usr/share/kde4/apps/cmake/modules/FindLibArt.cmake
+usr/share/kde4/apps/cmake/modules/FindLibKonq.cmake
 usr/share/kde4/apps/cmake/modules/FindLibPython.py
 usr/share/kde4/apps/cmake/modules/FindLibXml2.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXslt.cmake
