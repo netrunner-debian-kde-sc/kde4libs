@@ -4,7 +4,7 @@
 
 --- a/cmake/modules/FindKDE4Internal.cmake
 +++ b/cmake/modules/FindKDE4Internal.cmake
-@@ -540,11 +540,11 @@
+@@ -542,11 +542,11 @@
  # if CMake 2.6.3 or above is used, provide an option which should be used by other KDE packages
  # whether to install a CMake FooConfig.cmake into lib/foo/cmake/ or /lib/cmake/foo/
  # (with 2.6.3 and above also lib/cmake/foo/ is supported):
