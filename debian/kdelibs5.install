@@ -48,7 +48,6 @@ usr/lib/kde4/libkhtmlpart.so
 usr/lib/kde4/libkmultipart.so
 usr/lib/kde4/notepadpart.so
 usr/lib/kde4/plugins/designer/kde3supportwidgets.so
-usr/lib/kde4/plugins/designer/kformulawidgets.so
 usr/lib/kde4/plugins/imageformats/kimg_dds.so
 usr/lib/kde4/plugins/imageformats/kimg_eps.so
 usr/lib/kde4/plugins/imageformats/kimg_exr.so
@@ -79,8 +78,6 @@ usr/lib/libkdnssd.so.4
 usr/lib/libkdnssd.so.4.2.0
 usr/lib/libkfile.so.4
 usr/lib/libkfile.so.4.2.0
-usr/lib/libkformula.so.4
-usr/lib/libkformula.so.4.2.0
 usr/lib/libkhtml.so.5
 usr/lib/libkhtml.so.5.2.0
 usr/lib/libkimproxy.so.4

@@ -833,7 +833,6 @@ usr/include/KDE/khtml/MouseMoveEvent
 usr/include/KDE/khtml/MousePressEvent
 usr/include/KDE/khtml/MouseReleaseEvent
 usr/include/KDE/kndbgstream
-usr/include/KFormula.h
 usr/include/conversion_check.h
 usr/include/dnssd/dnssd_export.h
 usr/include/dnssd/domainbrowser.h
@@ -1087,7 +1086,6 @@ usr/include/kfontcombobox.h
 usr/include/kfontdialog.h
 usr/include/kfontrequester.h
 usr/include/kfontsizeaction.h
-usr/include/kformula_export.h
 usr/include/kgenericfactory.h
 usr/include/kgenericfactory.tcc
 usr/include/kgesture.h
@@ -1585,7 +1583,6 @@ usr/lib/libkdesu.so
 usr/lib/libkdeui.so
 usr/lib/libkdnssd.so
 usr/lib/libkfile.so
-usr/lib/libkformula.so
 usr/lib/libkhtml.so
 usr/lib/libkimproxy.so
 usr/lib/libkio.so
@@ -1743,6 +1740,7 @@ usr/share/kde4/apps/cmake/modules/PythonCompile.py
 usr/share/kde4/apps/cmake/modules/PythonMacros.cmake
 usr/share/kde4/apps/cmake/modules/SIPMacros.cmake
 usr/share/kde4/apps/cmake/modules/Win32Macros.cmake
+usr/share/kde4/apps/cmake/modules/check_installed_exports_file.cmake
 usr/share/kde4/apps/cmake/modules/cmake-modules-styleguide.txt
 usr/share/kde4/apps/cmake/modules/config-alsa.h.cmake
 usr/share/kde4/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
