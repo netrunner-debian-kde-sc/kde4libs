@@ -46,7 +46,8 @@ Description: core shared data for all KDE 4 applications
 Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), cmake (>= 2.6.2-3~), automoc (>= 1.0~svn850570),
+Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), libplasma3 (= ${binary:Version}),
+ cmake (>= 2.6.2-3~), automoc (>= 1.0~svn850570),
  ${sameVersionDep:libqt4-dev}, ${sameVersionDep:libsoprano-dev}, ${sameVersionDep:libphonon-dev}
 #Suggests: kdelibs5-doc (= ${source:Version})
 Recommends: ${sameVersionDep:libqt4-opengl-dev:libplasma3-Depends}
