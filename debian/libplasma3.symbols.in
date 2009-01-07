@@ -1,5 +1,5 @@
 libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-7
-* Build-Depends-Package: libplasma-dev
+* Build-Depends-Package: kdelibs5-dev
 #DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI11QStringListET_RK8QVariant@Base 4:4.1.80+svn889833
 #DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI12QKeySequenceET_RK8QVariant@Base 4:4.1.80+svn889833
 #DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI5QListIP7QWidgetEET_RK8QVariant@Base 4:4.1.80+svn889833
