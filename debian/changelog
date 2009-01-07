@@ -35,7 +35,7 @@ kde4libs (4:4.1.96+svn906771-0r1) UNRELEASED; urgency=low
     - add Plasma headers to kdelibs5-dev, make it provide libplasma-dev,
       conflict and replace earlier libplasma-dev and recommend
       libqt4-opengl-dev needed to build GLapplet stuff;
-    - Bump plasma ABI to plasma-abi-4.2-6;
+    - Bump plasma ABI to plasma-abi-4.2-7;
     - kdelibs5-data replaces kdebase-workspace-data and libplasma2 from KDE 4.1
   * Update install and installgen files.
   * Make kdelibs5 recommend kdebase-runtime >= 4:4.1.80 because some

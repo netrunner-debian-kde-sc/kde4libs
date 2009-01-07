@@ -1,4 +1,4 @@
-libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
+libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-7
 * Build-Depends-Package: libplasma-dev
 #DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI11QStringListET_RK8QVariant@Base 4:4.1.80+svn889833
 #DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI12QKeySequenceET_RK8QVariant@Base 4:4.1.80+svn889833
@@ -972,10 +972,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZN6Plasma10IconAction7setRectERK6QRectF@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconActionC1EPNS_10IconWidgetEP7QAction@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconActionC2EPNS_10IconWidgetEP7QAction@Base 4:4.1.80+svn889833
- _ZN6Plasma10IconWidget10readColorsEv@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget10setPressedEb@Base 4:4.1.80+svn889833
- _ZN6Plasma10IconWidget11hoverEffectEb@Base 4:4.1.80+svn889833
- _ZN6Plasma10IconWidget11layoutIconsEPK24QStyleOptionGraphicsItem@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget11qt_metacastEPKc@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget11setInfoTextERK7QString@Base 4:4.1.80+svn889833
@@ -985,7 +982,6 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZN6Plasma10IconWidget13doubleClickedEv@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget14mouseMoveEventEP24QGraphicsSceneMouseEvent@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget14setOrientationEN2Qt11OrientationE@Base 4:4.1.80+svn889833
- _ZN6Plasma10IconWidget15actionDestroyedEP7QObject@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget15hoverEnterEventEP24QGraphicsSceneHoverEvent@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget15hoverLeaveEventEP24QGraphicsSceneHoverEvent@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget15mousePressEventEP24QGraphicsSceneMouseEvent@Base 4:4.1.80+svn889833
@@ -995,9 +991,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZN6Plasma10IconWidget17setDrawBackgroundEb@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget18setNumDisplayLinesEi@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget20drawActionButtonBaseEP8QPainterRK5QSizei@Base 4:4.1.80+svn889833
- _ZN6Plasma10IconWidget20hoverAnimationUpdateEd@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget21mouseDoubleClickEventEP24QGraphicsSceneMouseEvent@Base 4:4.1.80+svn889833
- _ZN6Plasma10IconWidget4initEv@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget6isDownEv@Base 4:4.1.80+svn889833
  _ZN6Plasma10IconWidget6setSvgERK7QStringS3_@Base 4:4.1.80+svn889833
@@ -1205,8 +1199,10 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZN6Plasma12AppletScriptD0Ev@Base 4:4.1.80+svn889833
  _ZN6Plasma12AppletScriptD1Ev@Base 4:4.1.80+svn889833
  _ZN6Plasma12AppletScriptD2Ev@Base 4:4.1.80+svn889833
+ _ZN6Plasma12ConfigLoader14findItemByNameERK7QString@Base 4:4.1.96+svn906900
  _ZN6Plasma12ConfigLoader14usrWriteConfigEv@Base 4:4.1.80+svn889833
  _ZN6Plasma12ConfigLoader8findItemERK7QStringS3_@Base 4:4.1.80+svn889833
+ _ZN6Plasma12ConfigLoader8propertyERK7QString@Base 4:4.1.96+svn906900
  _ZN6Plasma12ConfigLoaderC1E10KSharedPtrI13KSharedConfigEP9QIODeviceP7QObject@Base 4:4.1.80+svn889833
  _ZN6Plasma12ConfigLoaderC1EPK12KConfigGroupP9QIODeviceP7QObject@Base 4:4.1.80+svn889833
  _ZN6Plasma12ConfigLoaderC1ERK7QStringP9QIODeviceP7QObject@Base 4:4.1.80+svn889833
@@ -1837,6 +1833,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZN6Plasma7Package14installPackageERK7QStringS3_S3_@Base 4:4.1.80+svn889833
  _ZN6Plasma7Package15registerPackageERKNS_15PackageMetadataERK7QString@Base 4:4.1.80+svn889833
  _ZN6Plasma7Package16uninstallPackageERK7QStringS3_S3_@Base 4:4.1.80+svn889833
+ _ZN6Plasma7Package18listInstalledPathsERK7QString@Base 4:4.1.96+svn906900
  _ZN6Plasma7PackageC1ERK7QString10KSharedPtrINS_16PackageStructureEE@Base 4:4.1.80+svn889833
  _ZN6Plasma7PackageC1ERK7QStringS3_10KSharedPtrINS_16PackageStructureEE@Base 4:4.1.80+svn889833
  _ZN6Plasma7PackageC2ERK7QString10KSharedPtrINS_16PackageStructureEE@Base 4:4.1.80+svn889833
@@ -2333,6 +2330,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-6
  _ZNK6Plasma12AppletScript10dataEngineERK7QString@Base 4:4.1.80+svn889833
  _ZNK6Plasma12AppletScript10mainScriptEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma12AppletScript10metaObjectEv@Base 4:4.1.80+svn889833
+ _ZNK6Plasma12AppletScript17configNeedsSavingEv@Base 4:4.1.96+svn906900
  _ZNK6Plasma12AppletScript4sizeEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma12AppletScript5shapeEv@Base 4:4.1.80+svn889833
  _ZNK6Plasma12AppletScript6appletEv@Base 4:4.1.80+svn889833
