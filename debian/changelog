@@ -1,4 +1,4 @@
-kde4libs (4:4.1.96+svn906900-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.1.96+svn908395-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -67,7 +67,7 @@ kde4libs (4:4.1.96+svn906900-0r1) UNRELEASED; urgency=low
   
   * Rework slightly patch 15_kfreebsd_support.diff.
   * Redo patch 20_use_dejavu_as_default_font.diff.
-  * Force to build depend on libphonon-dev (>= 4:4.2.80).
+  * Force to build depend on libphonon-dev (>= 4:4.2.96).
 
   +++ Changes by Armin Berres:
 
