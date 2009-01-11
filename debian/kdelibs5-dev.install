@@ -316,6 +316,7 @@ usr/include/KDE/KFileItemList
 usr/include/KDE/KFileMetaInfo
 usr/include/KDE/KFileMetaInfoGroup
 usr/include/KDE/KFileMetaInfoItem
+usr/include/KDE/KFilePlacesModel
 usr/include/KDE/KFileShare
 usr/include/KDE/KFileSharePropsPlugin
 usr/include/KDE/KFileTreeBranch
