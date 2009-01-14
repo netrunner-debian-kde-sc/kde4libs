@@ -1,2 +1,31 @@
-kdelibs5: package-name-doesnt-match-sonames libkaudiodevicelist4 libkde3support4 libkdecore5 libkdefakes5 libkdesu5 libkdeui5 libkdnssd4 libkfile4 libkhtml5 libkimproxy4 libkio5 libkjs4 libkjsembed4 libkmediaplayer4 libknewstuff2-4 libknotifyconfig4 libkntlm4 libkparts4 libkpty4 libkrosscore4 libkrossui4 libktexteditor4 libkunittest4 libkutils4 libkwalletbackend4 libnepomuk4 libsolid4 libthreadweaver4
-
+kdelibs5: package-name-doesnt-match-sonames libkde3support4 libkdecore5 libkdefakes5 libkdeinit4-kconf-update libkdeinit4-kio-http-cache-cleaner libkdeinit4-klauncher libkdesu5libkdeui5 libkdnssd4 libkfile4 libkhtml5 libkimproxy4 libkio5 libkjs4 libkjsapi4 libkjsembed4 libkmediaplayer4 libknewstuff2-4 libknotifyconfig4 libkntlm4 libkparts4 libkpty4 libkrosscore4 libkrossui4 libktexteditor4 libkunittest4 libkutils4 libnepomuk4 libsolid4 libthreadweaver4
+kdelibs5: no-symbols-control-file usr/lib/libkpty.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkfile.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkhtml.so.5.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkde3support.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkdnssd.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkrossui.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkio.so.5.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkjs.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libknewstuff2.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkntlm.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkdefakes.so.5.2.0
+kdelibs5: no-symbols-control-file usr/lib/libnepomuk.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkmediaplayer.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkutils.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkjsapi.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libthreadweaver.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkparts.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkunittest.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkdesu.so.5.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkrosscore.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libktexteditor.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkimproxy.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libknotifyconfig.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkjsembed.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkdecore.so.5.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkdeui.so.5.2.0
+kdelibs5: no-symbols-control-file usr/lib/libsolid.so.4.2.0
+kdelibs5: no-symbols-control-file usr/lib/libkdeinit4_kconf_update.so
+kdelibs5: no-symbols-control-file usr/lib/libkdeinit4_kio_http_cache_cleaner.so
+kdelibs5: no-symbols-control-file usr/lib/libkdeinit4_klauncher.so

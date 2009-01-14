@@ -21,7 +21,6 @@ Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdelibs
 Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdelibs
 
 Package: kdelibs5
-Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
  kdelibs-bin(>= ${binary:Version}), dbus-x11, shared-mime-info, xauth, xdg-utils
@@ -33,7 +32,6 @@ Description: core libraries for all KDE 4 applications
  This package is part of the KDE 4 libraries module.
 
 Package: kdelibs5-data
-Section: libs
 Architecture: all
 Depends: hicolor-icon-theme
 Replaces: kdebase-workspace-data (<< 4:4.1.66), libplasma2
@@ -78,9 +76,7 @@ Description: executables for all KDE 4 core applications
  This package is part of the KDE 4 libraries module.
 
 Package: libplasma3
-Section: libs
 Architecture: any
-Priority: optional
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
 Provides: ${plasma:abi-provides}
 Description: library for the KDE 4 Plasma desktop
