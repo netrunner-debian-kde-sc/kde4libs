@@ -1540,7 +1540,7 @@ libplasma.so.3 libplasma3 #MINVER#, plasma-abi-4.2-8
  _ZN6Plasma17DataEngineManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.1.80+svn889833
  _ZN6Plasma17DataEngineManager11qt_metacastEPKc@Base 4:4.1.80+svn889833
  _ZN6Plasma17DataEngineManager12unloadEngineERK7QString@Base 4:4.1.80+svn889833
- _ZN6Plasma17DataEngineManager14listAllEnginesEv@Base 4:4.1.80+svn889833
+ _ZN6Plasma17DataEngineManager14listAllEnginesERK7QString@Base 4:4.1.96+svn911556
  _ZN6Plasma17DataEngineManager16staticMetaObjectE@Base 4:4.1.80+svn889833
  _ZN6Plasma17DataEngineManager4selfEv@Base 4:4.1.80+svn889833
  _ZN6Plasma17DataEngineManagerC1Ev@Base 4:4.1.80+svn889833
