@@ -5,8 +5,7 @@ kde4libs (4:4.1.96+svn912221-0r1) UNRELEASED; urgency=low
   - kfmclient is no longer needed (Closes: #508601).
 
   TODO: remove plasma-abi-4.2-X for the first upload to the official
-        archive (4:4.2.0-1). Not earlier. Also set all libplasma3
-        symbol versions to 4:4.2.0.
+        archive (4:4.2.0-1). Not earlier.
 
   +++ Changes by Modestas Vainius:
 
