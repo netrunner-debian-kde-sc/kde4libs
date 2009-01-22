@@ -1,11 +1,13 @@
-kde4libs (4:4.1.96+svn912221-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.2.0-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   - kfmclient is no longer needed (Closes: #508601).
 
+
   TODO: remove plasma-abi-4.2-X for the first upload to the official
         archive (4:4.2.0-1). Not earlier.
+  TODO: copyright check.
 
   +++ Changes by Modestas Vainius:
 
@@ -70,7 +72,7 @@ kde4libs (4:4.1.96+svn912221-0r1) UNRELEASED; urgency=low
   
   * Rework slightly patch 15_kfreebsd_support.diff.
   * Redo patch 20_use_dejavu_as_default_font.diff.
-  * Force to build depend on libphonon-dev (>= 4:4.2.96).
+  * Force to build depend on libphonon-dev (>= 4:4.3.0).
   * Remove redudant section/priority fields in debian/control.
   * Update lintian overrides.
   * Update copyright years.
