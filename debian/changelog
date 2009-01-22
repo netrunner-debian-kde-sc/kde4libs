@@ -4,7 +4,6 @@ kde4libs (4:4.2.0-0r1) UNRELEASED; urgency=low
 
   - kfmclient is no longer needed (Closes: #508601).
 
-
   TODO: remove plasma-abi-4.2-X for the first upload to the official
         archive (4:4.2.0-1). Not earlier.
   TODO: copyright check.
@@ -45,13 +44,13 @@ kde4libs (4:4.2.0-0r1) UNRELEASED; urgency=low
   * Update install and installgen files.
   * Make kdelibs5 recommend kdebase-runtime >= 4:4.1.80 because some
     stuff does not work (e.g. kwallet) with previous versions.
-  * Build depend on strigi >= 0.5.11-2.
+  * Build depend on strigi >= 0.6.3.
   * Move some libkdeinit4 stuff to kdelibs5 since their executables are in
     libexec:
     - libkdeinit4_klauncher.so
     - libkdeinit4_kio_http_cache_cleaner.so
     - libkdeinit4_kconf_update.so
-  * Build depend on soprano >= 2.1.1.
+  * Build depend on soprano >= 2.1.67.
   * Use better approach to enforcing kde4- prefix to applications.menu. The
     previous way broken menu spec and made 3rd party applications end up in
     Lost&Found menu. 11_kde4_applications_menu.diff patch was replaced by
