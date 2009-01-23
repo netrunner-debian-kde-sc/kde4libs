@@ -1,6 +1,6 @@
 kde4libs (4:4.2.0-0r3) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream release.
 
   - kfmclient is no longer needed (Closes: #508601).
 
