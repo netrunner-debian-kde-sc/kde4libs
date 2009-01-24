@@ -63,6 +63,8 @@ kde4libs (4:4.2.0-0r3) UNRELEASED; urgency=low
   * kdelibs5-dev conflicts with kdepimlibs5-dev (<< 4:4.1.81+svn891439) because
     of upstream changes.
   * Rename debian/*.lintian to debian/*.lintian-overrides.
+  * Bump debian/compat and debhelper build dependency to v7 (to get more
+    sophisticated debian/tmp handling).
 
   +++ Changes by George Kiagiadakis:
 
@@ -84,7 +86,7 @@ kde4libs (4:4.2.0-0r3) UNRELEASED; urgency=low
   * Add dependency on xdg-utils to kdelibs5. KDE applications use xdg-open to
     invoke a browser when not running in a KDE environment these days.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:08:25 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:36:12 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
