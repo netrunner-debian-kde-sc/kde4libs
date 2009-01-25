@@ -1,4 +1,4 @@
-kde4libs (4:4.2.0-0r3) UNRELEASED; urgency=low
+kde4libs (4:4.2.0-0r4) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -6,7 +6,6 @@ kde4libs (4:4.2.0-0r3) UNRELEASED; urgency=low
 
   TODO: remove plasma-abi-4.2-X for the first upload to the official
         archive (4:4.2.0-1). Not earlier.
-  TODO: copyright check.
 
   +++ Changes by Modestas Vainius:
 
@@ -90,7 +89,7 @@ kde4libs (4:4.2.0-0r3) UNRELEASED; urgency=low
 
   * Copyright file updates. Thanks to Modestas and his magic scripts.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:36:12 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 06:14:48 +0200
 
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
