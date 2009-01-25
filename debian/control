@@ -87,8 +87,8 @@ Description: library for the KDE 4 Plasma desktop
  elements, and bringing cooperating technologies to the user's fingertips in
  a way that is visually appealing while easing work flow.
  .
- This package contains the KDE 4 Plasma library and plugins. It is part of the
- KDE 4 libraries module.
+ This package contains the KDE 4 Plasma library. It is part of the KDE 4
+ libraries module.
 
 Package: kdelibs5-dbg
 Section: libdevel
