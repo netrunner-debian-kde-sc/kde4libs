@@ -16,8 +16,16 @@ DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(UPSTREAMVERSION)), $(RUNTIM
 # remove dependencies on kdebase-runtime and phonon (the metapackage)
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime -xphonon
 
-include /usr/share/pkg-kde-tools/pkg-kde-build/1/kde4.mk
-include /usr/share/pkg-kde-tools/makefiles/1/cdbs/symbolshelper.mk
+include debian/cdbs/kde.mk
 
 binary-predeb/libplasma3::
 	echo plasma:abi-provides=$(PLASMA_ABI) >> debian/libplasma3.substvars
+
+binary-strip/libplasma3::
+	pkgkde-symbolshelper symbolfile -p $(cdbs_curpkg) -o debian/$(cdbs_curpkg).symbols.$(DEB_HOST_ARCH)
+
+binary-fixup/libplasma3::
+	pkgkde-symbolshelper postgensymbols -p $(cdbs_curpkg) -v
+
+clean::
+	rm -f debian/libplasma3.symbols.$(DEB_HOST_ARCH)
