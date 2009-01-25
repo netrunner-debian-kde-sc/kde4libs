@@ -2,7 +2,7 @@
 
 UPSTREAMVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(.*\)-.*/\1/')
 #UPSTREAMVERSION ?= 4:4.2.0
-PLASMA_ABI=$(shell grep 'plasma-abi-' debian/libplasma3.symbols.in | head -n1 | sed 's/^.*\(plasma-abi-\S\+\).*/\1/')
+#PLASMA_ABI=$(shell grep 'plasma-abi-' debian/libplasma3.symbols.in | head -n1 | sed 's/^.*\(plasma-abi-\S\+\).*/\1/')
 RUNTIME_DEPS := kdebase-runtime (>= 4:4.2.0)
 
 DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg
@@ -18,5 +18,5 @@ DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime -xphonon
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
-binary-predeb/libplasma3::
-	echo plasma:abi-provides=$(PLASMA_ABI) >> debian/libplasma3.substvars
+#binary-predeb/libplasma3::
+#	echo plasma:abi-provides=$(PLASMA_ABI) >> debian/libplasma3.substvars

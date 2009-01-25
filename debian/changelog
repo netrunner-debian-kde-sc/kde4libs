@@ -4,9 +4,6 @@ kde4libs (4:4.2.0-0r4) UNRELEASED; urgency=low
 
   - kfmclient is no longer needed (Closes: #508601).
 
-  TODO: remove plasma-abi-4.2-X for the first upload to the official
-        archive (4:4.2.0-1). Not earlier.
-
   +++ Changes by Modestas Vainius:
 
   * Resync patches:
@@ -88,6 +85,7 @@ kde4libs (4:4.2.0-0r4) UNRELEASED; urgency=low
   +++ Changes by Sune Vuorela:
 
   * Copyright file updates. Thanks to Modestas and his magic scripts.
+  * Remove plasma abi handling. It is expected to be stable now.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 06:14:48 +0200
 
