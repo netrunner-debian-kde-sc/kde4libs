@@ -7,8 +7,10 @@ kde4libs (4:4.2.0-2) UNRELEASED; urgency=low
     to fix FTBFS on armel.
   * Deprecate external Qt symbols in libplasma3 symbols template
     (Closes: #513133).
+  * Get up-to-date with kdelibs 4.2.0 tag: add 00_917014_kde4.2.0_tag.diff
+    patch (plasma security issue).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jan 2009 00:06:22 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jan 2009 01:00:17 +0200
 
 kde4libs (4:4.2.0-1) experimental; urgency=low
 

@@ -1,3 +1,4 @@
+00_917014_kde4.2.0_tag.diff
 00_917133_qreal_portability_fix.diff
 08_add_debian_build_type.diff
 09_disable_debug_messages_if_not_explicitly_enabled.diff

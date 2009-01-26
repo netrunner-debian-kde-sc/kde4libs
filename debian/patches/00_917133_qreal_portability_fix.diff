@@ -1,5 +1,5 @@
---- a/khtml/misc/borderarcstroker.cpp	2009-01-14 06:51:46.000000000 +0000
-+++ b/khtml/misc/borderarcstroker.cpp	2009-01-14 06:52:08.000000000 +0000
+--- a/khtml/misc/borderarcstroker.cpp
++++ b/khtml/misc/borderarcstroker.cpp
 @@ -347,7 +347,7 @@
      const KCubicBezier inner(innerPath.elementAt(0), innerPath.elementAt(1), innerPath.elementAt(2), innerPath.elementAt(3));
      const KCubicBezier outer(outerPath.elementAt(0), outerPath.elementAt(1), outerPath.elementAt(2), outerPath.elementAt(3));

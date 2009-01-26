@@ -4,7 +4,7 @@ can be used to enable them.
 See also 04_disable_debug_by_default.diff in kdebase-runtime.
 --- a/kdecore/io/kdebug.cpp
 +++ b/kdecore/io/kdebug.cpp
-@@ -313,7 +313,9 @@ struct KDebugPrivate
+@@ -313,7 +313,9 @@
          }
  
          KConfigGroup cg(config, QString::number(area));
@@ -17,7 +17,7 @@ See also 04_disable_debug_by_default.diff in kdebase-runtime.
  
 --- a/kdecore/kdebugrc
 +++ b/kdecore/kdebugrc
-@@ -82,7 +82,7 @@ InfoOutput=4
+@@ -82,7 +82,7 @@
  
  # KMail
  [5006]
