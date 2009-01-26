@@ -3,8 +3,12 @@ kde4libs (4:4.2.0-2) UNRELEASED; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Tweak libplasma3 description.
+  * Steal r917133 (as 00_917133_qreal_portability_fix.diff) from upstream svn
+    to fix FTBFS on armel.
+  * Deprecate external Qt symbols in libplasma3 symbols template
+    (Closes: #513133).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Jan 2009 22:06:52 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jan 2009 00:06:22 +0200
 
 kde4libs (4:4.2.0-1) experimental; urgency=low
 

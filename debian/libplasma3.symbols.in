@@ -10,10 +10,10 @@ libplasma.so.3 libplasma3 #MINVER#
 #DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI9QDateTimeET_RK8QVariant@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperI5QListIP7QWidgetEEvPT_@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperI5QListIP7QWidgetEEPvPKT_@Base 4:4.2.0
- _Z8qWarningv@Base 4:4.2.0
- _ZN10QByteArrayD1Ev@Base 4:4.2.0
+#DEPRECATED: PRIVATE: EXTERNAL# _Z8qWarningv@Base 4:4.2.0
+#DEPRECATED: PRIVATE: EXTERNAL# _ZN10QByteArrayD1Ev@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdI5QListIP7QWidgetEE14qt_metatype_idEv@Base 4:4.2.0
- _ZN11QStringListC1ERKS_@Base 4:4.2.0
+#DEPRECATED: PRIVATE: EXTERNAL# _ZN11QStringListC1ERKS_@Base 4:4.2.0
  _ZN13QFormInternal10DomInclude4readERK11QDomElement@Base 4:4.2.0
  _ZN13QFormInternal10DomInclude5clearEb@Base 4:4.2.0
  _ZN13QFormInternal10DomIncludeC1Ev@Base 4:4.2.0
