@@ -799,14 +799,18 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN13QFormInternal9DomWidgetD2Ev@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN20QGlobalStaticDeleterI4QMapI7QStringbEED1Ev@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN20QGlobalStaticDeleterI5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS1_17QFormBuilderExtraEEED1Ev@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringP30QDesignerCustomWidgetInterfaceE11node_createEP8QMapDataPPNS4_4NodeERKS0_RKS2_@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringP30QDesignerCustomWidgetInterfaceE13detach_helperEv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringP30QDesignerCustomWidgetInterfaceE8freeDataEP8QMapData@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringP30QDesignerCustomWidgetInterfaceED1Ev@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringbE11node_createEP8QMapDataPPNS2_4NodeERKS0_RKb@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringbE6insertERKS0_RKb@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringbE8freeDataEP8QMapData@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringbED1Ev@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapIP7QObjectP11QLayoutItemED1Ev@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI10QByteArraybE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI10QByteArraybE8freeDataEP9QHashData@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI10QByteArraybED1Ev@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringP12QActionGroupE13detach_helperEv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringP12QActionGroupE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringP12QActionGroupE8freeDataEP9QHashData@Base 4:4.2.0
@@ -835,6 +839,7 @@ libplasma.so.3 libplasma3 #MINVER#
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI5QPairIPN13QFormInternal7DomItemEP15QTreeWidgetItemEE4freeEPN9QListData4DataE@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI5QPairIPN13QFormInternal7DomItemEP15QTreeWidgetItemEE5eraseENS7_8iteratorE@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIP11QLayoutItemE13detach_helperEv@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIP11QLayoutItemE5clearEv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIP11QLayoutItemE6appendERKS1_@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIP11QLayoutItemED1Ev@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIP30QDesignerCustomWidgetInterfaceE13detach_helperEv@Base 4:4.2.0
@@ -844,6 +849,7 @@ libplasma.so.3 libplasma3 #MINVER#
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIP7QObjectED1Ev@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIP7QWidgetE13detach_helperEv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIP7QWidgetE6appendERKS1_@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIP7QWidgetEC1ERKS2_@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN13QFormInternal10DomIncludeEE13detach_helperEv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN13QFormInternal10DomIncludeEE5clearEv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN13QFormInternal10DomIncludeEED1Ev@Base 4:4.2.0
@@ -879,6 +885,7 @@ libplasma.so.3 libplasma3 #MINVER#
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN13QFormInternal15DomCustomWidgetEED1Ev@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN13QFormInternal15DomGradientStopEE13detach_helperEv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN13QFormInternal15DomGradientStopEE5clearEv@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN13QFormInternal15DomGradientStopEEC1ERKS3_@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN13QFormInternal15DomGradientStopEED1Ev@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN13QFormInternal15DomPropertyDataEE13detach_helperEv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN13QFormInternal15DomPropertyDataEE5clearEv@Base 4:4.2.0
@@ -1015,8 +1022,8 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma10PaintUtils10shadowBlurER6QImageiRK6QColor@Base 4:4.2.0
  _ZN6Plasma10PaintUtils10shadowTextE7QString6QColorS2_6QPointi@Base 4:4.2.0
  _ZN6Plasma10PaintUtils10shadowTextE7QStringRK5QFont6QColorS5_6QPointi@Base 4:4.2.0
- _ZN6Plasma10PaintUtils10transitionERK7QPixmapS3_d@Base 4:4.2.0
- _ZN6Plasma10PaintUtils16roundedRectangleERK6QRectFd@Base 4:4.2.0
+ _ZN6Plasma10PaintUtils10transitionERK7QPixmapS3_{qreal}@Base 4:4.2.0
+ _ZN6Plasma10PaintUtils16roundedRectangleERK6QRectF{qreal}@Base 4:4.2.0
  _ZN6Plasma10PushButton10styleSheetEv@Base 4:4.2.0
  _ZN6Plasma10PushButton11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.2.0
  _ZN6Plasma10PushButton11qt_metacastEPKc@Base 4:4.2.0
@@ -1036,7 +1043,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma10PushButtonD2Ev@Base 4:4.2.0
  _ZN6Plasma10QueryMatch10setEnabledEb@Base 4:4.2.0
  _ZN6Plasma10QueryMatch10setSubtextERK7QString@Base 4:4.2.0
- _ZN6Plasma10QueryMatch12setRelevanceEd@Base 4:4.2.0
+ _ZN6Plasma10QueryMatch12setRelevanceE{qreal}@Base 4:4.2.0
  _ZN6Plasma10QueryMatch17setSelectedActionEP7QAction@Base 4:4.2.0
  _ZN6Plasma10QueryMatch5setIdERK7QString@Base 4:4.2.0
  _ZN6Plasma10QueryMatch7setDataERK8QVariant@Base 4:4.2.0
@@ -1372,7 +1379,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma13SignalPlotter23setHorizontalLinesCountEj@Base 4:4.2.0
  _ZN6Plasma13SignalPlotter24setVerticalLinesDistanceEj@Base 4:4.2.0
  _ZN6Plasma13SignalPlotter5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.2.0
- _ZN6Plasma13SignalPlotter5scaleEd@Base 4:4.2.0
+ _ZN6Plasma13SignalPlotter5scaleE{qreal}@Base 4:4.2.0
  _ZN6Plasma13SignalPlotter7addPlotERK6QColor@Base 4:4.2.0
  _ZN6Plasma13SignalPlotter7setFontERK5QFont@Base 4:4.2.0
  _ZN6Plasma13SignalPlotter7setUnitERK7QString@Base 4:4.2.0
@@ -1450,15 +1457,15 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma14ToolTipManagerD2Ev@Base 4:4.2.0
  _ZN6Plasma14knownLanguagesE6QFlagsINS_13ComponentTypeEE@Base 4:4.2.0
  _ZN6Plasma14versionReleaseEv@Base 4:4.2.0
- _ZN6Plasma15AnimationDriver10itemAppearEdP13QGraphicsItem@Base 4:4.2.0
- _ZN6Plasma15AnimationDriver11itemSlideInEdP13QGraphicsItemRK6QPointS5_@Base 4:4.2.0
+ _ZN6Plasma15AnimationDriver10itemAppearE{qreal}P13QGraphicsItem@Base 4:4.2.0
+ _ZN6Plasma15AnimationDriver11itemSlideInE{qreal}P13QGraphicsItemRK6QPointS5_@Base 4:4.2.0
  _ZN6Plasma15AnimationDriver11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.2.0
  _ZN6Plasma15AnimationDriver11qt_metacastEPKc@Base 4:4.2.0
- _ZN6Plasma15AnimationDriver12itemSlideOutEdP13QGraphicsItemRK6QPointS5_@Base 4:4.2.0
- _ZN6Plasma15AnimationDriver13elementAppearEdRK7QPixmap@Base 4:4.2.0
- _ZN6Plasma15AnimationDriver13itemActivatedEdP13QGraphicsItem@Base 4:4.2.0
- _ZN6Plasma15AnimationDriver13itemDisappearEdP13QGraphicsItem@Base 4:4.2.0
- _ZN6Plasma15AnimationDriver16elementDisappearEdRK7QPixmap@Base 4:4.2.0
+ _ZN6Plasma15AnimationDriver12itemSlideOutE{qreal}P13QGraphicsItemRK6QPointS5_@Base 4:4.2.0
+ _ZN6Plasma15AnimationDriver13elementAppearE{qreal}RK7QPixmap@Base 4:4.2.0
+ _ZN6Plasma15AnimationDriver13itemActivatedE{qreal}P13QGraphicsItem@Base 4:4.2.0
+ _ZN6Plasma15AnimationDriver13itemDisappearE{qreal}P13QGraphicsItem@Base 4:4.2.0
+ _ZN6Plasma15AnimationDriver16elementDisappearE{qreal}RK7QPixmap@Base 4:4.2.0
  _ZN6Plasma15AnimationDriver16staticMetaObjectE@Base 4:4.2.0
  _ZN6Plasma15AnimationDriverC1EP7QObject@Base 4:4.2.0
  _ZN6Plasma15AnimationDriverC2EP7QObject@Base 4:4.2.0
@@ -1562,7 +1569,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma3Svg5paintEP8QPainteriiiiRK7QString@Base 4:4.2.0
  _ZN6Plasma3Svg6pixmapERK7QString@Base 4:4.2.0
  _ZN6Plasma3Svg6resizeERK6QSizeF@Base 4:4.2.0
- _ZN6Plasma3Svg6resizeEdd@Base 4:4.2.0
+ _ZN6Plasma3Svg6resizeE{qreal}{qreal}@Base 4:4.2.0
  _ZN6Plasma3Svg6resizeEv@Base 4:4.2.0
  _ZN6Plasma3SvgC1EP7QObject@Base 4:4.2.0
  _ZN6Plasma3SvgC2EP7QObject@Base 4:4.2.0
@@ -2125,10 +2132,12 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9WallpaperD0Ev@Base 4:4.2.0
  _ZN6Plasma9WallpaperD1Ev@Base 4:4.2.0
  _ZN6Plasma9WallpaperD2Ev@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN6QQueueI5QPairIP15QTreeWidgetItemPN13QFormInternal7DomItemEEED1Ev@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN6QQueueI5QPairIPN13QFormInternal7DomItemEP15QTreeWidgetItemEED1Ev@Base 4:4.2.0
  _ZN7QObject2trEPKcS1_@Base 4:4.2.0
  _ZN7QStringC1ERK13QLatin1String@Base 4:4.2.0
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7QVectorI5QPairId6QColorEE7reallocEii@Base 4:4.2.0
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7QVectorI5QPairId6QColorEED1Ev@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN7QVectorI5QPairI{qreal}6QColorEE7reallocEii@Base 4:4.2.0
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN7QVectorI5QPairI{qreal}6QColorEED1Ev@Base 4:4.2.0
  _ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 4:4.2.0
  _ZN9QUiLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.2.0
  _ZN9QUiLoader11qt_metacastEPKc@Base 4:4.2.0
@@ -2185,6 +2194,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK13QFormInternal16QResourceBuilder18isResourcePropertyEPKNS_11DomPropertyE@Base 4:4.2.0
  _ZNK13QFormInternal17DomConnectionHint5writeER12QDomDocumentRK7QString@Base 4:4.2.0
  _ZNK13QFormInternal17DomLayoutFunction5writeER12QDomDocumentRK7QString@Base 4:4.2.0
+#DEPRECATED: PRIVATE: ARCH: armel# _ZNK13QFormInternal17DomResourcePixmap4textEv@Base 4:4.2.0
  _ZNK13QFormInternal17DomResourcePixmap5writeER12QDomDocumentRK7QString@Base 4:4.2.0
  _ZNK13QFormInternal17DomSizePolicyData5writeER12QDomDocumentRK7QString@Base 4:4.2.0
  _ZNK13QFormInternal17QFormBuilderExtra10rootWidgetEv@Base 4:4.2.0
@@ -2272,7 +2282,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma10IconWidget10metaObjectEv@Base 4:4.2.0
  _ZNK6Plasma10IconWidget14drawBackgroundEv@Base 4:4.2.0
  _ZNK6Plasma10IconWidget14invertedLayoutEv@Base 4:4.2.0
- _ZNK6Plasma10IconWidget16sizeFromIconSizeEd@Base 4:4.2.0
+ _ZNK6Plasma10IconWidget16sizeFromIconSizeE{qreal}@Base 4:4.2.0
  _ZNK6Plasma10IconWidget4iconEv@Base 4:4.2.0
  _ZNK6Plasma10IconWidget4textEv@Base 4:4.2.0
  _ZNK6Plasma10IconWidget5shapeEv@Base 4:4.2.0
@@ -2630,7 +2640,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma8Extender21enabledBordersForItemEPNS_12ExtenderItemE@Base 4:4.2.0
  _ZNK6Plasma8Extender4itemERK7QString@Base 4:4.2.0
  _ZNK6Plasma8Extender5itemsEv@Base 4:4.2.0
- _ZNK6Plasma8FrameSvg10getMarginsERdS1_S1_S1_@Base 4:4.2.0
+ _ZNK6Plasma8FrameSvg10getMarginsER{qreal}S1_S1_S1_@Base 4:4.2.0
  _ZNK6Plasma8FrameSvg10marginSizeENS_10MarginEdgeE@Base 4:4.2.0
  _ZNK6Plasma8FrameSvg10metaObjectEv@Base 4:4.2.0
  _ZNK6Plasma8FrameSvg12contentsRectEv@Base 4:4.2.0

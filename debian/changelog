@@ -6,7 +6,12 @@ kde4libs (4:4.2.0-3) UNRELEASED; urgency=low
     sync 09_disable_debug_messages_if_not_explicitly_enabled.diff with
     upstream revision 916186.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jan 2009 23:35:58 +0100
+  +++ Changes by Modestas Vainius:
+
+  * Update debian/libplasma3.symbols.in with {qreal} substitutions. Fixes
+    FTBFS on arm(el).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jan 2009 22:20:37 +0200
 
 kde4libs (4:4.2.0-2) experimental; urgency=low
 
