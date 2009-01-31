@@ -1,4 +1,4 @@
-kde4libs (4:4.2.0-3) UNRELEASED; urgency=low
+kde4libs (4:4.2.0-3) experimental; urgency=low
 
   +++ Changes by Armin Berres:
 
@@ -10,6 +10,15 @@ kde4libs (4:4.2.0-3) UNRELEASED; urgency=low
 
   * Update debian/libplasma3.symbols.in with {qreal} substitutions. Fixes
     FTBFS on arm(el).
+
+  +++ Changes by Sune Vuorela:
+
+  * Add patches from upstream for some stability fixed:
+    01_r917170_kio_update_on_break.diff
+    01_r918403_klauncher_hang.diff
+    01_r918654_klauncher_unique_app.diff
+    01_r918838_kded_desktop_file_watch.diff
+    Thanks to David Faure for pushing them.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jan 2009 22:20:37 +0200
 
