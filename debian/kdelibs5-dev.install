@@ -14,6 +14,7 @@ usr/include/KDE/DNSSD/RemoteService
 usr/include/KDE/DNSSD/ServiceBase
 usr/include/KDE/DNSSD/ServiceBrowser
 usr/include/KDE/DNSSD/ServiceModel
+usr/include/KDE/DNSSD/ServiceTypeBrowser
 usr/include/KDE/DOM/AbstractView
 usr/include/KDE/DOM/Attr
 usr/include/KDE/DOM/CDATASection
@@ -1715,11 +1716,11 @@ usr/share/kde4/apps/cmake/modules/FindXmms.cmake
 usr/share/kde4/apps/cmake/modules/KDE4CTestNightlySetup.cmake
 usr/share/kde4/apps/cmake/modules/KDE4Defaults.cmake
 usr/share/kde4/apps/cmake/modules/KDE4Macros.cmake
-usr/share/kde4/apps/cmake/modules/KDELibsDependencies.cmake
 usr/share/kde4/apps/cmake/modules/KDELibs4LibraryTargets-debian.cmake
 usr/share/kde4/apps/cmake/modules/KDELibs4LibraryTargets.cmake
 usr/share/kde4/apps/cmake/modules/KDELibs4ToolsTargets-debian.cmake
 usr/share/kde4/apps/cmake/modules/KDELibs4ToolsTargets.cmake
+usr/share/kde4/apps/cmake/modules/KDELibsDependencies.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddCompileFlags.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddFileDependencies.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddLinkFlags.cmake

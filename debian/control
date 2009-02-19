@@ -17,8 +17,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, cmake (>= 2.6.2-3~), p
  libxcursor-dev
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdelibs
-Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdelibs
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdelibs
+Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdelibs
 
 Package: kdelibs5
 Architecture: any

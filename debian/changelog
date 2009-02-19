@@ -1,3 +1,20 @@
+kde4libs (4:4.2.0+svn922902-0r1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot.
+
+  +++ Changes by Modestas Vainius:
+
+  * Remove patches which were stolen from upstream:    
+    - 01_r918838_kded_desktop_file_watch.diff
+    - 00_917133_qreal_portability_fix.diff
+    - 01_r918403_klauncher_hang.diff
+    - 01_r918654_klauncher_unique_app.diff
+    - 01_r917170_kio_update_on_break.diff
+    - 00_917014_kde4.2.0_tag.diff
+  * Point Debian Vcs URLs to pkg-kde/trunk (new location).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Feb 2009 00:19:31 +0200
+
 kde4libs (4:4.2.0-3) experimental; urgency=low
 
   +++ Changes by Armin Berres:

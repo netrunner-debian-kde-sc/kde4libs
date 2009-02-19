@@ -1,9 +1,3 @@
-00_917014_kde4.2.0_tag.diff
-00_917133_qreal_portability_fix.diff
-01_r917170_kio_update_on_break.diff
-01_r918403_klauncher_hang.diff
-01_r918654_klauncher_unique_app.diff
-01_r918838_kded_desktop_file_watch.diff
 08_add_debian_build_type.diff
 09_disable_debug_messages_if_not_explicitly_enabled.diff
 11_default_kde4_xdg_menu_prefix.diff

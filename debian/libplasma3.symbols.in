@@ -1569,8 +1569,8 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma3Svg5paintEP8QPainteriiiiRK7QString@Base 4:4.2.0
  _ZN6Plasma3Svg6pixmapERK7QString@Base 4:4.2.0
  _ZN6Plasma3Svg6resizeERK6QSizeF@Base 4:4.2.0
- _ZN6Plasma3Svg6resizeE{qreal}{qreal}@Base 4:4.2.0
  _ZN6Plasma3Svg6resizeEv@Base 4:4.2.0
+ _ZN6Plasma3Svg6resizeE{qreal}{qreal}@Base 4:4.2.0
  _ZN6Plasma3SvgC1EP7QObject@Base 4:4.2.0
  _ZN6Plasma3SvgC2EP7QObject@Base 4:4.2.0
  _ZN6Plasma3SvgD0Ev@Base 4:4.2.0
@@ -1679,6 +1679,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma6Applet14listCategoriesERK7QStringb@Base 4:4.2.0
  _ZN6Plasma6Applet14mouseMoveEventEP24QGraphicsSceneMouseEvent@Base 4:4.2.0
  _ZN6Plasma6Applet14paintInterfaceEP8QPainterPK24QStyleOptionGraphicsItemRK5QRect@Base 4:4.2.0
+ _ZN6Plasma6Applet15appletDestroyedEPS0_@Base 4:4.2.0+svn922902
  _ZN6Plasma6Applet15geometryChangedEv@Base 4:4.2.0
  _ZN6Plasma6Applet15hoverEnterEventEP24QGraphicsSceneHoverEvent@Base 4:4.2.0
  _ZN6Plasma6Applet15hoverLeaveEventEP24QGraphicsSceneHoverEvent@Base 4:4.2.0
