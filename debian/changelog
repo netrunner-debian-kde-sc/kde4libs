@@ -1,4 +1,4 @@
-kde4libs (4:4.2.0+svn922902-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.2.0+svn928672-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -13,7 +13,7 @@ kde4libs (4:4.2.0+svn922902-0r1) UNRELEASED; urgency=low
     - 00_917014_kde4.2.0_tag.diff
   * Point Debian Vcs URLs to pkg-kde/trunk (new location).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Feb 2009 00:19:31 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Feb 2009 01:46:35 +0200
 
 kde4libs (4:4.2.0-3) experimental; urgency=low
 
