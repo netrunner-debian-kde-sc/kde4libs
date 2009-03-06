@@ -1,3 +1,12 @@
+kde4libs (4:4.2.1-2) UNRELEASED; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * Add 01_kcmdlineargs_decoding_svn934640.diff patch from upstream
+    to fix kcmdlineargs input decoding with Qt 4.5. (Closes: #518062)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 06 Mar 2009 08:13:34 +0100
+
 kde4libs (4:4.2.1-1) experimental; urgency=low
 
   * New upstream release.
