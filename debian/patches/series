@@ -11,4 +11,3 @@
 20_use_dejavu_as_default_font.diff
 22_hack_in_etc_kde4_in_kstandarddirs.diff
 23_solid_no_double_build.diff
-24_2.6.2_use_common_cmake_config_dir.diff
