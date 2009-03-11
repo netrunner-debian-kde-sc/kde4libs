@@ -18,5 +18,8 @@ DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime -xphonon
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
+binary-install/kdelibs5-dev::
+	install -m 755 -o root -g root -D debian/ban-unstable-uploads /usr/share/kde4/apps/cmake/modules/ban-unstable-uploads
+
 #binary-predeb/libplasma3::
 #	echo plasma:abi-provides=$(PLASMA_ABI) >> debian/libplasma3.substvars
