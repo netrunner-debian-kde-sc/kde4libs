@@ -4,6 +4,9 @@ kde4libs (4:4.2.1-2) UNRELEASED; urgency=low
 
   * Add 01_kcmdlineargs_decoding_svn934640.diff patch from upstream
     to fix kcmdlineargs input decoding with Qt 4.5. (Closes: #518062)
+    It contains also a fix from svn934710: use the new bool exported by Qt
+    so that we can initialize the locale and make fromLocal8Bit/toLocal8Bit
+    work even without a QCoreApplication.
 
   +++ Changes by Modestas Vainius:
 

@@ -1,3 +1,8 @@
+Fixed in svn r934710:
+Use the new bool exported by Qt so that we can initialize the locale
+(using a static initializer, as suggested by Thiago)
+and make fromLocal8Bit/toLocal8Bit work even without a QCoreApplication.
+
 --- a/kdecore/kernel/kcmdlineargs.cpp
 +++ b/kdecore/kernel/kcmdlineargs.cpp
 @@ -83,13 +83,13 @@
@@ -650,3 +655,75 @@
 -    return false;
 +    return args && args->isSet( "tempfile" );
  }
+--- a/kdecore/localization/kcatalog.cpp
++++ b/kdecore/localization/kcatalog.cpp
+@@ -30,6 +30,22 @@
+ #include <locale.h>
+ #include "gettext.h"
+ 
++
++static bool s_localeSet = false;
++
++// Initialize the locale very early during application startup
++// This is necessary for e.g. toLocal8Bit() to work, even before
++// a Q[Core]Application exists (David)
++int kInitializeLocale()
++{
++    setlocale(LC_ALL, "");
++    extern Q_CORE_EXPORT bool qt_locale_initialized; // in Qt since 4.5.0
++    qt_locale_initialized = true; // as recommended by Thiago
++    s_localeSet = true;
++    return 1;
++}
++Q_CONSTRUCTOR_FUNCTION(kInitializeLocale)
++
+ // not defined on win32 :(
+ #ifdef _WIN32
+ # ifndef LC_MESSAGES
+@@ -50,7 +66,6 @@ public:
+ 
+   QByteArray systemLanguage;
+ 
+-  static int localeSet;
+   static QByteArray currentLanguage;
+ 
+   void setupGettextEnv ();
+@@ -62,17 +77,15 @@ QDebug operator<<(QDebug debug, const KC
+   return debug << c.d->language << " " << c.d->name << " " << c.d->localeDir;
+ }
+ 
+-int KCatalogPrivate::localeSet = 0;
+ QByteArray KCatalogPrivate::currentLanguage;
+ 
+ KCatalog::KCatalog(const QString & name, const QString & language )
+   : d( new KCatalogPrivate )
+ {
+-  // Set locales only once.
+-  if (! KCatalogPrivate::localeSet) {
+-    setlocale(LC_ALL, "");
+-    KCatalogPrivate::localeSet = 1;
+-  }
++    // Set locales if the static initializer didn't work
++    if (!s_localeSet) {
++        kInitializeLocale();
++    }
+ 
+   // Find locale directory for this catalog.
+   QString localeDir = catalogLocaleDir( name, language );
+--- a/kdecore/tests/kcharsetstest.cpp
++++ b/kdecore/tests/kcharsetstest.cpp
+@@ -6,6 +6,14 @@
+ 
+ int main()
+ {
++    // Test that toLocal8Bit works even without a QCoreApplication,
++    // thanks to the static initializer in KCatalog.
++    // Do NOT move this code to a QTestLib unit test ;-)
++    QString one = QString::fromUtf8("Ã©");
++    QByteArray one8bit = one.toLocal8Bit();
++    Q_ASSERT(one8bit.length() == 2);
++
++
+     QString input( "&lt;Hello &amp;World&gt;" );
+     QString output = KCharsets::resolveEntities( input );
+     assert( output == "<Hello &World>" );
