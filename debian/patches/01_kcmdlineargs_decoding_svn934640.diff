@@ -518,7 +518,7 @@ and make fromLocal8Bit/toLocal8Bit work even without a QCoreApplication.
        }
  #endif
     }
-@@ -1417,8 +1400,8 @@ KCmdLineArgsPrivate::setOption(const QSt
+@@ -1417,17 +1400,17 @@ KCmdLineArgsPrivate::setOption(const QSt
  QString
  KCmdLineArgs::getOption(const QByteArray &_opt) const
  {
@@ -529,8 +529,10 @@ and make fromLocal8Bit/toLocal8Bit work even without a QCoreApplication.
     if (d->parsedOptionList)
     {
        value = d->parsedOptionList->value(opt);
-@@ -1427,7 +1410,7 @@ KCmdLineArgs::getOption(const QByteArray
-       return value;
+    }
+    if (!value.isEmpty())
+-      return value;
++      return QString::fromLocal8Bit(value);
  
     // Look up the default.
 -   QString opt_name;
