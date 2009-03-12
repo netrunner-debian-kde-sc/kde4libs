@@ -11,7 +11,7 @@ while [ -n "$dir" ] && [ "$dir" != '/' ]; do
         source=`/usr/bin/dpkg-parsechangelog | grep '^Source:' | sed 's/^Source:[[:space:]]*\([^[:space:]]\+\).*/\1/'`
         distro=`/usr/bin/dpkg-parsechangelog | grep '^Distribution:' | sed 's/^Distribution:[[:space:]]*\([^[:space:]]\+\).*/\1/'`
         if [ "$distro" = "unstable" ] && ! echo $allowed_packages | grep -q "\b$source\b"; then
-            echo "NOTE from Debian KDE maintainers: DO NOT upload KDE 4 based packages to Debian unstable yet" >&2
+            echo "NOTE from Debian KDE maintainers: You can not upload KDE 4.2 based packages to Debian unstable yet." >&2
             exit 1
         fi
     fi

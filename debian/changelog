@@ -1,5 +1,7 @@
 kde4libs (4:4.2.1-2) unstable; urgency=low
 
+  * Upload to unstable.
+
   +++ Changes by Fathi Boudra:
 
   * Add 01_kcmdlineargs_decoding_svn934640.diff patch from upstream
@@ -18,7 +20,7 @@ kde4libs (4:4.2.1-2) unstable; urgency=low
   * Prepare for upload to unstable and ban unstable uploads of 3rd party
     packages (debian/ban-unstable-uploads & 24_ban_unstable_uploads.diff).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Mar 2009 00:15:56 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Mar 2009 13:53:37 +0100
 
 kde4libs (4:4.2.1-1) experimental; urgency=low
 
