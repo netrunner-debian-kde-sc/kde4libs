@@ -1,6 +1,6 @@
 #!/bin/sh
 
-allowed_packages="kde4libs kdepimlibs kdebase-runtime ktorrent"
+allowed_packages="kde4libs kdepimlibs kdebase-runtime adept eqonomize kdesvn kio-ftps ktorrent rkward"
 
 set -e
 test -x /usr/bin/dpkg-parsechangelog || exit 0
