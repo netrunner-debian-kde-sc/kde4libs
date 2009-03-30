@@ -5,7 +5,7 @@ kde4libs (4:4.2.1-3) UNRELEASED; urgency=low
   * Update list of packages exempted from ban-unstable-uploads. Add
     adept, eqonomize, kdesvn, kio-ftps, rkward (stuff currently in sid).
 
- -- Modestas Vainius <modestas@vainius.eu>  Mon, 30 Mar 2009 16:30:06 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 30 Mar 2009 16:34:32 +0300
 
 kde4libs (4:4.2.1-2) unstable; urgency=low
 
