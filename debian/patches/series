@@ -1,4 +1,3 @@
-01_kcmdlineargs_decoding_svn934640.diff
 08_add_debian_build_type.diff
 09_disable_debug_messages_if_not_explicitly_enabled.diff
 11_default_kde4_xdg_menu_prefix.diff
