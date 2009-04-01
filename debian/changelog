@@ -1,11 +1,15 @@
-kde4libs (4:4.2.2-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.2.2-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
 
-  +++ Changes by Modestas Vainius:
+  +++ Changes by Sune Vuorela:
 
-  * Update list of packages exempted from ban-unstable-uploads. Add
-    adept, eqonomize, kdesvn, kio-ftps, rkward (stuff currently in sid).
+  * Add aggressive conflicts to prevent mix and match.
+  * Remove ban of upload of 3rd party apps.
+  * Bump runtime versions.
+  * Bump requirements of pkg-kde-tools to require the .kde edition.
+  * Temporarily add a versioned dependency on pkg-kde-tools on kdelibs5-dev to
+    be absolutely sure not having any accidents.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
