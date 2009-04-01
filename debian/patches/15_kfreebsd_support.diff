@@ -90,3 +90,27 @@ cmake.
  
      // Determine the mimetype of the file to be retrieved, and emit it.
      // This is mandatory in all slaves (for KRun/BrowserRun to work)
+--- a/kioslave/file/file_unix.cpp
++++ b/kioslave/file/file_unix.cpp
+@@ -129,8 +129,10 @@
+     }
+ 
+ #ifdef HAVE_FADVISE
++#ifdef POSIX_FADV_SEQUENTIAL
+     posix_fadvise(src_fd,0,0,POSIX_FADV_SEQUENTIAL);
+ #endif
++#endif
+     // WABA: Make sure that we keep writing permissions ourselves,
+     // otherwise we can be in for a surprise on NFS.
+     mode_t initialMode;
+@@ -152,8 +154,10 @@
+     }
+ 
+ #ifdef HAVE_FADVISE
++#ifdef POSIX_FADV_SEQUENTIAL
+     posix_fadvise(dest_fd,0,0,POSIX_FADV_SEQUENTIAL);
+ #endif
++#endif
+ 
+ #ifdef HAVE_POSIX_ACL
+     acl = acl_get_fd(src_fd);

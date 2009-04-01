@@ -10,6 +10,10 @@ kde4libs (4:4.2.2-0r1) UNRELEASED; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Remove 01_kcmdlineargs_decoding_svn934640.diff, merged upstream.
+  
+  +++ Changes by Aurelien Jarno:
+  
+  * Update 15_kfreebsd.diff (Closes #520123).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Mar 2009 05:44:42 +0200
 
