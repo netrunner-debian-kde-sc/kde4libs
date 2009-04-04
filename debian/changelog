@@ -29,6 +29,7 @@ kde4libs (4:4.2.2-0r4) unstable; urgency=low
   * Add debconf templates to warn existing KDE 4 users about KDEHOME change
     this revision introduces.
   * Add NEWS entry about KDEHOME change.
+  * Bump libplasma symbol versions to 4:4.2.2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Apr 2009 14:48:20 +0300
 
