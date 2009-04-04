@@ -6,15 +6,15 @@ See also 04_disable_debug_by_default.diff in kdebase-runtime.
 In KDE 4.3 trunk this has been committed as r916186.
 --- a/kdecore/kdebugrc
 +++ b/kdecore/kdebugrc
-@@ -82,7 +82,7 @@ InfoOutput=4
+@@ -78,7 +78,7 @@ InfoOutput=4
  
  # KMail
  [5006]
 -InfoOutput=2
 +InfoOutput=4
  
- # KitchenSync (Syncing Algorithm)
- [5250]
+ [5120]
+ InfoOutput=2
 --- a/kdecore/io/kdebug.cpp
 +++ b/kdecore/io/kdebug.cpp
 @@ -181,6 +181,11 @@ struct KDebugPrivate

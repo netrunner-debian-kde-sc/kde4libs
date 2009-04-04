@@ -1,6 +1,6 @@
 --- a/solid/solid/CMakeLists.txt
 +++ b/solid/solid/CMakeLists.txt
-@@ -194,7 +194,14 @@
+@@ -194,7 +194,14 @@ install(FILES org.freedesktop.PowerManag
  install(FILES org.freedesktop.PowerManagement.Inhibit.xml DESTINATION ${DBUS_INTERFACES_INSTALL_DIR})
  
  ########### static lib for tests  ###############

@@ -1,6 +1,6 @@
 --- a/kded/CMakeLists.txt
 +++ b/kded/CMakeLists.txt
-@@ -69,7 +69,7 @@
+@@ -69,7 +69,7 @@ install(TARGETS kdontchangethehostname D
  if (WIN32)
  install( FILES applications.menu  DESTINATION  ${SHARE_INSTALL_PREFIX}/xdg/menus )
  else (WIN32)
@@ -11,7 +11,7 @@
  install( FILES kded.upd           DESTINATION  ${DATA_INSTALL_DIR}/kconf_update )
 --- a/kded/vfolder_menu.cpp
 +++ b/kded/vfolder_menu.cpp
-@@ -769,8 +769,10 @@
+@@ -769,8 +769,10 @@ VFolderMenu::locateMenuFile(const QStrin
     QString result;
  
     QString xdgMenuPrefix = QString::fromLocal8Bit(qgetenv("XDG_MENU_PREFIX"));
@@ -24,7 +24,7 @@
        QFileInfo fileInfo(fileName);
  
        QString fileNameOnly = fileInfo.fileName();
-@@ -780,7 +782,6 @@
+@@ -780,7 +782,6 @@ VFolderMenu::locateMenuFile(const QStrin
        QString baseName = QDir::cleanPath(m_docInfo.baseDir +
                                           fileInfo.path() + '/' + fileNameOnly);
        result = KStandardDirs::locate("xdgconf-menu", baseName);

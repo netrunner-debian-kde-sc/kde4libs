@@ -1,8 +1,12 @@
-Index: kdelibs/kdecore/CMakeLists.txt
-===================================================================
---- kdelibs.orig/kdecore/CMakeLists.txt	2009-04-04 01:57:18.000000000 +0300
-+++ kdelibs/kdecore/CMakeLists.txt	2009-04-04 01:57:49.000000000 +0300
-@@ -275,7 +275,7 @@
+author: Will Stephenson <wstephenson@suse.de>
+
+change choice to initialise qt locale for 4.5 to runtime instead of build time
+so kdelibs built with Qt4.4 works with Qt4.5
+Patch is linux-specific, hence can't be upstreamed.
+
+--- a/kdecore/CMakeLists.txt
++++ b/kdecore/CMakeLists.txt
+@@ -275,7 +275,7 @@ endif (NOT Q_WS_X11 AND NOT Q_WS_QWS)
  
  kde4_add_library(kdecore SHARED ${kdecore_LIB_SRCS})
  
@@ -11,10 +15,8 @@ Index: kdelibs/kdecore/CMakeLists.txt
  
  if(WIN32)
    set(kdecore_LINK_INTERFACE_LIBRARIES  ${QT_QTDBUS_LIBRARY} ${QT_QTCORE_LIBRARY} ${KDEWIN32_LIBRARIES})
-Index: kdelibs/kdecore/localization/kcatalog.cpp
-===================================================================
---- kdelibs.orig/kdecore/localization/kcatalog.cpp	2009-04-04 01:57:30.000000000 +0300
-+++ kdelibs/kdecore/localization/kcatalog.cpp	2009-04-04 01:57:49.000000000 +0300
+--- a/kdecore/localization/kcatalog.cpp
++++ b/kdecore/localization/kcatalog.cpp
 @@ -26,6 +26,8 @@
  
  #include <kdebug.h>
@@ -24,7 +26,7 @@ Index: kdelibs/kdecore/localization/kcatalog.cpp
  #include <stdlib.h>
  #include <locale.h>
  #include "gettext.h"
-@@ -39,10 +41,9 @@
+@@ -39,10 +41,9 @@ static bool s_localeSet = false;
  int kInitializeLocale()
  {
      setlocale(LC_ALL, "");

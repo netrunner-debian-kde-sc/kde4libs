@@ -4,7 +4,7 @@ CMAKE_SYSTEM_NAME MATCHES kFreeBSD stuff, needs the Debian patched
 cmake. 
 --- a/kpty/kpty.cpp
 +++ b/kpty/kpty.cpp
-@@ -107,24 +107,24 @@
+@@ -107,24 +107,24 @@ extern "C" {
  # define _NEW_TTY_CTRL
  #endif
  
@@ -43,7 +43,7 @@ cmake.
  #include <kdebug.h>
 --- a/kio/kfile/kpropertiesdialog.cpp
 +++ b/kio/kfile/kpropertiesdialog.cpp
-@@ -1879,7 +1879,15 @@
+@@ -1867,7 +1867,15 @@ static bool fileSystemSupportsACL( const
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
      fileSystemSupportsACLs =
@@ -62,7 +62,7 @@ cmake.
  }
 --- a/ConfigureChecks.cmake
 +++ b/ConfigureChecks.cmake
-@@ -153,11 +153,11 @@
+@@ -153,11 +153,11 @@ if (UNIX)
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
      endif (NOT login_in_libc)
@@ -79,7 +79,7 @@ cmake.
        if (login_in_libutil)
 --- a/kioslave/file/file.cpp
 +++ b/kioslave/file/file.cpp
-@@ -307,8 +307,10 @@
+@@ -315,8 +315,10 @@ void FileProtocol::get( const KUrl& url 
      }
  
  #ifdef HAVE_FADVISE
@@ -92,7 +92,7 @@ cmake.
      // This is mandatory in all slaves (for KRun/BrowserRun to work)
 --- a/kioslave/file/file_unix.cpp
 +++ b/kioslave/file/file_unix.cpp
-@@ -129,8 +129,10 @@
+@@ -129,8 +129,10 @@ void FileProtocol::copy( const KUrl &src
      }
  
  #ifdef HAVE_FADVISE
@@ -103,7 +103,7 @@ cmake.
      // WABA: Make sure that we keep writing permissions ourselves,
      // otherwise we can be in for a surprise on NFS.
      mode_t initialMode;
-@@ -152,8 +154,10 @@
+@@ -152,8 +154,10 @@ void FileProtocol::copy( const KUrl &src
      }
  
  #ifdef HAVE_FADVISE

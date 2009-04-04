@@ -4,7 +4,7 @@ path is a symlink.
 
 --- a/kdecore/services/kservicefactory.cpp
 +++ b/kdecore/services/kservicefactory.cpp
-@@ -125,16 +125,10 @@
+@@ -125,16 +125,10 @@ KService::Ptr KServiceFactory::findServi
      return newService;
  }
  
@@ -22,7 +22,7 @@ path is a symlink.
          return KService::Ptr(); // Not found
      }
  
-@@ -151,6 +145,27 @@
+@@ -151,6 +145,27 @@ KService::Ptr KServiceFactory::findServi
      return newService;
  }
  
@@ -52,7 +52,7 @@ path is a symlink.
      if (!m_menuIdDict) return KService::Ptr(); // Error!
 --- a/kdecore/services/kservicefactory.h
 +++ b/kdecore/services/kservicefactory.h
-@@ -123,6 +123,8 @@
+@@ -123,6 +123,8 @@ protected:
      virtual void virtual_hook( int id, void* data );
  private:
      class KServiceFactoryPrivate* d;
