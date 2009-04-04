@@ -755,7 +755,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma6Applet14listCategoriesERK7QStringb@Base 4:4.2.2
  _ZN6Plasma6Applet14mouseMoveEventEP24QGraphicsSceneMouseEvent@Base 4:4.2.2
  _ZN6Plasma6Applet14paintInterfaceEP8QPainterPK24QStyleOptionGraphicsItemRK5QRect@Base 4:4.2.2
- _ZN6Plasma6Applet15appletDestroyedEPS0_@Base 4:4.2.2+svn922902
+ _ZN6Plasma6Applet15appletDestroyedEPS0_@Base 4:4.2.2
  _ZN6Plasma6Applet15geometryChangedEv@Base 4:4.2.2
  _ZN6Plasma6Applet15hoverEnterEventEP24QGraphicsSceneHoverEvent@Base 4:4.2.2
  _ZN6Plasma6Applet15hoverLeaveEventEP24QGraphicsSceneHoverEvent@Base 4:4.2.2

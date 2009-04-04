@@ -1,3 +1,7 @@
+Template: kdelibs5/upgrade_kdehome_running_title
+Type: title
+Description: Upgrading kdelibs5 while KDE 4 is running
+
 Template: kdelibs5/upgrade_kdehome_running
 Type: boolean
 Default: false
@@ -10,7 +14,7 @@ Description: Upgrade even if newly started KDE 4 applications will use other use
  ~/.kde4.  KDE 3 applications has always used (and will continue to use)
  ~/.kde. To avoid potential setting/data loss, you should:
  .
- 1) Answer "No", terminate all KDE applications and/or KDE session and try
+ 1) Answer "No", terminate all KDE applications and/or KDE sessions and try
  upgrading again.
  .
  2) If you answer "Yes", you should make sure that no new KDE 4 applications
@@ -24,6 +28,10 @@ Description: Upgrade even if newly started KDE 4 applications will use other use
  any KDE 4 application.
  .
  Currently running KDE 4 applications: ${apps}
+
+Template: kdelibs5/upgrade_kdehome_info_title
+Type: title
+Description: Upgrading kdelibs5
 
 Template: kdelibs5/upgrade_kdehome_info
 Type: note

@@ -22,6 +22,12 @@ lib_users() {
                 fi
                 user=`ps -o user= -p $pid`
                 cmd=`ps -o comm= -p $pid`
+
+                # Exclude kdm_greet(root)
+                if [ "$user" = "root" ] && [ "$cmd" = "kdm_greet" ]; then
+                   continue
+                fi
+
                 echo -n "${pid}/$cmd($user) "
                 i=$(($i+1))
             fi
@@ -40,32 +46,30 @@ kde4apps=""
 # Check if upgrading from << 4:4.2.2-1
 if [ "$1" = "upgrade" -a -n "$oldver" ] && dpkg --compare-versions "$oldver" lt "4:4.2.2-1"; then
     # Are there any KDE 4 applications running?
-    if [ -f /usr/lib/libkdecore.so.5 ]; then
-        kde4apps=`lib_users '/usr/lib/libkdecore.so.5' 6`
-        if [ "$?" -ne 0 ]; then
+    if [ -e /usr/lib/libkdecore.so.5 ]; then
+        kde4apps=`lib_users '/usr/lib/libkdecore.so.5' 6` || {
             kde4apps=""
-        fi
+        }
     fi
-
     if [ -n "$kde4apps" ]; then
         # Ask whether to stop upgrading
-	    db_title "Upgrading kdelibs5 while KDE 4 is running"
-	    db_fset kdelibs5/upgrade_kdehome_running seen false
-	    db_reset kdelibs5/upgrade_kdehome_running
+        db_settitle kdelibs5/upgrade_kdehome_running_title
+        db_fset kdelibs5/upgrade_kdehome_running seen false
+        db_reset kdelibs5/upgrade_kdehome_running
         db_subst kdelibs5/upgrade_kdehome_running apps "$kde4apps"
-	    if ! db_input high kdelibs5/upgrade_kdehome_running; then
+        if ! db_input high kdelibs5/upgrade_kdehome_running; then
             # If the question was skipped, continue upgrading...
             kde4apps=""
         fi
     else
         # Just display a note about configuration change
-        db_title "Upgrading kdelibs5"
-	    db_fset kdelibs5/upgrade_kdehome_info seen false
-	    db_input medium kdelibs5/upgrade_kdehome_info || true
+        db_settitle kdelibs5/upgrade_kdehome_info_title
+        db_fset kdelibs5/upgrade_kdehome_info seen false
+        db_input medium kdelibs5/upgrade_kdehome_info || true
     fi
 
     # If either note was displayed successfully...
-	db_go || true
+    db_go || true
     if [ -n "$kde4apps" ]; then
         db_get kdelibs5/upgrade_kdehome_running
         if [ "$RET" = "false" ]; then
@@ -73,7 +77,7 @@ if [ "$1" = "upgrade" -a -n "$oldver" ] && dpkg --compare-versions "$oldver" lt 
             exit 1
         fi
     fi
-	db_stop
+    db_stop
 fi
 
 #DEBHELPER#
