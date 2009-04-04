@@ -11,3 +11,4 @@
 22_hack_in_etc_kde4_in_kstandarddirs.diff
 23_solid_no_double_build.diff
 24_runtime_qt45_locale_initialization.diff
+25_ld_exclude_libs_qtuitools.diff
