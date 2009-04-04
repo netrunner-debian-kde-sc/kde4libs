@@ -1,0 +1,40 @@
+Index: kdelibs/kdecore/CMakeLists.txt
+===================================================================
+--- kdelibs.orig/kdecore/CMakeLists.txt	2009-04-04 01:57:18.000000000 +0300
++++ kdelibs/kdecore/CMakeLists.txt	2009-04-04 01:57:49.000000000 +0300
+@@ -275,7 +275,7 @@
+ 
+ kde4_add_library(kdecore SHARED ${kdecore_LIB_SRCS})
+ 
+-target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
++target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS} dl)
+ 
+ if(WIN32)
+   set(kdecore_LINK_INTERFACE_LIBRARIES  ${QT_QTDBUS_LIBRARY} ${QT_QTCORE_LIBRARY} ${KDEWIN32_LIBRARIES})
+Index: kdelibs/kdecore/localization/kcatalog.cpp
+===================================================================
+--- kdelibs.orig/kdecore/localization/kcatalog.cpp	2009-04-04 01:57:30.000000000 +0300
++++ kdelibs/kdecore/localization/kcatalog.cpp	2009-04-04 01:57:49.000000000 +0300
+@@ -26,6 +26,8 @@
+ 
+ #include <kdebug.h>
+ 
++#include <dlfcn.h>
++#include <string.h>
+ #include <stdlib.h>
+ #include <locale.h>
+ #include "gettext.h"
+@@ -39,10 +41,9 @@
+ int kInitializeLocale()
+ {
+     setlocale(LC_ALL, "");
+-#if QT_VERSION >= 0x040500
+-    extern Q_CORE_EXPORT bool qt_locale_initialized; // in Qt since 4.5.0
+-    qt_locale_initialized = true; // as recommended by Thiago
+-#endif
++    if (strncmp(qVersion(), "4.5", 3) == 0) { // it's Qt 4.5
++        *(bool*)dlsym(RTLD_DEFAULT, "qt_locale_initialized") = true;
++    }
+     s_localeSet = true;
+     return 1;
+ }

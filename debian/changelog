@@ -1,4 +1,4 @@
-kde4libs (4:4.2.2-0r2) UNRELEASED; urgency=low
+kde4libs (4:4.2.2-0r3) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -17,9 +17,14 @@ kde4libs (4:4.2.2-0r2) UNRELEASED; urgency=low
   
   +++ Changes by Aurelien Jarno:
   
-  * Update 15_kfreebsd.diff (Closes #520123).
+  * Update 15_kfreebsd.diff (Closes: #520123).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Mar 2009 05:44:42 +0200
+  +++ Changes by George Kiagiadakis:
+
+  * Add patch 24_runtime_qt45_locale_initialization.diff to fix locale
+    initialization when kde is run with Qt 4.5 but built with Qt 4.4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Apr 2009 02:48:46 +0300
 
 kde4libs (4:4.2.1-2) unstable; urgency=low
 
