@@ -1,4 +1,4 @@
-kde4libs (4:4.2.2-0r3) UNRELEASED; urgency=low
+kde4libs (4:4.2.2-0r4) unstable; urgency=low
 
   * New upstream release.
 
@@ -24,7 +24,13 @@ kde4libs (4:4.2.2-0r3) UNRELEASED; urgency=low
   * Add patch 24_runtime_qt45_locale_initialization.diff to fix locale
     initialization when kde is run with Qt 4.5 but built with Qt 4.4.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Apr 2009 02:48:46 +0300
+  +++ Changes by Modestas Vainius:
+
+  * Add debconf templates to warn existing KDE 4 users about KDEHOME change
+    this revision introduces.
+  * Add NEWS entry about KDEHOME change.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Apr 2009 14:48:20 +0300
 
 kde4libs (4:4.2.1-2) unstable; urgency=low
 

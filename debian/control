@@ -23,7 +23,8 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdelibs
 Package: kdelibs5
 Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
- kdelibs-bin(>= ${binary:Version}), dbus-x11, shared-mime-info, xauth, xdg-utils
+ kdelibs-bin(>= ${binary:Version}), dbus-x11, shared-mime-info, xauth, xdg-utils,
+ debconf | debconf-2.0
 Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.2.0)
 Conflicts: kdebase-workspace-libs4+5 (<< 4.2.2), kdepimlibs5 (<< 4.2.2)
 Replaces: kdelibs-bin (<< 4:4.1.74)

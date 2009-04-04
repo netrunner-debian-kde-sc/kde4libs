@@ -1,0 +1,39 @@
+Template: kdelibs5/upgrade_kdehome_running
+Type: boolean
+Default: false
+Description: Upgrade even if newly started KDE 4 applications will use other user settings directory (KDEHOME)?
+ You are about to upgrade to the new version of the kdelibs5 package which
+ introduces a major configuration change, but it seems that there are a few KDE
+ 4 applications running on your system at the moment. Newly started KDE 4
+ applications will use ~/.kde directory to store user settings and data (also
+ known as KDEHOME) by default while currently running KDE 4 applications use
+ ~/.kde4.  KDE 3 applications has always used (and will continue to use)
+ ~/.kde. To avoid potential setting/data loss, you should:
+ .
+ 1) Answer "No", terminate all KDE applications and/or KDE session and try
+ upgrading again.
+ .
+ 2) If you answer "Yes", you should make sure that no new KDE 4 applications
+ are started before you migrate your KDE 4 settings and data.  Beware, that
+ clean termination of the old KDE 4 session might not be safe due to this
+ reason.
+ .
+ Once upgrade is complete, login to KDE as usual or, if you are only using
+ individual KDE 4 applications, you may use Kaboom (available in the package of
+ the same name) wizard to migrate your user settings and data before starting
+ any KDE 4 application.
+ .
+ Currently running KDE 4 applications: ${apps}
+
+Template: kdelibs5/upgrade_kdehome_info
+Type: note
+Description: New user settings directory (KDEHOME) for KDE 4 applications.
+ Once this package is upgraded, KDE 4 applications will use ~/.kde directory to
+ store user settings and data (also known as KDEHOME) by default.  Currently,
+ KDE 4 applications use ~/.kde4. KDE 3 applications has always used (and will
+ continue to use) ~/.kde.
+ .
+ When upgrade is complete, it is safe to login to KDE as usual or, if you are
+ only using individual KDE 4 applications, you may use Kaboom (available in the
+ package of the same name) wizard to migrate your user data before starting a
+ KDE 4 application.
