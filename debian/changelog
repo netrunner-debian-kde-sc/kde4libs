@@ -1,4 +1,4 @@
-kde4libs (4:4.2.2-0r5) unstable; urgency=low
+kde4libs (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -10,6 +10,7 @@ kde4libs (4:4.2.2-0r5) unstable; urgency=low
   * Bump requirements of pkg-kde-tools to require the .kde edition.
   * Temporarily add a versioned dependency on pkg-kde-tools on kdelibs5-dev to
     be absolutely sure not having any accidents.
+  * Add conflicts&replaces on kjscmd (Closes: 520453)
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 

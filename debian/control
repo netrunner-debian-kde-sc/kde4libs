@@ -37,7 +37,8 @@ Description: core libraries for all KDE 4 applications
 Package: kdelibs5-data
 Architecture: all
 Depends: hicolor-icon-theme
-Replaces: kdebase-workspace-data (<< 4:4.1.66), libplasma2
+Replaces: kdebase-workspace-data (<< 4:4.1.66), libplasma2, kjscmd (<< 4:3.5.10-1)
+Conflicts: kjscmd (<< 4:3.5.10-1)
 Description: core shared data for all KDE 4 applications
  This package contains architecture-independent data files needed to run KDE 4
  applications.
