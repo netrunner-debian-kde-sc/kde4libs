@@ -28,6 +28,7 @@ Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
 Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.2.0)
 Conflicts: kdebase-workspace-libs4+5 (<< 4.2.2), kdepimlibs5 (<< 4.2.2)
 Replaces: kdelibs-bin (<< 4:4.1.74)
+Suggests: kaboom (>= 1.0.0)
 Description: core libraries for all KDE 4 applications
  This package contains shared libraries needed to run KDE 4 applications.
  .
