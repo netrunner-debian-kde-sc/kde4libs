@@ -4,6 +4,10 @@ kde4libs (4:4.2.2-3) UNRELEASED; urgency=low
 
   * Fix typo in the kdelibs5.templates.
 
+  +++ Changes by Sune Vuorela:
+
+  * Fix sections.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Apr 2009 21:44:12 +0300
 
 kde4libs (4:4.2.2-2) unstable; urgency=low

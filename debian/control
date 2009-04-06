@@ -94,7 +94,7 @@ Description: library for the KDE 4 Plasma desktop
  libraries module.
 
 Package: kdelibs5-dbg
-Section: libdevel
+Section: debug
 Architecture: any
 Priority: extra
 Depends: kdelibs5 (= ${binary:Version}), libqt4-dbg (>= 4.4.3), libc6-dbg [amd64]
