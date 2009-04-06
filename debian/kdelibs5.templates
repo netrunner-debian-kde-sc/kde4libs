@@ -11,7 +11,7 @@ Description: Upgrade even if newly started KDE 4 applications will use other use
  4 applications running on your system at the moment. Newly started KDE 4
  applications will use ~/.kde directory to store user settings and data (also
  known as KDEHOME) by default while currently running KDE 4 applications use
- ~/.kde4.  KDE 3 applications has always used (and will continue to use)
+ ~/.kde4.  KDE 3 applications have always used (and will continue to use)
  ~/.kde. To avoid potential setting/data loss, you should:
  .
  1) Answer "No", terminate all KDE applications and/or KDE sessions and try
