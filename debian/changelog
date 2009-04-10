@@ -8,6 +8,10 @@ kde4libs (4:4.2.2-3) UNRELEASED; urgency=low
 
   * Fix sections.
 
+  +++ Changes by David Palacio:
+
+  * Reword of kdelibs5.templates.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Apr 2009 21:44:12 +0300
 
 kde4libs (4:4.2.2-2) unstable; urgency=low
