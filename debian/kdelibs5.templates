@@ -4,7 +4,7 @@ Description: Upgrading kdelibs5 while KDE 4 is running
 
 Template: kdelibs5/upgrade_kdehome_running
 Type: boolean
-Default: false
+Default: true
 Description: Stop possible unsafe upgrade of KDE4 with running sessions (user settings directory change)?
  You are about to upgrade to the new version of the kdelibs5 package which
  introduces a major configuration change. Newly started KDE 4 applications
