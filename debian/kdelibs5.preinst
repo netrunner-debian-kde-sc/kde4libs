@@ -72,7 +72,7 @@ if [ "$1" = "upgrade" -a -n "$oldver" ] && dpkg --compare-versions "$oldver" lt 
     db_go || true
     if [ -n "$kde4apps" ]; then
         db_get kdelibs5/upgrade_kdehome_running
-        if [ "$RET" = "false" ]; then
+        if [ "$RET" = "true" ]; then
             db_stop
             exit 1
         fi

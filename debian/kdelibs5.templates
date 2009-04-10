@@ -5,26 +5,25 @@ Description: Upgrading kdelibs5 while KDE 4 is running
 Template: kdelibs5/upgrade_kdehome_running
 Type: boolean
 Default: false
-Description: Upgrade even if newly started KDE 4 applications will use other user settings directory (KDEHOME)?
+Description: Stop possible unsafe upgrade of KDE4 with running sessions (user settings directory change)?
  You are about to upgrade to the new version of the kdelibs5 package which
- introduces a major configuration change, but it seems that there are a few KDE
- 4 applications running on your system at the moment. Newly started KDE 4
- applications will use ~/.kde directory to store user settings and data (also
- known as KDEHOME) by default while currently running KDE 4 applications use
- ~/.kde4.  KDE 3 applications have always used (and will continue to use)
- ~/.kde. To avoid potential setting/data loss, you should:
+ introduces a major configuration change. Newly started KDE 4 applications
+ will use ~/.kde directory to store user settings and data (also known as
+ KDEHOME) by default while currently running KDE 4 applications use ~/.kde4.
+ KDE 3 applications have always used (and will continue to use) ~/.kde. It
+ seems that there are a few KDE 4 applications running on your system at the
+ moment. To avoid potential setting/data loss, you should:
  .
- 1) Answer "No", terminate all KDE applications and/or KDE sessions and try
+ 1) Answer "Yes", terminate all KDE applications and KDE sessions and try
  upgrading again.
  .
- 2) If you answer "Yes", you should make sure that no new KDE 4 applications
- are started before you migrate your KDE 4 settings and data.  Beware, that
- clean termination of the old KDE 4 session might not be safe due to this
- reason.
+ or 2) Answer "No" to continue upgrading. You should make sure that no new
+ KDE 4 applications are started before you migrate your KDE 4 settings and
+ data.  Beware, that clean termination of the old KDE 4 session might not be
+ safe..
  .
- Once upgrade is complete, login to KDE as usual or, if you are only using
- individual KDE 4 applications, you may use Kaboom (available in the package of
- the same name) wizard to migrate your user settings and data before starting
+ Once upgrade is complete, login to KDE as usual or you may use Kaboom wizard
+ (package name: kaboom) to migrate your user settings and data before starting
  any KDE 4 application.
  .
  Currently running KDE 4 applications: ${apps}
