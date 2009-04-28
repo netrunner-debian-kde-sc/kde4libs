@@ -1,0 +1,75 @@
+Do not let plasma popup appear over screensaver.
+
+KDE BUG: 179924
+
+--- a/plasma/popupapplet.cpp
++++ b/plasma/popupapplet.cpp
+@@ -275,14 +275,8 @@ void PopupAppletPrivate::popupConstraint
+                 //stuff out of your Dialog (extenders). Monitor WindowDeactivate events so we can
+                 //emulate the same kind of behavior as Qt::Popup (close when you click somewhere
+                 //else.
+-                //Use Qt::Tool otherwise dialogs get shown over screensaver (bug #179924).
+-                Qt::WindowFlags wflags = Qt::Tool | Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint;
+-
+-                if (passive) {
+-                    wflags |= Qt::X11BypassWindowManagerHint;
+-                }
+-
+-                dialog->setWindowFlags(wflags);
++                dialog->setWindowFlags(Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint);
++                updateDialogFlags();
+                 KWindowSystem::setState(dialog->winId(), NET::SkipTaskbar | NET::SkipPager);
+                 dialog->installEventFilter(q);
+ 
+@@ -340,7 +334,7 @@ void PopupApplet::mouseReleaseEvent(QGra
+ 
+ bool PopupApplet::eventFilter(QObject *watched, QEvent *event)
+ {
+-    if (watched == d->dialog && (event->type() == QEvent::WindowDeactivate)) {
++    if (!d->passive && watched == d->dialog && (event->type() == QEvent::WindowDeactivate)) {
+         d->popupLostFocus = true;
+         hidePopup();
+         QTimer::singleShot(100, this, SLOT(clearPopupLostFocus()));
+@@ -411,15 +405,7 @@ void PopupApplet::setPassivePopup(bool p
+     d->passive = passive;
+ 
+     if (d->dialog) {
+-        Qt::WindowFlags wflags = d->dialog->windowFlags();
+-
+-        if (d->passive) {
+-            wflags |= Qt::X11BypassWindowManagerHint;
+-        } else {
+-            wflags &= ~Qt::X11BypassWindowManagerHint;
+-        }
+-
+-        d->dialog->setWindowFlags(wflags);
++        d->updateDialogFlags();
+     }
+ }
+ 
+@@ -628,6 +614,15 @@ void PopupAppletPrivate::updateDialogPos
+ 
+     dialog->move(pos);
+ }
++
++
++void PopupAppletPrivate::updateDialogFlags()
++{
++    Q_ASSERT(dialog);
++    dialog->setAttribute(Qt::WA_X11NetWmWindowTypeNotification, passive);
++}
++
++
+ } // Plasma namespace
+ 
+ #include "popupapplet.moc"
+--- a/plasma/private/popupapplet_p.h
++++ b/plasma/private/popupapplet_p.h
+@@ -35,6 +35,7 @@ public:
+     void dialogSizeChanged();
+     void dialogStatusChanged(bool status);
+     void updateDialogPosition();
++    void updateDialogFlags();
+     void popupConstraintsEvent(Plasma::Constraints constraints);
+     void checkExtenderAppearance(Plasma::FormFactor f);
+ 

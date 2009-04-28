@@ -12,7 +12,12 @@ kde4libs (4:4.2.2-3) UNRELEASED; urgency=low
 
   * Reword of kdelibs5.templates.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Apr 2009 21:44:12 +0300
+  [ Fathi Boudra ]
+
+  * Add 01_no_plasma_popup_over_screensaver_r956998.diff patch:
+    Do not let plasma popup appear over screensaver.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Apr 2009 13:19:00 +0200
 
 kde4libs (4:4.2.2-2) unstable; urgency=low
 
