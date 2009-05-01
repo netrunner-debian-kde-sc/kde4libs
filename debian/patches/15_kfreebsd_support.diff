@@ -62,7 +62,7 @@ cmake.
  }
 --- a/ConfigureChecks.cmake
 +++ b/ConfigureChecks.cmake
-@@ -153,11 +153,11 @@ if (UNIX)
+@@ -154,11 +154,11 @@ if (UNIX)
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
      endif (NOT login_in_libc)
