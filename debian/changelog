@@ -1,6 +1,8 @@
 kde4libs (4:4.2.3-1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - Backport revert of auto-default button change to KDE 4.2.
+      (Closes: #525561, #523744)
 
   +++ Changes by Modestas Vainius:
 
