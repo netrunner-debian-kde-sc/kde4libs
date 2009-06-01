@@ -11,6 +11,7 @@ kde4libs (4:4.2.4-1) UNRELEASED; urgency=low
   +++ Changes by Sune Vuorela:
 
   * Fix sections.
+  * Add Suggests: hspell to kdelibs5 for hebrew spell checking.
 
   +++ Changes by David Palacio:
 
