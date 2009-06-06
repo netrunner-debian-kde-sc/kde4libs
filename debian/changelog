@@ -16,6 +16,8 @@ kde4libs (4:4.2.90+svn977732-0r1) UNRELEASED; urgency=low
   * Update RUNTIME_DEPS variable in debian/rules to point to
     kdebase-runtime (>= 4.2.90).
   * Update recommends: kdelibs5 recommends kdebase-runtime (>= 4.2.90).
+  * kdelibs5-dev replaces kdebase-workspace-dev (<< 4.2.90) because a
+    cmake file (create_exe_symlink.cmake) was moved.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jun 2009 13:37:03 +0300
 
