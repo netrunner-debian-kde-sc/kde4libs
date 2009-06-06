@@ -6,12 +6,12 @@ icons.
 Debug output is not completely disabled, because QT_NO_DEBUG is not set.
 --- a/cmake/modules/FindKDE4Internal.cmake
 +++ b/cmake/modules/FindKDE4Internal.cmake
-@@ -972,11 +972,13 @@ if (CMAKE_COMPILER_IS_GNUCXX)
+@@ -1010,11 +1010,13 @@
     set(CMAKE_CXX_FLAGS_DEBUG          "-g -O2 -fno-reorder-blocks -fno-schedule-insns -fno-inline")
     set(CMAKE_CXX_FLAGS_DEBUGFULL      "-g3 -fno-inline")
     set(CMAKE_CXX_FLAGS_PROFILE        "-g3 -fno-inline -ftest-coverage -fprofile-arcs")
 +   set(CMAKE_CXX_FLAGS_DEBIAN         "-DNDEBUG -DQT_NO_DEBUG")
-    set(CMAKE_C_FLAGS_RELWITHDEBINFO   "-O2 -g")
+    set(CMAKE_C_FLAGS_RELWITHDEBINFO   "-O2 -g -DNDEBUG -DQT_NO_DEBUG")
     set(CMAKE_C_FLAGS_RELEASE          "-O2 -DNDEBUG -DQT_NO_DEBUG")
     set(CMAKE_C_FLAGS_DEBUG            "-g -O2 -fno-reorder-blocks -fno-schedule-insns -fno-inline")
     set(CMAKE_C_FLAGS_DEBUGFULL        "-g3 -fno-inline")

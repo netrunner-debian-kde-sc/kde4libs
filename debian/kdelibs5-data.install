@@ -114,10 +114,12 @@ usr/share/kde4/apps/katepart/syntax/asm-avr.xml
 usr/share/kde4/apps/katepart/syntax/asm6502.xml
 usr/share/kde4/apps/katepart/syntax/asn1.xml
 usr/share/kde4/apps/katepart/syntax/asp.xml
+usr/share/kde4/apps/katepart/syntax/asterisk.xml
 usr/share/kde4/apps/katepart/syntax/awk.xml
 usr/share/kde4/apps/katepart/syntax/bash.xml
 usr/share/kde4/apps/katepart/syntax/bibtex.xml
 usr/share/kde4/apps/katepart/syntax/bmethod.xml
+usr/share/kde4/apps/katepart/syntax/boo.xml
 usr/share/kde4/apps/katepart/syntax/c.xml
 usr/share/kde4/apps/katepart/syntax/cg.xml
 usr/share/kde4/apps/katepart/syntax/cgis.xml
@@ -182,6 +184,7 @@ usr/share/kde4/apps/katepart/syntax/lilypond.xml
 usr/share/kde4/apps/katepart/syntax/literate-haskell.xml
 usr/share/kde4/apps/katepart/syntax/logtalk.xml
 usr/share/kde4/apps/katepart/syntax/lpc.xml
+usr/share/kde4/apps/katepart/syntax/lsl.xml
 usr/share/kde4/apps/katepart/syntax/lua.xml
 usr/share/kde4/apps/katepart/syntax/m3u.xml
 usr/share/kde4/apps/katepart/syntax/mab.xml
@@ -261,7 +264,6 @@ usr/share/kde4/apps/katepart/syntax/yacas.xml
 usr/share/kde4/apps/katepart/syntax/yacc.xml
 usr/share/kde4/apps/katepart/syntax/yaml.xml
 usr/share/kde4/apps/katepart/syntax/zonnon.xml
-usr/share/kde4/apps/kcertpart/kcertpart.rc
 usr/share/kde4/apps/kcharselect/kcharselect-data
 usr/share/kde4/apps/kcm_componentchooser/kcm_instantmessenger.desktop
 usr/share/kde4/apps/kcm_componentchooser/kcm_ktexteditor.desktop
@@ -272,6 +274,8 @@ usr/share/kde4/apps/kconf_update/kioslave.upd
 usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd
 usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh
 usr/share/kde4/apps/kconf_update/move_kio_help_cache.sh
+usr/share/kde4/apps/kconf_update/plasma_popupapplet_fix_groups.pl
+usr/share/kde4/apps/kconf_update/plasma_popupapplet_fix_groups.upd
 usr/share/kde4/apps/kconf_update/proxytype.pl
 usr/share/kde4/apps/kconf_update/useragent.pl
 usr/share/kde4/apps/kdeui/about/bar-bottom-left.png
@@ -354,7 +358,6 @@ usr/share/kde4/apps/khtml/khtml_browser.rc
 usr/share/kde4/apps/kjava/kjava.jar
 usr/share/kde4/apps/kjava/kjava.policy
 usr/share/kde4/apps/kjava/pluginsinfo
-usr/share/kde4/apps/knewstuff/pics/ghns.png
 usr/share/kde4/apps/knewstuff/pics/ghns_star.png
 usr/share/kde4/apps/knewstuff/pics/ghns_star_gray.png
 usr/share/kde4/apps/knewstuff/pics/thumb_frame.png
@@ -782,6 +785,24 @@ usr/share/kde4/apps/ksgmltools2/customization/lt/entities/update-doc.docbook
 usr/share/kde4/apps/ksgmltools2/customization/lt/lang.entities
 usr/share/kde4/apps/ksgmltools2/customization/lt/strings.entities
 usr/share/kde4/apps/ksgmltools2/customization/lt/user.entities
+usr/share/kde4/apps/ksgmltools2/customization/nds/catalog.xml
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/fdl-notice.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/gpl-notice.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/help-menu.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/install-compile.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/install-intro.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/lgpl-notice.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/report-bugs.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/underArtisticLicense.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/underBSDLicense.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/underFDL.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/underGPL.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/underLGPL.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/underX11License.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/entities/update-doc.docbook
+usr/share/kde4/apps/ksgmltools2/customization/nds/lang.entities
+usr/share/kde4/apps/ksgmltools2/customization/nds/strings.entities
+usr/share/kde4/apps/ksgmltools2/customization/nds/user.entities
 usr/share/kde4/apps/ksgmltools2/customization/nl/catalog.xml
 usr/share/kde4/apps/ksgmltools2/customization/nl/entities/fdl-notice.docbook
 usr/share/kde4/apps/ksgmltools2/customization/nl/entities/gpl-notice.docbook
@@ -1119,6 +1140,7 @@ usr/share/kde4/apps/ksgmltools2/customization/xsl/hu.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/it.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/ja.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/ko.xml
+usr/share/kde4/apps/ksgmltools2/customization/xsl/nds.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/nl.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/nn.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/no.xml
@@ -1286,9 +1308,10 @@ usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/l10n.xsl
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/la.xml
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/labels.xsl
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/lt.xml
+usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/nb.xml
+usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/nds.xml
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/nl.xml
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/nn.xml
-usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/no.xml
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/olink.xsl
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/pi.xsl
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/common/pl.xml
@@ -1839,7 +1862,6 @@ usr/share/kde4/apps/ksgmltools2/docbook/xsl/params/xref.properties.xml
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/params/xref.title-page.separator.xml
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/params/xref.with.number.and.title.xml
 usr/share/kde4/apps/kssl/ca-bundle.crt
-usr/share/kde4/apps/ktexteditor_docwordcompletion/docwordcompletionui.rc
 usr/share/kde4/apps/ktexteditor_insertfile/ktexteditor_insertfileui.rc
 usr/share/kde4/apps/ktexteditor_kdatatool/ktexteditor_kdatatoolui.rc
 usr/share/kde4/apps/nepomuk/pics/rating.png
@@ -1856,7 +1878,6 @@ usr/share/kde4/config/kdebugrc
 usr/share/kde4/config/ksslcalist
 usr/share/kde4/config/plasmoids.knsrc
 usr/share/kde4/config/ui/ui_standards.rc
-usr/share/kde4/services/crypto.desktop
 usr/share/kde4/services/data.protocol
 usr/share/kde4/services/emoticonstheme_adium.desktop
 usr/share/kde4/services/emoticonstheme_kde.desktop
@@ -1870,7 +1891,6 @@ usr/share/kde4/services/http.protocol
 usr/share/kde4/services/http_cache_cleaner.desktop
 usr/share/kde4/services/https.protocol
 usr/share/kde4/services/katepart.desktop
-usr/share/kde4/services/kcertpart.desktop
 usr/share/kde4/services/kded/kcookiejar.desktop
 usr/share/kde4/services/kded/kssld.desktop
 usr/share/kde4/services/kded/proxyscout.desktop
@@ -1883,8 +1903,6 @@ usr/share/kde4/services/kmultipart.desktop
 usr/share/kde4/services/kspell_aspell.desktop
 usr/share/kde4/services/kspell_enchant.desktop
 usr/share/kde4/services/kspell_hspell.desktop
-usr/share/kde4/services/ktexteditor_docwordcompletion.desktop
-usr/share/kde4/services/ktexteditor_docwordcompletion_config.desktop
 usr/share/kde4/services/ktexteditor_insertfile.desktop
 usr/share/kde4/services/ktexteditor_kdatatool.desktop
 usr/share/kde4/services/ktexteditor_python-encoding.desktop
@@ -1953,6 +1971,7 @@ usr/share/kde4/servicetypes/ktexteditor_loadsavefiltercheckplugin.desktop
 usr/share/kde4/servicetypes/ktexteditorplugin.desktop
 usr/share/kde4/servicetypes/kurifilterplugin.desktop
 usr/share/kde4/servicetypes/plasma-animator.desktop
+usr/share/kde4/servicetypes/plasma-applet-popupapplet.desktop
 usr/share/kde4/servicetypes/plasma-applet.desktop
 usr/share/kde4/servicetypes/plasma-containment.desktop
 usr/share/kde4/servicetypes/plasma-dataengine.desktop

@@ -4,7 +4,7 @@ Patch by Sune Vuorela.
 
 --- a/kded/applications.menu
 +++ b/kded/applications.menu
-@@ -437,5 +437,12 @@
+@@ -502,6 +502,13 @@
  		</And>
  	</Include>
  	<DefaultMergeDirs/>
@@ -17,3 +17,4 @@ Patch by Sune Vuorela.
 +
  	<MergeFile>applications-kmenuedit.menu</MergeFile>
  </Menu>
+ 

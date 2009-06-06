@@ -1,3 +1,24 @@
+kde4libs (4:4.2.90+svn977732-0r1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+
+  +++ Changes by George Kiagiadakis:
+
+  * Refresh patches.
+  * Bump build dependency on Qt4 to version 4.5.1.
+  * Bump build dependency on automoc to version 1.0~version-0.9.88.
+  * Bump build dependency on soprano to version 2.1.68.
+  * Remove patch 24_runtime_qt45_locale_initialization.diff as
+    we now build-depend on Qt 4.5.
+  * Update installed files.
+  * Add myself to uploaders.
+  * Update replaces: kdelibs-dev replaces kdebase-runtime-data (<< 4.2.90).
+  * Update RUNTIME_DEPS variable in debian/rules to point to
+    kdebase-runtime (>= 4.2.90).
+  * Update recommends: kdelibs5 recommends kdebase-runtime (>= 4.2.90).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jun 2009 13:37:03 +0300
+
 kde4libs (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release:

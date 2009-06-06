@@ -2,18 +2,18 @@ Source: kde4libs
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), quilt, cmake (>= 2.6.3), pkg-kde-tools (>= 0.4.2),
  shared-mime-info (>= 0.20), libphonon-dev (>= 4:4.3.0),
- libcups2-dev, libdbus-1-dev, libqt4-dev (>= 4.4.3), libqt4-opengl-dev (>= 4.4.3),
+ libcups2-dev, libdbus-1-dev, libqt4-dev (>= 4.5.1), libqt4-opengl-dev (>= 4.5.1),
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libkeyutils-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libpng-dev, libssl-dev, libsm-dev,
- libsoprano-dev (>= 2.1.67), libstreamanalyzer-dev (>= 0.6.3),
+ libsoprano-dev (>= 2.1.68), libstreamanalyzer-dev (>= 0.6.3),
  libxml2-dev, libxml2-utils,  libxslt1-dev, libxtst-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc,
- libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~svn850570),
+ libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88),
  libxcursor-dev
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
@@ -25,7 +25,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
  kdelibs-bin(>= ${binary:Version}), dbus-x11, shared-mime-info, xauth, xdg-utils
 Pre-Depends: debconf | debconf-2.0
-Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.2.2), kaboom (>= 1.0.5)
+Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.2.90), kaboom (>= 1.0.5)
 Conflicts: kdebase-workspace-libs4+5 (<< 4.2.2), kdepimlibs5 (<< 4.2.2)
 Replaces: kdelibs-bin (<< 4:4.1.74)
 Suggests: hspell
@@ -53,7 +53,7 @@ Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), libplasma3 (= ${bina
  ${sameVersionDep:libqt4-dev}, ${sameVersionDep:libsoprano-dev}, ${sameVersionDep:libphonon-dev}
 #Suggests: kdelibs5-doc (= ${source:Version})
 Recommends: ${sameVersionDep:libqt4-opengl-dev:libplasma3-Depends}
-Replaces: kdebase-runtime-data (<< 4:4.0.60), kdelibs5-data (<< 4:4.0.80-1), libplasma-dev (<< 4:4.1.96)
+Replaces: kdebase-runtime-data (<< 4:4.2.90), kdelibs5-data (<< 4:4.0.80-1), libplasma-dev (<< 4:4.1.96)
 Conflicts: kdelibs4-dev, libkjsembed-dev, kdepimlibs5-dev (<< 4:4.1.81+svn891439), libplasma-dev (<< 4:4.1.96)
 Provides: libplasma-dev
 Description: development files for the KDE 4 core libraries

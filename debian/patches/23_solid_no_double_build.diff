@@ -1,6 +1,6 @@
 --- a/solid/solid/CMakeLists.txt
 +++ b/solid/solid/CMakeLists.txt
-@@ -194,7 +194,14 @@ install(FILES org.freedesktop.PowerManag
+@@ -219,7 +219,14 @@
  install(FILES org.freedesktop.PowerManagement.Inhibit.xml DESTINATION ${DBUS_INTERFACES_INSTALL_DIR})
  
  ########### static lib for tests  ###############
@@ -14,4 +14,4 @@
 +automoc_copy(solid solid_static)
  kde4_add_library(solid_static STATIC ${solid_LIB_SRCS})
  
- target_link_libraries(solid_static ${QT_QTCORE_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${QT_QTGUI_LIBRARY})
+ target_link_libraries(solid_static ${QT_QTCORE_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${QT_QTGUI_LIBRARY} ${solid_OPTIONAL_LIBS})
