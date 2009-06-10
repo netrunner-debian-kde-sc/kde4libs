@@ -700,6 +700,7 @@ usr/include/KDE/KUser
 usr/include/KDE/KUserGroup
 usr/include/KDE/KVBox
 usr/include/KDE/KWallet/Wallet
+usr/include/KDE/KWidgetItemDelegate
 usr/include/KDE/KWindowInfo
 usr/include/KDE/KWindowSystem
 usr/include/KDE/KWordMacroExpander
@@ -1580,6 +1581,7 @@ usr/include/solid/powermanagement.h
 usr/include/solid/predicate.h
 usr/include/solid/processor.h
 usr/include/solid/serialinterface.h
+usr/include/solid/smartcardreader.h
 usr/include/solid/solid_export.h
 usr/include/solid/solidnamespace.h
 usr/include/solid/storageaccess.h

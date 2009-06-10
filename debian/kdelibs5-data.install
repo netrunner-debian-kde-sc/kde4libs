@@ -286,12 +286,11 @@ usr/share/kde4/apps/kdeui/about/bar-middle-right.png
 usr/share/kde4/apps/kdeui/about/bar-top-left.png
 usr/share/kde4/apps/kdeui/about/bar-top-middle.png
 usr/share/kde4/apps/kdeui/about/bar-top-right.png
-usr/share/kde4/apps/kdeui/about/bottom-left.png
-usr/share/kde4/apps/kdeui/about/bottom-middle.png
-usr/share/kde4/apps/kdeui/about/bottom-right.png
+usr/share/kde4/apps/kdeui/about/body-background.jpg
 usr/share/kde4/apps/kdeui/about/box-bottom-left.png
 usr/share/kde4/apps/kdeui/about/box-bottom-middle.png
 usr/share/kde4/apps/kdeui/about/box-bottom-right.png
+usr/share/kde4/apps/kdeui/about/box-center.png
 usr/share/kde4/apps/kdeui/about/box-middle-left.png
 usr/share/kde4/apps/kdeui/about/box-middle-right.png
 usr/share/kde4/apps/kdeui/about/box-top-left.png
@@ -300,7 +299,6 @@ usr/share/kde4/apps/kdeui/about/box-top-right.png
 usr/share/kde4/apps/kdeui/about/kde_infopage.css
 usr/share/kde4/apps/kdeui/about/kde_infopage_rtl.css
 usr/share/kde4/apps/kdeui/about/top-middle.png
-usr/share/kde4/apps/kdeui/about/top-right.png
 usr/share/kde4/apps/kdeui/pics/aboutkde.png
 usr/share/kde4/apps/kdeui/pics/kdeprint_nup1.png
 usr/share/kde4/apps/kdeui/pics/kdeprint_nup2.png

@@ -1,4 +1,4 @@
-kde4libs (4:4.2.90+svn977732-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.2.91+svn979688-0r1) UNRELEASED; urgency=low
 
   * New upstream snapshot.
 
@@ -19,7 +19,7 @@ kde4libs (4:4.2.90+svn977732-0r1) UNRELEASED; urgency=low
   * kdelibs5-dev replaces kdebase-workspace-dev (<< 4.2.90) because a
     cmake file (create_exe_symlink.cmake) was moved.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jun 2009 13:37:03 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 10 Jun 2009 16:22:28 +0300
 
 kde4libs (4:4.2.4-1) unstable; urgency=low
 
