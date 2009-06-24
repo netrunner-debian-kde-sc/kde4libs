@@ -25,7 +25,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
  kdelibs-bin(>= ${binary:Version}), dbus-x11, shared-mime-info, xauth, xdg-utils
 Pre-Depends: debconf | debconf-2.0
-Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.2.90), kaboom (>= 1.0.5)
+Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.2.95), kaboom (>= 1.0.5)
 Conflicts: kdebase-workspace-libs4+5 (<< 4.2.2), kdepimlibs5 (<< 4.2.2)
 Replaces: kdelibs-bin (<< 4:4.1.74)
 Suggests: hspell
