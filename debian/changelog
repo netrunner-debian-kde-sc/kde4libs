@@ -1,4 +1,4 @@
-kde4libs (4:4.2.95+svn986562-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.2.95-0r1) UNRELEASED; urgency=low
 
   * New upstream snapshot.
 
@@ -16,10 +16,11 @@ kde4libs (4:4.2.95+svn986562-0r1) UNRELEASED; urgency=low
   * Update RUNTIME_DEPS variable in debian/rules to point to
     kdebase-runtime (>= 4.2.95).
   * Update recommends: kdelibs5 recommends kdebase-runtime (>= 4.2.95).
-  * kdelibs5-dev replaces kdebase-workspace-dev (<< 4.2.90) because a
-    cmake file (create_exe_symlink.cmake) was moved.
+  * Add replaces: kdelibs5-dev replaces kdebase-workspace-dev (<< 4.2.90)
+    because a cmake file (create_exe_symlink.cmake) was moved.
+  * Update lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Jun 2009 23:07:03 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Jun 2009 14:58:06 +0300
 
 kde4libs (4:4.2.4-1) unstable; urgency=low
 
