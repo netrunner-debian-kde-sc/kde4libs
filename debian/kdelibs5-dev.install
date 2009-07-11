@@ -1696,9 +1696,11 @@ usr/share/kde4/apps/cmake/modules/FindKDE4Internal.cmake
 usr/share/kde4/apps/cmake/modules/FindKDE4Workspace.cmake
 usr/share/kde4/apps/cmake/modules/FindKDEWIN32.cmake
 usr/share/kde4/apps/cmake/modules/FindKDEWIN_Packager.cmake
+usr/share/kde4/apps/cmake/modules/FindKDEWin.cmake
 usr/share/kde4/apps/cmake/modules/FindKNepomuk.cmake
 usr/share/kde4/apps/cmake/modules/FindKdcraw.cmake
 usr/share/kde4/apps/cmake/modules/FindKdeMultimedia.cmake
+usr/share/kde4/apps/cmake/modules/FindKdepim.cmake
 usr/share/kde4/apps/cmake/modules/FindKdepimLibs.cmake
 usr/share/kde4/apps/cmake/modules/FindKexiv2.cmake
 usr/share/kde4/apps/cmake/modules/FindKipi.cmake
