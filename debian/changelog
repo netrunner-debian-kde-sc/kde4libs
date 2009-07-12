@@ -1,6 +1,6 @@
-kde4libs (4:4.2.96-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.2.96-1) experimental; urgency=low
 
-  * New upstream snapshot.
+  * New upstream release candidate 2.
 
   +++ Changes by George Kiagiadakis:
 
