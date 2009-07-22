@@ -1,5 +1,4 @@
 08_add_debian_build_type.diff
-09_disable_debug_messages_if_not_explicitly_enabled.diff
 11_default_kde4_xdg_menu_prefix.diff
 13_qt4_designer_plugins_path.diff
 14_hardcode_ptm_device.diff

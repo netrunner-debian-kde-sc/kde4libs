@@ -1,3 +1,23 @@
+kde4libs (4:4.2.98-0r1) UNRELEASED; urgency=low
+
+  * New upstream development release.
+    - Disables kmail debug output by default (Closes: #537331).
+
+  +++ Changes by Modestas Vainius:
+
+  * Drop 09_disable_debug_messages_if_not_explicitly_enabled.diff patch - no
+    longer needed.
+  * Bump soprano build depends to 2.3.0.
+  * New build dependencies:
+    - flex - needed to build the Solid predicate parser;
+    - bison - needed to build the Solid predicate parser.
+  * Bump Standards-Version to 3.8.2 - no changes needed.
+  * Update install files.
+  * Update plasma symbols file, port it to dpkg-dev 1.15.3 compatible format
+    and add build depend on dpkg-dev >= 1.15.3.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 22 Jul 2009 14:01:10 +0300
+
 kde4libs (4:4.2.96-1) experimental; urgency=low
 
   * New upstream release candidate 2.
@@ -20,7 +40,7 @@ kde4libs (4:4.2.96-1) experimental; urgency=low
     because a cmake file (create_exe_symlink.cmake) was moved.
   * Update lintian overrides.
 
-  +++ Changes by Suno Vuorela:
+  +++ Changes by Sune Vuorela:
 
   * Make kdelibs break kdebase-workspace-bin.
   * Insntall files
