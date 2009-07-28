@@ -1,6 +1,6 @@
-kde4libs (4:4.2.98-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.3.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream development release.
+  * New upstream release.
     - Disables kmail debug output by default (Closes: #537331).
 
   +++ Changes by Modestas Vainius:
