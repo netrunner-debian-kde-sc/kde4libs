@@ -1,4 +1,4 @@
-kde4libs (4:4.3.0-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.3.0-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
     - Disables kmail debug output by default (Closes: #537331).
@@ -16,7 +16,7 @@ kde4libs (4:4.3.0-0r1) UNRELEASED; urgency=low
   * Update plasma symbols file, port it to dpkg-dev 1.15.3 compatible format
     and add build depend on dpkg-dev >= 1.15.3.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 22 Jul 2009 14:01:10 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Aug 2009 14:09:04 +0200
 
 kde4libs (4:4.2.96-1) experimental; urgency=low
 
