@@ -843,7 +843,7 @@ kde4libs (4:3.98.0~svn753247-1) experimental; urgency=low
   * Force runtime dependency on kdebase-runtime instead of the removed
     kdebase-runtime-bin.
 
- -- Armin Berres <trigger+debian@space-based.de>  Thu, 27 Dec 2007 16:11:13 +0100
+ -- Armin Berres <armin+debian@space-based.de>  Thu, 27 Dec 2007 16:11:13 +0100
 
 kde4libs (4:3.97.0-2) experimental; urgency=low
 
