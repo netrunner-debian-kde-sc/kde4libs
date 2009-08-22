@@ -1,8 +1,9 @@
 kde4libs (4:4.3.0-2) unstable; urgency=medium
 
   * Add patch: 01_r1012564.diff: Fixes a data loss with KIO.
+  * Bump Standards-Version to 3.8.3 - no changes needed.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 22 Aug 2009 12:09:52 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 22 Aug 2009 13:32:44 +0200
 
 kde4libs (4:4.3.0-1) unstable; urgency=low
 
