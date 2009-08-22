@@ -1,7 +1,5 @@
-Index: kio/kio/kfileitem.cpp
-===================================================================
---- kio/kio/kfileitem.cpp	(revision 1012563)
-+++ kio/kio/kfileitem.cpp	(revision 1012564)
+--- a/kio/kio/kfileitem.cpp	(revision 1012563)
++++ b/kio/kio/kfileitem.cpp	(revision 1012564)
 @@ -532,6 +532,9 @@
  {
      d->m_strName = name;
@@ -12,10 +10,8 @@ Index: kio/kio/kfileitem.cpp
  }
  
  QString KFileItem::linkDest() const
-Index: kio/tests/kfileitemtest.cpp
-===================================================================
---- kio/tests/kfileitemtest.cpp	(revision 1012563)
-+++ kio/tests/kfileitemtest.cpp	(revision 1012564)
+--- a/kio/tests/kfileitemtest.cpp	(revision 1012563)
++++ b/kio/tests/kfileitemtest.cpp	(revision 1012564)
 @@ -241,6 +241,21 @@
      QVERIFY(fileItem.cmp(fileItem2));
  }
@@ -38,10 +34,8 @@ Index: kio/tests/kfileitemtest.cpp
  
  void KFileItemTest::testDecodeFileName_data()
  {
-Index: kio/tests/kdirmodeltest.cpp
-===================================================================
---- kio/tests/kdirmodeltest.cpp	(revision 1012563)
-+++ kio/tests/kdirmodeltest.cpp	(revision 1012564)
+--- a/kio/tests/kdirmodeltest.cpp	(revision 1012563)
++++ b/kio/tests/kdirmodeltest.cpp	(revision 1012564)
 @@ -418,6 +418,12 @@
      // check renaming happened
      QCOMPARE( m_dirModel->itemForIndex( m_secondFileIndex ).url().url(), newUrl.url() );
@@ -55,10 +49,8 @@ Index: kio/tests/kdirmodeltest.cpp
      // Put things back to normal
      job = KIO::rename(newUrl, url, KIO::HideProgressInfo);
      ok = job->exec();
-Index: kio/tests/kfileitemtest.h
-===================================================================
---- kio/tests/kfileitemtest.h	(revision 1012563)
-+++ kio/tests/kfileitemtest.h	(revision 1012564)
+--- a/kio/tests/kfileitemtest.h	(revision 1012563)
++++ b/kio/tests/kfileitemtest.h	(revision 1012564)
 @@ -35,6 +35,7 @@
      void testHiddenFile();
      void testMimeTypeOnDemand();
