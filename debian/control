@@ -14,7 +14,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), quilt, cmake (>= 2.6.3), 
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, libtiff4-dev, hspell, xsltproc,
  libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88),
- libxcursor-dev
+ libxcursor-dev, libutempter-dev
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdelibs
