@@ -1,4 +1,4 @@
-kde4libs (4:4.3.1-1) UNRELEASED; urgency=low
+kde4libs (4:4.3.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -6,7 +6,12 @@ kde4libs (4:4.3.1-1) UNRELEASED; urgency=low
 
   * Add libutempter-dev build dependency. Used by kpty.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Aug 2009 09:23:59 +0200
+  +++ Changes by Modestas Vainius:
+
+  * Remove 01_r1012564.diff patch, merged upstream. 
+  * Refresh patches.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Aug 2009 10:28:49 +0300
 
 kde4libs (4:4.3.0-2) unstable; urgency=medium
 
