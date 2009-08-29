@@ -341,6 +341,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma12AppletScript26showConfigurationInterfaceEv@Base 4:4.2.2
  _ZN6Plasma12AppletScript27standardConfigurationDialogEv@Base 4:4.2.98
  _ZN6Plasma12AppletScript28setHasConfigurationInterfaceEb@Base 4:4.2.2
+ _ZN6Plasma12AppletScript29addStandardConfigurationPagesEP13KConfigDialog@Base 4:4.3.1
  _ZN6Plasma12AppletScript9setAppletEPNS_6AppletE@Base 4:4.2.2
  _ZN6Plasma12AppletScriptC1EP7QObject@Base 4:4.2.2
  _ZN6Plasma12AppletScriptC2EP7QObject@Base 4:4.2.2

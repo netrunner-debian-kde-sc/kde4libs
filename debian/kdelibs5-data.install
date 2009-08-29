@@ -877,6 +877,7 @@ usr/share/kde4/apps/ksgmltools2/customization/pl/lang.entities
 usr/share/kde4/apps/ksgmltools2/customization/pl/strings.entities
 usr/share/kde4/apps/ksgmltools2/customization/pl/user.entities
 usr/share/kde4/apps/ksgmltools2/customization/pt-BR/catalog.xml
+usr/share/kde4/apps/ksgmltools2/customization/pt-BR/contributor.entities
 usr/share/kde4/apps/ksgmltools2/customization/pt-BR/entities/fdl-notice.docbook
 usr/share/kde4/apps/ksgmltools2/customization/pt-BR/entities/gpl-notice.docbook
 usr/share/kde4/apps/ksgmltools2/customization/pt-BR/entities/help-menu.docbook
