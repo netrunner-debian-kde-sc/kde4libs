@@ -1,3 +1,12 @@
+kde4libs (4:4.3.2-0r2) UNRELEASED; urgency=low
+
+  * modified kdelibs5.templates to conform partially with lintian complaints
+  * added po-debconf and a first german translation.
+  * changed UNRELEASED to experimental in kdelibs5-data.NEWS
+  * added 26_fixmanpage.diff
+
+ -- Karl Ferdinand Ebert <kfebert@gmail.com>  Sat, 03 Oct 2009 10:10:10 +0200
+
 kde4libs (4:4.3.2-0r1) UNRELEASED; urgency=low
 
   * New upstream release.

@@ -1,0 +1,14 @@
+Fix "cannot adjust line" 
+
+--- a/cmake/modules/FindBlitz.cmake
++++ b/cmake/modules/FindBlitz.cmake
+@@ -1,6 +1,6 @@
+-################################################################
+-########## DEPRECATED, use FindQImageBlitz instead #############
+-################################################################
++########################################################### ##### 
++########## DEPRECATED, use FindQImageBlitz instead ######## ##### 
++########################################################### ##### 
+ # - Try to find blitz lib
+ # Once done this will define
+ #

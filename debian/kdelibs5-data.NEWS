@@ -1,4 +1,4 @@
-kde4libs (4:4.0.81+svn816106-1) UNRELEASED; urgency=low
+kde4libs (4:4.0.81+svn816106-1) experimental; urgency=low
 
   *  Configuration files are now treated differently. 
      default files are installed in /usr/share/kde4/config and these 

@@ -1,11 +1,11 @@
 Template: kdelibs5/upgrade_kdehome_running_title
 Type: title
-Description: Upgrading kdelibs5 while KDE 4 is running
+_Description: Upgrading kdelibs5 while KDE 4 is running
 
 Template: kdelibs5/upgrade_kdehome_running
 Type: boolean
 Default: true
-Description: Stop possible unsafe upgrade of KDE4 with running sessions (user settings directory change)?
+_Description: Stop possible unsafe upgrade of KDE4 with running sessions?
  You are about to upgrade to the new version of the kdelibs5 package which
  introduces a major configuration change. Newly started KDE 4 applications
  will use ~/.kde directory to store user settings and data (also known as
@@ -30,11 +30,11 @@ Description: Stop possible unsafe upgrade of KDE4 with running sessions (user se
 
 Template: kdelibs5/upgrade_kdehome_info_title
 Type: title
-Description: Upgrading kdelibs5
+_Description: Upgrading kdelibs5
 
 Template: kdelibs5/upgrade_kdehome_info
 Type: note
-Description: New user settings directory (KDEHOME) for KDE 4 applications.
+_Description: New user settings directory (KDEHOME) for KDE 4 applications
  Once this package is upgraded, KDE 4 applications will use ~/.kde directory to
  store user settings and data (also known as KDEHOME) by default.  Currently,
  KDE 4 applications use ~/.kde4. KDE 3 applications has always used (and will
