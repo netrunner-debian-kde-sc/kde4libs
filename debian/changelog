@@ -7,7 +7,7 @@ kde4libs (4:4.3.2-0r2) UNRELEASED; urgency=low
   * Modify kdelibs5.templates to conform partially with lintian complaints.
   * Add po-debconf and a first german translation.
   * Change UNRELEASED to experimental in kdelibs5-data.NEWS.
-  * Add 26_fixmanpage.diff to ...?
+  * Add 26_fixmanpage.diff to adjust line break in FindBlitz.cmake.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 02 Oct 2009 23:30:43 +0200
 
