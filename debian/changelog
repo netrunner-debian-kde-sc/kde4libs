@@ -9,7 +9,7 @@ kde4libs (4:4.3.2-0r2) UNRELEASED; urgency=low
   * Change UNRELEASED to experimental in kdelibs5-data.NEWS.
   * Add 26_fixmanpage.diff to adjust line break in FindBlitz.cmake.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 02 Oct 2009 23:30:43 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 Oct 2009 14:02:38 +0200
 
 kde4libs (4:4.3.1-1) unstable; urgency=low
 
