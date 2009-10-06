@@ -17,7 +17,7 @@ Use DejaVu Sans as default font and adjusts sizes accordingly.
 -    { GeneralId, "font",        DefaultFont, 10, -1, QFont::SansSerif },
 -    { GeneralId, "fixed",       "Monospace", 10, -1, QFont::TypeWriter },
 +    { GeneralId, "font",        DefaultFont,  9, -1, QFont::SansSerif },
-+    { GeneralId, "fixed", "DejaVu Sans Mon",  9, -1, QFont::TypeWriter },
++    { GeneralId, "fixed", "DejaVu Sans Mono",  9, -1, QFont::TypeWriter },
      { GeneralId, "toolBarFont", DefaultFont,  8, -1, QFont::SansSerif },
 -    { GeneralId, "menuFont",    DefaultFont, 10, -1, QFont::SansSerif },
 +    { GeneralId, "menuFont",    DefaultFont,  9, -1, QFont::SansSerif },
