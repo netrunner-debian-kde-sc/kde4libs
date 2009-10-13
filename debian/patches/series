@@ -13,3 +13,4 @@
 23_solid_no_double_build.diff
 25_ld_exclude_libs_qtuitools.diff
 26_fixmanpage.diff
+27_konsole_kfreebsd_fix.diff
