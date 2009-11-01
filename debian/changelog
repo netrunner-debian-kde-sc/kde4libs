@@ -4,6 +4,10 @@ kde4libs (4:4.3.2-3) UNRELEASED; urgency=low
 
   * Add patch to make konsole work on GNU/kFreeBSD.
 
+  +++ Changes by Xavier Vello:
+
+  * Add patch to find KDE3 documentation on khelpcenter4
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 Oct 2009 21:36:51 +0300
 
 kde4libs (4:4.3.2-2) unstable; urgency=low

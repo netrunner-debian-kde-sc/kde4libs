@@ -14,3 +14,4 @@
 25_ld_exclude_libs_qtuitools.diff
 26_fixmanpage.diff
 27_konsole_kfreebsd_fix.diff
+28_find_kde3_html_documentation.diff
