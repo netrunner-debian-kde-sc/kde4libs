@@ -1,4 +1,6 @@
-kde4libs (4:4.3.2-3) UNRELEASED; urgency=low
+kde4libs (4:4.3.3-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   +++ Changes by George Kiagiadakis:
 
@@ -7,6 +9,16 @@ kde4libs (4:4.3.2-3) UNRELEASED; urgency=low
   +++ Changes by Xavier Vello:
 
   * Add patch to find KDE3 documentation on khelpcenter4
+
+  +++ Changes by Modestas Vainius:
+
+  * Update debian/patches:
+    - 01_r1032787_khtml_show_hide_fix - remove, taken from upstream;
+    - 02_r1032185_threading_issues_in_klocale - remove, taken from upstream;
+    - 08_add_debian_build_type - refresh, offsets adjusted;
+    - 14_hardcode_ptm_device - refresh, offsets adjusted;
+    - 15_kfreebsd_support - refresh, offsets adjusted;
+    - 20_use_dejavu_as_default_font - refresh, offsets adjusted;
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 Oct 2009 21:36:51 +0300
 

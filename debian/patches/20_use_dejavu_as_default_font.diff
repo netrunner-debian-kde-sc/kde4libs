@@ -1,7 +1,7 @@
 Use DejaVu Sans as default font and adjusts sizes accordingly.
 --- a/kdeui/kernel/kglobalsettings.cpp
 +++ b/kdeui/kernel/kglobalsettings.cpp
-@@ -373,7 +373,7 @@
+@@ -381,7 +381,7 @@
  
  // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
  static const char GeneralId[] =      "General";
@@ -10,7 +10,7 @@ Use DejaVu Sans as default font and adjusts sizes accordingly.
  #ifdef Q_WS_MAC
  static const char DefaultMacFont[] = "Lucida Grande";
  #endif
-@@ -386,13 +386,13 @@
+@@ -394,13 +394,13 @@
      { GeneralId, "toolBarFont", DefaultMacFont, 11, -1, QFont::SansSerif },
      { GeneralId, "menuFont",    DefaultMacFont, 13, -1, QFont::SansSerif },
  #else
