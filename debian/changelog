@@ -20,7 +20,11 @@ kde4libs (4:4.3.3-0r1) UNRELEASED; urgency=low
     - 15_kfreebsd_support - refresh, offsets adjusted;
     - 20_use_dejavu_as_default_font - refresh, offsets adjusted;
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 Oct 2009 21:36:51 +0300
+  +++ Changes by Pino Toscano:
+
+  * Add liblzma-dev build-depend to add XZ support in kdecore.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 11 Nov 2009 12:46:50 +0100
 
 kde4libs (4:4.3.2-2) unstable; urgency=low
 
