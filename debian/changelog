@@ -24,14 +24,6 @@ kde4libs (4:4.3.3-0r2) UNRELEASED; urgency=low
 
   * Add liblzma-dev build-depend to add XZ support in kdecore.
 
-  +++ Changes by Ana Beatriz Guerrero Lopez:
- 
-  * Add new translations:
-   + it.po Italian translation thanks to Vincenzo Campanella. (Closes: #556039)
-   + cs.po Czech translation thanks to Tomas Fidler. (Closes: #555983)
-   + nb.po Norwegian Bokmål translation thanks to Bjørn Steensrud. (Closes: #555654)
-   + gl.po Galician translation thanks to Marce Villarino. (Closes: #555454)
-
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Nov 2009 01:27:58 +0100
 
 kde4libs (4:4.3.2-2) unstable; urgency=low
