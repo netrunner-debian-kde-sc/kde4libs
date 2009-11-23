@@ -1,6 +1,7 @@
 kde4libs (4:4.3.3-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
+    - includes proper fixes for khtml show hide issue. (Closes: 553288)
 
   +++ Changes by George Kiagiadakis:
 
