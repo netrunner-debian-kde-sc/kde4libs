@@ -21,6 +21,7 @@ kde4libs (4:4.3.4-0r2) UNRELEASED; urgency=low
     - 15_kfreebsd_support - refresh, offsets adjusted;
     - 20_use_dejavu_as_default_font - refresh, offsets adjusted;
   * Update libplasma3 symbols file.
+  * Update install files.
 
   +++ Changes by Pino Toscano:
 

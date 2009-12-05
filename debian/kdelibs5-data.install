@@ -556,6 +556,7 @@ usr/share/kde4/apps/ksgmltools2/customization/es/entities/underArtisticLicense.d
 usr/share/kde4/apps/ksgmltools2/customization/es/entities/underBSDLicense.docbook
 usr/share/kde4/apps/ksgmltools2/customization/es/entities/underFDL.docbook
 usr/share/kde4/apps/ksgmltools2/customization/es/entities/underGPL.docbook
+usr/share/kde4/apps/ksgmltools2/customization/es/entities/underLGPL.docbook
 usr/share/kde4/apps/ksgmltools2/customization/es/entities/underX11License.docbook
 usr/share/kde4/apps/ksgmltools2/customization/es/entities/update-doc.docbook
 usr/share/kde4/apps/ksgmltools2/customization/es/lang.entities
@@ -871,6 +872,7 @@ usr/share/kde4/apps/ksgmltools2/customization/pl/entities/underArtisticLicense.d
 usr/share/kde4/apps/ksgmltools2/customization/pl/entities/underBSDLicense.docbook
 usr/share/kde4/apps/ksgmltools2/customization/pl/entities/underFDL.docbook
 usr/share/kde4/apps/ksgmltools2/customization/pl/entities/underGPL.docbook
+usr/share/kde4/apps/ksgmltools2/customization/pl/entities/underLGPL.docbook
 usr/share/kde4/apps/ksgmltools2/customization/pl/entities/underX11License.docbook
 usr/share/kde4/apps/ksgmltools2/customization/pl/entities/update-doc.docbook
 usr/share/kde4/apps/ksgmltools2/customization/pl/lang.entities
