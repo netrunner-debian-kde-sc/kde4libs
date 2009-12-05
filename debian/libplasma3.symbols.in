@@ -289,6 +289,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma11RadioButtonD1Ev@Base 4:4.2.2
  _ZN6Plasma11RadioButtonD2Ev@Base 4:4.2.2
  _ZN6Plasma11TextBrowser10styleSheetEv@Base 4:4.2.98
+ _ZN6Plasma11TextBrowser10wheelEventEP24QGraphicsSceneWheelEvent@Base 4:4.3.4
  _ZN6Plasma11TextBrowser11dataUpdatedERK7QStringRK5QHashIS1_8QVariantE@Base 4:4.2.98
  _ZN6Plasma11TextBrowser11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.2.98
  _ZN6Plasma11TextBrowser11qt_metacastEPKc@Base 4:4.2.98
@@ -2189,6 +2190,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZThn{vt:8}_N6Plasma11PopupAppletD1Ev@Base 4:4.2.2
  _ZThn{vt:8}_N6Plasma11RadioButtonD0Ev@Base 4:4.2.2
  _ZThn{vt:8}_N6Plasma11RadioButtonD1Ev@Base 4:4.2.2
+ _ZThn{vt:8}_N6Plasma11TextBrowser10wheelEventEP24QGraphicsSceneWheelEvent@Base 4:4.3.4
  _ZThn{vt:8}_N6Plasma11TextBrowserD0Ev@Base 4:4.2.98
  _ZThn{vt:8}_N6Plasma11TextBrowserD1Ev@Base 4:4.2.98
  _ZThn{vt:8}_N6Plasma11VideoWidget14hoverMoveEventEP24QGraphicsSceneHoverEvent@Base 4:4.2.98
