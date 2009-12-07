@@ -1,32 +1,32 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2009
+# This file is distributed under the same license as the kde4libs package.
 #
-#, fuzzy
+# Esko Arajärvi <edu@iki.fi>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: kde4libs@packages.debian.org\n"
 "POT-Creation-Date: 2009-11-04 07:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2009-11-17 22:55+0200\n"
+"Last-Translator: Esko Arajärvi <edu@iki.fi>\n"
+"Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Type: title
 #. Description
 #: ../kdelibs5.templates:2001
 msgid "Upgrading kdelibs5 while KDE 4 is running"
-msgstr ""
+msgstr "Paketin kdelibs5 päivitys, kun KDE 4 on käynnissä"
 
 #. Type: boolean
 #. Description
 #: ../kdelibs5.templates:3001
 msgid "Stop unsafe KDE 4 upgrade?"
-msgstr ""
+msgstr "Keskeytetäänkö KDE 4:n turvaton päivitys?"
 
 #. Type: boolean
 #. Description
@@ -37,6 +37,11 @@ msgid ""
 "doc/kdelibs5/README.Debian (in short: user settings are moved from ~/.kde4 "
 "to ~/.kde). However, some KDE 4 applications are currently running: ${apps}"
 msgstr ""
+"Olet päivittämässä pakettia kdelibs5 uuteen versioon, jossa asetukset ovat "
+"muuttuneet suuresti. Yksityiskohdat löytyvät tiedostosta /usr/share/doc/"
+"kdelibs5/README.Debian (lyhyesti: käyttäjäasetukset ovat siirtyneet "
+"hakemistosta ~/.kde4 hakemistoon ~/.kde). Joitain KDE 4 -ohjelmia on "
+"kuitenkin käynnissä: ${apps}"
 
 #. Type: boolean
 #. Description
@@ -45,6 +50,8 @@ msgid ""
 "It is recommended to abort the upgrade of kdelibs5, terminate all KDE "
 "applications and KDE sessions, and try upgrading again."
 msgstr ""
+"On suositeltavaa keskeyttää kdelibs5:n päivitys, sulkea kaikki KDE-ohjelmat "
+"ja -istunnot, ja yrittää päivitystä uudelleen."
 
 #. Type: boolean
 #. Description
@@ -54,18 +61,21 @@ msgid ""
 "4 applications are started before KDE 4 settings and data are migrated. A "
 "clean termination of the old KDE 4 session might not be safe."
 msgstr ""
+"Jos päätät jatkaa päivitystä, varmista ettei uusia KDE 4 -ohjelmia "
+"käynnistetä ennen kuin asetukset ja tiedot on siirretty. Vanhan KDE 4 -"
+"istunnon siisti lopetus ei välttämättä ole turvallista."
 
 #. Type: title
 #. Description
 #: ../kdelibs5.templates:4001
 msgid "Upgrading kdelibs5"
-msgstr ""
+msgstr "Päivitetään pakettia kdelibs5"
 
 #. Type: note
 #. Description
 #: ../kdelibs5.templates:5001
 msgid "New user settings directory (KDEHOME) for KDE 4 applications"
-msgstr ""
+msgstr "KDE 4 -ohjelmien uusi käyttäjätietohakemisto (KDEHOME)"
 
 #. Type: note
 #. Description
@@ -76,6 +86,11 @@ msgid ""
 "KDEHOME). Currently, KDE 4 applications use ~/.kde4. KDE 3 applications have "
 "always used (and will continue to use) ~/.kde."
 msgstr ""
+"Kun tämä paketti on päivitetty, KDE 4 -ohjelmat käyttävät oletuksena "
+"hakemistoa ~/.kde käyttäjäasetusten ja -tietojen tallentamiseen (tunnetaan "
+"myös nimellä KDEHOME). Tällä hetkellä KDE 4 -ohjelmat käyttävät hakemistoa "
+"~/.kde4. KDE 3 -ohjelmat ovat aina käyttäneet (ja käyttävät jatkossakin) "
+"hakemistoa ~/.kde."
 
 #. Type: note
 #. Description
@@ -86,3 +101,7 @@ msgid ""
 "wizard (in the package kaboom) to migrate user data before starting a KDE 4 "
 "application."
 msgstr ""
+"Kun päivitys on valmis, on turvallista kirjautua KDE:hen normaalisti. Jos "
+"käytössä on vain yksittäisiä KDE 4 -ohjelmia, niiden käyttäjätiedot voidaan "
+"siirtää Kaboom-apuohjelmalla (paketissa kaboom) ennen KDE 4 -ohjelman "
+"käynnistämistä."

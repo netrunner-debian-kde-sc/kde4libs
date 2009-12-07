@@ -1,32 +1,33 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# translation of kde4libs_sv.po to Swedish
+# Copyright (C) 2009
+# This file is distributed under the same license as the kde4libs package.
 #
-#, fuzzy
+# Martin Ågren <martin.agren@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kde4libs_sv\n"
 "Report-Msgid-Bugs-To: kde4libs@packages.debian.org\n"
 "POT-Creation-Date: 2009-11-04 07:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2009-11-04 18:09+0100\n"
+"Last-Translator: Martin Ågren <martin.agren@gmail.com>\n"
+"Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #. Type: title
 #. Description
 #: ../kdelibs5.templates:2001
 msgid "Upgrading kdelibs5 while KDE 4 is running"
-msgstr ""
+msgstr "Uppgradering av kdelibs5 medan KDE 4 körs"
 
 #. Type: boolean
 #. Description
 #: ../kdelibs5.templates:3001
 msgid "Stop unsafe KDE 4 upgrade?"
-msgstr ""
+msgstr "Avbryt osäker KDE 4-uppgradering?"
 
 #. Type: boolean
 #. Description
@@ -37,6 +38,11 @@ msgid ""
 "doc/kdelibs5/README.Debian (in short: user settings are moved from ~/.kde4 "
 "to ~/.kde). However, some KDE 4 applications are currently running: ${apps}"
 msgstr ""
+"Du är på väg att uppgradera till den nya versionen av paketet kdelibs5, som "
+"introducerar en stor ändring av konfigurationen - detaljer finns i /usr/"
+"share/doc/kdelibs5/README.Debian (i korthet: användarinställningar flyttas "
+"från ~/.kde4 till ~/.kde). Några KDE 4-applikationer körs dock fortfarande: "
+"${apps}"
 
 #. Type: boolean
 #. Description
@@ -45,6 +51,9 @@ msgid ""
 "It is recommended to abort the upgrade of kdelibs5, terminate all KDE "
 "applications and KDE sessions, and try upgrading again."
 msgstr ""
+"Det rekommenderas att uppgraderingen av kdelibs5 avbryts, alla KDE-"
+"applikationer och KDE-sessioner avslutas och ett nytt försök görs att "
+"uppgradera."
 
 #. Type: boolean
 #. Description
@@ -54,18 +63,21 @@ msgid ""
 "4 applications are started before KDE 4 settings and data are migrated. A "
 "clean termination of the old KDE 4 session might not be safe."
 msgstr ""
+"Om du väljer att fortsätta uppgraderingen, bör du se till att inga nya KDE 4-"
+"applikationer startas innan KDE 4-inställningar och -data migreras. En ren "
+"avslutning av den gamla KDE 4-sessionen är kanske inte säker."
 
 #. Type: title
 #. Description
 #: ../kdelibs5.templates:4001
 msgid "Upgrading kdelibs5"
-msgstr ""
+msgstr "Uppgraderar kdelibs5"
 
 #. Type: note
 #. Description
 #: ../kdelibs5.templates:5001
 msgid "New user settings directory (KDEHOME) for KDE 4 applications"
-msgstr ""
+msgstr "Ny användarinställningskatalog (KDEHOME) för KDE 4-applikationer"
 
 #. Type: note
 #. Description
@@ -76,6 +88,11 @@ msgid ""
 "KDEHOME). Currently, KDE 4 applications use ~/.kde4. KDE 3 applications have "
 "always used (and will continue to use) ~/.kde."
 msgstr ""
+"Så snart detta paket uppgraderas, kommer KDE 4-applikationer använda ~/.kde "
+"som standardkatalog för lagring av användarinställningar och -data (denna "
+"katalog är känd som KDEHOME). För närvarande använder KDE 4-applikationer ~/."
+"kde4. KDE 3-applikationer har alltid använt (och kommer fortsätta använda) "
+"~/.kde."
 
 #. Type: note
 #. Description
@@ -86,3 +103,7 @@ msgid ""
 "wizard (in the package kaboom) to migrate user data before starting a KDE 4 "
 "application."
 msgstr ""
+"När uppgraderingen är färdig, är det säkert att logga in i KDE som vanligt; "
+"alternativt kan du, om du bara använder individuella KDE 4-applikationer, "
+"använda verktyget Kaboom (i paketet kaboom) för att migrera användardata "
+"innan en KDE 4-applikation startas."
