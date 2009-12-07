@@ -1,0 +1,61 @@
+From: Lubos Lunak <l.lunak@suse.cz>
+Subject: do not use dynamic_cast, breaks RTLD_GLOBAL
+ Plugins really shouldn't use dynamic_cast, it breaks without RTLD_GLOBAL
+ and especially with plugins that is quite likely to happen with 3rd party
+ apps (e.g. http://bugzilla.novell.com/529640).
+ And the best I could come up with was playing with typeid().name(), which
+ works, except for subclassing.
+ .
+ The patch was backported from KDE 4.4.
+Forwarded: not-needed
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=550905
+Origin: upstream, svn diff -c 1034808 svn://anonsvn.kde.org/home/kde
+
+--- a/kdeui/kernel/kstyle.h
++++ b/kdeui/kernel/kstyle.h
+@@ -40,6 +40,7 @@
+ #include <QtGui/QCommonStyle>
+ #include <QtGui/QPalette>
+ #include <QtGui/QStylePlugin>
++#include <typeinfo>
+ 
+ class QStyleOptionProgressBar;
+ class QStyleOptionTab;
+@@ -1578,6 +1579,9 @@
+     // fitt's law label support: QLabel focusing its buddy widget
+     const QObject *clickedLabel;
+ 
++    template<typename T>
++    static T extractOptionHelper(T*);
++
+ public:
+ /** @name QStyle Methods
+  * These are methods reimplemented from QStyle. Usually it's not necessary to
+@@ -1669,12 +1673,25 @@
+     }
+ };
+ 
++// get the pointed-to type from a pointer
++template<typename T>
++T KStyle::extractOptionHelper(T*)
++{
++    return T();
++}
+ 
+ template<typename T>
+ T KStyle::extractOption(Option* option)
+ {
+-    if (option && dynamic_cast<T>(option)) {
+-        return static_cast<T>(option);
++    if (option) {
++        if (dynamic_cast<T>(option))
++            return static_cast<T>(option);
++        // Ugly hacks for when RTLD_GLOBAL is not used (quite common with plugins, really)
++        // and dynamic_cast fails.
++        // This is still partially broken as it doesn't take into account subclasses.
++        // ### KDE5 do this somehow differently
++        if ( qstrcmp(typeid(*option).name(), typeid(extractOptionHelper(static_cast<T>(0))).name()) == 0 )
++            return static_cast<T>(option);
+     }
+ 
+     //### warn if cast failed?
