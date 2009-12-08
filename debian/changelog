@@ -1,4 +1,4 @@
-kde4libs (4:4.3.4-0r3) UNRELEASED; urgency=low
+kde4libs (4:4.3.4-1) unstable; urgency=low
 
   * New upstream release.
     - includes proper fixes for khtml show hide issue. (Closes: 553288)
@@ -54,7 +54,7 @@ kde4libs (4:4.3.4-0r3) UNRELEASED; urgency=low
   * Portuguese (Pedro Ribeiro).  Closes: #556848
   * Japanese (Hideki Yamane (Debian-JP)).  Closes: #557095
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:57 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Dec 2009 00:24:08 +0200
 
 kde4libs (4:4.3.2-2) unstable; urgency=low
 
