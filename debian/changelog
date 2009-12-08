@@ -40,7 +40,8 @@ kde4libs (4:4.3.4-0r3) UNRELEASED; urgency=low
 
   * Debconf templates and debian/control reviewed by the debian-l10n-
     english team as part of the Smith review project. Closes: #553451
-  * [Debconf translation updates]
+
+  [Debconf translation updates]
   * Swedish (Martin Ågren).  Closes: #554453
   * Basque (Piarres Beobide).  Closes: #554560
   * Galician (Marce Villarino).  Closes: #555454
