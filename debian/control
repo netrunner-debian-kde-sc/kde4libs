@@ -17,7 +17,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), quilt, cmake (>= 2.6.3), 
  libxcursor-dev, libutempter-dev, liblzma-dev
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdelibs
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdelibs/#_trunk_packages_kdelibs_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdelibs
 
 Package: kdelibs5

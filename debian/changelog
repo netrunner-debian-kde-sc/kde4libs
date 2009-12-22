@@ -2,6 +2,7 @@ kde4libs (4:4.3.4-2) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
+  * Fix Vcs-Browser URL.
 
   [ Xavier Vello ]
   * Backport r1058555's kxmlgui fix (needed for konq-plugins) 
