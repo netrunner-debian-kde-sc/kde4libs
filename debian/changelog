@@ -24,14 +24,14 @@ kde4libs (4:4.4.0~svn1083043-1) UNRELEASED; urgency=low
       + 00_search_for_soprano_module.diff: Debian's „SopranoAddOntology.cmake“
         is located somewhere else.
   * debian/control:
-    - Added Build-Depends on libattica-dev, shared-desktop-ontologies and
-      libpolkit-qt-1-dev.
+    - Added Build-Depends on libattica-dev, shared-desktop-ontologies,
+      libpolkit-qt-1-dev and libxss-dev.
     - Bumped Build-Depends for Qt to 4.6.0.
     - Bumped Build-Depends for Phonon to 4.4.0.
     - Bumped Build-Depends for libsoprano-dev to >= 2.3.70
     - Bumped Standards-Version to 3.8.4, no further changes needed.
 
- -- Kai Wasserbäch <debian@carbon-project.org>  Sun, 31 Jan 2010 23:28:20 +0100
+ -- Kai Wasserbäch <debian@carbon-project.org>  Sun, 31 Jan 2010 23:31:17 +0100
 
 kde4libs (4:4.3.4-1) unstable; urgency=low
 
