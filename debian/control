@@ -16,7 +16,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), quilt, cmake (>= 2.6.3), 
  libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88),
  libxcursor-dev, libutempter-dev, liblzma-dev, libattica-dev, shared-desktop-ontologies,
  libpolkit-qt-1-dev
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdelibs/#_trunk_packages_kdelibs_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdelibs
