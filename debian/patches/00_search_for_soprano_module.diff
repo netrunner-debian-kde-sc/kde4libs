@@ -1,0 +1,32 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -233,7 +233,7 @@ check_library_exists(socket connect "" H
+ # so this must be fixed. Alex
+ if(Soprano_FOUND AND SHAREDDESKTOPONTOLOGIES_FOUND)
+   set(HAVE_NEPOMUK true)
+-  include(SopranoAddOntology)
++  include("/usr/share/kde4/apps/cmake/modules/SopranoAddOntology.cmake")
+   add_subdirectory(nepomuk)
+ endif(Soprano_FOUND AND SHAREDDESKTOPONTOLOGIES_FOUND)
+ 
+--- a/nepomuk/CMakeLists.txt
++++ b/nepomuk/CMakeLists.txt
+@@ -1,6 +1,6 @@
+ project(nepomuk)
+ 
+-include(SopranoAddOntology)
++include("/usr/share/kde4/apps/cmake/modules/SopranoAddOntology.cmake")
+ 
+ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules")
+ 
+--- a/nepomuk/core/test/CMakeLists.txt
++++ b/nepomuk/core/test/CMakeLists.txt
+@@ -8,7 +8,7 @@ include_directories( 
+   ${SOPRANO_INCLUDE_DIR}
+   ${CMAKE_CURRENT_BINARY_DIR}
+   )
+-include (SopranoAddOntology)
++include ("/usr/share/kde4/apps/cmake/modules/SopranoAddOntology.cmake")
+ 
+ # The basis of all the tests handling statements
+ kde4_add_library(nepomuk_testbase STATIC testbase.cpp)

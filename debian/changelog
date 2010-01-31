@@ -20,14 +20,18 @@ kde4libs (4:4.4.0~svn1083043-1) UNRELEASED; urgency=low
       + 20_use_dejavu_as_default_font.diff
       + 23_solid_no_double_build.diff
       + 25_ld_exclude_libs_qtuitools.diff
+    - Added patches:
+      + 00_search_for_soprano_module.diff: Debian's „SopranoAddOntology.cmake“
+        is located somewhere else.
   * debian/control:
     - Added Build-Depends on libattica-dev, shared-desktop-ontologies and
       libpolkit-qt-1-dev.
     - Bumped Build-Depends for Qt to 4.6.0.
     - Bumped Build-Depends for Phonon to 4.4.0.
+    - Bumped Build-Depends for libsoprano-dev to >= 2.3.70
     - Bumped Standards-Version to 3.8.4, no further changes needed.
 
- -- Kai Wasserbäch <debian@carbon-project.org>  Sun, 31 Jan 2010 22:06:40 +0100
+ -- Kai Wasserbäch <debian@carbon-project.org>  Sun, 31 Jan 2010 23:28:20 +0100
 
 kde4libs (4:4.3.4-1) unstable; urgency=low
 
