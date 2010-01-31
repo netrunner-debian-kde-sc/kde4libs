@@ -1,15 +1,18 @@
 Exclude QtUiTools symbols from libplasma dynamic symbols table.
 
+---
+ plasma/CMakeLists.txt |    3 +++
+ 1 file changed, 3 insertions(+)
+
 --- a/plasma/CMakeLists.txt
 +++ b/plasma/CMakeLists.txt
-@@ -156,6 +156,10 @@
- target_link_libraries(plasma ${KDE4_KIO_LIBS} ${KDE4_KFILE_LIBS} knewstuff2
+@@ -212,6 +212,9 @@ target_link_libraries(plasma ${KDE4_KIO_
                               ${QT_QTUITOOLS_LIBRARY} ${QT_QTWEBKIT_LIBRARY}
-                              threadweaver ${KDE4_SOLID_LIBS} )
-+
+                              kdnssd threadweaver ${KDE4_SOLID_LIBS} )
+ 
 +# Do not export QtUiTools internal symbols
 +set_target_properties(plasma PROPERTIES LINK_FLAGS_DEBIAN "-Wl,--exclude-libs -Wl,libQtUiTools.a")
 +
- if(X11_FOUND)
-    target_link_libraries(plasma ${X11_LIBRARIES})
- endif(X11_FOUND)
+ if(QCA2_FOUND)
+    target_link_libraries(plasma ${QCA2_LIBRARIES})
+ endif(QCA2_FOUND)

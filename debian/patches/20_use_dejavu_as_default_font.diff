@@ -1,7 +1,12 @@
-Use DejaVu Sans as default font and adjusts sizes accordingly.
+Use DejaVu Sans as default font and adjusts sizes accordingly (where
+needed).
+---
+ kdeui/kernel/kglobalsettings.cpp |    4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
 --- a/kdeui/kernel/kglobalsettings.cpp
 +++ b/kdeui/kernel/kglobalsettings.cpp
-@@ -381,7 +381,7 @@
+@@ -381,7 +381,7 @@ struct KFontData
  
  // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
  static const char GeneralId[] =      "General";
@@ -10,21 +15,12 @@ Use DejaVu Sans as default font and adjusts sizes accordingly.
  #ifdef Q_WS_MAC
  static const char DefaultMacFont[] = "Lucida Grande";
  #endif
-@@ -394,13 +394,13 @@
-     { GeneralId, "toolBarFont", DefaultMacFont, 11, -1, QFont::SansSerif },
+@@ -395,7 +395,7 @@ static const KFontData DefaultFontData[K
      { GeneralId, "menuFont",    DefaultMacFont, 13, -1, QFont::SansSerif },
  #else
--    { GeneralId, "font",        DefaultFont, 10, -1, QFont::SansSerif },
--    { GeneralId, "fixed",       "Monospace", 10, -1, QFont::TypeWriter },
-+    { GeneralId, "font",        DefaultFont,  9, -1, QFont::SansSerif },
+     { GeneralId, "font",        DefaultFont, 9, -1, QFont::SansSerif },
+-    { GeneralId, "fixed",       "Monospace", 9, -1, QFont::TypeWriter },
 +    { GeneralId, "fixed", "DejaVu Sans Mono",  9, -1, QFont::TypeWriter },
      { GeneralId, "toolBarFont", DefaultFont,  8, -1, QFont::SansSerif },
--    { GeneralId, "menuFont",    DefaultFont, 10, -1, QFont::SansSerif },
-+    { GeneralId, "menuFont",    DefaultFont,  9, -1, QFont::SansSerif },
+     { GeneralId, "menuFont",    DefaultFont, 9, -1, QFont::SansSerif },
  #endif
-     { "WM",      "activeFont",           DefaultFont,  9, QFont::Bold, QFont::SansSerif },// inconsistency
--    { GeneralId, "taskbarFont",          DefaultFont, 10, -1, QFont::SansSerif },
-+    { GeneralId, "taskbarFont",          DefaultFont,  9, -1, QFont::SansSerif },
-     { GeneralId, "smallestReadableFont", DefaultFont,  8, -1, QFont::SansSerif }
- };
- 

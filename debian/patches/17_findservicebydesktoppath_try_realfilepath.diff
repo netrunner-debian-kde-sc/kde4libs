@@ -1,10 +1,9 @@
 This patch is an attempt to make KDE find desktop files
 and other stuff when /usr or anything else in the file
 path is a symlink.
-
 --- a/kdecore/services/kservicefactory.cpp
 +++ b/kdecore/services/kservicefactory.cpp
-@@ -116,16 +116,10 @@
+@@ -124,33 +124,49 @@ KService::Ptr KServiceFactory::findServi
      return newService;
  }
  
@@ -18,11 +17,25 @@ path is a symlink.
 -
      int offset = m_relNameDict->find_string( _name );
      if (!offset) {
--        kDebug() << QString("findServiceByDesktopPath: %1 not found").arg( _name );
-         return KService::Ptr(); // Not found
+-        //kDebug(servicesDebugArea()) << "findServiceByDesktopPath:" << _name << "not found";
+-        return KService::Ptr(); // Not found
++         return KService::Ptr(); // Not found
      }
  
-@@ -142,6 +136,27 @@
+     KService::Ptr newService(createEntry(offset));
+     if (!newService) {
+-        kDebug(servicesDebugArea()) << "findServiceByDesktopPath: createEntry failed!";
++       kDebug() << "findServiceByDesktopPath: createEntry failed!";
+     }
+     // Check whether the dictionary was right
+     // It's ok that it's wrong, for the case where we're looking up an unknown service,
+     // and the hash value gave us another one.
+-    if (newService && (newService->entryPath() != _name)) {
++    if (newService && (newService->entryPath() != _name))
++    {
+         // No it wasn't...
+         return KService::Ptr();
+     }
      return newService;
  }
  
@@ -33,8 +46,8 @@ path is a symlink.
 +    // Warning : this assumes we're NOT building a database
 +    // KBuildServiceFactory reimplements it for the case where we are building one
 +
-+    KService::Ptr newService(serviceFromPath( _name ));
-+    if ( !newService ) {
++    KService::Ptr newService(serviceFromPath(_name));
++    if (!newService) {
 +        // We might have been given a symlink or non-canonical path of some sort.
 +        // Therefore try looking up KStandardDirs::realFilePath'ed path too.
 +        newService = serviceFromPath( KStandardDirs::realFilePath( _name ) );
@@ -52,7 +65,7 @@ path is a symlink.
      if (!m_menuIdDict) return KService::Ptr(); // Error!
 --- a/kdecore/services/kservicefactory.h
 +++ b/kdecore/services/kservicefactory.h
-@@ -121,6 +121,8 @@
+@@ -121,6 +121,8 @@ protected:
      virtual void virtual_hook( int id, void* data );
  private:
      class KServiceFactoryPrivate* d;
