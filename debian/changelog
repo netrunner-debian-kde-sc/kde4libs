@@ -1,5 +1,7 @@
 kde4libs (4:4.4.0~svn1083043-1) UNRELEASED; urgency=low
 
+  The „Kalastria Highborn“ release.
+
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
@@ -31,7 +33,7 @@ kde4libs (4:4.4.0~svn1083043-1) UNRELEASED; urgency=low
     - Bumped Build-Depends for libsoprano-dev to >= 2.3.70
     - Bumped Standards-Version to 3.8.4, no further changes needed.
 
- -- Kai Wasserbäch <debian@carbon-project.org>  Sun, 31 Jan 2010 23:31:17 +0100
+ -- Kai Wasserbäch <debian@carbon-project.org>  Sun, 31 Jan 2010 23:41:23 +0100
 
 kde4libs (4:4.3.4-1) unstable; urgency=low
 
