@@ -101,7 +101,6 @@ usr/share/kde4/apps/katepart/script/lilypond.js
 usr/share/kde4/apps/katepart/script/lisp.js
 usr/share/kde4/apps/katepart/script/python.js
 usr/share/kde4/apps/katepart/script/ruby.js
-usr/share/kde4/apps/katepart/script/sort.js
 usr/share/kde4/apps/katepart/syntax/abap.xml
 usr/share/kde4/apps/katepart/syntax/abc.xml
 usr/share/kde4/apps/katepart/syntax/actionscript.xml

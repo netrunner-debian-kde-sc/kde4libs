@@ -33,8 +33,10 @@ kde4libs (4:4.4.0~svn1083043-1) UNRELEASED; urgency=low
     - Bumped Build-Depends for libsoprano-dev to >= 2.3.70
     - Bumped Standards-Version to 3.8.4, no further changes needed.
   * debian/rules: Set „RUNTIME_DEPS“ to „kdebase-runtime (>= 4:4.4.0)“.
+  * debian/kdelibs5-data.install: Removed „sort.js“, no longer shipped by
+    upstream.
 
- -- Kai Wasserbäch <debian@carbon-project.org>  Mon, 01 Feb 2010 00:37:04 +0100
+ -- Kai Wasserbäch <debian@carbon-project.org>  Mon, 01 Feb 2010 17:33:43 +0100
 
 kde4libs (4:4.3.4-1) unstable; urgency=low
 
