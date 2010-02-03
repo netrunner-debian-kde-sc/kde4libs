@@ -1801,6 +1801,7 @@ usr/share/dbus-1/interfaces/org.kde.KWallet.xml
 usr/share/dbus-1/interfaces/org.kde.Solid.Networking.Client.xml
 usr/share/dbus-1/interfaces/org.kde.StatusNotifierItem.xml
 usr/share/dbus-1/interfaces/org.kde.StatusNotifierWatcher.xml
+usr/share/dbus-1/system-services/org.kde.kcontrol.kcmremotewidgets.service
 usr/share/kde4/apps/cmake/modules/BasicFindPackageVersion.cmake.in
 usr/share/kde4/apps/cmake/modules/CheckCXXSourceCompiles.cmake
 usr/share/kde4/apps/cmake/modules/CheckCXXSourceRuns.cmake
