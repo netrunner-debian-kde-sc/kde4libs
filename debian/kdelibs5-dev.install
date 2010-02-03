@@ -297,7 +297,6 @@ usr/include/KDE/KDirWatch
 usr/include/KDE/KDiskFreeSpace
 usr/include/KDE/KDiskFreeSpaceInfo
 usr/include/KDE/KDoubleNumInput
-usr/include/KDE/KDoubleSpinBox
 usr/include/KDE/KDoubleValidator
 usr/include/KDE/KEMailSettings
 usr/include/KDE/KEditListBox
@@ -370,7 +369,6 @@ usr/include/KDE/KIO/CopyInfo
 usr/include/KDE/KIO/CopyJob
 usr/include/KDE/KIO/DavJob
 usr/include/KDE/KIO/DeleteJob
-usr/include/KDE/KIO/DirectCopyJob
 usr/include/KDE/KIO/FileCopyJob
 usr/include/KDE/KIO/FileJob
 usr/include/KDE/KIO/ForwardingSlaveBase
@@ -380,7 +378,6 @@ usr/include/KDE/KIO/ListJob
 usr/include/KDE/KIO/MetaData
 usr/include/KDE/KIO/MetaInfoJob
 usr/include/KDE/KIO/MimetypeJob
-usr/include/KDE/KIO/MkdirJob
 usr/include/KDE/KIO/MultiGetJob
 usr/include/KDE/KIO/NetAccess
 usr/include/KDE/KIO/NetRC
@@ -401,7 +398,6 @@ usr/include/KDE/KIO/StoredTransferJob
 usr/include/KDE/KIO/TCPSlaveBase
 usr/include/KDE/KIO/Task
 usr/include/KDE/KIO/TransferJob
-usr/include/KDE/KIO/UDSField
 usr/include/KDE/KIcon
 usr/include/KDE/KIconButton
 usr/include/KDE/KIconCanvas
@@ -514,7 +510,6 @@ usr/include/KDE/KParts/GenericFactoryBase
 usr/include/KDE/KParts/HistoryProvider
 usr/include/KDE/KParts/LiveConnectExtension
 usr/include/KDE/KParts/MainWindow
-usr/include/KDE/KParts/OpenURLEvent
 usr/include/KDE/KParts/Part
 usr/include/KDE/KParts/PartActivateEvent
 usr/include/KDE/KParts/PartBase
@@ -524,7 +519,6 @@ usr/include/KDE/KParts/Plugin
 usr/include/KDE/KParts/ReadOnlyPart
 usr/include/KDE/KParts/ReadWritePart
 usr/include/KDE/KParts/StatusBarExtension
-usr/include/KDE/KParts/URLArgs
 usr/include/KDE/KParts/WindowArgs
 usr/include/KDE/KPassivePopup
 usr/include/KDE/KPassivePopupMessageHandler
@@ -728,7 +722,6 @@ usr/include/KDE/Nepomuk/ResourceManager
 usr/include/KDE/Nepomuk/Service
 usr/include/KDE/Nepomuk/Tag
 usr/include/KDE/Nepomuk/Thing
-usr/include/KDE/Nepomuk/Tools
 usr/include/KDE/Nepomuk/Types/Class
 usr/include/KDE/Nepomuk/Types/Literal
 usr/include/KDE/Nepomuk/Types/Ontology
@@ -1697,14 +1690,12 @@ usr/share/kde4/apps/cmake/modules/FindKDE4Workspace.cmake
 usr/share/kde4/apps/cmake/modules/FindKDEWIN32.cmake
 usr/share/kde4/apps/cmake/modules/FindKDEWIN_Packager.cmake
 usr/share/kde4/apps/cmake/modules/FindKDEWin.cmake
-usr/share/kde4/apps/cmake/modules/FindKNepomuk.cmake
 usr/share/kde4/apps/cmake/modules/FindKdcraw.cmake
 usr/share/kde4/apps/cmake/modules/FindKdeMultimedia.cmake
 usr/share/kde4/apps/cmake/modules/FindKdepim.cmake
 usr/share/kde4/apps/cmake/modules/FindKdepimLibs.cmake
 usr/share/kde4/apps/cmake/modules/FindKexiv2.cmake
 usr/share/kde4/apps/cmake/modules/FindKipi.cmake
-usr/share/kde4/apps/cmake/modules/FindKonto.cmake
 usr/share/kde4/apps/cmake/modules/FindKopete.cmake
 usr/share/kde4/apps/cmake/modules/FindKorundum.cmake
 usr/share/kde4/apps/cmake/modules/FindLCMS.cmake
@@ -1765,7 +1756,6 @@ usr/share/kde4/apps/cmake/modules/KDELibs4ToolsTargets-debian.cmake
 usr/share/kde4/apps/cmake/modules/KDELibs4ToolsTargets.cmake
 usr/share/kde4/apps/cmake/modules/KDELibsDependencies.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddCompileFlags.cmake
-usr/share/kde4/apps/cmake/modules/MacroAddFileDependencies.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddLinkFlags.cmake
 usr/share/kde4/apps/cmake/modules/MacroAdditionalCleanFiles.cmake
 usr/share/kde4/apps/cmake/modules/MacroAppendIf.cmake

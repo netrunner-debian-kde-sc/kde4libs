@@ -1,6 +1,6 @@
-kde4libs (4:4.4.0~svn1083043-1) UNRELEASED; urgency=low
+kde4libs (4:4.3.95-1~pre0) UNRELEASED; urgency=low
 
-  The „Kalastria Highborn“ release.
+  * New upstream release. The „Kalastria Highborn“ release.
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
@@ -35,7 +35,10 @@ kde4libs (4:4.4.0~svn1083043-1) UNRELEASED; urgency=low
   * debian/rules: Set „RUNTIME_DEPS“ to „kdebase-runtime (>= 4:4.4.0)“.
   * debian/kdelibs5-data.install: Updated.
 
- -- Kai Wasserbäch <debian@carbon-project.org>  Mon, 01 Feb 2010 18:53:55 +0100
+  [ Ana Beatriz Guerrero Lopez ]
+  * Update installed files for 4.4.0.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Feb 2010 23:18:52 +0100
 
 kde4libs (4:4.3.4-1) unstable; urgency=low
 
