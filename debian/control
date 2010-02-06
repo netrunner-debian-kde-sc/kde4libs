@@ -140,6 +140,8 @@ Description: library for unit conversion
 Package: libnepomukquery4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
+Replaces: kdebase-workspace-libs4+5
+Conflicts: kdebase-workspace-libs4+5
 Description: library for the query API of Nepomuk
  This package contains the KDE 4 Nepomuk query library. It is part of
  the KDE 4 libraries module.
