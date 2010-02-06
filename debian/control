@@ -102,29 +102,46 @@ Description: library for the KDE 4 Plasma desktop
 Package: libkdewebkit5
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
-Description: library for QtWebkit KDE integration
- This package contains the KDE 4 webkit integration library. It is part of
+Description: library for QtWebKit KDE integration
+ This package contains the KDE 4 WebKit integration library. It is part of
  the KDE 4 libraries module.
 
 Package: libknewstuff3-4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
-Description: library for ???
- This package contains the KDE 4 hot new stuff 3 library. It is part of
+Description: library for "Get Hot New Stuff" KDE v3 integration
+ This package contains the KDE 4 "Get Hot New Stuff" v3 library. It is part of
  the KDE 4 libraries module.
 
 Package: libkunitconversion4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
 Description: library for unit conversion
+ The kunitconversion library can help KDE 4 application in doing conversions
+ of values in different measure units.
+ .
+ Currently, it can provide conversions for the following unit categories:
+  * currency
+  * density
+  * energy
+  * fuel efficiency
+  * length
+  * mass
+  * power
+  * pressure
+  * temperature
+  * time
+  * velocity
+  * volume
+ .
  This package contains the KDE 4 unit conversion library. It is part of
  the KDE 4 libraries module.
 
 Package: libnepomukquery4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
-Description: library for ???
- This package contains the KDE 4 nepomuk query library. It is part of
+Description: library for the query API of Nepomuk
+ This package contains the KDE 4 Nepomuk query library. It is part of
  the KDE 4 libraries module.
 
 Package: kdelibs5-dbg
