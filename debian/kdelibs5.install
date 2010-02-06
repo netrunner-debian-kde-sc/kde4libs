@@ -77,8 +77,6 @@ usr/lib/libkdesu.so.5
 usr/lib/libkdesu.so.5.4.0
 usr/lib/libkdeui.so.5
 usr/lib/libkdeui.so.5.4.0
-usr/lib/libkdewebkit.so.5
-usr/lib/libkdewebkit.so.5.4.0
 usr/lib/libkdnssd.so.4
 usr/lib/libkdnssd.so.4.4.0
 usr/lib/libkfile.so.4
@@ -99,8 +97,6 @@ usr/lib/libkmediaplayer.so.4
 usr/lib/libkmediaplayer.so.4.4.0
 usr/lib/libknewstuff2.so.4
 usr/lib/libknewstuff2.so.4.4.0
-usr/lib/libknewstuff3.so.4
-usr/lib/libknewstuff3.so.4.4.0
 usr/lib/libknotifyconfig.so.4
 usr/lib/libknotifyconfig.so.4.4.0
 usr/lib/libkntlm.so.4
@@ -115,14 +111,10 @@ usr/lib/libkrossui.so.4
 usr/lib/libkrossui.so.4.4.0
 usr/lib/libktexteditor.so.4
 usr/lib/libktexteditor.so.4.4.0
-usr/lib/libkunitconversion.so.4
-usr/lib/libkunitconversion.so.4.4.0
 usr/lib/libkunittest.so.4
 usr/lib/libkunittest.so.4.4.0
 usr/lib/libkutils.so.4
 usr/lib/libkutils.so.4.4.0
-usr/lib/libnepomukquery.so.4
-usr/lib/libnepomukquery.so.4.4.0
 usr/lib/libnepomuk.so.4
 usr/lib/libnepomuk.so.4.4.0
 usr/lib/libsolid.so.4

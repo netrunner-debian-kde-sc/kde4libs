@@ -8,6 +8,10 @@ RUNTIME_DEPS := kdebase-runtime (>= 4:4.4.0)
 DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg
 DEB_DBG_PACKAGE_kdelibs-bin := kdelibs5-dbg
 DEB_DBG_PACKAGE_libplasma3 := kdelibs5-dbg
+DEB_DBG_PACKAGE_libkdewebkit5 := kdelibs5-dbg
+DEB_DBG_PACKAGE_libknewstuff3-4 := kdelibs5-dbg
+DEB_DBG_PACKAGE_libkunitconversion4 := kdelibs5-dbg
+DEB_DBG_PACKAGE_libnepomukquery4 := kdelibs5-dbg
 
 #bump version for every new upstream version!
 DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(UPSTREAMVERSION)), $(RUNTIME_DEPS)'

@@ -2053,3 +2053,4 @@ usr/share/man/man8/kded4.8
 usr/share/man/man8/kdeinit4.8
 usr/share/man/man8/meinproc4.8
 usr/share/mime/packages/kde.xml
+usr/share/polkit-1/actions/org.kde.kcontrol.kcmremotewidgets.policy

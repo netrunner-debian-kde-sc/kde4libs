@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), quilt, cmake (>= 2.6.3), pkg-kde-tools (>= 0.4.2), po-debconf,
  shared-mime-info (>= 0.20), dpkg-dev (>= 1.15.3), libphonon-dev (>= 4:4.4.0),
- libcups2-dev, libdbus-1-dev, libqt4-dev (>= 4.6.0), libqt4-opengl-dev (>= 4.6.0),
+ libcups2-dev, libdbus-1-dev, libqt4-dev (>= 4:4.6.0), libqt4-opengl-dev (>= 4:4.6.0),
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libkeyutils-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libpng-dev, libssl-dev, libsm-dev, flex, bison,
@@ -26,7 +26,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5-data (>= ${source:Version}),
  kdelibs-bin(>= ${binary:Version}), dbus-x11, shared-mime-info, xauth, xdg-utils
 Pre-Depends: debconf | debconf-2.0
-Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.2.95), kaboom (>= 1.0.5)
+Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.4.0), kaboom (>= 1.0.5)
 Conflicts: kdebase-workspace-libs4+5 (<< 4.2.2), kdepimlibs5 (<< 4.2.2)
 Replaces: kdelibs-bin (<< 4:4.1.74)
 Suggests: hspell
@@ -50,12 +50,14 @@ Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5 (= ${binary:Version}), libplasma3 (= ${binary:Version}),
+ libkdewebkit5 (= ${binary:Version}), libknewstuff3-4 (= ${binary:Version}),
+ libkunitconversion4 (= ${binary:Version}), libnepomukquery4 (= ${binary:Version}),
  cmake (>= 2.6.2-3~), automoc (>= 1.0~svn850570), pkg-kde-tools (>= 0.4.2),
  ${sameVersionDep:libqt4-dev}, ${sameVersionDep:libsoprano-dev}, ${sameVersionDep:libphonon-dev}
 #Suggests: kdelibs5-doc (= ${source:Version})
 Recommends: ${sameVersionDep:libqt4-opengl-dev:libplasma3-Depends}
 Replaces: kdebase-runtime-data (<< 4:4.2.90), kdelibs5-data (<< 4:4.0.80-1), libplasma-dev (<< 4:4.1.96),
- kdebase-workspace-dev (<< 4:4.2.90)
+ kdebase-workspace-dev (<< 4:4.4.0)
 Conflicts: kdelibs4-dev, libkjsembed-dev, kdepimlibs5-dev (<< 4:4.1.81+svn891439), libplasma-dev (<< 4:4.1.96)
 Provides: libplasma-dev
 Description: development files for the KDE 4 core libraries
@@ -97,12 +99,42 @@ Description: library for the KDE 4 Plasma desktop
  This package contains the KDE 4 Plasma library. It is part of the KDE 4
  libraries module.
 
+Package: libkdewebkit5
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
+Description: library for QtWebkit KDE integration
+ This package contains the KDE 4 webkit integration library. It is part of
+ the KDE 4 libraries module.
+
+Package: libknewstuff3-4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
+Description: library for ???
+ This package contains the KDE 4 hot new stuff 3 library. It is part of
+ the KDE 4 libraries module.
+
+Package: libkunitconversion4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
+Description: library for unit conversion
+ This package contains the KDE 4 unit conversion library. It is part of
+ the KDE 4 libraries module.
+
+Package: libnepomukquery4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
+Description: library for ???
+ This package contains the KDE 4 nepomuk query library. It is part of
+ the KDE 4 libraries module.
+
 Package: kdelibs5-dbg
 Section: debug
 Architecture: any
 Priority: extra
 Depends: kdelibs5 (= ${binary:Version}), libqt4-dbg (>= 4.4.3), libc6-dbg [amd64]
-Recommends: libplasma3 (= ${binary:Version})
+Recommends: libplasma3 (= ${binary:Version}), libkdewebkit5 (= ${binary:Version}),
+ libknewstuff3-4 (= ${binary:Version}), libkunitconversion4 (= ${binary:Version}),
+ libnepomukquery4 (= ${binary:Version})
 Description: debugging symbols for the KDE 4 libraries module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE 4 libraries module.

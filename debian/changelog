@@ -1,4 +1,4 @@
-kde4libs (4:4.3.95-1~pre0) UNRELEASED; urgency=low
+kde4libs (4:4.4.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release. The „Kalastria Highborn“ release.
 
@@ -38,18 +38,16 @@ kde4libs (4:4.3.95-1~pre0) UNRELEASED; urgency=low
   [ Ana Beatriz Guerrero Lopez ]
   * Update installed files for 4.4.0.
 
-	TODO: move +usr/lib/libkdewebkit.so.5
-	      +usr/lib/libkdewebkit.so.5.4.0
-		+usr/lib/libknewstuff3.so.4
-		+usr/lib/libknewstuff3.so.4.4.0
-		+usr/lib/libkunitconversion.so.4
-		+usr/lib/libkunitconversion.so.4.4.0
-		+usr/lib/libnepomukquery.so.4
-		+usr/lib/libnepomukquery.so.4.4.0
-		to separate library packages. please no new libraries in
-		kdelibs5 package
+  [ George Kiagiadakis ]
+  * Bump kdebase-runtime recommends to >= 4.4.0.
+  * Add new packages for the new libraries shipped:
+    libkdewebkit5, libknewstuff3-4, libkunitconversion4, libnepomukquery4.
+  * Add replaces: kdelibs5-dev replaces kdebase-workspace-dev << 4:4.4.0
+    because some nepomuk headers were moved.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Feb 2010 23:18:52 +0100
+  * TODO: proper descriptions for the new packages.
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Fri, 05 Feb 2010 16:55:26 +0200
 
 kde4libs (4:4.3.4-1) unstable; urgency=low
 
