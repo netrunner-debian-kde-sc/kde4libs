@@ -6,6 +6,8 @@ kde4libs (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
   * Drop obsolete presubj.
+  * Do not export libQtUiTools.a symbols in kjsembed library
+    (25_ld_exclude_libs_qtuitools.diff).
 
   [ Kai Wasserbäch ]
   * Synced to latest upstream SVN revision of the 4.4 branch (r1083043).
