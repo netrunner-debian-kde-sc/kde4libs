@@ -8,6 +8,12 @@ kde4libs (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Drop obsolete presubj.
   * Do not export libQtUiTools.a symbols in kjsembed library
     (25_ld_exclude_libs_qtuitools.diff).
+  * Split kdelibs5 into separate library packages:
+    - each public library gets its own package with a few exceptions;
+    - remaining stuff moved from kdelibs5 to kdelibs5-plugins;
+    - new kdoctools binary package with files installed from kdoctools/
+      directory in the source tree;
+    - add package splitting rules to README.source;
 
   [ Kai Wasserbäch ]
   * Synced to latest upstream SVN revision of the 4.4 branch (r1083043).

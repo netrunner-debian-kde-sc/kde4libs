@@ -1748,6 +1748,7 @@ usr/include/threadweaver/ThreadWeaver.h
 usr/include/threadweaver/WeaverInterface.h
 usr/include/threadweaver/WeaverObserver.h
 usr/include/threadweaver/threadweaver_export.h
+usr/lib/kde4/libexec/kauth-policy-gen
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so
 usr/lib/libkde3support.so
 usr/lib/libkdecore.so
