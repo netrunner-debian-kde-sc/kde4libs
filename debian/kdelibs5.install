@@ -87,12 +87,12 @@ usr/lib/libkimproxy.so.4
 usr/lib/libkimproxy.so.4.4.0
 usr/lib/libkio.so.5
 usr/lib/libkio.so.5.4.0
+usr/lib/libkjs.so.4
+usr/lib/libkjs.so.4.4.0
 usr/lib/libkjsapi.so.4
 usr/lib/libkjsapi.so.4.4.0
 usr/lib/libkjsembed.so.4
 usr/lib/libkjsembed.so.4.4.0
-usr/lib/libkjs.so.4
-usr/lib/libkjs.so.4.4.0
 usr/lib/libkmediaplayer.so.4
 usr/lib/libkmediaplayer.so.4.4.0
 usr/lib/libknewstuff2.so.4
