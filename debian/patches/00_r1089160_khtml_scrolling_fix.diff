@@ -1,0 +1,26 @@
+Author: Germain Garand <germain@ebooksfrance.org>
+Description: critical performance fix
+ There is a huge difference of behaviour between DEBUG and RELEASE
+ builds of Qt 4.6, that breaks scrolling in KHTML.
+ .
+ Using QWidget::scroll() on a widget that doesn't have WA_OpaquePaintEvent
+ attribute set works just fine in Debug, but completely breaks down in
+ Release, causing the whole view to get repainted always.
+Origin: upstream, http://websvn.kde.org/?revision=1089160&view=revision
+Forwarded: not-needed
+
+--- a/khtml/khtmlview.cpp
++++ b/khtml/khtmlview.cpp
+@@ -604,6 +604,12 @@
+         setWidget( new QWidget(this) );
+     widget()->setAttribute( Qt::WA_NoSystemBackground );
+ 
++    // Do *not* remove this attribute frivolously.
++    // You might not notice a change of behaviour in Debug builds
++    // but removing opaque events will make QWidget::scroll fail horribly
++    // in Release builds.
++    widget()->setAttribute( Qt::WA_OpaquePaintEvent );
++
+     verticalScrollBar()->setCursor( Qt::ArrowCursor );
+     horizontalScrollBar()->setCursor( Qt::ArrowCursor );
+ 

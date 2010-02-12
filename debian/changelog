@@ -24,6 +24,8 @@ kde4libs (4:4.4.0-0r2) UNRELEASED; urgency=low
     for use in kdelibs5-{dev,dbg} and kdelibs5 metapackage despectively.
   * Add ${perl:Depends} to Depends of kdelibs5-plugins, kdelibs5-data and
     kdoctools.
+  * Add patch 00_r1089160_khtml_scrolling_fix.diff from upstream to fix
+    performance problems in KHTML.
 
   [ Kai Wasserbäch ]
   * debian/patches:

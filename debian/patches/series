@@ -1,3 +1,4 @@
+00_r1089160_khtml_scrolling_fix.diff
 00_search_for_soprano_module.diff
 08_add_debian_build_type.diff
 11_default_kde4_xdg_menu_prefix.diff
