@@ -173,7 +173,7 @@ Package: libknewstuff3-4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kdelibs5-data (= ${source:Version})
-Description: library for "Get Hot New Stuff" KDE v3 integration
+Description: the "Get Hot New Stuff" v3 Library for the KDE Platform
  The KNewStuff3 ("Get Hot New Stuff" v3) library adds data sharing capabilities
  to the KDE Applications. It uses libattica to access Open Collaboration
  Services providers. In addition the static xml from GHNS is supported.
@@ -339,7 +339,7 @@ Homepage: http://nepomuk.kde.org/
 
 Package: libnepomukquery4
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5
 Description: the Nepomok Query Library for the KDE Platform
@@ -403,7 +403,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: the KDE WebKit Library
  This library provides KDE integration of the QtWebKit library. It is part of
- the KDE 4 libraries module.
+ the KDE Development Platform libraries module.
 
 Package: kdelibs-bin
 Architecture: any
