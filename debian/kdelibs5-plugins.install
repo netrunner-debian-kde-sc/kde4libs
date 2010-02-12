@@ -7,7 +7,6 @@ usr/lib/kde4/kded_kcookiejar.so
 usr/lib/kde4/kded_kssld.so
 usr/lib/kde4/kded_proxyscout.so
 usr/lib/kde4/kfileaudiopreview.so
-usr/lib/kde4/kfilemodule.so
 usr/lib/kde4/khtmladaptorpart.so
 usr/lib/kde4/khtmlimagepart.so
 usr/lib/kde4/kio_file.so
@@ -30,7 +29,6 @@ usr/lib/kde4/ktexteditor_python-encoding.so
 usr/lib/kde4/ktranscript.so
 usr/lib/kde4/libexec/filesharelist
 usr/lib/kde4/libexec/fileshareset
-usr/lib/kde4/libexec/kauth-policy-gen
 usr/lib/kde4/libexec/kcmremotewidgetshelper
 usr/lib/kde4/libexec/kconf_update
 usr/lib/kde4/libexec/kdontchangethehostname

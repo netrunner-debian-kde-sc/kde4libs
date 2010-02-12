@@ -455,7 +455,6 @@ usr/share/kde4/servicetypes/dbustexttospeech.desktop
 usr/share/kde4/servicetypes/kbytesedit.desktop
 usr/share/kde4/servicetypes/kdedmodule.desktop
 usr/share/kde4/servicetypes/kemoticonsTheme.desktop
-usr/share/kde4/servicetypes/kiofilemodule.desktop
 usr/share/kde4/servicetypes/kregexpeditor.desktop
 usr/share/kde4/servicetypes/qimageio_plugin.desktop
 usr/share/man/man1/kde4-config.1

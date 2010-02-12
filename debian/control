@@ -24,7 +24,6 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdelibs
 Package: libkdecore5
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Pre-Depends: debconf | debconf-2.0
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Description: the KDE Platform Core Library
  All KDE Applications use this library to provide basic functionality such as
@@ -417,7 +416,7 @@ Description: core executables for KDE Aapplications
 
 Package: kdelibs5-plugins
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdelibs5-data (= ${source:Version}),
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, kdelibs5-data (= ${source:Version}),
  dbus-x11, shared-mime-info, xdg-utils
 Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.4.0), kaboom (>= 1.0.5)
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs-bin (<< 4:4.1.74)
@@ -430,7 +429,7 @@ Description: core plugins for KDE Applications
 
 Package: kdelibs5-data
 Architecture: all
-Depends: hicolor-icon-theme
+Depends: ${perl:Depends}, ${misc:Depends}, hicolor-icon-theme
 Replaces: kdebase-workspace-data (<< 4:4.1.66), libplasma2, kjscmd (<< 4:3.5.10-1)
 Conflicts: kjscmd (<< 4:3.5.10-1)
 Description: core shared data for all KDE Applications
@@ -452,8 +451,8 @@ Description: various tools for accessing application documentation
 Package: kdelibs5-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${allLibraryPackages}, kdoctools (= ${binary:Version}),
- kdelibs-bin (= ${binary:Version}),
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, ${allLibraryPackages},
+ kdoctools (= ${binary:Version}), kdelibs-bin (= ${binary:Version}),
  cmake (>= 2.6.3), automoc (>= 1.0~version-0.9.88), pkg-kde-tools (>= 0.6),
  ${sameVersionDep:libqt4-dev:kdelibs5-plugins}, ${sameVersionDep:libsoprano-dev:libnepomuk4},
  ${sameVersionDep:libphonon-dev:libkhtml5}
@@ -469,18 +468,9 @@ Description: development files for the KDE Development Platform libraries
  .
  This package is part of the KDE Development Platform libraries module.
 
-Package: kdelibs5-apidocs
-Section: doc
-Architecture: all
-Recommends: www-browser
-Description: developer documentation for the KDE Development Platform libraries
- This package contains the API documentation for the KDE Development Platform
- libraries, for use by KDE application developers.
- .
- This package is part of the KDE Development Platform libraries module.
-
 Package: kdelibs5
 Architecture: any
+Pre-Depends: debconf | debconf-2.0
 Depends: ${misc:Depends}, ${kde43LibraryPackages}, kdoctools (= ${binary:Version}),
  kdelibs5-plugins (= ${binary:Version}), kdelibs-bin (= ${binary:Version})
 Description: transitional package for the KDE Development Platform libraries
@@ -494,7 +484,7 @@ Package: kdelibs5-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${sameVersionDep:libqt4-dbg:kdelibs-plugins}, libc6-dbg [amd64]
+Depends: libqt4-dbg (>= 4:4.6), libc6-dbg [amd64]
 Recommends: ${allLibraryPackages}, kdelibs-bin (= ${binary:Version})
 Description: debugging symbols for the KDE Development Platform libraries
  This package contains debugging files used to investigate problems with

@@ -2,6 +2,9 @@ kde4libs (4:4.4.0-0r2) UNRELEASED; urgency=low
 
   * New upstream release. The „Kalastria Highborn“ release.
 
+  * TODO: Move kdelibs5 templates to another package that previously existed
+    (kdelibs5-data?).
+
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
@@ -14,9 +17,15 @@ kde4libs (4:4.4.0-0r2) UNRELEASED; urgency=low
     - new kdoctools binary package with files installed from kdoctools/
       directory in the source tree;
     - add package splitting rules to README.source;
+    - bind kdebase-runtime to libkdecore5 for now;
+    - generate strict local library interdependencies by stealing
+      debian/shlibs.local generation code from qt4-x11;
+  * Add control substs ${allLibraryPackages} and ${kde43LibraryPackages}
+    for use in kdelibs5-{dev,dbg} and kdelibs5 metapackage despectively.
+  * Add ${perl:Depends} to Depends of kdelibs5-plugins, kdelibs5-data and
+    kdoctools.
 
   [ Kai Wasserbäch ]
-  * Synced to latest upstream SVN revision of the 4.4 branch (r1083043).
   * debian/patches:
     - Dropped backported patches:
       + 00_1034808_4.4_backport_rtldglobal.diff

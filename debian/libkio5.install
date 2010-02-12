@@ -6,7 +6,7 @@ usr/share/kde4/servicetypes/kcmoduleinit.desktop
 usr/share/kde4/servicetypes/kdatatool.desktop
 usr/share/kde4/servicetypes/kfileplugin.desktop
 usr/share/kde4/servicetypes/kfilewrite.desktop
-usr/share/kde4/servicetypes/kiofilemodule.deskto
+usr/share/kde4/servicetypes/kiofilemodule.desktop
 usr/share/kde4/servicetypes/kpropertiesdialogplugin.desktop
 usr/share/kde4/servicetypes/kscan.desktop
 usr/share/kde4/servicetypes/kurifilterplugin.desktop

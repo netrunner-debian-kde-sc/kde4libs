@@ -1,26 +1,50 @@
 #!/usr/bin/make -f
 
-UPSTREAMVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(.*\)-.*/\1/')
+BINARYVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: //')
+UPSTREAMVERSION ?= $(shell echo '$(BINARYVERSION)' | sed 's/^\(.*\)-.*/\1/')
+BINARYVERSION := $(BINARYVERSION)
+UPSTREAMVERSION := $(UPSTREAMVERSION)
 #UPSTREAMVERSION ?= 4:4.2.0
 #PLASMA_ABI=$(shell grep 'plasma-abi-' debian/libplasma3.symbols.in | head -n1 | sed 's/^.*\(plasma-abi-\S\+\).*/\1/')
 RUNTIME_DEPS := kdebase-runtime (>= 4:4.4.0)
 
-DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg
-DEB_DBG_PACKAGE_kdelibs-bin := kdelibs5-dbg
-DEB_DBG_PACKAGE_libplasma3 := kdelibs5-dbg
-DEB_DBG_PACKAGE_libkdewebkit5 := kdelibs5-dbg
-DEB_DBG_PACKAGE_libknewstuff3-4 := kdelibs5-dbg
-DEB_DBG_PACKAGE_libkunitconversion4 := kdelibs5-dbg
-DEB_DBG_PACKAGE_libnepomukquery4 := kdelibs5-dbg
+DEB_DBG_PACKAGE_ALL := kdelibs5-dbg
 
 #bump version for every new upstream version!
-DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(UPSTREAMVERSION)), $(RUNTIME_DEPS)'
+DEB_DH_MAKESHLIBS_ARGS_libkdecore5 := -V'libkdecore5 (>= $(UPSTREAMVERSION)), $(RUNTIME_DEPS)'
+DEB_DH_MAKESHLIBS_ARGS_ALL := -V
 #DEB_DH_MAKESHLIBS_ARGS_libplasma3 := -V'libplasma3 (>= $(UPSTREAMVERSION)), $(PLASMA_ABI)'
 
 # remove dependencies on kdebase-runtime and phonon (the metapackage)
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime -xphonon
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+
+# Generate dpkg-gencontrol substs
+DEB_LIBRARY_PACKAGES := $(filter-out %-dev,$(filter lib%,$(DEB_ARCH_PACKAGES)))
+DEB_KDE43_LIBRARY_PACKAGES := libkde3support4 libkdecore5 libkdesu5 libkdeui5 libkdnssd4 \
+    libkfile4 libkhtml5 libkimproxy4 libkio5 libkjsapi4 libkjsembed4 libkmediaplayer4 \
+    libknewstuff2-4 libknotifyconfig4 libkntlm4 libkparts4 libkpty4 libkrosscore4 libkrossui4 \
+    libktexteditor4 libkutils4 libnepomuk4 libsolid4 libthreadweaver4
+DEB_LIBRARY_PACKAGES_SUBST := $(foreach pkg,$(DEB_LIBRARY_PACKAGES),$(patsubst %,% (= $(BINARYVERSION)),,$(pkg)))
+DEB_KDE43_LIBRARY_PACKAGES_SUBST := $(foreach pkg,$(DEB_KDE43_LIBRARY_PACKAGES),$(patsubst %,% (= $(BINARYVERSION)),,$(pkg)))
+
+$(patsubst %,binary-predeb/%,kdelibs5-dev kdelibs5-dbg):: binary-predeb/%:
+	test -f debian/$(cdbs_curpkg).substvars || touch debian/$(cdbs_curpkg).substvars
+	echo 'allLibraryPackages=$(DEB_LIBRARY_PACKAGES_SUBST)' >> debian/$(cdbs_curpkg).substvars
+
+$(patsubst %,binary-predeb/%,kdelibs5):: binary-predeb/%:
+	test -f debian/$(cdbs_curpkg).substvars || touch debian/$(cdbs_curpkg).substvars
+	echo 'kde43LibraryPackages=$(DEB_KDE43_LIBRARY_PACKAGES_SUBST)' >> debian/$(cdbs_curpkg).substvars
+
+# Generate shlibs local files
+$(patsubst %,binary-fixup/%,$(DEB_ARCH_PACKAGES)) :: binary-fixup/%: binary-strip/%
+	if test -e debian/$(cdbs_curpkg)/DEBIAN/shlibs ; then \
+		sed 's/>=[^)]*/= $(BINARYVERSION)/' debian/$(cdbs_curpkg)/DEBIAN/shlibs >> debian/shlibs.local ;\
+	fi
+
+clean::
+	rm -f debian/shlibs.local
 
 #binary-predeb/libplasma3::
 #	echo plasma:abi-provides=$(PLASMA_ABI) >> debian/libplasma3.substvars
