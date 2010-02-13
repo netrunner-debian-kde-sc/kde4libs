@@ -1,4 +1,4 @@
-kde4libs (4:4.4.0-0r4) UNRELEASED; urgency=low
+kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
 
   * New upstream release. The „Kalastria Highborn“ release.
 
@@ -37,6 +37,11 @@ kde4libs (4:4.4.0-0r4) UNRELEASED; urgency=low
   * Move "unsafe upgrade from KDE << 4.2.2" templates and handling to the
     libkdecore5 package since kdelibs5 is no longer the first package to
     be upgraded.
+  * Clean up lintian-overrides and add a couple of new ones.
+  * Make /usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh
+    from kdelibs5-data executable.
+  * Drop obsolete libplasma-dev provides from kdelibs5-dev.
+  * Move kdewidgets.so and kde3supportwidgets.so to kdelibs5-dev.
 
   [ Kai Wasserbäch ]
   * debian/patches:

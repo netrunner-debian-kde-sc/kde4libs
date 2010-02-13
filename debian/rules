@@ -18,7 +18,7 @@ DEB_DH_MAKESHLIBS_ARGS_ALL := -V
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime -xphonon
 
 # Libraries stuff
-DEB_KDE43_LIBRARY_PACKAGES := libkde3support4 libkdecore5 libkdesu5 libkdeui5 libkdnssd4 \
+DEB_KDE43_LIBRARY_PACKAGES := libkdecore5 libkdeui5 libkde3support4 libkdesu5 libkdnssd4 \
     libkfile4 libkhtml5 libkimproxy4 libkio5 libkjsapi4 libkjsembed4 libkmediaplayer4 \
     libknewstuff2-4 libknotifyconfig4 libkntlm4 libkparts4 libkpty4 libkrosscore4 libkrossui4 \
     libktexteditor4 libkutils4 libnepomuk4 libsolid4 libthreadweaver4
@@ -28,6 +28,9 @@ DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 include /usr/share/pkg-kde-tools/qt-kde-team/1/library-packages.mk
+
+binary-post-install/kdelibs5-data::
+	chmod a+x debian/kdelibs5-data/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh
 
 #binary-predeb/libplasma3::
 #	echo plasma:abi-provides=$(PLASMA_ABI) >> debian/libplasma3.substvars

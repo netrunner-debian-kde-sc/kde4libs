@@ -19,3 +19,21 @@ Forwarded: not-needed
     endif (APPLE)
  endif (UNIX)
  
+--- a/kdewidgets/CMakeLists.txt
++++ b/kdewidgets/CMakeLists.txt
+@@ -51,7 +51,6 @@
+                                    INSTALL_RPATH_USE_LINK_PATH TRUE
+                                    SKIP_BUILD_RPATH TRUE
+                                    BUILD_WITH_INSTALL_RPATH TRUE
+-                                   INSTALL_RPATH ${LIB_INSTALL_DIR}
+                        )
+ endif(NOT WIN32)
+ 
+@@ -86,7 +85,6 @@
+                                    INSTALL_RPATH_USE_LINK_PATH TRUE
+                                    SKIP_BUILD_RPATH TRUE
+                                    BUILD_WITH_INSTALL_RPATH TRUE
+-                                   INSTALL_RPATH ${LIB_INSTALL_DIR}
+                            )
+    endif(NOT WIN32)
+ 

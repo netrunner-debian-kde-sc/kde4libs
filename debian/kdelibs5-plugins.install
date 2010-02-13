@@ -44,7 +44,6 @@ usr/lib/kde4/libexec/start_kdeinit_wrapper
 usr/lib/kde4/libkhtmlpart.so
 usr/lib/kde4/libkmultipart.so
 usr/lib/kde4/notepadpart.so
-usr/lib/kde4/plugins/designer/kde3supportwidgets.so
 usr/lib/kde4/plugins/imageformats/kimg_dds.so
 usr/lib/kde4/plugins/imageformats/kimg_eps.so
 usr/lib/kde4/plugins/imageformats/kimg_exr.so
@@ -61,4 +60,3 @@ usr/lib/kde4/spellcheckplugin.so
 usr/lib/libkdeinit4_kconf_update.so
 usr/lib/libkdeinit4_kio_http_cache_cleaner.so
 usr/lib/libkdeinit4_klauncher.so
-usr/lib/qt4/plugins/designer/kdewidgets.so
