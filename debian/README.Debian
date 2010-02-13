@@ -3,11 +3,11 @@ Upgrading from Debian Lenny to Debian Squeeze
 
 KDE 4 applications on Debian Lenny use ~/.kde4 directory to store user settings
 and data. However, this has changed in Debian Squeeze. Once kdelibs5 package is
-upgraded, all newly started KDE 4 applications will switch to using ~/.kde
-directory for this purpose.
+upgraded (or multiple new lib* packages repace it), all newly started KDE 4
+applications will switch to using ~/.kde directory for this purpose.
 
-In order to avoid data loss, you should make sure there are no KDE 4 applications
-running when upgrading kdelibs5 package. It is also recommended to terminate all
+In order to avoid data loss, you should make sure there are no KDE 4
+applications running when upgrading. It is also recommended to terminate all
 running KDE sessions first.
 
 You may use Kaboom, the Debian KDE Settings Migration Wizard, to migrate your

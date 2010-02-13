@@ -7,17 +7,17 @@
 # Even minor modifications require translation updates and such
 # changes should be coordinated with translators and reviewers.
 
-Template: kdelibs5/upgrade_kdehome_running_title
+Template: libkdecore5/upgrade_kdehome_running_title
 Type: title
 _Description: Upgrading kdelibs5 while KDE 4 is running
 
-Template: kdelibs5/upgrade_kdehome_running
+Template: libkdecore5/upgrade_kdehome_running
 Type: boolean
 Default: true
 _Description: Stop unsafe KDE 4 upgrade?
  You are about to upgrade to the new version of the kdelibs5 package, which
  introduces a major configuration change - details are given in
- /usr/share/doc/kdelibs5/README.Debian (in short: user settings are moved
+ /usr/share/doc/libkdecore5/README.Debian (in short: user settings are moved
  from ~/.kde4 to ~/.kde). However, some KDE 4 applications are currently
  running: ${apps}
  .
@@ -28,11 +28,11 @@ _Description: Stop unsafe KDE 4 upgrade?
  KDE 4 applications are started before KDE 4 settings and data are migrated.
  A clean termination of the old KDE 4 session might not be safe.
 
-Template: kdelibs5/upgrade_kdehome_info_title
+Template: libkdecore5/upgrade_kdehome_info_title
 Type: title
 _Description: Upgrading kdelibs5
 
-Template: kdelibs5/upgrade_kdehome_info
+Template: libkdecore5/upgrade_kdehome_info
 Type: note
 _Description: New user settings directory (KDEHOME) for KDE 4 applications
  Once this package is upgraded, KDE 4 applications will use ~/.kde as the default

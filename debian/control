@@ -23,6 +23,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdelibs
 
 Package: libkdecore5
 Architecture: any
+Pre-Depends: debconf | debconf-2.0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Description: the KDE Platform Core Library
@@ -470,7 +471,6 @@ Description: development files for the KDE Development Platform libraries
 
 Package: kdelibs5
 Architecture: any
-Pre-Depends: debconf | debconf-2.0
 Depends: ${misc:Depends}, ${kde43Libraries}, kdoctools (= ${binary:Version}),
  kdelibs5-plugins (= ${binary:Version}), kdelibs-bin (= ${binary:Version})
 Description: transitional package for the KDE Development Platform libraries

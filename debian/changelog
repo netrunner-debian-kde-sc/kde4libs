@@ -2,9 +2,6 @@ kde4libs (4:4.4.0-0r4) UNRELEASED; urgency=low
 
   * New upstream release. The „Kalastria Highborn“ release.
 
-  * TODO: Move kdelibs5 templates to another package that previously existed
-    (kdelibs5-data?).
-
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
@@ -37,6 +34,9 @@ kde4libs (4:4.4.0-0r4) UNRELEASED; urgency=low
   * Do not set RPATH to /usr/lib by default (patch
     09_disable_usr_lib_install_rpath.diff). Disallowed on Debian.
   * Fix version in kdelibs5-data.NEWS (thanks to lintian).
+  * Move "unsafe upgrade from KDE << 4.2.2" templates and handling to the
+    libkdecore5 package since kdelibs5 is no longer the first package to
+    be upgraded.
 
   [ Kai Wasserbäch ]
   * debian/patches:

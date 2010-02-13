@@ -43,35 +43,34 @@ lib_users() {
 oldver="$2"
 kde4apps=""
 
-# Check if upgrading from << 4:4.2.2-1
-if [ "$1" = "upgrade" -a -n "$oldver" ] && dpkg --compare-versions "$oldver" lt "4:4.2.2-1"; then
+# Check if upgrading from << kdelibs5 4:4.2.2-1
+kdelibs5_ver=`dpkg-query -f='${Version}\n' -W kdelibs5 2>/dev/null`
+if [ "$1" = "install" -a -n "$kdelibs5_ver" -a -e '/usr/lib/libkdecore.so.5' ] &&
+    dpkg --compare-versions "$kdelibs5_ver" lt "4:4.2.2-1"; then
+
     # Are there any KDE 4 applications running?
-    if [ -e /usr/lib/libkdecore.so.5 ]; then
-        kde4apps=`lib_users '/usr/lib/libkdecore.so.5' 6` || {
-            kde4apps=""
-        }
-    fi
+    kde4apps=`lib_users '/usr/lib/libkdecore.so.5' 6` || { kde4apps="" }
     if [ -n "$kde4apps" ]; then
         # Ask whether to stop upgrading
-        db_settitle kdelibs5/upgrade_kdehome_running_title
-        db_fset kdelibs5/upgrade_kdehome_running seen false
-        db_reset kdelibs5/upgrade_kdehome_running
-        db_subst kdelibs5/upgrade_kdehome_running apps "$kde4apps"
-        if ! db_input high kdelibs5/upgrade_kdehome_running; then
+        db_settitle libkdecore5/upgrade_kdehome_running_title
+        db_fset libkdecore5/upgrade_kdehome_running seen false
+        db_reset libkdecore5/upgrade_kdehome_running
+        db_subst libkdecore5/upgrade_kdehome_running apps "$kde4apps"
+        if ! db_input high libkdecore5/upgrade_kdehome_running; then
             # If the question was skipped, continue upgrading...
             kde4apps=""
         fi
     else
         # Just display a note about configuration change
-        db_settitle kdelibs5/upgrade_kdehome_info_title
-        db_fset kdelibs5/upgrade_kdehome_info seen false
-        db_input medium kdelibs5/upgrade_kdehome_info || true
+        db_settitle libkdecore5/upgrade_kdehome_info_title
+        db_fset libkdecore5/upgrade_kdehome_info seen false
+        db_input medium libkdecore5/upgrade_kdehome_info || true
     fi
 
     # If either note was displayed successfully...
     db_go || true
     if [ -n "$kde4apps" ]; then
-        db_get kdelibs5/upgrade_kdehome_running
+        db_get libkdecore5/upgrade_kdehome_running
         if [ "$RET" = "true" ]; then
             db_stop
             exit 1
