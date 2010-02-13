@@ -460,7 +460,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, ${allLibraries},
 Recommends: ${sameVersionDep:libqt4-opengl-dev:libplasma3-Depends}
 Replaces: kdebase-runtime-data (<< 4:4.2.90), kdelibs5-data (<< 4:4.0.80-1), libplasma-dev (<< 4:4.1.96),
  kdebase-workspace-dev (<< 4:4.4.0), kdelibs5 (<< 4:4.4.0)
-Conflicts: kdelibs4-dev, libkjsembed-dev, kdepimlibs5-dev (<< 4:4.1.81+svn891439), libplasma-dev (<< 4:4.1.96)
+Conflicts: kdelibs4-dev, libkjsembed-dev, kdepimlibs5-dev (<< 4:4.1.81+svn891439), libplasma-dev (<< 4:4.1.96),
+ libkwebkit-dev
 Description: development files for the KDE Development Platform libraries
  This package contains development files for building KDE Applications and
  other software that uses the KDE Development Platform libraries.
