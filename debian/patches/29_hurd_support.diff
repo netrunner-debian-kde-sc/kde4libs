@@ -1,0 +1,31 @@
+Author: Pino Toscano <pino@kde.org>
+Description: preliminary GNU/Hurd support
+ Adds "support" for GNU/Hurd by defining MAXPATHLEN and PATH_MAX where needed.
+ Not forwarded, better fixes should be done upstream.
+Forwarded: no
+--- a/kdecore/kernel/kstandarddirs.cpp
++++ b/kdecore/kernel/kstandarddirs.cpp
+@@ -66,6 +66,10 @@
+ #include <QtCore/QFileInfo>
+ #include <QtCore/QSettings>
+ 
++#ifndef MAXPATHLEN
++# define MAXPATHLEN 1024
++#endif
++
+ class KStandardDirs::KStandardDirsPrivate
+ {
+ public:
+--- a/kinit/lnusertemp.c
++++ b/kinit/lnusertemp.c
+@@ -36,6 +36,10 @@
+ #include <limits.h>
+ #endif
+ 
++#ifndef PATH_MAX
++# define PATH_MAX 1024
++#endif
++
+ int check_tmp_dir(const char *tmp_dir, int check_ownership);
+ int create_link(const char *file, const char *tmp_dir);
+ int build_link(const char* tmp, const char *tmp_prefix, const char *kde_prefix);

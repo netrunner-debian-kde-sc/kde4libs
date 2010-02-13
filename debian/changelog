@@ -61,7 +61,11 @@ kde4libs (4:4.4.0-0r3) UNRELEASED; urgency=low
   [ Karl Ferdinand Ebert ]
   * update German translation.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Feb 2010 01:50:25 +0100
+  [ Pino Toscano ]
+  * Add patch 29_hurd_support.diff to hopefully fix (even if not in the most
+    elegant way) the compilation on GNU/Hurd.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Feb 2010 15:03:30 +0100
 
 kde4libs (4:4.3.4-1) unstable; urgency=low
 
