@@ -1,0 +1,21 @@
+From: Modestas Vainius <modax@debian.org>
+Subject: Do not set install RPATH to /usr/lib by default
+ /usr/lib RPATH is disallowed on Debian systems and is a bad practise in
+ general
+Forwarded: not-needed
+
+--- a/cmake/modules/FindKDE4Internal.cmake
++++ b/cmake/modules/FindKDE4Internal.cmake
+@@ -943,11 +943,9 @@
+    if (APPLE)
+       set(CMAKE_INSTALL_NAME_DIR ${LIB_INSTALL_DIR})
+    else (APPLE)
+-      # add our LIB_INSTALL_DIR to the RPATH and use the RPATH figured out by cmake when compiling
+-      set(CMAKE_INSTALL_RPATH ${LIB_INSTALL_DIR} )
+       set(CMAKE_SKIP_BUILD_RPATH FALSE)
+       set(CMAKE_BUILD_WITH_INSTALL_RPATH FALSE)
+-      set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
++      set(CMAKE_INSTALL_RPATH_USE_LINK_PATH FALSE)
+    endif (APPLE)
+ endif (UNIX)
+ 

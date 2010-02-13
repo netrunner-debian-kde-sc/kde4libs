@@ -1,4 +1,4 @@
-kde4libs (4:4.4.0-0r3) UNRELEASED; urgency=low
+kde4libs (4:4.4.0-0r4) UNRELEASED; urgency=low
 
   * New upstream release. The „Kalastria Highborn“ release.
 
@@ -11,6 +11,16 @@ kde4libs (4:4.4.0-0r3) UNRELEASED; urgency=low
   * Drop obsolete presubj.
   * Do not export libQtUiTools.a symbols in kjsembed library
     (25_ld_exclude_libs_qtuitools.diff).
+  * Build depend on pkg-kde-tools 0.6.2 which:
+    - enables LIBKDEINIT_INSTALL_DIR=/usr/lib/kde4/libkdeinit and
+      ENABLE_LIBKDEINIT_RUNPATH by default;
+    - has dh_movelibkdeinit which actually moves libkdeinit4_*.so to the
+      private directory;
+    - is capable of generating strict local library interdependencies by
+      stealing debian/shlibs.local generation code from qt4-x11;
+    - is capable of generating ${allLibraries} and ${kde43Libraries} substs.
+  * Implement a framework for moving libkdeinit4_*.so to the private directory:
+    (patch 10_make_libkdeinit4_private.diff).
   * Split kdelibs5 into separate library packages:
     - each public library gets its own package with a few exceptions;
     - remaining stuff moved from kdelibs5 to kdelibs5-plugins;
@@ -18,14 +28,15 @@ kde4libs (4:4.4.0-0r3) UNRELEASED; urgency=low
       directory in the source tree;
     - add package splitting rules to README.source;
     - bind kdebase-runtime to libkdecore5 for now;
-    - generate strict local library interdependencies by stealing
-      debian/shlibs.local generation code from qt4-x11;
   * Add control substs ${allLibraryPackages} and ${kde43LibraryPackages}
     for use in kdelibs5-{dev,dbg} and kdelibs5 metapackage despectively.
   * Add ${perl:Depends} to Depends of kdelibs5-plugins, kdelibs5-data and
     kdoctools.
   * Add patch 00_r1089160_khtml_scrolling_fix.diff from upstream to fix
     performance problems in KHTML.
+  * Do not set RPATH to /usr/lib by default (patch
+    09_disable_usr_lib_install_rpath.diff). Disallowed on Debian.
+  * Fix version in kdelibs5-data.NEWS (thanks to lintian).
 
   [ Kai Wasserbäch ]
   * debian/patches:
@@ -46,7 +57,7 @@ kde4libs (4:4.4.0-0r3) UNRELEASED; urgency=low
       libpolkit-qt-1-dev, libxss-dev and libqca2-dev.
     - Bump Build-Depends for Qt to >= 4.6.0.
     - Bump Build-Depends for Phonon to >= 4.4.0.
-    - Bump Build-Depends for libsoprano-dev to >= 2.3.70
+    - Bump Build-Depends for libsoprano-dev to >= 2.4.0.1-2~.
     - Bump Standards-Version to 3.8.4, no further changes needed.
   * debian/rules: Set „RUNTIME_DEPS“ to „kdebase-runtime (>= 4:4.4.0)“.
   * debian/kdelibs5-data.install: Update.

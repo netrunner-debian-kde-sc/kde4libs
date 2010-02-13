@@ -1,0 +1,78 @@
+From: Modestas Vainius <modax@debian.org>
+Subject: Framework for making libkdeinit4_*.so "private"
+ The patch adds LIBKDEINIT_INSTALL_DIR cmake flag which specifies where
+ libkdeinit4_*.so are supposed to end up. Please note, however, that
+ libkdeinit4_*.so will not be automatically installed to LIBKDEINIT_INSTALL_DIR
+ (but rather LIB_INSTALL_DIR) after cmake_install and you will need to be move
+ to LIBKDEINIT_INSTALL_DIR manually in packaging (or e.g. with
+ dh_movelibkdeinit).
+ .
+ Therefore, RUNPATH is disabled by default due to above limitation. Each
+ application will have to set ENABLE_LIBKDEINIT_RUNPATH:BOOL=ON cmake flag in
+ order for proper RUNPATH to be set on the generated kdeinit executables. However,
+ CDBS kde.mk and debhelper kde addon/buildsystem enable this flag by default and
+ hence call dh_movelibkdeinit.
+Forwarded: no
+
+--- a/CreateKDELibsDependenciesFile.cmake
++++ b/CreateKDELibsDependenciesFile.cmake
+@@ -31,6 +31,7 @@
+ set(KDE4_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}")
+ make_install_path_absolute(KDE4_LIB_INSTALL_DIR     ${LIB_INSTALL_DIR})
+ make_install_path_absolute(KDE4_LIBEXEC_INSTALL_DIR ${LIBEXEC_INSTALL_DIR})
++make_install_path_absolute(KDE4_LIBKDEINIT_INSTALL_DIR ${LIBKDEINIT_INSTALL_DIR})
+ make_install_path_absolute(KDE4_INCLUDE_INSTALL_DIR ${INCLUDE_INSTALL_DIR})
+ make_install_path_absolute(KDE4_BIN_INSTALL_DIR     ${BIN_INSTALL_DIR})
+ make_install_path_absolute(KDE4_SBIN_INSTALL_DIR    ${SBIN_INSTALL_DIR})
+@@ -63,6 +64,7 @@
+ 
+ set(KDE4_LIB_INSTALL_DIR     \"${KDE4_LIB_INSTALL_DIR}\")
+ set(KDE4_LIBEXEC_INSTALL_DIR \"${KDE4_LIBEXEC_INSTALL_DIR}\")
++set(KDE4_LIBKDEINIT_INSTALL_DIR \"${KDE4_LIBKDEINIT_INSTALL_DIR}\")
+ set(KDE4_INCLUDE_INSTALL_DIR \"${KDE4_INCLUDE_INSTALL_DIR}\")
+ set(KDE4_BIN_INSTALL_DIR     \"${KDE4_BIN_INSTALL_DIR}\")
+ set(KDE4_SBIN_INSTALL_DIR    \"${KDE4_SBIN_INSTALL_DIR}\")
+--- a/cmake/modules/FindKDE4Internal.cmake
++++ b/cmake/modules/FindKDE4Internal.cmake
+@@ -771,6 +771,7 @@
+    _set_fancy(INCLUDE_INSTALL_DIR  "${CMAKE_INSTALL_PREFIX}/include"         "The subdirectory to the header prefix")
+ 
+    _set_fancy(PLUGIN_INSTALL_DIR       "${LIB_INSTALL_DIR}/kde4"                "The subdirectory relative to the install prefix where plugins will be installed (default is ${LIB_INSTALL_DIR}/kde4)")
++   _set_fancy(LIBKDEINIT_INSTALL_DIR   "${LIB_INSTALL_DIR}"                     "The subdirectory relative to the install prefix where core libraries of the kdeinit based executables may be installed (default is ${LIB_INSTALL_DIR})")
+    _set_fancy(CONFIG_INSTALL_DIR       "${SHARE_INSTALL_PREFIX}/config"         "The config file install dir")
+    _set_fancy(DATA_INSTALL_DIR         "${SHARE_INSTALL_PREFIX}/apps"           "The parent directory where applications can install their data")
+    _set_fancy(HTML_INSTALL_DIR         "${SHARE_INSTALL_PREFIX}/doc/HTML"       "The HTML install dir for documentation")
+--- a/cmake/modules/KDE4Macros.cmake
++++ b/cmake/modules/KDE4Macros.cmake
+@@ -758,6 +758,14 @@
+       set_target_properties(kdeinit_${_target_NAME} PROPERTIES OUTPUT_NAME kdeinit4_${_target_NAME})
+ 
+       kde4_add_executable(${_target_NAME} "${_nogui}" ${CMAKE_CURRENT_BINARY_DIR}/${_target_NAME}_dummy.cpp)
++      if (UNIX AND ENABLE_LIBKDEINIT_RUNPATH AND NOT (${LIBKDEINIT_INSTALL_DIR} STREQUAL ${LIB_INSTALL_DIR}))
++         if (CMAKE_SKIP_RPATH)
++            set_target_properties(${_target_NAME} PROPERTIES LINK_FLAGS "-Wl,--enable-new-dtags,-rpath,'${LIBKDEINIT_INSTALL_DIR}'")
++         else (CMAKE_SKIP_RPATH)
++            set_target_properties(${_target_NAME} PROPERTIES INSTALL_RPATH "${LIBKDEINIT_INSTALL_DIR}"
++                                                             LINK_FLAGS    "-Wl,--enable-new-dtags")
++         endif (CMAKE_SKIP_RPATH)
++      endif (UNIX AND ENABLE_LIBKDEINIT_RUNPATH AND NOT (${LIBKDEINIT_INSTALL_DIR} STREQUAL ${LIB_INSTALL_DIR}))
+       target_link_libraries(${_target_NAME} kdeinit_${_target_NAME})
+    endif(WIN32)
+ 
+--- a/kinit/CMakeLists.txt
++++ b/kinit/CMakeLists.txt
+@@ -51,6 +51,14 @@
+ 
+ install(TARGETS kdeinit4 ${INSTALL_TARGETS_DEFAULT_ARGS} )
+ 
++if (UNIX AND NOT (${LIBKDEINIT_INSTALL_DIR} STREQUAL ${LIB_INSTALL_DIR}))
++    if (CMAKE_SKIP_RPATH)
++        set_target_properties(kdeinit4 PROPERTIES LINK_FLAGS "-Wl,--enable-new-dtags,-rpath,'${LIBKDEINIT_INSTALL_DIR}'")
++    else (CMAKE_SKIP_RPATH)
++        set_target_properties(kdeinit4 PROPERTIES INSTALL_RPATH "${LIBKDEINIT_INSTALL_DIR}"
++                                                  LINK_FLAGS    "-Wl,--enable-new-dtags")
++    endif (CMAKE_SKIP_RPATH)
++endif (UNIX AND NOT (${LIBKDEINIT_INSTALL_DIR} STREQUAL ${LIB_INSTALL_DIR}))
+ ########### kwrapper4 ###############
+ if (WIN32)
+   set(kwrapper_SRCS kwrapper_win.cpp  )
