@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: kde4libs@packages.debian.org\n"
 "POT-Creation-Date: 2009-11-04 07:05+0100\n"
-"PO-Revision-Date: 2009-11-10 20:30+0100\n"
+"PO-Revision-Date: 2010-1-12 20:30+0100\n"
 "Last-Translator: Karl Ferdinand Ebert <kfebert@gmail.com>\n"
 "Language-Team: german <debian-l10n-german@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -49,11 +49,12 @@ msgid ""
 "introduces a major configuration change - details are given in /usr/share/"
 "doc/kdelibs5/README.Debian (in short: user settings are moved from ~/.kde4 "
 "to ~/.kde). However, some KDE 4 applications are currently running: ${apps}"
-msgstr "Sie sind im Begriff zu einer neuen Version vom Paket kdelibs5 zu "
-"aktualisieren, welche maßgebliche Änderungen in der Konfiguration einführt."
-" Details stehen in /usr/share/doc/kdelibs5/README.Debian (in Kürze: "
-"Benutzereinstellungen werden von ~/.kde4 zu ~/.kde verschoben). Allerdings"
-"laufen einige KDE 4 Anwendungen momentan: ${apps}"
+msgstr "" 
+"Sie sind im Begriff zu einer neuen Version vom Paket kdelibs5 zu aktualisieren, welche"
+" maßgebliche Änderungen in der Konfiguration einführt. Details stehen in /usr/share/"
+"doc/kdelibs5/README.Debian (in Kürze: Benutzereinstellungen werden von ~/.kde4 "
+"zu ~/.kde verschoben). Allerdings laufen einige KDE 4 Anwendungen momentan: ${apps}"
+
 #. Type: boolean
 #. Description
 #: ../kdelibs5.templates:3001
@@ -62,8 +63,8 @@ msgid ""
 "applications and KDE sessions, and try upgrading again."
 msgstr ""
 "Es wird empfohlen die Aktualisierung von kdelibs5 abzubrechen, alle KDE "
-"Anwendungen und KDE Sitzungen zu beenden und wieder zu versuchen zu "
-"aktualisieren"
+"Anwendungen und KDE Sitzungen zu beenden und wieder zu versuchen zu aktualisieren"
+
 #. Type: boolean
 #. Description
 #: ../kdelibs5.templates:3001
@@ -75,7 +76,7 @@ msgstr ""
 "Wenn Sie sich entscheiden, mit dem Aktualisieren fortzusetzen, dann sollten "
 "Sie sicher gehen, dass keine neuen KDE 4 Anwendungen gestartet werden, "
 "bevor Sie Ihre KDE 4 Einstellungen und Daten migriert haben. Beachten Sie, "
-"dass das saubere Beenden von alten KDE 4 Sitzungen nicht sicher sein kann.."
+"dass das saubere Beenden von alten KDE 4 Sitzungen nicht sicher sein kann."
 
 #. Type: title
 #. Description
@@ -87,8 +88,7 @@ msgstr "Aktualisiere kdelibs5"
 #. Description
 #: ../kdelibs5.templates:5001
 msgid "New user settings directory (KDEHOME) for KDE 4 applications"
-msgstr ""
-"Neues Verzeichnis für Benutzereinstellungen (KDEHOME) für KDE 4 Anwendungen"
+msgstr "Neues Verzeichnis für Benutzereinstellungen (KDEHOME) für KDE 4 Anwendungen"
 
 #. Type: note
 #. Description
@@ -99,11 +99,10 @@ msgid ""
 "KDEHOME). Currently, KDE 4 applications use ~/.kde4. KDE 3 applications have "
 "always used (and will continue to use) ~/.kde."
 msgstr ""
-"Sobald dieses Paket aktualisiert ist, werden KDE 4 Anwendungen das "
-"Verzeichnis ~/.kde als Standard nutzen, um Benutzereinstellungen und Daten "
-"(auch als KDEHOME bekannt) zu speichern. Momentan nutzen KDE 4 Anwendungen "
-"~/.kde4. KDE 3 Anwendungen haben (und werden weiterhin) ~/.kde "
-"genutzt. "
+"Sobald dieses Paket aktualisiert ist, werden KDE 4 Anwendungen ~/.kde als Standard "
+"nutzen, um Benutzereinstellungen und Daten (auch als KDEHOME bekannt) zu speichern."
+" Momentan nutzen KDE 4 Anwendungen ~/.kde4. KDE 3 Anwendungen haben (und werden "
+"weiterhin) ~/.kde genutzt. "
 
 #. Type: note
 #. Description
@@ -114,7 +113,7 @@ msgid ""
 "wizard (in the package kaboom) to migrate user data before starting a KDE 4 "
 "application."
 msgstr ""
-"Wenn die Aktualisierung vollständig ist, es ist sicher, wie gewöhnlich in "
-"KDE anzumelden oder, wenn Sie nur einzelne KDE 4 Anwendungen nutzen, der "
-"Assistent Kaboom (verfügbar als Paket mit gleichem Namen) bei der Migration"
-" Ihrer Daten vor dem Starten einer KDE 4 Anwendung helfen."
+"Wenn die Aktualisierung vollständig ist, ist es sicher, wie gewöhnlich in KDE anzumelden;"
+" oder, wenn Sie nur einzelne KDE 4 Anwendungen nutzen, der Assistent Kaboom (verfügbar "
+"als Paket mit gleichem Namen) bei der Migration Ihrer Daten vor dem Starten einer KDE 4 "
+"Anwendung helfen."

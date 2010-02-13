@@ -58,6 +58,9 @@ kde4libs (4:4.4.0-0r3) UNRELEASED; urgency=low
   * Add replaces: kdelibs5-dev replaces kdebase-workspace-dev << 4:4.4.0
     because some nepomuk headers were moved.
 
+  [ Karl Ferdinand Ebert ]
+  * update German translation.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Feb 2010 01:50:25 +0100
 
 kde4libs (4:4.3.4-1) unstable; urgency=low
