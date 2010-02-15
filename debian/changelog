@@ -43,6 +43,8 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
   * Drop obsolete libplasma-dev provides from kdelibs5-dev.
   * Move kdewidgets.so and kde3supportwidgets.so to kdelibs5-dev.
   * Make kdelibs5-dev conflict with libkwebkit-dev.
+  * Add symbol files for all public libraries (based on 4:4.3.4 where
+    possible).
 
   [ Kai Wasserbäch ]
   * debian/patches:
