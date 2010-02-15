@@ -45,6 +45,22 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
   * Make kdelibs5-dev conflict with libkwebkit-dev.
   * Add symbol files for all public libraries (based on 4:4.3.4 where
     possible).
+  * Inject unversioned kdebase-runtime dependency via a couple of libkdecore5
+    and libkdeui5 symbols, which will be used by applications but typically not
+    by libraries:
+    - KAboutData in libkdecore5:
+      - Constructors and destructors;
+      - KAboutData::addAuthor();
+      - KAboutData::addCredit();
+      - KAboutData::operator=();
+    - KCmdLineArgs in libkdecore5:
+      - KCmdLineArgs::addCmdLineOptions();
+      - KCmdLineArgs::addStdCmdLineOptions();
+      - KCmdLineArgs::init() overloads;
+    - KApplication in libkdeui5:
+      - Constructors and destructors;
+    - KUniqueApplication in libkdeui5:
+      - Constructors and destructors;
 
   [ Kai Wasserbäch ]
   * debian/patches:
