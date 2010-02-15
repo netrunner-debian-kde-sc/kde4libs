@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.4.0 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
+| libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
  _Z10BarIconSetRK7QStringi@Base 4:4.3.4
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4:4.3.4
@@ -973,19 +974,19 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN12KApplication4quitEv@Base 4:4.3.4
  _ZN12KApplication6notifyEP7QObjectP6QEvent@Base 4:4.3.4
  _ZN12KApplication9saveStateER15QSessionManager@Base 4:4.3.4
- _ZN12KApplicationC1EP9_XDisplayRiPPcRK10QByteArrayb@Base 4:4.3.4
- _ZN12KApplicationC1EP9_XDisplaymm@Base 4:4.3.4
- _ZN12KApplicationC1EP9_XDisplaymmRK14KComponentData@Base 4:4.3.4
- _ZN12KApplicationC1Eb@Base 4:4.3.4
- _ZN12KApplicationC1EbRK14KComponentData@Base 4:4.3.4
- _ZN12KApplicationC2EP9_XDisplayRiPPcRK10QByteArrayb@Base 4:4.3.4
- _ZN12KApplicationC2EP9_XDisplaymm@Base 4:4.3.4
- _ZN12KApplicationC2EP9_XDisplaymmRK14KComponentData@Base 4:4.3.4
- _ZN12KApplicationC2Eb@Base 4:4.3.4
- _ZN12KApplicationC2EbRK14KComponentData@Base 4:4.3.4
- _ZN12KApplicationD0Ev@Base 4:4.3.4
- _ZN12KApplicationD1Ev@Base 4:4.3.4
- _ZN12KApplicationD2Ev@Base 4:4.3.4
+ _ZN12KApplicationC1EP9_XDisplayRiPPcRK10QByteArrayb@Base 4:4.3.4 1
+ _ZN12KApplicationC1EP9_XDisplaymm@Base 4:4.3.4 1
+ _ZN12KApplicationC1EP9_XDisplaymmRK14KComponentData@Base 4:4.3.4 1
+ _ZN12KApplicationC1Eb@Base 4:4.3.4 1
+ _ZN12KApplicationC1EbRK14KComponentData@Base 4:4.3.4 1
+ _ZN12KApplicationC2EP9_XDisplayRiPPcRK10QByteArrayb@Base 4:4.3.4 1
+ _ZN12KApplicationC2EP9_XDisplaymm@Base 4:4.3.4 1
+ _ZN12KApplicationC2EP9_XDisplaymmRK14KComponentData@Base 4:4.3.4 1
+ _ZN12KApplicationC2Eb@Base 4:4.3.4 1
+ _ZN12KApplicationC2EbRK14KComponentData@Base 4:4.3.4 1
+ _ZN12KApplicationD0Ev@Base 4:4.3.4 1
+ _ZN12KApplicationD1Ev@Base 4:4.3.4 1
+ _ZN12KApplicationD2Ev@Base 4:4.3.4 1
  _ZN12KArrowButton10paintEventEP11QPaintEvent@Base 4:4.3.4
  _ZN12KArrowButton11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN12KArrowButton11qt_metacastEPKc@Base 4:4.3.4
@@ -3184,13 +3185,13 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN18KUniqueApplication7Private20_k_newInstanceNoForkEv@Base 4:4.3.4
  _ZN18KUniqueApplication7Private8initHackEb@Base 4:4.3.4
  _ZN18KUniqueApplication7Private8s_noforkE@Base 4:4.3.4
- _ZN18KUniqueApplicationC1EP9_XDisplaymmb@Base 4:4.3.4
- _ZN18KUniqueApplicationC1Ebb@Base 4:4.3.4
- _ZN18KUniqueApplicationC2EP9_XDisplaymmb@Base 4:4.3.4
- _ZN18KUniqueApplicationC2Ebb@Base 4:4.3.4
- _ZN18KUniqueApplicationD0Ev@Base 4:4.3.4
- _ZN18KUniqueApplicationD1Ev@Base 4:4.3.4
- _ZN18KUniqueApplicationD2Ev@Base 4:4.3.4
+ _ZN18KUniqueApplicationC1EP9_XDisplaymmb@Base 4:4.3.4 1
+ _ZN18KUniqueApplicationC1Ebb@Base 4:4.3.4 1
+ _ZN18KUniqueApplicationC2EP9_XDisplaymmb@Base 4:4.3.4 1
+ _ZN18KUniqueApplicationC2Ebb@Base 4:4.3.4 1
+ _ZN18KUniqueApplicationD0Ev@Base 4:4.3.4 1
+ _ZN18KUniqueApplicationD1Ev@Base 4:4.3.4 1
+ _ZN18KUniqueApplicationD2Ev@Base 4:4.3.4 1
  _ZN19KAcceleratorManager10setNoAccelEP7QWidget@Base 4:4.3.4
  _ZN19KAcceleratorManager11last_manageER7QStringS1_S1_@Base 4:4.3.4
  _ZN19KAcceleratorManager6manageEP7QWidgetb@Base 4:4.3.4
