@@ -71,7 +71,7 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
   [ George Kiagiadakis ]
   * Bump kdebase-runtime recommends to >= 4.4.0.
   * Add new packages for the new libraries shipped:
-    libkdewebkit5, libknewstuff3-4, libkunitconversion4, libnepomukquery4.
+    libkdewebkit5, libknewstuff3-4, libkunitconversion4, libnepomukquery4a.
   * Add replaces: kdelibs5-dev replaces kdebase-workspace-dev << 4:4.4.0
     because some nepomuk headers were moved.
 

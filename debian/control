@@ -338,7 +338,7 @@ Description: the Nepomuk Meta Data Library
  This package is part of the KDE Development Platform libraries module.
 Homepage: http://nepomuk.kde.org/
 
-Package: libnepomukquery4
+Package: libnepomukquery4a
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
