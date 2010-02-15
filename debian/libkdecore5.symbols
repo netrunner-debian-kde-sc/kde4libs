@@ -50,15 +50,15 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN10KAboutData21setCopyrightStatementERK16KLocalizedString@Base 4:4.3.4
  _ZN10KAboutData21setOrganizationDomainERK10QByteArray@Base 4:4.3.4
  _ZN10KAboutData21unsetCustomAuthorTextEv@Base 4:4.3.4
- _ZN10KAboutData9addAuthorERK16KLocalizedStringS2_RK10QByteArrayS5_@Base 4:4.3.4 1
- _ZN10KAboutData9addCreditERK16KLocalizedStringS2_RK10QByteArrayS5_@Base 4:4.3.4 1
- _ZN10KAboutDataC1ERK10QByteArrayS2_RK16KLocalizedStringS2_S5_NS_10LicenseKeyES5_S5_S2_S2_@Base 4:4.3.4 1
- _ZN10KAboutDataC1ERKS_@Base 4:4.3.4 1
- _ZN10KAboutDataC2ERK10QByteArrayS2_RK16KLocalizedStringS2_S5_NS_10LicenseKeyES5_S5_S2_S2_@Base 4:4.3.4 1
- _ZN10KAboutDataC2ERKS_@Base 4:4.3.4 1
- _ZN10KAboutDataD1Ev@Base 4:4.3.4 1
- _ZN10KAboutDataD2Ev@Base 4:4.3.4 1
- _ZN10KAboutDataaSERKS_@Base 4:4.3.4 1
+ _ZN10KAboutData9addAuthorERK16KLocalizedStringS2_RK10QByteArrayS5_@Base 4:4.3.4
+ _ZN10KAboutData9addCreditERK16KLocalizedStringS2_RK10QByteArrayS5_@Base 4:4.3.4
+ _ZN10KAboutDataC1ERK10QByteArrayS2_RK16KLocalizedStringS2_S5_NS_10LicenseKeyES5_S5_S2_S2_@Base 4:4.3.4
+ _ZN10KAboutDataC1ERKS_@Base 4:4.3.4
+ _ZN10KAboutDataC2ERK10QByteArrayS2_RK16KLocalizedStringS2_S5_NS_10LicenseKeyES5_S5_S2_S2_@Base 4:4.3.4
+ _ZN10KAboutDataC2ERKS_@Base 4:4.3.4
+ _ZN10KAboutDataD1Ev@Base 4:4.3.4
+ _ZN10KAboutDataD2Ev@Base 4:4.3.4
+ _ZN10KAboutDataaSERKS_@Base 4:4.3.4
  _ZN10KAutostart10setCommandERK7QString@Base 4:4.3.4
  _ZN10KAutostart11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN10KAutostart11qt_metacastEPKc@Base 4:4.3.4

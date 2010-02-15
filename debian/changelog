@@ -48,11 +48,6 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
   * Inject unversioned kdebase-runtime dependency via a couple of libkdecore5
     and libkdeui5 symbols, which will be used by applications but typically not
     by libraries:
-    - KAboutData in libkdecore5:
-      - Constructors and destructors;
-      - KAboutData::addAuthor();
-      - KAboutData::addCredit();
-      - KAboutData::operator=();
     - KCmdLineArgs in libkdecore5:
       - KCmdLineArgs::addCmdLineOptions();
       - KCmdLineArgs::addStdCmdLineOptions();
