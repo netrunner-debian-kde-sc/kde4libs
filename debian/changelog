@@ -56,6 +56,7 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
       - Constructors and destructors;
     - KUniqueApplication in libkdeui5:
       - Constructors and destructors;
+  * Unversion kdebase-runtime injection via libkdecore5 shlibs.
 
   [ Kai Wasserbäch ]
   * debian/patches:
