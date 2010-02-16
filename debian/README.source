@@ -35,10 +35,11 @@ binary packages are dependencies of kdelibs5-dev.
 
 Files installed from the kdoctools/ directory in the source tree should be put
 (expect devel-specific) into the kdoctools package that is a dependency of the
-kdelibs5-dev package.
+kdelibs5-dev and kdelibs-bin packages.
 
 Binaries installed to /usr/bin/ (and their libkdeinit4_*) should be shipped in
-the kdelibs-bin package that is a dependency of the kdelibs5-dev package.
+the kdelibs-bin package that is a dependency of the kdelibs5-dev and
+kdelibs-bin packages.
 
 Plugins, libexecs and other versioned files which are unneeded/unlikely to be
 used at build time should be shipped in the kdelibs5-plugins (architecture

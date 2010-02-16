@@ -22,6 +22,8 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
   * Split kdelibs5 into separate library packages:
     - each public library gets its own package with a few exceptions;
     - remaining stuff moved from kdelibs5 to kdelibs5-plugins;
+    - individual libraries no longer depend on kdelibs-bin, but
+      kdelibs5-plugins does (Closes: #530522).
     - new kdoctools binary package with files installed from kdoctools/
       directory in the source tree;
     - add package splitting rules to README.source;

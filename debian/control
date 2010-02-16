@@ -417,7 +417,9 @@ Description: core executables for KDE Aapplications
 
 Package: kdelibs5-plugins
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, kdelibs5-data (= ${source:Version}),
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
+ kdelibs5-data (= ${source:Version}), kdoctools (= ${binary:Version}),
+ kdelibs-bin (= ${binary:Version}),
  dbus-x11, shared-mime-info, xdg-utils
 Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.4.0), kaboom (>= 1.0.5)
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs-bin (<< 4:4.1.74)
@@ -470,8 +472,7 @@ Description: development files for the KDE Development Platform libraries
 
 Package: kdelibs5
 Architecture: any
-Depends: ${misc:Depends}, ${kde43Libraries}, kdoctools (= ${binary:Version}),
- kdelibs5-plugins (= ${binary:Version}), kdelibs-bin (= ${binary:Version})
+Depends: ${misc:Depends}, ${kde43Libraries}, kdelibs5-plugins (= ${binary:Version})
 Description: transitional package for the KDE Development Platform libraries
  This is a dummy transitional package to enable installation of other Debian
  packages linked against KDE 4.0 - 4.3 versions of the cumulative KDE
