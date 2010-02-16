@@ -1,6 +1,6 @@
 kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
 
-  * New upstream release. The „Kalastria Highborn“ release.
+  * New upstream release.
     - fixes crash on triple click in the katepart. (Closes: #564085)
 
   [ Modestas Vainius ]
@@ -83,7 +83,6 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
     - Bump Build-Depends for Phonon to >= 4.4.0.
     - Bump Build-Depends for libsoprano-dev to >= 2.4.0.1-2~.
     - Bump Standards-Version to 3.8.4, no further changes needed.
-  * debian/rules: Set „RUNTIME_DEPS“ to „kdebase-runtime (>= 4:4.4.0)“.
   * debian/kdelibs5-data.install: Update.
 
   [ George Kiagiadakis ]
@@ -91,7 +90,7 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
   * Add new packages for the new libraries shipped:
     libkdewebkit5, libknewstuff3-4, libkunitconversion4, libnepomukquery4a.
   * Add replaces: kdelibs5-dev replaces kdebase-workspace-dev << 4:4.4.0
-    because some nepomuk headers were moved.
+    because the libnepomukquery headers were moved.
 
   [ Karl Ferdinand Ebert ]
   * update German translation.
