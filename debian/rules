@@ -11,7 +11,7 @@ DEB_DBG_PACKAGE_ALL := kdelibs5-dbg
 
 #bump version for every new upstream version!
 DEB_DH_MAKESHLIBS_ARGS_libkdecore5 := -V'libkdecore5 (>= $(UPSTREAMVERSION)), $(RUNTIME_DEPS)'
-DEB_DH_MAKESHLIBS_ARGS_ALL := -V
+DEB_DH_MAKESHLIBS_ARGS_ALL := -V -u-c0
 #DEB_DH_MAKESHLIBS_ARGS_libplasma3 := -V'libplasma3 (>= $(UPSTREAMVERSION)), $(PLASMA_ABI)'
 
 # remove dependencies on kdebase-runtime and phonon (the metapackage)
