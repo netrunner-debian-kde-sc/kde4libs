@@ -1,6 +1,7 @@
 kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
 
   * New upstream release. The „Kalastria Highborn“ release.
+    - fixes crash on triple click in the katepart. (Closes: #564085)
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
@@ -96,7 +97,7 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
   * Add patch 29_hurd_support.diff to hopefully fix (even if not in the most
     elegant way) the compilation on GNU/Hurd.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Feb 2010 15:03:30 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Feb 2010 01:37:46 +0100
 
 kde4libs (4:4.3.4-1) unstable; urgency=low
 
