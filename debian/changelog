@@ -35,7 +35,8 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
   * Add patch 00_r1089160_khtml_scrolling_fix.diff from upstream to fix
     performance problems in KHTML.
   * Do not set RPATH to /usr/lib by default (patch
-    09_disable_usr_lib_install_rpath.diff). Disallowed on Debian.
+    09_disable_usr_lib_install_rpath.diff) (Closes: #564146). Disallowed on
+    Debian.
   * Fix version in kdelibs5-data.NEWS (thanks to lintian).
   * Move "unsafe upgrade from KDE << 4.2.2" templates and handling to the
     libkdecore5 package since kdelibs5 is no longer the first package to
