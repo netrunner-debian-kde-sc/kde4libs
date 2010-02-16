@@ -99,9 +99,9 @@ kde4libs (4:4.4.0-0r5) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Add patch 29_hurd_support.diff to hopefully fix (even if not in the most
     elegant way) the compilation on GNU/Hurd.
-  * Drop build-depend on libtiff4-dev, unused.
+  * Replace unused libtiff4-dev build-depend with zlib1g-dev and libjpeg-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Feb 2010 10:25:50 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Feb 2010 10:58:38 +0100
 
 kde4libs (4:4.3.4-1) unstable; urgency=low
 

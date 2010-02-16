@@ -12,7 +12,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), quilt, cmake (>= 2.6.3), 
  libsoprano-dev (>= 2.4.0.1-2~), libstreamanalyzer-dev (>= 0.6.3),
  libxml2-dev, libxml2-utils, libxslt1-dev, libxtst-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
- libjasper-dev, libopenexr-dev, libpcre3-dev, hspell, xsltproc,
+ libjasper-dev, libopenexr-dev, libpcre3-dev, zlib1g-dev, libjpeg-dev, hspell, xsltproc,
  libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88),
  libxcursor-dev, libutempter-dev, liblzma-dev, libattica-dev, shared-desktop-ontologies,
  libpolkit-qt-1-dev, libxss-dev, libqca2-dev
