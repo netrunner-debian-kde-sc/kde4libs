@@ -1548,3 +1548,4 @@ usr/share/kde4/apps/ksgmltools2/docbook/xsl/params/xref.title-page.separator.xml
 usr/share/kde4/apps/ksgmltools2/docbook/xsl/params/xref.with.number.and.title.xml
 usr/share/kde4/services/ghelp.protocol
 usr/share/kde4/services/help.protocol
+usr/share/man/man8/meinproc4.8

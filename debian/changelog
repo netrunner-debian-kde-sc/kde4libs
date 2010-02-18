@@ -61,6 +61,7 @@ kde4libs (4:4.4.0-0r6) UNRELEASED; urgency=low
     - KUniqueApplication in libkdeui5:
       - Constructors and destructors;
   * Unversion kdebase-runtime injection via libkdecore5 shlibs.
+  * Move manual pages to the packages with their respective binaries.
 
   [ Kai Wasserbäch ]
   * debian/patches:

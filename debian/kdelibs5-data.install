@@ -457,16 +457,7 @@ usr/share/kde4/servicetypes/kdedmodule.desktop
 usr/share/kde4/servicetypes/kemoticonsTheme.desktop
 usr/share/kde4/servicetypes/kregexpeditor.desktop
 usr/share/kde4/servicetypes/qimageio_plugin.desktop
-usr/share/man/man1/kde4-config.1
-usr/share/man/man1/kjs.1
-usr/share/man/man1/kjscmd.1
-usr/share/man/man1/kross.1
 usr/share/man/man7/kdeoptions.7
 usr/share/man/man7/qtoptions.7
-usr/share/man/man8/kbuildsycoca4.8
-usr/share/man/man8/kcookiejar4.8
-usr/share/man/man8/kded4.8
-usr/share/man/man8/kdeinit4.8
-usr/share/man/man8/meinproc4.8
 usr/share/mime/packages/kde.xml
 usr/share/polkit-1/actions/org.kde.kcontrol.kcmremotewidgets.policy

@@ -410,6 +410,7 @@ Package: kdelibs-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libxml2-utils
 Conflicts: kjscmd
+Replaces: kdelibs5-data (<< 4:4.4.0)
 Description: core executables for KDE Aapplications
  This package contains common core executables used by all KDE Applications.
  .
