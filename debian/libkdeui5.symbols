@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -3153,7 +3153,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN18KRecentFilesActionD0Ev@Base 4:4.3.4
  _ZN18KRecentFilesActionD1Ev@Base 4:4.3.4
  _ZN18KRecentFilesActionD2Ev@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa !kfreebsd-amd64 !kfreebsd-i386)_ZN18KServiceTypeTrader23createInstanceFromQueryI7QDialogEEPT_RK7QStringP7QWidgetP7QObjectS6_RK5QListI8QVariantEPS4_@Base 4:4.3.4
  _ZN18KSqueezedTextLabel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN18KSqueezedTextLabel11qt_metacastEPKc@Base 4:4.3.4
  _ZN18KSqueezedTextLabel11resizeEventEP12QResizeEvent@Base 4:4.3.4
@@ -3883,11 +3882,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6KRulerD0Ev@Base 4:4.3.4
  _ZN6KRulerD1Ev@Base 4:4.3.4
  _ZN6KRulerD2Ev@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEE13defaultOptionEv@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEE13defaultOptionEv@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEE13defaultOptionEv@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEE13defaultOptionEv@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEE13defaultOptionEv@Base 4:4.3.4
  _ZN6KStyle10TextOption4initEv@Base 4:4.3.4
  _ZN6KStyle10TextOptionC1ERK7QString@Base 4:4.3.4
  _ZN6KStyle10TextOptionC1Ev@Base 4:4.3.4
@@ -3898,10 +3892,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6KStyle11qt_metacastEPKc@Base 4:4.3.4
  _ZN6KStyle12defaultStyleEv@Base 4:4.3.4
  _ZN6KStyle12newStyleHintERK7QString@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZN6KStyle13extractOptionIPKNS_18DoubleButtonOptionEEET_PNS_6OptionE@Base 4:4.3.4
- (optional=templinst|arch=amd64 hppa)_ZN6KStyle13extractOptionIPNS_10IconOptionEEET_PNS_6OptionE@Base 4:4.3.4
- (optional=templinst|arch=amd64 hppa)_ZN6KStyle13extractOptionIPNS_10TextOptionEEET_PNS_6OptionE@Base 4:4.3.4
- (optional=templinst|arch=amd64 hppa)_ZN6KStyle13extractOptionIPNS_11ColorOptionEEET_PNS_6OptionE@Base 4:4.3.4
+ (optional=templinst)_ZN6KStyle13extractOptionIPNS_10IconOptionEEET_PNS_6OptionE@Base 4:4.3.4
+ (optional=templinst)_ZN6KStyle13extractOptionIPNS_10TextOptionEEET_PNS_6OptionE@Base 4:4.3.4
+ (optional=templinst)_ZN6KStyle13extractOptionIPNS_11ColorOptionEEET_PNS_6OptionE@Base 4:4.3.4
  (optional=templinst)_ZN6KStyle13extractOptionIPNS_17TitleButtonOptionEEET_PNS_6OptionE@Base 4:4.3.4
  _ZN6KStyle13newSubElementERK7QString@Base 4:4.3.4
  _ZN6KStyle15customStyleHintERK7QStringPK7QWidget@Base 4:4.3.4
@@ -5048,7 +5041,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.4.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.3.4
  _ZNK12KEditListBox10downButtonEv@Base 4:4.3.4

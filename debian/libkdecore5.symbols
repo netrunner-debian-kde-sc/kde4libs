@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -1268,7 +1268,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN3KDE13versionStringEv@Base 4:4.3.4
  _ZN3KDE14versionReleaseEv@Base 4:4.3.4
  (arch=!kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390)_ZN3KDE4statERK7QStringP4stat@Base 4:4.3.4
- (arch=!amd64)_ZN3KDE6accessERK7QStringi@Base 4:4.3.4
+#MISSING: 4:4.4.0# (arch=!amd64)_ZN3KDE6accessERK7QStringi@Base 4:4.3.4
  _ZN3KDE7versionEv@Base 4:4.3.4
  _ZN4KJob10emitResultEv@Base 4:4.3.4
  _ZN4KJob10setPercentEm@Base 4:4.3.4
@@ -2593,7 +2593,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK12KConfigGroup8entryMapEv@Base 4:4.3.4
  _ZNK12KConfigGroup9groupImplERK10QByteArray@Base 4:4.3.4
  _ZNK12KConfigGroup9groupListEv@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryEPKcRK11QStringList@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryEPKcRK5QListI8QVariantE@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryEPKcRK7QString@Base 4:4.3.4
@@ -2606,7 +2605,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK12KConfigGroup9readEntryERK7QStringS2_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.3.4
- (optional=templinst|arch=!amd64)_ZNK12KConfigGroup9readEntryIiEET_RK7QStringRKS1_@Base 4:4.3.4
+#MISSING: 4:4.4.0# (optional=templinst|arch=!amd64)_ZNK12KConfigGroup9readEntryIiEET_RK7QStringRKS1_@Base 4:4.3.4
  _ZNK12KDesktopFile10readDeviceEv@Base 4:4.3.4
  _ZNK12KDesktopFile11actionGroupERK7QString@Base 4:4.3.4
  _ZNK12KDesktopFile11hasLinkTypeEv@Base 4:4.3.4

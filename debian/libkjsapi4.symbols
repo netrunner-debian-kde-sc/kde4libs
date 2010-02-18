@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
 libkjs.so.4 libkjs4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -18,7 +18,7 @@ libkjs.so.4 libkjs4 #MINVER#
  _ZN3KJS11FunctionImp14deletePropertyEPNS_9ExecStateERKNS_10IdentifierE@Base 4:4.3.4
  _ZN3KJS11FunctionImp14initialCompileEPNS_9ExecStateE@Base 4:4.3.4
  _ZN3KJS11FunctionImp15argumentsGetterEPNS_9ExecStateEPNS_8JSObjectERKNS_10IdentifierERKNS_12PropertySlotE@Base 4:4.3.4
- _ZN3KJS11FunctionImp16getParameterNameEm@Base 4:4.4.0
+ (subst)_ZN3KJS11FunctionImp16getParameterNameE{size_t}@Base 4:4.4.0
  _ZN3KJS11FunctionImp18getOwnPropertySlotEPNS_9ExecStateERKNS_10IdentifierERNS_12PropertySlotE@Base 4:4.3.4
  _ZN3KJS11FunctionImp3putEPNS_9ExecStateERKNS_10IdentifierEPNS_7JSValueEi@Base 4:4.3.4
  _ZN3KJS11FunctionImp4infoE@Base 4:4.3.4
@@ -358,7 +358,6 @@ libkjs.so.4 libkjs4 #MINVER#
  _ZNK3KJS7JSValue20toIntegerPreserveNaNEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7JSValue4typeEv@Base 4:4.3.4
  _ZNK3KJS7JSValue7toFloatEPNS_9ExecStateE@Base 4:4.3.4
- (arch=!amd64 !hppa)_ZNK3KJS7JSValue8isObjectEv@Base 4:4.3.4
  _ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7JSValue8toUInt16EPNS_9ExecStateE@Base 4:4.3.4
@@ -366,7 +365,6 @@ libkjs.so.4 libkjs4 #MINVER#
  _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7JSValue9toIntegerEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7UString10UTF8StringEv@Base 4:4.3.4
- (arch=!amd64 !hppa|subst)_ZNK3KJS7UString12expandedSizeE{size_t}{size_t}@Base 4:4.3.4
  _ZNK3KJS7UString14toStrictUInt32EPb@Base 4:4.3.4
  _ZNK3KJS7UString30spliceSubstringsWithSeparatorsEPKNS0_5RangeEiPKS0_i@Base 4:4.3.4
  _ZNK3KJS7UString4findENS_5UCharEi@Base 4:4.3.4

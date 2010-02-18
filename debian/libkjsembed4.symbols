@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
 libkjsembed.so.4 libkjsembed4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=hppa mips mipsel sparc)_ZN13QFormInternal17clearPerCellValueI10QBoxLayoutEEvPT_iMS2_FviiEi@Base 4:4.3.4
@@ -97,7 +97,6 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed14VariantFactory14VariantMethodsE@Base 4:4.3.4
  _ZN8KJSEmbed14convertToValueEPN3KJS9ExecStateERK8QVariant@Base 4:4.3.4
  (optional=templinst)_ZN8KJSEmbed14extractIntegerIN2Qt10BrushStyleEEET_PN3KJS9ExecStateERKNS4_4ListEiS3_@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZN8KJSEmbed14extractIntegerIN2Qt11GlobalColorEEET_PN3KJS9ExecStateERKNS4_4ListEiS3_@Base 4:4.3.4
  _ZN8KJSEmbed14extractQStringEPN3KJS9ExecStateEPNS0_7JSValueE7QString@Base 4:4.3.4
  _ZN8KJSEmbed14extractQStringEPN3KJS9ExecStateERKNS0_4ListEi7QString@Base 4:4.3.4
  _ZN8KJSEmbed14extractVariantEPN3KJS9ExecStateEPNS0_7JSValueE@Base 4:4.3.4
@@ -216,7 +215,6 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZNK8KJSEmbed13ObjectBinding9ownershipEv@Base 4:4.3.4
  _ZNK8KJSEmbed14QObjectBinding6accessEv@Base 4:4.3.4
  _ZNK8KJSEmbed14QObjectBinding6canPutEPN3KJS9ExecStateERKNS1_10IdentifierE@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZNK8KJSEmbed14QObjectBinding7qobjectI7QObjectEEPT_v@Base 4:4.3.4
  _ZNK8KJSEmbed14QObjectBinding8toStringEPN3KJS9ExecStateE@Base 4:4.3.4
  _ZNK8KJSEmbed14QObjectBinding9classNameEv@Base 4:4.3.4
  _ZNK8KJSEmbed14VariantBinding3argEPKc@Base 4:4.3.4

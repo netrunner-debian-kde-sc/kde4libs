@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -1796,7 +1796,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  (arch=!armel)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
- (arch=!amd64 !hppa)_ZN3KJS7JSValue9getObjectEv@Base 4:4.3.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
  _ZN3KJS7UStringC1ERK7QString@Base 4:4.3.4
@@ -2803,12 +2802,10 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3KJS7JSValue7toInt32EPNS_9ExecStateERb@Base 4:4.3.4
  _ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.3.4
- (arch=!amd64 !hppa)_ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateERb@Base 4:4.3.4
  _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7UString7qstringEv@Base 4:4.3.4
  _ZNK3KJS7UString9domStringEv@Base 4:4.3.4
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.3.4
- (arch=!amd64 !hppa)_ZNK3KJS8JSObject8inheritsEPKNS_9ClassInfoE@Base 4:4.3.4
  _ZNK5khtml10ChildFrame10metaObjectEv@Base 4:4.3.4
  _ZNK5khtml10MouseEvent6offsetEv@Base 4:4.3.4
  _ZNK9KHTMLPart10activeNodeEv@Base 4:4.3.4
@@ -2900,15 +2897,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK9KHTMLView9mediaTypeEv@Base 4:4.3.4
  _ZNK9KHTMLView9pagedModeEv@Base 4:4.3.4
  _ZNK9KHTMLView9zoomLevelEv@Base 4:4.3.4
- (optional=templinst|arch=!alpha !amd64 !hppa !ia64 !kfreebsd-amd64)_ZSt13__adjust_heapIPN7WebCore18SVGGlyphIdentifierEiS1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.3.4
  (optional=templinst|arch=alpha ia64 kfreebsd-amd64)_ZSt13__adjust_heapIPN7WebCore18SVGGlyphIdentifierElS1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZSt16__insertion_sortIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.3.4
- (optional=templinst|arch=!alpha !amd64 !hppa !ia64 !kfreebsd-amd64)_ZSt16__introsort_loopIPN7WebCore18SVGGlyphIdentifierEiPFbRKS1_S4_EEvT_S7_T0_T1_@Base 4:4.3.4
  (optional=templinst|arch=alpha ia64 kfreebsd-amd64)_ZSt16__introsort_loopIPN7WebCore18SVGGlyphIdentifierElPFbRKS1_S4_EEvT_S7_T0_T1_@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZSt21__unguarded_partitionIPN7WebCore18SVGGlyphIdentifierES1_PFbRKS1_S4_EET_S7_S7_T0_T1_@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZSt22__final_insertion_sortIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZSt25__unguarded_linear_insertIPN7WebCore18SVGGlyphIdentifierES1_PFbRKS1_S4_EEvT_T0_T1_@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZSt9make_heapIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.3.4
  _ZTI13KHTMLSettings@Base 4:4.3.4
  _ZTI9KHTMLPart@Base 4:4.3.4
  _ZTI9KHTMLView@Base 4:4.3.4
