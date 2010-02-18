@@ -3916,7 +3916,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  (c++)"virtual thunk to KNetwork::KSocketDevice::~KSocketDevice()@Base" 4:4.3.4
  (c++)"virtual thunk to KNetwork::KSocksSocketDevice::~KSocksSocketDevice()@Base" 4:4.3.4
  (c++)"virtual thunk to KNetwork::KStreamSocket::~KStreamSocket()@Base" 4:4.3.4
-libkdefakes.so.5 libkdefakes5 #MINVER#
+libkdefakes.so.5 libkdecore5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  mkstemps@Base 4:4.3.4
  strlcat@Base 4:4.3.4

@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
-libkjs.so.4 libkjs4 #MINVER#
+libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
  _ZN3KJS10Identifier3addEPKNS_5UCharEi@Base 4:4.3.4

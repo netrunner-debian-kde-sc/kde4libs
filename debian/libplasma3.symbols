@@ -2505,7 +2505,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma9Wallpaper4iconEv@Base 4:4.2.2
  _ZNK6Plasma9Wallpaper4nameEv@Base 4:4.2.2
  _ZNK6Plasma9Wallpaper7packageEv@Base 4:4.4.0
- (optional=templinst)_ZNK8KService14createInstanceIN6Plasma14AbstractRunnerEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.4.0-0r5
+ (optional=templinst)_ZNK8KService14createInstanceIN6Plasma14AbstractRunnerEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.4.0
  _ZTIN12ThreadWeaver11QueuePolicyE@Base 4:4.2.2
  _ZTIN5Jolie11PendingCallE@Base 4:4.4.0
  _ZTIN5Jolie15AbstractAdaptorE@Base 4:4.4.0

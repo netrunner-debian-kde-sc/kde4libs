@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.4.0 amd64
-libknewstuff2.so.4 libknewstuff24 #MINVER#
+libknewstuff2.so.4 libknewstuff2-4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KNS10CoreEngine10cacheEntryEPNS_5EntryE@Base 4:4.3.4
  _ZN3KNS10CoreEngine11entryCachedEPNS_5EntryE@Base 4:4.3.4

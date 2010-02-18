@@ -1782,7 +1782,7 @@ libkde3support.so.4 libkde3support4 #MINVER#
  (c++)"virtual thunk to K3DockMainWindow::virtual_hook(int, void*)@Base" 4:4.3.4
  (c++)"virtual thunk to K3DockMainWindow::~K3DockMainWindow()@Base" 4:4.3.4
  (c++)"virtual thunk to KParts::DockMainWindow3::~DockMainWindow3()@Base" 4:4.3.4
-libkunittest.so.4 libkunittest4 #MINVER#
+libkunittest.so.4 libkde3support4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN9KUnitTest10SlotTester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN9KUnitTest10SlotTester11qt_metacastEPKc@Base 4:4.3.4
