@@ -26,6 +26,14 @@ DEB_ALL_LIBRARIES_SUBST_PACKAGES = kdelibs5-dev kdelibs5-dbg
 DEB_KDE43_LIBRARIES_SUBST_PACKAGES = kdelibs5
 DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
 
+# Fixes FTBFS (4:4.3.4-2) on ia64 (khtml code is too large to fit):
+#   html/khtmlview.cpp:3623: relocation truncated to fit: GPREL22 against `.rodata'
+# etc. We will have to reevalute if this is still needed some time later.
+ifeq (ia64,$(DEB_HOST_ARCH))
+    CFLAGS += -ffunction-sections
+    CXXFLAGS += -ffunction-sections
+endif
+
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 include /usr/share/pkg-kde-tools/qt-kde-team/1/library-packages.mk
 
