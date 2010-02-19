@@ -44,7 +44,7 @@ oldver="$2"
 kde4apps=""
 
 # Check if upgrading from << kdelibs5 4:4.2.2-1
-kdelibs5_ver=`dpkg-query -f='${Version}\n' -W kdelibs5 2>/dev/null`
+kdelibs5_ver=`dpkg-query -f='${Version}\n' -W kdelibs5 2>/dev/null || true`
 if [ "$1" = "install" -a -n "$kdelibs5_ver" -a -e '/usr/lib/libkdecore.so.5' ] && \
     dpkg --compare-versions "$kdelibs5_ver" lt "4:4.2.2-1"; then
 
