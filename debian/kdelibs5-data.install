@@ -273,8 +273,6 @@ usr/share/kde4/apps/katepart/syntax/yacas.xml
 usr/share/kde4/apps/katepart/syntax/yacc.xml
 usr/share/kde4/apps/katepart/syntax/yaml.xml
 usr/share/kde4/apps/katepart/syntax/zonnon.xml
-usr/share/kde4/apps/kauth/dbus_policy.stub
-usr/share/kde4/apps/kauth/dbus_service.stub
 usr/share/kde4/apps/kcharselect/kcharselect-data
 usr/share/kde4/apps/kcm_componentchooser/kcm_instantmessenger.desktop
 usr/share/kde4/apps/kcm_componentchooser/kcm_ktexteditor.desktop

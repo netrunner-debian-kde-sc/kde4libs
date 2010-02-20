@@ -1,4 +1,4 @@
-kde4libs (4:4.4.0-0r8) UNRELEASED; urgency=low
+kde4libs (4:4.4.0-0r9) UNRELEASED; urgency=low
 
   * New upstream release.
     - fixes crash on triple click in the katepart. (Closes: #564085)
