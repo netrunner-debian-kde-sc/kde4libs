@@ -1,6 +1,8 @@
 kde4libs (4:4.4.0-0r9) UNRELEASED; urgency=low
 
   * New upstream release.
+    - kio_http_cache_cleaner does not causes trashing anymore.
+      (Closes: #401561)
     - "three stars" password line edits should work again. (Closes: #550866)
     - fixes crash on triple click in the katepart. (Closes: #564085)
 
@@ -102,7 +104,7 @@ kde4libs (4:4.4.0-0r9) UNRELEASED; urgency=low
     elegant way) the compilation on GNU/Hurd.
   * Replace unused libtiff4-dev build-depend with zlib1g-dev and libjpeg-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Feb 2010 02:36:42 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Feb 2010 01:53:38 +0100
 
 kde4libs (4:4.3.4-3) unstable; urgency=medium
 
