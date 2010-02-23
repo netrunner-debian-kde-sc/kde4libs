@@ -65,6 +65,7 @@ kde4libs (4:4.4.0-0r9) UNRELEASED; urgency=low
       - Constructors and destructors;
   * Unversion kdebase-runtime injection via libkdecore5 shlibs.
   * Move manual pages to the packages with their respective binaries.
+  * Make kdelibs5-dbg replace kdebase-workspace-dbg (<< 4:4.4.0).
 
   [ Kai Wasserbäch ]
   * debian/patches:

@@ -487,6 +487,7 @@ Architecture: any
 Priority: extra
 Depends: libqt4-dbg (>= 4:4.6), libc6-dbg [amd64]
 Recommends: ${allLibraries}, kdelibs-bin (= ${binary:Version})
+Replaces: kdebase-workspace-dbg (<< 4:4.4.0)
 Description: debugging symbols for the KDE Development Platform libraries
  This package contains debugging files used to investigate problems with
  binaries included in the KDE Development Platform libraries module.
