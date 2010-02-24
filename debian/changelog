@@ -12,7 +12,7 @@ kde4libs (4:4.4.1~svn1095279-0r1) UNRELEASED; urgency=low
   * Drop obsolete presubj.
   * Do not export libQtUiTools.a symbols in kjsembed library
     (25_ld_exclude_libs_qtuitools.diff).
-  * Build depend on pkg-kde-tools 0.6.2 which:
+  * Build depend on pkg-kde-tools 0.6.4 which:
     - enables LIBKDEINIT_INSTALL_DIR=/usr/lib/kde4/libkdeinit and
       ENABLE_LIBKDEINIT_RUNPATH by default;
     - has dh_movelibkdeinit which actually moves libkdeinit4_*.so to the
@@ -66,6 +66,9 @@ kde4libs (4:4.4.1~svn1095279-0r1) UNRELEASED; urgency=low
   * Unversion kdebase-runtime injection via libkdecore5 shlibs.
   * Move manual pages to the packages with their respective binaries.
   * Make kdelibs5-dbg replace kdebase-workspace-dbg (<< 4:4.4.0).
+  * Move cmake from kdelibs5-dev Depends to Breaks.
+  * Bump libphonon-dev in Build-Depends to 4:4.6.0really4.3.80.
+  * Bump build dependency on dpkg-dev to 1.15.5.
 
   [ Kai Wasserbäch ]
   * debian/patches:
