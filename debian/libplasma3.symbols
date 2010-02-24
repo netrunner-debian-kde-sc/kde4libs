@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.1~ amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN5Jolie11MetaService11loadServiceERK7QStringS3_@Base 4:4.4.0
@@ -511,6 +511,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma12ExtenderItem8setGroupEPNS_13ExtenderGroupE@Base 4:4.2.98
  _ZN6Plasma12ExtenderItem8setTitleERK7QString@Base 4:4.2.2
  _ZN6Plasma12ExtenderItem9addActionERK7QStringP7QAction@Base 4:4.2.2
+ _ZN6Plasma12ExtenderItem9destroyedEPS0_@Base 4:4.4.1~
  _ZN6Plasma12ExtenderItem9moveEventEP23QGraphicsSceneMoveEvent@Base 4:4.2.2
  _ZN6Plasma12ExtenderItem9setWidgetEP13QGraphicsItem@Base 4:4.2.2
  _ZN6Plasma12ExtenderItemC1EPNS_8ExtenderEj@Base 4:4.2.2
@@ -1540,6 +1541,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma7SpinBoxD0Ev@Base 4:4.2.98
  _ZN6Plasma7SpinBoxD1Ev@Base 4:4.2.98
  _ZN6Plasma7SpinBoxD2Ev@Base 4:4.2.98
+ _ZN6Plasma7WebView10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@Base 4:4.4.1~
  _ZN6Plasma7WebView10wheelEventEP24QGraphicsSceneWheelEvent@Base 4:4.2.2
  _ZN6Plasma7WebView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.2.2
  _ZN6Plasma7WebView11qt_metacastEPKc@Base 4:4.2.2
@@ -2893,6 +2895,7 @@ libplasma.so.3 libplasma3 #MINVER#
  (c++)"non-virtual thunk to Plasma::WebView::focusInEvent(QFocusEvent*)@Base" 4:4.2.2
  (c++)"non-virtual thunk to Plasma::WebView::focusOutEvent(QFocusEvent*)@Base" 4:4.2.2
  (c++)"non-virtual thunk to Plasma::WebView::hoverMoveEvent(QGraphicsSceneHoverEvent*)@Base" 4:4.2.2
+ (c++)"non-virtual thunk to Plasma::WebView::itemChange(QGraphicsItem::GraphicsItemChange, QVariant const&)@Base" 4:4.4.1~
  (c++)"non-virtual thunk to Plasma::WebView::keyPressEvent(QKeyEvent*)@Base" 4:4.2.2
  (c++)"non-virtual thunk to Plasma::WebView::keyReleaseEvent(QKeyEvent*)@Base" 4:4.2.2
  (c++)"non-virtual thunk to Plasma::WebView::mouseDoubleClickEvent(QGraphicsSceneMouseEvent*)@Base" 4:4.2.2

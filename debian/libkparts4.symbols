@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.1~ amd64
 libkparts.so.4 libkparts4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN6KParts10BrowserRun10simpleSaveERK4KUrlRK7QStringP7QWidget@Base 4:4.3.4
@@ -397,6 +397,7 @@ libkparts.so.4 libkparts4 #MINVER#
  _ZNK6KParts10BrowserRun10metaObjectEv@Base 4:4.3.4
  _ZNK6KParts10BrowserRun15hideErrorDialogEv@Base 4:4.3.4
  _ZNK6KParts10BrowserRun18contentDispositionEv@Base 4:4.3.4
+ _ZNK6KParts10BrowserRun18serverSuggestsSaveEv@Base 4:4.4.1~
  _ZNK6KParts10BrowserRun3urlEv@Base 4:4.3.4
  _ZNK6KParts10BrowserRun4partEv@Base 4:4.3.4
  _ZNK6KParts10MainWindow10metaObjectEv@Base 4:4.3.4
