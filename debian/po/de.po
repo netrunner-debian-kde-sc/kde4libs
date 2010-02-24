@@ -15,7 +15,7 @@
 #
 #    Developers do not need to manually edit POT or PO files.
 #
-# Karl Ferdinand Ebert, 2009 
+# Karl Ferdinand Ebert, 2009, 2010
 #
 msgid ""
 msgstr ""
@@ -39,7 +39,7 @@ msgstr "Aktualisiere kdelibs5 während KDE 4 läuft"
 #. Description
 #: ../libkdecore5.templates:3001
 msgid "Stop unsafe KDE 4 upgrade?"
-msgstr "Beende unsichere KDE 4 Aktualisierung?"
+msgstr "Beende unsichere Aktualisierung von KDE 4?"
 
 #. Type: boolean
 #. Description
@@ -50,10 +50,10 @@ msgid ""
 "doc/libkdecore5/README.Debian (in short: user settings are moved from ~/.kde4 "
 "to ~/.kde). However, some KDE 4 applications are currently running: ${apps}"
 msgstr "" 
-"Sie sind im Begriff zu einer neuen Version vom Paket kdelibs5 zu aktualisieren, welche"
+"Sie sind im Begriff zu einer neuen Version des Pakets kdelibs5 zu aktualisieren, welche"
 " maßgebliche Änderungen in der Konfiguration einführt. Details stehen in /usr/share/"
 "doc/libkdecore5/README.Debian (in Kürze: Benutzereinstellungen werden von ~/.kde4 "
-"zu ~/.kde verschoben). Allerdings laufen einige KDE 4 Anwendungen momentan: ${apps}"
+"zu ~/.kde verschoben). Allerdings laufen einige KDE-4-Anwendungen momentan: ${apps}"
 
 #. Type: boolean
 #. Description
@@ -62,8 +62,8 @@ msgid ""
 "It is recommended to abort the upgrade of kdelibs5, terminate all KDE "
 "applications and KDE sessions, and try upgrading again."
 msgstr ""
-"Es wird empfohlen die Aktualisierung von kdelibs5 abzubrechen, alle KDE "
-"Anwendungen und KDE Sitzungen zu beenden und wieder zu versuchen zu aktualisieren"
+"Es wird empfohlen die Aktualisierung von kdelibs5 abzubrechen, alle KDE- "
+"Anwendungen und KDE-Sitzungen zu beenden und wieder zu versuchen zu aktualisieren"
 
 #. Type: boolean
 #. Description
@@ -74,9 +74,9 @@ msgid ""
 "clean termination of the old KDE 4 session might not be safe."
 msgstr ""
 "Wenn Sie sich entscheiden, mit dem Aktualisieren fortzusetzen, dann sollten "
-"Sie sicher gehen, dass keine neuen KDE 4 Anwendungen gestartet werden, "
-"bevor Sie Ihre KDE 4 Einstellungen und Daten migriert haben. Beachten Sie, "
-"dass das saubere Beenden von alten KDE 4 Sitzungen nicht sicher sein kann."
+"Sie sicher gehen, dass keine neuen KDE-4-Anwendungen gestartet werden, "
+"bevor Sie Ihre KDE-4-Einstellungen und Daten migriert haben. Beachten Sie, "
+"dass das saubere Beenden von alten KDE-4-Sitzungen nicht sicher sein kann."
 
 #. Type: title
 #. Description
@@ -88,7 +88,7 @@ msgstr "Aktualisiere kdelibs5"
 #. Description
 #: ../libkdecore5.templates:5001
 msgid "New user settings directory (KDEHOME) for KDE 4 applications"
-msgstr "Neues Verzeichnis für Benutzereinstellungen (KDEHOME) für KDE 4 Anwendungen"
+msgstr "Neues Verzeichnis für Benutzereinstellungen (KDEHOME) für KDE-4-Anwendungen"
 
 #. Type: note
 #. Description
@@ -99,9 +99,9 @@ msgid ""
 "KDEHOME). Currently, KDE 4 applications use ~/.kde4. KDE 3 applications have "
 "always used (and will continue to use) ~/.kde."
 msgstr ""
-"Sobald dieses Paket aktualisiert ist, werden KDE 4 Anwendungen ~/.kde als Standard "
+"Sobald dieses Paket aktualisiert ist, werden KDE-4-Anwendungen ~/.kde als Standard "
 "nutzen, um Benutzereinstellungen und Daten (auch als KDEHOME bekannt) zu speichern."
-" Momentan nutzen KDE 4 Anwendungen ~/.kde4. KDE 3 Anwendungen haben (und werden "
+" Momentan nutzen KDE-4-Anwendungen ~/.kde4. KDE-3-Anwendungen haben (und werden "
 "weiterhin) ~/.kde genutzt. "
 
 #. Type: note
@@ -113,7 +113,7 @@ msgid ""
 "wizard (in the package kaboom) to migrate user data before starting a KDE 4 "
 "application."
 msgstr ""
-"Wenn die Aktualisierung vollständig ist, ist es sicher, wie gewöhnlich in KDE anzumelden;"
-" oder, wenn Sie nur einzelne KDE 4 Anwendungen nutzen, der Assistent Kaboom (verfügbar "
-"als Paket mit gleichem Namen) bei der Migration Ihrer Daten vor dem Starten einer KDE 4 "
-"Anwendung helfen."
+"Sobald die Aktualisierung vollständig ist, ist es sicher, sich wie gewöhnlich in KDE anzumelden;"
+" oder, wenn Sie nur einzelne KDE-4-Anwendungen nutzen, der Assistent Kaboom (verfügbar "
+"als Paket mit gleichem Namen) bei der Migration Ihrer Daten vor dem Starten einer KDE-4-"
+"-Anwendung helfen."
