@@ -5,6 +5,8 @@ kde4libs (4:4.4.1~svn1095279-0r1) UNRELEASED; urgency=low
       (Closes: #401561)
     - "three stars" password line edits should work again. (Closes: #550866)
     - fixes crash on triple click in the katepart. (Closes: #564085)
+    - Kate part now preserves highlighting mode on document reload.
+      (Closes: #523477)
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
