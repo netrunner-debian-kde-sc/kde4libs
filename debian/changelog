@@ -1,6 +1,6 @@
 kde4libs (4:4.4.1~svn1095279-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
     - kio_http_cache_cleaner does not causes trashing anymore.
       (Closes: #401561)
     - "three stars" password line edits should work again. (Closes: #550866)
