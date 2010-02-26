@@ -18,33 +18,33 @@ msgstr ""
 
 #. Type: title
 #. Description
-#: ../libkdecore5.templates:2001
+#: ../kdelibs5-data.templates:2001
 msgid "Upgrading kdelibs5 while KDE 4 is running"
 msgstr "Oppgraderer kdelibs5 mens KDE 4 kjører"
 
 #. Type: boolean
 #. Description
-#: ../libkdecore5.templates:3001
+#: ../kdelibs5-data.templates:3001
 msgid "Stop unsafe KDE 4 upgrade?"
 msgstr "Skal utrygg oppgradering fra KDE 4 stoppes?"
 
 #. Type: boolean
 #. Description
-#: ../libkdecore5.templates:3001
+#: ../kdelibs5-data.templates:3001
 msgid ""
 "You are about to upgrade to the new version of the kdelibs5 package, which "
 "introduces a major configuration change - details are given in /usr/share/"
-"doc/libkdecore5/README.Debian (in short: user settings are moved from ~/.kde4 "
+"doc/kdelibs5-data/README.Debian (in short: user settings are moved from ~/.kde4 "
 "to ~/.kde). However, some KDE 4 applications are currently running: ${apps}"
 msgstr ""
 "Du er i ferd med å oppgradere til den nye versjonen av kdelibs5-pakka, som "
 "innfører en større oppsettsendring – detaljer finnes i /usr/share/doc/"
-"libkdecore5/ README.Debian (kort sagt: brukerinnstillinger flyttes fra ~/,kde4 "
+"kdelibs5-data/ README.Debian (kort sagt: brukerinnstillinger flyttes fra ~/,kde4 "
 "til ~/.kde). Men noen KDE 4-programmer kjører nå: ${apps}"
 
 #. Type: boolean
 #. Description
-#: ../libkdecore5.templates:3001
+#: ../kdelibs5-data.templates:3001
 msgid ""
 "It is recommended to abort the upgrade of kdelibs5, terminate all KDE "
 "applications and KDE sessions, and try upgrading again."
@@ -54,7 +54,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../libkdecore5.templates:3001
+#: ../kdelibs5-data.templates:3001
 msgid ""
 "If you choose to continue the upgrade, you should make sure that no new KDE "
 "4 applications are started before KDE 4 settings and data are migrated. A "
@@ -66,19 +66,19 @@ msgstr ""
 
 #. Type: title
 #. Description
-#: ../libkdecore5.templates:4001
+#: ../kdelibs5-data.templates:4001
 msgid "Upgrading kdelibs5"
 msgstr "Oppgraderer kdelibs5"
 
 #. Type: note
 #. Description
-#: ../libkdecore5.templates:5001
+#: ../kdelibs5-data.templates:5001
 msgid "New user settings directory (KDEHOME) for KDE 4 applications"
 msgstr "Ny mappe (KDEHOME) for brukerinnstillinger for KDE 4-programmer"
 
 #. Type: note
 #. Description
-#: ../libkdecore5.templates:5001
+#: ../kdelibs5-data.templates:5001
 msgid ""
 "Once this package is upgraded, KDE 4 applications will use ~/.kde as the "
 "default directory to store user settings and data in (also known as "
@@ -92,7 +92,7 @@ msgstr ""
 
 #. Type: note
 #. Description
-#: ../libkdecore5.templates:5001
+#: ../kdelibs5-data.templates:5001
 msgid ""
 "When the upgrade is complete, it is safe to log in to KDE as usual; or, if "
 "you are only using individual KDE 4 applications, you may use the Kaboom "

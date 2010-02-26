@@ -43,8 +43,11 @@ kde4libs (4:4.4.1~svn1095279-0r1) UNRELEASED; urgency=low
     Debian.
   * Fix version in kdelibs5-data.NEWS (thanks to lintian).
   * Move "unsafe upgrade from KDE << 4.2.2" templates and handling to the
-    libkdecore5 package since kdelibs5 is no longer the first package to
-    be upgraded.
+    kdelibs5-data package since kdelibs5 has become a metapackage and might be
+    autoremoved during upgrade.
+  * Add Breaks kdelibs5-data (<< 4:4.2.2) to kdelibs5, kdelibs5-plugins and
+    libkdecore5 in order to force apt/aptitude/dpkg to unpack kdelibs5-data
+    before them. kdelibs5-data is a lightweight package dependency wise.
   * Clean up lintian-overrides and add a couple of new ones.
   * Make /usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh
     from kdelibs5-data executable.
