@@ -26,6 +26,7 @@ Architecture: any
 Pre-Depends: debconf | debconf-2.0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
+Breaks: kdebase-runtime (<< 4:4.4)
 Description: the KDE Platform Core Library
  All KDE Applications use this library to provide basic functionality such as
  the configuration system, IPC, internationalization and locale support,
