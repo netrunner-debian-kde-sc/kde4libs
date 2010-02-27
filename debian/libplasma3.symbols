@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.1 amd64
+# SymbolsHelper-Confirmed: 4:4.4.1 amd64 i386
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN5Jolie11MetaService11loadServiceERK7QStringS3_@Base 4:4.4.0
@@ -1211,6 +1211,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma5Label12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.2.2
  _ZN6Plasma5Label13linkActivatedERK7QString@Base 4:4.2.2
  _ZN6Plasma5Label13setStyleSheetERK7QString@Base 4:4.2.2
+ _ZN6Plasma5Label14mouseMoveEventEP24QGraphicsSceneMouseEvent@Base 4:4.4.1
  _ZN6Plasma5Label15mousePressEventEP24QGraphicsSceneMouseEvent@Base 4:4.4.0
  _ZN6Plasma5Label16contextMenuEventEP30QGraphicsSceneContextMenuEvent@Base 4:4.4.0
  _ZN6Plasma5Label16staticMetaObjectE@Base 4:4.2.2
@@ -2822,6 +2823,7 @@ libplasma.so.3 libplasma3 #MINVER#
  (c++)"non-virtual thunk to Plasma::ItemBackground::sceneEventFilter(QGraphicsItem*, QEvent*)@Base" 4:4.4.0
  (c++)"non-virtual thunk to Plasma::ItemBackground::~ItemBackground()@Base" 4:4.4.0
  (c++)"non-virtual thunk to Plasma::Label::contextMenuEvent(QGraphicsSceneContextMenuEvent*)@Base" 4:4.4.0
+ (c++)"non-virtual thunk to Plasma::Label::mouseMoveEvent(QGraphicsSceneMouseEvent*)@Base" 4:4.4.1
  (c++)"non-virtual thunk to Plasma::Label::mousePressEvent(QGraphicsSceneMouseEvent*)@Base" 4:4.4.0
  (c++)"non-virtual thunk to Plasma::Label::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@Base" 4:4.4.0
  (c++)"non-virtual thunk to Plasma::Label::~Label()@Base" 4:4.2.2

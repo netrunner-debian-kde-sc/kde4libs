@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.4.1 amd64 i386
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -1042,7 +1042,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN12KCodecAction7Private4initEb@Base 4:4.3.4
  _ZN12KCodecAction9triggeredEN17KEncodingDetector16AutoDetectScriptE@Base 4:4.3.4
  _ZN12KCodecAction9triggeredEP10QTextCodec@Base 4:4.3.4
-#MISSING: 4:4.4.0# _ZN12KCodecAction9triggeredERK7QString@Base 4:4.3.4
  _ZN12KCodecActionC1EP7QObjectb@Base 4:4.3.4
  _ZN12KCodecActionC1ERK5KIconRK7QStringP7QObjectb@Base 4:4.3.4
  _ZN12KCodecActionC1ERK7QStringP7QObjectb@Base 4:4.3.4
@@ -3892,9 +3891,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6KStyle11qt_metacastEPKc@Base 4:4.3.4
  _ZN6KStyle12defaultStyleEv@Base 4:4.3.4
  _ZN6KStyle12newStyleHintERK7QString@Base 4:4.3.4
- (optional=templinst)_ZN6KStyle13extractOptionIPNS_10IconOptionEEET_PNS_6OptionE@Base 4:4.3.4
- (optional=templinst)_ZN6KStyle13extractOptionIPNS_10TextOptionEEET_PNS_6OptionE@Base 4:4.3.4
- (optional=templinst)_ZN6KStyle13extractOptionIPNS_11ColorOptionEEET_PNS_6OptionE@Base 4:4.3.4
  (optional=templinst)_ZN6KStyle13extractOptionIPNS_17TitleButtonOptionEEET_PNS_6OptionE@Base 4:4.3.4
  _ZN6KStyle13newSubElementERK7QString@Base 4:4.3.4
  _ZN6KStyle15customStyleHintERK7QStringPK7QWidget@Base 4:4.3.4
