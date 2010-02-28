@@ -99,7 +99,7 @@ kde4libs (4:4.4.1-0r1) UNRELEASED; urgency=low
   * debian/kdelibs5-data.install: Update.
 
   [ George Kiagiadakis ]
-  * Bump kdebase-runtime recommends to >= 4.4.0.
+  * Bump kdebase-runtime recommends to >= 4.4.
   * Add new packages for the new libraries shipped:
     libkdewebkit5, libknewstuff3-4, libkunitconversion4, libnepomukquery4a.
   * Add replaces: kdelibs5-dev replaces kdebase-workspace-dev << 4:4.4.0
