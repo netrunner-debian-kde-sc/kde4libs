@@ -178,7 +178,7 @@ Recommends: kdelibs5-data (= ${source:Version})
 Description: the "Get Hot New Stuff" v3 Library for the KDE Platform
  The KNewStuff3 ("Get Hot New Stuff" v3) library adds data sharing capabilities
  to the KDE Applications. It uses libattica to access Open Collaboration
- Services providers. In addition the static xml from GHNS is supported.
+ Services providers. In addition the static XML from GHNS is supported.
  .
  This package is part of the KDE Development Platform libraries module.
 
@@ -187,9 +187,9 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Description: the Framework for the KDE Platform Graphical Components
- This library implements the framework for KDE parts, which are elaborate
- widgets with a user-interface defined in terms of actions (menu items, toolbar
- icons).
+ This library implements the framework for reusable KDE components (kparts),
+ which are elaborate widgets with a user-interface defined in terms of actions
+ (menu items, toolbar icons).
  .
  This package is part of the KDE Development Platform libraries module.
 
@@ -404,8 +404,9 @@ Package: libkdewebkit5
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: the KDE WebKit Library
- This library provides KDE integration of the QtWebKit library. It is part of
- the KDE Development Platform libraries module.
+ This library provides KDE integration of the QtWebKit library.
+ .
+ This package is part of the KDE Development Platform libraries module.
 
 Package: kdelibs-bin
 Architecture: any
