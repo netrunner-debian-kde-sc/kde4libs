@@ -108,7 +108,7 @@ if [ "$1" = "upgrade" -a -n "$oldver" ] && \
         # Just display a note about configuration change
         db_settitle $thispkg/upgrade_kdehome_info_title
         db_fset $thispkg/upgrade_kdehome_info seen false
-        db_input 'm'edium $thispkg/upgrade_kdehome_info || true
+        db_input ${_prio:-medium} $thispkg/upgrade_kdehome_info || true
     fi
 
     # If either note was displayed successfully...

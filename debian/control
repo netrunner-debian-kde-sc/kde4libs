@@ -23,7 +23,6 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdelibs
 
 Package: libkdecore5
 Architecture: any
-Pre-Depends: debconf | debconf-2.0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Breaks: kdebase-runtime (<< 4:4.4), kdelibs5-data (<< 4:4.2.2)
@@ -436,6 +435,7 @@ Description: core plugins for KDE Applications
 
 Package: kdelibs5-data
 Architecture: all
+Pre-Depends: debconf | debconf-2.0
 Depends: ${perl:Depends}, ${misc:Depends}, hicolor-icon-theme
 Replaces: kdebase-workspace-data (<< 4:4.1.66), libplasma2, kjscmd (<< 4:3.5.10-1)
 Conflicts: kjscmd (<< 4:3.5.10-1)
