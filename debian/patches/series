@@ -17,3 +17,4 @@
 27_konsole_kfreebsd_fix.diff
 28_find_kde3_html_documentation.diff
 29_hurd_support.diff
+30_fix_attica_includes.diff
