@@ -119,6 +119,10 @@ kde4libs (4:4.4.1-0rc1) UNRELEASED; urgency=low
     incompatible with the rest of the world, but actually it just exposes
     missing includes in other places.
 
+  [ devil ]
+  * debian added missing copyrightholders to the respective sections
+  * debian added new sections for kdewebkit and kunitconversion
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 03:47:45 +0200
 
 kde4libs (4:4.3.4-3) unstable; urgency=medium
