@@ -1,4 +1,4 @@
-kde4libs (4:4.4.1-0r2) UNRELEASED; urgency=low
+kde4libs (4:4.4.1-0rc1) UNRELEASED; urgency=low
 
   * New upstream release:
     - kio_http_cache_cleaner does not causes trashing anymore.
@@ -119,7 +119,7 @@ kde4libs (4:4.4.1-0r2) UNRELEASED; urgency=low
     incompatible with the rest of the world, but actually it just exposes
     missing includes in other places.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Feb 2010 01:53:38 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 03:47:45 +0200
 
 kde4libs (4:4.3.4-3) unstable; urgency=medium
 
