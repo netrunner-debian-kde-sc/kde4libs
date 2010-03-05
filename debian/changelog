@@ -110,6 +110,8 @@ kde4libs (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Add patch 29_hurd_support.diff to hopefully fix (even if not in the most
     elegant way) the compilation on GNU/Hurd.
   * Replace unused libtiff4-dev build-depend with zlib1g-dev and libjpeg-dev.
+  * Update patch 13_qt4_designer_plugins_path.diff to fix the installation path
+    of the kde3supportwidgets.so designer plugin.
 
   [ Sune Vuorela ]
   * Add patch to change a include to a forward declaration to avoid exposing
@@ -121,7 +123,7 @@ kde4libs (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Added missing copyrightholders to the respective sections.
   * Added new sections for kdewebkit and kunitconversion.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Mar 2010 02:11:47 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Mar 2010 02:16:23 +0100
 
 kde4libs (4:4.3.4-3) unstable; urgency=medium
 
