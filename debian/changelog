@@ -112,6 +112,8 @@ kde4libs (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Replace unused libtiff4-dev build-depend with zlib1g-dev and libjpeg-dev.
   * Update patch 13_qt4_designer_plugins_path.diff to fix the installation path
     of the kde3supportwidgets.so designer plugin.
+  * Set the minimum version (either for build and runtime) of shared-mime-info
+    to 0.30, as also upstream requires.
 
   [ Sune Vuorela ]
   * Add patch to change a include to a forward declaration to avoid exposing
@@ -123,7 +125,7 @@ kde4libs (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Added missing copyrightholders to the respective sections.
   * Added new sections for kdewebkit and kunitconversion.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Mar 2010 02:16:23 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Mar 2010 16:54:14 +0100
 
 kde4libs (4:4.3.4-3) unstable; urgency=medium
 
