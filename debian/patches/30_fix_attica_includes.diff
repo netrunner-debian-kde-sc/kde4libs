@@ -1,3 +1,7 @@
+Description: Replace include with forward-declaration
+ This avoids dragging an external dependency.
+
+ Fixed in KDE 4.4.2.
 --- a/knewstuff/knewstuff3/uploaddialog.h
 +++ b/knewstuff/knewstuff3/uploaddialog.h
 @@ -25,7 +25,6 @@

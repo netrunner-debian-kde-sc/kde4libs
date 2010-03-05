@@ -1,5 +1,6 @@
 Fix "cannot adjust line" 
 
+Fixed in KDE 4.4.2.
 --- a/cmake/modules/FindBlitz.cmake
 +++ b/cmake/modules/FindBlitz.cmake
 @@ -1,6 +1,6 @@
