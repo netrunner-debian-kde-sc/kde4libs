@@ -36,8 +36,6 @@ kde4libs (4:4.4.1-0rc1) UNRELEASED; urgency=low
     for use in kdelibs5-{dev,dbg} and kdelibs5 metapackage despectively.
   * Add ${perl:Depends} to Depends of kdelibs5-plugins, kdelibs5-data and
     kdoctools.
-  * Add patch 00_r1089160_khtml_scrolling_fix.diff from upstream to fix
-    performance problems in KHTML.
   * Do not set RPATH to /usr/lib by default (patch
     09_disable_usr_lib_install_rpath.diff) (Closes: #564146). Disallowed on
     Debian.
@@ -123,7 +121,7 @@ kde4libs (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Added missing copyrightholders to the respective sections.
   * Added new sections for kdewebkit and kunitconversion.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 03:47:45 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Mar 2010 02:11:47 +0100
 
 kde4libs (4:4.3.4-3) unstable; urgency=medium
 
