@@ -437,7 +437,8 @@ Package: kdelibs5-data
 Architecture: all
 Pre-Depends: debconf | debconf-2.0
 Depends: ${perl:Depends}, ${misc:Depends}, hicolor-icon-theme
-Replaces: kdebase-workspace-data (<< 4:4.1.66), libplasma2, kjscmd (<< 4:3.5.10-1)
+Replaces: kdebase-workspace-data (<< 4:4.1.66), libplasma2, kjscmd (<< 4:3.5.10-1),
+ kdelibs-data (<< 4:3.5.10.dfsg.1-4)
 Conflicts: kjscmd (<< 4:3.5.10-1)
 Description: core shared data for all KDE Applications
  This package contains architecture-independent data files needed to run KDE

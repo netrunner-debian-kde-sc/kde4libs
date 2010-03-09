@@ -455,6 +455,7 @@ usr/share/kde4/servicetypes/kdedmodule.desktop
 usr/share/kde4/servicetypes/kemoticonsTheme.desktop
 usr/share/kde4/servicetypes/kregexpeditor.desktop
 usr/share/kde4/servicetypes/qimageio_plugin.desktop
+usr/share/locale/all_languages
 usr/share/man/man7/kdeoptions.7
 usr/share/man/man7/qtoptions.7
 usr/share/mime/packages/kde.xml

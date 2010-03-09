@@ -72,6 +72,7 @@ kde4libs (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Move cmake from kdelibs5-dev Depends to Breaks.
   * Bump libphonon-dev in Build-Depends to 4:4.6.0really4.3.80.
   * Bump build dependency on dpkg-dev to 1.15.5.
+  * Ship all_languages in kdelibs5-data (Closes: #556264).
 
   [ Kai Wasserbäch ]
   * debian/patches:
