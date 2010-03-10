@@ -53,7 +53,7 @@ kde4libs (4:4.4.1-0rc2) UNRELEASED; urgency=low
   * Move kdewidgets.so and kde3supportwidgets.so to kdelibs5-dev.
   * Make kdelibs5-dev conflict with libkwebkit-dev.
   * Add symbol files for all public libraries (based on 4:4.3.4 where
-    possible) (Closes: #570041).
+    possible).
   * Inject unversioned kdebase-runtime dependency via a couple of libkdecore5
     and libkdeui5 symbols, which will be used by applications but typically not
     by libraries:
