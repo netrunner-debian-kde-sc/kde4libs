@@ -6,7 +6,7 @@ Bypass build time check as /dev/ptmx is alsways present at runtime.
 
 --- a/ConfigureChecks.cmake
 +++ b/ConfigureChecks.cmake
-@@ -202,13 +202,7 @@ if (UNIX)
+@@ -202,13 +202,7 @@
      set(HAVE_OPENPTY)
  
      EXECUTE_PROCESS(

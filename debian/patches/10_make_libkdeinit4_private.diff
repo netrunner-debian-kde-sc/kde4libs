@@ -61,7 +61,7 @@ Forwarded: no
  
 --- a/kinit/CMakeLists.txt
 +++ b/kinit/CMakeLists.txt
-@@ -51,6 +51,14 @@
+@@ -54,6 +54,14 @@
  
  install(TARGETS kdeinit4 ${INSTALL_TARGETS_DEFAULT_ARGS} )
  
