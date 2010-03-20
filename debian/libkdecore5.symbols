@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.1 i386
+# SymbolsHelper-Confirmed: 4:4.4.1+svn1105396 amd64 i386
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -1443,6 +1443,14 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN5KAuth13HelperSupport12progressStepERK4QMapI7QString8QVariantE@Base 4:4.4.0
  _ZN5KAuth13HelperSupport12progressStepEi@Base 4:4.4.0
  _ZN5KAuth13HelperSupport9isStoppedEv@Base 4:4.4.0
+ _ZN5KAuth15BackendsManager11authBackendEv@Base 4:4.4.1+svn1105396
+ _ZN5KAuth15BackendsManager11helperProxyEv@Base 4:4.4.1+svn1105396
+ _ZN5KAuth15BackendsManager19retrieveInstancesInERK7QString@Base 4:4.4.1+svn1105396
+ _ZN5KAuth15BackendsManager4authE@Base 4:4.4.1+svn1105396
+ _ZN5KAuth15BackendsManager4initEv@Base 4:4.4.1+svn1105396
+ _ZN5KAuth15BackendsManager6helperE@Base 4:4.4.1+svn1105396
+ _ZN5KAuth15BackendsManagerC1Ev@Base 4:4.4.1+svn1105396
+ _ZN5KAuth15BackendsManagerC2Ev@Base 4:4.4.1+svn1105396
  _ZN5KAuth6Action10setDetailsERK7QString@Base 4:4.4.0
  _ZN5KAuth6Action11addArgumentERK7QStringRK8QVariant@Base 4:4.4.0
  _ZN5KAuth6Action11setHelperIDERK7QString@Base 4:4.4.0
