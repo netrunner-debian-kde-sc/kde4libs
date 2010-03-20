@@ -5,7 +5,7 @@ kde4libs (4:4.4.1+svn1105396-0rc1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Update patches:
     - drop 26_fixmanpage.diff - fixed upstream;
-    - drop 0_fix_attica_includes.diff - merged upstream;
+    - drop 30_fix_attica_includes.diff - merged upstream;
     - refresh other patches.
   * Update install files.
   * Update symbol files.
