@@ -7,6 +7,7 @@ kde4libs (4:4.4.1+svn1105396-0rc1) UNRELEASED; urgency=low
     - drop 26_fixmanpage.diff - fixed upstream;
     - drop 0_fix_attica_includes.diff - merged upstream;
     - refresh other patches.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Mar 2010 13:44:59 +0200
 

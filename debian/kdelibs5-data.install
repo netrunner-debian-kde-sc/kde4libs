@@ -1,7 +1,7 @@
 ../config.README usr/share/kde4/config
 etc/dbus-1/system.d/org.kde.auth.conf
-etc/dbus-1/system.d/org.kde.kcontrol.kcmremotewidgets.conf
 etc/xdg/menus/kde4-applications.menu
+usr/share/dbus-1/system-services/org.kde.kcontrol.kcmremotewidgets.service
 usr/share/doc/kde4/HTML/en/common/1.png
 usr/share/doc/kde4/HTML/en/common/10.png
 usr/share/doc/kde4/HTML/en/common/2.png
@@ -379,6 +379,7 @@ usr/share/kde4/config/colors/Rainbow.colors
 usr/share/kde4/config/colors/Royal.colors
 usr/share/kde4/config/colors/Web.colors
 usr/share/kde4/config/katemoderc
+usr/share/kde4/config/katepartpluginsrc
 usr/share/kde4/config/ksslcalist
 usr/share/kde4/config/plasmoids.knsrc
 usr/share/kde4/config/ui/ui_standards.rc

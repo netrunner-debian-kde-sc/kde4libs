@@ -54,6 +54,8 @@ usr/lib/kde4/plugins/imageformats/kimg_rgb.so
 usr/lib/kde4/plugins/imageformats/kimg_tga.so
 usr/lib/kde4/plugins/imageformats/kimg_xcf.so
 usr/lib/kde4/plugins/imageformats/kimg_xview.so
+usr/lib/kde4/plugins/kauth/backend/kauth_backend_plugin.so
+usr/lib/kde4/plugins/kauth/helper/kauth_helper_plugin.so
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4.4.0
 usr/lib/kde4/spellcheckplugin.so
