@@ -1,4 +1,4 @@
-kde4libs (4:4.4.1+svn1105396-0rc1) UNRELEASED; urgency=low
+kde4libs (4:4.4.1+svn1105720-0rc1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -8,6 +8,8 @@ kde4libs (4:4.4.1+svn1105396-0rc1) UNRELEASED; urgency=low
     - drop 30_fix_attica_includes.diff - merged upstream;
     - refresh other patches.
   * Update install files.
+  * Move misplaced org.kde.kcontrol.kcmremotewidgets.service from kdelibs5-dev
+    to kdelibs5-data, add appropriate replaces.
   * Update symbol files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Mar 2010 13:44:59 +0200

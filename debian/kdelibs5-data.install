@@ -1,6 +1,8 @@
 ../config.README usr/share/kde4/config
 etc/dbus-1/system.d/org.kde.auth.conf
+etc/dbus-1/system.d/org.kde.kcontrol.kcmremotewidgets.conf
 etc/xdg/menus/kde4-applications.menu
+usr/share/dbus-1/system-services/org.kde.kcontrol.kcmremotewidgets.service
 usr/share/doc/kde4/HTML/en/common/1.png
 usr/share/doc/kde4/HTML/en/common/10.png
 usr/share/doc/kde4/HTML/en/common/2.png
