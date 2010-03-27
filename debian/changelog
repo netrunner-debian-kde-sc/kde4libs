@@ -1,4 +1,4 @@
-kde4libs (4:4.4.1+svn1105720-0rc1) UNRELEASED; urgency=low
+kde4libs (4:4.4.2-0rc1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ kde4libs (4:4.4.1+svn1105720-0rc1) UNRELEASED; urgency=low
     to kdelibs5-data, add appropriate replaces.
   * Update symbol files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Mar 2010 13:44:59 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Mar 2010 02:53:11 +0200
 
 kde4libs (4:4.4.1-1) experimental; urgency=low
 
