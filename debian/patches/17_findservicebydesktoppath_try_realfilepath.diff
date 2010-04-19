@@ -3,7 +3,7 @@ and other stuff when /usr or anything else in the file
 path is a symlink.
 --- a/kdecore/services/kservicefactory.cpp
 +++ b/kdecore/services/kservicefactory.cpp
-@@ -124,22 +124,16 @@
+@@ -124,22 +124,16 @@ KService::Ptr KServiceFactory::findServi
      return newService;
  }
  
@@ -28,7 +28,7 @@ path is a symlink.
      }
      // Check whether the dictionary was right
      // It's ok that it's wrong, for the case where we're looking up an unknown service,
-@@ -150,6 +144,27 @@
+@@ -150,6 +144,27 @@ KService::Ptr KServiceFactory::findServi
      }
      return newService;
  }
@@ -58,7 +58,7 @@ path is a symlink.
  {
 --- a/kdecore/services/kservicefactory.h
 +++ b/kdecore/services/kservicefactory.h
-@@ -121,6 +121,8 @@
+@@ -121,6 +121,8 @@ protected:
      virtual void virtual_hook( int id, void* data );
  private:
      class KServiceFactoryPrivate* d;

@@ -12,7 +12,7 @@ cmake.
 
 --- a/ConfigureChecks.cmake
 +++ b/ConfigureChecks.cmake
-@@ -164,11 +164,11 @@
+@@ -164,11 +164,11 @@ if (UNIX)
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
      endif (NOT login_in_libc)
@@ -29,7 +29,7 @@ cmake.
        if (login_in_libutil)
 --- a/kio/kfile/kpropertiesdialog.cpp
 +++ b/kio/kfile/kpropertiesdialog.cpp
-@@ -1912,7 +1912,15 @@
+@@ -1912,7 +1912,15 @@ static bool fileSystemSupportsACL( const
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
      fileSystemSupportsACLs =
@@ -48,7 +48,7 @@ cmake.
  }
 --- a/kioslave/file/file.cpp
 +++ b/kioslave/file/file.cpp
-@@ -324,8 +324,10 @@
+@@ -324,8 +324,10 @@ void FileProtocol::get( const KUrl& url
      }
  
  #ifdef HAVE_FADVISE
@@ -61,7 +61,7 @@ cmake.
      // This is mandatory in all slaves (for KRun/BrowserRun to work)
 --- a/kioslave/file/file_unix.cpp
 +++ b/kioslave/file/file_unix.cpp
-@@ -146,8 +146,10 @@
+@@ -146,8 +146,10 @@ void FileProtocol::copy( const KUrl &src
      }
  
  #ifdef HAVE_FADVISE
@@ -72,7 +72,7 @@ cmake.
      // WABA: Make sure that we keep writing permissions ourselves,
      // otherwise we can be in for a surprise on NFS.
      mode_t initialMode;
-@@ -169,8 +171,10 @@
+@@ -169,8 +171,10 @@ void FileProtocol::copy( const KUrl &src
      }
  
  #ifdef HAVE_FADVISE
@@ -85,7 +85,7 @@ cmake.
      acl = acl_get_fd(src_fd);
 --- a/kpty/kpty.cpp
 +++ b/kpty/kpty.cpp
-@@ -107,24 +107,24 @@
+@@ -107,24 +107,24 @@ extern "C" {
  # define _NEW_TTY_CTRL
  #endif
  
