@@ -1,8 +1,13 @@
 kde4libs (4:4.4.3-1) UNRELEASED; urgency=low
 
+  [ Debian Qt/KDE Maintainers ]
   * New upstream release - upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Apr 2010 15:05:11 +0300
+  [ Kai Wasserbäch ]
+  * Update German Debconf translation. Thanks to Holger Wansing and Helge
+    Kreutzmann. (Closes: #574015)
+
+ -- Kai Wasserbäch <debian@carbon-project.org>  Sun, 25 Apr 2010 20:35:11 +0200
 
 kde4libs (4:4.4.2-1) experimental; urgency=low
 
