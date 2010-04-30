@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.2 hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 sparc
 libktexteditor.so.4 libktexteditor4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KTextEditor10ConfigPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -488,7 +488,6 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZNK11KTextEditor9Attribute7effectsEv@Base 4:4.3.4
  _ZNK11KTextEditor9Attribute7outlineEv@Base 4:4.3.4
  _ZNK11KTextEditor9Attribute8fontBoldEv@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNK8KService14createInstanceIN11KTextEditor6PluginEEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.3.4
  _ZTIN11KTextEditor10ConfigPageE@Base 4:4.3.4
  _ZTIN11KTextEditor10SmartRangeE@Base 4:4.3.4
  _ZTIN11KTextEditor11SmartCursorE@Base 4:4.3.4

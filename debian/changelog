@@ -6,6 +6,10 @@ kde4libs (4:4.4.3-0r1) UNRELEASED; urgency=low
   * Update German Debconf translation. Thanks to Holger Wansing and Helge
     Kreutzmann. (Closes: #574015)
 
+  [ Modestas Vainius ]
+  * Update symbol files for 4.4.2 on hurd-i386 ia64 kfreebsd-amd64
+    kfreebsd-i386 mips powerpc s390 sparc.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:46:49 +0300
 
 kde4libs (4:4.4.2-1) experimental; urgency=low

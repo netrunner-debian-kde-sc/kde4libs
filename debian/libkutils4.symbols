@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.2 hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 sparc
 libkutils.so.4 libkutils4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KEmoticons11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -339,7 +339,6 @@ libkutils.so.4 libkutils4 #MINVER#
  _ZNK18KEmoticonsProvider8fileNameEv@Base 4:4.3.4
  _ZNK18KEmoticonsProvider9themeNameEv@Base 4:4.3.4
  _ZNK18KEmoticonsProvider9themePathEv@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNK8KService14createInstanceI8KCModuleEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.3.4
  _ZNK9KIdleTime10metaObjectEv@Base 4:4.4.0
  _ZNK9KIdleTime12idleTimeoutsEv@Base 4:4.4.0
  _ZNK9KIdleTime8idleTimeEv@Base 4:4.4.0

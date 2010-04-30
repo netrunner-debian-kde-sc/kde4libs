@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.4.2 hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 sparc
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -2187,6 +2187,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.3.4
+ (optional=templinst|arch=kfreebsd-i386 sparc)_ZNK12KConfigGroup9readEntryIjEET_RK7QStringRKS1_@Base 4:4.4.2
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4:4.3.4
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4:4.3.4
@@ -2896,8 +2897,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK9KHTMLView9mediaTypeEv@Base 4:4.3.4
  _ZNK9KHTMLView9pagedModeEv@Base 4:4.3.4
  _ZNK9KHTMLView9zoomLevelEv@Base 4:4.3.4
- (optional=templinst|arch=alpha ia64 kfreebsd-amd64)_ZSt13__adjust_heapIPN7WebCore18SVGGlyphIdentifierElS1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.3.4
- (optional=templinst|arch=alpha ia64 kfreebsd-amd64)_ZSt16__introsort_loopIPN7WebCore18SVGGlyphIdentifierElPFbRKS1_S4_EEvT_S7_T0_T1_@Base 4:4.3.4
  _ZTI13KHTMLSettings@Base 4:4.3.4
  _ZTI9KHTMLPart@Base 4:4.3.4
  _ZTI9KHTMLView@Base 4:4.3.4
