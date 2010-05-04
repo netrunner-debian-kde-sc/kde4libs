@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.2 hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.3 amd64 armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -397,7 +397,6 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZNK3KJS8JSObject3getEPNS_9ExecStateEj@Base 4:4.3.4
  _ZNK3KJS8JSObject4typeEv@Base 4:4.3.4
  _ZNK3KJS8JSObject6canPutEPNS_9ExecStateERKNS_10IdentifierE@Base 4:4.3.4
- (arch=kfreebsd-i386)_ZNK3KJS8JSObject8inheritsEPKNS_9ClassInfoE@Base 4:4.4.2
  _ZNK3KJS8JSObject8toNumberEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS8JSObject8toObjectEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS8JSObject8toStringEPNS_9ExecStateE@Base 4:4.3.4

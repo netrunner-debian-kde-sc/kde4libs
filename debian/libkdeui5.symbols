@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.2 hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.3 amd64 armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -1203,9 +1203,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN12KFontChooser17setSizeIsRelativeEN2Qt10CheckStateE@Base 4:4.3.4
  _ZN12KFontChooser18setBackgroundColorERK6QColor@Base 4:4.3.4
  _ZN12KFontChooser19setSampleBoxVisibleEb@Base 4:4.3.4
- _ZN12KFontChooser7Private12fillSizeListERK5QListIdE@Base 4:4.4.0
+ (subst)_ZN12KFontChooser7Private12fillSizeListERK5QListI{qreal}E@Base 4:4.4.3
  _ZN12KFontChooser7Private12setupDisplayEv@Base 4:4.3.4
- _ZN12KFontChooser7Private14nearestSizeRowEdb@Base 4:4.4.0
+ (subst)_ZN12KFontChooser7Private14nearestSizeRowE{qreal}b@Base 4:4.4.3
  _ZN12KFontChooser7Private15_k_showXLFDAreaEb@Base 4:4.3.4
  _ZN12KFontChooser7Private16_k_displaySampleERK5QFont@Base 4:4.3.4
  _ZN12KFontChooser7Private16setupSizeListBoxERK7QStringS3_@Base 4:4.3.4
@@ -5040,7 +5040,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.3.4
- (optional=templinst|arch=sparc)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.4.2
+ (optional=templinst|arch=armel sparc)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.4.2
  (optional=templinst|arch=!kfreebsd-amd64 !kfreebsd-i386)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.4.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.3.4
  _ZNK12KEditListBox10downButtonEv@Base 4:4.3.4
