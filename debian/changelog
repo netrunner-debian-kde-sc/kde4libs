@@ -1,6 +1,7 @@
 kde4libs (4:4.4.3-2) UNRELEASED; urgency=low
 
   * Confirm symbol files for 4.4.3 on all arches except alpha.
+  * Restore kdelibs5-dev installability with libkwebkit-dev (>= 0.9svn1123738).
 
  -- Modestas Vainius <modax@debian.org>  Tue, 04 May 2010 11:17:33 +0300
 
