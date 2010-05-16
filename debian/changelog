@@ -5,7 +5,7 @@ kde4libs (4:4.4.3-2) unstable; urgency=medium
   * Restore kdelibs5-dev installability with libkwebkit-dev (>= 0.9svn1123738).
   * Bring our 4.4.3 up-to-date with final upstream 4.4.3 tarball
     (patch 00_4.4.3_final_tarball.diff).
-  * Urgency=medium as this uploaded is needed to get kdenetwork with security
+  * Urgency=medium as this upload is needed to get kdenetwork with security
     fix in.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 May 2010 22:30:03 +0300
