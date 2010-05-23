@@ -1,3 +1,9 @@
+kde4libs (4:4.4.3-3) UNRELEASED; urgency=low
+
+  * Drop pkg-kde-tools from kdelibs5-dev Depends.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 23 May 2010 12:45:45 +0300
+
 kde4libs (4:4.4.3-2) unstable; urgency=medium
 
   [ Modestas Vainius ]

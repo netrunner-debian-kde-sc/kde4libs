@@ -461,7 +461,7 @@ Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, ${allLibraries},
  kdoctools (= ${binary:Version}), kdelibs-bin (= ${binary:Version}),
- automoc (>= 1.0~version-0.9.88), pkg-kde-tools (>= 0.6.2~),
+ automoc (>= 1.0~version-0.9.88),
  ${sameVersionDep:libqt4-dev:kdelibs5-plugins}, ${sameVersionDep:libsoprano-dev:libnepomuk4},
  ${sameVersionDep:libphonon-dev:libkhtml5}
 Recommends: ${sameVersionDep:libqt4-opengl-dev:libplasma3-Depends}
