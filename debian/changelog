@@ -12,6 +12,9 @@ kde4libs (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Add debian/NEWS about HTML_INSTALL_DIR switch and pkg-kde-tools drop from
     kdelibs5-dev Depends.
   * Replace usr/share/doc/kde4 references with usr/share/doc/kde.
+  * Rename 28_find_kde3_html_documentation.diff to
+    28_find_old_kde4_html_documentation.diff and modify it to look in the
+    /usr/share/doc/kde4/HTML (old HTML_INSTALL_DIR default).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:12 +0300
 

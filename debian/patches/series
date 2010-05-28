@@ -14,5 +14,5 @@
 23_solid_no_double_build.diff
 25_ld_exclude_libs_qtuitools.diff
 27_konsole_kfreebsd_fix.diff
-28_find_kde3_html_documentation.diff
+28_find_old_kde4_html_documentation.diff
 29_hurd_support.diff
