@@ -18,6 +18,7 @@ kde4libs (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Drop quilt from Build-Depends, no longer needed for 3.0 (quilt).
   * Drop patch system stuff from debian/README.source. Patch support is part of
     source format now.
+  * Drop 00_4.4.3_final_tarball.diff patch, it was stolen from upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:12 +0300
 
