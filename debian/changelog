@@ -4,6 +4,8 @@ kde4libs (4:4.4.4-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Drop pkg-kde-tools from kdelibs5-dev Depends.
+  * Bump pkg-kde-tools build dependency to (>= 0.9) for HTML_INSTALL_DIR
+    switch and 3.0 (quilt) source format support.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:12 +0300
 
