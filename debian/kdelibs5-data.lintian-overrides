@@ -1,3 +1,3 @@
-kdelibs5-data: extra-license-file usr/share/doc/kde4/HTML/en/common/fdl-license
-kdelibs5-data: extra-license-file usr/share/doc/kde4/HTML/en/common/gpl-license
-kdelibs5-data: extra-license-file usr/share/doc/kde4/HTML/en/common/lgpl-license
+kdelibs5-data: extra-license-file usr/share/doc/kde/HTML/en/common/fdl-license
+kdelibs5-data: extra-license-file usr/share/doc/kde/HTML/en/common/gpl-license
+kdelibs5-data: extra-license-file usr/share/doc/kde/HTML/en/common/lgpl-license

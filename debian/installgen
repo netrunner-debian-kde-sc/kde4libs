@@ -24,7 +24,7 @@ dst:/kconf_update_bin/
 
 [kdelibs5-data]
 missing dst:usr/share/locale/all_languages$
-dst:usr/share/doc/kde4/HTML/
+dst:usr/share/doc/kde/HTML/
 mime:text/.*
 mime:image/.*
 mime:application/(?!(x-executable|x-sharedlib)).*
