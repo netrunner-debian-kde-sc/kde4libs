@@ -15,6 +15,9 @@ kde4libs (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Rename 28_find_kde3_html_documentation.diff to
     28_find_old_kde4_html_documentation.diff and modify it to look in the
     /usr/share/doc/kde4/HTML (old HTML_INSTALL_DIR default).
+  * Drop quilt from Build-Depends, no longer needed for 3.0 (quilt).
+  * Drop patch system stuff from debian/README.source. Patch support is part of
+    source format now.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:12 +0300
 
