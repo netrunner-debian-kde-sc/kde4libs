@@ -470,7 +470,7 @@ Replaces: kdebase-runtime-data (<< 4:4.2.90), kdelibs5-data (<< 4:4.0.80-1),
  kdelibs5 (<< 4:4.4.0), libkwebkit-dev (<< 0.9svn1123738)
 Conflicts: kdelibs4-dev, libkjsembed-dev, kdepimlibs5-dev (<< 4:4.1.81+svn891439),
  libplasma-dev (<< 4:4.1.96)
-Breaks: cmake (<< 2.6.3), libkwebkit-dev (<< 0.9svn1123738)
+Breaks: cmake (<< 2.6.3), pkg-kde-tools (<< 0.9), libkwebkit-dev (<< 0.9svn1123738)
 Description: development files for the KDE Development Platform libraries
  This package contains development files for building KDE Applications and
  other software that uses the KDE Development Platform libraries.
