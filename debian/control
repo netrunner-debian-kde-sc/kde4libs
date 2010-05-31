@@ -412,7 +412,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libxml2-utils
 Conflicts: kjscmd
 Replaces: kdelibs5-data (<< 4:4.4.0)
-Description: core executables for KDE Aapplications
+Description: core executables for KDE Applications
  This package contains common core executables used by all KDE Applications.
  .
  This package is part of the KDE Development Platform libraries module.
