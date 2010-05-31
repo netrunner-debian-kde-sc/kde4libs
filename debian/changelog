@@ -1,4 +1,4 @@
-kde4libs (4:4.4.4-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.4.4-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -25,7 +25,7 @@ kde4libs (4:4.4.4-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Fix typo in description of kdelibs-bin. (Closes: #582433)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 31 May 2010 16:00:22 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jun 2010 01:15:11 +0300
 
 kde4libs (4:4.4.3-2) unstable; urgency=medium
 
