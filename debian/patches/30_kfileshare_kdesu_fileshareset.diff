@@ -2,7 +2,7 @@ Description: run libexec/fileshareset with kdesu rather than setuid
  Run fileshareset with kdesu rather than rely on it to be setuid. filesharelist
  should not need root permissions on standard debian install.
 Author: Modestas Vainius <modax@debian.org>
-Forwareded: no
+Forwarded: no
 Origin: vendor
 Last-Update: 2010-05-31
 
