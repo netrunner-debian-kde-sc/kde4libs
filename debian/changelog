@@ -19,6 +19,8 @@ kde4libs (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Drop patch system stuff from debian/README.source. Patch support is part of
     source format now.
   * Drop 00_4.4.3_final_tarball.diff patch, it was stolen from upstream.
+  * Add 30_kfileshare_kdesu_fileshareset.diff patch to run libexec/fileshareset
+    with kdesu rather than expect it (perl script) to be suid root.
 
   [ Pino Toscano ]
   * Fix typo in description of kdelibs-bin. (Closes: #582433)
