@@ -1,3 +1,15 @@
+kde4libs (4:4.4.4-2~pre1) UNRELEASED; urgency=low
+
+  * Improve 10_make_libkdeinit4_private.diff patch:
+    - fix kpluginloader.cpp:findLibraryInternal() to find moved libkdeinit4_*s.
+      This should reenable kxkb flag in lock dialog (Closes: #584870);
+    - set R(UN)PATH for kdeinit executables only when LIBKDEINIT_INSTALL_DIR is
+      not in implicit link directory list;
+    - extend absolute exe path resolution to libkdeinit4_*s in the kdeinit4
+      daemon.
+
+ -- Modestas Vainius <modax@debian.org>  Mon, 07 Jun 2010 20:58:22 +0300
+
 kde4libs (4:4.4.4-1) unstable; urgency=low
 
   * New upstream release.
