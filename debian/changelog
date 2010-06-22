@@ -10,6 +10,9 @@ kde4libs (4:4.4.4-2~pre1) UNRELEASED; urgency=low
   * Replace 09_disable_usr_lib_install_rpath.diff with a less extreme version
     of the patch from kde4libs trunk which should keep support for
     custom prefix builds (Closes: #586512).
+  * Relax KDE version check when loading plugins. This enables plugins compiled
+    against newer kde4libs to work with older kde4libs at runtime as well
+    (Closes: #585792).
 
  -- Modestas Vainius <modax@debian.org>  Mon, 07 Jun 2010 20:58:22 +0300
 

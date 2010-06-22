@@ -16,3 +16,4 @@
 28_find_old_kde4_html_documentation.diff
 29_hurd_support.diff
 30_kfileshare_kdesu_fileshareset.diff
+31_relax_plugin_kde_version_check.diff
