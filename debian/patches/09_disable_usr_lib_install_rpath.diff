@@ -1,12 +1,15 @@
 From: Alexander Neundorf <neundorf@kde.org>
+From: Modestas Vainius <modax@debian.org>
 Subject: don't set the install RPATH to LIB_INSTALL_DIR
  don't set the install RPATH to LIB_INSTALL_DIR if LIB_INSTALL_DIR is one of
  the standard system link directories, like e.g. /usr/lib (which are listed in
  CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES, which is set in
  Modules/Platform/UnixPaths.cmake).
+ .
+ Also drop custom INSTALL_RPATHs in kdewidgets/CMakeLists.txt.
 Forwarded: yes
 Origin: backport, http://websvn.kde.org/?view=revision&revision=1124215
-Last-Update: 2010-06-20
+Last-Update: 2010-06-23
 
 --- a/cmake/modules/FindKDE4Internal.cmake
 +++ b/cmake/modules/FindKDE4Internal.cmake
@@ -27,3 +30,21 @@ Last-Update: 2010-06-20
        set(CMAKE_SKIP_BUILD_RPATH FALSE)
        set(CMAKE_BUILD_WITH_INSTALL_RPATH FALSE)
        set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
+--- a/kdewidgets/CMakeLists.txt
++++ b/kdewidgets/CMakeLists.txt
+@@ -51,7 +51,6 @@ if(NOT WIN32)
+                                    INSTALL_RPATH_USE_LINK_PATH TRUE
+                                    SKIP_BUILD_RPATH TRUE
+                                    BUILD_WITH_INSTALL_RPATH TRUE
+-                                   INSTALL_RPATH ${LIB_INSTALL_DIR}
+                        )
+ endif(NOT WIN32)
+ 
+@@ -86,7 +85,6 @@ if (QT_QT3SUPPORT_FOUND)
+                                    INSTALL_RPATH_USE_LINK_PATH TRUE
+                                    SKIP_BUILD_RPATH TRUE
+                                    BUILD_WITH_INSTALL_RPATH TRUE
+-                                   INSTALL_RPATH ${LIB_INSTALL_DIR}
+                            )
+    endif(NOT WIN32)
+ 
