@@ -493,18 +493,18 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN13KCurrencyCodeD1Ev@Base 4:4.4.0
  _ZN13KCurrencyCodeD2Ev@Base 4:4.4.0
  _ZN13KCurrencyCodeaSERKS_@Base 4:4.4.0
- _ZN13KPluginLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN13KPluginLoader11qt_metacastEPKc@Base 4:4.3.4
- _ZN13KPluginLoader16staticMetaObjectE@Base 4:4.3.4
- _ZN13KPluginLoader4loadEv@Base 4:4.3.4
- _ZN13KPluginLoader7factoryEv@Base 4:4.3.4
- _ZN13KPluginLoaderC1ERK7QStringRK14KComponentDataP7QObject@Base 4:4.3.4
- _ZN13KPluginLoaderC1ERK8KServiceRK14KComponentDataP7QObject@Base 4:4.3.4
- _ZN13KPluginLoaderC2ERK7QStringRK14KComponentDataP7QObject@Base 4:4.3.4
- _ZN13KPluginLoaderC2ERK8KServiceRK14KComponentDataP7QObject@Base 4:4.3.4
- _ZN13KPluginLoaderD0Ev@Base 4:4.3.4
- _ZN13KPluginLoaderD1Ev@Base 4:4.3.4
- _ZN13KPluginLoaderD2Ev@Base 4:4.3.4
+ _ZN13KPluginLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
+ _ZN13KPluginLoader11qt_metacastEPKc@Base 4:4.4.4-2~
+ _ZN13KPluginLoader16staticMetaObjectE@Base 4:4.4.4-2~
+ _ZN13KPluginLoader4loadEv@Base 4:4.4.4-2~
+ _ZN13KPluginLoader7factoryEv@Base 4:4.4.4-2~
+ _ZN13KPluginLoaderC1ERK7QStringRK14KComponentDataP7QObject@Base 4:4.4.4-2~
+ _ZN13KPluginLoaderC1ERK8KServiceRK14KComponentDataP7QObject@Base 4:4.4.4-2~
+ _ZN13KPluginLoaderC2ERK7QStringRK14KComponentDataP7QObject@Base 4:4.4.4-2~
+ _ZN13KPluginLoaderC2ERK8KServiceRK14KComponentDataP7QObject@Base 4:4.4.4-2~
+ _ZN13KPluginLoaderD0Ev@Base 4:4.4.4-2~
+ _ZN13KPluginLoaderD1Ev@Base 4:4.4.4-2~
+ _ZN13KPluginLoaderD2Ev@Base 4:4.4.4-2~
  _ZN13KProtocolInfo11extraFieldsERK4KUrl@Base 4:4.3.4
  _ZN13KProtocolInfo12capabilitiesERK7QString@Base 4:4.3.4
  _ZN13KProtocolInfo13protocolClassERK7QString@Base 4:4.3.4
@@ -2687,11 +2687,11 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK13KCurrencyCode6statusEv@Base 4:4.4.0
  _ZNK13KCurrencyCode7isValidEv@Base 4:4.4.0
  _ZNK13KCurrencyCode7isoNameEv@Base 4:4.4.0
- _ZNK13KPluginLoader10metaObjectEv@Base 4:4.3.4
- _ZNK13KPluginLoader10pluginNameEv@Base 4:4.3.4
- _ZNK13KPluginLoader11errorStringEv@Base 4:4.3.4
- _ZNK13KPluginLoader13pluginVersionEv@Base 4:4.3.4
- _ZNK13KPluginLoader8isLoadedEv@Base 4:4.3.4
+ _ZNK13KPluginLoader10metaObjectEv@Base 4:4.4.4-2~
+ _ZNK13KPluginLoader10pluginNameEv@Base 4:4.4.4-2~
+ _ZNK13KPluginLoader11errorStringEv@Base 4:4.4.4-2~
+ _ZNK13KPluginLoader13pluginVersionEv@Base 4:4.4.4-2~
+ _ZNK13KPluginLoader8isLoadedEv@Base 4:4.4.4-2~
  _ZNK13KProtocolInfo15canRenameToFileEv@Base 4:4.3.4
  _ZNK13KProtocolInfo15defaultMimeTypeEv@Base 4:4.3.4
  _ZNK13KProtocolInfo15supportsListingEv@Base 4:4.3.4
@@ -3490,7 +3490,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZTI13KAutoSaveFile@Base 4:4.3.4
  _ZTI13KCompositeJob@Base 4:4.3.4
  _ZTI13KCurrencyCode@Base 4:4.4.0
- _ZTI13KPluginLoader@Base 4:4.3.4
+ _ZTI13KPluginLoader@Base 4:4.4.4-2~
  _ZTI13KProtocolInfo@Base 4:4.3.4
  _ZTI13KServiceGroup@Base 4:4.3.4
  _ZTI13KSharedConfig@Base 4:4.3.4
@@ -3602,7 +3602,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZTS13KAutoSaveFile@Base 4:4.3.4
  _ZTS13KCompositeJob@Base 4:4.3.4
  _ZTS13KCurrencyCode@Base 4:4.4.0
- _ZTS13KPluginLoader@Base 4:4.3.4
+ _ZTS13KPluginLoader@Base 4:4.4.4-2~
  _ZTS13KProtocolInfo@Base 4:4.3.4
  _ZTS13KServiceGroup@Base 4:4.3.4
  _ZTS13KSharedConfig@Base 4:4.3.4
@@ -3724,7 +3724,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZTV13KAutoSaveFile@Base 4:4.3.4
  _ZTV13KCompositeJob@Base 4:4.3.4
  _ZTV13KCurrencyCode@Base 4:4.4.0
- _ZTV13KPluginLoader@Base 4:4.3.4
+ _ZTV13KPluginLoader@Base 4:4.4.4-2~
  _ZTV13KProtocolInfo@Base 4:4.3.4
  _ZTV13KServiceGroup@Base 4:4.3.4
  _ZTV13KSharedConfig@Base 4:4.3.4

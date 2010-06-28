@@ -1,3 +1,9 @@
+kde4libs (4:4.4.4-3) UNRELEASED; urgency=low
+
+  * Bump KPluginLoader and libplasma3 symbol versions to 4:4.4.4-2~.
+
+ -- Modestas Vainius <modax@debian.org>  Mon, 28 Jun 2010 11:57:04 +0300
+
 kde4libs (4:4.4.4-2) unstable; urgency=high
 
   * Improve 10_make_libkdeinit4_private.diff patch:
