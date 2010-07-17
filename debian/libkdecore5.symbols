@@ -3881,7 +3881,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  kiotraderset_lval@Base 4:4.3.4
  kiotraderset_out@Base 4:4.3.4
  kiotraderwrap@Base 4:4.3.4
- mkstemps@Base 4:4.3.4
  (c++)"non-virtual thunk to KNetwork::KHttpProxySocketDevice::close()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KNetwork::KHttpProxySocketDevice::externalAddress() const@Base" 4:4.3.4
  (c++)"non-virtual thunk to KNetwork::KHttpProxySocketDevice::~KHttpProxySocketDevice()@Base" 4:4.3.4
@@ -3925,6 +3924,5 @@ libkdecore.so.5 libkdecore5 #MINVER#
  (c++)"virtual thunk to KNetwork::KStreamSocket::~KStreamSocket()@Base" 4:4.3.4
 libkdefakes.so.5 libkdecore5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
- mkstemps@Base 4:4.3.4
  strlcat@Base 4:4.3.4
  strlcpy@Base 4:4.3.4

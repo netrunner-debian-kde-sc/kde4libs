@@ -1,9 +1,14 @@
-kde4libs (4:4.4.5-1) UNRELEASED; urgency=low
+kde4libs (4:4.4.5-0r1) unstable; urgency=low
 
+  [ Modestas Vainius ]
   * New upstream release.
   * Bump KPluginLoader and libplasma3 symbol versions to 4:4.4.4-2~.
 
- -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:49 +0300
+  [ Sune Vuorela ]
+  * mkstemps is now provided by libc, stop providing it in kdecore as
+    well
+
+ -- Sune Vuorela <sune@debian.org>  Sat, 17 Jul 2010 22:41:52 +0200
 
 kde4libs (4:4.4.4-2) unstable; urgency=high
 
