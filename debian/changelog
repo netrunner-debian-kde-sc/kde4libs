@@ -8,6 +8,8 @@ kde4libs (4:4.4.5-0r1) unstable; urgency=low
   * mkstemps is now provided by libc, stop providing it in kdecore as
     well
   * Update email address.
+  * Add vietnamese debconf translations. Thanks to Clytie Siddall. 
+    (Closes: 576144)
 
  -- Sune Vuorela <sune@debian.org>  Sat, 17 Jul 2010 22:41:52 +0200
 
