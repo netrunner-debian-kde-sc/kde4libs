@@ -645,6 +645,24 @@ kde4libs (4:4.2.0-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 06:14:48 +0200
 
+kde4libs (4:4.1.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Sune Vuorela:
+
+  * shlibs bump.
+
+  +++ Changes by Modestas Vainius:
+
+  * Use better approach to enforcing kde4- prefix to applications.menu. The
+    previous way broken menu spec and made 3rd party applications end up in.
+    Lost&Found menu. 11_kde4_applications_menu.diff patch was replaced by
+    11_default_kde4_xdg_menu_prefix.diff. Thanks to Harald Sitter for the
+    heads up.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Jan 2009 22:00:46 +0100
+
 kde4libs (4:4.1.3-2) experimental; urgency=low
 
   +++ Changes by Modestas Vainius:
