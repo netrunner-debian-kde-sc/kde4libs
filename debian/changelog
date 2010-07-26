@@ -1038,15 +1038,6 @@ kde4libs (4:4.0.68+svn794641-1) experimental; urgency=low
      desktop file location by path on the systems where e.g. /usr is a
      symlink. Please note this patch still does not fix what I developed
      it for. So it's useless but it does not hurt. Work in progress.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Apr 2008 22:12:02 +0300
-
-kde4libs (4:4.0.68-1) experimental; urgency=low
-
-  * New upstream snapshot.
-
-  +++ Changes by Modestas Vainius:
-
   * Add Replaces: kdebase-runtime-data << KDE 4.1 for kdelibs5-dev due to
     common file /usr/share/kde4/apps/cmake/modules/FindXine.cmake
 
@@ -1055,7 +1046,7 @@ kde4libs (4:4.0.68-1) experimental; urgency=low
   * Tighten build depend version on libstreamanalyzer-dev 0.5.8-2
     from experimental.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Apr 2008 22:37:56 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Apr 2008 22:12:02 +0300
 
 kde4libs (4:4.0.66+svn791114-1) experimental; urgency=low
 
@@ -1253,20 +1244,16 @@ kde4libs (4:3.97.0-1) experimental; urgency=low
 kde4libs (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
   * Update *.install files.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 14 Nov 2007 13:17:32 +0100
-
-kde4libs (4:3.95.2-1) experimental; urgency=low
-
-  * New upstream release.
 
   +++ Changes by Fathi Boudra:
 
   * Bump build dependencies versions.
-  * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Nov 2007 20:18:43 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 14 Nov 2007 13:17:32 +0100
 
 kde4libs (4:3.95.0-1) experimental; urgency=low
 
@@ -1381,16 +1368,3 @@ kde4libs (4:3.92.0.dfsg.1-1) experimental; urgency=low
     sharing the fun.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 06 Aug 2007 16:38:29 +0200
-
-kde4libs (4:3.91.0-1) alioth; urgency=low
-
-  * New alpha. 
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 01 Jul 2007 16:12:54 +0200
-
-kde4libs (4:3.90+svn20070601-r670402-1) alioth; urgency=low
-
-  * Initial release of KDE4.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 May 2007 16:02:37 +0100
-
