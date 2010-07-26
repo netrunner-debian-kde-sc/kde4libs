@@ -8,7 +8,7 @@ kde4libs (4:4.4.5-1) unstable; urgency=low
   * mkstemps is now provided by libc, stop providing it in kdecore as
     well
   * Update email address.
-  * Add vietnamese debconf translations. Thanks to Clytie Siddall. 
+  * Add vietnamese debconf translations. Thanks to Clytie Siddall.
     (Closes: 576144)
 
  -- Sune Vuorela <sune@debian.org>  Sat, 17 Jul 2010 22:41:52 +0200
@@ -319,7 +319,7 @@ kde4libs (4:4.3.2-2) unstable; urgency=low
 kde4libs (4:4.3.2-1) unstable; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Karl Ferdinand Ebert:
 
   * Modify kdelibs5.templates to conform partially with lintian complaints.
@@ -339,7 +339,7 @@ kde4libs (4:4.3.1-1) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:
 
-  * Remove 01_r1012564.diff patch, merged upstream. 
+  * Remove 01_r1012564.diff patch, merged upstream.
   * Refresh patches.
   * Update kdelibs5-data.install.
   * Update libplasma3.symbols.in.
@@ -623,7 +623,7 @@ kde4libs (4:4.2.0-1) experimental; urgency=low
   * Update automoc (build-)dependency to 1.0~svn850570.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Rework slightly patch 15_kfreebsd_support.diff.
   * Redo patch 20_use_dejavu_as_default_font.diff.
   * Force to build depend on libphonon-dev (>= 4:4.3.0).
@@ -684,7 +684,7 @@ kde4libs (4:4.1.3-1) experimental; urgency=low
   +++ Changes by Sune Vuorela:
 
   * Remove kdedglobalaccel crash patch. Merged upstream.
-  
+
   +++ Changes by Modestas Vainius:
 
   * Bump shlibs to 4.1.3.
@@ -696,7 +696,7 @@ kde4libs (4:4.1.3-1) experimental; urgency=low
 
 kde4libs (4:4.1.2-2) experimental; urgency=low
 
-  * Fix kdedglobalaccel crashes. Patch 02. 
+  * Fix kdedglobalaccel crashes. Patch 02.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 12 Oct 2008 20:00:14 +0200
 
@@ -821,14 +821,14 @@ kde4libs (4:4.0.84+svn828328-1) unstable; urgency=low
   * New upstream development snapshot.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
-  * Remove patches 97_use_imported_targets_with_cmake26.diff and 
+
+  * Remove patches 97_use_imported_targets_with_cmake26.diff and
     99_more_implicit_link_libs.diff
   * Update 98_link_interface_libraries.diff
   * Add 90_reduce_linking.diff by A. Neundorf.
 
   +++ Changes by Armin Berres:
- 
+
   * Disable debug output of KMail by default.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jul 2008 18:48:48 +0200
@@ -955,7 +955,7 @@ kde4libs (4:4.0.72-1) experimental; urgency=low
   * Add 99_more_implicit_link_libs.diff which adds more implicit link
     interface libraries to diverge from upstream as least as possible.
     - In addition, kdecore implies QtDBus, QtXml, QtNetwork.
-    - In addition, kdeui implies QtSvg. 
+    - In addition, kdeui implies QtSvg.
     - In addition, kde3support and ktuils imply kparts.
     - In addition, kio implies solid.
   * Move dbus-1 XML interfaces to kdelibs5-dev.install.
@@ -1003,7 +1003,7 @@ kde4libs (4:4.0.70+svn799089-1) experimental; urgency=low
       with CMake 2.6. This method was the main source of excess linkage
       problems. Use a brand new install(EXPORT) instead which supports
       LINK_INTERFACE_LIBRARIES.
-    - Due to the change above, add "EXPORT kdelibs" property for all public 
+    - Due to the change above, add "EXPORT kdelibs" property for all public
       install(TARGETS).
     - Rewrite the part of FindKDE4Install.cmake which deals with
       KDE4_*_LIBRARY and KDE4_*_LIBS setup. Since we are using cmake IMPORTED
@@ -1063,7 +1063,7 @@ kde4libs (4:4.0.66+svn791114-1) experimental; urgency=low
 kde4libs (4:4.0.2-1) unstable; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Armin Berres:
 
   * Don't bump shlibs version automatically on every upload. Bumping on new
@@ -1083,12 +1083,12 @@ kde4libs (4:4.0.2-1) unstable; urgency=low
 
   * New patch 16_postgresql_include_path_fix.diff, which adds PostgreSQL
     include paths used on Debian to FindPostgreSQL cmake module.
-  
+
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Drop patches pulled from KDE's SVN, now part of the release
     - 01_make_stackingOrder_work_r769072.diff
-    - 02_re-register_global_shortcuts_r769363.diff 
+    - 02_re-register_global_shortcuts_r769363.diff
   * Update installed files.
   * Update UPSTREAMVERSION in debian/rules.
 
@@ -1219,7 +1219,7 @@ kde4libs (4:3.97.0-2) experimental; urgency=low
     build environments.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Add patch for kfreebsd support.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 15 Dec 2007 03:31:22 +0100
@@ -1289,7 +1289,7 @@ kde4libs (4:3.94.0-2) experimental; urgency=low
     every KDE4 application.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Update *.install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 20:56:22 +0200
