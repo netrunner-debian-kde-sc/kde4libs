@@ -18,8 +18,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), cmake (>= 2.6.3), pkg-kde
  libpolkit-qt-1-dev, libxss-dev, libqca2-dev
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdelibs/#_trunk_packages_kdelibs_
-Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdelibs
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde4libs.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde4libs.git
 
 Package: libkdecore5
 Architecture: any
