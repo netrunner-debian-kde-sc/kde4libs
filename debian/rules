@@ -18,6 +18,11 @@ DEB_DH_MAKESHLIBS_ARGS_kdelibs5 := -V'kdelibs5 (>= $(UPSTREAMVERSION)), $(RUNTIM
 # remove dependencies on kdebase-runtime and phonon (the metapackage)
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime -xphonon
 
+ifeq (ia64,$(DEB_HOST_ARCH))
+    CFLAGS += -ffunction-sections
+    CXXFLAGS += -ffunction-sections
+endif
+
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
 #binary-predeb/libplasma3::
