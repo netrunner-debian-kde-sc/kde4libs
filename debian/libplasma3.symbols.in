@@ -1401,7 +1401,6 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9WallpaperD1Ev@Base 4:4.2.2
  _ZN6Plasma9WallpaperD2Ev@Base 4:4.2.2
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.2.2
- _ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.2.98
  _ZNK6Plasma10BusyWidget10metaObjectEv@Base 4:4.2.2
  _ZNK6Plasma10BusyWidget5labelEv@Base 4:4.2.98
  _ZNK6Plasma10BusyWidget9isRunningEv@Base 4:4.2.98

@@ -5,6 +5,8 @@ UPSTREAMVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Ver
 #PLASMA_ABI=$(shell grep 'plasma-abi-' debian/libplasma3.symbols.in | head -n1 | sed 's/^.*\(plasma-abi-\S\+\).*/\1/')
 RUNTIME_DEPS := kdebase-runtime (>= 4:4.3.0)
 
+DEB_CMAKE_CUSTOM_FLAGS := -DCMAKE_SKIP_RPATH=ON
+
 DEB_DBG_PACKAGE_kdelibs5 := kdelibs5-dbg
 DEB_DBG_PACKAGE_kdelibs-bin := kdelibs5-dbg
 DEB_DBG_PACKAGE_libplasma3 := kdelibs5-dbg

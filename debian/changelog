@@ -1,3 +1,11 @@
+kde4libs (4:4.3.4-2) unstable; urgency=emergency
+
+  * Fix libplasma3 symbols file (Closes: #570041).
+  * Pass CMAKE_SKIP_RPATH=ON to cmake.
+  * Urgency=emergency - needed for transition.
+
+ -- Modestas Vainius <modax@debian.org>  Thu, 18 Feb 2010 15:19:16 +0200
+
 kde4libs (4:4.3.4-1) unstable; urgency=low
 
   * New upstream release.
