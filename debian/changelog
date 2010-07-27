@@ -7,6 +7,9 @@ kde4libs (4:4.4.95-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
+  * Bump required cmake version to 2.6.4.
+  * Bump required soprano version to 2.4.63.
+  * Add build dependency on libdbusmenu-qt-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jul 2010 20:01:26 +0300
 
