@@ -412,6 +412,8 @@ usr/include/KDE/KIconDialog
 usr/include/KDE/KIconEffect
 usr/include/KDE/KIconLoader
 usr/include/KDE/KIconTheme
+usr/include/KDE/KIdleTime
+usr/include/KDE/KImageCache
 usr/include/KDE/KImageFilePreview
 usr/include/KDE/KImageIO
 usr/include/KDE/KInputDialog
@@ -542,6 +544,7 @@ usr/include/KDE/KPixmapRegionSelectorDialog
 usr/include/KDE/KPixmapRegionSelectorWidget
 usr/include/KDE/KPixmapSequence
 usr/include/KDE/KPixmapSequenceOverlayPainter
+usr/include/KDE/KPixmapSequenceWidget
 usr/include/KDE/KPlotAxis
 usr/include/KDE/KPlotObject
 usr/include/KDE/KPlotPoint
@@ -593,6 +596,7 @@ usr/include/KDE/KSettings/Dispatcher
 usr/include/KDE/KSettings/PluginPage
 usr/include/KDE/KSharedConfig
 usr/include/KDE/KSharedConfigPtr
+usr/include/KDE/KSharedDataCache
 usr/include/KDE/KSharedPtr
 usr/include/KDE/KShell
 usr/include/KDE/KShellCompletion
@@ -718,6 +722,7 @@ usr/include/KDE/KWallet/Wallet
 usr/include/KDE/KWebPage
 usr/include/KDE/KWebPluginFactory
 usr/include/KDE/KWebView
+usr/include/KDE/KWebWallet
 usr/include/KDE/KWidgetItemDelegate
 usr/include/KDE/KWindowInfo
 usr/include/KDE/KWindowSystem
@@ -762,12 +767,14 @@ usr/include/KDE/NETRootInfo
 usr/include/KDE/NETWinInfo
 usr/include/KDE/Nepomuk/KRatingPainter
 usr/include/KDE/Nepomuk/KRatingWidget
+usr/include/KDE/Nepomuk/MassUpdateJob
 usr/include/KDE/Nepomuk/Query/AndTerm
 usr/include/KDE/Nepomuk/Query/ComparisonTerm
 usr/include/KDE/Nepomuk/Query/FileQuery
 usr/include/KDE/Nepomuk/Query/GroupTerm
 usr/include/KDE/Nepomuk/Query/LiteralTerm
 usr/include/KDE/Nepomuk/Query/NegationTerm
+usr/include/KDE/Nepomuk/Query/OptionalTerm
 usr/include/KDE/Nepomuk/Query/OrTerm
 usr/include/KDE/Nepomuk/Query/Query
 usr/include/KDE/Nepomuk/Query/QueryParser
@@ -781,6 +788,7 @@ usr/include/KDE/Nepomuk/Resource
 usr/include/KDE/Nepomuk/ResourceManager
 usr/include/KDE/Nepomuk/Service
 usr/include/KDE/Nepomuk/Tag
+usr/include/KDE/Nepomuk/TagWidget
 usr/include/KDE/Nepomuk/Thing
 usr/include/KDE/Nepomuk/Types/Class
 usr/include/KDE/Nepomuk/Types/Literal
@@ -789,14 +797,13 @@ usr/include/KDE/Nepomuk/Types/Property
 usr/include/KDE/Nepomuk/Variant
 usr/include/KDE/OrgKdeKDirNotifyInterface
 usr/include/KDE/OrgKdeKLauncherInterface
-usr/include/KDE/Plasma/AbstractAnimation
+usr/include/KDE/Plasma/AbstractDialogManager
 usr/include/KDE/Plasma/AbstractRunner
 usr/include/KDE/Plasma/AbstractToolBox
 usr/include/KDE/Plasma/AccessAppletJob
 usr/include/KDE/Plasma/AccessManager
 usr/include/KDE/Plasma/Animation
 usr/include/KDE/Plasma/AnimationDriver
-usr/include/KDE/Plasma/AnimationGroup
 usr/include/KDE/Plasma/Animator
 usr/include/KDE/Plasma/Applet
 usr/include/KDE/Plasma/AppletScript
@@ -921,6 +928,7 @@ usr/include/KDE/khtml/MouseMoveEvent
 usr/include/KDE/khtml/MousePressEvent
 usr/include/KDE/khtml/MouseReleaseEvent
 usr/include/KDE/kndbgstream
+usr/include/config-nepomuk.h
 usr/include/conversion_check.h
 usr/include/dnssd/dnssd_export.h
 usr/include/dnssd/domainbrowser.h
@@ -1055,6 +1063,7 @@ usr/include/kbookmarkimporter_ns.h
 usr/include/kbookmarkimporter_opera.h
 usr/include/kbookmarkmanager.h
 usr/include/kbookmarkmenu.h
+usr/include/kbreadcrumbselectionmodel.h
 usr/include/kbugreport.h
 usr/include/kbuildsycocaprogressdialog.h
 usr/include/kbuttongroup.h
@@ -1073,6 +1082,7 @@ usr/include/kcmoduleinfo.h
 usr/include/kcmoduleloader.h
 usr/include/kcmoduleproxy.h
 usr/include/kcmultidialog.h
+usr/include/kcmutils_export.h
 usr/include/kcodecaction.h
 usr/include/kcodecs.h
 usr/include/kcolorbutton.h
@@ -1145,6 +1155,7 @@ usr/include/keditlistbox.h
 usr/include/kedittoolbar.h
 usr/include/kemailsettings.h
 usr/include/kemoticons.h
+usr/include/kemoticons_export.h
 usr/include/kemoticonsprovider.h
 usr/include/kemoticonstheme.h
 usr/include/kencodingdetector.h
@@ -1161,6 +1172,8 @@ usr/include/kfileitem.h
 usr/include/kfileitemactions.h
 usr/include/kfileitemdelegate.h
 usr/include/kfileitemlistproperties.h
+usr/include/kfilemetadataconfigurationwidget.h
+usr/include/kfilemetadatawidget.h
 usr/include/kfilemetainfo.h
 usr/include/kfilemetainfoitem.h
 usr/include/kfileplacesmodel.h
@@ -1216,6 +1229,8 @@ usr/include/kiconeffect.h
 usr/include/kiconloader.h
 usr/include/kicontheme.h
 usr/include/kidletime.h
+usr/include/kidletime_export.h
+usr/include/kimagecache.h
 usr/include/kimagefilepreview.h
 usr/include/kimageio.h
 usr/include/kimproxy.h
@@ -1280,6 +1295,7 @@ usr/include/kled.h
 usr/include/klibloader.h
 usr/include/klibrary.h
 usr/include/klineedit.h
+usr/include/klinkitemselectionmodel.h
 usr/include/klistwidget.h
 usr/include/klistwidgetsearchline.h
 usr/include/klocale.h
@@ -1301,9 +1317,12 @@ usr/include/kmimetype.h
 usr/include/kmimetypechooser.h
 usr/include/kmimetyperesolver.h
 usr/include/kmimetypetrader.h
+usr/include/kmodelindexproxymapper.h
 usr/include/kmodifierkeyinfo.h
 usr/include/kmountpoint.h
 usr/include/kmultitabbar.h
+usr/include/knameandurlinputdialog.h
+usr/include/knewfilemenu.h
 usr/include/knewpassworddialog.h
 usr/include/knewstuff2/core/author.h
 usr/include/knewstuff2/core/category.h
@@ -1315,6 +1334,8 @@ usr/include/knewstuff2/knewstuff_export.h
 usr/include/knewstuff2/ui/knewstuffaction.h
 usr/include/knewstuff2/ui/knewstuffbutton.h
 usr/include/knewstuff3/downloaddialog.h
+usr/include/knewstuff3/downloadmanager.h
+usr/include/knewstuff3/downloadwidget.h
 usr/include/knewstuff3/entry.h
 usr/include/knewstuff3/knewstuff_export.h
 usr/include/knewstuff3/knewstuffaction.h
@@ -1348,6 +1369,7 @@ usr/include/kparts/mainwindow.h
 usr/include/kparts/part.h
 usr/include/kparts/partmanager.h
 usr/include/kparts/plugin.h
+usr/include/kparts/scriptableextension.h
 usr/include/kparts/statusbarextension.h
 usr/include/kpassivepopup.h
 usr/include/kpassivepopupmessagehandler.h
@@ -1370,6 +1392,7 @@ usr/include/kpluginloader.h
 usr/include/kpluginselector.h
 usr/include/kpreviewwidgetbase.h
 usr/include/kprintpreview.h
+usr/include/kprintutils_export.h
 usr/include/kprocess.h
 usr/include/kprogressdialog.h
 usr/include/kpropertiesdialog.h
@@ -1386,6 +1409,7 @@ usr/include/krandom.h
 usr/include/krandomsequence.h
 usr/include/krecentdocument.h
 usr/include/krecentfilesaction.h
+usr/include/krecursivefilterproxymodel.h
 usr/include/kregexpeditorinterface.h
 usr/include/kremoteencoding.h
 usr/include/kreplace.h
@@ -1429,6 +1453,7 @@ usr/include/ksettings/dialog.h
 usr/include/ksettings/dispatcher.h
 usr/include/ksettings/pluginpage.h
 usr/include/ksharedconfig.h
+usr/include/kshareddatacache.h
 usr/include/ksharedptr.h
 usr/include/kshell.h
 usr/include/kshellcompletion.h
@@ -1491,7 +1516,12 @@ usr/include/ktexteditor/highlightinterface.h
 usr/include/ktexteditor/ktexteditor_export.h
 usr/include/ktexteditor/loadsavefiltercheckplugin.h
 usr/include/ktexteditor/markinterface.h
+usr/include/ktexteditor/modeinterface.h
 usr/include/ktexteditor/modificationinterface.h
+usr/include/ktexteditor/movingcursor.h
+usr/include/ktexteditor/movinginterface.h
+usr/include/ktexteditor/movingrange.h
+usr/include/ktexteditor/movingrangefeedback.h
 usr/include/ktexteditor/plugin.h
 usr/include/ktexteditor/range.h
 usr/include/ktexteditor/rangefeedback.h
@@ -1505,6 +1535,7 @@ usr/include/ktexteditor/smartrange.h
 usr/include/ktexteditor/smartrangenotifier.h
 usr/include/ktexteditor/smartrangewatcher.h
 usr/include/ktexteditor/templateinterface.h
+usr/include/ktexteditor/templateinterface2.h
 usr/include/ktexteditor/texthintinterface.h
 usr/include/ktexteditor/variableinterface.h
 usr/include/ktexteditor/view.h
@@ -1524,6 +1555,7 @@ usr/include/ktrader.h
 usr/include/ktreewidgetsearchline.h
 usr/include/ktypelist.h
 usr/include/ktypelistutils.h
+usr/include/ktypetraits.h
 usr/include/ktzfiletimezone.h
 usr/include/kuiserverjobtracker.h
 usr/include/kundostack.h
@@ -1548,8 +1580,8 @@ usr/include/kurlrequester.h
 usr/include/kurlrequesterdialog.h
 usr/include/kurlrequesterdlg.h
 usr/include/kuser.h
-usr/include/kutils_export.h
 usr/include/kvbox.h
+usr/include/kviewstatesaver.h
 usr/include/kwallet.h
 usr/include/kwebpage.h
 usr/include/kwebpluginfactory.h
@@ -1588,12 +1620,14 @@ usr/include/nepomuk/literal.h
 usr/include/nepomuk/literalterm.h
 usr/include/nepomuk/negationterm.h
 usr/include/nepomuk/nepomuk_export.h
+usr/include/nepomuk/nepomukmassupdatejob.h
 usr/include/nepomuk/nepomukontologyloader.h
 usr/include/nepomuk/nepomukquery_export.h
 usr/include/nepomuk/nepomukservice.h
 usr/include/nepomuk/ontology.h
 usr/include/nepomuk/ontologyloader.h
 usr/include/nepomuk/ontologymanager.h
+usr/include/nepomuk/optionalterm.h
 usr/include/nepomuk/orterm.h
 usr/include/nepomuk/property.h
 usr/include/nepomuk/query.h
@@ -1606,6 +1640,7 @@ usr/include/nepomuk/resourcetypeterm.h
 usr/include/nepomuk/result.h
 usr/include/nepomuk/simpleterm.h
 usr/include/nepomuk/tag.h
+usr/include/nepomuk/tagwidget.h
 usr/include/nepomuk/term.h
 usr/include/nepomuk/thing.h
 usr/include/nepomuk/tools.h
@@ -1613,6 +1648,7 @@ usr/include/nepomuk/variant.h
 usr/include/netwm.h
 usr/include/netwm_def.h
 usr/include/passdlg.h
+usr/include/plasma/abstractdialogmanager.h
 usr/include/plasma/abstractrunner.h
 usr/include/plasma/abstracttoolbox.h
 usr/include/plasma/accessappletjob.h
@@ -1749,7 +1785,11 @@ usr/include/threadweaver/WeaverInterface.h
 usr/include/threadweaver/WeaverObserver.h
 usr/include/threadweaver/threadweaver_export.h
 usr/lib/kde4/libexec/kauth-policy-gen
+usr/lib/kde4/plugins/designer/kde3supportwidgets.so
+usr/lib/kde4/plugins/designer/kdewidgets.so
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so
+usr/lib/libkatepartinterfaces.so
+usr/lib/libkcmutils.so
 usr/lib/libkde3support.so
 usr/lib/libkdecore.so
 usr/lib/libkdefakes.so
@@ -1757,8 +1797,10 @@ usr/lib/libkdesu.so
 usr/lib/libkdeui.so
 usr/lib/libkdewebkit.so
 usr/lib/libkdnssd.so
+usr/lib/libkemoticons.so
 usr/lib/libkfile.so
 usr/lib/libkhtml.so
+usr/lib/libkidletime.so
 usr/lib/libkimproxy.so
 usr/lib/libkio.so
 usr/lib/libkjs.so
@@ -1770,6 +1812,7 @@ usr/lib/libknewstuff3.so
 usr/lib/libknotifyconfig.so
 usr/lib/libkntlm.so
 usr/lib/libkparts.so
+usr/lib/libkprintutils.so
 usr/lib/libkpty.so
 usr/lib/libkrosscore.so
 usr/lib/libkrossui.so
@@ -1782,12 +1825,11 @@ usr/lib/libnepomukquery.so
 usr/lib/libplasma.so
 usr/lib/libsolid.so
 usr/lib/libthreadweaver.so
-usr/lib/qt4/plugins/designer/kde3supportwidgets.so
-usr/lib/qt4/plugins/designer/kdewidgets.so
 usr/share/dbus-1/interfaces/org.freedesktop.PowerManagement.Inhibit.xml
 usr/share/dbus-1/interfaces/org.freedesktop.PowerManagement.xml
 usr/share/dbus-1/interfaces/org.kde.JobView.xml
 usr/share/dbus-1/interfaces/org.kde.JobViewServer.xml
+usr/share/dbus-1/interfaces/org.kde.JobViewV2.xml
 usr/share/dbus-1/interfaces/org.kde.KCookieServer.xml
 usr/share/dbus-1/interfaces/org.kde.KDirNotify.xml
 usr/share/dbus-1/interfaces/org.kde.KGlobalAccel.xml
@@ -1822,6 +1864,7 @@ usr/share/kde4/apps/cmake/modules/FindBlitz.cmake
 usr/share/kde4/apps/cmake/modules/FindBlueZ.cmake
 usr/share/kde4/apps/cmake/modules/FindBoost.cmake
 usr/share/kde4/apps/cmake/modules/FindCarbon.cmake
+usr/share/kde4/apps/cmake/modules/FindDBusMenuQt.cmake
 usr/share/kde4/apps/cmake/modules/FindDNSSD.cmake
 usr/share/kde4/apps/cmake/modules/FindENCHANT.cmake
 usr/share/kde4/apps/cmake/modules/FindEigen.cmake
@@ -1877,6 +1920,7 @@ usr/share/kde4/apps/cmake/modules/FindOggVorbis.cmake
 usr/share/kde4/apps/cmake/modules/FindOpenEXR.cmake
 usr/share/kde4/apps/cmake/modules/FindOpenSSL.cmake
 usr/share/kde4/apps/cmake/modules/FindPCRE.cmake
+usr/share/kde4/apps/cmake/modules/FindPackageHandleStandardArgs.cmake
 usr/share/kde4/apps/cmake/modules/FindPhonon.cmake
 usr/share/kde4/apps/cmake/modules/FindPkgConfig.cmake
 usr/share/kde4/apps/cmake/modules/FindPlasma.cmake
@@ -1916,6 +1960,7 @@ usr/share/kde4/apps/cmake/modules/KDELibs4LibraryTargets.cmake
 usr/share/kde4/apps/cmake/modules/KDELibs4ToolsTargets-debian.cmake
 usr/share/kde4/apps/cmake/modules/KDELibs4ToolsTargets.cmake
 usr/share/kde4/apps/cmake/modules/KDELibsDependencies.cmake
+usr/share/kde4/apps/cmake/modules/KDEPlatformProfile.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddCompileFlags.cmake
 usr/share/kde4/apps/cmake/modules/MacroAddLinkFlags.cmake
 usr/share/kde4/apps/cmake/modules/MacroAdditionalCleanFiles.cmake

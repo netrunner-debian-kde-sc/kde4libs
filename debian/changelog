@@ -10,6 +10,9 @@ kde4libs (4:4.4.95-0r1) UNRELEASED; urgency=low
   * Bump required cmake version to 2.6.4.
   * Bump required soprano version to 2.4.63.
   * Add build dependency on libdbusmenu-qt-dev.
+  * Update installed files.
+  * Add packages for the new libararies: libkatepartinterfaces4,
+    libkcmutils4, libkidletime4, libkemoticons4, libkprintutils4.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jul 2010 20:01:26 +0300
 

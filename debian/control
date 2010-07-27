@@ -407,6 +407,46 @@ Description: the KDE WebKit Library
  .
  This package is part of the KDE Development Platform libraries module.
 
+Package: libkatepartinterfaces4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: WRITEME
+ WRITEME.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkcmutils4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: WRITEME
+ WRITEME.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkemoticons4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: WRITEME
+ WRITEME.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkidletime4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: WRITEME
+ WRITEME.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkprintutils4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: WRITEME
+ WRITEME.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
 Package: kdelibs-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libxml2-utils

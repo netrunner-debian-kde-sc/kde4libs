@@ -1,8 +1,6 @@
 ../config.README usr/share/kde4/config
 etc/dbus-1/system.d/org.kde.auth.conf
-etc/dbus-1/system.d/org.kde.kcontrol.kcmremotewidgets.conf
-etc/xdg/menus/kde4-applications.menu
-usr/share/dbus-1/system-services/org.kde.kcontrol.kcmremotewidgets.service
+etc/xdg/menus/applications.menu
 usr/share/doc/kde/HTML/en/common/1.png
 usr/share/doc/kde/HTML/en/common/10.png
 usr/share/doc/kde/HTML/en/common/2.png
@@ -103,12 +101,13 @@ usr/share/kde4/apps/katepart/katepartsimpleui.rc
 usr/share/kde4/apps/katepart/katepartui.rc
 usr/share/kde4/apps/katepart/script/cstyle.js
 usr/share/kde4/apps/katepart/script/haskell.js
-usr/share/kde4/apps/katepart/script/jstest.js
 usr/share/kde4/apps/katepart/script/lilypond.js
 usr/share/kde4/apps/katepart/script/lisp.js
+usr/share/kde4/apps/katepart/script/lua.js
 usr/share/kde4/apps/katepart/script/python.js
 usr/share/kde4/apps/katepart/script/ruby.js
 usr/share/kde4/apps/katepart/script/utils.js
+usr/share/kde4/apps/katepart/script/xml.js
 usr/share/kde4/apps/katepart/syntax/abap.xml
 usr/share/kde4/apps/katepart/syntax/abc.xml
 usr/share/kde4/apps/katepart/syntax/actionscript.xml
@@ -116,10 +115,13 @@ usr/share/kde4/apps/katepart/syntax/ada.xml
 usr/share/kde4/apps/katepart/syntax/ahdl.xml
 usr/share/kde4/apps/katepart/syntax/alert.xml
 usr/share/kde4/apps/katepart/syntax/alert_indent.xml
+usr/share/kde4/apps/katepart/syntax/ample.xml
 usr/share/kde4/apps/katepart/syntax/ansic89.xml
 usr/share/kde4/apps/katepart/syntax/ansys.xml
 usr/share/kde4/apps/katepart/syntax/apache.xml
 usr/share/kde4/apps/katepart/syntax/asm-avr.xml
+usr/share/kde4/apps/katepart/syntax/asm-dsp56k.xml
+usr/share/kde4/apps/katepart/syntax/asm-m68k.xml
 usr/share/kde4/apps/katepart/syntax/asm6502.xml
 usr/share/kde4/apps/katepart/syntax/asn1.xml
 usr/share/kde4/apps/katepart/syntax/asp.xml
@@ -218,6 +220,7 @@ usr/share/kde4/apps/katepart/syntax/objectivecpp.xml
 usr/share/kde4/apps/katepart/syntax/ocaml.xml
 usr/share/kde4/apps/katepart/syntax/octave.xml
 usr/share/kde4/apps/katepart/syntax/opal.xml
+usr/share/kde4/apps/katepart/syntax/pango.xml
 usr/share/kde4/apps/katepart/syntax/pascal.xml
 usr/share/kde4/apps/katepart/syntax/perl.xml
 usr/share/kde4/apps/katepart/syntax/pgn.xml
@@ -230,6 +233,7 @@ usr/share/kde4/apps/katepart/syntax/progress.xml
 usr/share/kde4/apps/katepart/syntax/prolog.xml
 usr/share/kde4/apps/katepart/syntax/purebasic.xml
 usr/share/kde4/apps/katepart/syntax/python.xml
+usr/share/kde4/apps/katepart/syntax/qml.xml
 usr/share/kde4/apps/katepart/syntax/r.xml
 usr/share/kde4/apps/katepart/syntax/rapidq.xml
 usr/share/kde4/apps/katepart/syntax/rexx.xml
@@ -264,6 +268,7 @@ usr/share/kde4/apps/katepart/syntax/verilog.xml
 usr/share/kde4/apps/katepart/syntax/vhdl.xml
 usr/share/kde4/apps/katepart/syntax/vrml.xml
 usr/share/kde4/apps/katepart/syntax/winehq.xml
+usr/share/kde4/apps/katepart/syntax/wml.xml
 usr/share/kde4/apps/katepart/syntax/xharbour.xml
 usr/share/kde4/apps/katepart/syntax/xml.xml
 usr/share/kde4/apps/katepart/syntax/xmldebug.xml
@@ -368,6 +373,9 @@ usr/share/kde4/apps/knewstuff/pics/ghns_star_gray.png
 usr/share/kde4/apps/knewstuff/pics/thumb_frame.png
 usr/share/kde4/apps/kssl/ca-bundle.crt
 usr/share/kde4/apps/ktexteditor_exporter/ktexteditor_exporterui.rc
+usr/share/kde4/apps/ktexteditor_iconinserter/ktexteditor_iconinserterui.rc
+usr/share/kde4/apps/ktexteditor_insanehtml_le/insanehtml_le_ui.rc
+usr/share/kde4/apps/ktexteditor_insanehtml_le/xhtml.cfg
 usr/share/kde4/apps/ktexteditor_insertfile/ktexteditor_insertfileui.rc
 usr/share/kde4/apps/ktexteditor_kdatatool/ktexteditor_kdatatoolui.rc
 usr/share/kde4/apps/plasma/services/dataengineservice.operations
@@ -381,6 +389,7 @@ usr/share/kde4/config/colors/Royal.colors
 usr/share/kde4/config/colors/Web.colors
 usr/share/kde4/config/katemoderc
 usr/share/kde4/config/katepartpluginsrc
+usr/share/kde4/config/khtmlrc
 usr/share/kde4/config/ksslcalist
 usr/share/kde4/config/plasmoids.knsrc
 usr/share/kde4/config/ui/ui_standards.rc
@@ -409,10 +418,12 @@ usr/share/kde4/services/kspell_aspell.desktop
 usr/share/kde4/services/kspell_enchant.desktop
 usr/share/kde4/services/kspell_hspell.desktop
 usr/share/kde4/services/ktexteditor_autobrace.desktop
+usr/share/kde4/services/ktexteditor_autobrace_config.desktop
 usr/share/kde4/services/ktexteditor_exporter.desktop
+usr/share/kde4/services/ktexteditor_iconinserter.desktop
+usr/share/kde4/services/ktexteditor_insanehtml_le.desktop
 usr/share/kde4/services/ktexteditor_insertfile.desktop
 usr/share/kde4/services/ktexteditor_kdatatool.desktop
-usr/share/kde4/services/ktexteditor_python-encoding.desktop
 usr/share/kde4/services/metainfo.protocol
 usr/share/kde4/services/mms.protocol
 usr/share/kde4/services/mmst.protocol
@@ -432,10 +443,12 @@ usr/share/kde4/services/qimageioplugins/mng.desktop
 usr/share/kde4/services/qimageioplugins/pbm.desktop
 usr/share/kde4/services/qimageioplugins/pcx.desktop
 usr/share/kde4/services/qimageioplugins/pgm.desktop
+usr/share/kde4/services/qimageioplugins/pic.desktop
 usr/share/kde4/services/qimageioplugins/png.desktop
 usr/share/kde4/services/qimageioplugins/pnm.desktop
 usr/share/kde4/services/qimageioplugins/ppm.desktop
 usr/share/kde4/services/qimageioplugins/psd.desktop
+usr/share/kde4/services/qimageioplugins/ras.desktop
 usr/share/kde4/services/qimageioplugins/rgb.desktop
 usr/share/kde4/services/qimageioplugins/tga.desktop
 usr/share/kde4/services/qimageioplugins/tiff.desktop
@@ -461,4 +474,3 @@ usr/share/locale/all_languages
 usr/share/man/man7/kdeoptions.7
 usr/share/man/man7/qtoptions.7
 usr/share/mime/packages/kde.xml
-usr/share/polkit-1/actions/org.kde.kcontrol.kcmremotewidgets.policy
