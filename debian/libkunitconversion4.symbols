@@ -1,10 +1,11 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.95 amd64
 libkunitconversion.so.4 libkunitconversion4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN15KUnitConversion12UnitCategory13addIdMapValueE10KSharedPtrINS_4UnitEEi@Base 4:4.4.0
  _ZN15KUnitConversion12UnitCategory14setDefaultUnitE10KSharedPtrINS_4UnitEE@Base 4:4.4.0
  _ZN15KUnitConversion12UnitCategory14setDescriptionERK7QString@Base 4:4.4.0
  _ZN15KUnitConversion12UnitCategory16addUnitMapValuesE10KSharedPtrINS_4UnitEERK7QString@Base 4:4.4.0
+ _ZN15KUnitConversion12UnitCategory18setMostCommonUnitsERK5QListIiE@Base 4:4.4.95
  _ZN15KUnitConversion12UnitCategory21setSymbolStringFormatERK16KLocalizedString@Base 4:4.4.0
  _ZN15KUnitConversion12UnitCategory6setUrlERK4KUrl@Base 4:4.4.0
  _ZN15KUnitConversion12UnitCategory7convertERKNS_5ValueE10KSharedPtrINS_4UnitEE@Base 4:4.4.0
@@ -53,6 +54,7 @@ libkunitconversion.so.4 libkunitconversion4 #MINVER#
  _ZN15KUnitConversion9ConverterD2Ev@Base 4:4.4.0
  _ZNK15KUnitConversion12UnitCategory11defaultUnitEv@Base 4:4.4.0
  _ZNK15KUnitConversion12UnitCategory11descriptionEv@Base 4:4.4.0
+ _ZNK15KUnitConversion12UnitCategory15mostCommonUnitsEv@Base 4:4.4.95
  _ZNK15KUnitConversion12UnitCategory18symbolStringFormatEv@Base 4:4.4.0
  _ZNK15KUnitConversion12UnitCategory2idEv@Base 4:4.4.0
  _ZNK15KUnitConversion12UnitCategory3urlEv@Base 4:4.4.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.3 amd64 armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.95 amd64
 libkfile.so.4 libkfile4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4:4.4.0
@@ -73,6 +73,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN12KDirOperator12sortReversedEv@Base 4:4.3.4
  _ZN12KDirOperator13activatedMenuERK9KFileItemRK6QPoint@Base 4:4.3.4
  _ZN12KDirOperator13highlightFileERK9KFileItem@Base 4:4.3.4
+ _ZN12KDirOperator13keyPressEventEP9QKeyEvent@Base 4:4.4.95
  _ZN12KDirOperator13setMimeFilterERK11QStringList@Base 4:4.3.4
  _ZN12KDirOperator13setNameFilterERK7QString@Base 4:4.3.4
  _ZN12KDirOperator13setViewConfigER12KConfigGroup@Base 4:4.3.4
@@ -106,6 +107,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN12KDirOperator24setEnableDirHighlightingEb@Base 4:4.3.4
  _ZN12KDirOperator30setOnlyDoubleClickSelectsFilesEb@Base 4:4.3.4
  _ZN12KDirOperator31updateSelectionDependentActionsEv@Base 4:4.3.4
+ _ZN12KDirOperator32setNewFileMenuSupportedMimeTypesERK11QStringList@Base 4:4.4.95
  _ZN12KDirOperator3delERK13KFileItemListP7QWidgetbb@Base 4:4.3.4
  _ZN12KDirOperator4backEv@Base 4:4.3.4
  _ZN12KDirOperator4cdUpEv@Base 4:4.3.4
@@ -144,8 +146,10 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN12KDirOperator7Private19_k_slotToggleHiddenEb@Base 4:4.3.4
  _ZN12KDirOperator7Private20_k_slotDoubleClickedERK11QModelIndex@Base 4:4.3.4
  _ZN12KDirOperator7Private20_k_slotSplitterMovedEii@Base 4:4.3.4
+ _ZN12KDirOperator7Private22_k_slotOpenFileManagerEv@Base 4:4.4.95
  _ZN12KDirOperator7Private22_k_slotToggleDirsFirstEv@Base 4:4.3.4
  _ZN12KDirOperator7Private23_k_slotDetailedTreeViewEv@Base 4:4.3.4
+ _ZN12KDirOperator7Private23_k_slotDirectoryCreatedERK4KUrl@Base 4:4.4.95
  _ZN12KDirOperator7Private23_k_slotSelectionChangedEv@Base 4:4.3.4
  _ZN12KDirOperator7Private23_k_slotToggleIgnoreCaseEv@Base 4:4.3.4
  _ZN12KDirOperator7Private23_k_toggleInlinePreviewsEb@Base 4:4.3.4
@@ -174,6 +178,23 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN12KDirOperatorD0Ev@Base 4:4.3.4
  _ZN12KDirOperatorD1Ev@Base 4:4.3.4
  _ZN12KDirOperatorD2Ev@Base 4:4.3.4
+ _ZN12KNewFileMenu10slotResultEP4KJob@Base 4:4.4.95
+ _ZN12KNewFileMenu11fileCreatedERK4KUrl@Base 4:4.4.95
+ _ZN12KNewFileMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
+ _ZN12KNewFileMenu11qt_metacastEPKc@Base 4:4.4.95
+ _ZN12KNewFileMenu13checkUpToDateEv@Base 4:4.4.95
+ _ZN12KNewFileMenu13setPopupFilesERKN4KUrl4ListE@Base 4:4.4.95
+ _ZN12KNewFileMenu15createDirectoryEv@Base 4:4.4.95
+ _ZN12KNewFileMenu15setParentWidgetEP7QWidget@Base 4:4.4.95
+ _ZN12KNewFileMenu16directoryCreatedERK4KUrl@Base 4:4.4.95
+ _ZN12KNewFileMenu16staticMetaObjectE@Base 4:4.4.95
+ _ZN12KNewFileMenu21setSupportedMimeTypesERK11QStringList@Base 4:4.4.95
+ _ZN12KNewFileMenu23setViewShowsHiddenFilesEb@Base 4:4.4.95
+ _ZN12KNewFileMenuC1EP17KActionCollectionRK7QStringP7QObject@Base 4:4.4.95
+ _ZN12KNewFileMenuC2EP17KActionCollectionRK7QStringP7QObject@Base 4:4.4.95
+ _ZN12KNewFileMenuD0Ev@Base 4:4.4.95
+ _ZN12KNewFileMenuD1Ev@Base 4:4.4.95
+ _ZN12KNewFileMenuD2Ev@Base 4:4.4.95
  _ZN13KFileTreeView10setRootUrlERK4KUrl@Base 4:4.3.4
  _ZN13KFileTreeView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN13KFileTreeView11qt_metacastEPKc@Base 4:4.3.4
@@ -192,6 +213,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN13KFileTreeViewD0Ev@Base 4:4.3.4
  _ZN13KFileTreeViewD1Ev@Base 4:4.3.4
  _ZN13KFileTreeViewD2Ev@Base 4:4.3.4
+ _ZN13KUrlNavigator10setHomeUrlERK4KUrl@Base 4:4.4.95
  _ZN13KUrlNavigator10setHomeUrlERK7QString@Base 4:4.3.4
  _ZN13KUrlNavigator10urlChangedERK4KUrl@Base 4:4.3.4
  _ZN13KUrlNavigator11eventFilterEP7QObjectP6QEvent@Base 4:4.3.4
@@ -202,32 +224,41 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN13KUrlNavigator11urlsDroppedERK4KUrlP10QDropEvent@Base 4:4.3.4
  _ZN13KUrlNavigator11urlsDroppedERKN4KUrl4ListERKS0_@Base 4:4.3.4
  _ZN13KUrlNavigator12savePositionEii@Base 4:4.3.4
+ _ZN13KUrlNavigator12tabRequestedERK4KUrl@Base 4:4.4.95
+ _ZN13KUrlNavigator13keyPressEventEP9QKeyEvent@Base 4:4.4.95
  _ZN13KUrlNavigator13returnPressedEv@Base 4:4.3.4
  _ZN13KUrlNavigator14historyChangedEv@Base 4:4.3.4
+ _ZN13KUrlNavigator14setLocationUrlERK4KUrl@Base 4:4.4.95
  _ZN13KUrlNavigator14setUrlEditableEb@Base 4:4.3.4
- _ZN13KUrlNavigator15keyReleaseEventEP9QKeyEvent@Base 4:4.3.4
+#MISSING: 4:4.4.95# _ZN13KUrlNavigator15keyReleaseEventEP9QKeyEvent@Base 4:4.3.4
  _ZN13KUrlNavigator15setShowFullPathEb@Base 4:4.3.4
  _ZN13KUrlNavigator16staticMetaObjectE@Base 4:4.3.4
  _ZN13KUrlNavigator17mouseReleaseEventEP11QMouseEvent@Base 4:4.3.4
  _ZN13KUrlNavigator17requestActivationEv@Base 4:4.3.4
+ _ZN13KUrlNavigator17saveLocationStateERK10QByteArray@Base 4:4.4.95
  _ZN13KUrlNavigator18setCustomProtocolsERK11QStringList@Base 4:4.3.4
+ _ZN13KUrlNavigator19urlAboutToBeChangedERK4KUrl@Base 4:4.4.95
  _ZN13KUrlNavigator20editableStateChangedEb@Base 4:4.3.4
  _ZN13KUrlNavigator24setPlacesSelectorVisibleEb@Base 4:4.3.4
  _ZN13KUrlNavigator4goUpEv@Base 4:4.3.4
  _ZN13KUrlNavigator6goBackEv@Base 4:4.3.4
  _ZN13KUrlNavigator6goHomeEv@Base 4:4.3.4
  _ZN13KUrlNavigator6setUrlERK4KUrl@Base 4:4.3.4
+ _ZN13KUrlNavigator7Private10initializeERK4KUrl@Base 4:4.4.95
  (optional=private)_ZN13KUrlNavigator7Private10switchViewEv@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7Private12appendWidgetEP7QWidgeti@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7Private13deleteButtonsEv@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7Private13updateButtonsEi@Base 4:4.4.0
  (optional=private)_ZN13KUrlNavigator7Private13updateContentEv@Base 4:4.3.4
+ _ZN13KUrlNavigator7Private15openContextMenuEv@Base 4:4.4.95
  (optional=private)_ZN13KUrlNavigator7Private17slotReturnPressedEv@Base 4:4.3.4
+ _ZN13KUrlNavigator7Private18slotPathBoxChangedERK7QString@Base 4:4.4.95
  (optional=private)_ZN13KUrlNavigator7Private19slotProtocolChangedERK7QString@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7Private20openPathSelectorMenuEv@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7Private22switchToBreadcrumbModeEv@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7Private22updateButtonVisibilityEv@Base 4:4.3.4
- (optional=private)_ZN13KUrlNavigator7Private23slotRemoteHostActivatedEv@Base 4:4.3.4
+#MISSING: 4:4.4.95# (optional=private)_ZN13KUrlNavigator7Private23slotRemoteHostActivatedEv@Base 4:4.3.4
+ _ZN13KUrlNavigator7Private26slotNavigatorButtonClickedERK4KUrlN2Qt11MouseButtonE@Base 4:4.4.95
  (optional=private)_ZN13KUrlNavigator7Private8dropUrlsERK4KUrlP10QDropEvent@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7PrivateC1EPS_P16KFilePlacesModel@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7PrivateC2EPS_P16KFilePlacesModel@Base 4:4.3.4
@@ -236,7 +267,9 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN13KUrlNavigator9goForwardEv@Base 4:4.3.4
  _ZN13KUrlNavigator9setActiveEb@Base 4:4.3.4
  _ZN13KUrlNavigatorC1EP16KFilePlacesModelRK4KUrlP7QWidget@Base 4:4.3.4
+ _ZN13KUrlNavigatorC1EP7QWidget@Base 4:4.4.95
  _ZN13KUrlNavigatorC2EP16KFilePlacesModelRK4KUrlP7QWidget@Base 4:4.3.4
+ _ZN13KUrlNavigatorC2EP7QWidget@Base 4:4.4.95
  _ZN13KUrlNavigatorD0Ev@Base 4:4.3.4
  _ZN13KUrlNavigatorD1Ev@Base 4:4.3.4
  _ZN13KUrlNavigatorD2Ev@Base 4:4.3.4
@@ -340,6 +373,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN16KFilePlacesModel7Private19_k_storageSetupDoneEN5Solid9ErrorTypeE8QVariant@Base 4:4.3.4
  _ZN16KFilePlacesModel7Private22_k_storageTeardownDoneEN5Solid9ErrorTypeE8QVariant@Base 4:4.3.4
  _ZN16KFilePlacesModel8addPlaceERK7QStringRK4KUrlS2_S2_@Base 4:4.3.4
+ _ZN16KFilePlacesModel8addPlaceERK7QStringRK4KUrlS2_S2_RK11QModelIndex@Base 4:4.4.95
  _ZN16KFilePlacesModel9editPlaceERK11QModelIndexRK7QStringRK4KUrlS5_S5_@Base 4:4.3.4
  _ZN16KFilePlacesModel9setupDoneERK11QModelIndexb@Base 4:4.3.4
  _ZN16KFilePlacesModelC1EP7QObject@Base 4:4.3.4
@@ -389,6 +423,16 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN21KFilePreviewGeneratorD0Ev@Base 4:4.3.4
  _ZN21KFilePreviewGeneratorD1Ev@Base 4:4.3.4
  _ZN21KFilePreviewGeneratorD2Ev@Base 4:4.3.4
+ _ZN22KNameAndUrlInputDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
+ _ZN22KNameAndUrlInputDialog11qt_metacastEPKc@Base 4:4.4.95
+ _ZN22KNameAndUrlInputDialog15setSuggestedUrlERK4KUrl@Base 4:4.4.95
+ _ZN22KNameAndUrlInputDialog16setSuggestedNameERK7QString@Base 4:4.4.95
+ _ZN22KNameAndUrlInputDialog16staticMetaObjectE@Base 4:4.4.95
+ _ZN22KNameAndUrlInputDialogC1ERK7QStringS2_RK4KUrlP7QWidget@Base 4:4.4.95
+ _ZN22KNameAndUrlInputDialogC2ERK7QStringS2_RK4KUrlP7QWidget@Base 4:4.4.95
+ _ZN22KNameAndUrlInputDialogD0Ev@Base 4:4.4.95
+ _ZN22KNameAndUrlInputDialogD1Ev@Base 4:4.4.95
+ _ZN22KNameAndUrlInputDialogD2Ev@Base 4:4.4.95
  _ZN24KDirSortFilterProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN24KDirSortFilterProxyModel11qt_metacastEPKc@Base 4:4.4.0
  _ZN24KDirSortFilterProxyModel16staticMetaObjectE@Base 4:4.4.0
@@ -440,6 +484,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZNK12KDirOperator19dirCompletionObjectEv@Base 4:4.3.4
  _ZNK12KDirOperator20isInlinePreviewShownEv@Base 4:4.3.4
  _ZNK12KDirOperator27onlyDoubleClickSelectsFilesEv@Base 4:4.3.4
+ _ZNK12KDirOperator29newFileMenuSupportedMimeTypesEv@Base 4:4.4.95
  _ZNK12KDirOperator3urlEv@Base 4:4.3.4
  _ZNK12KDirOperator4modeEv@Base 4:4.3.4
  _ZNK12KDirOperator4viewEv@Base 4:4.3.4
@@ -454,6 +499,9 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZNK12KDirOperator8numFilesEv@Base 4:4.3.4
  _ZNK12KDirOperator9dirListerEv@Base 4:4.3.4
  _ZNK12KDirOperator9iconsZoomEv@Base 4:4.3.4
+ _ZNK12KNewFileMenu10metaObjectEv@Base 4:4.4.95
+ _ZNK12KNewFileMenu10popupFilesEv@Base 4:4.4.95
+ _ZNK12KNewFileMenu18supportedMimeTypesEv@Base 4:4.4.95
  _ZNK13KFileTreeView10currentUrlEv@Base 4:4.3.4
  _ZNK13KFileTreeView10metaObjectEv@Base 4:4.3.4
  _ZNK13KFileTreeView11selectedUrlEv@Base 4:4.3.4
@@ -464,10 +512,12 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZNK13KUrlNavigator10historyUrlEi@Base 4:4.3.4
  _ZNK13KUrlNavigator10metaObjectEv@Base 4:4.3.4
  _ZNK13KUrlNavigator11historySizeEv@Base 4:4.3.4
+ _ZNK13KUrlNavigator11locationUrlEi@Base 4:4.4.95
  _ZNK13KUrlNavigator12historyIndexEv@Base 4:4.3.4
  _ZNK13KUrlNavigator12savedRootUrlEv@Base 4:4.3.4
  _ZNK13KUrlNavigator12showFullPathEv@Base 4:4.3.4
  _ZNK13KUrlNavigator13isUrlEditableEv@Base 4:4.3.4
+ _ZNK13KUrlNavigator13locationStateEi@Base 4:4.4.95
  _ZNK13KUrlNavigator13savedPositionEv@Base 4:4.3.4
  _ZNK13KUrlNavigator14uncommittedUrlEv@Base 4:4.3.4
  _ZNK13KUrlNavigator15customProtocolsEv@Base 4:4.3.4
@@ -475,9 +525,13 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZNK13KUrlNavigator3urlEi@Base 4:4.3.4
  _ZNK13KUrlNavigator3urlEv@Base 4:4.3.4
  _ZNK13KUrlNavigator6editorEv@Base 4:4.3.4
+ _ZNK13KUrlNavigator7Private15firstButtonTextEv@Base 4:4.4.95
  _ZNK13KUrlNavigator7Private16isCompressedPathERK4KUrl@Base 4:4.3.4
  _ZNK13KUrlNavigator7Private17retrievePlacePathEv@Base 4:4.3.4
  _ZNK13KUrlNavigator7Private19removeTrailingSlashER7QString@Base 4:4.3.4
+ _ZNK13KUrlNavigator7Private20adjustedHistoryIndexEi@Base 4:4.4.95
+ _ZNK13KUrlNavigator7Private9buttonUrlEi@Base 4:4.4.95
+ _ZNK13KUrlNavigator7homeUrlEv@Base 4:4.4.95
  _ZNK13KUrlNavigator8isActiveEv@Base 4:4.3.4
  _ZNK15KFilePlacesView10metaObjectEv@Base 4:4.3.4
  _ZNK15KFilePlacesView20isDropOnPlaceEnabledEv@Base 4:4.3.4
@@ -523,6 +577,9 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZNK21KFilePreviewGenerator14enabledPluginsEv@Base 4:4.3.4
  _ZNK21KFilePreviewGenerator14isPreviewShownEv@Base 4:4.3.4
  _ZNK21KFilePreviewGenerator7Private9isCutItemERK9KFileItem@Base 4:4.3.4
+ _ZNK22KNameAndUrlInputDialog10metaObjectEv@Base 4:4.4.95
+ _ZNK22KNameAndUrlInputDialog3urlEv@Base 4:4.4.95
+ _ZNK22KNameAndUrlInputDialog4nameEv@Base 4:4.4.95
  _ZNK24KDirSortFilterProxyModel10metaObjectEv@Base 4:4.4.0
  _ZNK24KDirSortFilterProxyModel11hasChildrenERK11QModelIndex@Base 4:4.3.4
  _ZNK24KDirSortFilterProxyModel12canFetchMoreERK11QModelIndex@Base 4:4.3.4
@@ -531,6 +588,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZNK24KDirSortFilterProxyModel31KDirSortFilterProxyModelPrivate7compareERK7QStringS3_N2Qt15CaseSensitivityE@Base 4:4.4.0
  _ZTI11KFileWidget@Base 4:4.3.4
  _ZTI12KDirOperator@Base 4:4.3.4
+ _ZTI12KNewFileMenu@Base 4:4.4.95
  _ZTI13KFileTreeView@Base 4:4.3.4
  _ZTI13KUrlNavigator@Base 4:4.3.4
  _ZTI15KFilePlacesView@Base 4:4.3.4
@@ -539,9 +597,11 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZTI16KFilePlacesModel@Base 4:4.3.4
  _ZTI19KAbstractFileWidget@Base 4:4.3.4
  _ZTI21KFilePreviewGenerator@Base 4:4.3.4
+ _ZTI22KNameAndUrlInputDialog@Base 4:4.4.95
  _ZTI24KDirSortFilterProxyModel@Base 4:4.3.4
  _ZTS11KFileWidget@Base 4:4.3.4
  _ZTS12KDirOperator@Base 4:4.3.4
+ _ZTS12KNewFileMenu@Base 4:4.4.95
  _ZTS13KFileTreeView@Base 4:4.3.4
  _ZTS13KUrlNavigator@Base 4:4.3.4
  _ZTS15KFilePlacesView@Base 4:4.3.4
@@ -550,9 +610,11 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZTS16KFilePlacesModel@Base 4:4.3.4
  _ZTS19KAbstractFileWidget@Base 4:4.3.4
  _ZTS21KFilePreviewGenerator@Base 4:4.3.4
+ _ZTS22KNameAndUrlInputDialog@Base 4:4.4.95
  _ZTS24KDirSortFilterProxyModel@Base 4:4.3.4
  _ZTV11KFileWidget@Base 4:4.3.4
  _ZTV12KDirOperator@Base 4:4.3.4
+ _ZTV12KNewFileMenu@Base 4:4.4.95
  _ZTV13KFileTreeView@Base 4:4.3.4
  _ZTV13KUrlNavigator@Base 4:4.3.4
  _ZTV15KFilePlacesView@Base 4:4.3.4
@@ -561,6 +623,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZTV16KFilePlacesModel@Base 4:4.3.4
  _ZTV19KAbstractFileWidget@Base 4:4.3.4
  _ZTV21KFilePreviewGenerator@Base 4:4.3.4
+ _ZTV22KNameAndUrlInputDialog@Base 4:4.4.95
  _ZTV24KDirSortFilterProxyModel@Base 4:4.3.4
  (c++)"non-virtual thunk to KDirOperator::~KDirOperator()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KDirSelectDialog::~KDirSelectDialog()@Base" 4:4.3.4
@@ -601,4 +664,5 @@ libkfile.so.4 libkfile4 #MINVER#
  (c++)"non-virtual thunk to KFileWidget::toolBar() const@Base" 4:4.3.4
  (c++)"non-virtual thunk to KFileWidget::virtual_hook(int, void*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to KFileWidget::~KFileWidget()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to KNameAndUrlInputDialog::~KNameAndUrlInputDialog()@Base" 4:4.4.95
  (c++)"non-virtual thunk to KUrlNavigator::~KUrlNavigator()@Base" 4:4.3.4

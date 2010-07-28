@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.95 amd64
 libkdewebkit.so.5 libkdewebkit5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KWebWallet11fillWebFormERK4KUrlRK5QListINS_7WebFormEE@Base 4:4.4.0
@@ -23,6 +23,7 @@ libkdewebkit.so.5 libkdewebkit5 #MINVER#
  _ZN10KWebWallet21saveFormDataCompletedERK4QUrlb@Base 4:4.4.0
  _ZN10KWebWallet21saveFormDataRequestedERK7QStringRK4QUrl@Base 4:4.4.0
  _ZN10KWebWallet23removeFormDataFromCacheERK5QListINS_7WebFormEE@Base 4:4.4.0
+ _ZN10KWebWallet24fillFormRequestCompletedEb@Base 4:4.4.95
  _ZN10KWebWallet25acceptSaveFormDataRequestERK7QString@Base 4:4.4.0
  _ZN10KWebWallet25rejectSaveFormDataRequestERK7QString@Base 4:4.4.0
  _ZN10KWebWalletC1EP7QObjectm@Base 4:4.4.0
@@ -48,6 +49,7 @@ libkdewebkit.so.5 libkdewebkit5 #MINVER#
  _ZN17KWebPluginFactory11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN17KWebPluginFactory11qt_metacastEPKc@Base 4:4.4.0
  _ZN17KWebPluginFactory16staticMetaObjectE@Base 4:4.4.0
+ _ZN17KWebPluginFactory24KWebPluginFactoryPrivate15_k_slotMimeTypeEPN3KIO3JobERK7QString@Base 4:4.4.95
  _ZN17KWebPluginFactoryC1EP7QObject@Base 4:4.4.0
  _ZN17KWebPluginFactoryC2EP7QObject@Base 4:4.4.0
  _ZN17KWebPluginFactoryD0Ev@Base 4:4.4.0
@@ -57,6 +59,7 @@ libkdewebkit.so.5 libkdewebkit5 #MINVER#
  _ZN8KWebPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN8KWebPage11qt_metacastEPKc@Base 4:4.4.0
  _ZN8KWebPage15downloadRequestERK15QNetworkRequest@Base 4:4.4.0
+ _ZN8KWebPage16downloadResponseEP13QNetworkReply@Base 4:4.4.95
  _ZN8KWebPage16staticMetaObjectE@Base 4:4.4.0
  _ZN8KWebPage18setRequestMetaDataERK7QStringS2_@Base 4:4.4.0
  _ZN8KWebPage18setSessionMetaDataERK7QStringS2_@Base 4:4.4.0
