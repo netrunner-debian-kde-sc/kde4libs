@@ -5,7 +5,7 @@ Description: preliminary GNU/Hurd support
 Forwarded: no
 --- a/kdecore/kernel/kstandarddirs.cpp
 +++ b/kdecore/kernel/kstandarddirs.cpp
-@@ -66,6 +66,10 @@
+@@ -70,6 +70,10 @@
  #include <QtCore/QFileInfo>
  #include <QtCore/QSettings>
  

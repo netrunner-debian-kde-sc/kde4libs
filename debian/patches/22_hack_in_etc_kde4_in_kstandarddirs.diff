@@ -12,7 +12,7 @@ overridden by adding new files to /etc/kde4 by the sysadm.
 
 --- a/kdecore/kernel/kstandarddirs.cpp
 +++ b/kdecore/kernel/kstandarddirs.cpp
-@@ -1124,6 +1124,10 @@ QStringList KStandardDirs::KStandardDirs
+@@ -1135,6 +1135,10 @@
                          if ((local || testdir.exists()) && !candidates.contains(path))
                              candidates.append(path);
                      }

@@ -1,20 +1,20 @@
 --- a/kdewidgets/CMakeLists.txt
 +++ b/kdewidgets/CMakeLists.txt
-@@ -54,7 +54,7 @@ if(NOT WIN32)
-                        )
- endif(NOT WIN32)
+@@ -54,7 +54,7 @@
+                          )
+   endif(NOT WIN32)
  
--install(TARGETS kdewidgets  DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/designer )
-+install(TARGETS kdewidgets  DESTINATION /usr/lib/qt4/plugins/designer )
+-  install(TARGETS kdewidgets  DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/designer )
++  install(TARGETS kdewidgets  DESTINATION /usr/lib/qt4/plugins/designer )
  
- if (QT_QT3SUPPORT_FOUND)
-   
-@@ -88,7 +88,7 @@ if (QT_QT3SUPPORT_FOUND)
-                            )
-    endif(NOT WIN32)
+   if (QT_QT3SUPPORT_FOUND)
  
--   install(TARGETS kde3supportwidgets  DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/designer )
-+   install(TARGETS kde3supportwidgets  DESTINATION /usr/lib/qt4/plugins/designer )
- endif (QT_QT3SUPPORT_FOUND)
+@@ -88,7 +88,7 @@
+                              )
+      endif(NOT WIN32)
  
+-     install(TARGETS kde3supportwidgets  DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/designer )
++     install(TARGETS kde3supportwidgets  DESTINATION /usr/lib/qt4/plugins/designer )
+   endif (QT_QT3SUPPORT_FOUND)
+ endif (QT_QTDESIGNER_FOUND)
  

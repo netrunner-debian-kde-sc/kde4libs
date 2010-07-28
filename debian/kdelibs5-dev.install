@@ -1785,8 +1785,6 @@ usr/include/threadweaver/WeaverInterface.h
 usr/include/threadweaver/WeaverObserver.h
 usr/include/threadweaver/threadweaver_export.h
 usr/lib/kde4/libexec/kauth-policy-gen
-usr/lib/kde4/plugins/designer/kde3supportwidgets.so
-usr/lib/kde4/plugins/designer/kdewidgets.so
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so
 usr/lib/libkatepartinterfaces.so
 usr/lib/libkcmutils.so
@@ -1825,6 +1823,8 @@ usr/lib/libnepomukquery.so
 usr/lib/libplasma.so
 usr/lib/libsolid.so
 usr/lib/libthreadweaver.so
+usr/lib/qt4/plugins/designer/kde3supportwidgets.so
+usr/lib/qt4/plugins/designer/kdewidgets.so
 usr/share/dbus-1/interfaces/org.freedesktop.PowerManagement.Inhibit.xml
 usr/share/dbus-1/interfaces/org.freedesktop.PowerManagement.xml
 usr/share/dbus-1/interfaces/org.kde.JobView.xml

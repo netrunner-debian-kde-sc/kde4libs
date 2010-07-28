@@ -17,6 +17,7 @@ kde4libs (4:4.4.95-0r1) UNRELEASED; urgency=low
   * Add symbol files for the new libraries.
   * Remove libkutils4.symbols as kutils is now a dummy
     transitional library with no symbols.
+  * Refresh patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jul 2010 20:01:26 +0300
 
