@@ -17,11 +17,6 @@ DEB_DH_MAKESHLIBS_ARGS_ALL := -V -u-c0
 # remove dependencies on kdebase-runtime and phonon (the metapackage)
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime -xphonon
 
-#ifeq (ia64,$(DEB_HOST_ARCH))
-#    CFLAGS += -ffunction-sections
-#    CXXFLAGS += -ffunction-sections
-#endif
-
 # Libraries stuff
 DEB_KDE43_LIBRARY_PACKAGES := libkdecore5 libkdeui5 libkde3support4 libkdesu5 libkdnssd4 \
     libkfile4 libkhtml5 libkimproxy4 libkio5 libkjsapi4 libkjsembed4 libkmediaplayer4 \
