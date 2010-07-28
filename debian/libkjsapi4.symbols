@@ -136,10 +136,8 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS21StandardGlobalPackageC2Ev@Base 4:4.3.4
  _ZN3KJS3InfE@Base 4:4.4.95
  _ZN3KJS3NaNE@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN3KJS4List10markValuesEv@Base 4:4.3.4
  _ZN3KJS4List14appendSlowCaseEPNS_7JSValueE@Base 4:4.4.95
  _ZN3KJS4List18markProtectedListsEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN3KJS4List5clearEv@Base 4:4.3.4
  _ZN3KJS4List5emptyEv@Base 4:4.3.4
  _ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.3.4
  _ZN3KJS4List7releaseEv@Base 4:4.3.4
@@ -257,7 +255,6 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS8JSObject22fillGetterPropertySlotERNS_12PropertySlotEPPNS_7JSValueE@Base 4:4.3.4
  _ZN3KJS8JSObject3putEPNS_9ExecStateERKNS_10IdentifierEPNS_7JSValueEi@Base 4:4.3.4
  _ZN3KJS8JSObject3putEPNS_9ExecStateEjPNS_7JSValueEi@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN3KJS8JSObject4callEPNS_9ExecStateEPS0_RKNS_4ListE@Base 4:4.3.4
  _ZN3KJS8JSObject4markEv@Base 4:4.3.4
  _ZN3KJS8JSObject9constructEPNS_9ExecStateERKNS_4ListE@Base 4:4.3.4
  _ZN3KJS8JSObject9constructEPNS_9ExecStateERKNS_4ListERKNS_10IdentifierERKNS_7UStringEi@Base 4:4.3.4
@@ -345,7 +342,6 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZNK3KJS14ScopeChainLink4nextEv@Base 4:4.4.95
  _ZNK3KJS19InternalFunctionImp14implementsCallEv@Base 4:4.3.4
  _ZNK3KJS19InternalFunctionImp21implementsHasInstanceEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZNK3KJS4List2atEi@Base 4:4.3.4
  _ZNK3KJS4List4copyEv@Base 4:4.3.4
  _ZNK3KJS4List8copyTailEv@Base 4:4.3.4
  _ZNK3KJS6JSCell14implementsCallEv@Base 4:4.3.4

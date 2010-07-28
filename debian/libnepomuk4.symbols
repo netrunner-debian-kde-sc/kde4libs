@@ -73,7 +73,6 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN17KTagDisplayWidgetD0Ev@Base 4:4.3.4
  _ZN17KTagDisplayWidgetD1Ev@Base 4:4.3.4
  _ZN17KTagDisplayWidgetD2Ev@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN18DBusConnectionPool16threadConnectionEv@Base 4:4.4.0
  _ZN7Nepomuk11errorStringENS_9ErrorCodeE@Base 4:4.3.4
  _ZN7Nepomuk11rdfNamepaceEv@Base 4:4.3.4
  _ZN7Nepomuk12defaultGraphEv@Base 4:4.3.4
@@ -531,13 +530,11 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk8TagCloudD1Ev@Base 4:4.3.4
  _ZN7Nepomuk8TagCloudD2Ev@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget10tagClickedENS_3TagE@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN7Nepomuk9TagWidget11fillTagMenuEv@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget11slotShowAllEv@Base 4:4.4.95
  _ZN7Nepomuk9TagWidget12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.4.95
  _ZN7Nepomuk9TagWidget12setModeFlagsE6QFlagsINS0_8ModeFlagEE@Base 4:4.4.95
-#MISSING: 4:4.4.95# _ZN7Nepomuk9TagWidget14slotTagClickedERK7QString@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget15setAssignedTagsERK5QListINS_3TagEE@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget15setMaxTagsShownEi@Base 4:4.4.95
  _ZN7Nepomuk9TagWidget15setSelectedTagsERK5QListINS_3TagEE@Base 4:4.4.95
@@ -547,8 +544,6 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk9TagWidget17slotTagUpdateDoneEv@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget18setTaggedResourcesERK5QListINS_8ResourceEE@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget19slotTagStateChangedERKNS_3TagEi@Base 4:4.4.95
-#MISSING: 4:4.4.95# _ZN7Nepomuk9TagWidget26updateAssignedTagsFromMenuEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN7Nepomuk9TagWidget9createTagEv@Base 4:4.3.4
  _ZN7Nepomuk9TagWidgetC1EP7QWidget@Base 4:4.3.4
  _ZN7Nepomuk9TagWidgetC1ERKNS_8ResourceEP7QWidget@Base 4:4.3.4
  _ZN7Nepomuk9TagWidgetC2EP7QWidget@Base 4:4.3.4

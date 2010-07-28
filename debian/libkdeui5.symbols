@@ -9,7 +9,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _Z12SmallIconSetRK7QStringi@Base 4:4.3.4
  _Z14DesktopIconSetRK7QStringi@Base 4:4.3.4
  _Z14MainBarIconSetRK7QStringi@Base 4:4.3.4
-#MISSING: 4:4.4.95# _Z21kdeui_standardPalettev@Base 4:4.3.4
  _Z7BarIconRK7QStringiiRK11QStringList@Base 4:4.3.4
  _Z8IconSizeN11KIconLoader5GroupE@Base 4:4.3.4
  _Z8UserIconRK7QStringiRK11QStringList@Base 4:4.3.4
@@ -1113,16 +1112,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN12KColorDialog19KColorDialogPrivate17slotColorSelectedERK6QColor@Base 4:4.3.4
  _ZN12KColorDialog19KColorDialogPrivate17slotColorSelectedERK6QColorRK7QString@Base 4:4.3.4
  _ZN12KColorDialog19KColorDialogPrivate17slotWriteSettingsEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN12KColorDialog19KColorDialogPrivate17updateModeButtonsEv@Base 4:4.3.4
  _ZN12KColorDialog19KColorDialogPrivate21slotAddToCustomColorsEv@Base 4:4.3.4
  _ZN12KColorDialog19KColorDialogPrivate22slotColorDoubleClickedERK6QColorRK7QString@Base 4:4.3.4
  _ZN12KColorDialog19KColorDialogPrivate23slotDefaultColorClickedEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN12KColorDialog19KColorDialogPrivate8setBModeEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN12KColorDialog19KColorDialogPrivate8setGModeEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN12KColorDialog19KColorDialogPrivate8setHModeEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN12KColorDialog19KColorDialogPrivate8setRModeEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN12KColorDialog19KColorDialogPrivate8setSModeEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN12KColorDialog19KColorDialogPrivate8setVModeEv@Base 4:4.3.4
  _ZN12KColorDialog19KColorDialogPrivate9_setColorERK6QColorRK7QString@Base 4:4.3.4
  _ZN12KColorDialog19KColorDialogPrivate9showColorERK6QColorRK7QString@Base 4:4.3.4
  _ZN12KColorDialog22setAlphaChannelEnabledEb@Base 4:4.4.95
@@ -1351,7 +1343,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN12KPixmapCache7Private15writeIndexEntryER11QDataStreamRK7QStringi@Base 4:4.3.4
  _ZN12KPixmapCache7Private16checkFileVersionERK7QString@Base 4:4.3.4
  _ZN12KPixmapCache7Private19invalidateMmapFilesEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN12KPixmapCache7Private21scheduleRemoveEntriesEi@Base 4:4.3.4
  _ZN12KPixmapCache7Private4initEv@Base 4:4.3.4
  _ZN12KPixmapCache7Private7mCachesE@Base 4:4.3.4
  _ZN12KPixmapCache7Private8indexKeyERK7QString@Base 4:4.3.4
@@ -1875,7 +1866,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN14KCompletionBox15slotItemClickedEP15QListWidgetItem@Base 4:4.3.4
  _ZN14KCompletionBox16setCancelledTextERK7QString@Base 4:4.3.4
  _ZN14KCompletionBox16staticMetaObjectE@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN14KCompletionBox18slotCurrentChangedEv@Base 4:4.3.4
  _ZN14KCompletionBox19setActivateOnSelectEb@Base 4:4.3.4
  _ZN14KCompletionBox2upEv@Base 4:4.3.4
  _ZN14KCompletionBox3endEv@Base 4:4.3.4
@@ -2616,7 +2606,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN16KAssistantDialog4backEv@Base 4:4.3.4
  _ZN16KAssistantDialog4nextEv@Base 4:4.3.4
  _ZN16KAssistantDialog7Private20_k_slotUpdateButtonsEv@Base 4:4.4.95
-#MISSING: 4:4.4.95# _ZN16KAssistantDialog7Private25_k_slotCurrentPageChangedEv@Base 4:4.3.4
  _ZN16KAssistantDialog7Private4initEv@Base 4:4.3.4
  _ZN16KAssistantDialog8setValidEP15KPageWidgetItemb@Base 4:4.3.4
  _ZN16KAssistantDialog9showEventEP10QShowEvent@Base 4:4.3.4
@@ -2661,7 +2650,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN16KCategorizedView7Private11blockHeightERK7QString@Base 4:4.4.0
  _ZN16KCategorizedView7Private12rowsInsertedERK11QModelIndexii@Base 4:4.4.0
  _ZN16KCategorizedView7Private13blockPositionERK7QString@Base 4:4.4.0
-#MISSING: 4:4.4.95# _ZN16KCategorizedView7Private13drawerIndexAtERK6QPoint@Base 4:4.4.0
  _ZN16KCategorizedView7Private21regenerateAllElementsEv@Base 4:4.4.0
  _ZN16KCategorizedView7Private30_k_slotCollapseOrExpandClickedE11QModelIndex@Base 4:4.4.0
  _ZN16KCategorizedView7Private9blockRectERK11QModelIndex@Base 4:4.4.95
@@ -2963,7 +2951,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN17KGradientSelector13setSecondTextERK7QString@Base 4:4.3.4
  _ZN17KGradientSelector14setSecondColorERK6QColor@Base 4:4.3.4
  _ZN17KGradientSelector16staticMetaObjectE@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN17KGradientSelector24KGradientSelectorPrivate4initEv@Base 4:4.3.4
  _ZN17KGradientSelector7setTextERK7QStringS2_@Base 4:4.3.4
  _ZN17KGradientSelector8setStopsERK7QVectorI5QPairId6QColorEE@Base 4:4.4.95
  _ZN17KGradientSelector9setColorsERK6QColorS2_@Base 4:4.3.4
@@ -3046,15 +3033,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN17KStandardShortcut9selectAllEv@Base 4:4.3.4
  _ZN17KStandardShortcut9whatsThisENS_16StandardShortcutE@Base 4:4.3.4
  _ZN17KStandardShortcut9whatsThisEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN17KWhatsThisManager10s_instanceE@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN17KWhatsThisManager11eventFilterEP7QObjectP6QEvent@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN17KWhatsThisManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN17KWhatsThisManager11qt_metacastEPKc@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN17KWhatsThisManager16staticMetaObjectE@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN17KWhatsThisManager4initEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN17KWhatsThisManager7clickedERK7QStringP7QWidget@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN17KWhatsThisManagerC1Ev@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN17KWhatsThisManagerC2Ev@Base 4:4.3.4
  _ZN17KWidgetJobTracker11descriptionEP4KJobRK7QStringRK5QPairIS2_S2_ES8_@Base 4:4.3.4
  _ZN17KWidgetJobTracker11infoMessageEP4KJobRK7QStringS4_@Base 4:4.3.4
  _ZN17KWidgetJobTracker11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -3839,12 +3817,10 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN5KFind4findERK7QStringRK7QRegExpilPi@Base 4:4.3.4
  _ZN5KFind4findERK7QStringS2_ilPi@Base 4:4.3.4
  _ZN5KFind4findEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN5KFind7Private12isWholeWordsERK7QStringii@Base 4:4.3.4
  _ZN5KFind7Private15_k_slotFindNextEv@Base 4:4.3.4
  _ZN5KFind7Private19_k_slotDialogClosedEv@Base 4:4.3.4
  _ZN5KFind7Private25startNewIncrementalSearchEv@Base 4:4.3.4
  _ZN5KFind7Private4initERK7QString@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN5KFind7Private8isInWordE5QChar@Base 4:4.3.4
  _ZN5KFind7setDataERK7QStringi@Base 4:4.3.4
  _ZN5KFind7setDataEiRK7QStringi@Base 4:4.3.4
  _ZN5KFind8findNextEv@Base 4:4.3.4
@@ -4323,7 +4299,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN7KWallet6Wallet21disconnectApplicationERK7QStringS3_@Base 4:4.3.4
  _ZN7KWallet6Wallet21requestChangePasswordEm@Base 4:4.3.4
  _ZN7KWallet6Wallet21slotFolderListUpdatedERK7QString@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN7KWallet6Wallet23slotServiceOwnerChangedERK7QStringS3_S3_@Base 4:4.3.4
  _ZN7KWallet6Wallet24emitWalletAsyncOpenErrorEv@Base 4:4.3.4
  _ZN7KWallet6Wallet27slotApplicationDisconnectedERK7QStringS3_@Base 4:4.3.4
  _ZN7KWallet6Wallet4syncEv@Base 4:4.3.4
@@ -4596,7 +4571,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN9KLineEdit17mouseReleaseEventEP11QMouseEvent@Base 4:4.3.4
  _ZN9KLineEdit17setCompletedItemsERK11QStringListb@Base 4:4.3.4
  _ZN9KLineEdit17setCompletionModeEN15KGlobalSettings10CompletionE@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN9KLineEdit17setTextWorkaroundERK7QString@Base 4:4.3.4
  _ZN9KLineEdit17updateClearButtonEv@Base 4:4.3.4
  _ZN9KLineEdit18clearButtonClickedEv@Base 4:4.3.4
  _ZN9KLineEdit18setUrlDropsEnabledEb@Base 4:4.3.4
@@ -5491,10 +5465,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK16KCategorizedView15categorySpacingEv@Base 4:4.4.0
  _ZNK16KCategorizedView17collapsibleBlocksEv@Base 4:4.4.0
  _ZNK16KCategorizedView22alternatingBlockColorsEv@Base 4:4.4.0
-#MISSING: 4:4.4.95# _ZNK16KCategorizedView7Private10listSelectERK5QListI11QModelIndexE@Base 4:4.4.0
  _ZNK16KCategorizedView7Private13isCategorizedEv@Base 4:4.4.0
  _ZNK16KCategorizedView7Private13mapToViewportERK5QRect@Base 4:4.4.0
-#MISSING: 4:4.4.95# _ZNK16KCategorizedView7Private13rangeSelectedERK11QModelIndexRKi@Base 4:4.4.0
  _ZNK16KCategorizedView7Private13viewportWidthEv@Base 4:4.4.0
  _ZNK16KCategorizedView7Private15mapFromViewportERK5QRect@Base 4:4.4.0
  _ZNK16KCategorizedView7Private16categoryForIndexERK11QModelIndex@Base 4:4.4.0
@@ -5594,8 +5566,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK17KGradientSelector5stopsEv@Base 4:4.4.95
  _ZNK17KGradientSelector9firstTextEv@Base 4:4.3.4
  _ZNK17KSelectionWatcher10metaObjectEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZNK17KWhatsThisManager10metaObjectEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZNK17KWhatsThisManager4textEv@Base 4:4.3.4
  _ZNK17KWidgetJobTracker10metaObjectEv@Base 4:4.3.4
  _ZNK17KWidgetJobTracker7Private10autoDeleteEP4KJob@Base 4:4.3.4
  _ZNK17KWidgetJobTracker7Private11stopOnCloseEP4KJob@Base 4:4.3.4
@@ -6157,7 +6127,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTI17KFadeWidgetEffect@Base 4:4.3.4
  _ZTI17KGradientSelector@Base 4:4.3.4
  _ZTI17KSelectionWatcher@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZTI17KWhatsThisManager@Base 4:4.3.4
  _ZTI17KWidgetJobTracker@Base 4:4.3.4
  _ZTI18KKeySequenceWidget@Base 4:4.3.4
  _ZTI18KMimeTypeValidator@Base 4:4.3.4
@@ -6229,7 +6198,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTIN11KImageCache7PrivateE@Base 4:4.4.95
  _ZTIN11KPopupFrame18KPopupFramePrivate19OutsideClickCatcherE@Base 4:4.3.4
  _ZTIN12KEditListBox12CustomEditorE@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZTIN12KPixmapCache7Private13RemovalThreadE@Base 4:4.3.4
  _ZTIN15KConfigSkeleton8ItemFontE@Base 4:4.3.4
  _ZTIN15KConfigSkeleton9ItemColorE@Base 4:4.3.4
  _ZTIN15KSelectionOwner7PrivateE@Base 4:4.3.4
@@ -6371,7 +6339,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTS17KFadeWidgetEffect@Base 4:4.3.4
  _ZTS17KGradientSelector@Base 4:4.3.4
  _ZTS17KSelectionWatcher@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZTS17KWhatsThisManager@Base 4:4.3.4
  _ZTS17KWidgetJobTracker@Base 4:4.3.4
  _ZTS18KKeySequenceWidget@Base 4:4.3.4
  _ZTS18KMimeTypeValidator@Base 4:4.3.4
@@ -6443,7 +6410,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTSN11KImageCache7PrivateE@Base 4:4.4.95
  _ZTSN11KPopupFrame18KPopupFramePrivate19OutsideClickCatcherE@Base 4:4.3.4
  _ZTSN12KEditListBox12CustomEditorE@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZTSN12KPixmapCache7Private13RemovalThreadE@Base 4:4.3.4
  _ZTSN15KConfigSkeleton8ItemFontE@Base 4:4.3.4
  _ZTSN15KConfigSkeleton9ItemColorE@Base 4:4.3.4
  _ZTSN15KSelectionOwner7PrivateE@Base 4:4.3.4
@@ -6586,7 +6552,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV17KFadeWidgetEffect@Base 4:4.3.4
  _ZTV17KGradientSelector@Base 4:4.3.4
  _ZTV17KSelectionWatcher@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZTV17KWhatsThisManager@Base 4:4.3.4
  _ZTV17KWidgetJobTracker@Base 4:4.3.4
  _ZTV18KKeySequenceWidget@Base 4:4.3.4
  _ZTV18KMimeTypeValidator@Base 4:4.3.4
@@ -6657,7 +6622,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTVN11KImageCache7PrivateE@Base 4:4.4.95
  _ZTVN11KPopupFrame18KPopupFramePrivate19OutsideClickCatcherE@Base 4:4.3.4
  _ZTVN12KEditListBox12CustomEditorE@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZTVN12KPixmapCache7Private13RemovalThreadE@Base 4:4.3.4
  _ZTVN15KConfigSkeleton8ItemFontE@Base 4:4.3.4
  _ZTVN15KConfigSkeleton9ItemColorE@Base 4:4.3.4
  _ZTVN15KSelectionOwner7PrivateE@Base 4:4.3.4

@@ -3203,7 +3203,6 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma10DataEngine7packageEv@Base 4:4.4.4-2~
  _ZNK6Plasma10DataEngine7sourcesEv@Base 4:4.4.4-2~
  _ZNK6Plasma10IconAction10isSelectedEv@Base 4:4.4.4-2~
-#MISSING: 4:4.4.95# _ZNK6Plasma10IconAction11animationIdEv@Base 4:4.4.4-2~
  _ZNK6Plasma10IconAction11isAnimatingEv@Base 4:4.4.95
  _ZNK6Plasma10IconAction4rectEv@Base 4:4.4.4-2~
  _ZNK6Plasma10IconAction5paintEP8QPainter@Base 4:4.4.4-2~
@@ -3814,7 +3813,6 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma9Wallpaper4iconEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper4nameEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper7packageEv@Base 4:4.4.4-2~
-#MISSING: 4:4.4.95# (optional=templinst|arch=!kfreebsd-amd64 !kfreebsd-i386)_ZNK8KService14createInstanceIN6Plasma14AbstractRunnerEEEPT_P7QObjectRK5QListI8QVariantEP7QString@Base 4:4.4.4-2~
  _ZNK9QUiLoader10metaObjectEv@Base 4:4.4.95
  _ZNK9QUiLoader11pluginPathsEv@Base 4:4.4.95
  _ZNK9QUiLoader16availableLayoutsEv@Base 4:4.4.95

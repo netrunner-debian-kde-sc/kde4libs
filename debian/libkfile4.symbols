@@ -230,7 +230,6 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN13KUrlNavigator14historyChangedEv@Base 4:4.3.4
  _ZN13KUrlNavigator14setLocationUrlERK4KUrl@Base 4:4.4.95
  _ZN13KUrlNavigator14setUrlEditableEb@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN13KUrlNavigator15keyReleaseEventEP9QKeyEvent@Base 4:4.3.4
  _ZN13KUrlNavigator15setShowFullPathEb@Base 4:4.3.4
  _ZN13KUrlNavigator16staticMetaObjectE@Base 4:4.3.4
  _ZN13KUrlNavigator17mouseReleaseEventEP11QMouseEvent@Base 4:4.3.4
@@ -257,7 +256,6 @@ libkfile.so.4 libkfile4 #MINVER#
  (optional=private)_ZN13KUrlNavigator7Private20openPathSelectorMenuEv@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7Private22switchToBreadcrumbModeEv@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7Private22updateButtonVisibilityEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# (optional=private)_ZN13KUrlNavigator7Private23slotRemoteHostActivatedEv@Base 4:4.3.4
  _ZN13KUrlNavigator7Private26slotNavigatorButtonClickedERK4KUrlN2Qt11MouseButtonE@Base 4:4.4.95
  (optional=private)_ZN13KUrlNavigator7Private8dropUrlsERK4KUrlP10QDropEvent@Base 4:4.3.4
  (optional=private)_ZN13KUrlNavigator7PrivateC1EPS_P16KFilePlacesModel@Base 4:4.3.4

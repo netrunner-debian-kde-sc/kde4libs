@@ -4,20 +4,14 @@ libknewstuff3.so.4 libknewstuff3-4 #MINVER#
  _ZN4KNS312UploadDialog10setVersionERK7QString@Base 4:4.4.95
  _ZN4KNS312UploadDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN4KNS312UploadDialog11qt_metacastEPKc@Base 4:4.4.0
-#MISSING: 4:4.4.95# _ZN4KNS312UploadDialog12contentAddedEPN6Attica7BaseJobE@Base 4:4.4.0
-#MISSING: 4:4.4.95# _ZN4KNS312UploadDialog12priceToggledEb@Base 4:4.4.0
  _ZN4KNS312UploadDialog12setChangelogERK7QString@Base 4:4.4.95
-#MISSING: 4:4.4.95# _ZN4KNS312UploadDialog13providerAddedERKN6Attica8ProviderE@Base 4:4.4.0
  _ZN4KNS312UploadDialog13setUploadFileERK4KUrl@Base 4:4.4.0
  _ZN4KNS312UploadDialog13setUploadNameERK7QString@Base 4:4.4.0
-#MISSING: 4:4.4.95# _ZN4KNS312UploadDialog14previewChangedERK4KUrl@Base 4:4.4.0
  _ZN4KNS312UploadDialog14selectCategoryERK7QString@Base 4:4.4.95
  _ZN4KNS312UploadDialog14setDescriptionERK7QString@Base 4:4.4.95
  _ZN4KNS312UploadDialog14setPriceReasonERK7QString@Base 4:4.4.95
  _ZN4KNS312UploadDialog15setPriceEnabledEb@Base 4:4.4.95
-#MISSING: 4:4.4.95# _ZN4KNS312UploadDialog16categoriesLoadedEPN6Attica7BaseJobE@Base 4:4.4.0
  _ZN4KNS312UploadDialog16staticMetaObjectE@Base 4:4.4.0
-#MISSING: 4:4.4.95# _ZN4KNS312UploadDialog18fileUploadFinishedEPN6Attica7BaseJobE@Base 4:4.4.0
  _ZN4KNS312UploadDialog4initERK7QString@Base 4:4.4.0
  _ZN4KNS312UploadDialog6acceptEv@Base 4:4.4.0
  _ZN4KNS312UploadDialog7Private11_k_backPageEv@Base 4:4.4.95
@@ -50,7 +44,6 @@ libknewstuff3.so.4 libknewstuff3-4 #MINVER#
  _ZN4KNS312UploadDialog7Private7setBusyERK7QString@Base 4:4.4.95
  _ZN4KNS312UploadDialog7Private7setIdleERK7QString@Base 4:4.4.95
  _ZN4KNS312UploadDialog7Private8doUploadERK7QStringRK4KUrl@Base 4:4.4.95
-#MISSING: 4:4.4.95# _ZN4KNS312UploadDialog8doUploadERK7QStringS3_@Base 4:4.4.0
  _ZN4KNS312UploadDialog8setPriceEd@Base 4:4.4.95
  _ZN4KNS312UploadDialogC1EP7QWidget@Base 4:4.4.0
  _ZN4KNS312UploadDialogC1ERK7QStringP7QWidget@Base 4:4.4.0

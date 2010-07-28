@@ -134,8 +134,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN10KTcpSocket10setCiphersERK5QListI10KSslCipherE@Base 4:4.3.4
  _ZN10KTcpSocket11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN10KTcpSocket11qt_metacastEPKc@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN10KTcpSocket12aboutToCloseEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN10KTcpSocket12bytesWrittenEx@Base 4:4.3.4
  _ZN10KTcpSocket12disconnectedEv@Base 4:4.3.4
  _ZN10KTcpSocket12stateChangedENS_5StateE@Base 4:4.3.4
  _ZN10KTcpSocket13connectToHostERK12QHostAddresstNS_11ProxyPolicyE@Base 4:4.3.4
@@ -174,7 +172,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN10KTcpSocket9connectedEv@Base 4:4.3.4
  _ZN10KTcpSocket9encryptedEv@Base 4:4.3.4
  _ZN10KTcpSocket9hostFoundEv@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN10KTcpSocket9readyReadEv@Base 4:4.3.4
  _ZN10KTcpSocket9sslErrorsERK5QListI9KSslErrorE@Base 4:4.3.4
  _ZN10KTcpSocket9writeDataEPKcx@Base 4:4.3.4
  _ZN10KTcpSocketC1EP7QObject@Base 4:4.3.4
@@ -864,7 +861,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN15KServiceFactory11allServicesEv@Base 4:4.3.4
  _ZN15KServiceFactory12virtual_hookEiPv@Base 4:4.3.4
  _ZN15KServiceFactory13serviceOffersEii@Base 4:4.3.4
-#MISSING: 4:4.4.95# _ZN15KServiceFactory15serviceFromPathERK7QString@Base 4:4.3.4
  _ZN15KServiceFactory17findServiceByNameERK7QString@Base 4:4.3.4
  _ZN15KServiceFactory19findServiceByMenuIdERK7QString@Base 4:4.3.4
  _ZN15KServiceFactory24findServiceByDesktopNameERK7QString@Base 4:4.3.4
@@ -1316,13 +1312,16 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN24OrgKdeKLauncherInterfaceD0Ev@Base 4:4.3.4
  _ZN24OrgKdeKLauncherInterfaceD1Ev@Base 4:4.3.4
  _ZN24OrgKdeKLauncherInterfaceD2Ev@Base 4:4.3.4
- _ZN3KAr10doWriteDirERK7QStringS2_S2_jlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN3KAr10doWriteDirERK7QStringS2_S2_jlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KAr10doWriteDirERK7QStringS2_S2_tlll@Base 4:4.4.95
  _ZN3KAr11openArchiveE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:4.4.95
  _ZN3KAr12closeArchiveEv@Base 4:4.4.95
  _ZN3KAr12virtual_hookEiPv@Base 4:4.4.95
- _ZN3KAr14doWriteSymLinkERK7QStringS2_S2_S2_jlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN3KAr14doWriteSymLinkERK7QStringS2_S2_S2_jlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KAr14doWriteSymLinkERK7QStringS2_S2_S2_tlll@Base 4:4.4.95
  _ZN3KAr15doFinishWritingEx@Base 4:4.4.95
- _ZN3KAr16doPrepareWritingERK7QStringS2_S2_xjlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN3KAr16doPrepareWritingERK7QStringS2_S2_xjlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KAr16doPrepareWritingERK7QStringS2_S2_xtlll@Base 4:4.4.95
  _ZN3KArC1EP9QIODevice@Base 4:4.4.95
  _ZN3KArC1ERK7QString@Base 4:4.4.95
  _ZN3KArC2EP9QIODevice@Base 4:4.4.95
@@ -1407,7 +1406,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN4KMD5C2Ev@Base 4:4.3.4
  _ZN4KMD5D1Ev@Base 4:4.3.4
  _ZN4KMD5D2Ev@Base 4:4.3.4
- _ZN4KTar10doWriteDirERK7QStringS2_S2_jlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN4KTar10doWriteDirERK7QStringS2_S2_jlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KTar10doWriteDirERK7QStringS2_S2_tlll@Base 4:4.4.95
  _ZN4KTar11KTarPrivate10fillBufferEPcPKcxlcS3_S3_@Base 4:4.4.95
  _ZN4KTar11KTarPrivate10readHeaderEPcR7QStringS3_@Base 4:4.4.95
  _ZN4KTar11KTarPrivate12fillTempFileERK7QString@Base 4:4.4.95
@@ -1419,10 +1419,12 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN4KTar12closeArchiveEv@Base 4:4.4.95
  _ZN4KTar12createDeviceE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:4.4.95
  _ZN4KTar12virtual_hookEiPv@Base 4:4.4.95
- _ZN4KTar14doWriteSymLinkERK7QStringS2_S2_S2_jlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN4KTar14doWriteSymLinkERK7QStringS2_S2_S2_jlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KTar14doWriteSymLinkERK7QStringS2_S2_S2_tlll@Base 4:4.4.95
  _ZN4KTar15doFinishWritingEx@Base 4:4.4.95
  _ZN4KTar15setOrigFileNameERK10QByteArray@Base 4:4.4.95
- _ZN4KTar16doPrepareWritingERK7QStringS2_S2_xjlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN4KTar16doPrepareWritingERK7QStringS2_S2_xjlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KTar16doPrepareWritingERK7QStringS2_S2_xtlll@Base 4:4.4.95
  _ZN4KTarC1EP9QIODevice@Base 4:4.4.95
  _ZN4KTarC1ERK7QStringS2_@Base 4:4.4.95
  _ZN4KTarC2EP9QIODevice@Base 4:4.4.95
@@ -1484,15 +1486,18 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN4KUrlD1Ev@Base 4:4.3.4
  _ZN4KUrlD2Ev@Base 4:4.3.4
  _ZN4KUrlaSERKS_@Base 4:4.3.4
- _ZN4KZip10doWriteDirERK7QStringS2_S2_jlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN4KZip10doWriteDirERK7QStringS2_S2_jlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KZip10doWriteDirERK7QStringS2_S2_tlll@Base 4:4.4.95
  _ZN4KZip11openArchiveE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:4.4.95
  _ZN4KZip12closeArchiveEv@Base 4:4.4.95
  _ZN4KZip12virtual_hookEiPv@Base 4:4.4.95
  _ZN4KZip13setExtraFieldENS_10ExtraFieldE@Base 4:4.4.95
- _ZN4KZip14doWriteSymLinkERK7QStringS2_S2_S2_jlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN4KZip14doWriteSymLinkERK7QStringS2_S2_S2_jlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KZip14doWriteSymLinkERK7QStringS2_S2_S2_tlll@Base 4:4.4.95
  _ZN4KZip14setCompressionENS_11CompressionE@Base 4:4.4.95
  _ZN4KZip15doFinishWritingEx@Base 4:4.4.95
- _ZN4KZip16doPrepareWritingERK7QStringS2_S2_xjlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN4KZip16doPrepareWritingERK7QStringS2_S2_xjlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KZip16doPrepareWritingERK7QStringS2_S2_xtlll@Base 4:4.4.95
  _ZN4KZip9writeDataEPKcx@Base 4:4.4.95
  _ZN4KZipC1EP9QIODevice@Base 4:4.4.95
  _ZN4KZipC1ERK7QString@Base 4:4.4.95
@@ -1887,17 +1892,21 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN8KArchive12createDeviceE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:4.4.95
  _ZN8KArchive12findOrCreateERK7QString@Base 4:4.4.95
  _ZN8KArchive12virtual_hookEiPv@Base 4:4.4.95
- _ZN8KArchive12writeSymLinkERK7QStringS2_S2_S2_jlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN8KArchive12writeSymLinkERK7QStringS2_S2_S2_jlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN8KArchive12writeSymLinkERK7QStringS2_S2_S2_tlll@Base 4:4.4.95
  _ZN8KArchive13finishWritingEx@Base 4:4.4.95
- _ZN8KArchive14prepareWritingERK7QStringS2_S2_xjlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN8KArchive14prepareWritingERK7QStringS2_S2_xjlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN8KArchive14prepareWritingERK7QStringS2_S2_xtlll@Base 4:4.4.95
  _ZN8KArchive17addLocalDirectoryERK7QStringS2_@Base 4:4.4.95
  _ZN8KArchive4openE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:4.4.95
  _ZN8KArchive5closeEv@Base 4:4.4.95
  _ZN8KArchive7rootDirEv@Base 4:4.4.95
- _ZN8KArchive8writeDirERK7QStringS2_S2_jlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN8KArchive8writeDirERK7QStringS2_S2_jlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN8KArchive8writeDirERK7QStringS2_S2_tlll@Base 4:4.4.95
  _ZN8KArchive9setDeviceEP9QIODevice@Base 4:4.4.95
  _ZN8KArchive9writeDataEPKcx@Base 4:4.4.95
- _ZN8KArchive9writeFileERK7QStringS2_S2_PKcxjlll@Base 4:4.4.95
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN8KArchive9writeFileERK7QStringS2_S2_PKcxjlll@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN8KArchive9writeFileERK7QStringS2_S2_PKcxtlll@Base 4:4.4.95
  _ZN8KArchiveC1EP9QIODevice@Base 4:4.4.95
  _ZN8KArchiveC1ERK7QString@Base 4:4.4.95
  _ZN8KArchiveC2EP9QIODevice@Base 4:4.4.95

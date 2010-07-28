@@ -13,6 +13,7 @@ kde4libs (4:4.4.95-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Add packages for the new libararies: libkatepartinterfaces4,
     libkcmutils4, libkidletime4, libkemoticons4, libkprintutils4.
+  * Update symbol files for 4.4.95.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jul 2010 20:01:26 +0300
 
