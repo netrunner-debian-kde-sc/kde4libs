@@ -861,6 +861,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN15KServiceFactory11allServicesEv@Base 4:4.3.4
  _ZN15KServiceFactory12virtual_hookEiPv@Base 4:4.3.4
  _ZN15KServiceFactory13serviceOffersEii@Base 4:4.3.4
+ _ZN15KServiceFactory15serviceFromPathERK7QString@Base 4:4.3.4
  _ZN15KServiceFactory17findServiceByNameERK7QString@Base 4:4.3.4
  _ZN15KServiceFactory19findServiceByMenuIdERK7QString@Base 4:4.3.4
  _ZN15KServiceFactory24findServiceByDesktopNameERK7QString@Base 4:4.3.4

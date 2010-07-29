@@ -1807,14 +1807,12 @@ libkhtml.so.5 libkhtml5 #MINVER#
  (arch=!armel)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
- _ZN3KJS7JSValue9getObjectEv@Base 4:4.4.95
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
  _ZN3KJS7UStringC1ERK7QString@Base 4:4.3.4
  _ZN3KJS7UStringC1ERKN3DOM9DOMStringE@Base 4:4.3.4
  _ZN3KJS7UStringC2ERK7QString@Base 4:4.3.4
  _ZN3KJS7UStringC2ERKN3DOM9DOMStringE@Base 4:4.3.4
- _ZN3KJS8JSObjectC2EPNS_7JSValueE@Base 4:4.4.95
  _ZN5khtml10ChildFrame11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5khtml10ChildFrame11qt_metacastEPKc@Base 4:4.3.4
  _ZN5khtml10ChildFrame16staticMetaObjectE@Base 4:4.3.4
@@ -1824,7 +1822,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN5khtml10MouseEventD1Ev@Base 4:4.3.4
  _ZN5khtml10MouseEventD2Ev@Base 4:4.3.4
  _ZN5khtml11RenderLayer10paintLayerEPS0_P8QPainterRK5QRectb@Base 4:4.3.4
- _ZN5khtml11RenderLayer4dumpER11QTextStreamRK7QString@Base 4:4.4.95
  _ZN5khtml11RenderLayer5paintEP8QPainterRK5QRectb@Base 4:4.3.4
  _ZN5khtml11RenderStyle7cleanupEv@Base 4:4.3.4
  _ZN5khtml12RenderObject7cleanupEv@Base 4:4.3.4
@@ -2204,7 +2201,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.3.4
- (optional=templinst|arch=amd64 armel hppa sparc)_ZNK12KConfigGroup9readEntryIjEET_RK7QStringRKS1_@Base 4:4.4.2
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4:4.3.4
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4:4.3.4
@@ -2827,10 +2823,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3KJS10Identifier7qstringEv@Base 4:4.3.4
  _ZNK3KJS10Identifier9domStringEv@Base 4:4.3.4
  _ZNK3KJS7JSValue4typeEv@Base 4:4.3.4
- _ZNK3KJS7JSValue7toInt32EPNS_9ExecStateE@Base 4:4.4.95
  _ZNK3KJS7JSValue7toInt32EPNS_9ExecStateERb@Base 4:4.3.4
- _ZNK3KJS7JSValue8isObjectEv@Base 4:4.4.95
- _ZNK3KJS7JSValue8toNumberEPNS_9ExecStateE@Base 4:4.4.95
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7UString7qstringEv@Base 4:4.3.4
