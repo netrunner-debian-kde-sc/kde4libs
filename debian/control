@@ -15,7 +15,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), cmake (>= 2.6.4), pkg-kde
  libjasper-dev, libopenexr-dev, libpcre3-dev, zlib1g-dev, libjpeg-dev, hspell, xsltproc,
  libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88),
  libxcursor-dev, libutempter-dev, liblzma-dev, libattica-dev, shared-desktop-ontologies,
- libpolkit-qt-1-dev, libxss-dev, libqca2-dev, libdbusmenu-qt-dev
+ libpolkit-qt-1-dev, libxss-dev, libqca2-dev, libdbusmenu-qt-dev, docbook-xml, docbook-xsl
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde4libs.git
