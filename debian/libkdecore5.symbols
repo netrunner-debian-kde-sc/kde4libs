@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -4093,9 +4093,13 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _Zls6QDebugRK4KUrl@Base 4:4.3.4
  _Zls6QDebugRK9KDateTime@Base 4:4.3.4
  _ZlsR11QDataStreamRK14KServiceAction@Base 4:4.3.4
+ _ZlsR11QDataStreamRK9KDateTime@Base 4:4.5.0
  _ZlsR11QDataStreamRKN13KProtocolInfo10ExtraFieldE@Base 4:4.3.4
+ _ZlsR11QDataStreamRKN9KDateTime4SpecE@Base 4:4.5.0
  _ZrsR11QDataStreamR14KServiceAction@Base 4:4.3.4
+ _ZrsR11QDataStreamR9KDateTime@Base 4:4.5.0
  _ZrsR11QDataStreamRN13KProtocolInfo10ExtraFieldE@Base 4:4.3.4
+ _ZrsR11QDataStreamRN9KDateTime4SpecE@Base 4:4.5.0
  _kde_internal_KConfigGroupGui@Base 4:4.3.4
  (c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KBufferedSocket@Base" 4:4.3.4
  (c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KClientSocketBase@Base" 4:4.3.4

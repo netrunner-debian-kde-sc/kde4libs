@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libkfile.so.4 libkfile4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4:4.4.0
@@ -230,6 +230,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN13KUrlNavigator14historyChangedEv@Base 4:4.3.4
  _ZN13KUrlNavigator14setLocationUrlERK4KUrl@Base 4:4.4.95
  _ZN13KUrlNavigator14setUrlEditableEb@Base 4:4.3.4
+ _ZN13KUrlNavigator15keyReleaseEventEP9QKeyEvent@Base 4:4.5.0
  _ZN13KUrlNavigator15setShowFullPathEb@Base 4:4.3.4
  _ZN13KUrlNavigator16staticMetaObjectE@Base 4:4.3.4
  _ZN13KUrlNavigator17mouseReleaseEventEP11QMouseEvent@Base 4:4.3.4
