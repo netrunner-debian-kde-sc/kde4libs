@@ -18,6 +18,8 @@ kde4libs (4:4.5.0-0r1) UNRELEASED; urgency=low
   * Remove libkutils4.symbols as kutils is now a dummy
     transitional library with no symbols.
   * Refresh patches.
+  * Add patch 01_link_to_pthreads_typo.diff to fix a typo
+    in kdecore/CMakeLists.txt.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jul 2010 20:01:26 +0300
 
