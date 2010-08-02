@@ -488,7 +488,7 @@ Description: core shared data for all KDE Applications
 
 Package: kdoctools
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, docbook-xml
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0), kdelibs-bin (<< 4:4.4.0)
 Description: various tools for accessing application documentation
  This package provides KDE documentation tools (including the "help" KIO slave)
