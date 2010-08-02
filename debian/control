@@ -196,9 +196,11 @@ Package: libkutils4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0)
-Description: various utility classes for the KDE Platform
- This library provides some utility classes for KSettings, KCModule and
- KPlugin.
+Description: dummy transitional library
+ This library has been split into libkcmutils4, libkprintutils4,
+ libkidletime4 and libkemoticons4. This binary is provided to keep
+ binary compatibility with software that was compiled against it.
+ New software should not link against this library.
  .
  This package is part of the KDE Development Platform libraries module.
 
@@ -410,40 +412,49 @@ Description: the KDE WebKit Library
 Package: libkatepartinterfaces4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: WRITEME
- WRITEME.
+Description: the kate part library
+ This library contains the code used by the kate part. It is not
+ meant to be used directly, applications should use libktexteditor4
+ instead.
  .
  This package is part of the KDE Development Platform libraries module.
 
 Package: libkcmutils4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: WRITEME
- WRITEME.
+Description: utility classes for using KCM modules
+ This library provides utility classes for using KCM modules
+ in a KDE application.
  .
  This package is part of the KDE Development Platform libraries module.
 
 Package: libkemoticons4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: WRITEME
- WRITEME.
+Description: utility classes to deal with emoticon themes
+ This library provides utility classes to deal with emoticon
+ themes in KDE applications. It provides classes to load emoticon
+ themes from various sources as well as install new themes.
  .
  This package is part of the KDE Development Platform libraries module.
 
 Package: libkidletime4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: WRITEME
- WRITEME.
+Description: library to provide information about idle time
+ This library contains a class that allows applications to watch for
+ user activity or inactivity. It is useful not only for finding out about
+ the current idle time of the PC, but also for getting notified upon idle
+ time events, such as custom timeouts, or user activity.
  .
  This package is part of the KDE Development Platform libraries module.
 
 Package: libkprintutils4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: WRITEME
- WRITEME.
+Description: utility classes to deal with printing
+ This library is meant to provide utility classes for using printing features
+ in KDE applications. Currently it only provides a print preview dialog.
  .
  This package is part of the KDE Development Platform libraries module.
 
