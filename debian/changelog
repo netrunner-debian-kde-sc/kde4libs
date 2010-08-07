@@ -4,6 +4,9 @@ kde4libs (4:4.5.0-0r2) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
+  * Bump Standards-Version to 3.9.1: add Breaks next to Replaces where needed.
+  * kdelibs5-data should break/replace kdelibs-data 4:3.5.10.dfsg.1-4 as well.
+    That version still has the same files as kdelibs5-data.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
