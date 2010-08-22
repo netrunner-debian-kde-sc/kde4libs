@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.0+svn1166279 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -833,10 +833,10 @@ libkio.so.5 libkio5 #MINVER#
  _ZN17KFileItemDelegateD2Ev@Base 4:4.3.4
  _ZN17KFileMetaInfoItem8addValueERK8QVariant@Base 4:4.3.4
  _ZN17KFileMetaInfoItem8setValueERK8QVariant@Base 4:4.3.4
- _ZN17KFileMetaInfoItemC1ERK19PredicatePropertiesRK8QVariantP16KFileWritePluginb@Base 4:4.3.4
+ _ZN17KFileMetaInfoItemC1ERK7QStringRK8QVariantP16KFileWritePluginb@Base 4:4.5.0+svn1166279
  _ZN17KFileMetaInfoItemC1ERKS_@Base 4:4.3.4
  _ZN17KFileMetaInfoItemC1Ev@Base 4:4.3.4
- _ZN17KFileMetaInfoItemC2ERK19PredicatePropertiesRK8QVariantP16KFileWritePluginb@Base 4:4.3.4
+ _ZN17KFileMetaInfoItemC2ERK7QStringRK8QVariantP16KFileWritePluginb@Base 4:4.5.0+svn1166279
  _ZN17KFileMetaInfoItemC2ERKS_@Base 4:4.3.4
  _ZN17KFileMetaInfoItemC2Ev@Base 4:4.3.4
  _ZN17KFileMetaInfoItemD1Ev@Base 4:4.3.4
@@ -1014,6 +1014,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN19KFileMetaDataWidget11setReadOnlyEb@Base 4:4.4.95
  _ZN19KFileMetaDataWidget12urlActivatedERK4KUrl@Base 4:4.4.95
  _ZN19KFileMetaDataWidget16staticMetaObjectE@Base 4:4.4.95
+ _ZN19KFileMetaDataWidget23metaDataRequestFinishedERK13KFileItemList@Base 4:4.5.0+svn1166279
  _ZN19KFileMetaDataWidget5eventEP6QEvent@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7Private13setRowVisibleEP7QWidgetb@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7Private17slotLinkActivatedERK7QString@Base 4:4.4.95
