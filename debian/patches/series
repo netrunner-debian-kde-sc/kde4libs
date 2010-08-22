@@ -1,4 +1,3 @@
-01_link_to_pthreads_typo.diff
 08_add_debian_build_type.diff
 09_disable_usr_lib_install_rpath.diff
 10_make_libkdeinit4_private.diff

@@ -35,8 +35,6 @@ kde4libs (4:4.5.0+svn1166279-0r1) UNRELEASED; urgency=low
   * Remove libkutils4.symbols as kutils is now a dummy
     transitional library with no symbols.
   * Refresh patches.
-  * Add patch 01_link_to_pthreads_typo.diff to fix a typo
-    in kdecore/CMakeLists.txt.
   * Add docbook-xml dependency on the kdoctools package,
     as it is required for building all of kde's documentation.
 
