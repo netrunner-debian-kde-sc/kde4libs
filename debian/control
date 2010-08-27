@@ -169,7 +169,7 @@ Description: the File Selection Dialog Library for KDE Platform
 Package: libknewstuff2-4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: kdelibs5-data (= ${source:Version})
+Recommends: kdelibs5-data (= ${source:Version}), gnupg
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
 Description: the "Get Hot New Stuff" v2 Library for the KDE Platform
@@ -184,7 +184,7 @@ Description: the "Get Hot New Stuff" v2 Library for the KDE Platform
 Package: libknewstuff3-4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: kdelibs5-data (= ${source:Version})
+Recommends: kdelibs5-data (= ${source:Version}), gnupg
 Description: the "Get Hot New Stuff" v3 Library for the KDE Platform
  The KNewStuff3 ("Get Hot New Stuff" v3) library adds data sharing capabilities
  to the KDE Applications. It uses libattica to access Open Collaboration
