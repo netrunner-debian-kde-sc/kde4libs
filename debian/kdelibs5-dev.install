@@ -654,6 +654,9 @@ usr/include/KDE/KTextEditor/Factory
 usr/include/KDE/KTextEditor/HighlightInterface
 usr/include/KDE/KTextEditor/MarkInterface
 usr/include/KDE/KTextEditor/ModificationInterface
+usr/include/KDE/KTextEditor/MovingCursor
+usr/include/KDE/KTextEditor/MovingInterface
+usr/include/KDE/KTextEditor/MovingRange
 usr/include/KDE/KTextEditor/ParameterizedSessionConfigInterface
 usr/include/KDE/KTextEditor/Plugin
 usr/include/KDE/KTextEditor/Range
@@ -667,6 +670,7 @@ usr/include/KDE/KTextEditor/SmartRange
 usr/include/KDE/KTextEditor/SmartRangeNotifier
 usr/include/KDE/KTextEditor/SmartRangeWatcher
 usr/include/KDE/KTextEditor/TemplateInterface
+usr/include/KDE/KTextEditor/TemplateInterface2
 usr/include/KDE/KTextEditor/TextHintInterface
 usr/include/KDE/KTextEditor/VariableInterface
 usr/include/KDE/KTextEditor/View
