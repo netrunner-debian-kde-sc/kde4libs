@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.2 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -1661,6 +1661,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN6Sonnet17BackgroundChecker4stopEv@Base 4:4.3.4
  _ZN6Sonnet17BackgroundChecker5startEv@Base 4:4.3.4
  _ZN6Sonnet17BackgroundChecker7replaceEiRK7QStringS3_@Base 4:4.3.4
+ _ZN6Sonnet17BackgroundChecker7restoreEP7KConfig@Base 4:4.5.2
  _ZN6Sonnet17BackgroundChecker7setTextERK7QString@Base 4:4.3.4
  _ZN6Sonnet17BackgroundChecker9checkWordERK7QString@Base 4:4.3.4
  _ZN6Sonnet17BackgroundCheckerC1EP7QObject@Base 4:4.3.4

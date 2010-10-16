@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.2 amd64
 libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KateBuffer10unwrapLineEi@Base 4:4.4.95
@@ -804,7 +804,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN4Kate10TextCursorD1Ev@Base 4:4.4.95
  _ZN4Kate10TextCursorD2Ev@Base 4:4.4.95
  _ZN4Kate11TextHistory10insertTextERKN11KTextEditor6CursorEii@Base 4:4.4.95
- _ZN4Kate11TextHistory10removeTextERKN11KTextEditor5RangeE@Base 4:4.4.95
+ _ZN4Kate11TextHistory10removeTextERKN11KTextEditor5RangeEi@Base 4:4.5.2
  _ZN4Kate11TextHistory10unwrapLineEii@Base 4:4.4.95
  _ZN4Kate11TextHistory12lockRevisionEx@Base 4:4.4.95
  _ZN4Kate11TextHistory14transformRangeERN11KTextEditor5RangeE6QFlagsINS1_11MovingRange14InsertBehaviorEENS5_13EmptyBehaviorExx@Base 4:4.4.95
@@ -1285,6 +1285,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZNK4Kate10TextCursor5rangeEv@Base 4:4.4.95
  _ZNK4Kate10TextCursor8documentEv@Base 4:4.4.95
  _ZNK4Kate11TextHistory5Entry15transformCursorERiS2_b@Base 4:4.4.95
+ _ZNK4Kate11TextHistory5Entry22reverseTransformCursorERiS2_b@Base 4:4.5.2
  _ZNK4Kate11TextHistory8revisionEv@Base 4:4.4.95
  _ZNK4Kate12TextLineData11indentDepthEi@Base 4:4.4.95
  _ZNK4Kate12TextLineData13virtualLengthEi@Base 4:4.4.95

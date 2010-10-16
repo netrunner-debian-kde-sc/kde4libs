@@ -1851,6 +1851,7 @@ usr/share/dbus-1/interfaces/org.kde.kded.xml
 usr/share/dbus-1/interfaces/org.kde.kglobalaccel.Component.xml
 usr/share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
 usr/share/kde4/apps/cmake/modules/BasicFindPackageVersion.cmake.in
+usr/share/kde4/apps/cmake/modules/CMakeParseArguments.cmake
 usr/share/kde4/apps/cmake/modules/CheckCXXSourceCompiles.cmake
 usr/share/kde4/apps/cmake/modules/CheckCXXSourceRuns.cmake
 usr/share/kde4/apps/cmake/modules/CheckCXXSymbolExists.cmake

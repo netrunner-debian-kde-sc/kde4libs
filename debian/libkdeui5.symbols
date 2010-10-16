@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.2 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -585,6 +585,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11KImageCache7Private16staticMetaObjectE@Base 4:4.4.95
  _ZN11KImageCacheC1ERK7QStringjj@Base 4:4.4.95
  _ZN11KImageCacheC2ERK7QStringjj@Base 4:4.4.95
+ _ZN11KImageCacheD1Ev@Base 4:4.5.2
+ _ZN11KImageCacheD2Ev@Base 4:4.5.2
  _ZN11KIntSpinBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KIntSpinBox11qt_metacastEPKc@Base 4:4.3.4
  _ZN11KIntSpinBox12setEditFocusEb@Base 4:4.3.4
@@ -1676,6 +1678,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KSelectAction20setMenuAccelsEnabledEb@Base 4:4.3.4
  _ZN13KSelectAction22setToolButtonPopupModeEN11QToolButton19ToolButtonPopupModeE@Base 4:4.3.4
  _ZN13KSelectAction5clearEv@Base 4:4.3.4
+ _ZN13KSelectAction5eventEP6QEvent@Base 4:4.5.2
  _ZN13KSelectAction8setItemsERK11QStringList@Base 4:4.3.4
  _ZN13KSelectAction9addActionEP7QAction@Base 4:4.3.4
  _ZN13KSelectAction9addActionERK5KIconRK7QString@Base 4:4.3.4
@@ -3570,6 +3573,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN22KModelIndexProxyMapper16staticMetaObjectE@Base 4:4.4.95
  _ZN22KModelIndexProxyMapperC1EPK18QAbstractItemModelS2_P7QObject@Base 4:4.4.95
  _ZN22KModelIndexProxyMapperC2EPK18QAbstractItemModelS2_P7QObject@Base 4:4.4.95
+ _ZN22KModelIndexProxyMapperD0Ev@Base 4:4.5.2
+ _ZN22KModelIndexProxyMapperD1Ev@Base 4:4.5.2
+ _ZN22KModelIndexProxyMapperD2Ev@Base 4:4.5.2
  _ZN23KAboutApplicationDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN23KAboutApplicationDialog11qt_metacastEPKc@Base 4:4.3.4
  _ZN23KAboutApplicationDialog16staticMetaObjectE@Base 4:4.3.4
@@ -5739,6 +5745,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK25KNotificationRestrictions10metaObjectEv@Base 4:4.3.4
  _ZNK26KRecursiveFilterProxyModel10metaObjectEv@Base 4:4.4.95
  _ZNK26KRecursiveFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:4.4.95
+ _ZNK26KRecursiveFilterProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4:4.5.2
  _ZNK26KRecursiveFilterProxyModel9acceptRowEiRK11QModelIndex@Base 4:4.4.95
  _ZNK27KPassivePopupMessageHandler10metaObjectEv@Base 4:4.3.4
  _ZNK27KPixmapRegionSelectorDialog10metaObjectEv@Base 4:4.4.95

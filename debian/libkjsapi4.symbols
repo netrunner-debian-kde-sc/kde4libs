@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.2 amd64
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -380,6 +380,7 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZNK3KJS7UStringixEi@Base 4:4.3.4
  _ZNK3KJS8Debugger18shouldReportCaughtEv@Base 4:4.3.4
  _ZNK3KJS8Debugger21shouldReindentSourcesEv@Base 4:4.3.4
+ _ZNK3KJS8JSObject10valueCloneEPNS_11InterpreterE@Base 4:4.5.2
  _ZNK3KJS8JSObject11hasPropertyEPNS_9ExecStateERKNS_10IdentifierE@Base 4:4.3.4
  _ZNK3KJS8JSObject11hasPropertyEPNS_9ExecStateEj@Base 4:4.3.4
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.3.4
