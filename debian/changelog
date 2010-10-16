@@ -37,6 +37,7 @@ kde4libs (4:4.5.2-0r1) UNRELEASED; urgency=low
   * Refresh patches.
   * Add docbook-xml dependency on the kdoctools package,
     as it is required for building all of kde's documentation.
+  * Bump kdebase-runtime Breaks/Recommends to version 4.5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jul 2010 20:01:26 +0300
 
