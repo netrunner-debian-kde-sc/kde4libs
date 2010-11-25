@@ -19,37 +19,43 @@ Forwarded: no
 Origin: vendor
 Last-Update: 2010-06-07
 
---- a/CreateKDELibsDependenciesFile.cmake
-+++ b/CreateKDELibsDependenciesFile.cmake
-@@ -31,6 +31,7 @@
- set(KDE4_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}")
+Index: kde4libs/CreateKDELibsDependenciesFile.cmake
+===================================================================
+--- kde4libs.orig/CreateKDELibsDependenciesFile.cmake	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/CreateKDELibsDependenciesFile.cmake	2010-11-25 16:30:54.000000000 +0100
+@@ -32,6 +32,7 @@
  make_install_path_absolute(KDE4_LIB_INSTALL_DIR     ${LIB_INSTALL_DIR})
+ make_install_path_absolute(KDE4_IMPORTS_INSTALL_DIR     ${IMPORTS_INSTALL_DIR})
  make_install_path_absolute(KDE4_LIBEXEC_INSTALL_DIR ${LIBEXEC_INSTALL_DIR})
 +make_install_path_absolute(KDE4_LIBKDEINIT_INSTALL_DIR ${LIBKDEINIT_INSTALL_DIR})
  make_install_path_absolute(KDE4_INCLUDE_INSTALL_DIR ${INCLUDE_INSTALL_DIR})
  make_install_path_absolute(KDE4_BIN_INSTALL_DIR     ${BIN_INSTALL_DIR})
  make_install_path_absolute(KDE4_SBIN_INSTALL_DIR    ${SBIN_INSTALL_DIR})
-@@ -63,6 +64,7 @@
- 
+@@ -65,6 +66,7 @@
  set(KDE4_LIB_INSTALL_DIR     \"${KDE4_LIB_INSTALL_DIR}\")
+ set(KDE4_IMPORTS_INSTALL_DIR     \"${KDE4_IMPORTS_INSTALL_DIR}\")
  set(KDE4_LIBEXEC_INSTALL_DIR \"${KDE4_LIBEXEC_INSTALL_DIR}\")
 +set(KDE4_LIBKDEINIT_INSTALL_DIR \"${KDE4_LIBKDEINIT_INSTALL_DIR}\")
  set(KDE4_INCLUDE_INSTALL_DIR \"${KDE4_INCLUDE_INSTALL_DIR}\")
  set(KDE4_BIN_INSTALL_DIR     \"${KDE4_BIN_INSTALL_DIR}\")
  set(KDE4_SBIN_INSTALL_DIR    \"${KDE4_SBIN_INSTALL_DIR}\")
---- a/cmake/modules/FindKDE4Internal.cmake
-+++ b/cmake/modules/FindKDE4Internal.cmake
-@@ -836,6 +836,7 @@
+Index: kde4libs/cmake/modules/FindKDE4Internal.cmake
+===================================================================
+--- kde4libs.orig/cmake/modules/FindKDE4Internal.cmake	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/cmake/modules/FindKDE4Internal.cmake	2010-11-25 16:30:54.000000000 +0100
+@@ -867,6 +867,7 @@
     _set_fancy(INCLUDE_INSTALL_DIR  "${CMAKE_INSTALL_PREFIX}/include"         "The subdirectory to the header prefix")
  
     _set_fancy(PLUGIN_INSTALL_DIR       "${LIB_INSTALL_DIR}/kde4"                "The subdirectory relative to the install prefix where plugins will be installed (default is ${LIB_INSTALL_DIR}/kde4)")
 +   _set_fancy(LIBKDEINIT_INSTALL_DIR   "${LIB_INSTALL_DIR}"                     "The subdirectory relative to the install prefix where core libraries of the kdeinit based executables may be installed (default is ${LIB_INSTALL_DIR})")
+    _set_fancy(IMPORTS_INSTALL_DIR       "${PLUGIN_INSTALL_DIR}/imports"                "The subdirectory relative to the install prefix where imports will be installed")
     _set_fancy(CONFIG_INSTALL_DIR       "${SHARE_INSTALL_PREFIX}/config"         "The config file install dir")
     _set_fancy(DATA_INSTALL_DIR         "${SHARE_INSTALL_PREFIX}/apps"           "The parent directory where applications can install their data")
-    _set_fancy(HTML_INSTALL_DIR         "${SHARE_INSTALL_PREFIX}/doc/HTML"       "The HTML install dir for documentation")
---- a/cmake/modules/KDE4Macros.cmake
-+++ b/cmake/modules/KDE4Macros.cmake
-@@ -777,6 +777,17 @@
+Index: kde4libs/cmake/modules/KDE4Macros.cmake
+===================================================================
+--- kde4libs.orig/cmake/modules/KDE4Macros.cmake	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/cmake/modules/KDE4Macros.cmake	2010-11-25 16:30:54.000000000 +0100
+@@ -810,6 +810,17 @@
        set_target_properties(kdeinit_${_target_NAME} PROPERTIES OUTPUT_NAME kdeinit4_${_target_NAME})
  
        kde4_add_executable(${_target_NAME} "${_nogui}" ${CMAKE_CURRENT_BINARY_DIR}/${_target_NAME}_dummy.cpp)
@@ -67,9 +73,11 @@ Last-Update: 2010-06-07
        target_link_libraries(${_target_NAME} kdeinit_${_target_NAME})
     endif(WIN32)
  
---- a/kinit/CMakeLists.txt
-+++ b/kinit/CMakeLists.txt
-@@ -54,6 +54,17 @@
+Index: kde4libs/kinit/CMakeLists.txt
+===================================================================
+--- kde4libs.orig/kinit/CMakeLists.txt	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/kinit/CMakeLists.txt	2010-11-25 16:30:54.000000000 +0100
+@@ -57,6 +57,17 @@
  
  install(TARGETS kdeinit4 ${INSTALL_TARGETS_DEFAULT_ARGS} )
  
@@ -87,8 +95,10 @@ Last-Update: 2010-06-07
  ########### kwrapper4 ###############
  if (WIN32)
    set(kwrapper_SRCS kwrapper_win.cpp  )
---- a/config-prefix.h.cmake
-+++ b/config-prefix.h.cmake
+Index: kde4libs/config-prefix.h.cmake
+===================================================================
+--- kde4libs.orig/config-prefix.h.cmake	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/config-prefix.h.cmake	2010-11-25 16:30:54.000000000 +0100
 @@ -12,6 +12,7 @@
  #define __KDE_EXECPREFIX "NONE"
  
@@ -97,8 +107,10 @@ Last-Update: 2010-06-07
  #define DATA_INSTALL_DIR "${DATA_INSTALL_DIR}"
  #define LIB_INSTALL_DIR "${LIB_INSTALL_DIR}"
  #define INCLUDE_INSTALL_DIR "${INCLUDE_INSTALL_DIR}"
---- a/kdecore/kde-config.cpp
-+++ b/kdecore/kde-config.cpp
+Index: kde4libs/kdecore/kde-config.cpp
+===================================================================
+--- kde4libs.orig/kdecore/kde-config.cpp	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/kdecore/kde-config.cpp	2010-11-25 16:30:54.000000000 +0100
 @@ -144,6 +144,7 @@
              "html", I18N_NOOP("HTML documentation"),
              "icon", I18N_NOOP("Icons"),
@@ -107,9 +119,11 @@ Last-Update: 2010-06-07
              "lib", I18N_NOOP("Libraries"),
              "include", I18N_NOOP("Includes/Headers"),
              "locale", I18N_NOOP("Translation files for KLocale"),
---- a/kdecore/kernel/kstandarddirs.cpp
-+++ b/kdecore/kernel/kstandarddirs.cpp
-@@ -161,6 +161,8 @@
+Index: kde4libs/kdecore/kernel/kstandarddirs.cpp
+===================================================================
+--- kde4libs.orig/kdecore/kernel/kstandarddirs.cpp	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/kdecore/kernel/kstandarddirs.cpp	2010-11-25 16:30:54.000000000 +0100
+@@ -165,6 +165,8 @@
  menus
  xdgconf-autostart
  autostart
@@ -118,7 +132,7 @@ Last-Update: 2010-06-07
  */
  
  static const char types_string[] =
-@@ -215,6 +217,8 @@
+@@ -219,6 +221,8 @@
      "menus\0"
      "xdgconf-autostart\0"
      "autostart\0"
@@ -127,7 +141,7 @@ Last-Update: 2010-06-07
      "\0";
  
  static const int types_indices[] = {
-@@ -224,7 +228,7 @@
+@@ -228,7 +232,7 @@
      248,  258,  275,  285,  301,  305,  309,  316,
      326,  336,  354,  359,  377,  387,  403,  416,
      429,  442,  448,  463,  471,  484,  504,  217,
@@ -135,20 +149,24 @@ Last-Update: 2010-06-07
 +    517,  530,  536,  554,  564,  572,   -1
  };
  
- static int tokenize( QStringList& token, const QString& str,
---- a/kdecore/kernel/kstandarddirs_unix.cpp
-+++ b/kdecore/kernel/kstandarddirs_unix.cpp
-@@ -39,6 +39,8 @@
-                 return QString::fromLatin1(KCFG_INSTALL_DIR "/");
+ static void tokenize(QStringList& token, const QString& str,
+Index: kde4libs/kdecore/kernel/kstandarddirs_unix.cpp
+===================================================================
+--- kde4libs.orig/kdecore/kernel/kstandarddirs_unix.cpp	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/kdecore/kernel/kstandarddirs_unix.cpp	2010-11-25 16:34:51.000000000 +0100
+@@ -40,6 +40,8 @@
+                 return QFile::decodeName(KCFG_INSTALL_DIR "/");
              if (strcmp("kdedir", type) == 0)
-                 return QString::fromLatin1(KDEDIR "/");
+                 return QFile::decodeName(KDEDIR "/");
 +            if (strcmp("kdeinit", type) == 0)
-+                return QString::fromLatin1(LIBKDEINIT_INSTALL_DIR "/");
++                return QFile::decodeName(LIBKDEINIT_INSTALL_DIR "/");
              break;
          case 'd':
              if (strcmp("data", type) == 0)
---- a/kdecore/kernel/kstandarddirs_win.cpp
-+++ b/kdecore/kernel/kstandarddirs_win.cpp
+Index: kde4libs/kdecore/kernel/kstandarddirs_win.cpp
+===================================================================
+--- kde4libs.orig/kdecore/kernel/kstandarddirs_win.cpp	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/kdecore/kernel/kstandarddirs_win.cpp	2010-11-25 16:30:54.000000000 +0100
 @@ -47,6 +47,8 @@
                  return share() + QLatin1String("config.kcfg/");
              if (strcmp("kdedir", type) == 0)
@@ -158,9 +176,11 @@ Last-Update: 2010-06-07
              break;
          case 'd':
              if (strcmp("data", type) == 0)
---- a/kdecore/util/kpluginloader.cpp
-+++ b/kdecore/util/kpluginloader.cpp
-@@ -112,6 +112,13 @@
+Index: kde4libs/kdecore/util/kpluginloader.cpp
+===================================================================
+--- kde4libs.orig/kdecore/util/kpluginloader.cpp	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/kdecore/util/kpluginloader.cpp	2010-11-25 16:30:54.000000000 +0100
+@@ -113,6 +113,13 @@
          libname = fileinfo.path() + QLatin1String("/lib") + fileinfo.fileName();
  #endif
  
@@ -174,9 +194,11 @@ Last-Update: 2010-06-07
      libfile = cData.dirs()->findResource("lib", libname);
      if (!libfile.isEmpty()) {
          if (!kdeinit) {
---- a/kinit/kinit.cpp
-+++ b/kinit/kinit.cpp
-@@ -496,11 +496,23 @@
+Index: kde4libs/kinit/kinit.cpp
+===================================================================
+--- kde4libs.orig/kinit/kinit.cpp	2010-11-25 16:30:00.000000000 +0100
++++ kde4libs/kinit/kinit.cpp	2010-11-25 16:30:54.000000000 +0100
+@@ -499,11 +499,23 @@
              // try to match an absolute path to an executable binary (either in bin/ or in libexec/)
              // to a kdeinit module in the same prefix
              if( lib.contains( QLatin1String( "/lib" KDELIBSUFF "/kde4/libexec/" ))) {

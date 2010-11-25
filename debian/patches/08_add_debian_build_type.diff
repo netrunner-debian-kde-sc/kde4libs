@@ -7,9 +7,11 @@ icons.
  cmake/modules/FindKDE4Internal.cmake |    2 ++
  1 file changed, 2 insertions(+)
 
---- a/cmake/modules/FindKDE4Internal.cmake
-+++ b/cmake/modules/FindKDE4Internal.cmake
-@@ -1175,11 +1175,13 @@
+Index: kde4libs/cmake/modules/FindKDE4Internal.cmake
+===================================================================
+--- kde4libs.orig/cmake/modules/FindKDE4Internal.cmake	2010-10-27 21:55:42.000000000 +0200
++++ kde4libs/cmake/modules/FindKDE4Internal.cmake	2010-11-25 16:23:01.000000000 +0100
+@@ -1196,11 +1196,13 @@
     set(CMAKE_CXX_FLAGS_DEBUG          "-g -O2 -fno-reorder-blocks -fno-schedule-insns -fno-inline")
     set(CMAKE_CXX_FLAGS_DEBUGFULL      "-g3 -fno-inline")
     set(CMAKE_CXX_FLAGS_PROFILE        "-g3 -fno-inline -ftest-coverage -fprofile-arcs")

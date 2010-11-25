@@ -1,5 +1,7 @@
---- a/kdewidgets/CMakeLists.txt
-+++ b/kdewidgets/CMakeLists.txt
+Index: kde4libs/kdewidgets/CMakeLists.txt
+===================================================================
+--- kde4libs.orig/kdewidgets/CMakeLists.txt	2010-11-25 16:30:53.000000000 +0100
++++ kde4libs/kdewidgets/CMakeLists.txt	2010-11-25 16:35:51.000000000 +0100
 @@ -54,7 +54,7 @@
                           )
    endif(NOT WIN32)
@@ -7,9 +9,9 @@
 -  install(TARGETS kdewidgets  DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/designer )
 +  install(TARGETS kdewidgets  DESTINATION /usr/lib/qt4/plugins/designer )
  
-   if (QT_QT3SUPPORT_FOUND)
- 
-@@ -88,7 +88,7 @@
+   # deprecated widgets
+   if(NOT KDE_NO_DEPRECATED)
+@@ -154,7 +154,7 @@
                               )
       endif(NOT WIN32)
  

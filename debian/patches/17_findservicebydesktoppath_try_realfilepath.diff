@@ -1,9 +1,11 @@
 This patch is an attempt to make KDE find desktop files
 and other stuff when /usr or anything else in the file
 path is a symlink.
---- a/kdecore/services/kservicefactory.cpp
-+++ b/kdecore/services/kservicefactory.cpp
-@@ -124,22 +124,16 @@ KService::Ptr KServiceFactory::findServi
+Index: kde4libs/kdecore/services/kservicefactory.cpp
+===================================================================
+--- kde4libs.orig/kdecore/services/kservicefactory.cpp	2010-11-11 15:41:40.000000000 +0100
++++ kde4libs/kdecore/services/kservicefactory.cpp	2010-11-25 16:40:04.000000000 +0100
+@@ -124,22 +124,16 @@
      return newService;
  }
  
@@ -28,7 +30,7 @@ path is a symlink.
      }
      // Check whether the dictionary was right
      // It's ok that it's wrong, for the case where we're looking up an unknown service,
-@@ -150,6 +144,27 @@ KService::Ptr KServiceFactory::findServi
+@@ -150,6 +144,27 @@
      }
      return newService;
  }
@@ -56,9 +58,11 @@ path is a symlink.
  
  KService::Ptr KServiceFactory::findServiceByMenuId(const QString &_menuId)
  {
---- a/kdecore/services/kservicefactory.h
-+++ b/kdecore/services/kservicefactory.h
-@@ -121,6 +121,8 @@ protected:
+Index: kde4libs/kdecore/services/kservicefactory.h
+===================================================================
+--- kde4libs.orig/kdecore/services/kservicefactory.h	2009-03-10 13:26:06.000000000 +0100
++++ kde4libs/kdecore/services/kservicefactory.h	2010-11-25 16:40:04.000000000 +0100
+@@ -121,6 +121,8 @@
      virtual void virtual_hook( int id, void* data );
  private:
      class KServiceFactoryPrivate* d;

@@ -3,9 +3,11 @@
  kded/vfolder_menu.cpp |    7 ++++---
  2 files changed, 5 insertions(+), 4 deletions(-)
 
---- a/kded/CMakeLists.txt
-+++ b/kded/CMakeLists.txt
-@@ -63,7 +63,7 @@
+Index: kde4libs/kded/CMakeLists.txt
+===================================================================
+--- kde4libs.orig/kded/CMakeLists.txt	2010-10-19 15:39:07.000000000 +0200
++++ kde4libs/kded/CMakeLists.txt	2010-11-25 16:35:46.000000000 +0100
+@@ -74,7 +74,7 @@
  if (WIN32)
  install( FILES applications.menu  DESTINATION  ${SHARE_INSTALL_PREFIX}/xdg/menus )
  else (WIN32)
@@ -14,9 +16,11 @@
  endif (WIN32)
  install( FILES kdedmodule.desktop DESTINATION  ${SERVICETYPES_INSTALL_DIR} )
  install( FILES kded.upd           DESTINATION  ${DATA_INSTALL_DIR}/kconf_update )
---- a/kded/vfolder_menu.cpp
-+++ b/kded/vfolder_menu.cpp
-@@ -772,8 +772,10 @@
+Index: kde4libs/kded/vfolder_menu.cpp
+===================================================================
+--- kde4libs.orig/kded/vfolder_menu.cpp	2010-10-05 13:39:50.000000000 +0200
++++ kde4libs/kded/vfolder_menu.cpp	2010-11-25 16:35:46.000000000 +0100
+@@ -768,8 +768,10 @@
     QString result;
  
     QString xdgMenuPrefix = QString::fromLocal8Bit(qgetenv("XDG_MENU_PREFIX"));
@@ -29,7 +33,7 @@
        QFileInfo fileInfo(fileName);
  
        QString fileNameOnly = fileInfo.fileName();
-@@ -783,7 +785,6 @@
+@@ -779,7 +781,6 @@
        QString baseName = QDir::cleanPath(m_docInfo.baseDir +
                                           fileInfo.path() + '/' + fileNameOnly);
        result = KStandardDirs::locate("xdgconf-menu", baseName);

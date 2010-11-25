@@ -39,6 +39,9 @@ kde4libs (4:4.5.80-0r1) UNRELEASED; urgency=low
     as it is required for building all of kde's documentation.
   * Bump kdebase-runtime Breaks/Recommends to version 4.5.
 
+  [ Didier Raboud ]
+  * Refresh patches for 4.5.80.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Nov 2010 13:19:41 +0200
 
 kde4libs (4:4.4.5-1) unstable; urgency=low

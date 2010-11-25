@@ -2,8 +2,10 @@ Include the Debian menu. Else all would end up under lost & found.
 
 Patch by Sune Vuorela.
 
---- a/kded/applications.menu
-+++ b/kded/applications.menu
+Index: kde4libs/kded/applications.menu
+===================================================================
+--- kde4libs.orig/kded/applications.menu	2010-01-27 01:23:13.000000000 +0100
++++ kde4libs/kded/applications.menu	2010-11-25 16:40:03.000000000 +0100
 @@ -437,5 +437,12 @@
  		</And>
  	</Include>
