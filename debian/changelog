@@ -45,6 +45,8 @@ kde4libs (4:4.5.80-0r1) UNRELEASED; urgency=low
     - Bump required libattica to 0.1.90.
     - Bump required soprano version to 2.5.60.
     - Bump required polkit-qt-1 version to 0.98.1.
+    - Add build dependencies on:
+      - libudev-dev
 
  -- Didier Raboud <didier@raboud.com>  Fri, 26 Nov 2010 15:14:04 +0100
 
