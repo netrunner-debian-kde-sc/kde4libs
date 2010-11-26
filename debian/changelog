@@ -3,10 +3,7 @@ kde4libs (4:4.5.3-0r1) UNRELEASED; urgency=low
   * New upstream release.
 
   [ Modestas Vainius ]
-  * Point debian/control Vcs fields to the new Git repository.
   * Bump Standards-Version to 3.9.1: add Breaks next to Replaces where needed.
-  * kdelibs5-data should break/replace kdelibs-data 4:3.5.10.dfsg.1-4 as well.
-    That version still has the same files as kdelibs5-data.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
@@ -39,7 +36,19 @@ kde4libs (4:4.5.3-0r1) UNRELEASED; urgency=low
     as it is required for building all of kde's documentation.
   * Bump kdebase-runtime Breaks/Recommends to version 4.5.
 
+  [ Pino Toscano ]
+  * Make libknewstuff2-4 and libknewstuff3-4 recommend gnupg, as they can use
+    `gpg' for checking validity and signatures of downloaded content.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Nov 2010 13:19:41 +0200
+
+kde4libs (4:4.4.5-2) unstable; urgency=low
+
+  * Point debian/control Vcs fields to the new Git repository.
+  * kdelibs5-data should break/replace kdelibs-data 4:3.5.10.dfsg.1-4 as well.
+    That version still has the same files as kdelibs5-data.
+
+ -- Modestas Vainius <modax@debian.org>  Fri, 26 Nov 2010 21:46:06 +0200
 
 kde4libs (4:4.4.5-1) unstable; urgency=low
 
