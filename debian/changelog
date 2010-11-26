@@ -1,4 +1,4 @@
-kde4libs (4:4.5.3-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.5.80-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -35,6 +35,9 @@ kde4libs (4:4.5.3-0r1) UNRELEASED; urgency=low
   * Add docbook-xml dependency on the kdoctools package,
     as it is required for building all of kde's documentation.
   * Bump kdebase-runtime Breaks/Recommends to version 4.5.
+
+  [ Didier Raboud ]
+  * Refresh patches for 4.5.80.
 
   [ Pino Toscano ]
   * Make libknewstuff2-4 and libknewstuff3-4 recommend gnupg, as they can use

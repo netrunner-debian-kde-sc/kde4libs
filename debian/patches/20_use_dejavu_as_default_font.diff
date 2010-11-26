@@ -4,9 +4,11 @@ needed).
  kdeui/kernel/kglobalsettings.cpp |    4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
---- a/kdeui/kernel/kglobalsettings.cpp
-+++ b/kdeui/kernel/kglobalsettings.cpp
-@@ -381,7 +381,7 @@ struct KFontData
+Index: kde4libs/kdeui/kernel/kglobalsettings.cpp
+===================================================================
+--- kde4libs.orig/kdeui/kernel/kglobalsettings.cpp	2010-11-11 15:42:13.000000000 +0100
++++ kde4libs/kdeui/kernel/kglobalsettings.cpp	2010-11-25 16:40:06.000000000 +0100
+@@ -397,7 +397,7 @@
  
  // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
  static const char GeneralId[] =      "General";
@@ -15,7 +17,7 @@ needed).
  #ifdef Q_WS_MAC
  static const char DefaultMacFont[] = "Lucida Grande";
  #endif
-@@ -395,7 +395,7 @@ static const KFontData DefaultFontData[K
+@@ -411,7 +411,7 @@
      { GeneralId, "menuFont",    DefaultMacFont, 13, -1, QFont::SansSerif },
  #else
      { GeneralId, "font",        DefaultFont, 9, -1, QFont::SansSerif },

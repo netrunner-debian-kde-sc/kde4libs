@@ -2,9 +2,11 @@
  solid/solid/CMakeLists.txt |    7 +++++++
  1 file changed, 7 insertions(+)
 
---- a/solid/solid/CMakeLists.txt
-+++ b/solid/solid/CMakeLists.txt
-@@ -266,7 +266,14 @@
+Index: kde4libs/solid/solid/CMakeLists.txt
+===================================================================
+--- kde4libs.orig/solid/solid/CMakeLists.txt	2010-11-19 11:52:33.000000000 +0100
++++ kde4libs/solid/solid/CMakeLists.txt	2010-11-25 16:40:09.000000000 +0100
+@@ -362,7 +362,14 @@
  install(FILES org.freedesktop.PowerManagement.Inhibit.xml DESTINATION ${DBUS_INTERFACES_INSTALL_DIR})
  
  ########### static lib for tests  ###############
