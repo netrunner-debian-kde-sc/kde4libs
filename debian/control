@@ -8,7 +8,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), cmake (>= 2.6.4), pkg-kde
  shared-mime-info (>= 0.30), dpkg-dev (>= 1.15.5), libphonon-dev (>= 4:4.6.0really4.3.80),
  libqt4-dev (>= 4:4.7.0~rc1), libqt4-opengl-dev (>= 4:4.7.0~rc1),
  libpng-dev, libssl-dev, libsm-dev, flex, bison,
- libsoprano-dev (>= 2.4.63), libstreamanalyzer-dev (>= 0.6.3),
+ libsoprano-dev (>= 2.5.60), libstreamanalyzer-dev (>= 0.6.3),
  libxml2-dev, libxml2-utils, libxslt1-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, zlib1g-dev, libjpeg-dev, hspell,

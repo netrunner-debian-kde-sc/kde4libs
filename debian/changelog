@@ -12,7 +12,6 @@ kde4libs (4:4.5.80-0r1) UNRELEASED; urgency=low
   * Change my email address in uploaders.
   * Adjust build dependencies:
     - Bump required cmake version to 2.6.4.
-    - Bump required soprano version to 2.4.63.
     - Add build dependencies on:
       - libdbusmenu-qt-dev
       - docbook-xml
@@ -44,8 +43,9 @@ kde4libs (4:4.5.80-0r1) UNRELEASED; urgency=low
   * Adjust build-dependencies:
     - Bump required Qt version to 4:4.7.0~rc1.
     - Bump required libattica to 0.1.90.
+    - Bump required soprano version to 2.5.60.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Nov 2010 13:19:41 +0200
+ -- Didier Raboud <didier@raboud.com>  Fri, 26 Nov 2010 15:14:04 +0100
 
 kde4libs (4:4.4.5-1) unstable; urgency=low
 
