@@ -11,40 +11,21 @@ Forwarded: yes
 Origin: backport, http://websvn.kde.org/?view=revision&revision=1124215
 Last-Update: 2010-06-23
 
---- a/cmake/modules/FindKDE4Internal.cmake
-+++ b/cmake/modules/FindKDE4Internal.cmake
-@@ -943,8 +943,14 @@ if (UNIX)
-    if (APPLE)
-       set(CMAKE_INSTALL_NAME_DIR ${LIB_INSTALL_DIR})
-    else (APPLE)
--      # add our LIB_INSTALL_DIR to the RPATH and use the RPATH figured out by cmake when compiling
--      set(CMAKE_INSTALL_RPATH ${LIB_INSTALL_DIR} )
-+      # add our LIB_INSTALL_DIR to the RPATH (but only when it is not one of the standard system link
-+      # directories listed in CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES) and use the RPATH figured out by cmake when compiling
-+
-+      list(FIND CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES "${LIB_INSTALL_DIR}" _isSystemLibDir)
-+      if("${_isSystemLibDir}" STREQUAL "-1")
-+         set(CMAKE_INSTALL_RPATH "${LIB_INSTALL_DIR}")
-+      endif("${_isSystemLibDir}" STREQUAL "-1")
-+
-       set(CMAKE_SKIP_BUILD_RPATH FALSE)
-       set(CMAKE_BUILD_WITH_INSTALL_RPATH FALSE)
-       set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 --- a/kdewidgets/CMakeLists.txt
 +++ b/kdewidgets/CMakeLists.txt
-@@ -51,7 +51,6 @@ if(NOT WIN32)
-                                    INSTALL_RPATH_USE_LINK_PATH TRUE
-                                    SKIP_BUILD_RPATH TRUE
-                                    BUILD_WITH_INSTALL_RPATH TRUE
--                                   INSTALL_RPATH ${LIB_INSTALL_DIR}
-                        )
- endif(NOT WIN32)
+@@ -51,7 +51,6 @@
+                                      INSTALL_RPATH_USE_LINK_PATH TRUE
+                                      SKIP_BUILD_RPATH TRUE
+                                      BUILD_WITH_INSTALL_RPATH TRUE
+-                                     INSTALL_RPATH ${LIB_INSTALL_DIR}
+                          )
+   endif(NOT WIN32)
  
-@@ -86,7 +85,6 @@ if (QT_QT3SUPPORT_FOUND)
-                                    INSTALL_RPATH_USE_LINK_PATH TRUE
-                                    SKIP_BUILD_RPATH TRUE
-                                    BUILD_WITH_INSTALL_RPATH TRUE
--                                   INSTALL_RPATH ${LIB_INSTALL_DIR}
-                            )
-    endif(NOT WIN32)
+@@ -86,7 +85,6 @@
+                                      INSTALL_RPATH_USE_LINK_PATH TRUE
+                                      SKIP_BUILD_RPATH TRUE
+                                      BUILD_WITH_INSTALL_RPATH TRUE
+-                                     INSTALL_RPATH ${LIB_INSTALL_DIR}
+                              )
+      endif(NOT WIN32)
  

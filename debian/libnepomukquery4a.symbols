@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.95 amd64
 libnepomukquery.so.4 libnepomukquery4a #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN7Nepomuk5Query10SimpleTerm10setSubTermERKNS0_4TermE@Base 4:4.4.0
@@ -29,6 +29,14 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query12NegationTermD1Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query12NegationTermD2Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query12NegationTermaSERKS1_@Base 4:4.4.0
+ _ZN7Nepomuk5Query12OptionalTerm15optionalizeTermERKNS0_4TermE@Base 4:4.4.95
+ _ZN7Nepomuk5Query12OptionalTermC1ERKS1_@Base 4:4.4.95
+ _ZN7Nepomuk5Query12OptionalTermC1Ev@Base 4:4.4.95
+ _ZN7Nepomuk5Query12OptionalTermC2ERKS1_@Base 4:4.4.95
+ _ZN7Nepomuk5Query12OptionalTermC2Ev@Base 4:4.4.95
+ _ZN7Nepomuk5Query12OptionalTermD1Ev@Base 4:4.4.95
+ _ZN7Nepomuk5Query12OptionalTermD2Ev@Base 4:4.4.95
+ _ZN7Nepomuk5Query12OptionalTermaSERKS1_@Base 4:4.4.95
  _ZN7Nepomuk5Query12ResourceTerm11setResourceERKNS_8ResourceE@Base 4:4.4.0
  _ZN7Nepomuk5Query12ResourceTermC1ERKNS_8ResourceE@Base 4:4.4.0
  _ZN7Nepomuk5Query12ResourceTermC1ERKS1_@Base 4:4.4.0
@@ -37,8 +45,12 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query12ResourceTermD1Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query12ResourceTermD2Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query12ResourceTermaSERKS1_@Base 4:4.4.0
+ _ZN7Nepomuk5Query14ComparisonTerm11setInvertedEb@Base 4:4.4.95
  _ZN7Nepomuk5Query14ComparisonTerm11setPropertyERKNS_5Types8PropertyE@Base 4:4.4.0
  _ZN7Nepomuk5Query14ComparisonTerm13setComparatorENS1_10ComparatorE@Base 4:4.4.0
+ _ZN7Nepomuk5Query14ComparisonTerm13setSortWeightEiN2Qt9SortOrderE@Base 4:4.4.95
+ _ZN7Nepomuk5Query14ComparisonTerm15setVariableNameERK7QString@Base 4:4.4.95
+ _ZN7Nepomuk5Query14ComparisonTerm20setAggregateFunctionENS1_17AggregateFunctionE@Base 4:4.4.95
  _ZN7Nepomuk5Query14ComparisonTermC1ERKNS_5Types8PropertyERKNS0_4TermENS1_10ComparatorE@Base 4:4.4.0
  _ZN7Nepomuk5Query14ComparisonTermC1ERKS1_@Base 4:4.4.0
  _ZN7Nepomuk5Query14ComparisonTermC1Ev@Base 4:4.4.0
@@ -65,8 +77,10 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query18QueryServiceClient13blockingQueryERKNS0_5QueryE@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient14entriesRemovedERK5QListI4QUrlE@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient15finishedListingEv@Base 4:4.4.0
+ _ZN7Nepomuk5Query18QueryServiceClient15syncSparqlQueryERK7QStringRK5QHashIS2_NS_5Types8PropertyEEPb@Base 4:4.4.95
  _ZN7Nepomuk5Query18QueryServiceClient16serviceAvailableEv@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient16staticMetaObjectE@Base 4:4.4.0
+ _ZN7Nepomuk5Query18QueryServiceClient16syncDesktopQueryERK7QStringPb@Base 4:4.4.95
  _ZN7Nepomuk5Query18QueryServiceClient19blockingSparqlQueryERK7QStringRK5QHashIS2_NS_5Types8PropertyEE@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient20blockingDesktopQueryERK7QString@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient5closeEv@Base 4:4.4.0
@@ -74,13 +88,16 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query18QueryServiceClient7Private16handleQueryReplyE10QDBusReplyI15QDBusObjectPathE@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient7Private17_k_entriesRemovedERK11QStringList@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient7Private18_k_finishedListingEv@Base 4:4.4.0
+ _ZN7Nepomuk5Query18QueryServiceClient9syncQueryERKNS0_5QueryEPb@Base 4:4.4.95
  _ZN7Nepomuk5Query18QueryServiceClientC1EP7QObject@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClientC2EP7QObject@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClientD0Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClientD1Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClientD2Ev@Base 4:4.4.0
+ _ZN7Nepomuk5Query4Term10fromStringERK7QString@Base 4:4.4.95
  _ZN7Nepomuk5Query4Term13toLiteralTermEv@Base 4:4.4.0
  _ZN7Nepomuk5Query4Term14toNegationTermEv@Base 4:4.4.0
+ _ZN7Nepomuk5Query4Term14toOptionalTermEv@Base 4:4.4.95
  _ZN7Nepomuk5Query4Term14toResourceTermEv@Base 4:4.4.0
  _ZN7Nepomuk5Query4Term16toComparisonTermEv@Base 4:4.4.0
  _ZN7Nepomuk5Query4Term18toResourceTypeTermEv@Base 4:4.4.0
@@ -95,6 +112,8 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query4TermD1Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query4TermD2Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query4TermaSERKS1_@Base 4:4.4.0
+ _ZN7Nepomuk5Query5Query10fromStringERK7QString@Base 4:4.4.95
+ _ZN7Nepomuk5Query5Query12fromQueryUrlERK4KUrl@Base 4:4.4.95
  _ZN7Nepomuk5Query5Query15RequestPropertyC1ERKNS_5Types8PropertyEb@Base 4:4.4.0
  _ZN7Nepomuk5Query5Query15RequestPropertyC1ERKS2_@Base 4:4.4.0
  _ZN7Nepomuk5Query5Query15RequestPropertyC2ERKNS_5Types8PropertyEb@Base 4:4.4.0
@@ -102,10 +121,13 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query5Query15RequestPropertyD1Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query5Query15RequestPropertyD2Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query5Query15RequestPropertyaSERKS2_@Base 4:4.4.0
+ _ZN7Nepomuk5Query5Query17titleFromQueryUrlERK4KUrl@Base 4:4.4.95
  _ZN7Nepomuk5Query5Query18addRequestPropertyERKNS1_15RequestPropertyE@Base 4:4.4.0
+ _ZN7Nepomuk5Query5Query18sparqlFromQueryUrlERK4KUrl@Base 4:4.4.95
  _ZN7Nepomuk5Query5Query20setRequestPropertiesERK5QListINS1_15RequestPropertyEE@Base 4:4.4.0
  _ZN7Nepomuk5Query5Query7setTermERKNS0_4TermE@Base 4:4.4.0
  _ZN7Nepomuk5Query5Query8setLimitEi@Base 4:4.4.0
+ _ZN7Nepomuk5Query5Query9setOffsetEi@Base 4:4.4.95
  _ZN7Nepomuk5Query5QueryC1ERKNS0_4TermE@Base 4:4.4.0
  _ZN7Nepomuk5Query5QueryC1ERKS1_@Base 4:4.4.0
  _ZN7Nepomuk5Query5QueryC1Ev@Base 4:4.4.0
@@ -114,6 +136,7 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query5QueryC2Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query5QueryD1Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query5QueryD2Ev@Base 4:4.4.0
+ _ZN7Nepomuk5Query5QueryaSERKNS0_4TermE@Base 4:4.4.95
  _ZN7Nepomuk5Query5QueryaSERKS1_@Base 4:4.4.0
  _ZN7Nepomuk5Query5qHashERKNS0_4TermE@Base 4:4.4.0
  _ZN7Nepomuk5Query5qHashERKNS0_5QueryE@Base 4:4.4.0
@@ -129,6 +152,7 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query6OrTermD2Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query6OrTermaSERKS1_@Base 4:4.4.0
  _ZN7Nepomuk5Query6Result18addRequestPropertyERKNS_5Types8PropertyERKN7Soprano4NodeE@Base 4:4.4.0
+ _ZN7Nepomuk5Query6Result21setAdditionalBindingsERKN7Soprano10BindingSetE@Base 4:4.4.95
  _ZN7Nepomuk5Query6Result8setScoreEd@Base 4:4.4.0
  _ZN7Nepomuk5Query6ResultC1ERKNS_8ResourceEd@Base 4:4.4.0
  _ZN7Nepomuk5Query6ResultC1ERKS1_@Base 4:4.4.0
@@ -150,12 +174,15 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query7AndTermD1Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query7AndTermD2Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query7AndTermaSERKS1_@Base 4:4.4.0
+ _ZN7Nepomuk5Query9FileQuery11setFileModeE6QFlagsINS1_13FileModeFlagsEE@Base 4:4.4.95
  _ZN7Nepomuk5Query9FileQuery16addExcludeFolderERK4KUrl@Base 4:4.4.0
  _ZN7Nepomuk5Query9FileQuery16addIncludeFolderERK4KUrl@Base 4:4.4.0
  _ZN7Nepomuk5Query9FileQuery17setExcludeFoldersERKN4KUrl4ListE@Base 4:4.4.0
  _ZN7Nepomuk5Query9FileQuery17setIncludeFoldersERKN4KUrl4ListE@Base 4:4.4.0
+ _ZN7Nepomuk5Query9FileQueryC1ERKNS0_4TermE@Base 4:4.4.95
  _ZN7Nepomuk5Query9FileQueryC1ERKNS0_5QueryE@Base 4:4.4.0
  _ZN7Nepomuk5Query9FileQueryC1Ev@Base 4:4.4.0
+ _ZN7Nepomuk5Query9FileQueryC2ERKNS0_4TermE@Base 4:4.4.95
  _ZN7Nepomuk5Query9FileQueryC2ERKNS0_5QueryE@Base 4:4.4.0
  _ZN7Nepomuk5Query9FileQueryC2Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query9FileQueryD1Ev@Base 4:4.4.0
@@ -174,17 +201,26 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZNK7Nepomuk5Query10SimpleTerm7subTermEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query11LiteralTerm5valueEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query11QueryParser13matchPropertyERK7QString@Base 4:4.4.0
+ _ZNK7Nepomuk5Query11QueryParser5parseERK7QString6QFlagsINS1_10ParserFlagEE@Base 4:4.4.95
  _ZNK7Nepomuk5Query11QueryParser5parseERK7QString@Base 4:4.4.0
  _ZNK7Nepomuk5Query12ResourceTerm8resourceEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query14ComparisonTerm10comparatorEv@Base 4:4.4.0
+ _ZNK7Nepomuk5Query14ComparisonTerm10isInvertedEv@Base 4:4.4.95
+ _ZNK7Nepomuk5Query14ComparisonTerm10sortWeightEv@Base 4:4.4.95
+ _ZNK7Nepomuk5Query14ComparisonTerm12variableNameEv@Base 4:4.4.95
+ _ZNK7Nepomuk5Query14ComparisonTerm17aggregateFunctionEv@Base 4:4.4.95
+ _ZNK7Nepomuk5Query14ComparisonTerm8invertedEv@Base 4:4.4.95
  _ZNK7Nepomuk5Query14ComparisonTerm8propertyEv@Base 4:4.4.0
+ _ZNK7Nepomuk5Query14ComparisonTerm9sortOrderEv@Base 4:4.4.95
  _ZNK7Nepomuk5Query16ResourceTypeTerm4typeEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query18QueryServiceClient10metaObjectEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query4Term13isLiteralTermEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query4Term13toLiteralTermEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query4Term14isNegationTermEv@Base 4:4.4.0
+ _ZNK7Nepomuk5Query4Term14isOptionalTermEv@Base 4:4.4.95
  _ZNK7Nepomuk5Query4Term14isResourceTermEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query4Term14toNegationTermEv@Base 4:4.4.0
+ _ZNK7Nepomuk5Query4Term14toOptionalTermEv@Base 4:4.4.95
  _ZNK7Nepomuk5Query4Term14toResourceTermEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query4Term16isComparisonTermEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query4Term16toComparisonTermEv@Base 4:4.4.0
@@ -194,11 +230,14 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZNK7Nepomuk5Query4Term7isValidEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query4Term8isOrTermEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query4Term8toOrTermEv@Base 4:4.4.0
+ _ZNK7Nepomuk5Query4Term8toStringEv@Base 4:4.4.95
  _ZNK7Nepomuk5Query4Term9isAndTermEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query4Term9toAndTermEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query4TermeqERKS1_@Base 4:4.4.0
  _ZNK7Nepomuk5Query4TermlsE6QDebug@Base 4:4.4.0
+ _ZNK7Nepomuk5Query5Query11isFileQueryEv@Base 4:4.4.95
  _ZNK7Nepomuk5Query5Query11toSearchUrlE6QFlagsINS1_10SparqlFlagEE@Base 4:4.4.0
+ _ZNK7Nepomuk5Query5Query11toSearchUrlERK7QString6QFlagsINS1_10SparqlFlagEE@Base 4:4.4.95
  _ZNK7Nepomuk5Query5Query13toSparqlQueryE6QFlagsINS1_10SparqlFlagEE@Base 4:4.4.0
  _ZNK7Nepomuk5Query5Query15RequestProperty8optionalEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query5Query15RequestProperty8propertyEv@Base 4:4.4.0
@@ -207,16 +246,21 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZNK7Nepomuk5Query5Query18requestPropertyMapEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query5Query4termEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query5Query5limitEv@Base 4:4.4.0
+ _ZNK7Nepomuk5Query5Query6offsetEv@Base 4:4.4.95
  _ZNK7Nepomuk5Query5Query7isValidEv@Base 4:4.4.0
+ _ZNK7Nepomuk5Query5Query8toStringEv@Base 4:4.4.95
  _ZNK7Nepomuk5Query5QueryeqERKS1_@Base 4:4.4.0
  _ZNK7Nepomuk5Query6Result15requestPropertyERKNS_5Types8PropertyE@Base 4:4.4.0
+ _ZNK7Nepomuk5Query6Result17additionalBindingERK7QString@Base 4:4.4.95
  _ZNK7Nepomuk5Query6Result17requestPropertiesEv@Base 4:4.4.0
+ _ZNK7Nepomuk5Query6Result18additionalBindingsEv@Base 4:4.4.95
  _ZNK7Nepomuk5Query6Result5scoreEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query6Result8resourceEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query6ResulteqERKS1_@Base 4:4.4.0
  _ZNK7Nepomuk5Query6ResultixERKNS_5Types8PropertyE@Base 4:4.4.0
  _ZNK7Nepomuk5Query9FileQuery14excludeFoldersEv@Base 4:4.4.0
  _ZNK7Nepomuk5Query9FileQuery14includeFoldersEv@Base 4:4.4.0
+ _ZNK7Nepomuk5Query9FileQuery8fileModeEv@Base 4:4.4.95
  _ZNK7Nepomuk5Query9GroupTerm8subTermsEv@Base 4:4.4.0
  _ZTIN7Nepomuk5Query18QueryServiceClientE@Base 4:4.4.0
  _ZTSN7Nepomuk5Query18QueryServiceClientE@Base 4:4.4.0

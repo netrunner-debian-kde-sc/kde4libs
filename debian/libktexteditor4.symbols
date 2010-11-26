@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.2 hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.95 amd64
 libktexteditor.so.4 libktexteditor4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KTextEditor10ConfigPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -40,6 +40,12 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor10SmartRangeD0Ev@Base 4:4.3.4
  _ZN11KTextEditor10SmartRangeD1Ev@Base 4:4.3.4
  _ZN11KTextEditor10SmartRangeD2Ev@Base 4:4.3.4
+ _ZN11KTextEditor11MovingRange8setRangeERKNS_6CursorES3_@Base 4:4.4.95
+ _ZN11KTextEditor11MovingRangeC1Ev@Base 4:4.4.95
+ _ZN11KTextEditor11MovingRangeC2Ev@Base 4:4.4.95
+ _ZN11KTextEditor11MovingRangeD0Ev@Base 4:4.4.95
+ _ZN11KTextEditor11MovingRangeD1Ev@Base 4:4.4.95
+ _ZN11KTextEditor11MovingRangeD2Ev@Base 4:4.4.95
  _ZN11KTextEditor11SmartCursor10insertTextERK11QStringListb@Base 4:4.3.4
  _ZN11KTextEditor11SmartCursor17setInsertBehaviorENS0_14InsertBehaviorE@Base 4:4.3.4
  _ZN11KTextEditor11SmartCursor7advanceEiNS0_11AdvanceModeE@Base 4:4.3.4
@@ -53,6 +59,17 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor12MdiContainerD0Ev@Base 4:4.3.4
  _ZN11KTextEditor12MdiContainerD1Ev@Base 4:4.3.4
  _ZN11KTextEditor12MdiContainerD2Ev@Base 4:4.3.4
+ _ZN11KTextEditor12MovingCursor11setPositionEii@Base 4:4.4.95
+ _ZN11KTextEditor12MovingCursor12gotoNextLineEv@Base 4:4.4.95
+ _ZN11KTextEditor12MovingCursor16gotoPreviousLineEv@Base 4:4.4.95
+ _ZN11KTextEditor12MovingCursor4moveEiNS0_12WrapBehaviorE@Base 4:4.4.95
+ _ZN11KTextEditor12MovingCursor7setLineEi@Base 4:4.4.95
+ _ZN11KTextEditor12MovingCursor9setColumnEi@Base 4:4.4.95
+ _ZN11KTextEditor12MovingCursorC1Ev@Base 4:4.4.95
+ _ZN11KTextEditor12MovingCursorC2Ev@Base 4:4.4.95
+ _ZN11KTextEditor12MovingCursorD0Ev@Base 4:4.4.95
+ _ZN11KTextEditor12MovingCursorD1Ev@Base 4:4.4.95
+ _ZN11KTextEditor12MovingCursorD2Ev@Base 4:4.4.95
  _ZN11KTextEditor12createPluginE10KSharedPtrI8KServiceEP7QObject@Base 4:4.3.4
  _ZN11KTextEditor13EditorChooser11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KTextEditor13EditorChooser11qt_metacastEPKc@Base 4:4.3.4
@@ -71,6 +88,11 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor13MarkInterfaceD0Ev@Base 4:4.3.4
  _ZN11KTextEditor13MarkInterfaceD1Ev@Base 4:4.3.4
  _ZN11KTextEditor13MarkInterfaceD2Ev@Base 4:4.3.4
+ _ZN11KTextEditor13ModeInterfaceC1Ev@Base 4:4.4.95
+ _ZN11KTextEditor13ModeInterfaceC2Ev@Base 4:4.4.95
+ _ZN11KTextEditor13ModeInterfaceD0Ev@Base 4:4.4.95
+ _ZN11KTextEditor13ModeInterfaceD1Ev@Base 4:4.4.95
+ _ZN11KTextEditor13ModeInterfaceD2Ev@Base 4:4.4.95
  _ZN11KTextEditor14SmartInterface13clearRevisionEv@Base 4:4.3.4
  _ZN11KTextEditor14SmartInterface13newSmartRangeERKNS_6CursorES3_PNS_10SmartRangeE6QFlagsINS4_14InsertBehaviorEE@Base 4:4.3.4
  _ZN11KTextEditor14SmartInterface13newSmartRangeEiiiiPNS_10SmartRangeE6QFlagsINS1_14InsertBehaviorEE@Base 4:4.3.4
@@ -81,6 +103,9 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor14SmartInterfaceD0Ev@Base 4:4.3.4
  _ZN11KTextEditor14SmartInterfaceD1Ev@Base 4:4.3.4
  _ZN11KTextEditor14SmartInterfaceD2Ev@Base 4:4.3.4
+ _ZN11KTextEditor14TemplateScriptD0Ev@Base 4:4.4.95
+ _ZN11KTextEditor14TemplateScriptD1Ev@Base 4:4.4.95
+ _ZN11KTextEditor14TemplateScriptD2Ev@Base 4:4.4.95
  _ZN11KTextEditor15AnnotationModel11lineChangedEi@Base 4:4.3.4
  _ZN11KTextEditor15AnnotationModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KTextEditor15AnnotationModel11qt_metacastEPKc@Base 4:4.3.4
@@ -91,6 +116,11 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor15ConfigInterfaceD0Ev@Base 4:4.3.4
  _ZN11KTextEditor15ConfigInterfaceD1Ev@Base 4:4.3.4
  _ZN11KTextEditor15ConfigInterfaceD2Ev@Base 4:4.3.4
+ _ZN11KTextEditor15MovingInterfaceC1Ev@Base 4:4.4.95
+ _ZN11KTextEditor15MovingInterfaceC2Ev@Base 4:4.4.95
+ _ZN11KTextEditor15MovingInterfaceD0Ev@Base 4:4.4.95
+ _ZN11KTextEditor15MovingInterfaceD1Ev@Base 4:4.4.95
+ _ZN11KTextEditor15MovingInterfaceD2Ev@Base 4:4.4.95
  _ZN11KTextEditor15SearchInterfaceC1Ev@Base 4:4.3.4
  _ZN11KTextEditor15SearchInterfaceC2Ev@Base 4:4.3.4
  _ZN11KTextEditor15SearchInterfaceD0Ev@Base 4:4.3.4
@@ -122,6 +152,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor17SmartRangeWatcherD2Ev@Base 4:4.3.4
  _ZN11KTextEditor17TemplateInterface12expandMacrosER4QMapI7QStringS2_EP7QWidget@Base 4:4.3.4
  _ZN11KTextEditor17TemplateInterface18insertTemplateTextERKNS_6CursorERK7QStringRK4QMapIS4_S4_E@Base 4:4.3.4
+ _ZN11KTextEditor17TemplateInterface30KTE_INTERNAL_setupIntialValuesERK7QStringP4QMapIS1_S1_E@Base 4:4.4.95
  _ZN11KTextEditor17TemplateInterfaceC1Ev@Base 4:4.3.4
  _ZN11KTextEditor17TemplateInterfaceC2Ev@Base 4:4.3.4
  _ZN11KTextEditor17TemplateInterfaceD0Ev@Base 4:4.3.4
@@ -177,6 +208,12 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor18SmartRangeNotifier21setWantsDirectChangesEb@Base 4:4.3.4
  _ZN11KTextEditor18SmartRangeNotifierC1Ev@Base 4:4.3.4
  _ZN11KTextEditor18SmartRangeNotifierC2Ev@Base 4:4.3.4
+ _ZN11KTextEditor18TemplateInterface218insertTemplateTextERKNS_6CursorERK7QStringRK4QMapIS4_S4_EPNS_14TemplateScriptE@Base 4:4.4.95
+ _ZN11KTextEditor18TemplateInterface2C1Ev@Base 4:4.4.95
+ _ZN11KTextEditor18TemplateInterface2C2Ev@Base 4:4.4.95
+ _ZN11KTextEditor18TemplateInterface2D0Ev@Base 4:4.4.95
+ _ZN11KTextEditor18TemplateInterface2D1Ev@Base 4:4.4.95
+ _ZN11KTextEditor18TemplateInterface2D2Ev@Base 4:4.4.95
  _ZN11KTextEditor19CodeCompletionModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KTextEditor19CodeCompletionModel11qt_metacastEPKc@Base 4:4.3.4
  _ZN11KTextEditor19CodeCompletionModel11setRowCountEi@Base 4:4.3.4
@@ -190,6 +227,17 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor19CodeCompletionModelD0Ev@Base 4:4.3.4
  _ZN11KTextEditor19CodeCompletionModelD1Ev@Base 4:4.3.4
  _ZN11KTextEditor19CodeCompletionModelD2Ev@Base 4:4.3.4
+ _ZN11KTextEditor19MovingRangeFeedback10rangeEmptyEPNS_11MovingRangeE@Base 4:4.4.95
+ _ZN11KTextEditor19MovingRangeFeedback12rangeInvalidEPNS_11MovingRangeE@Base 4:4.4.95
+ _ZN11KTextEditor19MovingRangeFeedback16caretExitedRangeEPNS_11MovingRangeEPNS_4ViewE@Base 4:4.4.95
+ _ZN11KTextEditor19MovingRangeFeedback16mouseExitedRangeEPNS_11MovingRangeEPNS_4ViewE@Base 4:4.4.95
+ _ZN11KTextEditor19MovingRangeFeedback17caretEnteredRangeEPNS_11MovingRangeEPNS_4ViewE@Base 4:4.4.95
+ _ZN11KTextEditor19MovingRangeFeedback17mouseEnteredRangeEPNS_11MovingRangeEPNS_4ViewE@Base 4:4.4.95
+ _ZN11KTextEditor19MovingRangeFeedbackC1Ev@Base 4:4.4.95
+ _ZN11KTextEditor19MovingRangeFeedbackC2Ev@Base 4:4.4.95
+ _ZN11KTextEditor19MovingRangeFeedbackD0Ev@Base 4:4.4.95
+ _ZN11KTextEditor19MovingRangeFeedbackD1Ev@Base 4:4.4.95
+ _ZN11KTextEditor19MovingRangeFeedbackD2Ev@Base 4:4.4.95
  _ZN11KTextEditor19SmartCursorNotifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KTextEditor19SmartCursorNotifier11qt_metacastEPKc@Base 4:4.3.4
  _ZN11KTextEditor19SmartCursorNotifier15positionChangedEPNS_11SmartCursorE@Base 4:4.3.4
@@ -219,6 +267,11 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor23CodeCompletionInterfaceD0Ev@Base 4:4.3.4
  _ZN11KTextEditor23CodeCompletionInterfaceD1Ev@Base 4:4.3.4
  _ZN11KTextEditor23CodeCompletionInterfaceD2Ev@Base 4:4.3.4
+ _ZN11KTextEditor23TemplateScriptRegistrarC1Ev@Base 4:4.4.95
+ _ZN11KTextEditor23TemplateScriptRegistrarC2Ev@Base 4:4.4.95
+ _ZN11KTextEditor23TemplateScriptRegistrarD0Ev@Base 4:4.4.95
+ _ZN11KTextEditor23TemplateScriptRegistrarD1Ev@Base 4:4.4.95
+ _ZN11KTextEditor23TemplateScriptRegistrarD2Ev@Base 4:4.4.95
  _ZN11KTextEditor25LoadSaveFilterCheckPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KTextEditor25LoadSaveFilterCheckPlugin11qt_metacastEPKc@Base 4:4.3.4
  _ZN11KTextEditor25LoadSaveFilterCheckPlugin16staticMetaObjectE@Base 4:4.3.4
@@ -248,6 +301,19 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor38CodeCompletionModelControllerInterfaceD1Ev@Base 4:4.3.4
  _ZN11KTextEditor38CodeCompletionModelControllerInterfaceD2Ev@Base 4:4.3.4
  _ZN11KTextEditor39CodeCompletionModelControllerInterface212matchingItemERK11QModelIndex@Base 4:4.3.4
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface312filterStringEPNS_4ViewERKNS_5RangeERKNS_6CursorE@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface312matchingItemERK11QModelIndex@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface313shouldExecuteERK11QModelIndex5QChar@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface315completionRangeEPNS_4ViewERKNS_6CursorE@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface321shouldAbortCompletionEPNS_4ViewERKNS_5RangeERK7QString@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface321shouldStartCompletionEPNS_4ViewERK7QStringbRKNS_6CursorE@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface321updateCompletionRangeEPNS_4ViewERKNS_5RangeE@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface37abortedEPNS_4ViewE@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface3C1Ev@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface3C2Ev@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface3D0Ev@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface3D1Ev@Base 4:4.4.95
+ _ZN11KTextEditor39CodeCompletionModelControllerInterface3D2Ev@Base 4:4.4.95
  _ZN11KTextEditor4View10insertTextERK7QString@Base 4:4.3.4
  _ZN11KTextEditor4View11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KTextEditor4View11qt_metacastEPKc@Base 4:4.3.4
@@ -319,6 +385,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor6Editor13setSimpleModeEb@Base 4:4.3.4
  _ZN11KTextEditor6Editor15documentCreatedEPS0_PNS_8DocumentE@Base 4:4.3.4
  _ZN11KTextEditor6Editor16staticMetaObjectE@Base 4:4.3.4
+ _ZN11KTextEditor6Editor18setDefaultEncodingERK7QString@Base 4:4.4.95
  _ZN11KTextEditor6EditorC1EP7QObject@Base 4:4.3.4
  _ZN11KTextEditor6EditorC2EP7QObject@Base 4:4.3.4
  _ZN11KTextEditor6EditorD0Ev@Base 4:4.3.4
@@ -347,8 +414,10 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor8Document11replaceTextERKNS_5RangeERK11QStringListb@Base 4:4.3.4
  _ZN11KTextEditor8Document11replaceTextERKNS_5RangeERK7QStringb@Base 4:4.3.4
  _ZN11KTextEditor8Document11textChangedEPS0_@Base 4:4.3.4
+ _ZN11KTextEditor8Document11textChangedEPS0_RKNS_5RangeERK7QStringS4_@Base 4:4.4.95
  _ZN11KTextEditor8Document11textChangedEPS0_RKNS_5RangeES4_@Base 4:4.3.4
  _ZN11KTextEditor8Document11textRemovedEPS0_RKNS_5RangeE@Base 4:4.3.4
+ _ZN11KTextEditor8Document11textRemovedEPS0_RKNS_5RangeERK7QString@Base 4:4.4.95
  _ZN11KTextEditor8Document11viewCreatedEPS0_PNS_4ViewE@Base 4:4.3.4
  _ZN11KTextEditor8Document12aboutToCloseEPS0_@Base 4:4.3.4
  _ZN11KTextEditor8Document12cursorInTextERKNS_6CursorE@Base 4:4.3.4
@@ -356,8 +425,10 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor8Document13aboutToReloadEPS0_@Base 4:4.3.4
  _ZN11KTextEditor8Document15modifiedChangedEPS0_@Base 4:4.3.4
  _ZN11KTextEditor8Document15setOpeningErrorEb@Base 4:4.3.4
+ _ZN11KTextEditor8Document16exclusiveEditEndEPS0_@Base 4:4.4.95
  _ZN11KTextEditor8Document16staticMetaObjectE@Base 4:4.3.4
  _ZN11KTextEditor8Document18documentUrlChangedEPS0_@Base 4:4.3.4
+ _ZN11KTextEditor8Document18exclusiveEditStartEPS0_@Base 4:4.4.95
  _ZN11KTextEditor8Document19documentNameChangedEPS0_@Base 4:4.3.4
  _ZN11KTextEditor8Document22setOpeningErrorMessageERK7QString@Base 4:4.3.4
  _ZN11KTextEditor8Document23documentSavedOrUploadedEPS0_b@Base 4:4.3.4
@@ -405,6 +476,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZNK11KTextEditor10SmartRange9attributeEv@Base 4:4.3.4
  _ZNK11KTextEditor10SmartRange9hasParentEPS0_@Base 4:4.3.4
  _ZNK11KTextEditor10SmartRange9notifiersEv@Base 4:4.3.4
+ _ZNK11KTextEditor11MovingRange8overlapsERKNS_5RangeE@Base 4:4.4.95
  _ZNK11KTextEditor11SmartCursor10smartRangeEv@Base 4:4.3.4
  _ZNK11KTextEditor11SmartCursor11atEndOfLineEv@Base 4:4.3.4
  _ZNK11KTextEditor11SmartCursor13isSmartCursorEv@Base 4:4.3.4
@@ -414,6 +486,10 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZNK11KTextEditor11SmartCursor7isValidEv@Base 4:4.3.4
  _ZNK11KTextEditor11SmartCursor8documentEv@Base 4:4.3.4
  _ZNK11KTextEditor11SmartCursor9characterEv@Base 4:4.3.4
+ _ZNK11KTextEditor12MovingCursor11atEndOfLineEv@Base 4:4.4.95
+ _ZNK11KTextEditor12MovingCursor13atStartOfLineEv@Base 4:4.4.95
+ _ZNK11KTextEditor12MovingCursor15atEndOfDocumentEv@Base 4:4.4.95
+ _ZNK11KTextEditor12MovingCursor17atStartOfDocumentEv@Base 4:4.4.95
  _ZNK11KTextEditor13EditorChooser10metaObjectEv@Base 4:4.3.4
  _ZNK11KTextEditor14SmartInterface10smartMutexEv@Base 4:4.3.4
  _ZNK11KTextEditor14SmartInterface21clearOnDocumentReloadEv@Base 4:4.3.4
@@ -472,6 +548,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZNK11KTextEditor6Cursor8positionERiS1_@Base 4:4.3.4
  _ZNK11KTextEditor6Editor10metaObjectEv@Base 4:4.3.4
  _ZNK11KTextEditor6Editor10simpleModeEv@Base 4:4.3.4
+ _ZNK11KTextEditor6Editor15defaultEncodingEv@Base 4:4.4.95
  _ZNK11KTextEditor6Plugin10metaObjectEv@Base 4:4.3.4
  _ZNK11KTextEditor7Factory10metaObjectEv@Base 4:4.3.4
  _ZNK11KTextEditor8Document10metaObjectEv@Base 4:4.3.4
@@ -490,13 +567,18 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZNK11KTextEditor9Attribute8fontBoldEv@Base 4:4.3.4
  _ZTIN11KTextEditor10ConfigPageE@Base 4:4.3.4
  _ZTIN11KTextEditor10SmartRangeE@Base 4:4.3.4
+ _ZTIN11KTextEditor11MovingRangeE@Base 4:4.4.95
  _ZTIN11KTextEditor11SmartCursorE@Base 4:4.3.4
  _ZTIN11KTextEditor12MdiContainerE@Base 4:4.3.4
+ _ZTIN11KTextEditor12MovingCursorE@Base 4:4.4.95
  _ZTIN11KTextEditor13EditorChooserE@Base 4:4.3.4
  _ZTIN11KTextEditor13MarkInterfaceE@Base 4:4.3.4
+ _ZTIN11KTextEditor13ModeInterfaceE@Base 4:4.4.95
  _ZTIN11KTextEditor14SmartInterfaceE@Base 4:4.3.4
+ _ZTIN11KTextEditor14TemplateScriptE@Base 4:4.4.95
  _ZTIN11KTextEditor15AnnotationModelE@Base 4:4.3.4
  _ZTIN11KTextEditor15ConfigInterfaceE@Base 4:4.3.4
+ _ZTIN11KTextEditor15MovingInterfaceE@Base 4:4.4.95
  _ZTIN11KTextEditor15SearchInterfaceE@Base 4:4.3.4
  _ZTIN11KTextEditor16ViewBarContainerE@Base 4:4.3.4
  _ZTIN11KTextEditor17SmartRangeWatcherE@Base 4:4.3.4
@@ -507,17 +589,21 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTIN11KTextEditor18HighlightInterfaceE@Base 4:4.4.0
  _ZTIN11KTextEditor18SmartCursorWatcherE@Base 4:4.3.4
  _ZTIN11KTextEditor18SmartRangeNotifierE@Base 4:4.3.4
+ _ZTIN11KTextEditor18TemplateInterface2E@Base 4:4.4.95
  _ZTIN11KTextEditor19CodeCompletionModelE@Base 4:4.3.4
+ _ZTIN11KTextEditor19MovingRangeFeedbackE@Base 4:4.4.95
  _ZTIN11KTextEditor19SmartCursorNotifierE@Base 4:4.3.4
  _ZTIN11KTextEditor20CodeCompletionModel2E@Base 4:4.3.4
  _ZTIN11KTextEditor21ModificationInterfaceE@Base 4:4.3.4
  _ZTIN11KTextEditor22SessionConfigInterfaceE@Base 4:4.3.4
  _ZTIN11KTextEditor23CodeCompletionInterfaceE@Base 4:4.3.4
+ _ZTIN11KTextEditor23TemplateScriptRegistrarE@Base 4:4.4.95
  _ZTIN11KTextEditor25LoadSaveFilterCheckPluginE@Base 4:4.3.4
  _ZTIN11KTextEditor28CoordinatesToCursorInterfaceE@Base 4:4.3.4
  _ZTIN11KTextEditor35ParameterizedSessionConfigInterfaceE@Base 4:4.4.0
  _ZTIN11KTextEditor38CodeCompletionModelControllerInterfaceE@Base 4:4.3.4
  _ZTIN11KTextEditor39CodeCompletionModelControllerInterface2E@Base 4:4.3.4
+ _ZTIN11KTextEditor39CodeCompletionModelControllerInterface3E@Base 4:4.4.95
  _ZTIN11KTextEditor4ViewE@Base 4:4.3.4
  _ZTIN11KTextEditor5RangeE@Base 4:4.3.4
  _ZTIN11KTextEditor6CursorE@Base 4:4.3.4
@@ -528,13 +614,18 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTIN11KTextEditor9AttributeE@Base 4:4.3.4
  _ZTSN11KTextEditor10ConfigPageE@Base 4:4.3.4
  _ZTSN11KTextEditor10SmartRangeE@Base 4:4.3.4
+ _ZTSN11KTextEditor11MovingRangeE@Base 4:4.4.95
  _ZTSN11KTextEditor11SmartCursorE@Base 4:4.3.4
  _ZTSN11KTextEditor12MdiContainerE@Base 4:4.3.4
+ _ZTSN11KTextEditor12MovingCursorE@Base 4:4.4.95
  _ZTSN11KTextEditor13EditorChooserE@Base 4:4.3.4
  _ZTSN11KTextEditor13MarkInterfaceE@Base 4:4.3.4
+ _ZTSN11KTextEditor13ModeInterfaceE@Base 4:4.4.95
  _ZTSN11KTextEditor14SmartInterfaceE@Base 4:4.3.4
+ _ZTSN11KTextEditor14TemplateScriptE@Base 4:4.4.95
  _ZTSN11KTextEditor15AnnotationModelE@Base 4:4.3.4
  _ZTSN11KTextEditor15ConfigInterfaceE@Base 4:4.3.4
+ _ZTSN11KTextEditor15MovingInterfaceE@Base 4:4.4.95
  _ZTSN11KTextEditor15SearchInterfaceE@Base 4:4.3.4
  _ZTSN11KTextEditor16ViewBarContainerE@Base 4:4.3.4
  _ZTSN11KTextEditor17SmartRangeWatcherE@Base 4:4.3.4
@@ -545,17 +636,21 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTSN11KTextEditor18HighlightInterfaceE@Base 4:4.4.0
  _ZTSN11KTextEditor18SmartCursorWatcherE@Base 4:4.3.4
  _ZTSN11KTextEditor18SmartRangeNotifierE@Base 4:4.3.4
+ _ZTSN11KTextEditor18TemplateInterface2E@Base 4:4.4.95
  _ZTSN11KTextEditor19CodeCompletionModelE@Base 4:4.3.4
+ _ZTSN11KTextEditor19MovingRangeFeedbackE@Base 4:4.4.95
  _ZTSN11KTextEditor19SmartCursorNotifierE@Base 4:4.3.4
  _ZTSN11KTextEditor20CodeCompletionModel2E@Base 4:4.3.4
  _ZTSN11KTextEditor21ModificationInterfaceE@Base 4:4.3.4
  _ZTSN11KTextEditor22SessionConfigInterfaceE@Base 4:4.3.4
  _ZTSN11KTextEditor23CodeCompletionInterfaceE@Base 4:4.3.4
+ _ZTSN11KTextEditor23TemplateScriptRegistrarE@Base 4:4.4.95
  _ZTSN11KTextEditor25LoadSaveFilterCheckPluginE@Base 4:4.3.4
  _ZTSN11KTextEditor28CoordinatesToCursorInterfaceE@Base 4:4.3.4
  _ZTSN11KTextEditor35ParameterizedSessionConfigInterfaceE@Base 4:4.4.0
  _ZTSN11KTextEditor38CodeCompletionModelControllerInterfaceE@Base 4:4.3.4
  _ZTSN11KTextEditor39CodeCompletionModelControllerInterface2E@Base 4:4.3.4
+ _ZTSN11KTextEditor39CodeCompletionModelControllerInterface3E@Base 4:4.4.95
  _ZTSN11KTextEditor4ViewE@Base 4:4.3.4
  _ZTSN11KTextEditor5RangeE@Base 4:4.3.4
  _ZTSN11KTextEditor6CursorE@Base 4:4.3.4
@@ -567,13 +662,18 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTTN11KTextEditor8DocumentE@Base 4:4.3.4
  _ZTVN11KTextEditor10ConfigPageE@Base 4:4.3.4
  _ZTVN11KTextEditor10SmartRangeE@Base 4:4.3.4
+ _ZTVN11KTextEditor11MovingRangeE@Base 4:4.4.95
  _ZTVN11KTextEditor11SmartCursorE@Base 4:4.3.4
  _ZTVN11KTextEditor12MdiContainerE@Base 4:4.3.4
+ _ZTVN11KTextEditor12MovingCursorE@Base 4:4.4.95
  _ZTVN11KTextEditor13EditorChooserE@Base 4:4.3.4
  _ZTVN11KTextEditor13MarkInterfaceE@Base 4:4.3.4
+ _ZTVN11KTextEditor13ModeInterfaceE@Base 4:4.4.95
  _ZTVN11KTextEditor14SmartInterfaceE@Base 4:4.3.4
+ _ZTVN11KTextEditor14TemplateScriptE@Base 4:4.4.95
  _ZTVN11KTextEditor15AnnotationModelE@Base 4:4.3.4
  _ZTVN11KTextEditor15ConfigInterfaceE@Base 4:4.3.4
+ _ZTVN11KTextEditor15MovingInterfaceE@Base 4:4.4.95
  _ZTVN11KTextEditor15SearchInterfaceE@Base 4:4.3.4
  _ZTVN11KTextEditor16ViewBarContainerE@Base 4:4.3.4
  _ZTVN11KTextEditor17SmartRangeWatcherE@Base 4:4.3.4
@@ -584,17 +684,21 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTVN11KTextEditor18HighlightInterfaceE@Base 4:4.4.0
  _ZTVN11KTextEditor18SmartCursorWatcherE@Base 4:4.3.4
  _ZTVN11KTextEditor18SmartRangeNotifierE@Base 4:4.3.4
+ _ZTVN11KTextEditor18TemplateInterface2E@Base 4:4.4.95
  _ZTVN11KTextEditor19CodeCompletionModelE@Base 4:4.3.4
+ _ZTVN11KTextEditor19MovingRangeFeedbackE@Base 4:4.4.95
  _ZTVN11KTextEditor19SmartCursorNotifierE@Base 4:4.3.4
  _ZTVN11KTextEditor20CodeCompletionModel2E@Base 4:4.3.4
  _ZTVN11KTextEditor21ModificationInterfaceE@Base 4:4.3.4
  _ZTVN11KTextEditor22SessionConfigInterfaceE@Base 4:4.3.4
  _ZTVN11KTextEditor23CodeCompletionInterfaceE@Base 4:4.3.4
+ _ZTVN11KTextEditor23TemplateScriptRegistrarE@Base 4:4.4.95
  _ZTVN11KTextEditor25LoadSaveFilterCheckPluginE@Base 4:4.3.4
  _ZTVN11KTextEditor28CoordinatesToCursorInterfaceE@Base 4:4.3.4
  _ZTVN11KTextEditor35ParameterizedSessionConfigInterfaceE@Base 4:4.4.0
  _ZTVN11KTextEditor38CodeCompletionModelControllerInterfaceE@Base 4:4.3.4
  _ZTVN11KTextEditor39CodeCompletionModelControllerInterface2E@Base 4:4.3.4
+ _ZTVN11KTextEditor39CodeCompletionModelControllerInterface3E@Base 4:4.4.95
  _ZTVN11KTextEditor4ViewE@Base 4:4.3.4
  _ZTVN11KTextEditor5RangeE@Base 4:4.3.4
  _ZTVN11KTextEditor6CursorE@Base 4:4.3.4

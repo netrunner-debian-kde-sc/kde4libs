@@ -2,20 +2,20 @@ Source: kde4libs
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), cmake (>= 2.6.3), pkg-kde-tools (>= 0.9), po-debconf,
+Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Armin Berres <armin+debian@space-based.de>,
+ Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), cmake (>= 2.6.4), pkg-kde-tools (>= 0.9), po-debconf,
  shared-mime-info (>= 0.30), dpkg-dev (>= 1.15.5), libphonon-dev (>= 4:4.6.0really4.3.80),
- libcups2-dev, libdbus-1-dev, libqt4-dev (>= 4:4.6.0), libqt4-opengl-dev (>= 4:4.6.0),
- libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
- libkeyutils-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
+ libqt4-dev (>= 4:4.6.0), libqt4-opengl-dev (>= 4:4.6.0),
  libpng-dev, libssl-dev, libsm-dev, flex, bison,
- libsoprano-dev (>= 2.4.0.1-2~), libstreamanalyzer-dev (>= 0.6.3),
- libxml2-dev, libxml2-utils, libxslt1-dev, libxtst-dev, libgif-dev,
+ libsoprano-dev (>= 2.4.63), libstreamanalyzer-dev (>= 0.6.3),
+ libxml2-dev, libxml2-utils, libxslt1-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
- libjasper-dev, libopenexr-dev, libpcre3-dev, zlib1g-dev, libjpeg-dev, hspell, xsltproc,
+ libjasper-dev, libopenexr-dev, libpcre3-dev, zlib1g-dev, libjpeg-dev, hspell,
  libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88),
- libxcursor-dev, libutempter-dev, liblzma-dev, libattica-dev, shared-desktop-ontologies,
- libpolkit-qt-1-dev, libxss-dev, libqca2-dev
+ libutempter-dev, liblzma-dev, libattica-dev, shared-desktop-ontologies,
+ libpolkit-qt-1-dev, libxss-dev, libqca2-dev, libdbusmenu-qt-dev, docbook-xml, docbook-xsl,
+ libxrender-dev, libkrb5-dev
 Standards-Version: 3.9.1
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde4libs.git
@@ -25,7 +25,7 @@ Package: libkdecore5
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
-Breaks: kdebase-runtime (<< 4:4.4), kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
+Breaks: kdebase-runtime (<< 4:4.5), kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Description: the KDE Platform Core Library
  All KDE Applications use this library to provide basic functionality such as
  the configuration system, IPC, internationalization and locale support,
@@ -209,9 +209,11 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: various utility classes for the KDE Platform
- This library provides some utility classes for KSettings, KCModule and
- KPlugin.
+Description: dummy transitional library
+ This library has been split into libkcmutils4, libkprintutils4,
+ libkidletime4 and libkemoticons4. This binary is provided to keep
+ binary compatibility with software that was compiled against it.
+ New software should not link against this library.
  .
  This package is part of the KDE Development Platform libraries module.
 
@@ -430,6 +432,55 @@ Description: the KDE WebKit Library
  .
  This package is part of the KDE Development Platform libraries module.
 
+Package: libkatepartinterfaces4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: the kate part library
+ This library contains the code used by the kate part. It is not
+ meant to be used directly, applications should use libktexteditor4
+ instead.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkcmutils4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: utility classes for using KCM modules
+ This library provides utility classes for using KCM modules
+ in a KDE application.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkemoticons4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: utility classes to deal with emoticon themes
+ This library provides utility classes to deal with emoticon
+ themes in KDE applications. It provides classes to load emoticon
+ themes from various sources as well as install new themes.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkidletime4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: library to provide information about idle time
+ This library contains a class that allows applications to watch for
+ user activity or inactivity. It is useful not only for finding out about
+ the current idle time of the PC, but also for getting notified upon idle
+ time events, such as custom timeouts, or user activity.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkprintutils4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: utility classes to deal with printing
+ This library is meant to provide utility classes for using printing features
+ in KDE applications. Currently it only provides a print preview dialog.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
 Package: kdelibs-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libxml2-utils
@@ -447,7 +498,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kdelibs5-data (= ${source:Version}), kdoctools (= ${binary:Version}),
  kdelibs-bin (= ${binary:Version}),
  dbus-x11, shared-mime-info (>= 0.30), xdg-utils
-Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.4), kaboom (>= 1.0.5)
+Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.5), kaboom (>= 1.0.5)
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs-bin (<< 4:4.1.74)
 Breaks: kdelibs5 (<< 4:4.4.0), kdelibs-bin (<< 4:4.1.74), kdelibs5-data (<< 4:4.2.2)
 Description: core plugins for KDE Applications
@@ -474,7 +525,7 @@ Description: core shared data for all KDE Applications
 
 Package: kdoctools
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, docbook-xml
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0), kdelibs-bin (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0), kdelibs-bin (<< 4:4.4.0)
 Description: various tools for accessing application documentation

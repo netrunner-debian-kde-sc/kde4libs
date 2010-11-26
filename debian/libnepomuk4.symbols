@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.95 amd64
 libnepomuk.so.4 libnepomuk4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN13KRatingWidget10leaveEventEP6QEvent@Base 4:4.3.4
@@ -73,12 +73,30 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN17KTagDisplayWidgetD0Ev@Base 4:4.3.4
  _ZN17KTagDisplayWidgetD1Ev@Base 4:4.3.4
  _ZN17KTagDisplayWidgetD2Ev@Base 4:4.3.4
- _ZN18DBusConnectionPool16threadConnectionEv@Base 4:4.4.0
  _ZN7Nepomuk11errorStringENS_9ErrorCodeE@Base 4:4.3.4
  _ZN7Nepomuk11rdfNamepaceEv@Base 4:4.3.4
  _ZN7Nepomuk12defaultGraphEv@Base 4:4.3.4
  _ZN7Nepomuk12naoNamespaceEv@Base 4:4.3.4
  _ZN7Nepomuk12nrlNamespaceEv@Base 4:4.3.4
+ _ZN7Nepomuk13MassUpdateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob11qt_metacastEPKc@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob12setResourcesERK5QListINS_8ResourceEE@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob12tagResourcesERK5QListINS_8ResourceEERKS1_INS_3TagEE@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob13rateResourcesERK5QListINS_8ResourceEEi@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob13setPropertiesERK5QListI5QPairI4QUrlNS_7VariantEEE@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob16commentResourcesERK5QListINS_8ResourceEERK7QString@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob16staticMetaObjectE@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob5startEv@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob6doKillEv@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob8doResumeEv@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob8setFilesERKN4KUrl4ListE@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob8slotNextEv@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJob9doSuspendEv@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJobC1EP7QObject@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJobC2EP7QObject@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJobD0Ev@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJobD1Ev@Base 4:4.4.95
+ _ZN7Nepomuk13MassUpdateJobD2Ev@Base 4:4.4.95
  _ZN7Nepomuk13rdfsNamespaceEv@Base 4:4.3.4
  _ZN7Nepomuk13typePredicateEv@Base 4:4.3.4
  _ZN7Nepomuk14OntologyLoaderC1Ev@Base 4:4.3.4
@@ -331,6 +349,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk7Variant6appendEj@Base 4:4.3.4
  _ZN7Nepomuk7Variant6appendEx@Base 4:4.3.4
  _ZN7Nepomuk7Variant6appendEy@Base 4:4.3.4
+ _ZN7Nepomuk7Variant8fromNodeERKN7Soprano4NodeE@Base 4:4.4.95
  _ZN7Nepomuk7VariantC1EPKc@Base 4:4.3.4
  _ZN7Nepomuk7VariantC1ERK11QStringList@Base 4:4.3.4
  _ZN7Nepomuk7VariantC1ERK4QUrl@Base 4:4.3.4
@@ -457,6 +476,8 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk8Resource14setAnnotationsERK5QListIS0_E@Base 4:4.3.4
  _ZN7Nepomuk8Resource14setDescriptionERK7QString@Base 4:4.3.4
  _ZN7Nepomuk8Resource14setIdentifiersERK11QStringList@Base 4:4.3.4
+ _ZN7Nepomuk8Resource15fromResourceUriERK4KUrlRKNS_5Types5ClassEPNS_15ResourceManagerE@Base 4:4.4.95
+ _ZN7Nepomuk8Resource18increaseUsageCountEv@Base 4:4.4.95
  _ZN7Nepomuk8Resource6addTagERKNS_3TagE@Base 4:4.3.4
  _ZN7Nepomuk8Resource6removeEv@Base 4:4.3.4
  _ZN7Nepomuk8Resource6tagUriEv@Base 4:4.3.4
@@ -509,17 +530,20 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk8TagCloudD1Ev@Base 4:4.3.4
  _ZN7Nepomuk8TagCloudD2Ev@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget10tagClickedENS_3TagE@Base 4:4.3.4
- _ZN7Nepomuk9TagWidget11fillTagMenuEv@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget11qt_metacastEPKc@Base 4:4.3.4
- _ZN7Nepomuk9TagWidget14slotTagClickedERK7QString@Base 4:4.3.4
+ _ZN7Nepomuk9TagWidget11slotShowAllEv@Base 4:4.4.95
+ _ZN7Nepomuk9TagWidget12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.4.95
+ _ZN7Nepomuk9TagWidget12setModeFlagsE6QFlagsINS0_8ModeFlagEE@Base 4:4.4.95
  _ZN7Nepomuk9TagWidget15setAssignedTagsERK5QListINS_3TagEE@Base 4:4.3.4
+ _ZN7Nepomuk9TagWidget15setMaxTagsShownEi@Base 4:4.4.95
+ _ZN7Nepomuk9TagWidget15setSelectedTagsERK5QListINS_3TagEE@Base 4:4.4.95
+ _ZN7Nepomuk9TagWidget16selectionChangedERK5QListINS_3TagEE@Base 4:4.4.95
  _ZN7Nepomuk9TagWidget16staticMetaObjectE@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget17setTaggedResourceERKNS_8ResourceE@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget17slotTagUpdateDoneEv@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget18setTaggedResourcesERK5QListINS_8ResourceEE@Base 4:4.3.4
- _ZN7Nepomuk9TagWidget26updateAssignedTagsFromMenuEv@Base 4:4.3.4
- _ZN7Nepomuk9TagWidget9createTagEv@Base 4:4.3.4
+ _ZN7Nepomuk9TagWidget19slotTagStateChangedERKNS_3TagEi@Base 4:4.4.95
  _ZN7Nepomuk9TagWidgetC1EP7QWidget@Base 4:4.3.4
  _ZN7Nepomuk9TagWidgetC1ERKNS_8ResourceEP7QWidget@Base 4:4.3.4
  _ZN7Nepomuk9TagWidgetC2EP7QWidget@Base 4:4.3.4
@@ -549,6 +573,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZNK15KTagCloudWidget10metaObjectEv@Base 4:4.3.4
  _ZNK15KTagCloudWidget9tagWeightERK7QString@Base 4:4.3.4
  _ZNK17KTagDisplayWidget10metaObjectEv@Base 4:4.3.4
+ _ZNK7Nepomuk13MassUpdateJob10metaObjectEv@Base 4:4.4.95
  _ZNK7Nepomuk15ResourceManager10metaObjectEv@Base 4:4.3.4
  _ZNK7Nepomuk15ResourceManager11initializedEv@Base 4:4.3.4
  _ZNK7Nepomuk18FileOntologyLoader8fileNameEv@Base 4:4.3.4
@@ -581,7 +606,9 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZNK7Nepomuk5Types6Entity5labelERK7QString@Base 4:4.4.0
  _ZNK7Nepomuk5Types6Entity7commentERK7QString@Base 4:4.4.0
  _ZNK7Nepomuk5Types6Entity7isValidEv@Base 4:4.3.4
+ _ZNK7Nepomuk5Types6EntityeqERK4QUrl@Base 4:4.4.95
  _ZNK7Nepomuk5Types6EntityeqERKS1_@Base 4:4.3.4
+ _ZNK7Nepomuk5Types6EntityneERK4QUrl@Base 4:4.4.95
  _ZNK7Nepomuk5Types6EntityneERKS1_@Base 4:4.3.4
  _ZNK7Nepomuk5Types7Literal11dataTypeUriEv@Base 4:4.3.4
  _ZNK7Nepomuk5Types7Literal7isValidEv@Base 4:4.3.4
@@ -682,11 +709,13 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZNK7Nepomuk8Resource10isRelatedsEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource10isTopicOfsEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource10propertiesEv@Base 4:4.3.4
+ _ZNK7Nepomuk8Resource10usageCountEv@Base 4:4.4.95
  _ZNK7Nepomuk8Resource11annotationsEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource11descriptionEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource11genericIconEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource11hasPropertyERK4QUrl@Base 4:4.3.4
  _ZNK7Nepomuk8Resource11hasPropertyERK7QString@Base 4:4.3.4
+ _ZNK7Nepomuk8Resource11hasPropertyERKNS_5Types8PropertyERKNS_7VariantE@Base 4:4.4.95
  _ZNK7Nepomuk8Resource11identifiersEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource11isRelatedOfEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource11resourceUriEv@Base 4:4.3.4
@@ -695,6 +724,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZNK7Nepomuk8Resource12resourceTypeEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource13allPropertiesEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource18genericDescriptionEv@Base 4:4.3.4
+ _ZNK7Nepomuk8Resource26determineFinalResourceDataEv@Base 4:4.4.95
  _ZNK7Nepomuk8Resource3uriEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource4tagsEv@Base 4:4.3.4
  _ZNK7Nepomuk8Resource4typeEv@Base 4:4.3.4
@@ -717,10 +747,15 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZNK7Nepomuk8TagCloud10metaObjectEv@Base 4:4.3.4
  _ZNK7Nepomuk9TagWidget10metaObjectEv@Base 4:4.3.4
  _ZNK7Nepomuk9TagWidget12assignedTagsEv@Base 4:4.3.4
+ _ZNK7Nepomuk9TagWidget12maxTagsShownEv@Base 4:4.4.95
+ _ZNK7Nepomuk9TagWidget12selectedTagsEv@Base 4:4.4.95
  _ZNK7Nepomuk9TagWidget15taggedResourcesEv@Base 4:4.3.4
+ _ZNK7Nepomuk9TagWidget9alignmentEv@Base 4:4.4.95
+ _ZNK7Nepomuk9TagWidget9modeFlagsEv@Base 4:4.4.95
  _ZTI13KRatingWidget@Base 4:4.3.4
  _ZTI15KTagCloudWidget@Base 4:4.3.4
  _ZTI17KTagDisplayWidget@Base 4:4.3.4
+ _ZTIN7Nepomuk13MassUpdateJobE@Base 4:4.4.95
  _ZTIN7Nepomuk14OntologyLoaderE@Base 4:4.3.4
  _ZTIN7Nepomuk15ResourceManagerE@Base 4:4.3.4
  _ZTIN7Nepomuk18FileOntologyLoaderE@Base 4:4.3.4
@@ -739,6 +774,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZTS13KRatingWidget@Base 4:4.3.4
  _ZTS15KTagCloudWidget@Base 4:4.3.4
  _ZTS17KTagDisplayWidget@Base 4:4.3.4
+ _ZTSN7Nepomuk13MassUpdateJobE@Base 4:4.4.95
  _ZTSN7Nepomuk14OntologyLoaderE@Base 4:4.3.4
  _ZTSN7Nepomuk15ResourceManagerE@Base 4:4.3.4
  _ZTSN7Nepomuk18FileOntologyLoaderE@Base 4:4.3.4
@@ -757,6 +793,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZTV13KRatingWidget@Base 4:4.3.4
  _ZTV15KTagCloudWidget@Base 4:4.3.4
  _ZTV17KTagDisplayWidget@Base 4:4.3.4
+ _ZTVN7Nepomuk13MassUpdateJobE@Base 4:4.4.95
  _ZTVN7Nepomuk14OntologyLoaderE@Base 4:4.3.4
  _ZTVN7Nepomuk15ResourceManagerE@Base 4:4.3.4
  _ZTVN7Nepomuk18FileOntologyLoaderE@Base 4:4.3.4

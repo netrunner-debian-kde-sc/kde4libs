@@ -23,15 +23,14 @@ usr/lib/kde4/kspell_enchant.so
 usr/lib/kde4/kspell_hspell.so
 usr/lib/kde4/ktexteditor_autobrace.so
 usr/lib/kde4/ktexteditor_exporter.so
+usr/lib/kde4/ktexteditor_iconinserter.so
+usr/lib/kde4/ktexteditor_insanehtml_le.so
 usr/lib/kde4/ktexteditor_insertfile.so
 usr/lib/kde4/ktexteditor_kdatatool.so
-usr/lib/kde4/ktexteditor_python-encoding.so
 usr/lib/kde4/ktranscript.so
 usr/lib/kde4/libexec/filesharelist
 usr/lib/kde4/libexec/fileshareset
-usr/lib/kde4/libexec/kcmremotewidgetshelper
 usr/lib/kde4/libexec/kconf_update
-usr/lib/kde4/libexec/kdontchangethehostname
 usr/lib/kde4/libexec/kio_http_cache_cleaner
 usr/lib/kde4/libexec/kioslave
 usr/lib/kde4/libexec/klauncher
@@ -49,7 +48,9 @@ usr/lib/kde4/plugins/imageformats/kimg_eps.so
 usr/lib/kde4/plugins/imageformats/kimg_exr.so
 usr/lib/kde4/plugins/imageformats/kimg_jp2.so
 usr/lib/kde4/plugins/imageformats/kimg_pcx.so
+usr/lib/kde4/plugins/imageformats/kimg_pic.so
 usr/lib/kde4/plugins/imageformats/kimg_psd.so
+usr/lib/kde4/plugins/imageformats/kimg_ras.so
 usr/lib/kde4/plugins/imageformats/kimg_rgb.so
 usr/lib/kde4/plugins/imageformats/kimg_tga.so
 usr/lib/kde4/plugins/imageformats/kimg_xcf.so
@@ -57,7 +58,7 @@ usr/lib/kde4/plugins/imageformats/kimg_xview.so
 usr/lib/kde4/plugins/kauth/backend/kauth_backend_plugin.so
 usr/lib/kde4/plugins/kauth/helper/kauth_helper_plugin.so
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4
-usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4.4.0
+usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4.5.0
 usr/lib/kde4/spellcheckplugin.so
 usr/lib/libkdeinit4_kconf_update.so
 usr/lib/libkdeinit4_kio_http_cache_cleaner.so

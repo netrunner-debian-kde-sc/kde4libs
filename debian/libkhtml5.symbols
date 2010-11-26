@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.3 amd64 armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.95 amd64
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -175,6 +175,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOM12CDATASectionD2Ev@Base 4:4.3.4
  _ZN3DOM12CDATASectionaSERKNS_4NodeE@Base 4:4.3.4
  _ZN3DOM12CDATASectionaSERKS0_@Base 4:4.3.4
+ _ZN3DOM12CSSException12codeAsStringEi@Base 4:4.4.95
+ _ZN3DOM12CSSException18isCSSExceptionCodeEi@Base 4:4.4.95
  _ZN3DOM12CSSMediaRule10deleteRuleEm@Base 4:4.3.4
  _ZN3DOM12CSSMediaRule10insertRuleERKNS_9DOMStringEm@Base 4:4.3.4
  _ZN3DOM12CSSMediaRuleC1EPNS_16CSSMediaRuleImplE@Base 4:4.3.4
@@ -215,6 +217,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOM12CSSValueListD2Ev@Base 4:4.3.4
  _ZN3DOM12CSSValueListaSERKNS_8CSSValueE@Base 4:4.3.4
  _ZN3DOM12CSSValueListaSERKS0_@Base 4:4.3.4
+ _ZN3DOM12DOMException12codeAsStringEi@Base 4:4.4.95
+ _ZN3DOM12DOMException18isDOMExceptionCodeEi@Base 4:4.4.95
  _ZN3DOM12DocumentTypeC1EPNS_16DocumentTypeImplE@Base 4:4.3.4
  _ZN3DOM12DocumentTypeC1ERKS0_@Base 4:4.3.4
  _ZN3DOM12DocumentTypeC1Ev@Base 4:4.3.4
@@ -426,6 +430,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOM14CSSUnknownRuleD2Ev@Base 4:4.3.4
  _ZN3DOM14CSSUnknownRuleaSERKNS_7CSSRuleE@Base 4:4.3.4
  _ZN3DOM14CSSUnknownRuleaSERKS0_@Base 4:4.3.4
+ _ZN3DOM14EventException12codeAsStringEi@Base 4:4.4.95
+ _ZN3DOM14EventException20isEventExceptionCodeEi@Base 4:4.4.95
  _ZN3DOM14EventExceptionC1ERKS0_@Base 4:4.3.4
  _ZN3DOM14EventExceptionC1Et@Base 4:4.3.4
  _ZN3DOM14EventExceptionC2ERKS0_@Base 4:4.3.4
@@ -491,6 +497,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOM14HTMLPreElementD2Ev@Base 4:4.3.4
  _ZN3DOM14HTMLPreElementaSERKNS_4NodeE@Base 4:4.3.4
  _ZN3DOM14HTMLPreElementaSERKS0_@Base 4:4.3.4
+ _ZN3DOM14RangeException12codeAsStringEi@Base 4:4.4.95
+ _ZN3DOM14RangeException20isRangeExceptionCodeEi@Base 4:4.4.95
  _ZN3DOM14StyleSheetList4itemEm@Base 4:4.3.4
  _ZN3DOM14StyleSheetListC1EPNS_18StyleSheetListImplE@Base 4:4.3.4
  _ZN3DOM14StyleSheetListC1ERKS0_@Base 4:4.3.4
@@ -501,6 +509,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOM14StyleSheetListD1Ev@Base 4:4.3.4
  _ZN3DOM14StyleSheetListD2Ev@Base 4:4.3.4
  _ZN3DOM14StyleSheetListaSERKS0_@Base 4:4.3.4
+ _ZN3DOM14XPathException12codeAsStringEi@Base 4:4.4.95
+ _ZN3DOM14XPathException20isXPathExceptionCodeEi@Base 4:4.4.95
+ _ZN3DOM14XPathException6toCodeEi@Base 4:4.4.95
  _ZN3DOM15CSSFontFaceRuleC1EPNS_19CSSFontFaceRuleImplE@Base 4:4.3.4
  _ZN3DOM15CSSFontFaceRuleC1ERKNS_7CSSRuleE@Base 4:4.3.4
  _ZN3DOM15CSSFontFaceRuleC1ERKS0_@Base 4:4.3.4
@@ -1804,7 +1815,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3KJS7UStringC2ERKN3DOM9DOMStringE@Base 4:4.3.4
  _ZN5khtml10ChildFrame11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5khtml10ChildFrame11qt_metacastEPKc@Base 4:4.3.4
- _ZN5khtml10ChildFrame16liveConnectEventEmRK7QStringRK5QListI5QPairIN6KParts20LiveConnectExtension4TypeES1_EE@Base 4:4.3.4
  _ZN5khtml10ChildFrame16staticMetaObjectE@Base 4:4.3.4
  _ZN5khtml10MouseEventC1EPKcP11QMouseEventiiRKN3DOM9DOMStringES8_RKNS5_4NodeE@Base 4:4.3.4
  _ZN5khtml10MouseEventC2EPKcP11QMouseEventiiRKN3DOM9DOMStringES8_RKNS5_4NodeE@Base 4:4.3.4
@@ -1862,7 +1872,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLPart12findTextNextEb@Base 4:4.3.4
  _ZN9KHTMLPart12framejScriptEPN6KParts12ReadOnlyPartE@Base 4:4.3.4
  _ZN9KHTMLPart12initFindNodeEbbb@Base 4:4.3.4
- _ZN9KHTMLPart12requestFrameEPN3DOM28HTMLPartContainerElementImplERK7QStringS5_RK11QStringListb@Base 4:4.3.4
  _ZN9KHTMLPart12restoreStateER11QDataStream@Base 4:4.3.4
  _ZN9KHTMLPart12saveToWalletERK7QStringRK4QMapIS0_S0_E@Base 4:4.3.4
  _ZN9KHTMLPart12setCaretModeEb@Base 4:4.3.4
@@ -1888,9 +1897,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLPart13executeScriptERKN3DOM4NodeERK7QString@Base 4:4.3.4
  _ZN9KHTMLPart13findFramePartERK7QString@Base 4:4.3.4
  _ZN9KHTMLPart13findTextBeginEv@Base 4:4.3.4
+ _ZN9KHTMLPart13navigateChildEPN5khtml10ChildFrameERK4KUrl@Base 4:4.4.95
  _ZN9KHTMLPart13nodeActivatedERKN3DOM4NodeE@Base 4:4.3.4
  _ZN9KHTMLPart13preloadScriptERK7QStringS2_@Base 4:4.3.4
- _ZN9KHTMLPart13requestObjectEPN3DOM28HTMLPartContainerElementImplERK7QStringS5_RK11QStringList@Base 4:4.3.4
  _ZN9KHTMLPart13requestObjectEPN5khtml10ChildFrameERK4KUrlRKN6KParts16OpenUrlArgumentsERKNS6_16BrowserArgumentsE@Base 4:4.3.4
  _ZN9KHTMLPart13setActiveNodeERKN3DOM4NodeE@Base 4:4.3.4
  _ZN9KHTMLPart13setDNDEnabledEb@Base 4:4.3.4
@@ -1935,6 +1944,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLPart16childLoadFailureEPN5khtml10ChildFrameE@Base 4:4.3.4
  _ZN9KHTMLPart16guiActivateEventEPN6KParts16GUIActivateEventE@Base 4:4.3.4
  _ZN9KHTMLPart16jsErrorExtensionEv@Base 4:4.3.4
+ _ZN9KHTMLPart16loadFrameElementEPN3DOM28HTMLPartContainerElementImplERK7QStringS5_RK11QStringListb@Base 4:4.4.95
  _ZN9KHTMLPart16requestFrameNameEv@Base 4:4.3.4
  _ZN9KHTMLPart16selectionChangedEv@Base 4:4.3.4
  _ZN9KHTMLPart16setCaretPositionEN3DOM4NodeElb@Base 4:4.3.4
@@ -1949,6 +1959,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLPart16updateZoomFactorEv@Base 4:4.4.0
  _ZN9KHTMLPart17checkLinkSecurityERK4KUrlRK16KLocalizedStringRK7QString@Base 4:4.3.4
  _ZN9KHTMLPart17extendSelectionToEiiRKN3DOM4NodeE@Base 4:4.3.4
+ _ZN9KHTMLPart17loadObjectElementEPN3DOM28HTMLPartContainerElementImplERK7QStringS5_RK11QStringList@Base 4:4.4.95
  _ZN9KHTMLPart17preloadStyleSheetERK7QStringS2_@Base 4:4.3.4
  _ZN9KHTMLPart17setAutoloadImagesEb@Base 4:4.3.4
  _ZN9KHTMLPart17setJScriptEnabledEb@Base 4:4.3.4
@@ -1959,6 +1970,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLPart17slotFindAheadTextEv@Base 4:4.3.4
  _ZN9KHTMLPart17slotUseStylesheetEv@Base 4:4.3.4
  _ZN9KHTMLPart18checkEmitLoadEventEv@Base 4:4.3.4
+ _ZN9KHTMLPart18connectToChildPartEPN5khtml10ChildFrameEPN6KParts12ReadOnlyPartERK7QString@Base 4:4.4.95
  _ZN9KHTMLPart18jScriptInterpreterEv@Base 4:4.3.4
  _ZN9KHTMLPart18setFontScaleFactorEi@Base 4:4.3.4
  _ZN9KHTMLPart18setJSStatusBarTextERK7QString@Base 4:4.3.4
@@ -1974,6 +1986,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLPart19launchWalletManagerEv@Base 4:4.3.4
  _ZN9KHTMLPart19mayPrefetchHostnameERK7QString@Base 4:4.3.4
  _ZN9KHTMLPart19scheduleRedirectionEiRK7QStringb@Base 4:4.3.4
+ _ZN9KHTMLPart19scriptableExtensionEPKN3DOM8NodeImplE@Base 4:4.4.95
  _ZN9KHTMLPart19setFormNotificationENS_16FormNotificationE@Base 4:4.3.4
  _ZN9KHTMLPart19setSelectionVisibleEb@Base 4:4.3.4
  _ZN9KHTMLPart19slotChildDocCreatedEv@Base 4:4.3.4
@@ -1991,12 +2004,12 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLPart20emitSelectionChangedEv@Base 4:4.3.4
  _ZN9KHTMLPart20khtmlMousePressEventEPN5khtml15MousePressEventE@Base 4:4.3.4
  _ZN9KHTMLPart20launchJSConfigDialogEv@Base 4:4.3.4
- _ZN9KHTMLPart20liveConnectExtensionEPKN3DOM8NodeImplE@Base 4:4.3.4
  _ZN9KHTMLPart20processObjectRequestEPN5khtml10ChildFrameERK4KUrlRK7QString@Base 4:4.3.4
  _ZN9KHTMLPart20reparseConfigurationEv@Base 4:4.3.4
  _ZN9KHTMLPart20saveLoginInformationERK7QStringS2_RK4QMapIS0_S0_E@Base 4:4.3.4
  _ZN9KHTMLPart20setFocusNodeIfNeededERKN3DOM9SelectionE@Base 4:4.3.4
  _ZN9KHTMLPart20showSuppressedPopupsEv@Base 4:4.3.4
+ _ZN9KHTMLPart21navigateLocalProtocolEPN5khtml10ChildFrameEPN6KParts12ReadOnlyPartERK4KUrl@Base 4:4.4.95
  _ZN9KHTMLPart21recursiveFrameRequestEPS_RK4KUrlRKN6KParts16OpenUrlArgumentsERKNS4_16BrowserArgumentsEb@Base 4:4.3.4
  _ZN9KHTMLPart21restoreScrollPositionEv@Base 4:4.3.4
  _ZN9KHTMLPart21setMetaRefreshEnabledEb@Base 4:4.3.4
@@ -2120,6 +2133,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLView15scheduleRepaintEiiiib@Base 4:4.3.4
  _ZN9KHTMLView15setMarginHeightEi@Base 4:4.3.4
  _ZN9KHTMLView16dispatchKeyEventEP9QKeyEvent@Base 4:4.3.4
+ _ZN9KHTMLView16hasLayoutPendingEv@Base 4:4.4.95
  _ZN9KHTMLView16restoreScrollBarEv@Base 4:4.3.4
  _ZN9KHTMLView16scheduleRelayoutEPN5khtml12RenderObjectE@Base 4:4.3.4
  _ZN9KHTMLView16scrollContentsByEii@Base 4:4.3.4
@@ -2187,7 +2201,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.3.4
- (optional=templinst|arch=armel hppa sparc)_ZNK12KConfigGroup9readEntryIjEET_RK7QStringRKS1_@Base 4:4.4.2
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4:4.3.4
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4:4.3.4
@@ -2277,11 +2290,13 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM12AbstractView6handleEv@Base 4:4.3.4
  _ZNK3DOM12AbstractView6isNullEv@Base 4:4.3.4
  _ZNK3DOM12AbstractView8documentEv@Base 4:4.3.4
+ _ZNK3DOM12CSSException12codeAsStringEv@Base 4:4.4.95
  _ZNK3DOM12CSSMediaRule5mediaEv@Base 4:4.3.4
  _ZNK3DOM12CSSMediaRule8cssRulesEv@Base 4:4.3.4
  _ZNK3DOM12CSSStyleRule12selectorTextEv@Base 4:4.3.4
  _ZNK3DOM12CSSStyleRule5styleEv@Base 4:4.3.4
  _ZNK3DOM12CSSValueList6lengthEv@Base 4:4.3.4
+ _ZNK3DOM12DOMException12codeAsStringEv@Base 4:4.4.95
  _ZNK3DOM12DocumentType14internalSubsetEv@Base 4:4.3.4
  _ZNK3DOM12DocumentType4nameEv@Base 4:4.3.4
  _ZNK3DOM12DocumentType8entitiesEv@Base 4:4.3.4
@@ -2341,6 +2356,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM13MutationEvent8newValueEv@Base 4:4.3.4
  _ZNK3DOM13MutationEvent9prevValueEv@Base 4:4.3.4
  _ZNK3DOM14CSSCharsetRule8encodingEv@Base 4:4.3.4
+ _ZNK3DOM14EventException12codeAsStringEv@Base 4:4.4.95
  _ZNK3DOM14HTMLCollection13nextNamedItemERKNS_9DOMStringE@Base 4:4.3.4
  _ZNK3DOM14HTMLCollection4baseEv@Base 4:4.3.4
  _ZNK3DOM14HTMLCollection4itemEm@Base 4:4.3.4
@@ -2356,9 +2372,11 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM14HTMLModElement4citeEv@Base 4:4.3.4
  _ZNK3DOM14HTMLModElement8dateTimeEv@Base 4:4.3.4
  _ZNK3DOM14HTMLPreElement5widthEv@Base 4:4.3.4
+ _ZNK3DOM14RangeException12codeAsStringEv@Base 4:4.4.95
  _ZNK3DOM14StyleSheetList6handleEv@Base 4:4.3.4
  _ZNK3DOM14StyleSheetList6isNullEv@Base 4:4.3.4
  _ZNK3DOM14StyleSheetList6lengthEv@Base 4:4.3.4
+ _ZNK3DOM14XPathException12codeAsStringEv@Base 4:4.4.95
  _ZNK3DOM15CSSFontFaceRule5styleEv@Base 4:4.3.4
  _ZNK3DOM15HTMLAreaElement3altEv@Base 4:4.3.4
  _ZNK3DOM15HTMLAreaElement4hrefEv@Base 4:4.3.4
@@ -2404,6 +2422,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM15HTMLMetaElement6schemeEv@Base 4:4.3.4
  _ZNK3DOM15HTMLMetaElement7contentEv@Base 4:4.3.4
  _ZNK3DOM15HTMLMetaElement9httpEquivEv@Base 4:4.3.4
+ _ZNK3DOM16DocumentFragment13querySelectorERKNS_9DOMStringE@Base 4:4.4.95
+ _ZNK3DOM16DocumentFragment16querySelectorAllERKNS_9DOMStringE@Base 4:4.4.95
  _ZNK3DOM16HTMLDListElement7compactEv@Base 4:4.3.4
  _ZNK3DOM16HTMLFrameElement11frameBorderEv@Base 4:4.3.4
  _ZNK3DOM16HTMLFrameElement11marginWidthEv@Base 4:4.3.4
@@ -2733,7 +2753,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM7Counter9listStyleEv@Base 4:4.3.4
  _ZNK3DOM7Counter9separatorEv@Base 4:4.3.4
  _ZNK3DOM7Element13isHTMLElementEv@Base 4:4.3.4
+ _ZNK3DOM7Element13querySelectorERKNS_9DOMStringE@Base 4:4.4.95
  _ZNK3DOM7Element16lastElementChildEv@Base 4:4.3.4
+ _ZNK3DOM7Element16querySelectorAllERKNS_9DOMStringE@Base 4:4.4.95
  _ZNK3DOM7Element17childElementCountEv@Base 4:4.3.4
  _ZNK3DOM7Element17firstElementChildEv@Base 4:4.3.4
  _ZNK3DOM7Element18nextElementSiblingEv@Base 4:4.3.4
@@ -2758,10 +2780,12 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM8Document10designModeEv@Base 4:4.3.4
  _ZNK3DOM8Document11defaultViewEv@Base 4:4.3.4
  _ZNK3DOM8Document11styleSheetsEv@Base 4:4.3.4
+ _ZNK3DOM8Document13querySelectorERKNS_9DOMStringE@Base 4:4.4.95
  _ZNK3DOM8Document14getElementByIdERKNS_9DOMStringE@Base 4:4.3.4
  _ZNK3DOM8Document14implementationEv@Base 4:4.3.4
  _ZNK3DOM8Document14isHTMLDocumentEv@Base 4:4.3.4
  _ZNK3DOM8Document15documentElementEv@Base 4:4.3.4
+ _ZNK3DOM8Document16querySelectorAllERKNS_9DOMStringE@Base 4:4.4.95
  _ZNK3DOM8Document4viewEv@Base 4:4.3.4
  _ZNK3DOM8Document5asyncEv@Base 4:4.3.4
  _ZNK3DOM8Document7doctypeEv@Base 4:4.3.4
@@ -2800,7 +2824,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3KJS10Identifier9domStringEv@Base 4:4.3.4
  _ZNK3KJS7JSValue4typeEv@Base 4:4.3.4
  _ZNK3KJS7JSValue7toInt32EPNS_9ExecStateERb@Base 4:4.3.4
- _ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7UString7qstringEv@Base 4:4.3.4

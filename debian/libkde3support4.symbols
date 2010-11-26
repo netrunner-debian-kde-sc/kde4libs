@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.3.4 alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.95 amd64
 libkde3support.so.4 libkde3support4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10K3DockArea11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -550,6 +550,7 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZN13K3SpellConfig19getAvailDictsAspellEv@Base 4:4.3.4
  _ZN13K3SpellConfig19getAvailDictsIspellEv@Base 4:4.3.4
  _ZN13K3SpellConfig19writeGlobalSettingsEv@Base 4:4.3.4
+ _ZN13K3SpellConfig21getAvailDictsHunspellEv@Base 4:4.4.95
  _ZN13K3SpellConfig5sHelpEv@Base 4:4.3.4
  _ZN13K3SpellConfig6sNoAffEb@Base 4:4.3.4
  _ZN13K3SpellConfig8sDoSpellEv@Base 4:4.3.4
