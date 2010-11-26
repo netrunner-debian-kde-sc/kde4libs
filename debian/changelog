@@ -41,6 +41,8 @@ kde4libs (4:4.5.80-0r1) UNRELEASED; urgency=low
 
   [ Didier Raboud ]
   * Refresh patches for 4.5.80.
+  * Adjust build-dependencies:
+    - Bump required Qt version to 4:4.7.0~rc1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Nov 2010 13:19:41 +0200
 
