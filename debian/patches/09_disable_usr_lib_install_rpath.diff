@@ -11,10 +11,8 @@ Forwarded: yes
 Origin: backport, http://websvn.kde.org/?view=revision&revision=1124215
 Last-Update: 2010-06-23
 
-Index: kde4libs/kdewidgets/CMakeLists.txt
-===================================================================
---- kde4libs.orig/kdewidgets/CMakeLists.txt	2010-11-05 11:48:27.000000000 +0100
-+++ kde4libs/kdewidgets/CMakeLists.txt	2010-11-25 16:23:01.000000000 +0100
+--- a/kdewidgets/CMakeLists.txt
++++ b/kdewidgets/CMakeLists.txt
 @@ -51,7 +51,6 @@
                                       INSTALL_RPATH_USE_LINK_PATH TRUE
                                       SKIP_BUILD_RPATH TRUE

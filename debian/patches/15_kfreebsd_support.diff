@@ -10,10 +10,8 @@ cmake.
  kpty/kpty.cpp                   |   24 ++++++++++++------------
  5 files changed, 30 insertions(+), 16 deletions(-)
 
-Index: kde4libs/ConfigureChecks.cmake
-===================================================================
---- kde4libs.orig/ConfigureChecks.cmake	2010-11-25 16:35:55.000000000 +0100
-+++ kde4libs/ConfigureChecks.cmake	2010-11-25 16:36:07.000000000 +0100
+--- a/ConfigureChecks.cmake
++++ b/ConfigureChecks.cmake
 @@ -164,11 +164,11 @@
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
@@ -29,10 +27,8 @@ Index: kde4libs/ConfigureChecks.cmake
      if (HAVE_UTMPX)
        set(utmp utmpx)
        if (login_in_libutil)
-Index: kde4libs/kio/kfile/kpropertiesdialog.cpp
-===================================================================
---- kde4libs.orig/kio/kfile/kpropertiesdialog.cpp	2010-11-05 11:48:27.000000000 +0100
-+++ kde4libs/kio/kfile/kpropertiesdialog.cpp	2010-11-25 16:36:07.000000000 +0100
+--- a/kio/kfile/kpropertiesdialog.cpp
++++ b/kio/kfile/kpropertiesdialog.cpp
 @@ -1910,7 +1910,15 @@
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
@@ -50,10 +46,8 @@ Index: kde4libs/kio/kfile/kpropertiesdialog.cpp
  #endif
      return fileSystemSupportsACLs;
  }
-Index: kde4libs/kioslave/file/file.cpp
-===================================================================
---- kde4libs.orig/kioslave/file/file.cpp	2010-10-27 21:55:44.000000000 +0200
-+++ kde4libs/kioslave/file/file.cpp	2010-11-25 16:36:07.000000000 +0100
+--- a/kioslave/file/file.cpp
++++ b/kioslave/file/file.cpp
 @@ -315,8 +315,10 @@
      }
  
@@ -65,10 +59,8 @@ Index: kde4libs/kioslave/file/file.cpp
  
      // Determine the mimetype of the file to be retrieved, and emit it.
      // This is mandatory in all slaves (for KRun/BrowserRun to work)
-Index: kde4libs/kioslave/file/file_unix.cpp
-===================================================================
---- kde4libs.orig/kioslave/file/file_unix.cpp	2010-01-14 13:54:54.000000000 +0100
-+++ kde4libs/kioslave/file/file_unix.cpp	2010-11-25 16:36:07.000000000 +0100
+--- a/kioslave/file/file_unix.cpp
++++ b/kioslave/file/file_unix.cpp
 @@ -155,8 +155,10 @@
      }
  
@@ -91,10 +83,8 @@ Index: kde4libs/kioslave/file/file_unix.cpp
  
  #ifdef HAVE_POSIX_ACL
      acl = acl_get_fd(src_fd);
-Index: kde4libs/kpty/kpty.cpp
-===================================================================
---- kde4libs.orig/kpty/kpty.cpp	2010-11-11 15:42:12.000000000 +0100
-+++ kde4libs/kpty/kpty.cpp	2010-11-25 16:38:56.000000000 +0100
+--- a/kpty/kpty.cpp
++++ b/kpty/kpty.cpp
 @@ -109,24 +109,24 @@
  # define _NEW_TTY_CTRL
  #endif

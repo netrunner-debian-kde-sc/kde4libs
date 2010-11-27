@@ -3,10 +3,8 @@ Description: preliminary GNU/Hurd support
  Adds "support" for GNU/Hurd by defining MAXPATHLEN and PATH_MAX where needed.
  Not forwarded, better fixes should be done upstream.
 Forwarded: no
-Index: kde4libs/kdecore/kernel/kstandarddirs.cpp
-===================================================================
---- kde4libs.orig/kdecore/kernel/kstandarddirs.cpp	2010-11-25 16:40:12.000000000 +0100
-+++ kde4libs/kdecore/kernel/kstandarddirs.cpp	2010-11-25 16:40:13.000000000 +0100
+--- a/kdecore/kernel/kstandarddirs.cpp
++++ b/kdecore/kernel/kstandarddirs.cpp
 @@ -73,6 +73,10 @@
  #include <QtCore/QFileInfo>
  #include <QtCore/QSettings>
@@ -18,10 +16,8 @@ Index: kde4libs/kdecore/kernel/kstandarddirs.cpp
  class KStandardDirs::KStandardDirsPrivate
  {
  public:
-Index: kde4libs/kinit/lnusertemp.c
-===================================================================
---- kde4libs.orig/kinit/lnusertemp.c	2008-06-18 14:42:25.000000000 +0200
-+++ kde4libs/kinit/lnusertemp.c	2010-11-25 16:40:13.000000000 +0100
+--- a/kinit/lnusertemp.c
++++ b/kinit/lnusertemp.c
 @@ -36,6 +36,10 @@
  #include <limits.h>
  #endif

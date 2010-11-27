@@ -7,10 +7,8 @@ Origin: vendor
 Last-Update: 2010-05-31
 
 
-Index: kde4libs/kio/kio/kfileshare.cpp
-===================================================================
---- kde4libs.orig/kio/kio/kfileshare.cpp	2010-02-20 12:32:33.000000000 +0100
-+++ kde4libs/kio/kio/kfileshare.cpp	2010-11-25 16:40:14.000000000 +0100
+--- a/kio/kio/kfileshare.cpp
++++ b/kio/kio/kfileshare.cpp
 @@ -239,17 +239,19 @@
         return false;
  

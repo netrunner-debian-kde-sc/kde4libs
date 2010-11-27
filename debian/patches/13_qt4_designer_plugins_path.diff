@@ -1,7 +1,5 @@
-Index: kde4libs/kdewidgets/CMakeLists.txt
-===================================================================
---- kde4libs.orig/kdewidgets/CMakeLists.txt	2010-11-25 16:30:53.000000000 +0100
-+++ kde4libs/kdewidgets/CMakeLists.txt	2010-11-25 16:35:51.000000000 +0100
+--- a/kdewidgets/CMakeLists.txt
++++ b/kdewidgets/CMakeLists.txt
 @@ -54,7 +54,7 @@
                           )
    endif(NOT WIN32)

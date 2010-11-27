@@ -1,10 +1,8 @@
 This patch makes konsole work on kfreebsd.
 Without it, konsole doesn't display anything in the terminal area.
 Inspired from http://lists.kde.org/?l=kde-commits&m=122713720905453&w=2
-Index: kde4libs/kpty/kptydevice.cpp
-===================================================================
---- kde4libs.orig/kpty/kptydevice.cpp	2010-11-11 15:42:12.000000000 +0100
-+++ kde4libs/kpty/kptydevice.cpp	2010-11-25 16:40:11.000000000 +0100
+--- a/kpty/kptydevice.cpp
++++ b/kpty/kptydevice.cpp
 @@ -44,7 +44,7 @@
  # include <sys/time.h>
  #endif

@@ -9,10 +9,8 @@ Forwarded: not-needed
 Origin: vendor
 Last-Update: 2010-05-28
 
-Index: kde4libs/kdecore/kernel/kstandarddirs.cpp
-===================================================================
---- kde4libs.orig/kdecore/kernel/kstandarddirs.cpp	2010-11-25 16:40:08.000000000 +0100
-+++ kde4libs/kdecore/kernel/kstandarddirs.cpp	2010-11-25 16:40:12.000000000 +0100
+--- a/kdecore/kernel/kstandarddirs.cpp
++++ b/kdecore/kernel/kstandarddirs.cpp
 @@ -1856,6 +1856,11 @@
  
      addResourceType("autostart", "xdgconf-autostart", "/"); // merge them, start with xdg autostart

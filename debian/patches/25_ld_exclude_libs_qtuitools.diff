@@ -3,10 +3,8 @@ Subject: Exclude QtUiTools symbols from public libraries
  Currently, libplasma and libkjsembed are affected.
 Forwarded: not-needed
 
-Index: kde4libs/plasma/CMakeLists.txt
-===================================================================
---- kde4libs.orig/plasma/CMakeLists.txt	2010-11-05 11:48:32.000000000 +0100
-+++ kde4libs/plasma/CMakeLists.txt	2010-11-25 16:40:10.000000000 +0100
+--- a/plasma/CMakeLists.txt
++++ b/plasma/CMakeLists.txt
 @@ -253,6 +253,9 @@
                               ${QT_QTSCRIPT_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTXML_LIBRARY} ${QT_QTSQL_LIBRARY} ${QT_QTDECLARATIVE_LIBRARY}
                               ${KDE4_KDEUI_LIBS} kdnssd threadweaver ${PLASMA_EXTRA_LIBS})
@@ -17,10 +15,8 @@ Index: kde4libs/plasma/CMakeLists.txt
  if(QCA2_FOUND)
     target_link_libraries(plasma ${QCA2_LIBRARIES})
  endif(QCA2_FOUND)
-Index: kde4libs/kjsembed/kjsembed/CMakeLists.txt
-===================================================================
---- kde4libs.orig/kjsembed/kjsembed/CMakeLists.txt	2010-08-05 18:56:18.000000000 +0200
-+++ kde4libs/kjsembed/kjsembed/CMakeLists.txt	2010-11-25 16:40:10.000000000 +0100
+--- a/kjsembed/kjsembed/CMakeLists.txt
++++ b/kjsembed/kjsembed/CMakeLists.txt
 @@ -71,7 +71,8 @@
  set_target_properties(${KJSEMBEDLIBNAME} PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS ${KJSEMBEDLIBNAME} EXPORT kdelibsLibraryTargets ${INSTALL_TARGETS_DEFAULT_ARGS})
