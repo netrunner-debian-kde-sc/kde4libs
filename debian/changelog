@@ -9,7 +9,6 @@ kde4libs (4:4.5.80-0r1) UNRELEASED; urgency=low
   * Change my email address in uploaders.
   * Adjust build dependencies:
     - Bump required cmake version to 2.6.4.
-    - Bump required soprano version to 2.4.63.
     - Add build dependencies on:
       - libdbusmenu-qt-dev
       - docbook-xml
@@ -38,6 +37,14 @@ kde4libs (4:4.5.80-0r1) UNRELEASED; urgency=low
 
   [ Didier Raboud ]
   * Refresh patches for 4.5.80.
+  * Adjust build-dependencies:
+    - Bump required:
+      - Qt to 4:4.7.0~rc1.
+      - libattica to 0.1.90.
+      - soprano to 2.5.60.
+      - polkit-qt-1 to 0.98.1.
+    - Add build dependencies on:
+      - libudev-dev
 
   [ Pino Toscano ]
   * Make libknewstuff2-4 and libknewstuff3-4 recommend gnupg, as they can use
