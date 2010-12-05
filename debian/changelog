@@ -49,8 +49,10 @@ kde4libs (4:4.5.80-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Make libknewstuff2-4 and libknewstuff3-4 recommend gnupg, as they can use
     `gpg' for checking validity and signatures of downloaded content.
+  * Add docbook-xsl dependency on the kdoctools package, for same reason as
+    docbook-xml.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Nov 2010 13:19:41 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 14:30:39 +0100
 
 kde4libs (4:4.4.5-2) unstable; urgency=low
 
