@@ -15,7 +15,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), cmake (>= 2.6.4), pkg-kde
  libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88),
  libutempter-dev, liblzma-dev, libattica-dev (>= 0.1.90), shared-desktop-ontologies,
  libpolkit-qt-1-dev (>= 0.98.1), libxss-dev, libqca2-dev, libdbusmenu-qt-dev, docbook-xml, docbook-xsl,
- libxrender-dev, libkrb5-dev, libudev-dev
+ libxrender-dev, libkrb5-dev, libudev-dev [linux-any]
 Standards-Version: 3.9.1
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde4libs.git
