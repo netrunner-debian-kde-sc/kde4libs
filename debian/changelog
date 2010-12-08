@@ -48,6 +48,7 @@ kde4libs (4:4.5.85-0r1) UNRELEASED; urgency=low
       - shared-desktop-ontologies to 0.5.
     - Add build dependencies on:
       - libudev-dev
+      - libqtwebkit-dev
 
   [ Pino Toscano ]
   * Make libknewstuff2-4 and libknewstuff3-4 recommend gnupg, as they can use
