@@ -36,7 +36,7 @@ kde4libs (4:4.5.85-0r1) UNRELEASED; urgency=low
   * Bump kdebase-runtime Breaks/Recommends to version 4.5.
 
   [ Didier Raboud ]
-  * Refresh patches for 4.5.80.
+  * Refresh patches for 4.5.85.
   * Adjust build-dependencies:
     - Bump required:
       - Qt to 4:4.7.0~rc1.
