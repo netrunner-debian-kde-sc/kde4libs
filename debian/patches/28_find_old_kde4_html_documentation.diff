@@ -19,7 +19,7 @@ Last-Update: 2010-05-28
 +    // Debian patch: add old KDE4 HTML documentation dir, so that
 +    // khelpcenter4 can open documentation of KDE applications built against
 +    // Debian KDE SC << 4.4.4.
-+    addResourceDir("html", "/usr/share/doc/kde4/HTML", false);
++    addResourceDir("html", QLatin1String("/usr/share/doc/kde4/HTML"), false);
  }
  
  static QStringList lookupProfiles(const QString &mapFile)

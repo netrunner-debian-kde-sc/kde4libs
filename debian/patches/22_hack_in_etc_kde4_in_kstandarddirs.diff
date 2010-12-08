@@ -18,7 +18,7 @@ overridden by adding new files to /etc/kde4 by the sysadm.
                      }
 +                    // UGLY HACK - forward porting Chris CHeney's HACK - Rex Dieter
 +                    if ( local && (!strcmp("config", type)))  // local is used as a "homedir marker"
-+                        candidates.append("/etc/kde4/");
++                        candidates.append(QLatin1String("/etc/kde4/"));
 +                    //
                      local = false;
                  }

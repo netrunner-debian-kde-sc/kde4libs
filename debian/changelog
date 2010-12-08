@@ -37,6 +37,8 @@ kde4libs (4:4.5.85-0r1) UNRELEASED; urgency=low
 
   [ Didier Raboud ]
   * Refresh patches for 4.5.85.
+    - Update 28_find_old_kde4_html_documentation.diff and
+      22_hack_in_etc_kde4_in_kstandarddirs.diff for QT_NO_CAST_FROM_ASCII.
   * Adjust build-dependencies:
     - Bump required:
       - Qt to 4:4.7.0~rc1.
