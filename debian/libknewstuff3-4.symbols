@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.85 amd64
 libknewstuff3.so.4 libknewstuff3-4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN4KNS312UploadDialog10setVersionERK7QString@Base 4:4.4.95
@@ -12,6 +12,7 @@ libknewstuff3.so.4 libknewstuff3-4 #MINVER#
  _ZN4KNS312UploadDialog14setPriceReasonERK7QString@Base 4:4.4.95
  _ZN4KNS312UploadDialog15setPriceEnabledEb@Base 4:4.4.95
  _ZN4KNS312UploadDialog16staticMetaObjectE@Base 4:4.4.0
+ _ZN4KNS312UploadDialog19setPreviewImageFileEjRK4KUrl@Base 4:4.5.85
  _ZN4KNS312UploadDialog4initERK7QString@Base 4:4.4.0
  _ZN4KNS312UploadDialog6acceptEv@Base 4:4.4.0
  _ZN4KNS312UploadDialog7Private11_k_backPageEv@Base 4:4.4.95

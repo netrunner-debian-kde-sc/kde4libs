@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.2 amd64
+# SymbolsHelper-Confirmed: 4:4.5.85 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -489,6 +489,29 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11KDateWidgetD0Ev@Base 4:4.3.4
  _ZN11KDateWidgetD1Ev@Base 4:4.3.4
  _ZN11KDateWidgetD2Ev@Base 4:4.3.4
+ _ZN11KDualAction11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.85
+ _ZN11KDualAction11qt_metacastEPKc@Base 4:4.5.85
+ _ZN11KDualAction13activeChangedEb@Base 4:4.5.85
+ _ZN11KDualAction13setActiveIconERK5QIcon@Base 4:4.5.85
+ _ZN11KDualAction13setActiveTextERK7QString@Base 4:4.5.85
+ _ZN11KDualAction13setAutoToggleEb@Base 4:4.5.85
+ _ZN11KDualAction15setInactiveIconERK5QIcon@Base 4:4.5.85
+ _ZN11KDualAction15setInactiveTextERK7QString@Base 4:4.5.85
+ _ZN11KDualAction16setActiveGuiItemERK8KGuiItem@Base 4:4.5.85
+ _ZN11KDualAction16setActiveToolTipERK7QString@Base 4:4.5.85
+ _ZN11KDualAction16setIconForStatesERK5QIcon@Base 4:4.5.85
+ _ZN11KDualAction16staticMetaObjectE@Base 4:4.5.85
+ _ZN11KDualAction18setInactiveGuiItemERK8KGuiItem@Base 4:4.5.85
+ _ZN11KDualAction18setInactiveToolTipERK7QString@Base 4:4.5.85
+ _ZN11KDualAction19activeChangedByUserEb@Base 4:4.5.85
+ _ZN11KDualAction9setActiveEb@Base 4:4.5.85
+ _ZN11KDualActionC1EP7QObject@Base 4:4.5.85
+ _ZN11KDualActionC1ERK7QStringS2_P7QObject@Base 4:4.5.85
+ _ZN11KDualActionC2EP7QObject@Base 4:4.5.85
+ _ZN11KDualActionC2ERK7QStringS2_P7QObject@Base 4:4.5.85
+ _ZN11KDualActionD0Ev@Base 4:4.5.85
+ _ZN11KDualActionD1Ev@Base 4:4.5.85
+ _ZN11KDualActionD2Ev@Base 4:4.5.85
  _ZN11KFindDialog10setOptionsEl@Base 4:4.3.4
  _ZN11KFindDialog10setPatternERK7QString@Base 4:4.3.4
  _ZN11KFindDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -579,6 +602,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11KImageCache11insertImageERK7QStringRK6QImage@Base 4:4.4.95
  _ZN11KImageCache12insertPixmapERK7QStringRK7QPixmap@Base 4:4.4.95
  _ZN11KImageCache16setPixmapCachingEb@Base 4:4.4.95
+ _ZN11KImageCache19setPixmapCacheLimitEi@Base 4:4.5.85
  _ZN11KImageCache5clearEv@Base 4:4.4.95
  _ZN11KImageCache7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
  _ZN11KImageCache7Private11qt_metacastEPKc@Base 4:4.4.95
@@ -1621,6 +1645,34 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KPassivePopupD0Ev@Base 4:4.3.4
  _ZN13KPassivePopupD1Ev@Base 4:4.3.4
  _ZN13KPassivePopupD2Ev@Base 4:4.3.4
+ _ZN13KRatingWidget10leaveEventEP6QEvent@Base 4:4.5.85
+ _ZN13KRatingWidget10paintEventEP11QPaintEvent@Base 4:4.5.85
+ _ZN13KRatingWidget10setSpacingEi@Base 4:4.5.85
+ _ZN13KRatingWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.85
+ _ZN13KRatingWidget11qt_metacastEPKc@Base 4:4.5.85
+ _ZN13KRatingWidget11resizeEventEP12QResizeEvent@Base 4:4.5.85
+ _ZN13KRatingWidget12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.5.85
+ _ZN13KRatingWidget12setMaxRatingEi@Base 4:4.5.85
+ _ZN13KRatingWidget12setMaxRatingEj@Base 4:4.5.85
+ _ZN13KRatingWidget13ratingChangedEi@Base 4:4.5.85
+ _ZN13KRatingWidget13ratingChangedEj@Base 4:4.5.85
+ _ZN13KRatingWidget13setPixmapSizeEi@Base 4:4.5.85
+ _ZN13KRatingWidget14mouseMoveEventEP11QMouseEvent@Base 4:4.5.85
+ _ZN13KRatingWidget15mousePressEventEP11QMouseEvent@Base 4:4.5.85
+ _ZN13KRatingWidget15setCustomPixmapERK7QPixmap@Base 4:4.5.85
+ _ZN13KRatingWidget16staticMetaObjectE@Base 4:4.5.85
+ _ZN13KRatingWidget18setLayoutDirectionEN2Qt15LayoutDirectionE@Base 4:4.5.85
+ _ZN13KRatingWidget19setHalfStepsEnabledEb@Base 4:4.5.85
+ _ZN13KRatingWidget21setOnlyPaintFullStepsEb@Base 4:4.5.85
+ _ZN13KRatingWidget7setIconERK5QIcon@Base 4:4.5.85
+ _ZN13KRatingWidget9setPixmapERK7QPixmap@Base 4:4.5.85
+ _ZN13KRatingWidget9setRatingEi@Base 4:4.5.85
+ _ZN13KRatingWidget9setRatingEj@Base 4:4.5.85
+ _ZN13KRatingWidgetC1EP7QWidget@Base 4:4.5.85
+ _ZN13KRatingWidgetC2EP7QWidget@Base 4:4.5.85
+ _ZN13KRatingWidgetD0Ev@Base 4:4.5.85
+ _ZN13KRatingWidgetD1Ev@Base 4:4.5.85
+ _ZN13KRatingWidgetD2Ev@Base 4:4.5.85
  _ZN13KRichTextEdit10alignRightEv@Base 4:4.3.4
  _ZN13KRichTextEdit10updateLinkERK7QStringS2_@Base 4:4.3.4
  _ZN13KRichTextEdit11alignCenterEv@Base 4:4.3.4
@@ -1636,6 +1688,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KRichTextEdit13setTextOrHtmlERK7QString@Base 4:4.3.4
  _ZN13KRichTextEdit14indentListLessEv@Base 4:4.3.4
  _ZN13KRichTextEdit14indentListMoreEv@Base 4:4.3.4
+ _ZN13KRichTextEdit15makeLeftToRightEv@Base 4:4.5.85
+ _ZN13KRichTextEdit15makeRightToLeftEv@Base 4:4.5.85
  _ZN13KRichTextEdit15textModeChangedENS_4ModeE@Base 4:4.3.4
  _ZN13KRichTextEdit16setTextStrikeOutEb@Base 4:4.3.4
  _ZN13KRichTextEdit16setTextSubScriptEb@Base 4:4.3.4
@@ -1814,6 +1868,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KXMLGUIClient16unplugActionListERK7QString@Base 4:4.3.4
  _ZN13KXMLGUIClient17insertChildClientEPS_@Base 4:4.3.4
  _ZN13KXMLGUIClient17removeChildClientEPS_@Base 4:4.3.4
+ _ZN13KXMLGUIClient20loadStandardsXmlFileEv@Base 4:4.5.85
  _ZN13KXMLGUIClient21addStateActionEnabledERK7QStringS2_@Base 4:4.3.4
  _ZN13KXMLGUIClient21findMostRecentXMLFileERK11QStringListR7QString@Base 4:4.3.4
  _ZN13KXMLGUIClient22addStateActionDisabledERK7QStringS2_@Base 4:4.3.4
@@ -1902,6 +1957,21 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN14KFontRequesterD0Ev@Base 4:4.3.4
  _ZN14KFontRequesterD1Ev@Base 4:4.3.4
  _ZN14KFontRequesterD2Ev@Base 4:4.3.4
+ _ZN14KRatingPainter10setEnabledEb@Base 4:4.5.85
+ _ZN14KRatingPainter10setSpacingEi@Base 4:4.5.85
+ _ZN14KRatingPainter11paintRatingEP8QPainterRK5QRect6QFlagsIN2Qt13AlignmentFlagEEii@Base 4:4.5.85
+ _ZN14KRatingPainter12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.5.85
+ _ZN14KRatingPainter12setMaxRatingEi@Base 4:4.5.85
+ _ZN14KRatingPainter15setCustomPixmapERK7QPixmap@Base 4:4.5.85
+ _ZN14KRatingPainter18setLayoutDirectionEN2Qt15LayoutDirectionE@Base 4:4.5.85
+ _ZN14KRatingPainter19setHalfStepsEnabledEb@Base 4:4.5.85
+ _ZN14KRatingPainter21getRatingFromPositionERK5QRect6QFlagsIN2Qt13AlignmentFlagEENS4_15LayoutDirectionERK6QPoint@Base 4:4.5.85
+ _ZN14KRatingPainter7Private9getPixmapEi@Base 4:4.5.85
+ _ZN14KRatingPainter7setIconERK5QIcon@Base 4:4.5.85
+ _ZN14KRatingPainterC1Ev@Base 4:4.5.85
+ _ZN14KRatingPainterC2Ev@Base 4:4.5.85
+ _ZN14KRatingPainterD1Ev@Base 4:4.5.85
+ _ZN14KRatingPainterD2Ev@Base 4:4.5.85
  _ZN14KReplaceDialog10setOptionsEl@Base 4:4.3.4
  _ZN14KReplaceDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN14KReplaceDialog11qt_metacastEPKc@Base 4:4.3.4
@@ -1986,6 +2056,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN14KXMLGUIFactory11clientAddedEP13KXMLGUIClient@Base 4:4.3.4
  _ZN14KXMLGUIFactory11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN14KXMLGUIFactory11qt_metacastEPKc@Base 4:4.3.4
+ _ZN14KXMLGUIFactory12forgetClientEP13KXMLGUIClient@Base 4:4.5.85
  _ZN14KXMLGUIFactory12removeClientEP13KXMLGUIClient@Base 4:4.3.4
  _ZN14KXMLGUIFactory13clientRemovedEP13KXMLGUIClient@Base 4:4.3.4
  _ZN14KXMLGUIFactory13makingChangesEb@Base 4:4.3.4
@@ -2155,6 +2226,46 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN15KDoubleNumInputD0Ev@Base 4:4.3.4
  _ZN15KDoubleNumInputD1Ev@Base 4:4.3.4
  _ZN15KDoubleNumInputD2Ev@Base 4:4.3.4
+ _ZN15KEditListWidget10insertItemERK7QStringi@Base 4:4.5.85
+ _ZN15KEditListWidget10moveItemUpEv@Base 4:4.5.85
+ _ZN15KEditListWidget10removeItemEv@Base 4:4.5.85
+ _ZN15KEditListWidget10setButtonsE6QFlagsINS_6ButtonEE@Base 4:4.5.85
+ _ZN15KEditListWidget11eventFilterEP7QObjectP6QEvent@Base 4:4.5.85
+ _ZN15KEditListWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.85
+ _ZN15KEditListWidget11qt_metacastEPKc@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditor11setLineEditEP9KLineEdit@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditor23setRepresentationWidgetEP7QWidget@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditorC1EP7QWidgetP9KLineEdit@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditorC1EP9KComboBox@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditorC1Ev@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditorC2EP7QWidgetP9KLineEdit@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditorC2EP9KComboBox@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditorC2Ev@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditorD0Ev@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditorD1Ev@Base 4:4.5.85
+ _ZN15KEditListWidget12CustomEditorD2Ev@Base 4:4.5.85
+ _ZN15KEditListWidget12moveItemDownEv@Base 4:4.5.85
+ _ZN15KEditListWidget14typedSomethingERK7QString@Base 4:4.5.85
+ _ZN15KEditListWidget15checkAtEnteringEv@Base 4:4.5.85
+ _ZN15KEditListWidget15setCustomEditorERKNS_12CustomEditorE@Base 4:4.5.85
+ _ZN15KEditListWidget16insertStringListERK11QStringListi@Base 4:4.5.85
+ _ZN15KEditListWidget16staticMetaObjectE@Base 4:4.5.85
+ _ZN15KEditListWidget17enableMoveButtonsERK11QModelIndexS2_@Base 4:4.5.85
+ _ZN15KEditListWidget18setCheckAtEnteringEb@Base 4:4.5.85
+ _ZN15KEditListWidget20slotSelectionChangedERK14QItemSelectionS2_@Base 4:4.5.85
+ _ZN15KEditListWidget5addedERK7QString@Base 4:4.5.85
+ _ZN15KEditListWidget5clearEv@Base 4:4.5.85
+ _ZN15KEditListWidget7addItemEv@Base 4:4.5.85
+ _ZN15KEditListWidget7changedEv@Base 4:4.5.85
+ _ZN15KEditListWidget7removedERK7QString@Base 4:4.5.85
+ _ZN15KEditListWidget8setItemsERK11QStringList@Base 4:4.5.85
+ _ZN15KEditListWidgetC1EP7QWidget@Base 4:4.5.85
+ _ZN15KEditListWidgetC1ERKNS_12CustomEditorEP7QWidgetb6QFlagsINS_6ButtonEE@Base 4:4.5.85
+ _ZN15KEditListWidgetC2EP7QWidget@Base 4:4.5.85
+ _ZN15KEditListWidgetC2ERKNS_12CustomEditorEP7QWidgetb6QFlagsINS_6ButtonEE@Base 4:4.5.85
+ _ZN15KEditListWidgetD0Ev@Base 4:4.5.85
+ _ZN15KEditListWidgetD1Ev@Base 4:4.5.85
+ _ZN15KEditListWidgetD2Ev@Base 4:4.5.85
  _ZN15KFloatValidator25setAcceptLocalizedNumbersEb@Base 4:4.3.4
  _ZN15KFloatValidator8setRangeEdd@Base 4:4.3.4
  _ZN15KFloatValidatorC1EP7QWidget@Base 4:4.3.4
@@ -2245,6 +2356,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN15KGlobalSettings7Private19_k_slotNotifyChangeEii@Base 4:4.3.4
  _ZN15KGlobalSettings7Private19propagateQtSettingsEv@Base 4:4.3.4
  _ZN15KGlobalSettings7Private19rereadOtherSettingsEv@Base 4:4.3.4
+ _ZN15KGlobalSettings7Private24createApplicationPaletteERK10KSharedPtrI13KSharedConfigE@Base 4:4.5.85
+ _ZN15KGlobalSettings8activateE6QFlagsINS_14ActivateOptionEE@Base 4:4.5.85
  _ZN15KGlobalSettings8activateEv@Base 4:4.3.4
  _ZN15KGlobalSettings8contrastEv@Base 4:4.3.4
  _ZN15KGlobalSettings8menuFontEv@Base 4:4.3.4
@@ -3192,6 +3305,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN18KSqueezedTextLabel16contextMenuEventEP17QContextMenuEvent@Base 4:4.3.4
  _ZN18KSqueezedTextLabel16setTextElideModeEN2Qt13TextElideModeE@Base 4:4.3.4
  _ZN18KSqueezedTextLabel16staticMetaObjectE@Base 4:4.3.4
+ _ZN18KSqueezedTextLabel17mouseReleaseEventEP11QMouseEvent@Base 4:4.5.85
  _ZN18KSqueezedTextLabel18squeezeTextToLabelEv@Base 4:4.3.4
  _ZN18KSqueezedTextLabel5clearEv@Base 4:4.3.4
  _ZN18KSqueezedTextLabel7setTextERK7QString@Base 4:4.3.4
@@ -3202,6 +3316,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN18KSqueezedTextLabelD0Ev@Base 4:4.3.4
  _ZN18KSqueezedTextLabelD1Ev@Base 4:4.3.4
  _ZN18KSqueezedTextLabelD2Ev@Base 4:4.3.4
+ _ZN18KSystemEventFilter17removeEventFilterEPK7QWidget@Base 4:4.5.85
+ _ZN18KSystemEventFilter18installEventFilterEP7QWidget@Base 4:4.5.85
  _ZN18KUniqueApplication11newInstanceEv@Base 4:4.3.4
  _ZN18KUniqueApplication11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN18KUniqueApplication11qt_metacastEPKc@Base 4:4.3.4
@@ -3255,6 +3371,23 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN19KGlobalShortcutInfoD1Ev@Base 4:4.3.4
  _ZN19KGlobalShortcutInfoD2Ev@Base 4:4.3.4
  _ZN19KGlobalShortcutInfoaSERKS_@Base 4:4.3.4
+ _ZN19KIdentityProxyModel10insertRowsEiiRK11QModelIndex@Base 4:4.5.85
+ _ZN19KIdentityProxyModel10removeRowsEiiRK11QModelIndex@Base 4:4.5.85
+ _ZN19KIdentityProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.85
+ _ZN19KIdentityProxyModel11qt_metacastEPKc@Base 4:4.5.85
+ _ZN19KIdentityProxyModel12dropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex@Base 4:4.5.85
+ _ZN19KIdentityProxyModel13insertColumnsEiiRK11QModelIndex@Base 4:4.5.85
+ _ZN19KIdentityProxyModel13removeColumnsEiiRK11QModelIndex@Base 4:4.5.85
+ _ZN19KIdentityProxyModel14setSourceModelEP18QAbstractItemModel@Base 4:4.5.85
+ _ZN19KIdentityProxyModel16staticMetaObjectE@Base 4:4.5.85
+ _ZN19KIdentityProxyModel17resetInternalDataEv@Base 4:4.5.85
+ _ZN19KIdentityProxyModelC1EP26KIdentityProxyModelPrivateP7QObject@Base 4:4.5.85
+ _ZN19KIdentityProxyModelC1EP7QObject@Base 4:4.5.85
+ _ZN19KIdentityProxyModelC2EP26KIdentityProxyModelPrivateP7QObject@Base 4:4.5.85
+ _ZN19KIdentityProxyModelC2EP7QObject@Base 4:4.5.85
+ _ZN19KIdentityProxyModelD0Ev@Base 4:4.5.85
+ _ZN19KIdentityProxyModelD1Ev@Base 4:4.5.85
+ _ZN19KIdentityProxyModelD2Ev@Base 4:4.5.85
  _ZN19KStatusNotifierItem10setToolTipERK5QIconRK7QStringS5_@Base 4:4.4.0
  _ZN19KStatusNotifierItem10setToolTipERK7QStringS2_S2_@Base 4:4.4.0
  _ZN19KStatusNotifierItem11eventFilterEP7QObjectP6QEvent@Base 4:4.4.0
@@ -3344,6 +3477,18 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN19KWidgetItemDelegateD0Ev@Base 4:4.3.4
  _ZN19KWidgetItemDelegateD1Ev@Base 4:4.3.4
  _ZN19KWidgetItemDelegateD2Ev@Base 4:4.3.4
+ _ZN20KCheckableProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.85
+ _ZN20KCheckableProxyModel11qt_metacastEPKc@Base 4:4.5.85
+ _ZN20KCheckableProxyModel14setSourceModelEP18QAbstractItemModel@Base 4:4.5.85
+ _ZN20KCheckableProxyModel16staticMetaObjectE@Base 4:4.5.85
+ _ZN20KCheckableProxyModel17setSelectionModelEP19QItemSelectionModel@Base 4:4.5.85
+ _ZN20KCheckableProxyModel6selectERK14QItemSelection6QFlagsIN19QItemSelectionModel13SelectionFlagEE@Base 4:4.5.85
+ _ZN20KCheckableProxyModel7setDataERK11QModelIndexRK8QVarianti@Base 4:4.5.85
+ _ZN20KCheckableProxyModelC1EP7QObject@Base 4:4.5.85
+ _ZN20KCheckableProxyModelC2EP7QObject@Base 4:4.5.85
+ _ZN20KCheckableProxyModelD0Ev@Base 4:4.5.85
+ _ZN20KCheckableProxyModelD1Ev@Base 4:4.5.85
+ _ZN20KCheckableProxyModelD2Ev@Base 4:4.5.85
  _ZN20KConfigDialogManager10changedMapEv@Base 4:4.3.4
  _ZN20KConfigDialogManager11propertyMapEv@Base 4:4.3.4
  _ZN20KConfigDialogManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -3362,7 +3507,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN20KConfigDialogManager8initMapsEv@Base 4:4.3.4
  _ZN20KConfigDialogManager9addWidgetEP7QWidget@Base 4:4.3.4
  _ZN20KConfigDialogManagerC1EP7QWidgetP15KConfigSkeleton@Base 4:4.3.4
+ _ZN20KConfigDialogManagerC1EP7QWidgetP19KCoreConfigSkeleton@Base 4:4.5.85
  _ZN20KConfigDialogManagerC2EP7QWidgetP15KConfigSkeleton@Base 4:4.3.4
+ _ZN20KConfigDialogManagerC2EP7QWidgetP19KCoreConfigSkeleton@Base 4:4.5.85
  _ZN20KConfigDialogManagerD0Ev@Base 4:4.3.4
  _ZN20KConfigDialogManagerD1Ev@Base 4:4.3.4
  _ZN20KConfigDialogManagerD2Ev@Base 4:4.3.4
@@ -3540,6 +3687,18 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN22KClipboardSynchronizerD0Ev@Base 4:4.3.4
  _ZN22KClipboardSynchronizerD1Ev@Base 4:4.3.4
  _ZN22KClipboardSynchronizerD2Ev@Base 4:4.3.4
+ _ZN22KDescendantsProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.85
+ _ZN22KDescendantsProxyModel11qt_metacastEPKc@Base 4:4.5.85
+ _ZN22KDescendantsProxyModel12setRootIndexERK11QModelIndex@Base 4:4.5.85
+ _ZN22KDescendantsProxyModel14setSourceModelEP18QAbstractItemModel@Base 4:4.5.85
+ _ZN22KDescendantsProxyModel16staticMetaObjectE@Base 4:4.5.85
+ _ZN22KDescendantsProxyModel20setAncestorSeparatorERK7QString@Base 4:4.5.85
+ _ZN22KDescendantsProxyModel22setDisplayAncestorDataEb@Base 4:4.5.85
+ _ZN22KDescendantsProxyModelC1EP7QObject@Base 4:4.5.85
+ _ZN22KDescendantsProxyModelC2EP7QObject@Base 4:4.5.85
+ _ZN22KDescendantsProxyModelD0Ev@Base 4:4.5.85
+ _ZN22KDescendantsProxyModelD1Ev@Base 4:4.5.85
+ _ZN22KDescendantsProxyModelD2Ev@Base 4:4.5.85
  _ZN22KFilterProxySearchLine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN22KFilterProxySearchLine11qt_metacastEPKc@Base 4:4.3.4
  _ZN22KFilterProxySearchLine16staticMetaObjectE@Base 4:4.3.4
@@ -3633,6 +3792,16 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN23KToggleFullScreenActionD0Ev@Base 4:4.3.4
  _ZN23KToggleFullScreenActionD1Ev@Base 4:4.3.4
  _ZN23KToggleFullScreenActionD2Ev@Base 4:4.3.4
+ _ZN24KViewStateMaintainerBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.85
+ _ZN24KViewStateMaintainerBase11qt_metacastEPKc@Base 4:4.5.85
+ _ZN24KViewStateMaintainerBase16staticMetaObjectE@Base 4:4.5.85
+ _ZN24KViewStateMaintainerBase17setSelectionModelEP19QItemSelectionModel@Base 4:4.5.85
+ _ZN24KViewStateMaintainerBase7setViewEP17QAbstractItemView@Base 4:4.5.85
+ _ZN24KViewStateMaintainerBaseC1E12KConfigGroupP7QObject@Base 4:4.5.85
+ _ZN24KViewStateMaintainerBaseC2E12KConfigGroupP7QObject@Base 4:4.5.85
+ _ZN24KViewStateMaintainerBaseD0Ev@Base 4:4.5.85
+ _ZN24KViewStateMaintainerBaseD1Ev@Base 4:4.5.85
+ _ZN24KViewStateMaintainerBaseD2Ev@Base 4:4.5.85
  _ZN25KAbstractWidgetJobTracker10slotResumeEP4KJob@Base 4:4.3.4
  _ZN25KAbstractWidgetJobTracker11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN25KAbstractWidgetJobTracker11qt_metacastEPKc@Base 4:4.3.4
@@ -3787,14 +3956,17 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN4KLed11paintSunkenEv@Base 4:4.3.4
  _ZN4KLed11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN4KLed11qt_metacastEPKc@Base 4:4.3.4
+ _ZN4KLed11resizeEventEP12QResizeEvent@Base 4:4.5.85
  _ZN4KLed13setDarkFactorEi@Base 4:4.3.4
  _ZN4KLed14paintRectFrameEb@Base 4:4.3.4
  _ZN4KLed16staticMetaObjectE@Base 4:4.3.4
  _ZN4KLed17paintCachedPixmapEv@Base 4:4.3.4
+ _ZN4KLed18updateCachedPixmapEv@Base 4:4.5.85
  _ZN4KLed2onEv@Base 4:4.3.4
  _ZN4KLed3offEv@Base 4:4.3.4
  _ZN4KLed6toggleEv@Base 4:4.3.4
  _ZN4KLed7setLookENS_4LookE@Base 4:4.3.4
+ _ZN4KLed8paintLedENS_5ShapeENS_4LookE@Base 4:4.5.85
  _ZN4KLed8setColorERK6QColor@Base 4:4.3.4
  _ZN4KLed8setShapeENS_5ShapeE@Base 4:4.3.4
  _ZN4KLed8setStateENS_5StateE@Base 4:4.3.4
@@ -3876,6 +4048,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN5KMenu12KMenuPrivate17resetKeyboardVarsEb@Base 4:4.3.4
  _ZN5KMenu12KMenuPrivateC1EPS_@Base 4:4.3.4
  _ZN5KMenu12KMenuPrivateC2EPS_@Base 4:4.3.4
+ _ZN5KMenu12KMenuPrivateD0Ev@Base 4:4.5.85
  _ZN5KMenu12KMenuPrivateD1Ev@Base 4:4.3.4
  _ZN5KMenu12KMenuPrivateD2Ev@Base 4:4.3.4
  _ZN5KMenu13keyPressEventEP9QKeyEvent@Base 4:4.3.4
@@ -4212,6 +4385,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN7KDialog20incrementInitialSizeERK5QSize@Base 4:4.3.4
  _ZN7KDialog21setButtonsOrientationEN2Qt11OrientationE@Base 4:4.3.4
  _ZN7KDialog23setDetailsWidgetVisibleEb@Base 4:4.3.4
+ _ZN7KDialog31setAllowEmbeddingInGraphicsViewEb@Base 4:4.5.85
  _ZN7KDialog6hiddenEv@Base 4:4.3.4
  _ZN7KDialog7setHelpERK7QStringS2_@Base 4:4.3.4
  _ZN7KDialog8finishedEv@Base 4:4.3.4
@@ -4348,6 +4522,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN8KCModule7changedEv@Base 4:4.3.4
  _ZN8KCModule8defaultsEv@Base 4:4.3.4
  _ZN8KCModule9addConfigEP15KConfigSkeletonP7QWidget@Base 4:4.3.4
+ _ZN8KCModule9addConfigEP19KCoreConfigSkeletonP7QWidget@Base 4:4.5.85
  _ZN8KCModule9showEventEP10QShowEvent@Base 4:4.3.4
  _ZN8KCModuleC1EP7QWidgetPKcRK11QStringList@Base 4:4.3.4
  _ZN8KCModuleC1ERK14KComponentDataP7QWidgetRK11QStringList@Base 4:4.3.4
@@ -4846,6 +5021,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK10KTipDialog10metaObjectEv@Base 4:4.3.4
  _ZNK10KUndoStack10metaObjectEv@Base 4:4.3.4
  _ZNK10KXMessages10metaObjectEv@Base 4:4.3.4
+ _ZNK10NETWinInfo10activitiesEv@Base 4:4.5.85
  _ZNK10NETWinInfo10windowRoleEv@Base 4:4.3.4
  _ZNK10NETWinInfo10windowTypeEm@Base 4:4.3.4
  _ZNK10NETWinInfo11groupLeaderEv@Base 4:4.3.4
@@ -4925,6 +5101,17 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK11KDateWidget10metaObjectEv@Base 4:4.3.4
  _ZNK11KDateWidget4dateEv@Base 4:4.3.4
  _ZNK11KDateWidget8calendarEv@Base 4:4.3.4
+ _ZNK11KDualAction10activeIconEv@Base 4:4.5.85
+ _ZNK11KDualAction10activeTextEv@Base 4:4.5.85
+ _ZNK11KDualAction10autoToggleEv@Base 4:4.5.85
+ _ZNK11KDualAction10metaObjectEv@Base 4:4.5.85
+ _ZNK11KDualAction12inactiveIconEv@Base 4:4.5.85
+ _ZNK11KDualAction12inactiveTextEv@Base 4:4.5.85
+ _ZNK11KDualAction13activeGuiItemEv@Base 4:4.5.85
+ _ZNK11KDualAction13activeToolTipEv@Base 4:4.5.85
+ _ZNK11KDualAction15inactiveGuiItemEv@Base 4:4.5.85
+ _ZNK11KDualAction15inactiveToolTipEv@Base 4:4.5.85
+ _ZNK11KDualAction8isActiveEv@Base 4:4.5.85
  _ZNK11KFindDialog10metaObjectEv@Base 4:4.3.4
  _ZNK11KFindDialog11findHistoryEv@Base 4:4.3.4
  _ZNK11KFindDialog13findExtensionEv@Base 4:4.3.4
@@ -4963,6 +5150,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK11KImageCache10findPixmapERK7QStringP7QPixmap@Base 4:4.4.95
  _ZNK11KImageCache13pixmapCachingEv@Base 4:4.4.95
  _ZNK11KImageCache16lastModifiedTimeEv@Base 4:4.4.95
+ _ZNK11KImageCache16pixmapCacheLimitEv@Base 4:4.5.85
  _ZNK11KImageCache7Private10metaObjectEv@Base 4:4.4.95
  _ZNK11KImageCache9findImageERK7QStringP6QImage@Base 4:4.4.95
  _ZNK11KIntSpinBox10metaObjectEv@Base 4:4.3.4
@@ -5220,6 +5408,15 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK13KPassivePopup4viewEv@Base 4:4.3.4
  _ZNK13KPassivePopup6anchorEv@Base 4:4.3.4
  _ZNK13KPassivePopup7timeoutEv@Base 4:4.3.4
+ _ZNK13KRatingWidget10metaObjectEv@Base 4:4.5.85
+ _ZNK13KRatingWidget15layoutDirectionEv@Base 4:4.5.85
+ _ZNK13KRatingWidget16halfStepsEnabledEv@Base 4:4.5.85
+ _ZNK13KRatingWidget4iconEv@Base 4:4.5.85
+ _ZNK13KRatingWidget6ratingEv@Base 4:4.5.85
+ _ZNK13KRatingWidget7spacingEv@Base 4:4.5.85
+ _ZNK13KRatingWidget8sizeHintEv@Base 4:4.5.85
+ _ZNK13KRatingWidget9alignmentEv@Base 4:4.5.85
+ _ZNK13KRatingWidget9maxRatingEv@Base 4:4.5.85
  _ZNK13KRichTextEdit10metaObjectEv@Base 4:4.3.4
  _ZNK13KRichTextEdit10textOrHtmlEv@Base 4:4.3.4
  _ZNK13KRichTextEdit11toCleanHtmlEv@Base 4:4.3.4
@@ -5287,6 +5484,16 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK14KFontRequester5labelEv@Base 4:4.3.4
  _ZNK14KFontRequester5titleEv@Base 4:4.3.4
  _ZNK14KFontRequester6buttonEv@Base 4:4.3.4
+ _ZNK14KRatingPainter12customPixmapEv@Base 4:4.5.85
+ _ZNK14KRatingPainter15layoutDirectionEv@Base 4:4.5.85
+ _ZNK14KRatingPainter16halfStepsEnabledEv@Base 4:4.5.85
+ _ZNK14KRatingPainter18ratingFromPositionERK5QRectRK6QPoint@Base 4:4.5.85
+ _ZNK14KRatingPainter4iconEv@Base 4:4.5.85
+ _ZNK14KRatingPainter5paintEP8QPainterRK5QRectii@Base 4:4.5.85
+ _ZNK14KRatingPainter7spacingEv@Base 4:4.5.85
+ _ZNK14KRatingPainter9alignmentEv@Base 4:4.5.85
+ _ZNK14KRatingPainter9isEnabledEv@Base 4:4.5.85
+ _ZNK14KRatingPainter9maxRatingEv@Base 4:4.5.85
  _ZNK14KReplaceDialog10metaObjectEv@Base 4:4.3.4
  _ZNK14KReplaceDialog11replacementEv@Base 4:4.3.4
  _ZNK14KReplaceDialog16replaceExtensionEv@Base 4:4.3.4
@@ -5368,6 +5575,21 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK15KDoubleNumInput7maximumEv@Base 4:4.3.4
  _ZNK15KDoubleNumInput7minimumEv@Base 4:4.3.4
  _ZNK15KDoubleNumInput8decimalsEv@Base 4:4.3.4
+ _ZNK15KEditListWidget10downButtonEv@Base 4:4.5.85
+ _ZNK15KEditListWidget10metaObjectEv@Base 4:4.5.85
+ _ZNK15KEditListWidget11currentItemEv@Base 4:4.5.85
+ _ZNK15KEditListWidget11currentTextEv@Base 4:4.5.85
+ _ZNK15KEditListWidget12CustomEditor20representationWidgetEv@Base 4:4.5.85
+ _ZNK15KEditListWidget12CustomEditor8lineEditEv@Base 4:4.5.85
+ _ZNK15KEditListWidget12removeButtonEv@Base 4:4.5.85
+ _ZNK15KEditListWidget4textEi@Base 4:4.5.85
+ _ZNK15KEditListWidget5countEv@Base 4:4.5.85
+ _ZNK15KEditListWidget5itemsEv@Base 4:4.5.85
+ _ZNK15KEditListWidget7buttonsEv@Base 4:4.5.85
+ _ZNK15KEditListWidget8lineEditEv@Base 4:4.5.85
+ _ZNK15KEditListWidget8listViewEv@Base 4:4.5.85
+ _ZNK15KEditListWidget8upButtonEv@Base 4:4.5.85
+ _ZNK15KEditListWidget9addButtonEv@Base 4:4.5.85
  _ZNK15KFloatValidator22acceptLocalizedNumbersEv@Base 4:4.3.4
  _ZNK15KFloatValidator3topEv@Base 4:4.3.4
  _ZNK15KFloatValidator5fixupER7QString@Base 4:4.3.4
@@ -5621,6 +5843,16 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK19KGlobalShortcutInfo19contextFriendlyNameEv@Base 4:4.3.4
  _ZNK19KGlobalShortcutInfo21componentFriendlyNameEv@Base 4:4.3.4
  _ZNK19KGlobalShortcutInfo4keysEv@Base 4:4.3.4
+ _ZNK19KIdentityProxyModel10metaObjectEv@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel11columnCountERK11QModelIndex@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel11mapToSourceERK11QModelIndex@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel13mapFromSourceERK11QModelIndex@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel20mapSelectionToSourceERK14QItemSelection@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel22mapSelectionFromSourceERK14QItemSelection@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel5indexEiiRK11QModelIndex@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel6parentERK11QModelIndex@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel8rowCountERK11QModelIndex@Base 4:4.5.85
  _ZNK19KStatusNotifierItem10iconPixmapEv@Base 4:4.4.0
  _ZNK19KStatusNotifierItem10metaObjectEv@Base 4:4.4.0
  _ZNK19KStatusNotifierItem11contextMenuEv@Base 4:4.4.0
@@ -5654,6 +5886,10 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK19KWidgetItemDelegate17blockedEventTypesEP7QWidget@Base 4:4.3.4
  _ZNK19KWidgetItemDelegate20setBlockedEventTypesEP7QWidget5QListIN6QEvent4TypeEE@Base 4:4.3.4
  _ZNK19KWidgetItemDelegate8itemViewEv@Base 4:4.3.4
+ _ZNK20KCheckableProxyModel10metaObjectEv@Base 4:4.5.85
+ _ZNK20KCheckableProxyModel14selectionModelEv@Base 4:4.5.85
+ _ZNK20KCheckableProxyModel4dataERK11QModelIndexi@Base 4:4.5.85
+ _ZNK20KCheckableProxyModel5flagsERK11QModelIndex@Base 4:4.5.85
  _ZNK20KConfigDialogManager10hasChangedEv@Base 4:4.3.4
  _ZNK20KConfigDialogManager10metaObjectEv@Base 4:4.3.4
  _ZNK20KConfigDialogManager15getUserPropertyEPK7QWidget@Base 4:4.3.4
@@ -5672,7 +5908,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK20KSelectionProxyModel14filterBehaviorEv@Base 4:4.4.0
  _ZNK20KSelectionProxyModel14selectionModelEv@Base 4:4.4.0
  _ZNK20KSelectionProxyModel17sourceRootIndexesEv@Base 4:4.4.0
+ _ZNK20KSelectionProxyModel20mapSelectionToSourceERK14QItemSelection@Base 4:4.5.85
  _ZNK20KSelectionProxyModel20supportedDropActionsEv@Base 4:4.4.0
+ _ZNK20KSelectionProxyModel22mapSelectionFromSourceERK14QItemSelection@Base 4:4.5.85
  _ZNK20KSelectionProxyModel4dataERK11QModelIndexi@Base 4:4.4.0
  _ZNK20KSelectionProxyModel5flagsERK11QModelIndex@Base 4:4.4.0
  _ZNK20KSelectionProxyModel5indexEiiRK11QModelIndex@Base 4:4.4.0
@@ -5711,6 +5949,23 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK21KTreeWidgetSearchLine18keepParentsVisibleEv@Base 4:4.3.4
  _ZNK21KTreeWidgetSearchLine7Private15_k_rowsInsertedERK11QModelIndexii@Base 4:4.3.4
  _ZNK22KClipboardSynchronizer10metaObjectEv@Base 4:4.3.4
+ _ZNK22KDescendantsProxyModel10headerDataEiN2Qt11OrientationEi@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel10metaObjectEv@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel11columnCountERK11QModelIndex@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel11hasChildrenERK11QModelIndex@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel11mapToSourceERK11QModelIndex@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel13mapFromSourceERK11QModelIndex@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel17ancestorSeparatorEv@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel19displayAncestorDataEv@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel20supportedDropActionsEv@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel4dataERK11QModelIndexi@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel5flagsERK11QModelIndex@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel5indexEiiRK11QModelIndex@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel6parentERK11QModelIndex@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel8mimeDataERK5QListI11QModelIndexE@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel8rowCountERK11QModelIndex@Base 4:4.5.85
+ _ZNK22KDescendantsProxyModel9mimeTypesEv@Base 4:4.5.85
  _ZNK22KFilterProxySearchLine10metaObjectEv@Base 4:4.3.4
  _ZNK22KFilterProxySearchLine8lineEditEv@Base 4:4.3.4
  _ZNK22KHueSaturationSelector10colorValueEv@Base 4:4.3.4
@@ -5734,6 +5989,10 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK23KExtendableItemDelegate8sizeHintERK20QStyleOptionViewItemRK11QModelIndex@Base 4:4.3.4
  _ZNK23KLinkItemSelectionModel10metaObjectEv@Base 4:4.4.95
  _ZNK23KToggleFullScreenAction10metaObjectEv@Base 4:4.3.4
+ _ZNK24KViewStateMaintainerBase10metaObjectEv@Base 4:4.5.85
+ _ZNK24KViewStateMaintainerBase11configGroupEv@Base 4:4.5.85
+ _ZNK24KViewStateMaintainerBase14selectionModelEv@Base 4:4.5.85
+ _ZNK24KViewStateMaintainerBase4viewEv@Base 4:4.5.85
  _ZNK25KAbstractWidgetJobTracker10autoDeleteEP4KJob@Base 4:4.3.4
  _ZNK25KAbstractWidgetJobTracker10metaObjectEv@Base 4:4.3.4
  _ZNK25KAbstractWidgetJobTracker11stopOnCloseEP4KJob@Base 4:4.3.4
@@ -5745,7 +6004,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK25KNotificationRestrictions10metaObjectEv@Base 4:4.3.4
  _ZNK26KRecursiveFilterProxyModel10metaObjectEv@Base 4:4.4.95
  _ZNK26KRecursiveFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:4.4.95
- _ZNK26KRecursiveFilterProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4:4.5.2
+#MISSING: 4:4.5.85# _ZNK26KRecursiveFilterProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4:4.5.2
  _ZNK26KRecursiveFilterProxyModel9acceptRowEiRK11QModelIndex@Base 4:4.4.95
  _ZNK27KPassivePopupMessageHandler10metaObjectEv@Base 4:4.3.4
  _ZNK27KPixmapRegionSelectorDialog10metaObjectEv@Base 4:4.4.95
@@ -6020,6 +6279,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK9KWordWrap13wrappedStringEv@Base 4:4.3.4
  _ZNK9KWordWrap15truncatedStringEb@Base 4:4.3.4
  _ZNK9KWordWrap8drawTextEP8QPainteriii@Base 4:4.3.4
+ (optional=templinst)_ZNSt6vectorIPN19KVoidPointerFactoryILm256EE3BitESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 4:4.5.85
  _ZTI10KBugReport@Base 4:4.3.4
  _ZTI10KDateTable@Base 4:4.3.4
  _ZTI10KIconCache@Base 4:4.3.4
@@ -6039,6 +6299,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTI11KCompletion@Base 4:4.3.4
  _ZTI11KDatePicker@Base 4:4.3.4
  _ZTI11KDateWidget@Base 4:4.3.4
+ _ZTI11KDualAction@Base 4:4.5.85
  _ZTI11KFindDialog@Base 4:4.3.4
  _ZTI11KFontAction@Base 4:4.3.4
  _ZTI11KFontDialog@Base 4:4.3.4
@@ -6078,6 +6339,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTI13KIntValidator@Base 4:4.3.4
  _ZTI13KNotification@Base 4:4.3.4
  _ZTI13KPassivePopup@Base 4:4.3.4
+ _ZTI13KRatingWidget@Base 4:4.5.85
  _ZTI13KRichTextEdit@Base 4:4.3.4
  _ZTI13KSelectAction@Base 4:4.3.4
  _ZTI13KSplashScreen@Base 4:4.3.4
@@ -6099,6 +6361,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTI15KConfigSkeleton@Base 4:4.3.4
  _ZTI15KDateTimeWidget@Base 4:4.3.4
  _ZTI15KDoubleNumInput@Base 4:4.3.4
+ _ZTI15KEditListWidget@Base 4:4.5.85
  _ZTI15KFloatValidator@Base 4:4.3.4
  _ZTI15KFontSizeAction@Base 4:4.3.4
  _ZTI15KGlobalSettings@Base 4:4.3.4
@@ -6145,11 +6408,13 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTI18KUniqueApplication@Base 4:4.3.4
  _ZTI19KColorValueSelector@Base 4:4.3.4
  _ZTI19KGlobalShortcutInfo@Base 4:4.3.4
+ _ZTI19KIdentityProxyModel@Base 4:4.5.85
  _ZTI19KStatusNotifierItem@Base 4:4.4.0
  _ZTI19KToolBarLabelAction@Base 4:4.3.4
  _ZTI19KToolBarPopupAction@Base 4:4.3.4
  _ZTI19KUiServerJobTracker@Base 4:4.3.4
  _ZTI19KWidgetItemDelegate@Base 4:4.3.4
+ _ZTI20KCheckableProxyModel@Base 4:4.5.85
  _ZTI20KConfigDialogManager@Base 4:4.3.4
  _ZTI20KDialogJobUiDelegate@Base 4:4.3.4
  _ZTI20KSelectionProxyModel@Base 4:4.4.0
@@ -6161,6 +6426,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTI21KPixmapSequenceWidget@Base 4:4.4.0
  _ZTI21KTreeWidgetSearchLine@Base 4:4.3.4
  _ZTI22KClipboardSynchronizer@Base 4:4.3.4
+ _ZTI22KDescendantsProxyModel@Base 4:4.5.85
  _ZTI22KFilterProxySearchLine@Base 4:4.3.4
  _ZTI22KHueSaturationSelector@Base 4:4.3.4
  _ZTI22KModelIndexProxyMapper@Base 4:4.4.95
@@ -6168,6 +6434,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTI23KExtendableItemDelegate@Base 4:4.3.4
  _ZTI23KLinkItemSelectionModel@Base 4:4.4.95
  _ZTI23KToggleFullScreenAction@Base 4:4.3.4
+ _ZTI24KViewStateMaintainerBase@Base 4:4.5.85
  _ZTI25KAbstractWidgetJobTracker@Base 4:4.3.4
  _ZTI25KBreadcrumbSelectionModel@Base 4:4.4.95
  _ZTI25KMessageBoxMessageHandler@Base 4:4.3.4
@@ -6207,13 +6474,15 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTIN12KEditListBox12CustomEditorE@Base 4:4.3.4
  _ZTIN15KConfigSkeleton8ItemFontE@Base 4:4.3.4
  _ZTIN15KConfigSkeleton9ItemColorE@Base 4:4.3.4
+ _ZTIN15KEditListWidget12CustomEditorE@Base 4:4.5.85
  _ZTIN15KSelectionOwner7PrivateE@Base 4:4.3.4
  _ZTIN17KSelectionWatcher7PrivateE@Base 4:4.3.4
  _ZTIN17KWidgetJobTracker7Private14ProgressWidgetE@Base 4:4.3.4
  _ZTIN17KWidgetJobTracker7PrivateE@Base 4:4.3.4
  _ZTIN20KStatusBarJobTracker7Private14ProgressWidgetE@Base 4:4.3.4
  _ZTIN25KAbstractWidgetJobTracker7PrivateE@Base 4:4.3.4
- _ZTIN5KMenu12KMenuPrivate12EventSnifferE@Base 4:4.3.4
+#MISSING: 4:4.5.85# _ZTIN5KMenu12KMenuPrivate12EventSnifferE@Base 4:4.3.4
+ _ZTIN5KMenu12KMenuPrivateE@Base 4:4.5.85
  _ZTIN6KStyle10IconOptionE@Base 4:4.3.4
  _ZTIN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4:4.3.4
  _ZTIN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEEE@Base 4:4.3.4
@@ -6251,6 +6520,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTS11KCompletion@Base 4:4.3.4
  _ZTS11KDatePicker@Base 4:4.3.4
  _ZTS11KDateWidget@Base 4:4.3.4
+ _ZTS11KDualAction@Base 4:4.5.85
  _ZTS11KFindDialog@Base 4:4.3.4
  _ZTS11KFontAction@Base 4:4.3.4
  _ZTS11KFontDialog@Base 4:4.3.4
@@ -6290,6 +6560,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTS13KIntValidator@Base 4:4.3.4
  _ZTS13KNotification@Base 4:4.3.4
  _ZTS13KPassivePopup@Base 4:4.3.4
+ _ZTS13KRatingWidget@Base 4:4.5.85
  _ZTS13KRichTextEdit@Base 4:4.3.4
  _ZTS13KSelectAction@Base 4:4.3.4
  _ZTS13KSplashScreen@Base 4:4.3.4
@@ -6311,6 +6582,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTS15KConfigSkeleton@Base 4:4.3.4
  _ZTS15KDateTimeWidget@Base 4:4.3.4
  _ZTS15KDoubleNumInput@Base 4:4.3.4
+ _ZTS15KEditListWidget@Base 4:4.5.85
  _ZTS15KFloatValidator@Base 4:4.3.4
  _ZTS15KFontSizeAction@Base 4:4.3.4
  _ZTS15KGlobalSettings@Base 4:4.3.4
@@ -6357,11 +6629,13 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTS18KUniqueApplication@Base 4:4.3.4
  _ZTS19KColorValueSelector@Base 4:4.3.4
  _ZTS19KGlobalShortcutInfo@Base 4:4.3.4
+ _ZTS19KIdentityProxyModel@Base 4:4.5.85
  _ZTS19KStatusNotifierItem@Base 4:4.4.0
  _ZTS19KToolBarLabelAction@Base 4:4.3.4
  _ZTS19KToolBarPopupAction@Base 4:4.3.4
  _ZTS19KUiServerJobTracker@Base 4:4.3.4
  _ZTS19KWidgetItemDelegate@Base 4:4.3.4
+ _ZTS20KCheckableProxyModel@Base 4:4.5.85
  _ZTS20KConfigDialogManager@Base 4:4.3.4
  _ZTS20KDialogJobUiDelegate@Base 4:4.3.4
  _ZTS20KSelectionProxyModel@Base 4:4.4.0
@@ -6373,6 +6647,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTS21KPixmapSequenceWidget@Base 4:4.4.0
  _ZTS21KTreeWidgetSearchLine@Base 4:4.3.4
  _ZTS22KClipboardSynchronizer@Base 4:4.3.4
+ _ZTS22KDescendantsProxyModel@Base 4:4.5.85
  _ZTS22KFilterProxySearchLine@Base 4:4.3.4
  _ZTS22KHueSaturationSelector@Base 4:4.3.4
  _ZTS22KModelIndexProxyMapper@Base 4:4.4.95
@@ -6380,6 +6655,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTS23KExtendableItemDelegate@Base 4:4.3.4
  _ZTS23KLinkItemSelectionModel@Base 4:4.4.95
  _ZTS23KToggleFullScreenAction@Base 4:4.3.4
+ _ZTS24KViewStateMaintainerBase@Base 4:4.5.85
  _ZTS25KAbstractWidgetJobTracker@Base 4:4.3.4
  _ZTS25KBreadcrumbSelectionModel@Base 4:4.4.95
  _ZTS25KMessageBoxMessageHandler@Base 4:4.3.4
@@ -6419,13 +6695,15 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTSN12KEditListBox12CustomEditorE@Base 4:4.3.4
  _ZTSN15KConfigSkeleton8ItemFontE@Base 4:4.3.4
  _ZTSN15KConfigSkeleton9ItemColorE@Base 4:4.3.4
+ _ZTSN15KEditListWidget12CustomEditorE@Base 4:4.5.85
  _ZTSN15KSelectionOwner7PrivateE@Base 4:4.3.4
  _ZTSN17KSelectionWatcher7PrivateE@Base 4:4.3.4
  _ZTSN17KWidgetJobTracker7Private14ProgressWidgetE@Base 4:4.3.4
  _ZTSN17KWidgetJobTracker7PrivateE@Base 4:4.3.4
  _ZTSN20KStatusBarJobTracker7Private14ProgressWidgetE@Base 4:4.3.4
  _ZTSN25KAbstractWidgetJobTracker7PrivateE@Base 4:4.3.4
- _ZTSN5KMenu12KMenuPrivate12EventSnifferE@Base 4:4.3.4
+#MISSING: 4:4.5.85# _ZTSN5KMenu12KMenuPrivate12EventSnifferE@Base 4:4.3.4
+ _ZTSN5KMenu12KMenuPrivateE@Base 4:4.5.85
  _ZTSN6KStyle10IconOptionE@Base 4:4.3.4
  _ZTSN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4:4.3.4
  _ZTSN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEEE@Base 4:4.3.4
@@ -6464,6 +6742,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV11KCompletion@Base 4:4.3.4
  _ZTV11KDatePicker@Base 4:4.3.4
  _ZTV11KDateWidget@Base 4:4.3.4
+ _ZTV11KDualAction@Base 4:4.5.85
  _ZTV11KFindDialog@Base 4:4.3.4
  _ZTV11KFontAction@Base 4:4.3.4
  _ZTV11KFontDialog@Base 4:4.3.4
@@ -6503,6 +6782,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV13KIntValidator@Base 4:4.3.4
  _ZTV13KNotification@Base 4:4.3.4
  _ZTV13KPassivePopup@Base 4:4.3.4
+ _ZTV13KRatingWidget@Base 4:4.5.85
  _ZTV13KRichTextEdit@Base 4:4.3.4
  _ZTV13KSelectAction@Base 4:4.3.4
  _ZTV13KSplashScreen@Base 4:4.3.4
@@ -6524,6 +6804,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV15KConfigSkeleton@Base 4:4.3.4
  _ZTV15KDateTimeWidget@Base 4:4.3.4
  _ZTV15KDoubleNumInput@Base 4:4.3.4
+ _ZTV15KEditListWidget@Base 4:4.5.85
  _ZTV15KFloatValidator@Base 4:4.3.4
  _ZTV15KFontSizeAction@Base 4:4.3.4
  _ZTV15KGlobalSettings@Base 4:4.3.4
@@ -6570,11 +6851,13 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV18KUniqueApplication@Base 4:4.3.4
  _ZTV19KColorValueSelector@Base 4:4.3.4
  _ZTV19KGlobalShortcutInfo@Base 4:4.3.4
+ _ZTV19KIdentityProxyModel@Base 4:4.5.85
  _ZTV19KStatusNotifierItem@Base 4:4.4.0
  _ZTV19KToolBarLabelAction@Base 4:4.3.4
  _ZTV19KToolBarPopupAction@Base 4:4.3.4
  _ZTV19KUiServerJobTracker@Base 4:4.3.4
  _ZTV19KWidgetItemDelegate@Base 4:4.3.4
+ _ZTV20KCheckableProxyModel@Base 4:4.5.85
  _ZTV20KConfigDialogManager@Base 4:4.3.4
  _ZTV20KDialogJobUiDelegate@Base 4:4.3.4
  _ZTV20KSelectionProxyModel@Base 4:4.4.0
@@ -6586,6 +6869,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV21KPixmapSequenceWidget@Base 4:4.4.0
  _ZTV21KTreeWidgetSearchLine@Base 4:4.3.4
  _ZTV22KClipboardSynchronizer@Base 4:4.3.4
+ _ZTV22KDescendantsProxyModel@Base 4:4.5.85
  _ZTV22KFilterProxySearchLine@Base 4:4.3.4
  _ZTV22KHueSaturationSelector@Base 4:4.3.4
  _ZTV22KModelIndexProxyMapper@Base 4:4.4.95
@@ -6593,6 +6877,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV23KExtendableItemDelegate@Base 4:4.3.4
  _ZTV23KLinkItemSelectionModel@Base 4:4.4.95
  _ZTV23KToggleFullScreenAction@Base 4:4.3.4
+ _ZTV24KViewStateMaintainerBase@Base 4:4.5.85
  _ZTV25KAbstractWidgetJobTracker@Base 4:4.3.4
  _ZTV25KBreadcrumbSelectionModel@Base 4:4.4.95
  _ZTV25KMessageBoxMessageHandler@Base 4:4.3.4
@@ -6631,13 +6916,15 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTVN12KEditListBox12CustomEditorE@Base 4:4.3.4
  _ZTVN15KConfigSkeleton8ItemFontE@Base 4:4.3.4
  _ZTVN15KConfigSkeleton9ItemColorE@Base 4:4.3.4
+ _ZTVN15KEditListWidget12CustomEditorE@Base 4:4.5.85
  _ZTVN15KSelectionOwner7PrivateE@Base 4:4.3.4
  _ZTVN17KSelectionWatcher7PrivateE@Base 4:4.3.4
  _ZTVN17KWidgetJobTracker7Private14ProgressWidgetE@Base 4:4.3.4
  _ZTVN17KWidgetJobTracker7PrivateE@Base 4:4.3.4
  _ZTVN20KStatusBarJobTracker7Private14ProgressWidgetE@Base 4:4.3.4
  _ZTVN25KAbstractWidgetJobTracker7PrivateE@Base 4:4.3.4
- _ZTVN5KMenu12KMenuPrivate12EventSnifferE@Base 4:4.3.4
+#MISSING: 4:4.5.85# _ZTVN5KMenu12KMenuPrivate12EventSnifferE@Base 4:4.3.4
+ _ZTVN5KMenu12KMenuPrivateE@Base 4:4.5.85
  _ZTVN6KStyle10IconOptionE@Base 4:4.3.4
  _ZTVN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4:4.3.4
  _ZTVN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEEE@Base 4:4.3.4
@@ -6696,6 +6983,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (c++)"non-virtual thunk to KDialogButtonBox::~KDialogButtonBox()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KDoubleNumInput::~KDoubleNumInput()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KEditListBox::~KEditListBox()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to KEditListWidget::~KEditListWidget()@Base" 4:4.5.85
  (c++)"non-virtual thunk to KEditToolBar::~KEditToolBar()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KFadeWidgetEffect::~KFadeWidgetEffect()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KFilterProxySearchLine::~KFilterProxySearchLine()@Base" 4:4.3.4
@@ -6743,6 +7031,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (c++)"non-virtual thunk to KPopupFrame::~KPopupFrame()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KProgressDialog::~KProgressDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KPushButton::~KPushButton()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to KRatingWidget::~KRatingWidget()@Base" 4:4.5.85
  (c++)"non-virtual thunk to KReplaceDialog::~KReplaceDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KRestrictedLine::~KRestrictedLine()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KRichTextEdit::~KRichTextEdit()@Base" 4:4.3.4

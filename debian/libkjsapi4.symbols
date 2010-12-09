@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.2 amd64
+# SymbolsHelper-Confirmed: 4:4.5.85 amd64
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -47,6 +47,7 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS11Interpreter17s_internedStringsE@Base 4:4.3.4
  _ZN3KJS11Interpreter17startTimeoutCheckEv@Base 4:4.3.4
  _ZN3KJS11Interpreter18resumeTimeoutCheckEv@Base 4:4.3.4
+ _ZN3KJS11Interpreter19putNamedConstructorEPKcPNS_8JSObjectE@Base 4:4.5.85
  _ZN3KJS11Interpreter19restartTimeoutCheckEv@Base 4:4.3.4
  _ZN3KJS11Interpreter21releaseInternedStringERKNS_7UStringE@Base 4:4.3.4
  _ZN3KJS11Interpreter21shouldPrintExceptionsEv@Base 4:4.3.4

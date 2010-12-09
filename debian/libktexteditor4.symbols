@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.85 amd64
 libktexteditor.so.4 libktexteditor4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KTextEditor10ConfigPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -131,6 +131,11 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor16ViewBarContainerD0Ev@Base 4:4.3.4
  _ZN11KTextEditor16ViewBarContainerD1Ev@Base 4:4.3.4
  _ZN11KTextEditor16ViewBarContainerD2Ev@Base 4:4.3.4
+ _ZN11KTextEditor17RecoveryInterfaceC1Ev@Base 4:4.5.85
+ _ZN11KTextEditor17RecoveryInterfaceC2Ev@Base 4:4.5.85
+ _ZN11KTextEditor17RecoveryInterfaceD0Ev@Base 4:4.5.85
+ _ZN11KTextEditor17RecoveryInterfaceD1Ev@Base 4:4.5.85
+ _ZN11KTextEditor17RecoveryInterfaceD2Ev@Base 4:4.5.85
  _ZN11KTextEditor17SmartRangeWatcher12rangeDeletedEPNS_10SmartRangeE@Base 4:4.3.4
  _ZN11KTextEditor17SmartRangeWatcher15rangeEliminatedEPNS_10SmartRangeE@Base 4:4.3.4
  _ZN11KTextEditor17SmartRangeWatcher16caretExitedRangeEPNS_10SmartRangeEPNS_4ViewE@Base 4:4.3.4
@@ -434,6 +439,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor8Document23documentSavedOrUploadedEPS0_b@Base 4:4.3.4
  _ZN11KTextEditor8Document23highlightingModeChangedEPS0_@Base 4:4.3.4
  _ZN11KTextEditor8Document30setSuppressOpeningErrorDialogsEb@Base 4:4.3.4
+ _ZN11KTextEditor8Document8reloadedEPS0_@Base 4:4.5.85
  _ZN11KTextEditor8DocumentC1EP7QObject@Base 4:4.3.4
  _ZN11KTextEditor8DocumentC2EP7QObject@Base 4:4.3.4
  _ZN11KTextEditor8DocumentD0Ev@Base 4:4.3.4
@@ -581,6 +587,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTIN11KTextEditor15MovingInterfaceE@Base 4:4.4.95
  _ZTIN11KTextEditor15SearchInterfaceE@Base 4:4.3.4
  _ZTIN11KTextEditor16ViewBarContainerE@Base 4:4.3.4
+ _ZTIN11KTextEditor17RecoveryInterfaceE@Base 4:4.5.85
  _ZTIN11KTextEditor17SmartRangeWatcherE@Base 4:4.3.4
  _ZTIN11KTextEditor17TemplateInterfaceE@Base 4:4.3.4
  _ZTIN11KTextEditor17TextHintInterfaceE@Base 4:4.3.4
@@ -628,6 +635,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTSN11KTextEditor15MovingInterfaceE@Base 4:4.4.95
  _ZTSN11KTextEditor15SearchInterfaceE@Base 4:4.3.4
  _ZTSN11KTextEditor16ViewBarContainerE@Base 4:4.3.4
+ _ZTSN11KTextEditor17RecoveryInterfaceE@Base 4:4.5.85
  _ZTSN11KTextEditor17SmartRangeWatcherE@Base 4:4.3.4
  _ZTSN11KTextEditor17TemplateInterfaceE@Base 4:4.3.4
  _ZTSN11KTextEditor17TextHintInterfaceE@Base 4:4.3.4
@@ -676,6 +684,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTVN11KTextEditor15MovingInterfaceE@Base 4:4.4.95
  _ZTVN11KTextEditor15SearchInterfaceE@Base 4:4.3.4
  _ZTVN11KTextEditor16ViewBarContainerE@Base 4:4.3.4
+ _ZTVN11KTextEditor17RecoveryInterfaceE@Base 4:4.5.85
  _ZTVN11KTextEditor17SmartRangeWatcherE@Base 4:4.3.4
  _ZTVN11KTextEditor17TemplateInterfaceE@Base 4:4.3.4
  _ZTVN11KTextEditor17TextHintInterfaceE@Base 4:4.3.4

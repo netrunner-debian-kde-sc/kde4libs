@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.85 amd64
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -43,6 +43,16 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN13KHTMLSettingsD0Ev@Base 4:4.3.4
  _ZN13KHTMLSettingsD1Ev@Base 4:4.3.4
  _ZN13KHTMLSettingsD2Ev@Base 4:4.3.4
+ _ZN17KHTMLImageFactory11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.85
+ _ZN17KHTMLImageFactory11qt_metacastEPKc@Base 4:4.5.85
+ _ZN17KHTMLImageFactory15s_componentDataE@Base 4:4.5.85
+ _ZN17KHTMLImageFactory16staticMetaObjectE@Base 4:4.5.85
+ _ZN17KHTMLImageFactory6createEPKcP7QWidgetP7QObjectRK5QListI8QVariantERK7QString@Base 4:4.5.85
+ _ZN17KHTMLImageFactoryC1Ev@Base 4:4.5.85
+ _ZN17KHTMLImageFactoryC2Ev@Base 4:4.5.85
+ _ZN17KHTMLImageFactoryD0Ev@Base 4:4.5.85
+ _ZN17KHTMLImageFactoryD1Ev@Base 4:4.5.85
+ _ZN17KHTMLImageFactoryD2Ev@Base 4:4.5.85
  _ZN3DOM10MouseEvent14initMouseEventERKNS_9DOMStringEbbRKNS_12AbstractViewElllllbbbbtRKNS_4NodeE@Base 4:4.3.4
  _ZN3DOM10MouseEventC1EPNS_14MouseEventImplE@Base 4:4.3.4
  _ZN3DOM10MouseEventC1ERKNS_5EventE@Base 4:4.3.4
@@ -688,6 +698,18 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOM15HTMLMetaElementD2Ev@Base 4:4.3.4
  _ZN3DOM15HTMLMetaElementaSERKNS_4NodeE@Base 4:4.3.4
  _ZN3DOM15HTMLMetaElementaSERKS0_@Base 4:4.3.4
+ _ZN3DOM16CSSNamespaceRuleC1EPNS_20CSSNamespaceRuleImplE@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleC1ERKNS_7CSSRuleE@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleC1ERKS0_@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleC1Ev@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleC2EPNS_20CSSNamespaceRuleImplE@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleC2ERKNS_7CSSRuleE@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleC2ERKS0_@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleC2Ev@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleD1Ev@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleD2Ev@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleaSERKNS_7CSSRuleE@Base 4:4.5.85
+ _ZN3DOM16CSSNamespaceRuleaSERKS0_@Base 4:4.5.85
  _ZN3DOM16CustomNodeFilter10acceptNodeERKNS_4NodeE@Base 4:4.3.4
  _ZN3DOM16CustomNodeFilter20customNodeFilterTypeEv@Base 4:4.3.4
  _ZN3DOM16CustomNodeFilter6isNullEv@Base 4:4.3.4
@@ -1815,7 +1837,14 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3KJS7UStringC2ERKN3DOM9DOMStringE@Base 4:4.3.4
  _ZN5khtml10ChildFrame11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5khtml10ChildFrame11qt_metacastEPKc@Base 4:4.3.4
+ _ZN5khtml10ChildFrame13dumpFrameTreeEP9KHTMLPart@Base 4:4.5.85
  _ZN5khtml10ChildFrame16staticMetaObjectE@Base 4:4.3.4
+ _ZN5khtml10ChildFrame4dumpEi@Base 4:4.5.85
+ _ZN5khtml10ChildFrameC1Ev@Base 4:4.5.85
+ _ZN5khtml10ChildFrameC2Ev@Base 4:4.5.85
+ _ZN5khtml10ChildFrameD0Ev@Base 4:4.5.85
+ _ZN5khtml10ChildFrameD1Ev@Base 4:4.5.85
+ _ZN5khtml10ChildFrameD2Ev@Base 4:4.5.85
  _ZN5khtml10MouseEventC1EPKcP11QMouseEventiiRKN3DOM9DOMStringES8_RKNS5_4NodeE@Base 4:4.3.4
  _ZN5khtml10MouseEventC2EPKcP11QMouseEventiiRKN3DOM9DOMStringES8_RKNS5_4NodeE@Base 4:4.3.4
  _ZN5khtml10MouseEventD0Ev@Base 4:4.3.4
@@ -1977,6 +2006,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLPart18slotChildCompletedEb@Base 4:4.3.4
  _ZN9KHTMLPart18slotChildCompletedEv@Base 4:4.3.4
  _ZN9KHTMLPart18slotClearSelectionEv@Base 4:4.3.4
+ _ZN9KHTMLPart18slotDebugFrameTreeEv@Base 4:4.5.85
  _ZN9KHTMLPart18slotProgressUpdateEv@Base 4:4.3.4
  _ZN9KHTMLPart18slotSaveBackgroundEv@Base 4:4.3.4
  _ZN9KHTMLPart18slotStopAnimationsEv@Base 4:4.3.4
@@ -2041,6 +2071,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLPart24removeStoredPasswordFormEP7QAction@Base 4:4.3.4
  _ZN9KHTMLPart24setStatusMessagesEnabledEb@Base 4:4.3.4
  _ZN9KHTMLPart24slotLoaderRequestStartedEPN5khtml9DocLoaderEPNS0_12CachedObjectE@Base 4:4.3.4
+ _ZN9KHTMLPart25setForcePermitLocalImagesEb@Base 4:4.5.85
  _ZN9KHTMLPart25setJSDefaultStatusBarTextERK7QString@Base 4:4.3.4
  _ZN9KHTMLPart26delNonPasswordStorableSiteEv@Base 4:4.3.4
  _ZN9KHTMLPart26khtmlMouseDoubleClickEventEPN5khtml21MouseDoubleClickEventE@Base 4:4.3.4
@@ -2099,7 +2130,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLView10timerEventEP11QTimerEvent@Base 4:4.3.4
  _ZN9KHTMLView10wheelEventEP11QWheelEvent@Base 4:4.3.4
  _ZN9KHTMLView11eventFilterEP7QObjectP6QEvent@Base 4:4.3.4
- _ZN9KHTMLView11findTimeoutEv@Base 4:4.3.4
+#MISSING: 4:4.5.85# _ZN9KHTMLView11findTimeoutEv@Base 4:4.3.4
  _ZN9KHTMLView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN9KHTMLView11qt_metacastEPKc@Base 4:4.3.4
  _ZN9KHTMLView11resizeEventEP12QResizeEvent@Base 4:4.3.4
@@ -2120,7 +2151,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLView14resizeContentsEii@Base 4:4.3.4
  _ZN9KHTMLView14setContentsPosEii@Base 4:4.3.4
  _ZN9KHTMLView14setMarginWidthEi@Base 4:4.3.4
- _ZN9KHTMLView14startFindAheadEb@Base 4:4.3.4
+#MISSING: 4:4.5.85# _ZN9KHTMLView14startFindAheadEb@Base 4:4.3.4
  _ZN9KHTMLView14updateContentsERK5QRect@Base 4:4.3.4
  _ZN9KHTMLView14updateContentsEiiii@Base 4:4.3.4
  _ZN9KHTMLView15addStaticObjectEb@Base 4:4.3.4
@@ -2167,7 +2198,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLView22setHasNormalBackgroundEv@Base 4:4.3.4
  _ZN9KHTMLView22setHasStaticBackgroundEb@Base 4:4.3.4
  _ZN9KHTMLView22setSmoothScrollingModeENS_19SmoothScrollingModeE@Base 4:4.3.4
- _ZN9KHTMLView22updateFindAheadTimeoutEv@Base 4:4.3.4
+#MISSING: 4:4.5.85# _ZN9KHTMLView22updateFindAheadTimeoutEv@Base 4:4.3.4
  _ZN9KHTMLView24resizeContentsToViewportEv@Base 4:4.3.4
  _ZN9KHTMLView26addNonPasswordStorableSiteERK7QString@Base 4:4.3.4
  _ZN9KHTMLView26delNonPasswordStorableSiteERK7QString@Base 4:4.3.4
@@ -2190,7 +2221,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLView8scrollToERK5QRect@Base 4:4.3.4
  _ZN9KHTMLView8zoomViewEi@Base 4:4.3.4
  _ZN9KHTMLView9dropEventEP10QDropEvent@Base 4:4.3.4
- _ZN9KHTMLView9findAheadEb@Base 4:4.3.4
+#MISSING: 4:4.5.85# _ZN9KHTMLView9findAheadEb@Base 4:4.3.4
  _ZN9KHTMLView9hideEventEP10QHideEvent@Base 4:4.3.4
  _ZN9KHTMLView9showEventEP10QShowEvent@Base 4:4.3.4
  _ZN9KHTMLViewC1EP9KHTMLPartP7QWidget@Base 4:4.3.4
@@ -2249,6 +2280,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK13KHTMLSettings9hoverLinkEv@Base 4:4.3.4
  _ZNK13KHTMLSettings9linkColorEv@Base 4:4.3.4
  _ZNK13KHTMLSettings9textColorEv@Base 4:4.3.4
+ _ZNK17KHTMLImageFactory10metaObjectEv@Base 4:4.5.85
  _ZNK3DOM10MouseEvent13relatedTargetEv@Base 4:4.3.4
  _ZNK3DOM10MouseEvent6altKeyEv@Base 4:4.3.4
  _ZNK3DOM10MouseEvent6buttonEv@Base 4:4.3.4
@@ -2422,6 +2454,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM15HTMLMetaElement6schemeEv@Base 4:4.3.4
  _ZNK3DOM15HTMLMetaElement7contentEv@Base 4:4.3.4
  _ZNK3DOM15HTMLMetaElement9httpEquivEv@Base 4:4.3.4
+ _ZNK3DOM16CSSNamespaceRule12namespaceURIEv@Base 4:4.5.85
+ _ZNK3DOM16CSSNamespaceRule6prefixEv@Base 4:4.5.85
  _ZNK3DOM16DocumentFragment13querySelectorERKNS_9DOMStringE@Base 4:4.4.95
  _ZNK3DOM16DocumentFragment16querySelectorAllERKNS_9DOMStringE@Base 4:4.4.95
  _ZNK3DOM16HTMLDListElement7compactEv@Base 4:4.3.4
@@ -2830,6 +2864,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3KJS7UString9domStringEv@Base 4:4.3.4
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.3.4
  _ZNK5khtml10ChildFrame10metaObjectEv@Base 4:4.3.4
+ _ZNK5khtml10ChildFrame10typeStringEv@Base 4:4.5.85
  _ZNK5khtml10MouseEvent6offsetEv@Base 4:4.3.4
  _ZNK9KHTMLPart10activeNodeEv@Base 4:4.3.4
  _ZNK9KHTMLPart10dndEnabledEv@Base 4:4.3.4
@@ -2872,6 +2907,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK9KHTMLPart20browserHostExtensionEv@Base 4:4.3.4
  _ZNK9KHTMLPart20isExtendingSelectionEv@Base 4:4.3.4
  _ZNK9KHTMLPart21statusMessagesEnabledEv@Base 4:4.3.4
+ _ZNK9KHTMLPart22forcePermitLocalImagesEv@Base 4:4.5.85
  _ZNK9KHTMLPart22jsDefaultStatusBarTextEv@Base 4:4.3.4
  _ZNK9KHTMLPart22simplifiedSelectedTextEv@Base 4:4.3.4
  _ZNK9KHTMLPart23nonSharedNodeUnderMouseEv@Base 4:4.3.4
@@ -2921,6 +2957,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK9KHTMLView9pagedModeEv@Base 4:4.3.4
  _ZNK9KHTMLView9zoomLevelEv@Base 4:4.3.4
  _ZTI13KHTMLSettings@Base 4:4.3.4
+ _ZTI17KHTMLImageFactory@Base 4:4.5.85
  _ZTI9KHTMLPart@Base 4:4.3.4
  _ZTI9KHTMLView@Base 4:4.3.4
  _ZTIN14WTFNoncopyable11NoncopyableE@Base 4:4.3.4
@@ -3022,6 +3059,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTIN5khtml17MouseReleaseEventE@Base 4:4.3.4
  _ZTIN5khtml21MouseDoubleClickEventE@Base 4:4.3.4
  _ZTS13KHTMLSettings@Base 4:4.3.4
+ _ZTS17KHTMLImageFactory@Base 4:4.5.85
  _ZTS9KHTMLPart@Base 4:4.3.4
  _ZTS9KHTMLView@Base 4:4.3.4
  _ZTSN14WTFNoncopyable11NoncopyableE@Base 4:4.3.4
@@ -3124,6 +3162,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTSN5khtml21MouseDoubleClickEventE@Base 4:4.3.4
  _ZTT9KHTMLPart@Base 4:4.3.4
  _ZTV13KHTMLSettings@Base 4:4.3.4
+ _ZTV17KHTMLImageFactory@Base 4:4.5.85
  _ZTV9KHTMLPart@Base 4:4.3.4
  _ZTV9KHTMLView@Base 4:4.3.4
  _ZTVN3DOM10MouseEventE@Base 4:4.3.4
@@ -3226,7 +3265,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  (c++)"construction vtable for KParts::Part-in-KHTMLPart@Base" 4:4.3.4
  (c++)"construction vtable for KParts::PartBase-in-KHTMLPart@Base" 4:4.3.4
  (c++)"construction vtable for KParts::ReadOnlyPart-in-KHTMLPart@Base" 4:4.3.4
- init_khtmlimagefactory@Base 4:4.3.4
+#MISSING: 4:4.5.85# init_khtmlimagefactory@Base 4:4.3.4
  (c++)"non-virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KHTMLView::~KHTMLView()@Base" 4:4.3.4
  (c++)"virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4

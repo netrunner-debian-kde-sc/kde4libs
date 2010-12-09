@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.85 amd64
 libkfile.so.4 libkfile4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4:4.4.0
@@ -120,7 +120,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN12KDirOperator7Private10isReadableERK4KUrl@Base 4:4.3.4
  _ZN12KDirOperator7Private13updateSortingE6QFlagsIN4QDir8SortFlagEE@Base 4:4.3.4
  _ZN12KDirOperator7Private14_k_showPreviewEv@Base 4:4.3.4
- _ZN12KDirOperator7Private14_k_slotPressedERK11QModelIndex@Base 4:4.3.4
+#MISSING: 4:4.5.85# _ZN12KDirOperator7Private14_k_slotPressedERK11QModelIndex@Base 4:4.3.4
  _ZN12KDirOperator7Private14_k_slotStartedEv@Base 4:4.3.4
  _ZN12KDirOperator7Private15_k_slotCanceledEv@Base 4:4.3.4
  _ZN12KDirOperator7Private15_k_slotProgressEi@Base 4:4.3.4
@@ -144,7 +144,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN12KDirOperator7Private19_k_slotShowProgressEv@Base 4:4.3.4
  _ZN12KDirOperator7Private19_k_slotSortReversedEb@Base 4:4.3.4
  _ZN12KDirOperator7Private19_k_slotToggleHiddenEb@Base 4:4.3.4
- _ZN12KDirOperator7Private20_k_slotDoubleClickedERK11QModelIndex@Base 4:4.3.4
+#MISSING: 4:4.5.85# _ZN12KDirOperator7Private20_k_slotDoubleClickedERK11QModelIndex@Base 4:4.3.4
  _ZN12KDirOperator7Private20_k_slotSplitterMovedEii@Base 4:4.3.4
  _ZN12KDirOperator7Private22_k_slotOpenFileManagerEv@Base 4:4.4.95
  _ZN12KDirOperator7Private22_k_slotToggleDirsFirstEv@Base 4:4.3.4
@@ -190,6 +190,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN12KNewFileMenu16staticMetaObjectE@Base 4:4.4.95
  _ZN12KNewFileMenu21setSupportedMimeTypesERK11QStringList@Base 4:4.4.95
  _ZN12KNewFileMenu23setViewShowsHiddenFilesEb@Base 4:4.4.95
+ _ZN12KNewFileMenu8setModalEb@Base 4:4.5.85
  _ZN12KNewFileMenuC1EP17KActionCollectionRK7QStringP7QObject@Base 4:4.4.95
  _ZN12KNewFileMenuC2EP17KActionCollectionRK7QStringP7QObject@Base 4:4.4.95
  _ZN12KNewFileMenuD0Ev@Base 4:4.4.95
@@ -501,6 +502,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZNK12KNewFileMenu10metaObjectEv@Base 4:4.4.95
  _ZNK12KNewFileMenu10popupFilesEv@Base 4:4.4.95
  _ZNK12KNewFileMenu18supportedMimeTypesEv@Base 4:4.4.95
+ _ZNK12KNewFileMenu7isModalEv@Base 4:4.5.85
  _ZNK13KFileTreeView10currentUrlEv@Base 4:4.3.4
  _ZNK13KFileTreeView10metaObjectEv@Base 4:4.3.4
  _ZNK13KFileTreeView11selectedUrlEv@Base 4:4.3.4
