@@ -50,6 +50,7 @@ kde4libs (4:4.5.85-0r1) UNRELEASED; urgency=low
       - libudev-dev
       - libqtwebkit-dev
   * Add libnepomukutils4 package.
+  * Update .install files for new SOVERSION.
 
   [ Pino Toscano ]
   * Make libknewstuff2-4 and libknewstuff3-4 recommend gnupg, as they can use
