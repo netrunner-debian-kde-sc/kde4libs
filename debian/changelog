@@ -49,6 +49,7 @@ kde4libs (4:4.5.85-0r1) UNRELEASED; urgency=low
     - Add build dependencies on:
       - libudev-dev
       - libqtwebkit-dev
+  * Add libnepomukutils4 package.
 
   [ Pino Toscano ]
   * Make libknewstuff2-4 and libknewstuff3-4 recommend gnupg, as they can use
