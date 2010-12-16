@@ -60,6 +60,9 @@ kde4libs (4:4.5.85-0r1) UNRELEASED; urgency=low
     docbook-xml.
   * Update kdoctools.install.
 
+  [ José Manuel Santamaría Lema ]
+  * Disable 23_solid_no_double_build.diff, produces FTBFS.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 14:54:10 +0100
 
 kde4libs (4:4.4.5-2) unstable; urgency=low
