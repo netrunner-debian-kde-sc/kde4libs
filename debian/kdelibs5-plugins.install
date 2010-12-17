@@ -23,10 +23,12 @@ usr/lib/kde4/kspell_enchant.so
 usr/lib/kde4/kspell_hspell.so
 usr/lib/kde4/ktexteditor_autobrace.so
 usr/lib/kde4/ktexteditor_exporter.so
+usr/lib/kde4/ktexteditor_hlselection.so
 usr/lib/kde4/ktexteditor_iconinserter.so
 usr/lib/kde4/ktexteditor_insanehtml_le.so
 usr/lib/kde4/ktexteditor_insertfile.so
 usr/lib/kde4/ktexteditor_kdatatool.so
+usr/lib/kde4/ktexteditor_python-encoding.so
 usr/lib/kde4/ktranscript.so
 usr/lib/kde4/libexec/filesharelist
 usr/lib/kde4/libexec/fileshareset

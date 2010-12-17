@@ -1,6 +1,8 @@
 ../config.README usr/share/kde4/config
 etc/dbus-1/system.d/org.kde.auth.conf
 etc/xdg/menus/kde4-applications.menu
+usr/share/applications/kde4/kmailservice.desktop
+usr/share/applications/kde4/ktelnetservice.desktop
 usr/share/doc/kde/HTML/en/common/1.png
 usr/share/doc/kde/HTML/en/common/10.png
 usr/share/doc/kde/HTML/en/common/2.png
@@ -167,10 +169,12 @@ usr/share/kde4/apps/katepart/syntax/fortran.xml
 usr/share/kde4/apps/katepart/syntax/freebasic.xml
 usr/share/kde4/apps/katepart/syntax/fstab.xml
 usr/share/kde4/apps/katepart/syntax/gap.xml
+usr/share/kde4/apps/katepart/syntax/gdb.xml
 usr/share/kde4/apps/katepart/syntax/gdl.xml
 usr/share/kde4/apps/katepart/syntax/gettext.xml
 usr/share/kde4/apps/katepart/syntax/glsl.xml
 usr/share/kde4/apps/katepart/syntax/gnuassembler.xml
+usr/share/kde4/apps/katepart/syntax/go.xml
 usr/share/kde4/apps/katepart/syntax/grammar.xml
 usr/share/kde4/apps/katepart/syntax/haskell.xml
 usr/share/kde4/apps/katepart/syntax/haxe.xml
@@ -318,6 +322,7 @@ usr/share/kde4/apps/kdeui/pics/kdeprint_nup2.png
 usr/share/kde4/apps/kdeui/pics/kdeprint_nup4.png
 usr/share/kde4/apps/kdeui/pics/kdeprint_nupother.png
 usr/share/kde4/apps/kdeui/pics/ktip-bulb.png
+usr/share/kde4/apps/kdeui/pics/thumb_frame.png
 usr/share/kde4/apps/kdewidgets/pics/k3iconview.png
 usr/share/kde4/apps/kdewidgets/pics/k3listview.png
 usr/share/kde4/apps/kdewidgets/pics/kactionselector.png
@@ -380,6 +385,7 @@ usr/share/kde4/apps/ktexteditor_insertfile/ktexteditor_insertfileui.rc
 usr/share/kde4/apps/ktexteditor_kdatatool/ktexteditor_kdatatoolui.rc
 usr/share/kde4/apps/plasma/services/dataengineservice.operations
 usr/share/kde4/apps/plasma/services/plasmoidservice.operations
+usr/share/kde4/apps/plasma/services/storage.operations
 usr/share/kde4/apps/proxyscout/proxyscout.notifyrc
 usr/share/kde4/config/accept-languages.codes
 usr/share/kde4/config/colors/40.colors
@@ -404,6 +410,7 @@ usr/share/kde4/services/http.protocol
 usr/share/kde4/services/http_cache_cleaner.desktop
 usr/share/kde4/services/https.protocol
 usr/share/kde4/services/katepart.desktop
+usr/share/kde4/services/kcm_ssl.desktop
 usr/share/kde4/services/kded/kcookiejar.desktop
 usr/share/kde4/services/kded/kssld.desktop
 usr/share/kde4/services/kded/proxyscout.desktop
@@ -412,7 +419,6 @@ usr/share/kde4/services/khtml.desktop
 usr/share/kde4/services/khtmladaptorpart.desktop
 usr/share/kde4/services/khtmlimage.desktop
 usr/share/kde4/services/kjavaappletviewer.desktop
-usr/share/kde4/services/kmailservice.protocol
 usr/share/kde4/services/kmultipart.desktop
 usr/share/kde4/services/kspell_aspell.desktop
 usr/share/kde4/services/kspell_enchant.desktop
@@ -420,10 +426,12 @@ usr/share/kde4/services/kspell_hspell.desktop
 usr/share/kde4/services/ktexteditor_autobrace.desktop
 usr/share/kde4/services/ktexteditor_autobrace_config.desktop
 usr/share/kde4/services/ktexteditor_exporter.desktop
+usr/share/kde4/services/ktexteditor_hlselection.desktop
 usr/share/kde4/services/ktexteditor_iconinserter.desktop
 usr/share/kde4/services/ktexteditor_insanehtml_le.desktop
 usr/share/kde4/services/ktexteditor_insertfile.desktop
 usr/share/kde4/services/ktexteditor_kdatatool.desktop
+usr/share/kde4/services/ktexteditor_python-encoding.desktop
 usr/share/kde4/services/metainfo.protocol
 usr/share/kde4/services/mms.protocol
 usr/share/kde4/services/mmst.protocol
@@ -456,21 +464,20 @@ usr/share/kde4/services/qimageioplugins/xbm.desktop
 usr/share/kde4/services/qimageioplugins/xcf.desktop
 usr/share/kde4/services/qimageioplugins/xpm.desktop
 usr/share/kde4/services/qimageioplugins/xv.desktop
-usr/share/kde4/services/rlogin.protocol
 usr/share/kde4/services/rtsp.protocol
 usr/share/kde4/services/rtspt.protocol
 usr/share/kde4/services/rtspu.protocol
-usr/share/kde4/services/ssh.protocol
-usr/share/kde4/services/telnet.protocol
 usr/share/kde4/services/webdav.protocol
 usr/share/kde4/services/webdavs.protocol
 usr/share/kde4/servicetypes/dbustexttospeech.desktop
 usr/share/kde4/servicetypes/kbytesedit.desktop
 usr/share/kde4/servicetypes/kdedmodule.desktop
 usr/share/kde4/servicetypes/kemoticonsTheme.desktop
+usr/share/kde4/servicetypes/kfileitemactionplugin.desktop
 usr/share/kde4/servicetypes/kregexpeditor.desktop
 usr/share/kde4/servicetypes/qimageio_plugin.desktop
 usr/share/locale/all_languages
+usr/share/locale/en_US/entry.desktop
 usr/share/man/man7/kdeoptions.7
 usr/share/man/man7/qtoptions.7
 usr/share/mime/packages/kde.xml
