@@ -1859,7 +1859,6 @@ usr/include/threadweaver/ThreadWeaver.h
 usr/include/threadweaver/WeaverInterface.h
 usr/include/threadweaver/WeaverObserver.h
 usr/include/threadweaver/threadweaver_export.h
-usr/lib/kde4/kcm_ssl.so
 usr/lib/kde4/libexec/kauth-policy-gen
 usr/lib/kde4/plugins/designer/kdedeprecated.so
 usr/lib/kde4/plugins/designer/kdewebkitwidgets.so

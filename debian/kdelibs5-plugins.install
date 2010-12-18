@@ -3,6 +3,7 @@ usr/lib/kde4/emoticonstheme_kde.so
 usr/lib/kde4/emoticonstheme_pidgin.so
 usr/lib/kde4/emoticonstheme_xmpp.so
 usr/lib/kde4/katepart.so
+usr/lib/kde4/kcm_ssl.so
 usr/lib/kde4/kded_kcookiejar.so
 usr/lib/kde4/kded_kssld.so
 usr/lib/kde4/kded_proxyscout.so
