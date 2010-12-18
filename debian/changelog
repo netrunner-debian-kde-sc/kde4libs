@@ -64,6 +64,10 @@ kde4libs (4:4.5.86-0r1) UNRELEASED; urgency=low
   * Disable 23_solid_no_double_build.diff, produces FTBFS.
   * Update installed files.
   * kdelibs5-data breaks/replaces kdebase-runtime-data (<< 4:4.5.85).
+  * Refreshed 13_qt4_designer_plugins_path.diff, thanks to Pino Toscano.
+  * Moved Qt Designer plugins to kdelibs5-plugins, they could be used by plasma
+    js bindings to dynamically create ui files. Thanks to Pino Toscano for
+    pointing the problem.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 14:54:10 +0100
 
