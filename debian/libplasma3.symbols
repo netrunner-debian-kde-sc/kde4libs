@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN5Jolie11MetaService11loadServiceERK7QStringS3_@Base 4:4.4.4-2~
@@ -126,6 +126,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma10DataEngine16updateAllSourcesEv@Base 4:4.4.4-2~
  _ZN6Plasma10DataEngine17setDefaultServiceERK7QString@Base 4:4.4.95
  _ZN6Plasma10DataEngine17setMaxSourceCountEj@Base 4:4.4.4-2~
+ _ZN6Plasma10DataEngine17setStorageEnabledERK7QStringb@Base 4:4.5.86
  _ZN6Plasma10DataEngine17updateSourceEventERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma10DataEngine18containerForSourceERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma10DataEngine18setPollingIntervalEj@Base 4:4.4.4-2~
@@ -222,6 +223,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma10PushButton15hoverEnterEventEP24QGraphicsSceneHoverEvent@Base 4:4.4.4-2~
  _ZN6Plasma10PushButton15hoverLeaveEventEP24QGraphicsSceneHoverEvent@Base 4:4.4.4-2~
  _ZN6Plasma10PushButton16staticMetaObjectE@Base 4:4.4.4-2~
+ _ZN6Plasma10PushButton5clickEv@Base 4:4.5.86
  _ZN6Plasma10PushButton5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.4.4-2~
  _ZN6Plasma10PushButton7clickedEv@Base 4:4.4.4-2~
  _ZN6Plasma10PushButton7pressedEv@Base 4:4.4.4-2~
@@ -314,6 +316,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma11Containment12setWallpaperERK7QStringS3_@Base 4:4.4.4-2~
  _ZN6Plasma11Containment12showDropZoneE6QPoint@Base 4:4.4.4-2~
  _ZN6Plasma11Containment13appletRemovedEPNS_6AppletE@Base 4:4.4.4-2~
+ _ZN6Plasma11Containment13configChangedEv@Base 4:4.5.86
  _ZN6Plasma11Containment13dragMoveEventEP27QGraphicsSceneDragDropEvent@Base 4:4.4.4-2~
  _ZN6Plasma11Containment13drawWallpaperEv@Base 4:4.4.4-2~
  _ZN6Plasma11Containment13keyPressEventEP9QKeyEvent@Base 4:4.4.4-2~
@@ -350,6 +353,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma11Containment22listContainmentsOfTypeERK7QStringS3_S3_@Base 4:4.4.4-2~
  _ZN6Plasma11Containment22removeAssociatedWidgetEP7QWidget@Base 4:4.4.4-2~
  _ZN6Plasma11Containment23showAddWidgetsInterfaceERK7QPointF@Base 4:4.4.4-2~
+ _ZN6Plasma11Containment24containmentActionsConfigEv@Base 4:4.5.86
  _ZN6Plasma11Containment24toolBoxVisibilityChangedEb@Base 4:4.4.4-2~
  _ZN6Plasma11Containment26containmentActionsTriggersEv@Base 4:4.4.4-2~
  _ZN6Plasma11Containment26showConfigurationInterfaceEv@Base 4:4.4.4-2~
@@ -386,6 +390,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma11PopupApplet16staticMetaObjectE@Base 4:4.4.4-2~
  _ZN6Plasma11PopupApplet17mouseReleaseEventEP24QGraphicsSceneMouseEvent@Base 4:4.4.4-2~
  _ZN6Plasma11PopupApplet17setGraphicsWidgetEP15QGraphicsWidget@Base 4:4.4.4-2~
+ _ZN6Plasma11PopupApplet17setPopupAlignmentEN2Qt13AlignmentFlagE@Base 4:4.5.86
  _ZN6Plasma11PopupApplet6widgetEv@Base 4:4.4.4-2~
  _ZN6Plasma11PopupApplet9dropEventEP27QGraphicsSceneDragDropEvent@Base 4:4.4.4-2~
  _ZN6Plasma11PopupApplet9hidePopupEv@Base 4:4.4.4-2~
@@ -501,6 +506,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma12ExtenderItem11resizeEventEP25QGraphicsSceneResizeEvent@Base 4:4.4.4-2~
  _ZN6Plasma12ExtenderItem11setExtenderEPNS_8ExtenderERK7QPointF@Base 4:4.4.4-2~
  _ZN6Plasma12ExtenderItem12setCollapsedEb@Base 4:4.4.4-2~
+ _ZN6Plasma12ExtenderItem12setTransientEb@Base 4:4.5.86
  _ZN6Plasma12ExtenderItem14hoverMoveEventEP24QGraphicsSceneHoverEvent@Base 4:4.4.4-2~
  _ZN6Plasma12ExtenderItem14mouseMoveEventEP24QGraphicsSceneMouseEvent@Base 4:4.4.4-2~
  _ZN6Plasma12ExtenderItem14returnToSourceEv@Base 4:4.4.4-2~
@@ -530,6 +536,24 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma12ExtenderItemD0Ev@Base 4:4.4.4-2~
  _ZN6Plasma12ExtenderItemD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma12ExtenderItemD2Ev@Base 4:4.4.4-2~
+ _ZN6Plasma12PluginLoader10loadAppletERK7QStringjRK5QListI8QVariantE@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader10loadRunnerERK7QString@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader11loadServiceERK7QStringRK5QListI8QVariantEP7QObject@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader12pluginLoaderEv@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader14listAppletInfoERK7QStringS3_@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader14listRunnerInfoERK7QString@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader14loadDataEngineERK7QString@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader15setPluginLoaderEPS0_@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader18internalLoadAppletERK7QStringjRK5QListI8QVariantE@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader18internalLoadRunnerERK7QString@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader18listDataEngineInfoERK7QString@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader19internalLoadServiceERK7QStringRK5QListI8QVariantEP7QObject@Base 4:4.5.86
+ _ZN6Plasma12PluginLoader22internalLoadDataEngineERK7QString@Base 4:4.5.86
+ _ZN6Plasma12PluginLoaderC1Ev@Base 4:4.5.86
+ _ZN6Plasma12PluginLoaderC2Ev@Base 4:4.5.86
+ _ZN6Plasma12PluginLoaderD0Ev@Base 4:4.5.86
+ _ZN6Plasma12PluginLoaderD1Ev@Base 4:4.5.86
+ _ZN6Plasma12PluginLoaderD2Ev@Base 4:4.5.86
  _ZN6Plasma12RunnerScript10dataEngineERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma12RunnerScript11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma12RunnerScript11qt_metacastEPKc@Base 4:4.4.4-2~
@@ -599,6 +623,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma12ScrollWidget20registerAsDragHandleEP15QGraphicsWidget@Base 4:4.4.4-2~
  _ZN6Plasma12ScrollWidget22unregisterAsDragHandleEP15QGraphicsWidget@Base 4:4.4.4-2~
  _ZN6Plasma12ScrollWidget23viewportGeometryChangedERK6QRectF@Base 4:4.4.95
+ _ZN6Plasma12ScrollWidget25setOverflowBordersVisibleEb@Base 4:4.5.86
  _ZN6Plasma12ScrollWidget26setVerticalScrollBarPolicyEN2Qt15ScrollBarPolicyE@Base 4:4.4.4-2~
  _ZN6Plasma12ScrollWidget28setHorizontalScrollBarPolicyEN2Qt15ScrollBarPolicyE@Base 4:4.4.4-2~
  _ZN6Plasma12ScrollWidget9setWidgetEP15QGraphicsWidget@Base 4:4.4.4-2~
@@ -629,11 +654,14 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma13DataContainer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer12becameUnusedERK7QString@Base 4:4.4.4-2~
+ _ZN6Plasma13DataContainer13getDataEngineEv@Base 4:4.5.86
  _ZN6Plasma13DataContainer13removeAllDataEv@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer14checkForUpdateEv@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer14setNeedsUpdateEb@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer15updateRequestedEPS0_@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer16staticMetaObjectE@Base 4:4.4.4-2~
+ _ZN6Plasma13DataContainer17setStorageEnabledEb@Base 4:4.5.86
+ _ZN6Plasma13DataContainer18setNeedsToBeStoredEb@Base 4:4.5.86
  _ZN6Plasma13DataContainer20connectVisualizationEP7QObjectjNS_17IntervalAlignmentE@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer20forceImmediateUpdateEv@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer23disconnectVisualizationEP7QObject@Base 4:4.4.4-2~
@@ -710,6 +738,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma13RunnerManager11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma13RunnerManager13queryFinishedEv@Base 4:4.4.95
  _ZN6Plasma13RunnerManager13setSingleModeEb@Base 4:4.4.4-2~
+ _ZN6Plasma13RunnerManager14listRunnerInfoERK7QString@Base 4:4.5.86
  _ZN6Plasma13RunnerManager14matchesChangedERK5QListINS_10QueryMatchEE@Base 4:4.4.4-2~
  _ZN6Plasma13RunnerManager15actionsForMatchERKNS_10QueryMatchE@Base 4:4.4.4-2~
  _ZN6Plasma13RunnerManager16staticMetaObjectE@Base 4:4.4.4-2~
@@ -785,6 +814,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma13WindowEffects14overrideShadowEmb@Base 4:4.4.4-2~
  _ZN6Plasma13WindowEffects14presentWindowsEmRK5QListImE@Base 4:4.4.4-2~
  _ZN6Plasma13WindowEffects14presentWindowsEmi@Base 4:4.4.4-2~
+ _ZN6Plasma13WindowEffects15markAsDashboardEm@Base 4:4.5.86
  _ZN6Plasma13WindowEffects16enableBlurBehindEmbRK7QRegion@Base 4:4.4.95
  _ZN6Plasma13WindowEffects16highlightWindowsEmRK5QListImE@Base 4:4.4.4-2~
  _ZN6Plasma13WindowEffects17isEffectAvailableENS0_6EffectE@Base 4:4.4.4-2~
@@ -801,11 +831,13 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma14AbstractRunner13hasRunOptionsEv@Base 4:4.4.4-2~
  _ZN6Plasma14AbstractRunner15actionsForMatchERKNS_10QueryMatchE@Base 4:4.4.4-2~
  _ZN6Plasma14AbstractRunner15setIgnoredTypesE6QFlagsINS_13RunnerContext4TypeEE@Base 4:4.4.4-2~
+ _ZN6Plasma14AbstractRunner15suspendMatchingEb@Base 4:4.5.86
  _ZN6Plasma14AbstractRunner16createRunOptionsEP7QWidget@Base 4:4.4.4-2~
  _ZN6Plasma14AbstractRunner16mimeDataForMatchEPKNS_10QueryMatchE@Base 4:4.4.95
  _ZN6Plasma14AbstractRunner16setDefaultSyntaxERKNS_12RunnerSyntaxE@Base 4:4.4.4-2~
  _ZN6Plasma14AbstractRunner16setHasRunOptionsEb@Base 4:4.4.4-2~
  _ZN6Plasma14AbstractRunner16staticMetaObjectE@Base 4:4.4.4-2~
+ _ZN6Plasma14AbstractRunner17matchingSuspendedEb@Base 4:4.5.86
  _ZN6Plasma14AbstractRunner19reloadConfigurationEv@Base 4:4.4.4-2~
  _ZN6Plasma14AbstractRunner3runERKNS_13RunnerContextERKNS_10QueryMatchE@Base 4:4.4.4-2~
  _ZN6Plasma14AbstractRunner4initEv@Base 4:4.4.4-2~
@@ -851,6 +883,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma14ToolTipContent11setAutohideEb@Base 4:4.4.4-2~
  _ZN6Plasma14ToolTipContent11setMainTextERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma14ToolTipContent12setClickableEb@Base 4:4.4.4-2~
+ _ZN6Plasma14ToolTipContent17setGraphicsWidgetEP15QGraphicsWidget@Base 4:4.5.86
  _ZN6Plasma14ToolTipContent18setWindowToPreviewEm@Base 4:4.4.4-2~
  _ZN6Plasma14ToolTipContent19setHighlightWindowsEb@Base 4:4.4.4-2~
  _ZN6Plasma14ToolTipContent19setWindowsToPreviewERK5QListImE@Base 4:4.4.4-2~
@@ -888,12 +921,19 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma14ToolTipManagerD2Ev@Base 4:4.4.4-2~
  _ZN6Plasma14knownLanguagesE6QFlagsINS_13ComponentTypeEE@Base 4:4.4.4-2~
  _ZN6Plasma14versionReleaseEv@Base 4:4.4.4-2~
+ _ZN6Plasma15AbstractToolBox10repositionEv@Base 4:4.5.86
  _ZN6Plasma15AbstractToolBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma15AbstractToolBox11qt_metacastEPKc@Base 4:4.4.4-2~
+ _ZN6Plasma15AbstractToolBox15listToolBoxInfoERK7QString@Base 4:4.5.86
  _ZN6Plasma15AbstractToolBox16staticMetaObjectE@Base 4:4.4.4-2~
  _ZN6Plasma15AbstractToolBox17visibilityChangedEb@Base 4:4.4.4-2~
+ _ZN6Plasma15AbstractToolBox4loadERK7QStringRK5QListI8QVariantEPNS_11ContainmentE@Base 4:4.5.86
+ _ZN6Plasma15AbstractToolBox4saveERK12KConfigGroup@Base 4:4.5.86
+ _ZN6Plasma15AbstractToolBox7restoreERK12KConfigGroup@Base 4:4.5.86
  _ZN6Plasma15AbstractToolBox7toggledEv@Base 4:4.4.4-2~
+ _ZN6Plasma15AbstractToolBoxC1EP7QObjectRK5QListI8QVariantE@Base 4:4.5.86
  _ZN6Plasma15AbstractToolBoxC1EPNS_11ContainmentE@Base 4:4.4.4-2~
+ _ZN6Plasma15AbstractToolBoxC2EP7QObjectRK5QListI8QVariantE@Base 4:4.5.86
  _ZN6Plasma15AbstractToolBoxC2EPNS_11ContainmentE@Base 4:4.4.4-2~
  _ZN6Plasma15AbstractToolBoxD0Ev@Base 4:4.4.4-2~
  _ZN6Plasma15AbstractToolBoxD1Ev@Base 4:4.4.4-2~
@@ -1021,6 +1061,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma16PackageStructure11setRequiredEPKcb@Base 4:4.4.4-2~
  _ZN6Plasma16PackageStructure12setMimetypesEPKc11QStringList@Base 4:4.4.4-2~
  _ZN6Plasma16PackageStructure14installPackageERK7QStringS3_@Base 4:4.4.4-2~
+ _ZN6Plasma16PackageStructure16removeDefinitionEPKc@Base 4:4.5.86
  _ZN6Plasma16PackageStructure16setServicePrefixERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma16PackageStructure16staticMetaObjectE@Base 4:4.4.4-2~
  _ZN6Plasma16PackageStructure16uninstallPackageERK7QStringS3_@Base 4:4.4.4-2~
@@ -1031,6 +1072,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma16PackageStructure21setDefaultPackageRootERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma16PackageStructure22addDirectoryDefinitionEPKcRK7QStringS5_@Base 4:4.4.4-2~
  _ZN6Plasma16PackageStructure22createNewWidgetBrowserEP7QWidget@Base 4:4.4.4-2~
+ _ZN6Plasma16PackageStructure22setContentsPrefixPathsERK11QStringList@Base 4:4.5.86
  _ZN6Plasma16PackageStructure24newWidgetBrowserFinishedEv@Base 4:4.4.4-2~
  _ZN6Plasma16PackageStructure4loadERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma16PackageStructure4readEPK11KConfigBase@Base 4:4.4.4-2~
@@ -1084,6 +1126,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma17AuthorizationRuleD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma17AuthorizationRuleD2Ev@Base 4:4.4.4-2~
  _ZN6Plasma17DataEngineManager10loadEngineERK7QString@Base 4:4.4.4-2~
+ _ZN6Plasma17DataEngineManager10timerEventEP11QTimerEvent@Base 4:4.5.86
  _ZN6Plasma17DataEngineManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma17DataEngineManager11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma17DataEngineManager12unloadEngineERK7QString@Base 4:4.4.4-2~
@@ -1097,11 +1140,26 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma17DataEngineManagerD0Ev@Base 4:4.4.4-2~
  _ZN6Plasma17DataEngineManagerD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma17DataEngineManagerD2Ev@Base 4:4.4.4-2~
+ _ZN6Plasma17DeclarativeWidget10setQmlPathERK7QString@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidget11qt_metacastEPKc@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidget11resizeEventEP25QGraphicsSceneResizeEvent@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidget16staticMetaObjectE@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidget24setInitializationDelayedEb@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidget6engineEv@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidget8finishedEv@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidgetC1EP15QGraphicsWidget@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidgetC2EP15QGraphicsWidget@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidgetD0Ev@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidgetD1Ev@Base 4:4.5.86
+ _ZN6Plasma17DeclarativeWidgetD2Ev@Base 4:4.5.86
  _ZN6Plasma18ContainmentActions11containmentEv@Base 4:4.4.4-2~
  _ZN6Plasma18ContainmentActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma18ContainmentActions11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma18ContainmentActions12contextEventEP6QEvent@Base 4:4.4.4-2~
  _ZN6Plasma18ContainmentActions13eventToStringEP6QEvent@Base 4:4.4.4-2~
+ _ZN6Plasma18ContainmentActions13popupPositionERK5QSizeP6QEvent@Base 4:4.5.86
+ _ZN6Plasma18ContainmentActions14setContainmentEPNS_11ContainmentE@Base 4:4.5.86
  _ZN6Plasma18ContainmentActions16packageStructureEv@Base 4:4.4.4-2~
  _ZN6Plasma18ContainmentActions16staticMetaObjectE@Base 4:4.4.4-2~
  _ZN6Plasma18ContainmentActions17contextualActionsEv@Base 4:4.4.4-2~
@@ -1187,6 +1245,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma31ContainmentActionsPluginsConfigaSERKS0_@Base 4:4.4.4-2~
  _ZN6Plasma3Svg11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma3Svg11qt_metacastEPKc@Base 4:4.4.4-2~
+ _ZN6Plasma3Svg11sizeChangedEv@Base 4:4.5.86
  _ZN6Plasma3Svg12setImagePathERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma3Svg13repaintNeededEv@Base 4:4.4.4-2~
  _ZN6Plasma3Svg16staticMetaObjectE@Base 4:4.4.4-2~
@@ -1392,10 +1451,12 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma6AppletC1EP13QGraphicsItemRK7QStringj@Base 4:4.4.4-2~
  _ZN6Plasma6AppletC1EP13QGraphicsItemRK7QStringjRK5QListI8QVariantE@Base 4:4.4.4-2~
  _ZN6Plasma6AppletC1EP7QObjectRK5QListI8QVariantE@Base 4:4.4.4-2~
+ _ZN6Plasma6AppletC1ERK11KPluginInfoP13QGraphicsItemj@Base 4:4.5.86
  _ZN6Plasma6AppletC1ERK7QStringjRK5QListI8QVariantE@Base 4:4.4.4-2~
  _ZN6Plasma6AppletC2EP13QGraphicsItemRK7QStringj@Base 4:4.4.4-2~
  _ZN6Plasma6AppletC2EP13QGraphicsItemRK7QStringjRK5QListI8QVariantE@Base 4:4.4.4-2~
  _ZN6Plasma6AppletC2EP7QObjectRK5QListI8QVariantE@Base 4:4.4.4-2~
+ _ZN6Plasma6AppletC2ERK11KPluginInfoP13QGraphicsItemj@Base 4:4.5.86
  _ZN6Plasma6AppletC2ERK7QStringjRK5QListI8QVariantE@Base 4:4.4.4-2~
  _ZN6Plasma6AppletD0Ev@Base 4:4.4.4-2~
  _ZN6Plasma6AppletD1Ev@Base 4:4.4.4-2~
@@ -1406,7 +1467,9 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma6Corona12addShortcutsEP17KActionCollection@Base 4:4.4.4-2~
  _ZN6Plasma6Corona12configSyncedEv@Base 4:4.4.4-2~
  _ZN6Plasma6Corona12enableActionERK7QStringb@Base 4:4.4.4-2~
+ _ZN6Plasma6Corona12exportLayoutER12KConfigGroup5QListIPNS_11ContainmentEE@Base 4:4.5.86
  _ZN6Plasma6Corona12importLayoutERK11KConfigBase@Base 4:4.4.95
+ _ZN6Plasma6Corona12importLayoutERK12KConfigGroup@Base 4:4.5.86
  _ZN6Plasma6Corona12mapAnimationENS_8Animator9AnimationERK7QString@Base 4:4.4.95
  _ZN6Plasma6Corona12mapAnimationENS_8Animator9AnimationES2_@Base 4:4.4.95
  _ZN6Plasma6Corona13dialogManagerEv@Base 4:4.4.95
@@ -1434,8 +1497,10 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma6Corona18releaseVisualFocusEv@Base 4:4.4.4-2~
  _ZN6Plasma6Corona18screenOwnerChangedEiiPNS_11ContainmentE@Base 4:4.4.4-2~
  _ZN6Plasma6Corona19immutabilityChangedENS_16ImmutabilityTypeE@Base 4:4.4.4-2~
+ _ZN6Plasma6Corona20containmentForScreenEiiRK7QStringRK5QListI8QVariantE@Base 4:4.5.86
  _ZN6Plasma6Corona21addContainmentDelayedERK7QStringRK5QListI8QVariantE@Base 4:4.4.4-2~
  _ZN6Plasma6Corona21removeOffscreenWidgetEP15QGraphicsWidget@Base 4:4.4.4-2~
+ _ZN6Plasma6Corona25setPreferredToolBoxPluginENS_11Containment4TypeERK7QString@Base 4:4.5.86
  _ZN6Plasma6Corona26containmentActionsDefaultsENS_11Containment4TypeE@Base 4:4.4.4-2~
  _ZN6Plasma6Corona28availableScreenRegionChangedEv@Base 4:4.4.4-2~
  _ZN6Plasma6Corona29setContainmentActionsDefaultsENS_11Containment4TypeERKNS_31ContainmentActionsPluginsConfigE@Base 4:4.4.4-2~
@@ -1507,6 +1572,8 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma6TabBar14setTabBarShownEb@Base 4:4.4.4-2~
  _ZN6Plasma6TabBar15setCurrentIndexEi@Base 4:4.4.4-2~
  _ZN6Plasma6TabBar16staticMetaObjectE@Base 4:4.4.4-2~
+ _ZN6Plasma6TabBar21setLastPositionWidgetEP15QGraphicsWidget@Base 4:4.5.86
+ _ZN6Plasma6TabBar22setFirstPositionWidgetEP15QGraphicsWidget@Base 4:4.5.86
  _ZN6Plasma6TabBar5tabAtEi@Base 4:4.4.4-2~
  _ZN6Plasma6TabBar6addTabERK5QIconRK7QStringP19QGraphicsLayoutItem@Base 4:4.4.4-2~
  _ZN6Plasma6TabBar6addTabERK7QStringP19QGraphicsLayoutItem@Base 4:4.4.4-2~
@@ -1542,10 +1609,15 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma7Package7setPathERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma7PackageC1ERK7QString10KSharedPtrINS_16PackageStructureEE@Base 4:4.4.4-2~
  _ZN6Plasma7PackageC1ERK7QStringS3_10KSharedPtrINS_16PackageStructureEE@Base 4:4.4.4-2~
+ _ZN6Plasma7PackageC1ERKS0_@Base 4:4.5.86
+ _ZN6Plasma7PackageC1Ev@Base 4:4.5.86
  _ZN6Plasma7PackageC2ERK7QString10KSharedPtrINS_16PackageStructureEE@Base 4:4.4.4-2~
  _ZN6Plasma7PackageC2ERK7QStringS3_10KSharedPtrINS_16PackageStructureEE@Base 4:4.4.4-2~
+ _ZN6Plasma7PackageC2ERKS0_@Base 4:4.5.86
+ _ZN6Plasma7PackageC2Ev@Base 4:4.5.86
  _ZN6Plasma7PackageD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma7PackageD2Ev@Base 4:4.4.4-2~
+ _ZN6Plasma7PackageaSERKS0_@Base 4:4.5.86
  _ZN6Plasma7Service11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma7Service11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma7Service12serviceReadyEPS0_@Base 4:4.4.4-2~
@@ -1599,6 +1671,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma7SpinBoxD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma7SpinBoxD2Ev@Base 4:4.4.4-2~
  _ZN6Plasma7WebView10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@Base 4:4.4.4-2~
+ _ZN6Plasma7WebView10urlChangedERK4QUrl@Base 4:4.5.86
  _ZN6Plasma7WebView10wheelEventEP24QGraphicsSceneWheelEvent@Base 4:4.4.4-2~
  _ZN6Plasma7WebView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma7WebView11qt_metacastEPKc@Base 4:4.4.4-2~
@@ -1623,8 +1696,12 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma7WebView17mouseReleaseEventEP24QGraphicsSceneMouseEvent@Base 4:4.4.4-2~
  _ZN6Plasma7WebView17setScrollPositionERK7QPointF@Base 4:4.4.4-2~
  _ZN6Plasma7WebView21mouseDoubleClickEventEP24QGraphicsSceneMouseEvent@Base 4:4.4.4-2~
+ _ZN6Plasma7WebView4backEv@Base 4:4.5.86
+ _ZN6Plasma7WebView4stopEv@Base 4:4.5.86
  _ZN6Plasma7WebView5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.4.4-2~
+ _ZN6Plasma7WebView6reloadEv@Base 4:4.5.86
  _ZN6Plasma7WebView6setUrlERK4KUrl@Base 4:4.4.4-2~
+ _ZN6Plasma7WebView7forwardEv@Base 4:4.5.86
  _ZN6Plasma7WebView7setHtmlERK10QByteArrayRK4KUrl@Base 4:4.4.4-2~
  _ZN6Plasma7WebView7setHtmlERK7QStringRK4KUrl@Base 4:4.4.4-2~
  _ZN6Plasma7WebView7setPageEP8QWebPage@Base 4:4.4.4-2~
@@ -1694,8 +1771,10 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma8ComboBox15hoverEnterEventEP24QGraphicsSceneHoverEvent@Base 4:4.4.4-2~
  _ZN6Plasma8ComboBox15hoverLeaveEventEP24QGraphicsSceneHoverEvent@Base 4:4.4.4-2~
  _ZN6Plasma8ComboBox15mousePressEventEP24QGraphicsSceneMouseEvent@Base 4:4.4.95
+ _ZN6Plasma8ComboBox15setCurrentIndexEi@Base 4:4.5.86
  _ZN6Plasma8ComboBox15setNativeWidgetEP9KComboBox@Base 4:4.4.4-2~
  _ZN6Plasma8ComboBox16staticMetaObjectE@Base 4:4.4.4-2~
+ _ZN6Plasma8ComboBox19currentIndexChangedEi@Base 4:4.5.86
  _ZN6Plasma8ComboBox5clearEv@Base 4:4.4.4-2~
  _ZN6Plasma8ComboBox5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.4.4-2~
  _ZN6Plasma8ComboBox7addItemERK7QString@Base 4:4.4.4-2~
@@ -1793,6 +1872,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma8LineEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma8LineEdit11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma8LineEdit11textChangedERK7QString@Base 4:4.4.4-2~
+ _ZN6Plasma8LineEdit12focusInEventEP11QFocusEvent@Base 4:4.5.86
  _ZN6Plasma8LineEdit13focusOutEventEP11QFocusEvent@Base 4:4.4.95
  _ZN6Plasma8LineEdit13returnPressedEv@Base 4:4.4.4-2~
  _ZN6Plasma8LineEdit13setStyleSheetERK7QString@Base 4:4.4.4-2~
@@ -1929,6 +2009,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9Wallpaper24setConfigurationRequiredEbRK7QString@Base 4:4.4.4-2~
  _ZN6Plasma9Wallpaper28createConfigurationInterfaceEP7QWidget@Base 4:4.4.4-2~
  _ZN6Plasma9Wallpaper28listWallpaperInfoForMimetypeERK7QStringS3_@Base 4:4.4.4-2~
+ _ZN6Plasma9Wallpaper29setPreviewDuringConfigurationEb@Base 4:4.5.86
  _ZN6Plasma9Wallpaper4initERK12KConfigGroup@Base 4:4.4.4-2~
  _ZN6Plasma9Wallpaper4loadERK11KPluginInfoRK5QListI8QVariantE@Base 4:4.4.4-2~
  _ZN6Plasma9Wallpaper4loadERK7QStringRK5QListI8QVariantE@Base 4:4.4.4-2~
@@ -2073,8 +2154,10 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma11Containment8activityEv@Base 4:4.4.4-2~
  _ZNK6Plasma11Containment9wallpaperEv@Base 4:4.4.4-2~
  _ZNK6Plasma11PopupApplet10metaObjectEv@Base 4:4.4.4-2~
+ _ZNK6Plasma11PopupApplet11isIconifiedEv@Base 4:4.5.86
  _ZNK6Plasma11PopupApplet14isPassivePopupEv@Base 4:4.4.4-2~
  _ZNK6Plasma11PopupApplet14isPopupShowingEv@Base 4:4.4.4-2~
+ _ZNK6Plasma11PopupApplet14popupAlignmentEv@Base 4:4.5.86
  _ZNK6Plasma11PopupApplet14popupPlacementEv@Base 4:4.4.4-2~
  _ZNK6Plasma11PopupApplet8sizeHintEN2Qt8SizeHintERK6QSizeF@Base 4:4.4.95
  _ZNK6Plasma11PopupApplet9popupIconEv@Base 4:4.4.4-2~
@@ -2113,6 +2196,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma12ExtenderItem10isDetachedEv@Base 4:4.4.4-2~
  _ZNK6Plasma12ExtenderItem10metaObjectEv@Base 4:4.4.4-2~
  _ZNK6Plasma12ExtenderItem11isCollapsedEv@Base 4:4.4.4-2~
+ _ZNK6Plasma12ExtenderItem11isTransientEv@Base 4:4.5.86
  _ZNK6Plasma12ExtenderItem15autoExpireDelayEv@Base 4:4.4.4-2~
  _ZNK6Plasma12ExtenderItem4iconEv@Base 4:4.4.4-2~
  _ZNK6Plasma12ExtenderItem4nameEv@Base 4:4.4.4-2~
@@ -2124,6 +2208,14 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma12ExtenderItem7isGroupEv@Base 4:4.4.4-2~
  _ZNK6Plasma12ExtenderItem8extenderEv@Base 4:4.4.4-2~
  _ZNK6Plasma12ExtenderItem8sizeHintEN2Qt8SizeHintERK6QSizeF@Base 4:4.4.4-2~
+ _ZNK6Plasma12PluginLoader18internalAppletInfoERK7QString@Base 4:4.5.86
+ _ZNK6Plasma12PluginLoader18internalRunnerInfoEv@Base 4:4.5.86
+ _ZNK6Plasma12PluginLoader19internalServiceInfoEv@Base 4:4.5.86
+ _ZNK6Plasma12PluginLoader22internalDataEngineInfoEv@Base 4:4.5.86
+ _ZNK6Plasma12PluginLoader26standardInternalAppletInfoERK7QString@Base 4:4.5.86
+ _ZNK6Plasma12PluginLoader26standardInternalRunnerInfoEv@Base 4:4.5.86
+ _ZNK6Plasma12PluginLoader27standardInternalServiceInfoEv@Base 4:4.5.86
+ _ZNK6Plasma12PluginLoader30standardInternalDataEngineInfoEv@Base 4:4.5.86
  _ZNK6Plasma12RunnerScript10mainScriptEv@Base 4:4.4.4-2~
  _ZNK6Plasma12RunnerScript10metaObjectEv@Base 4:4.4.4-2~
  _ZNK6Plasma12RunnerScript11descriptionEv@Base 4:4.4.4-2~
@@ -2147,6 +2239,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma12ScrollWidget12nativeWidgetEv@Base 4:4.4.4-2~
  _ZNK6Plasma12ScrollWidget14scrollPositionEv@Base 4:4.4.4-2~
  _ZNK6Plasma12ScrollWidget16viewportGeometryEv@Base 4:4.4.4-2~
+ _ZNK6Plasma12ScrollWidget22overflowBordersVisibleEv@Base 4:4.5.86
  _ZNK6Plasma12ScrollWidget23verticalScrollBarPolicyEv@Base 4:4.4.4-2~
  _ZNK6Plasma12ScrollWidget25horizontalScrollBarPolicyEv@Base 4:4.4.4-2~
  _ZNK6Plasma12ScrollWidget6widgetEv@Base 4:4.4.4-2~
@@ -2157,6 +2250,8 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma13AccessManager13remoteAppletsEv@Base 4:4.4.4-2~
  _ZNK6Plasma13AccessManager18accessRemoteAppletERK4KUrl@Base 4:4.4.4-2~
  _ZNK6Plasma13DataContainer10metaObjectEv@Base 4:4.4.4-2~
+ _ZNK6Plasma13DataContainer15needsToBeStoredEv@Base 4:4.5.86
+ _ZNK6Plasma13DataContainer16isStorageEnabledEv@Base 4:4.5.86
  _ZNK6Plasma13DataContainer19timeSinceLastUpdateEv@Base 4:4.4.4-2~
  _ZNK6Plasma13DataContainer24visualizationIsConnectedEP7QObject@Base 4:4.4.4-2~
  _ZNK6Plasma13DataContainer4dataEv@Base 4:4.4.4-2~
@@ -2223,6 +2318,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma14AbstractRunner12ignoredTypesEv@Base 4:4.4.4-2~
  _ZNK6Plasma14AbstractRunner12serviceQueryERK7QStringS3_@Base 4:4.4.4-2~
  _ZNK6Plasma14AbstractRunner13defaultSyntaxEv@Base 4:4.4.4-2~
+ _ZNK6Plasma14AbstractRunner19isMatchingSuspendedEv@Base 4:4.5.86
  _ZNK6Plasma14AbstractRunner2idEv@Base 4:4.4.4-2~
  _ZNK6Plasma14AbstractRunner4iconEv@Base 4:4.4.4-2~
  _ZNK6Plasma14AbstractRunner4nameEv@Base 4:4.4.4-2~
@@ -2238,6 +2334,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma14ItemBackground15animationUpdateEv@Base 4:4.4.95
  _ZNK6Plasma14ItemBackground6targetEv@Base 4:4.4.4-2~
  _ZNK6Plasma14ToolTipContent11isClickableEv@Base 4:4.4.4-2~
+ _ZNK6Plasma14ToolTipContent14graphicsWidgetEv@Base 4:4.5.86
  _ZNK6Plasma14ToolTipContent15windowToPreviewEv@Base 4:4.4.4-2~
  _ZNK6Plasma14ToolTipContent16highlightWindowsEv@Base 4:4.4.4-2~
  _ZNK6Plasma14ToolTipContent16windowsToPreviewEv@Base 4:4.4.4-2~
@@ -2304,12 +2401,14 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma16DataEngineScript7sourcesEv@Base 4:4.4.4-2~
  _ZNK6Plasma16PackageStructure10isRequiredEPKc@Base 4:4.4.4-2~
  _ZNK6Plasma16PackageStructure10metaObjectEv@Base 4:4.4.4-2~
+ _ZNK6Plasma16PackageStructure10searchPathEPKc@Base 4:4.5.86
  _ZNK6Plasma16PackageStructure11directoriesEv@Base 4:4.4.4-2~
  _ZNK6Plasma16PackageStructure13requiredFilesEv@Base 4:4.4.4-2~
  _ZNK6Plasma16PackageStructure13servicePrefixEv@Base 4:4.4.4-2~
  _ZNK6Plasma16PackageStructure14contentsPrefixEv@Base 4:4.4.4-2~
  _ZNK6Plasma16PackageStructure18allowExternalPathsEv@Base 4:4.4.4-2~
  _ZNK6Plasma16PackageStructure18defaultPackageRootEv@Base 4:4.4.4-2~
+ _ZNK6Plasma16PackageStructure19contentsPrefixPathsEv@Base 4:4.5.86
  _ZNK6Plasma16PackageStructure19requiredDirectoriesEv@Base 4:4.4.4-2~
  _ZNK6Plasma16PackageStructure4nameEPKc@Base 4:4.4.4-2~
  _ZNK6Plasma16PackageStructure4pathEPKc@Base 4:4.4.4-2~
@@ -2328,6 +2427,11 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma17AuthorizationRule3pinEv@Base 4:4.4.4-2~
  _ZNK6Plasma17DataEngineManager10metaObjectEv@Base 4:4.4.4-2~
  _ZNK6Plasma17DataEngineManager6engineERK7QString@Base 4:4.4.4-2~
+ _ZNK6Plasma17DeclarativeWidget10metaObjectEv@Base 4:4.5.86
+ _ZNK6Plasma17DeclarativeWidget10rootObjectEv@Base 4:4.5.86
+ _ZNK6Plasma17DeclarativeWidget13mainComponentEv@Base 4:4.5.86
+ _ZNK6Plasma17DeclarativeWidget23isInitializationDelayedEv@Base 4:4.5.86
+ _ZNK6Plasma17DeclarativeWidget7qmlPathEv@Base 4:4.5.86
  _ZNK6Plasma18ContainmentActions10dataEngineERK7QString@Base 4:4.4.4-2~
  _ZNK6Plasma18ContainmentActions10metaObjectEv@Base 4:4.4.4-2~
  _ZNK6Plasma18ContainmentActions10pluginNameEv@Base 4:4.4.4-2~
@@ -2394,6 +2498,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma5Theme13wallpaperPathERK5QSize@Base 4:4.4.4-2~
  _ZNK6Plasma5Theme16findInRectsCacheERK7QStringS3_R6QRectF@Base 4:4.4.4-2~
  _ZNK6Plasma5Theme17useGlobalSettingsEv@Base 4:4.4.4-2~
+ _ZNK6Plasma5Theme18listCachedRectKeysERK7QString@Base 4:4.5.86
  _ZNK6Plasma5Theme20currentThemeHasImageERK7QString@Base 4:4.4.4-2~
  _ZNK6Plasma5Theme20useNativeWidgetStyleEv@Base 4:4.4.4-2~
  _ZNK6Plasma5Theme25windowTranslucencyEnabledEv@Base 4:4.4.4-2~
@@ -2460,6 +2565,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma6Corona16offscreenWidgetsEv@Base 4:4.4.4-2~
  _ZNK6Plasma6Corona20containmentForScreenEii@Base 4:4.4.4-2~
  _ZNK6Plasma6Corona21availableScreenRegionEi@Base 4:4.4.4-2~
+ _ZNK6Plasma6Corona22preferredToolBoxPluginENS_11Containment4TypeE@Base 4:4.5.86
  _ZNK6Plasma6Corona6actionE7QString@Base 4:4.4.4-2~
  _ZNK6Plasma6Corona6configEv@Base 4:4.4.4-2~
  _ZNK6Plasma6Corona7actionsEv@Base 4:4.4.4-2~
@@ -2478,6 +2584,8 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma6TabBar12currentIndexEv@Base 4:4.4.4-2~
  _ZNK6Plasma6TabBar12nativeWidgetEv@Base 4:4.4.4-2~
  _ZNK6Plasma6TabBar13isTabBarShownEv@Base 4:4.4.4-2~
+ _ZNK6Plasma6TabBar18lastPositionWidgetEv@Base 4:4.5.86
+ _ZNK6Plasma6TabBar19firstPositionWidgetEv@Base 4:4.5.86
  _ZNK6Plasma6TabBar5countEv@Base 4:4.4.4-2~
  _ZNK6Plasma6TabBar7tabIconEi@Base 4:4.4.4-2~
  _ZNK6Plasma6TabBar7tabTextEi@Base 4:4.4.4-2~
@@ -2522,8 +2630,10 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma8CheckBox5imageEv@Base 4:4.4.4-2~
  _ZNK6Plasma8CheckBox9isCheckedEv@Base 4:4.4.4-2~
  _ZNK6Plasma8ComboBox10metaObjectEv@Base 4:4.4.4-2~
+ _ZNK6Plasma8ComboBox12currentIndexEv@Base 4:4.5.86
  _ZNK6Plasma8ComboBox12nativeWidgetEv@Base 4:4.4.4-2~
  _ZNK6Plasma8ComboBox4textEv@Base 4:4.4.4-2~
+ _ZNK6Plasma8ComboBox5countEv@Base 4:4.5.86
  _ZNK6Plasma8Delegate10metaObjectEv@Base 4:4.4.4-2~
  _ZNK6Plasma8Delegate11roleMappingENS0_13SpecificRolesE@Base 4:4.4.4-2~
  _ZNK6Plasma8Delegate11showToolTipEv@Base 4:4.4.4-2~
@@ -2576,6 +2686,8 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma9Animation12targetWidgetEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Animation8durationEv@Base 4:4.4.4-2~
  _ZNK6Plasma9ScrollBar10metaObjectEv@Base 4:4.4.4-2~
+ _ZNK6Plasma9ScrollBar10setMaximumEi@Base 4:4.5.86
+ _ZNK6Plasma9ScrollBar10setMinimumEi@Base 4:4.5.86
  _ZNK6Plasma9ScrollBar11orientationEv@Base 4:4.4.4-2~
  _ZNK6Plasma9ScrollBar12nativeWidgetEv@Base 4:4.4.4-2~
  _ZNK6Plasma9ScrollBar5valueEv@Base 4:4.4.4-2~
@@ -2598,6 +2710,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma9Wallpaper18listRenderingModesEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper21configurationRequiredEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper21isUsingRenderingCacheEv@Base 4:4.4.4-2~
+ _ZNK6Plasma9Wallpaper31needsPreviewDuringConfigurationEv@Base 4:4.5.86
  _ZNK6Plasma9Wallpaper4iconEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper4nameEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper7packageEv@Base 4:4.4.4-2~
@@ -2619,6 +2732,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZTIN6Plasma12AppletScriptE@Base 4:4.4.4-2~
  _ZTIN6Plasma12ConfigLoaderE@Base 4:4.4.4-2~
  _ZTIN6Plasma12ExtenderItemE@Base 4:4.4.4-2~
+ _ZTIN6Plasma12PluginLoaderE@Base 4:4.5.86
  _ZTIN6Plasma12RunnerScriptE@Base 4:4.4.4-2~
  _ZTIN6Plasma12ScriptEngineE@Base 4:4.4.4-2~
  _ZTIN6Plasma12ScrollWidgetE@Base 4:4.4.4-2~
@@ -2643,6 +2757,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZTIN6Plasma16ServiceAccessJobE@Base 4:4.4.4-2~
  _ZTIN6Plasma17AuthorizationRuleE@Base 4:4.4.4-2~
  _ZTIN6Plasma17DataEngineManagerE@Base 4:4.4.4-2~
+ _ZTIN6Plasma17DeclarativeWidgetE@Base 4:4.5.86
  _ZTIN6Plasma18ContainmentActionsE@Base 4:4.4.4-2~
  _ZTIN6Plasma20AuthorizationManagerE@Base 4:4.4.4-2~
  _ZTIN6Plasma20DenyAllAuthorizationE@Base 4:4.4.4-2~
@@ -2699,6 +2814,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZTSN6Plasma12AppletScriptE@Base 4:4.4.4-2~
  _ZTSN6Plasma12ConfigLoaderE@Base 4:4.4.4-2~
  _ZTSN6Plasma12ExtenderItemE@Base 4:4.4.4-2~
+ _ZTSN6Plasma12PluginLoaderE@Base 4:4.5.86
  _ZTSN6Plasma12RunnerScriptE@Base 4:4.4.4-2~
  _ZTSN6Plasma12ScriptEngineE@Base 4:4.4.4-2~
  _ZTSN6Plasma12ScrollWidgetE@Base 4:4.4.4-2~
@@ -2723,6 +2839,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZTSN6Plasma16ServiceAccessJobE@Base 4:4.4.4-2~
  _ZTSN6Plasma17AuthorizationRuleE@Base 4:4.4.4-2~
  _ZTSN6Plasma17DataEngineManagerE@Base 4:4.4.4-2~
+ _ZTSN6Plasma17DeclarativeWidgetE@Base 4:4.5.86
  _ZTSN6Plasma18ContainmentActionsE@Base 4:4.4.4-2~
  _ZTSN6Plasma20AuthorizationManagerE@Base 4:4.4.4-2~
  _ZTSN6Plasma20DenyAllAuthorizationE@Base 4:4.4.4-2~
@@ -2778,6 +2895,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZTVN6Plasma12AppletScriptE@Base 4:4.4.4-2~
  _ZTVN6Plasma12ConfigLoaderE@Base 4:4.4.4-2~
  _ZTVN6Plasma12ExtenderItemE@Base 4:4.4.4-2~
+ _ZTVN6Plasma12PluginLoaderE@Base 4:4.5.86
  _ZTVN6Plasma12RunnerScriptE@Base 4:4.4.4-2~
  _ZTVN6Plasma12ScriptEngineE@Base 4:4.4.4-2~
  _ZTVN6Plasma12ScrollWidgetE@Base 4:4.4.4-2~
@@ -2802,6 +2920,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZTVN6Plasma16ServiceAccessJobE@Base 4:4.4.4-2~
  _ZTVN6Plasma17AuthorizationRuleE@Base 4:4.4.4-2~
  _ZTVN6Plasma17DataEngineManagerE@Base 4:4.4.4-2~
+ _ZTVN6Plasma17DeclarativeWidgetE@Base 4:4.5.86
  _ZTVN6Plasma18ContainmentActionsE@Base 4:4.4.4-2~
  _ZTVN6Plasma20AuthorizationManagerE@Base 4:4.4.4-2~
  _ZTVN6Plasma20DenyAllAuthorizationE@Base 4:4.4.4-2~
@@ -2876,6 +2995,7 @@ libplasma.so.3 libplasma3 #MINVER#
  (c++)"non-virtual thunk to Plasma::Containment::sceneEventFilter(QGraphicsItem*, QEvent*)@Base" 4:4.4.4-2~
  (c++)"non-virtual thunk to Plasma::Containment::wheelEvent(QGraphicsSceneWheelEvent*)@Base" 4:4.4.4-2~
  (c++)"non-virtual thunk to Plasma::Containment::~Containment()@Base" 4:4.4.4-2~
+ (c++)"non-virtual thunk to Plasma::DeclarativeWidget::~DeclarativeWidget()@Base" 4:4.5.86
  (c++)"non-virtual thunk to Plasma::Dialog::~Dialog()@Base" 4:4.4.4-2~
  (c++)"non-virtual thunk to Plasma::Extender::dragEnterEvent(QGraphicsSceneDragDropEvent*)@Base" 4:4.4.4-2~
  (c++)"non-virtual thunk to Plasma::Extender::dragLeaveEvent(QGraphicsSceneDragDropEvent*)@Base" 4:4.4.4-2~
@@ -2929,6 +3049,7 @@ libplasma.so.3 libplasma3 #MINVER#
  (c++)"non-virtual thunk to Plasma::Label::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@Base" 4:4.4.4-2~
  (c++)"non-virtual thunk to Plasma::Label::sizeHint(Qt::SizeHint, QSizeF const&) const@Base" 4:4.4.95
  (c++)"non-virtual thunk to Plasma::Label::~Label()@Base" 4:4.4.4-2~
+ (c++)"non-virtual thunk to Plasma::LineEdit::focusInEvent(QFocusEvent*)@Base" 4:4.5.86
  (c++)"non-virtual thunk to Plasma::LineEdit::focusOutEvent(QFocusEvent*)@Base" 4:4.4.95
  (c++)"non-virtual thunk to Plasma::LineEdit::hoverEnterEvent(QGraphicsSceneHoverEvent*)@Base" 4:4.4.4-2~
  (c++)"non-virtual thunk to Plasma::LineEdit::hoverLeaveEvent(QGraphicsSceneHoverEvent*)@Base" 4:4.4.4-2~

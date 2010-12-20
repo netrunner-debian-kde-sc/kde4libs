@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.85 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -48,12 +48,15 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10KDateTable17KDateTablePrivate13previousMonthEv@Base 4:4.3.4
  _ZN10KDateTable17KDateTablePrivate15beginningOfWeekEv@Base 4:4.3.4
  _ZN10KDateTable17KDateTablePrivate16beginningOfMonthEv@Base 4:4.3.4
+ _ZN10KDateTable17KDateTablePrivate7setDateERK5QDate@Base 4:4.5.86
  _ZN10KDateTable17KDateTablePrivate9endOfWeekEv@Base 4:4.3.4
  _ZN10KDateTable17KDateTablePrivate9nextMonthEv@Base 4:4.3.4
+ _ZN10KDateTable17setCalendarSystemEN7KLocale14CalendarSystemE@Base 4:4.5.86
  _ZN10KDateTable19setPopupMenuEnabledEb@Base 4:4.3.4
  _ZN10KDateTable21setCustomDatePaintingERK5QDateRK6QColorNS_14BackgroundModeES5_@Base 4:4.3.4
  _ZN10KDateTable22aboutToShowContextMenuEP5KMenuRK5QDate@Base 4:4.3.4
  _ZN10KDateTable23unsetCustomDatePaintingERK5QDate@Base 4:4.3.4
+ _ZN10KDateTable4initERK5QDate@Base 4:4.5.86
  _ZN10KDateTable5eventEP6QEvent@Base 4:4.4.0
  _ZN10KDateTable7setDateERK5QDate@Base 4:4.3.4
  _ZN10KDateTable9paintCellEP8QPainteriiRK12KColorScheme@Base 4:4.4.0
@@ -455,6 +458,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11KDatePicker16staticMetaObjectE@Base 4:4.3.4
  _ZN11KDatePicker16tableClickedSlotEv@Base 4:4.3.4
  _ZN11KDatePicker17selectYearClickedEv@Base 4:4.3.4
+ _ZN11KDatePicker17setCalendarSystemEN7KLocale14CalendarSystemE@Base 4:4.5.86
  _ZN11KDatePicker18KDatePickerPrivate14fillWeeksComboEv@Base 4:4.3.4
  _ZN11KDatePicker18KDatePickerPrivate20validDateInYearMonthEii@Base 4:4.3.4
  _ZN11KDatePicker18selectMonthClickedEv@Base 4:4.3.4
@@ -479,6 +483,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11KDateWidget11setCalendarERK7QString@Base 4:4.3.4
  _ZN11KDateWidget15slotDateChangedEv@Base 4:4.3.4
  _ZN11KDateWidget16staticMetaObjectE@Base 4:4.3.4
+ _ZN11KDateWidget17setCalendarSystemEN7KLocale14CalendarSystemE@Base 4:4.5.86
  _ZN11KDateWidget4initERK5QDate@Base 4:4.3.4
  _ZN11KDateWidget7changedERK5QDate@Base 4:4.3.4
  _ZN11KDateWidget7setDateERK5QDate@Base 4:4.3.4

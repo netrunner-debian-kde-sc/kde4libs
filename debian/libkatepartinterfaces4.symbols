@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.2 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KateBuffer10unwrapLineEi@Base 4:4.4.95
@@ -81,15 +81,16 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument11printDialogEv@Base 4:4.4.95
  _ZN12KateDocument11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
  _ZN12KateDocument11qt_metacastEPKc@Base 4:4.4.95
+ _ZN12KateDocument11recoverDataEv@Base 4:4.5.86
  _ZN12KateDocument11replaceTextERKN11KTextEditor5RangeERK7QStringb@Base 4:4.4.95
  _ZN12KateDocument11setEncodingERK7QString@Base 4:4.4.95
  _ZN12KateDocument11setModifiedEb@Base 4:4.4.95
  _ZN12KateDocument11setWordWrapEb@Base 4:4.4.95
  _ZN12KateDocument11undoChangedEv@Base 4:4.4.95
- _ZN12KateDocument11useRevisionEi@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument11useRevisionEi@Base 4:4.4.95
  _ZN12KateDocument12bomSetByUserEv@Base 4:4.4.95
  _ZN12KateDocument12createDigestER10QByteArray@Base 4:4.4.95
- _ZN12KateDocument12deleteRangesEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument12deleteRangesEv@Base 4:4.4.95
  _ZN12KateDocument12dialogParentEv@Base 4:4.4.95
  _ZN12KateDocument12documentSaveEv@Base 4:4.4.95
  _ZN12KateDocument12editWrapLineEiibPb@Base 4:4.4.95
@@ -97,7 +98,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument12lockRevisionEx@Base 4:4.4.95
  _ZN12KateDocument12marksChangedEPN11KTextEditor8DocumentE@Base 4:4.4.95
  _ZN12KateDocument12popEditStateEv@Base 4:4.4.95
- _ZN12KateDocument12rangeDeletedEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument12rangeDeletedEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
  _ZN12KateDocument12rangeInvalidEPN11KTextEditor11MovingRangeE@Base 4:4.4.95
  _ZN12KateDocument12repaintViewsEb@Base 4:4.4.95
  _ZN12KateDocument12setReadWriteEb@Base 4:4.4.95
@@ -106,9 +107,9 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument12visibleLinesEv@Base 4:4.4.95
  _ZN12KateDocument13checkIntValueE7QStringPi@Base 4:4.4.95
  _ZN12KateDocument13configChangedEv@Base 4:4.4.95
- _ZN12KateDocument13deleteCursorsEv@Base 4:4.4.95
- _ZN12KateDocument13newSmartRangeEPN11KTextEditor11SmartCursorES2_PNS0_10SmartRangeE6QFlagsINS3_14InsertBehaviorEE@Base 4:4.4.95
- _ZN12KateDocument13newSmartRangeERKN11KTextEditor5RangeEPNS0_10SmartRangeE6QFlagsINS4_14InsertBehaviorEE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument13deleteCursorsEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument13newSmartRangeEPN11KTextEditor11SmartCursorES2_PNS0_10SmartRangeE6QFlagsINS3_14InsertBehaviorEE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument13newSmartRangeERKN11KTextEditor5RangeEPNS0_10SmartRangeE6QFlagsINS4_14InsertBehaviorEE@Base 4:4.4.95
  _ZN12KateDocument13pushEditStateEv@Base 4:4.4.95
  _ZN12KateDocument13readDirConfigEv@Base 4:4.4.95
  _ZN12KateDocument13readVariablesEb@Base 4:4.4.95
@@ -122,10 +123,14 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument14documentReloadEv@Base 4:4.4.95
  _ZN12KateDocument14documentSaveAsEv@Base 4:4.4.95
  _ZN12KateDocument14dumpRegionTreeEv@Base 4:4.4.95
- _ZN12KateDocument14editInsertLineEiRK7QStringN4Kate10EditSourceE@Base 4:4.4.95
- _ZN12KateDocument14editInsertTextEiiRK7QStringN4Kate10EditSourceE@Base 4:4.4.95
- _ZN12KateDocument14editRemoveLineEiN4Kate10EditSourceE@Base 4:4.4.95
- _ZN12KateDocument14editRemoveTextEiiiN4Kate10EditSourceE@Base 4:4.4.95
+ _ZN12KateDocument14editInsertLineEiRK7QString@Base 4:4.5.86
+#MISSING: 4:4.5.86# _ZN12KateDocument14editInsertLineEiRK7QStringN4Kate10EditSourceE@Base 4:4.4.95
+ _ZN12KateDocument14editInsertTextEiiRK7QString@Base 4:4.5.86
+#MISSING: 4:4.5.86# _ZN12KateDocument14editInsertTextEiiRK7QStringN4Kate10EditSourceE@Base 4:4.4.95
+ _ZN12KateDocument14editRemoveLineEi@Base 4:4.5.86
+#MISSING: 4:4.5.86# _ZN12KateDocument14editRemoveLineEiN4Kate10EditSourceE@Base 4:4.4.95
+ _ZN12KateDocument14editRemoveTextEiii@Base 4:4.5.86
+#MISSING: 4:4.5.86# _ZN12KateDocument14editRemoveTextEiiiN4Kate10EditSourceE@Base 4:4.4.95
  _ZN12KateDocument14editUnWrapLineEibi@Base 4:4.4.95
  _ZN12KateDocument14getVirtualLineEj@Base 4:4.4.95
  _ZN12KateDocument14inputMethodEndEv@Base 4:4.4.95
@@ -134,7 +139,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument14modifiedOnDiskEPN11KTextEditor8DocumentEbNS0_21ModificationInterface20ModifiedOnDiskReasonE@Base 4:4.4.95
  _ZN12KateDocument14newBracketMarkERKN11KTextEditor6CursorERNS0_5RangeEi@Base 4:4.4.95
  _ZN12KateDocument14newMovingRangeERKN11KTextEditor5RangeE6QFlagsINS0_11MovingRange14InsertBehaviorEENS5_13EmptyBehaviorE@Base 4:4.4.95
- _ZN12KateDocument14newSmartCursorERKN11KTextEditor6CursorENS0_11SmartCursor14InsertBehaviorE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument14newSmartCursorERKN11KTextEditor6CursorENS0_11SmartCursor14InsertBehaviorE@Base 4:4.4.95
  _ZN12KateDocument14setConfigValueERK7QStringRK8QVariant@Base 4:4.4.95
  _ZN12KateDocument14transformRangeERN11KTextEditor5RangeE6QFlagsINS0_11MovingRange14InsertBehaviorEENS4_13EmptyBehaviorExx@Base 4:4.4.95
  _ZN12KateDocument14unlockRevisionEx@Base 4:4.4.95
@@ -142,7 +147,8 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument15bufferHlChangedEv@Base 4:4.4.95
  _ZN12KateDocument15checkColorValueE7QStringR6QColor@Base 4:4.4.95
  _ZN12KateDocument15editLineWrappedEiii@Base 4:4.4.95
- _ZN12KateDocument15editRemoveLinesEiiN4Kate10EditSourceE@Base 4:4.4.95
+ _ZN12KateDocument15editRemoveLinesEii@Base 4:4.5.86
+#MISSING: 4:4.5.86# _ZN12KateDocument15editRemoveLinesEiiN4Kate10EditSourceE@Base 4:4.4.95
  _ZN12KateDocument15handleMarkClickEi@Base 4:4.4.95
  _ZN12KateDocument15newMovingCursorERKN11KTextEditor6CursorENS0_12MovingCursor14InsertBehaviorE@Base 4:4.4.95
  _ZN12KateDocument15setViewVariableE7QStringS0_@Base 4:4.4.95
@@ -151,16 +157,16 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument15transformCursorERiS0_N11KTextEditor12MovingCursor14InsertBehaviorExx@Base 4:4.4.95
  _ZN12KateDocument15variableChangedEPN11KTextEditor8DocumentERK7QStringS5_@Base 4:4.4.95
  _ZN12KateDocument16activateDirWatchERK7QString@Base 4:4.4.95
- _ZN12KateDocument16addActionsToViewEPN11KTextEditor4ViewEPNS0_10SmartRangeE@Base 4:4.4.95
- _ZN12KateDocument16attributeDynamicE10KSharedPtrIN11KTextEditor9AttributeEE@Base 4:4.4.95
- _ZN12KateDocument16clearViewActionsEPN11KTextEditor4ViewE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument16addActionsToViewEPN11KTextEditor4ViewEPNS0_10SmartRangeE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument16attributeDynamicE10KSharedPtrIN11KTextEditor9AttributeEE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument16clearViewActionsEPN11KTextEditor4ViewE@Base 4:4.4.95
  _ZN12KateDocument16decodeCharactersERKN11KTextEditor5RangeER5QListI5QPairIiiEES8_@Base 4:4.4.95
  _ZN12KateDocument16inputMethodStartEv@Base 4:4.4.95
  _ZN12KateDocument16readVariableLineE7QStringb@Base 4:4.4.95
  _ZN12KateDocument16setEditableMarksEj@Base 4:4.4.95
  _ZN12KateDocument16slotModOnHdDirtyERK7QString@Base 4:4.4.95
  _ZN12KateDocument16staticMetaObjectE@Base 4:4.4.95
- _ZN12KateDocument16unbindSmartRangeEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument16unbindSmartRangeEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
  _ZN12KateDocument17aboutToRemoveTextERKN11KTextEditor5RangeE@Base 4:4.4.95
  _ZN12KateDocument17editLineUnWrappedEii@Base 4:4.4.95
  _ZN12KateDocument17internalHlChangedEv@Base 4:4.4.95
@@ -168,7 +174,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument17readSessionConfigERK12KConfigGroup@Base 4:4.4.95
  _ZN12KateDocument17respellCheckBlockEPS_ii@Base 4:4.4.95
  _ZN12KateDocument17setModifiedOnDiskEN11KTextEditor21ModificationInterface20ModifiedOnDiskReasonE@Base 4:4.4.95
- _ZN12KateDocument18addHighlightToViewEPN11KTextEditor4ViewEPNS0_10SmartRangeEb@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument18addHighlightToViewEPN11KTextEditor4ViewEPNS0_10SmartRangeEb@Base 4:4.4.95
  _ZN12KateDocument18codeFoldingUpdatedEv@Base 4:4.4.95
  _ZN12KateDocument18deactivateDirWatchEv@Base 4:4.4.95
  _ZN12KateDocument18highlightingModeAtERKN11KTextEditor6CursorE@Base 4:4.4.95
@@ -180,9 +186,10 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument18slotModOnHdDeletedERK7QString@Base 4:4.4.95
  _ZN12KateDocument18slotModifiedOnDiskEPN11KTextEditor4ViewE@Base 4:4.4.95
  _ZN12KateDocument18writeSessionConfigER12KConfigGroup@Base 4:4.4.95
- _ZN12KateDocument19attributeNotDynamicE10KSharedPtrIN11KTextEditor9AttributeEE@Base 4:4.4.95
- _ZN12KateDocument19clearSmartInterfaceEv@Base 4:4.4.95
- _ZN12KateDocument19clearViewHighlightsEPN11KTextEditor4ViewE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument19attributeNotDynamicE10KSharedPtrIN11KTextEditor9AttributeEE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument19clearSmartInterfaceEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument19clearViewHighlightsEPN11KTextEditor4ViewE@Base 4:4.4.95
+ _ZN12KateDocument19discardDataRecoveryEv@Base 4:4.5.86
  _ZN12KateDocument19findMatchingBracketERN11KTextEditor5RangeEi@Base 4:4.4.95
  _ZN12KateDocument19nextNonSpaceCharPosERiS0_@Base 4:4.4.95
  _ZN12KateDocument19preHighlightChangedEj@Base 4:4.4.95
@@ -190,8 +197,8 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument19removeTrailingSpaceEi@Base 4:4.4.95
  _ZN12KateDocument19setHighlightingModeERK7QString@Base 4:4.4.95
  _ZN12KateDocument19slotQueryClose_saveEPbS0_@Base 4:4.4.95
- _ZN12KateDocument20addActionsToDocumentEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
- _ZN12KateDocument20clearDocumentActionsEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument20addActionsToDocumentEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument20clearDocumentActionsEv@Base 4:4.4.95
  _ZN12KateDocument20markToolTipRequestedEPN11KTextEditor8DocumentENS0_4MarkE6QPointRb@Base 4:4.4.95
  _ZN12KateDocument20refreshOnTheFlyCheckERKN11KTextEditor5RangeE@Base 4:4.4.95
  _ZN12KateDocument20setDefaultDictionaryERK7QString@Base 4:4.4.95
@@ -199,16 +206,16 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument21clearDictionaryRangesEv@Base 4:4.4.95
  _ZN12KateDocument21deleteDictionaryRangeEPN11KTextEditor11MovingRangeE@Base 4:4.4.95
  _ZN12KateDocument21handleMarkContextMenuEi6QPoint@Base 4:4.4.95
- _ZN12KateDocument21removeActionsFromViewEPN11KTextEditor4ViewEPNS0_10SmartRangeE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument21removeActionsFromViewEPN11KTextEditor4ViewEPNS0_10SmartRangeE@Base 4:4.4.95
  _ZN12KateDocument21setDontChangeHlOnSaveEv@Base 4:4.4.95
- _ZN12KateDocument22addHighlightToDocumentEPN11KTextEditor10SmartRangeEb@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument22addHighlightToDocumentEPN11KTextEditor10SmartRangeEb@Base 4:4.4.95
  _ZN12KateDocument22annotationModelChangedEPN11KTextEditor15AnnotationModelES2_@Base 4:4.4.95
- _ZN12KateDocument23clearDocumentHighlightsEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument23clearDocumentHighlightsEv@Base 4:4.4.95
  _ZN12KateDocument23clearMisspellingForWordERK7QString@Base 4:4.4.95
  _ZN12KateDocument23dictionaryRangesPresentEb@Base 4:4.4.95
  _ZN12KateDocument23editMarkLineAutoWrappedEib@Base 4:4.4.95
  _ZN12KateDocument23previousNonSpaceCharPosERiS0_@Base 4:4.4.95
- _ZN12KateDocument23removeHighlightFromViewEPN11KTextEditor4ViewEPNS0_10SmartRangeE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument23removeHighlightFromViewEPN11KTextEditor4ViewEPNS0_10SmartRangeE@Base 4:4.4.95
  _ZN12KateDocument24defaultDictionaryChangedEPS_@Base 4:4.4.95
  _ZN12KateDocument24ignoreModifiedOnDiskOnceEv@Base 4:4.4.95
  _ZN12KateDocument24markContextMenuRequestedEPN11KTextEditor8DocumentENS0_4MarkE6QPointRb@Base 4:4.4.95
@@ -216,11 +223,11 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument24setPageUpDownMovesCursorEb@Base 4:4.4.95
  _ZN12KateDocument25computePositionWrtOffsetsERK5QListI5QPairIiiEEi@Base 4:4.4.95
  _ZN12KateDocument25containsCharacterEncodingERKN11KTextEditor5RangeE@Base 4:4.4.95
- _ZN12KateDocument25removeActionsFromDocumentEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument25removeActionsFromDocumentEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
  _ZN12KateDocument25removeStringFromBeginningEiRK7QString@Base 4:4.4.95
  _ZN12KateDocument25revertToDefaultDictionaryERKN11KTextEditor5RangeE@Base 4:4.4.95
  _ZN12KateDocument26loadSaveFilterCheckPluginsEv@Base 4:4.4.95
- _ZN12KateDocument27removeHighlightFromDocumentEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument27removeHighlightFromDocumentEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
  _ZN12KateDocument27replaceCharactersByEncodingERKN11KTextEditor5RangeE@Base 4:4.4.95
  _ZN12KateDocument28onTheFlySpellCheckingEnabledEb@Base 4:4.4.95
  _ZN12KateDocument30addStartLineCommentToSelectionEP8KateViewi@Base 4:4.4.95
@@ -269,12 +276,15 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN12KateDocument8mimeTypeEv@Base 4:4.4.95
  _ZN12KateDocument8openFileEv@Base 4:4.4.95
  _ZN12KateDocument8saveFileEv@Base 4:4.4.95
+ _ZN12KateDocument8swapFileEv@Base 4:4.5.86
  _ZN12KateDocument8tagLinesEN11KTextEditor6CursorES1_@Base 4:4.4.95
  _ZN12KateDocument8tagLinesEii@Base 4:4.4.95
  _ZN12KateDocument8wrapTextEii@Base 4:4.4.95
  _ZN12KateDocument9backspaceEP8KateViewRKN11KTextEditor6CursorE@Base 4:4.4.95
  _ZN12KateDocument9clearMarkEi@Base 4:4.4.95
- _ZN12KateDocument9editStartEN4Kate10EditSourceE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN12KateDocument9editStartEN4Kate10EditSourceE@Base 4:4.4.95
+ _ZN12KateDocument9editStartEv@Base 4:4.5.86
+ _ZN12KateDocument9insertTabEP8KateViewRKN11KTextEditor6CursorE@Base 4:4.5.86
  _ZN12KateDocument9joinLinesEjj@Base 4:4.4.95
  _ZN12KateDocument9ownedViewEP8KateView@Base 4:4.4.95
  _ZN12KateDocument9transformEP8KateViewRKN11KTextEditor6CursorENS_13TextTransformE@Base 4:4.4.95
@@ -364,6 +374,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN14KateViewConfig14setViInputModeEb@Base 4:4.4.95
  _ZN14KateViewConfig15setBookmarkSortEi@Base 4:4.4.95
  _ZN14KateViewConfig15setSmartCopyCutEb@Base 4:4.4.95
+ _ZN14KateViewConfig16setAllowMarkMenuEb@Base 4:4.5.86
  _ZN14KateViewConfig16setScrollPastEndEb@Base 4:4.4.95
  _ZN14KateViewConfig17setScrollBarMarksEb@Base 4:4.4.95
  _ZN14KateViewConfig17setWordCompletionEb@Base 4:4.4.95
@@ -455,31 +466,47 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN16KateRegExpSearchD2Ev@Base 4:4.4.95
  _ZN18KateDocumentConfig10readConfigERK12KConfigGroup@Base 4:4.4.95
  _ZN18KateDocumentConfig11setEncodingERK7QString@Base 4:4.4.95
+ _ZN18KateDocumentConfig11setShowTabsEb@Base 4:4.5.86
  _ZN18KateDocumentConfig11setTabWidthEi@Base 4:4.4.95
  _ZN18KateDocumentConfig11setWordWrapEb@Base 4:4.4.95
  _ZN18KateDocumentConfig11writeConfigER12KConfigGroup@Base 4:4.4.95
+ _ZN18KateDocumentConfig12setSmartHomeEb@Base 4:4.5.86
  _ZN18KateDocumentConfig12updateConfigEv@Base 4:4.4.95
+ _ZN18KateDocumentConfig13setShowSpacesEb@Base 4:4.5.86
+ _ZN18KateDocumentConfig13setTabIndentsEb@Base 4:4.5.86
  _ZN18KateDocumentConfig13setWordWrapAtEj@Base 4:4.4.95
+ _ZN18KateDocumentConfig13setWrapCursorEb@Base 4:4.5.86
  _ZN18KateDocumentConfig14setBackupFlagsEj@Base 4:4.4.95
- _ZN18KateDocumentConfig14setConfigFlagsENS_11ConfigFlagsEb@Base 4:4.4.95
- _ZN18KateDocumentConfig14setConfigFlagsEj@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN18KateDocumentConfig14setConfigFlagsENS_11ConfigFlagsEb@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN18KateDocumentConfig14setConfigFlagsEj@Base 4:4.4.95
  _ZN18KateDocumentConfig14setTabHandlingEj@Base 4:4.4.95
+ _ZN18KateDocumentConfig15setAutoBracketsEb@Base 4:4.5.86
  _ZN18KateDocumentConfig15setBackupPrefixERK7QString@Base 4:4.4.95
  _ZN18KateDocumentConfig15setBackupSuffixERK7QString@Base 4:4.4.95
+ _ZN18KateDocumentConfig15setRemoveSpacesEb@Base 4:4.5.86
+ _ZN18KateDocumentConfig17setReplaceTabsDynEb@Base 4:4.5.86
+ _ZN18KateDocumentConfig17setSwapFileNoSyncEb@Base 4:4.5.86
  _ZN18KateDocumentConfig18setAllowSimpleModeEb@Base 4:4.4.95
  _ZN18KateDocumentConfig18setIndentationModeERK7QString@Base 4:4.4.95
+ _ZN18KateDocumentConfig18setKeepExtraSpacesEb@Base 4:4.5.86
+ _ZN18KateDocumentConfig19setBackspaceIndentsEb@Base 4:4.5.86
+ _ZN18KateDocumentConfig19setIndentPastedTextEb@Base 4:4.5.86
  _ZN18KateDocumentConfig19setIndentationWidthEi@Base 4:4.4.95
  _ZN18KateDocumentConfig20setAllowEolDetectionEb@Base 4:4.4.95
+ _ZN18KateDocumentConfig20setRemoveTrailingDynEb@Base 4:4.5.86
  _ZN18KateDocumentConfig21setOnTheFlySpellCheckEb@Base 4:4.4.95
  _ZN18KateDocumentConfig23setSearchDirConfigDepthEi@Base 4:4.4.95
  _ZN18KateDocumentConfig24setPageUpDownMovesCursorEb@Base 4:4.4.95
  _ZN18KateDocumentConfig6setBomEb@Base 4:4.4.95
  _ZN18KateDocumentConfig6setEolEi@Base 4:4.4.95
+ _ZN18KateDocumentConfig6setOvrEb@Base 4:4.5.86
  _ZN18KateDocumentConfig8s_globalE@Base 4:4.4.95
  _ZN18KateDocumentConfig9eolStringEv@Base 4:4.4.95
  _ZN18KateDocumentConfigC1EP12KateDocument@Base 4:4.4.95
+ _ZN18KateDocumentConfigC1ERK12KConfigGroup@Base 4:4.5.86
  _ZN18KateDocumentConfigC1Ev@Base 4:4.4.95
  _ZN18KateDocumentConfigC2EP12KateDocument@Base 4:4.4.95
+ _ZN18KateDocumentConfigC2ERK12KConfigGroup@Base 4:4.5.86
  _ZN18KateDocumentConfigC2Ev@Base 4:4.4.95
  _ZN18KateDocumentConfigD0Ev@Base 4:4.4.95
  _ZN18KateDocumentConfigD1Ev@Base 4:4.4.95
@@ -540,6 +567,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN18KateScriptDocument4textERKN11KTextEditor6CursorES3_@Base 4:4.4.95
  _ZN18KateScriptDocument4textEiiii@Base 4:4.4.95
  _ZN18KateScriptDocument4textEv@Base 4:4.4.95
+ _ZN18KateScriptDocument5alignERKN11KTextEditor5RangeE@Base 4:4.5.86
  _ZN18KateScriptDocument5clearEv@Base 4:4.4.95
  _ZN18KateScriptDocument5linesEv@Base 4:4.4.95
  _ZN18KateScriptDocument5rfindERKN11KTextEditor6CursorERK7QStringi@Base 4:4.4.95
@@ -708,10 +736,13 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN19KatePlainTextSearchD1Ev@Base 4:4.4.95
  _ZN19KatePlainTextSearchD2Ev@Base 4:4.4.95
  _ZN20KateCompletionWidget10cursorDownEv@Base 4:4.4.95
+ _ZN20KateCompletionWidget10insertTextERKN11KTextEditor6CursorERK7QString@Base 4:4.5.86
  _ZN20KateCompletionWidget10modelResetEv@Base 4:4.4.95
  _ZN20KateCompletionWidget10navigateUpEv@Base 4:4.4.95
+ _ZN20KateCompletionWidget10removeTextERKN11KTextEditor5RangeE@Base 4:4.5.86
  _ZN20KateCompletionWidget10showConfigEv@Base 4:4.4.95
  _ZN20KateCompletionWidget10switchListEv@Base 4:4.4.95
+ _ZN20KateCompletionWidget10unwrapLineEi@Base 4:4.5.86
  _ZN20KateCompletionWidget11eventFilterEP7QObjectP6QEvent@Base 4:4.4.95
  _ZN20KateCompletionWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
  _ZN20KateCompletionWidget11qt_metacastEPKc@Base 4:4.4.95
@@ -757,8 +788,9 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN20KateCompletionWidget6pageUpEv@Base 4:4.4.95
  _ZN20KateCompletionWidget7executeEv@Base 4:4.4.95
  _ZN20KateCompletionWidget8cursorUpEv@Base 4:4.4.95
- _ZN20KateCompletionWidget8editDoneEP12KateEditInfo@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN20KateCompletionWidget8editDoneEP12KateEditInfo@Base 4:4.4.95
  _ZN20KateCompletionWidget8pageDownEv@Base 4:4.4.95
+ _ZN20KateCompletionWidget8wrapLineERKN11KTextEditor6CursorE@Base 4:4.5.86
  _ZN20KateCompletionWidget9showEventEP10QShowEvent@Base 4:4.4.95
  _ZN20KateCompletionWidgetC1EP8KateView@Base 4:4.4.95
  _ZN20KateCompletionWidgetC2EP8KateView@Base 4:4.4.95
@@ -780,6 +812,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN4Kate10TextBuffer13lineUnwrappedEi@Base 4:4.4.95
  _ZN4Kate10TextBuffer14editingStartedEv@Base 4:4.4.95
  _ZN4Kate10TextBuffer15editingFinishedEv@Base 4:4.4.95
+ _ZN4Kate10TextBuffer16invalidateRangesEv@Base 4:4.5.86
  _ZN4Kate10TextBuffer16staticMetaObjectE@Base 4:4.4.95
  _ZN4Kate10TextBuffer22notifyAboutRangeChangeEPN11KTextEditor4ViewEiib@Base 4:4.4.95
  _ZN4Kate10TextBuffer4loadERK7QStringRb@Base 4:4.4.95
@@ -796,6 +829,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN4Kate10TextBufferD2Ev@Base 4:4.4.95
  _ZN4Kate10TextCursor11setPositionERKN11KTextEditor6CursorE@Base 4:4.4.95
  _ZN4Kate10TextCursor11setPositionERKN11KTextEditor6CursorEb@Base 4:4.4.95
+ _ZN4Kate10TextCursor11setPositionERKS0_@Base 4:4.5.86
  _ZN4Kate10TextCursorC1ERNS_10TextBufferEPNS_9TextRangeERKN11KTextEditor6CursorENS5_12MovingCursor14InsertBehaviorE@Base 4:4.4.95
  _ZN4Kate10TextCursorC1ERNS_10TextBufferERKN11KTextEditor6CursorENS3_12MovingCursor14InsertBehaviorE@Base 4:4.4.95
  _ZN4Kate10TextCursorC2ERNS_10TextBufferEPNS_9TextRangeERKN11KTextEditor6CursorENS5_12MovingCursor14InsertBehaviorE@Base 4:4.4.95
@@ -825,6 +859,36 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN4Kate12TextLineDataC2Ev@Base 4:4.4.95
  _ZN4Kate12TextLineDataD1Ev@Base 4:4.4.95
  _ZN4Kate12TextLineDataD2Ev@Base 4:4.4.95
+ _ZN4Kate8SwapFile10fileClosedEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile10fileLoadedERK7QString@Base 4:4.5.86
+ _ZN4Kate8SwapFile10insertTextERKN11KTextEditor6CursorERK7QString@Base 4:4.5.86
+ _ZN4Kate8SwapFile10removeTextERKN11KTextEditor5RangeE@Base 4:4.5.86
+ _ZN4Kate8SwapFile10unwrapLineEi@Base 4:4.5.86
+ _ZN4Kate8SwapFile11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
+ _ZN4Kate8SwapFile11qt_metacastEPKc@Base 4:4.5.86
+ _ZN4Kate8SwapFile12startEditingEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile13finishEditingEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile13swapFileFoundEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile14removeSwapFileEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile14swapFileBrokenEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile14updateFileNameEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile15swapFileHandledEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile15writeFileToDiskEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile16staticMetaObjectE@Base 4:4.5.86
+ _ZN4Kate8SwapFile18setTrackingEnabledEb@Base 4:4.5.86
+ _ZN4Kate8SwapFile7discardEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile7recoverER11QDataStream@Base 4:4.5.86
+ _ZN4Kate8SwapFile7recoverEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile7s_timerE@Base 4:4.5.86
+ _ZN4Kate8SwapFile8fileNameEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile8wrapLineERKN11KTextEditor6CursorE@Base 4:4.5.86
+ _ZN4Kate8SwapFile9fileSavedERK7QString@Base 4:4.5.86
+ _ZN4Kate8SwapFile9syncTimerEv@Base 4:4.5.86
+ _ZN4Kate8SwapFileC1EP12KateDocument@Base 4:4.5.86
+ _ZN4Kate8SwapFileC2EP12KateDocument@Base 4:4.5.86
+ _ZN4Kate8SwapFileD0Ev@Base 4:4.5.86
+ _ZN4Kate8SwapFileD1Ev@Base 4:4.5.86
+ _ZN4Kate8SwapFileD2Ev@Base 4:4.5.86
  _ZN4Kate9TextBlock10insertTextERKN11KTextEditor6CursorERK7QString@Base 4:4.4.95
  _ZN4Kate9TextBlock10mergeBlockEPS0_@Base 4:4.4.95
  _ZN4Kate9TextBlock10removeTextERKN11KTextEditor5RangeER7QString@Base 4:4.4.95
@@ -869,6 +933,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN8KateView10cursorLeftEv@Base 4:4.4.95
  _ZN8KateView10iconBorderEv@Base 4:4.4.95
  _ZN8KateView10navigateUpEv@Base 4:4.4.95
+ _ZN8KateView10recoverBarEv@Base 4:4.5.86
  _ZN8KateView10reloadFileEv@Base 4:4.4.95
  _ZN8KateView10scrollDownEv@Base 4:4.4.95
  _ZN8KateView10selectLineERKN11KTextEditor6CursorE@Base 4:4.4.95
@@ -889,7 +954,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN8KateView12navigateDownEv@Base 4:4.4.95
  _ZN8KateView12navigateLeftEv@Base 4:4.4.95
  _ZN8KateView12needTextHintERKN11KTextEditor6CursorER7QString@Base 4:4.4.95
- _ZN8KateView12rangeDeletedEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN8KateView12rangeDeletedEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
  _ZN8KateView12setSelectionERKN11KTextEditor5RangeE@Base 4:4.4.95
  _ZN8KateView12setupActionsEv@Base 4:4.4.95
  _ZN8KateView12slotGotFocusEv@Base 4:4.4.95
@@ -907,7 +972,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN8KateView13hideViModeBarEv@Base 4:4.4.95
  _ZN8KateView13lineNumbersOnEv@Base 4:4.4.95
  _ZN8KateView13navigateRightEv@Base 4:4.4.95
- _ZN8KateView13relayoutRangeERKN11KTextEditor5RangeEb@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN8KateView13relayoutRangeERKN11KTextEditor5RangeEb@Base 4:4.4.95
  _ZN8KateView13setIconBorderEb@Base 4:4.4.95
  _ZN8KateView13shiftPageDownEv@Base 4:4.4.95
  _ZN8KateView13shiftWordLeftEv@Base 4:4.4.95
@@ -919,12 +984,14 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN8KateView14clearSelectionEv@Base 4:4.4.95
  _ZN8KateView14cursorSelectedERKN11KTextEditor6CursorE@Base 4:4.4.95
  _ZN8KateView14deleteWordLeftEv@Base 4:4.4.95
+ _ZN8KateView14hideRecoverBarEv@Base 4:4.5.86
  _ZN8KateView14navigateAcceptEv@Base 4:4.4.95
  _ZN8KateView14scrollBarMarksEv@Base 4:4.4.95
  _ZN8KateView14setConfigValueERK7QStringRK8QVariant@Base 4:4.4.95
  _ZN8KateView14setContextMenuEP5QMenu@Base 4:4.4.95
  _ZN8KateView14shiftTopOfViewEv@Base 4:4.4.95
  _ZN8KateView14shiftWordRightEv@Base 4:4.4.95
+ _ZN8KateView14showRecoverBarEv@Base 4:4.5.86
  _ZN8KateView14slotUpdateUndoEv@Base 4:4.4.95
  _ZN8KateView14toggleWWMarkerEv@Base 4:4.4.95
  _ZN8KateView14updateRangesInEN11KTextEditor9Attribute14ActivationTypeE@Base 4:4.4.95
@@ -955,6 +1022,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN8KateView16slotTextInsertedEPN11KTextEditor4ViewERKNS0_6CursorERK7QString@Base 4:4.4.95
  _ZN8KateView16staticMetaObjectE@Base 4:4.4.95
  _ZN8KateView16toggleIconBorderEv@Base 4:4.4.95
+ _ZN8KateView17brokenSwapFileBarEv@Base 4:4.5.86
  _ZN8KateView17completionAbortedEPN11KTextEditor4ViewE@Base 4:4.4.95
  _ZN8KateView17dynWrapIndicatorsEv@Base 4:4.4.95
  _ZN8KateView17readSessionConfigERK12KConfigGroup@Base 4:4.4.95
@@ -980,7 +1048,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN8KateView19toggleLineNumbersOnEv@Base 4:4.4.95
  _ZN8KateView19updateFoldingConfigEv@Base 4:4.4.95
  _ZN8KateView19updateViModeBarModeEv@Base 4:4.4.95
- _ZN8KateView20addExternalHighlightEPN11KTextEditor10SmartRangeEb@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN8KateView20addExternalHighlightEPN11KTextEditor10SmartRangeEb@Base 4:4.4.95
  _ZN8KateView20findSelectedForwardsEv@Base 4:4.4.95
  _ZN8KateView20setDynWrapIndicatorsEi@Base 4:4.4.95
  _ZN8KateView20slotReadWriteChangedEv@Base 4:4.4.95
@@ -992,18 +1060,20 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN8KateView21deactivateEditActionsEv@Base 4:4.4.95
  _ZN8KateView21findSelectedBackwardsEv@Base 4:4.4.95
  _ZN8KateView21getViInputModeManagerEv@Base 4:4.4.95
+ _ZN8KateView21hideBrokenSwapFileBarEv@Base 4:4.5.86
  _ZN8KateView21sendCompletionAbortedEv@Base 4:4.4.95
  _ZN8KateView21setBlockSelectionModeEb@Base 4:4.4.95
+ _ZN8KateView21showBrokenSwapFileBarEv@Base 4:4.5.86
  _ZN8KateView21userInvokedCompletionEv@Base 4:4.4.95
  _ZN8KateView22aboutToHideContextMenuEv@Base 4:4.4.95
  _ZN8KateView22aboutToShowContextMenuEv@Base 4:4.4.95
  _ZN8KateView22notifyAboutRangeChangeEiib@Base 4:4.4.95
  _ZN8KateView22sendCompletionExecutedERKN11KTextEditor6CursorEPNS0_19CodeCompletionModelERK11QModelIndex@Base 4:4.4.95
  _ZN8KateView22shiftToMatchingBracketEv@Base 4:4.4.95
- _ZN8KateView23clearExternalHighlightsEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN8KateView23clearExternalHighlightsEv@Base 4:4.4.95
  _ZN8KateView23ensureCursorColumnValidEv@Base 4:4.4.95
  _ZN8KateView23registerCompletionModelEPN11KTextEditor19CodeCompletionModelE@Base 4:4.4.95
- _ZN8KateView23removeExternalHighlightEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZN8KateView23removeExternalHighlightEPN11KTextEditor10SmartRangeE@Base 4:4.4.95
  _ZN8KateView23setCursorPositionVisualERKN11KTextEditor6CursorE@Base 4:4.4.95
  _ZN8KateView23setMouseTrackingEnabledEb@Base 4:4.4.95
  _ZN8KateView23slotDelayedUpdateOfViewEv@Base 4:4.4.95
@@ -1057,6 +1127,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN8KateView8wordLeftEv@Base 4:4.4.95
  _ZN8KateView9backspaceEv@Base 4:4.4.95
  _ZN8KateView9editStartEv@Base 4:4.4.95
+ _ZN8KateView9insertTabEv@Base 4:4.5.86
  _ZN8KateView9joinLinesEv@Base 4:4.4.95
  _ZN8KateView9keyDeleteEv@Base 4:4.4.95
  _ZN8KateView9keyReturnEv@Base 4:4.4.95
@@ -1101,17 +1172,17 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZNK12KateDocument11modeSectionEi@Base 4:4.4.95
  _ZNK12KateDocument11numVisLinesEv@Base 4:4.4.95
  _ZNK12KateDocument11rangeOnLineEN11KTextEditor5RangeEi@Base 4:4.4.95
- _ZNK12KateDocument11viewActionsEPN11KTextEditor4ViewE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK12KateDocument11viewActionsEPN11KTextEditor4ViewE@Base 4:4.4.95
  _ZNK12KateDocument12defaultStyleEN11KTextEditor18HighlightInterface12DefaultStyleE@Base 4:4.4.95
  _ZNK12KateDocument13editableMarksEv@Base 4:4.4.95
  _ZNK12KateDocument13isEditRunningEv@Base 4:4.4.95
  _ZNK12KateDocument14activeKateViewEv@Base 4:4.4.95
- _ZNK12KateDocument14viewHighlightsEPN11KTextEditor4ViewE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK12KateDocument14viewHighlightsEPN11KTextEditor4ViewE@Base 4:4.4.95
  _ZNK12KateDocument15annotationModelEv@Base 4:4.4.95
- _ZNK12KateDocument15currentRevisionEv@Base 4:4.4.95
- _ZNK12KateDocument15documentActionsEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK12KateDocument15currentRevisionEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK12KateDocument15documentActionsEv@Base 4:4.4.95
  _ZNK12KateDocument15markDescriptionEN11KTextEditor13MarkInterface9MarkTypesE@Base 4:4.4.95
- _ZNK12KateDocument15releaseRevisionEi@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK12KateDocument15releaseRevisionEi@Base 4:4.4.95
  _ZNK12KateDocument15totalCharactersEv@Base 4:4.4.95
  _ZNK12KateDocument16dictionaryRangesEv@Base 4:4.4.95
  _ZNK12KateDocument16highlightingModeEv@Base 4:4.4.95
@@ -1119,12 +1190,13 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZNK12KateDocument17highlightingModesEv@Base 4:4.4.95
  _ZNK12KateDocument17lastSavedRevisionEv@Base 4:4.4.95
  _ZNK12KateDocument17reasonedMOHStringEv@Base 4:4.4.95
- _ZNK12KateDocument18documentHighlightsEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK12KateDocument18documentHighlightsEv@Base 4:4.4.95
  _ZNK12KateDocument21pageUpDownMovesCursorEv@Base 4:4.4.95
- _ZNK12KateDocument21translateFromRevisionERKN11KTextEditor5RangeE6QFlagsINS0_10SmartRange14InsertBehaviorEE@Base 4:4.4.95
- _ZNK12KateDocument21translateFromRevisionERKN11KTextEditor6CursorENS0_11SmartCursor14InsertBehaviorE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK12KateDocument21translateFromRevisionERKN11KTextEditor5RangeE6QFlagsINS0_10SmartRange14InsertBehaviorEE@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK12KateDocument21translateFromRevisionERKN11KTextEditor6CursorENS0_11SmartCursor14InsertBehaviorE@Base 4:4.4.95
  _ZNK12KateDocument22supportedSearchOptionsEv@Base 4:4.4.95
  _ZNK12KateDocument23highlightingModeSectionEi@Base 4:4.4.95
+ _ZNK12KateDocument23isDataRecoveryAvailableEv@Base 4:4.5.86
  _ZNK12KateDocument25embeddedHighlightingModesEv@Base 4:4.4.95
  _ZNK12KateDocument28dictionaryForMisspelledRangeERKN11KTextEditor5RangeE@Base 4:4.4.95
  _ZNK12KateDocument30isOnTheFlySpellCheckingEnabledEv@Base 4:4.4.95
@@ -1162,6 +1234,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZNK14KateViewConfig11viInputModeEv@Base 4:4.4.95
  _ZNK14KateViewConfig12bookmarkSortEv@Base 4:4.4.95
  _ZNK14KateViewConfig12smartCopyCutEv@Base 4:4.4.95
+ _ZNK14KateViewConfig13allowMarkMenuEv@Base 4:4.5.86
  _ZNK14KateViewConfig13scrollPastEndEv@Base 4:4.4.95
  _ZNK14KateViewConfig14maxHistorySizeEv@Base 4:4.4.95
  _ZNK14KateViewConfig14scrollBarMarksEv@Base 4:4.4.95
@@ -1181,26 +1254,40 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZNK15KateUndoManager9undoCountEv@Base 4:4.4.95
  _ZNK16KateGlobalConfig13fallbackCodecEv@Base 4:4.4.95
  _ZNK16KateGlobalConfig16fallbackEncodingEv@Base 4:4.4.95
+ _ZNK18KateDocumentConfig10showSpacesEv@Base 4:4.5.86
  _ZNK18KateDocumentConfig10wordWrapAtEv@Base 4:4.4.95
+ _ZNK18KateDocumentConfig10wrapCursorEv@Base 4:4.5.86
  _ZNK18KateDocumentConfig11backupFlagsEv@Base 4:4.4.95
- _ZNK18KateDocumentConfig11configFlagsEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK18KateDocumentConfig11configFlagsEv@Base 4:4.4.95
  _ZNK18KateDocumentConfig11tabHandlingEv@Base 4:4.4.95
+ _ZNK18KateDocumentConfig12autoBracketsEv@Base 4:4.5.86
  _ZNK18KateDocumentConfig12backupPrefixEv@Base 4:4.4.95
  _ZNK18KateDocumentConfig12backupSuffixEv@Base 4:4.4.95
+ _ZNK18KateDocumentConfig12removeSpacesEv@Base 4:4.5.86
  _ZNK18KateDocumentConfig13isSetEncodingEv@Base 4:4.4.95
+ _ZNK18KateDocumentConfig14replaceTabsDynEv@Base 4:4.5.86
+ _ZNK18KateDocumentConfig14swapFileNoSyncEv@Base 4:4.5.86
  _ZNK18KateDocumentConfig15allowSimpleModeEv@Base 4:4.4.95
  _ZNK18KateDocumentConfig15indentationModeEv@Base 4:4.4.95
+ _ZNK18KateDocumentConfig15keepExtraSpacesEv@Base 4:4.5.86
+ _ZNK18KateDocumentConfig16backspaceIndentsEv@Base 4:4.5.86
+ _ZNK18KateDocumentConfig16indentPastedTextEv@Base 4:4.5.86
  _ZNK18KateDocumentConfig16indentationWidthEv@Base 4:4.4.95
  _ZNK18KateDocumentConfig17allowEolDetectionEv@Base 4:4.4.95
+ _ZNK18KateDocumentConfig17removeTrailingDynEv@Base 4:4.5.86
+ _ZNK18KateDocumentConfig17tabIndentsEnabledEv@Base 4:4.5.86
  _ZNK18KateDocumentConfig18onTheFlySpellCheckEv@Base 4:4.4.95
  _ZNK18KateDocumentConfig20searchDirConfigDepthEv@Base 4:4.4.95
  _ZNK18KateDocumentConfig21pageUpDownMovesCursorEv@Base 4:4.4.95
  _ZNK18KateDocumentConfig3bomEv@Base 4:4.4.95
  _ZNK18KateDocumentConfig3eolEv@Base 4:4.4.95
+ _ZNK18KateDocumentConfig3ovrEv@Base 4:4.5.86
  _ZNK18KateDocumentConfig5codecEv@Base 4:4.4.95
  _ZNK18KateDocumentConfig8encodingEv@Base 4:4.4.95
+ _ZNK18KateDocumentConfig8showTabsEv@Base 4:4.5.86
  _ZNK18KateDocumentConfig8tabWidthEv@Base 4:4.4.95
  _ZNK18KateDocumentConfig8wordWrapEv@Base 4:4.4.95
+ _ZNK18KateDocumentConfig9smartHomeEv@Base 4:4.5.86
  _ZNK18KateScriptDocument10metaObjectEv@Base 4:4.4.95
  _ZNK19KateCodeFoldingTree10metaObjectEv@Base 4:4.4.95
  _ZNK19KateCompletionModel10metaObjectEv@Base 4:4.4.95
@@ -1297,6 +1384,8 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZNK4Kate12TextLineData8lastCharEv@Base 4:4.4.95
  _ZNK4Kate12TextLineData9firstCharEv@Base 4:4.4.95
  _ZNK4Kate12TextLineData9matchesAtEiRK7QString@Base 4:4.4.95
+ _ZNK4Kate8SwapFile10metaObjectEv@Base 4:4.5.86
+ _ZNK4Kate8SwapFile13shouldRecoverEv@Base 4:4.5.86
  _ZNK4Kate9TextBlock10debugPrintEi@Base 4:4.4.95
  _ZNK4Kate9TextBlock4lineEi@Base 4:4.4.95
  _ZNK4Kate9TextBlock4textER7QString@Base 4:4.4.95
@@ -1308,9 +1397,11 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZNK7KateCmd8commandsEv@Base 4:4.4.95
  _ZNK8KateView10configKeysEv@Base 4:4.4.95
  _ZNK8KateView10metaObjectEv@Base 4:4.4.95
+ _ZNK8KateView10topViewBarEv@Base 4:4.5.86
  _ZNK8KateView10wrapCursorEv@Base 4:4.4.95
  _ZNK8KateView11contextMenuEv@Base 4:4.4.95
  _ZNK8KateView11viInputModeEv@Base 4:4.4.95
+ _ZNK8KateView13bottomViewBarEv@Base 4:4.5.86
  _ZNK8KateView13selectionTextEv@Base 4:4.4.95
  _ZNK8KateView14cursorPositionEv@Base 4:4.4.95
  _ZNK8KateView14selectionRangeEv@Base 4:4.4.95
@@ -1321,7 +1412,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZNK8KateView18blockSelectionModeEv@Base 4:4.4.95
  _ZNK8KateView18cursorToCoordinateERKN11KTextEditor6CursorE@Base 4:4.4.95
  _ZNK8KateView18defaultContextMenuEP5QMenu@Base 4:4.4.95
- _ZNK8KateView18externalHighlightsEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK8KateView18externalHighlightsEv@Base 4:4.4.95
  _ZNK8KateView18isCompletionActiveEv@Base 4:4.4.95
  _ZNK8KateView19coordinatesToCursorERK6QPoint@Base 4:4.4.95
  _ZNK8KateView19virtualCursorColumnEv@Base 4:4.4.95
@@ -1333,7 +1424,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZNK8KateView28isAutomaticInvocationEnabledEv@Base 4:4.4.95
  _ZNK8KateView4copyEv@Base 4:4.4.95
  _ZNK8KateView6getEolEv@Base 4:4.4.95
- _ZNK8KateView7viewBarEv@Base 4:4.4.95
+#MISSING: 4:4.5.86# _ZNK8KateView7viewBarEv@Base 4:4.4.95
  _ZNK8KateView8documentEv@Base 4:4.4.95
  _ZNK8KateView8viewModeEv@Base 4:4.4.95
  _ZNK8KateView9selectionEv@Base 4:4.4.95
@@ -1359,6 +1450,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZTIN11KTextEditor7CommandE@Base 4:4.4.95
  _ZTIN4Kate10TextBufferE@Base 4:4.4.95
  _ZTIN4Kate10TextCursorE@Base 4:4.4.95
+ _ZTIN4Kate8SwapFileE@Base 4:4.5.86
  _ZTIN4Kate9TextRangeE@Base 4:4.4.95
  _ZTS10KateBuffer@Base 4:4.4.95
  _ZTS10KateGlobal@Base 4:4.4.95
@@ -1382,6 +1474,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZTSN11KTextEditor7CommandE@Base 4:4.4.95
  _ZTSN4Kate10TextBufferE@Base 4:4.4.95
  _ZTSN4Kate10TextCursorE@Base 4:4.4.95
+ _ZTSN4Kate8SwapFileE@Base 4:4.5.86
  _ZTSN4Kate9TextRangeE@Base 4:4.4.95
  _ZTT12KateDocument@Base 4:4.4.95
  _ZTV10KateBuffer@Base 4:4.4.95
@@ -1406,6 +1499,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZTVN11KTextEditor7CommandE@Base 4:4.4.95
  _ZTVN4Kate10TextBufferE@Base 4:4.4.95
  _ZTVN4Kate10TextCursorE@Base 4:4.4.95
+ _ZTVN4Kate8SwapFileE@Base 4:4.5.86
  _ZTVN4Kate9TextRangeE@Base 4:4.4.95
  (c++)"construction vtable for KParts::Part-in-KateDocument@Base" 4:4.4.95
  (c++)"construction vtable for KParts::PartBase-in-KateDocument@Base" 4:4.4.95
@@ -1413,32 +1507,34 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  (c++)"construction vtable for KParts::ReadWritePart-in-KateDocument@Base" 4:4.4.95
  (c++)"construction vtable for KTextEditor::Document-in-KateDocument@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateCompletionWidget::~KateCompletionWidget()@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::addActionsToDocument(KTextEditor::SmartRange*)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::addActionsToView(KTextEditor::View*, KTextEditor::SmartRange*)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::addHighlightToDocument(KTextEditor::SmartRange*, bool)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::addHighlightToView(KTextEditor::View*, KTextEditor::SmartRange*, bool)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::addActionsToDocument(KTextEditor::SmartRange*)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::addActionsToView(KTextEditor::View*, KTextEditor::SmartRange*)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::addHighlightToDocument(KTextEditor::SmartRange*, bool)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::addHighlightToView(KTextEditor::View*, KTextEditor::SmartRange*, bool)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::addMark(int, unsigned int)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::annotationModel() const@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::attributeDynamic(KSharedPtr<KTextEditor::Attribute>)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::attributeNotDynamic(KSharedPtr<KTextEditor::Attribute>)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::clearDocumentActions()@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::clearDocumentHighlights()@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::attributeDynamic(KSharedPtr<KTextEditor::Attribute>)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::attributeNotDynamic(KSharedPtr<KTextEditor::Attribute>)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::clearDocumentActions()@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::clearDocumentHighlights()@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::clearMark(int)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::clearMarks()@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::clearSmartInterface()@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::clearViewActions(KTextEditor::View*)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::clearViewHighlights(KTextEditor::View*)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::clearSmartInterface()@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::clearViewActions(KTextEditor::View*)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::clearViewHighlights(KTextEditor::View*)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::configKeys() const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::configValue(QString const&)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::currentRevision() const@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::currentRevision() const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::defaultStyle(KTextEditor::HighlightInterface::DefaultStyle) const@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::deleteCursors()@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::deleteRanges()@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::documentActions() const@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::documentHighlights() const@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::deleteCursors()@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::deleteRanges()@Base" 4:4.4.95
+ (c++)"non-virtual thunk to KateDocument::discardDataRecovery()@Base" 4:4.5.86
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::documentActions() const@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::documentHighlights() const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::editableMarks() const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::embeddedHighlightingModes() const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::highlightingModeAt(KTextEditor::Cursor const&)@Base" 4:4.4.95
+ (c++)"non-virtual thunk to KateDocument::isDataRecoveryAvailable() const@Base" 4:4.5.86
  (c++)"non-virtual thunk to KateDocument::lastSavedRevision() const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::lineAttributes(unsigned int)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::lockRevision(long long)@Base" 4:4.4.95
@@ -1451,19 +1547,20 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  (c++)"non-virtual thunk to KateDocument::modifiedOnDisk(KTextEditor::Document*, bool, KTextEditor::ModificationInterface::ModifiedOnDiskReason)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::newMovingCursor(KTextEditor::Cursor const&, KTextEditor::MovingCursor::InsertBehavior)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::newMovingRange(KTextEditor::Range const&, QFlags<KTextEditor::MovingRange::InsertBehavior>, KTextEditor::MovingRange::EmptyBehavior)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::newSmartCursor(KTextEditor::Cursor const&, KTextEditor::SmartCursor::InsertBehavior)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::newSmartRange(KTextEditor::Range const&, KTextEditor::SmartRange*, QFlags<KTextEditor::SmartRange::InsertBehavior>)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::newSmartRange(KTextEditor::SmartCursor*, KTextEditor::SmartCursor*, KTextEditor::SmartRange*, QFlags<KTextEditor::SmartRange::InsertBehavior>)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::rangeDeleted(KTextEditor::SmartRange*)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::newSmartCursor(KTextEditor::Cursor const&, KTextEditor::SmartCursor::InsertBehavior)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::newSmartRange(KTextEditor::Range const&, KTextEditor::SmartRange*, QFlags<KTextEditor::SmartRange::InsertBehavior>)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::newSmartRange(KTextEditor::SmartCursor*, KTextEditor::SmartCursor*, KTextEditor::SmartRange*, QFlags<KTextEditor::SmartRange::InsertBehavior>)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::rangeDeleted(KTextEditor::SmartRange*)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::rangeEmpty(KTextEditor::MovingRange*)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::rangeInvalid(KTextEditor::MovingRange*)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::readParameterizedSessionConfig(KConfigGroup const&, unsigned long)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::readSessionConfig(KConfigGroup const&)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::releaseRevision(int) const@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::removeActionsFromDocument(KTextEditor::SmartRange*)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::removeActionsFromView(KTextEditor::View*, KTextEditor::SmartRange*)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::removeHighlightFromDocument(KTextEditor::SmartRange*)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::removeHighlightFromView(KTextEditor::View*, KTextEditor::SmartRange*)@Base" 4:4.4.95
+ (c++)"non-virtual thunk to KateDocument::recoverData()@Base" 4:4.5.86
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::releaseRevision(int) const@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::removeActionsFromDocument(KTextEditor::SmartRange*)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::removeActionsFromView(KTextEditor::View*, KTextEditor::SmartRange*)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::removeHighlightFromDocument(KTextEditor::SmartRange*)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::removeHighlightFromView(KTextEditor::View*, KTextEditor::SmartRange*)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::removeMark(int, unsigned int)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::revision() const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::searchText(KTextEditor::Range const&, QString const&, QFlags<KTextEditor::Search::SearchOptionsEnum>)@Base" 4:4.4.95
@@ -1480,15 +1577,15 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  (c++)"non-virtual thunk to KateDocument::transformCursor(KTextEditor::Cursor&, KTextEditor::MovingCursor::InsertBehavior, long long, long long)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::transformCursor(int&, int&, KTextEditor::MovingCursor::InsertBehavior, long long, long long)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::transformRange(KTextEditor::Range&, QFlags<KTextEditor::MovingRange::InsertBehavior>, KTextEditor::MovingRange::EmptyBehavior, long long, long long)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::translateFromRevision(KTextEditor::Cursor const&, KTextEditor::SmartCursor::InsertBehavior) const@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::translateFromRevision(KTextEditor::Range const&, QFlags<KTextEditor::SmartRange::InsertBehavior>) const@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::unbindSmartRange(KTextEditor::SmartRange*)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::translateFromRevision(KTextEditor::Cursor const&, KTextEditor::SmartCursor::InsertBehavior) const@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::translateFromRevision(KTextEditor::Range const&, QFlags<KTextEditor::SmartRange::InsertBehavior>) const@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::unbindSmartRange(KTextEditor::SmartRange*)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::unlockRevision(long long)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::useRevision(int)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::useRevision(int)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::variable(QString const&) const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::variableChanged(KTextEditor::Document*, QString const&, QString const&)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::viewActions(KTextEditor::View*) const@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateDocument::viewHighlights(KTextEditor::View*) const@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::viewActions(KTextEditor::View*) const@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateDocument::viewHighlights(KTextEditor::View*) const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::writeParameterizedSessionConfig(KConfigGroup&, unsigned long)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::writeSessionConfig(KConfigGroup&)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateDocument::~KateDocument()@Base" 4:4.4.95
@@ -1520,7 +1617,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  (c++)"non-virtual thunk to KateView::isAutomaticInvocationEnabled() const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateView::isCompletionActive() const@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateView::needTextHint(KTextEditor::Cursor const&, QString&)@Base" 4:4.4.95
- (c++)"non-virtual thunk to KateView::rangeDeleted(KTextEditor::SmartRange*)@Base" 4:4.4.95
+#MISSING: 4:4.5.86# (c++)"non-virtual thunk to KateView::rangeDeleted(KTextEditor::SmartRange*)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateView::readSessionConfig(KConfigGroup const&)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateView::registerCompletionModel(KTextEditor::CodeCompletionModel*)@Base" 4:4.4.95
  (c++)"non-virtual thunk to KateView::setAnnotationBorderVisible(bool)@Base" 4:4.4.95

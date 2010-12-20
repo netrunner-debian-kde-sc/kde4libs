@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.85 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -3051,8 +3051,9 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK14KLocalizedDate10daysInWeekEv@Base 4:4.5.85
  _ZNK14KLocalizedDate10daysInYearEv@Base 4:4.5.85
  _ZNK14KLocalizedDate10formatDateEN7KLocale10DateFormatE@Base 4:4.5.85
+ _ZNK14KLocalizedDate10formatDateEN7KLocale17DateTimeComponentENS0_23DateTimeComponentFormatENS0_16WeekNumberSystemE@Base 4:4.5.86
  _ZNK14KLocalizedDate10formatDateERK7QStringN7KLocale22DateTimeFormatStandardE@Base 4:4.5.85
- _ZNK14KLocalizedDate10formatWeekEN7KLocale16WeekNumberSystemENS0_23DateTimeComponentFormatE@Base 4:4.5.85
+#MISSING: 4:4.5.86# _ZNK14KLocalizedDate10formatWeekEN7KLocale16WeekNumberSystemENS0_23DateTimeComponentFormatE@Base 4:4.5.85
  _ZNK14KLocalizedDate10isLeapYearEv@Base 4:4.5.85
  _ZNK14KLocalizedDate11daysInMonthEv@Base 4:4.5.85
  _ZNK14KLocalizedDate11toJulianDayEv@Base 4:4.5.85
@@ -3071,8 +3072,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK14KLocalizedDate15yearsDifferenceERKS_@Base 4:4.5.85
  _ZNK14KLocalizedDate16monthsDifferenceERK5QDate@Base 4:4.5.85
  _ZNK14KLocalizedDate16monthsDifferenceERKS_@Base 4:4.5.85
- _ZNK14KLocalizedDate17formatWeeksInYearEN7KLocale16WeekNumberSystemENS0_23DateTimeComponentFormatE@Base 4:4.5.85
- _ZNK14KLocalizedDate19formatDateComponentEN7KLocale17DateTimeComponentENS0_23DateTimeComponentFormatE@Base 4:4.5.85
+#MISSING: 4:4.5.86# _ZNK14KLocalizedDate17formatWeeksInYearEN7KLocale16WeekNumberSystemENS0_23DateTimeComponentFormatE@Base 4:4.5.85
+#MISSING: 4:4.5.86# _ZNK14KLocalizedDate19formatDateComponentEN7KLocale17DateTimeComponentENS0_23DateTimeComponentFormatE@Base 4:4.5.85
  _ZNK14KLocalizedDate3dayEv@Base 4:4.5.85
  _ZNK14KLocalizedDate4dateEv@Base 4:4.5.85
  _ZNK14KLocalizedDate4weekEN7KLocale16WeekNumberSystemEPi@Base 4:4.5.85
@@ -3122,6 +3123,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK15KCalendarSystem10daysInYearERK5QDate@Base 4:4.3.4
  _ZNK15KCalendarSystem10daysInYearEi@Base 4:4.4.95
  _ZNK15KCalendarSystem10formatDateERK5QDateN7KLocale10DateFormatE@Base 4:4.3.4
+ _ZNK15KCalendarSystem10formatDateERK5QDateN7KLocale17DateTimeComponentENS3_23DateTimeComponentFormatENS3_16WeekNumberSystemE@Base 4:4.5.86
  _ZNK15KCalendarSystem10formatDateERK5QDateRK7QStringN7KLocale22DateTimeFormatStandardE@Base 4:4.4.0
  _ZNK15KCalendarSystem10formatDateERK5QDateRK7QStringN7KLocale8DigitSetENS6_22DateTimeFormatStandardE@Base 4:4.4.0
  _ZNK15KCalendarSystem10isLeapYearERK5QDate@Base 4:4.3.4
@@ -3167,7 +3169,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK15KCalendarSystem18dayStringToIntegerERK7QStringRi@Base 4:4.3.4
  _ZNK15KCalendarSystem18isValidIsoWeekDateEiii@Base 4:4.4.0
  _ZNK15KCalendarSystem18monthsInYearStringERK5QDateNS_12StringFormatE@Base 4:4.4.0
- _ZNK15KCalendarSystem19formatDateComponentERK5QDateN7KLocale17DateTimeComponentENS3_23DateTimeComponentFormatE@Base 4:4.5.85
+#MISSING: 4:4.5.86# _ZNK15KCalendarSystem19formatDateComponentERK5QDateN7KLocale17DateTimeComponentENS3_23DateTimeComponentFormatE@Base 4:4.5.85
  _ZNK15KCalendarSystem19yearStringToIntegerERK7QStringRi@Base 4:4.3.4
  _ZNK15KCalendarSystem20applyShortYearWindowEi@Base 4:4.5.85
  _ZNK15KCalendarSystem20monthStringToIntegerERK7QStringRi@Base 4:4.3.4

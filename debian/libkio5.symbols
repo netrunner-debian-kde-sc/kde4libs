@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.85 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -652,7 +652,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN16KBookmarkManager22bookmarkCompleteChangeE7QString@Base 4:4.3.4
  _ZN16KBookmarkManager22managerForExternalFileERK7QString@Base 4:4.3.4
  _ZN16KBookmarkManager26slotEditBookmarksAtAddressERK7QString@Base 4:4.3.4
+ _ZN16KBookmarkManager27setAutoErrorHandlingEnabledEbP7QWidget@Base 4:4.5.86
  _ZN16KBookmarkManager4initERK7QString@Base 4:4.3.4
+ _ZN16KBookmarkManager5errorERK7QString@Base 4:4.5.86
  _ZN16KBookmarkManager7changedERK7QStringS2_@Base 4:4.3.4
  _ZN16KBookmarkManager7toolbarEv@Base 4:4.3.4
  _ZN16KBookmarkManager9setUpdateEb@Base 4:4.3.4
@@ -2641,6 +2643,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK15KSSLCertificate9getKDEKeyEv@Base 4:4.3.4
  _ZNK16KBookmarkManager10metaObjectEv@Base 4:4.3.4
  _ZNK16KBookmarkManager16internalDocumentEv@Base 4:4.3.4
+ _ZNK16KBookmarkManager24autoErrorHandlingEnabledEv@Base 4:4.5.86
  _ZNK16KBookmarkManager4pathEv@Base 4:4.3.4
  _ZNK16KBookmarkManager4rootEv@Base 4:4.3.4
  _ZNK16KBookmarkManager4saveEb@Base 4:4.3.4

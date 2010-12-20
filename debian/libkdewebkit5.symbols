@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libkdewebkit.so.5 libkdewebkit5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KWebWallet11fillWebFormERK4KUrlRK5QListINS_7WebFormEE@Base 4:4.4.0
@@ -41,6 +41,7 @@ libkdewebkit.so.5 libkdewebkit5 #MINVER#
  _ZN16KGraphicsWebView23linkMiddleOrCtrlClickedERK4KUrl@Base 4:4.4.0
  _ZN16KGraphicsWebView23setAllowExternalContentEb@Base 4:4.4.0
  _ZN16KGraphicsWebView27selectionClipboardUrlPastedERK4KUrl@Base 4:4.4.0
+ _ZN16KGraphicsWebView27selectionClipboardUrlPastedERK4KUrlRK7QString@Base 4:4.5.86
  _ZN16KGraphicsWebViewC1EP13QGraphicsItemb@Base 4:4.4.0
  _ZN16KGraphicsWebViewC2EP13QGraphicsItemb@Base 4:4.4.0
  _ZN16KGraphicsWebViewD0Ev@Base 4:4.4.0
@@ -83,6 +84,7 @@ libkdewebkit.so.5 libkdewebkit5 #MINVER#
  _ZN8KWebView23linkMiddleOrCtrlClickedERK4KUrl@Base 4:4.4.0
  _ZN8KWebView23setAllowExternalContentEb@Base 4:4.4.0
  _ZN8KWebView27selectionClipboardUrlPastedERK4KUrl@Base 4:4.4.0
+ _ZN8KWebView27selectionClipboardUrlPastedERK4KUrlRK7QString@Base 4:4.5.86
  _ZN8KWebViewC1EP7QWidgetb@Base 4:4.4.0
  _ZN8KWebViewC2EP7QWidgetb@Base 4:4.4.0
  _ZN8KWebViewD0Ev@Base 4:4.4.0
