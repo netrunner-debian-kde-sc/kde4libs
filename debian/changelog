@@ -44,7 +44,7 @@ kde4libs (4:4.5.90-0r1) UNRELEASED; urgency=low
       - Qt to 4:4.7.0~rc1.
       - libattica to 0.1.90.
       - soprano to 2.5.60.
-      - polkit-qt-1 to 0.98.1.
+      - polkit-qt-1 to 0.99.0.
       - shared-desktop-ontologies to 0.5.
     - Add build dependencies on:
       - libudev-dev
