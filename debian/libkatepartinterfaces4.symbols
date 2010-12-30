@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.86 amd64
+# SymbolsHelper-Confirmed: 4:4.5.90 amd64
 libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KateBuffer10unwrapLineEi@Base 4:4.4.95
@@ -696,6 +696,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN19KateCompletionModel19setFilterAttributesE6QFlagsIN11KTextEditor19CodeCompletionModel18CompletionPropertyEE@Base 4:4.4.95
  _ZN19KateCompletionModel19setFilteringEnabledEb@Base 4:4.4.95
  _ZN19KateCompletionModel20argumentHintsChangedEv@Base 4:4.4.95
+ _ZN19KateCompletionModel20makeGroupItemsUniqueEb@Base 4:4.5.90
  _ZN19KateCompletionModel20setCurrentCompletionEPN11KTextEditor19CodeCompletionModelERK7QString@Base 4:4.4.95
  _ZN19KateCompletionModel20setFilterByAttributeEb@Base 4:4.4.95
  _ZN19KateCompletionModel21clearCompletionModelsEv@Base 4:4.4.95
@@ -1158,6 +1159,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZNK10KateGlobal18configPageFullNameEi@Base 4:4.4.95
  _ZNK10KateGlobal21configDialogSupportedEv@Base 4:4.4.95
  _ZNK10KateGlobal8commandsEv@Base 4:4.4.95
+ _ZNK11KTextEditor39CodeCompletionModelControllerInterface429shouldHideItemsWithEqualNamesEv@Base 4:4.5.90
  (optional=templinst)_ZNK12KConfigGroup9readCheckI6QColorEET_PKcRKS2_@Base 4:4.4.95
  (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.4.95
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_RK7QStringRKS2_@Base 4:4.4.95
@@ -1447,6 +1449,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZTIN11KTextEditor16CommandInterfaceE@Base 4:4.4.95
  _ZTIN11KTextEditor19AnnotationInterfaceE@Base 4:4.4.95
  _ZTIN11KTextEditor23AnnotationViewInterfaceE@Base 4:4.4.95
+ _ZTIN11KTextEditor39CodeCompletionModelControllerInterface4E@Base 4:4.5.90
  _ZTIN11KTextEditor7CommandE@Base 4:4.4.95
  _ZTIN4Kate10TextBufferE@Base 4:4.4.95
  _ZTIN4Kate10TextCursorE@Base 4:4.4.95
@@ -1471,6 +1474,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZTSN11KTextEditor16CommandInterfaceE@Base 4:4.4.95
  _ZTSN11KTextEditor19AnnotationInterfaceE@Base 4:4.4.95
  _ZTSN11KTextEditor23AnnotationViewInterfaceE@Base 4:4.4.95
+ _ZTSN11KTextEditor39CodeCompletionModelControllerInterface4E@Base 4:4.5.90
  _ZTSN11KTextEditor7CommandE@Base 4:4.4.95
  _ZTSN4Kate10TextBufferE@Base 4:4.4.95
  _ZTSN4Kate10TextCursorE@Base 4:4.4.95
@@ -1496,6 +1500,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZTVN11KTextEditor16CommandInterfaceE@Base 4:4.4.95
  _ZTVN11KTextEditor19AnnotationInterfaceE@Base 4:4.4.95
  _ZTVN11KTextEditor23AnnotationViewInterfaceE@Base 4:4.4.95
+ _ZTVN11KTextEditor39CodeCompletionModelControllerInterface4E@Base 4:4.5.90
  _ZTVN11KTextEditor7CommandE@Base 4:4.4.95
  _ZTVN4Kate10TextBufferE@Base 4:4.4.95
  _ZTVN4Kate10TextCursorE@Base 4:4.4.95

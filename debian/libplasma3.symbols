@@ -1,6 +1,7 @@
-# SymbolsHelper-Confirmed: 4:4.5.86 amd64
+# SymbolsHelper-Confirmed: 4:4.5.90 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.5.90
  _ZN5Jolie11MetaService11loadServiceERK7QStringS3_@Base 4:4.4.4-2~
  _ZN5Jolie11MetaService13unloadServiceERK7QString@Base 4:4.4.4-2~
  _ZN5Jolie11MetaService14addRedirectionERK7QStringS3_RKNS_5ValueES6_@Base 4:4.4.4-2~
@@ -102,6 +103,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma10BusyWidget11resizeEventEP25QGraphicsSceneResizeEvent@Base 4:4.4.4-2~
  _ZN6Plasma10BusyWidget15mousePressEventEP24QGraphicsSceneMouseEvent@Base 4:4.4.4-2~
  _ZN6Plasma10BusyWidget16staticMetaObjectE@Base 4:4.4.4-2~
+ _ZN6Plasma10BusyWidget17mouseReleaseEventEP24QGraphicsSceneMouseEvent@Base 4:4.5.90
  _ZN6Plasma10BusyWidget5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.4.4-2~
  _ZN6Plasma10BusyWidget7clickedEv@Base 4:4.4.4-2~
  _ZN6Plasma10BusyWidget8setLabelERK7QString@Base 4:4.4.4-2~
@@ -376,6 +378,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma11ContainmentD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma11ContainmentD2Ev@Base 4:4.4.4-2~
  _ZN6Plasma11PopupApplet10popupEventEb@Base 4:4.4.4-2~
+ _ZN6Plasma11PopupApplet10timerEventEP11QTimerEvent@Base 4:4.5.90
  _ZN6Plasma11PopupApplet11eventFilterEP7QObjectP6QEvent@Base 4:4.4.4-2~
  _ZN6Plasma11PopupApplet11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma11PopupApplet11qt_metacastEPKc@Base 4:4.4.4-2~
@@ -1941,6 +1944,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9ScrollBar11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma9ScrollBar11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma9ScrollBar11setPageStepEi@Base 4:4.4.4-2~
+ _ZN6Plasma9ScrollBar11sliderMovedEi@Base 4:4.5.90
  _ZN6Plasma9ScrollBar12valueChangedEi@Base 4:4.4.4-2~
  _ZN6Plasma9ScrollBar13setSingleStepEi@Base 4:4.4.4-2~
  _ZN6Plasma9ScrollBar13setStyleSheetERK7QString@Base 4:4.4.4-2~
@@ -2972,6 +2976,7 @@ libplasma.so.3 libplasma3 #MINVER#
  (c++)"non-virtual thunk to Plasma::Applet::type() const@Base" 4:4.4.4-2~
  (c++)"non-virtual thunk to Plasma::Applet::~Applet()@Base" 4:4.4.4-2~
  (c++)"non-virtual thunk to Plasma::BusyWidget::mousePressEvent(QGraphicsSceneMouseEvent*)@Base" 4:4.4.4-2~
+ (c++)"non-virtual thunk to Plasma::BusyWidget::mouseReleaseEvent(QGraphicsSceneMouseEvent*)@Base" 4:4.5.90
  (c++)"non-virtual thunk to Plasma::BusyWidget::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@Base" 4:4.4.4-2~
  (c++)"non-virtual thunk to Plasma::BusyWidget::~BusyWidget()@Base" 4:4.4.4-2~
  (c++)"non-virtual thunk to Plasma::CheckBox::~CheckBox()@Base" 4:4.4.4-2~
