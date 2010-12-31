@@ -1453,6 +1453,7 @@ usr/include/krandom.h
 usr/include/krandomsequence.h
 usr/include/kratingpainter.h
 usr/include/kratingwidget.h
+usr/include/krecentdirs.h
 usr/include/krecentdocument.h
 usr/include/krecentfilesaction.h
 usr/include/krecursivefilterproxymodel.h

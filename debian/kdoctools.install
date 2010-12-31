@@ -426,6 +426,7 @@ usr/share/kde4/apps/ksgmltools2/customization/lt/entities/underArtisticLicense.d
 usr/share/kde4/apps/ksgmltools2/customization/lt/entities/underBSDLicense.docbook
 usr/share/kde4/apps/ksgmltools2/customization/lt/entities/underFDL.docbook
 usr/share/kde4/apps/ksgmltools2/customization/lt/entities/underGPL.docbook
+usr/share/kde4/apps/ksgmltools2/customization/lt/entities/underLGPL.docbook
 usr/share/kde4/apps/ksgmltools2/customization/lt/entities/underX11License.docbook
 usr/share/kde4/apps/ksgmltools2/customization/lt/entities/update-doc.docbook
 usr/share/kde4/apps/ksgmltools2/customization/lt/lang.entities
@@ -805,6 +806,7 @@ usr/share/kde4/apps/ksgmltools2/customization/xh/entities/update-doc.docbook
 usr/share/kde4/apps/ksgmltools2/customization/xh/lang.entities
 usr/share/kde4/apps/ksgmltools2/customization/xh/strings.entities
 usr/share/kde4/apps/ksgmltools2/customization/xh/user.entities
+usr/share/kde4/apps/ksgmltools2/customization/xsl/README
 usr/share/kde4/apps/ksgmltools2/customization/xsl/all-l10n.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/ca.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/de.xml
@@ -821,15 +823,14 @@ usr/share/kde4/apps/ksgmltools2/customization/xsl/nds.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/nl.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/nn.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/pl.xml
-usr/share/kde4/apps/ksgmltools2/customization/xsl/pt_br.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/pt.xml
-usr/share/kde4/apps/ksgmltools2/customization/xsl/README
+usr/share/kde4/apps/ksgmltools2/customization/xsl/pt_br.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/ru.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/sl.xml
-usr/share/kde4/apps/ksgmltools2/customization/xsl/sr_ijekavianlatin.xml
-usr/share/kde4/apps/ksgmltools2/customization/xsl/sr_ijekavian.xml
-usr/share/kde4/apps/ksgmltools2/customization/xsl/sr_latin.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/sr.xml
+usr/share/kde4/apps/ksgmltools2/customization/xsl/sr_ijekavian.xml
+usr/share/kde4/apps/ksgmltools2/customization/xsl/sr_ijekavianlatin.xml
+usr/share/kde4/apps/ksgmltools2/customization/xsl/sr_latin.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/sv.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/tr.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/uk.xml
