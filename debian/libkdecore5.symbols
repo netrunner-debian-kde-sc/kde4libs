@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.86 amd64
+# SymbolsHelper-Confirmed: 4:4.5.95 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -1880,7 +1880,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN7KLocale13insertCatalogERK7QString@Base 4:4.3.4
  _ZN7KLocale13removeCatalogERK7QString@Base 4:4.3.4
  _ZN7KLocale13setDateFormatERK7QString@Base 4:4.3.4
- _ZN7KLocale13setDayPeriodsERK5QListI10KDayPeriodE@Base 4:4.5.85
+#MISSING: 4:4.5.95# _ZN7KLocale13setDayPeriodsERK5QListI10KDayPeriodE@Base 4:4.5.85
  _ZN7KLocale13setFracDigitsEi@Base 4:4.3.4
  _ZN7KLocale13setTimeFormatERK7QString@Base 4:4.3.4
  _ZN7KLocale14copyCatalogsToEPS_@Base 4:4.3.4
@@ -3520,7 +3520,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK7KConfig9groupImplERK10QByteArray@Base 4:4.3.4
  _ZNK7KConfig9groupListEv@Base 4:4.3.4
  _ZNK7KLocale10dateFormatEv@Base 4:4.3.4
- _ZNK7KLocale10dayPeriodsEv@Base 4:4.5.85
+#MISSING: 4:4.5.95# _ZNK7KLocale10dayPeriodsEv@Base 4:4.5.85
  _ZNK7KLocale10formatDateERK5QDateNS_10DateFormatE@Base 4:4.3.4
  _ZNK7KLocale10formatLongEl@Base 4:4.3.4
  _ZNK7KLocale10formatTimeERK5QTimebb@Base 4:4.3.4
@@ -3568,7 +3568,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK7KLocale16codecForEncodingEv@Base 4:4.3.4
  _ZNK7KLocale16currencyCodeListEv@Base 4:4.4.0
  _ZNK7KLocale16dateTimeDigitSetEv@Base 4:4.3.4
- _ZNK7KLocale16dayPeriodForTimeERK5QTime@Base 4:4.5.85
+#MISSING: 4:4.5.95# _ZNK7KLocale16dayPeriodForTimeERK5QTime@Base 4:4.5.85
  _ZNK7KLocale16formatLocaleTimeERK5QTime6QFlagsINS_16TimeFormatOptionEE@Base 4:4.4.0
  _ZNK7KLocale16monetaryDigitSetEv@Base 4:4.3.4
  _ZNK7KLocale16translateRawFromEPKcS1_P7QStringS3_@Base 4:4.4.95

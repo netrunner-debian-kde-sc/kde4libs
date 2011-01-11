@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.90 amd64
+# SymbolsHelper-Confirmed: 4:4.5.95 amd64
 libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KateBuffer10unwrapLineEi@Base 4:4.4.95
@@ -333,7 +333,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN13KateSearchBar35onPowerReplacmentContextMenuRequestERK6QPoint@Base 4:4.4.95
  _ZN13KateSearchBar35onPowerReplacmentContextMenuRequestEv@Base 4:4.4.95
  _ZN13KateSearchBar4findENS_15SearchDirectionEPK7QString@Base 4:4.4.95
- _ZN13KateSearchBar6closedEv@Base 4:4.4.95
+#MISSING: 4:4.5.95# _ZN13KateSearchBar6closedEv@Base 4:4.4.95
  _ZN13KateSearchBar7findAllEN11KTextEditor5RangeEPK7QString@Base 4:4.4.95
  _ZN13KateSearchBar7findAllEv@Base 4:4.4.95
  _ZN13KateSearchBar8findNextEv@Base 4:4.4.95
@@ -868,6 +868,7 @@ libkatepartinterfaces.so.4 libkatepartinterfaces4 #MINVER#
  _ZN4Kate8SwapFile11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
  _ZN4Kate8SwapFile11qt_metacastEPKc@Base 4:4.5.86
  _ZN4Kate8SwapFile12startEditingEv@Base 4:4.5.86
+ _ZN4Kate8SwapFile13configChangedEv@Base 4:4.5.95
  _ZN4Kate8SwapFile13finishEditingEv@Base 4:4.5.86
  _ZN4Kate8SwapFile13swapFileFoundEv@Base 4:4.5.86
  _ZN4Kate8SwapFile14removeSwapFileEv@Base 4:4.5.86
