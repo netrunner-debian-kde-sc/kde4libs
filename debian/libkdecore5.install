@@ -8,3 +8,4 @@ usr/share/kde4/config/kdebugrc
 usr/share/kde4/servicetypes/kconfigbackend.desktop
 usr/share/kde4/servicetypes/kplugininfo.desktop
 usr/share/kde4/servicetypes/sonnetspeller.desktop
+usr/share/man/man7/kdeoptions.7
