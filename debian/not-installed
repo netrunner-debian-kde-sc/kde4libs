@@ -1,9 +1,5 @@
 ./usr/lib/libkatepartinterfaces.so
 
-# This file should be provided by some bin package from qt4-x11,
-# don't install for now.
-# ./usr/share/man/man7/qtoptions.7
-
 # These files are move by dh_movelibkdeinit
 ./usr/lib/libkdeinit4_kbuildsycoca4.so
 ./usr/lib/libkdeinit4_kconf_update.so
@@ -20,6 +16,7 @@
 ./usr/share/man/man1/kross.1
 ./usr/share/man/man1/makekdewidgets.1
 ./usr/share/man/man7/kdeoptions.7
+./usr/share/man/man7/qtoptions.7
 ./usr/share/man/man8/kbuildsycoca4.8
 ./usr/share/man/man8/kcookiejar4.8
 ./usr/share/man/man8/kded4.8
