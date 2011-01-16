@@ -1,6 +1,13 @@
 kde4libs (4:4.5.95-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes VHDL syntax highlighting with large files (Closes: #533727)
+    - fixes "Common Lisp" being categorized as "script" instead of "source"
+      for syntax highlighting (Closes: #486342)
+    - replaces "<qt>" tags with "<html>" tags in desktop notifications
+      (Closes: #580229)
+    - fixes strigi using 100% cpu load when suspended (Closes: #585117)
+    - fixes QPainter error message flood in khtml (Closes: #598975)
 
   [ Modestas Vainius ]
   * Bump Standards-Version to 3.9.1: add Breaks next to Replaces where needed.
