@@ -133,7 +133,8 @@ Description: the NTLM Authentication Library for the KDE Platform
 
 Package: libsolid4
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, udev [linux-any], hal [!linux-any]
+Recommends: udisks [linux-any], upower [linux-any]
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
 Description: Solid Library for KDE Platform
