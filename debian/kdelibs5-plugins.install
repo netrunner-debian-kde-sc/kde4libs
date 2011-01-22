@@ -1,3 +1,4 @@
+usr/lib/kconf_update_bin/migrate_from_kde3_icon_theme
 usr/lib/kde4/emoticonstheme_adium.so
 usr/lib/kde4/emoticonstheme_kde.so
 usr/lib/kde4/emoticonstheme_pidgin.so
@@ -62,3 +63,4 @@ usr/lib/kde4/spellcheckplugin.so
 usr/lib/libkdeinit4_kconf_update.so
 usr/lib/libkdeinit4_kio_http_cache_cleaner.so
 usr/lib/libkdeinit4_klauncher.so
+usr/share/kde4/apps/kconf_update/kdeui.upd
