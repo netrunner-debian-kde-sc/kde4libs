@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.86 amd64
+# SymbolsHelper-Confirmed: 4:4.6.0 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1572,10 +1572,12 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO13AccessManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO13AccessManager11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO13AccessManager13createRequestEN21QNetworkAccessManager9OperationERK15QNetworkRequestP9QIODevice@Base 4:4.3.4
+ _ZN3KIO13AccessManager14putReplyOnHoldEP13QNetworkReply@Base 4:4.6.0
  _ZN3KIO13AccessManager15requestMetaDataEv@Base 4:4.4.0
  _ZN3KIO13AccessManager15sessionMetaDataEv@Base 4:4.4.0
  _ZN3KIO13AccessManager16staticMetaObjectE@Base 4:4.3.4
- _ZN3KIO13AccessManager20AccessManagerPrivate18metaDataForRequestE15QNetworkRequest@Base 4:4.3.4
+#MISSING: 4:4.6.0# _ZN3KIO13AccessManager20AccessManagerPrivate18metaDataForRequestE15QNetworkRequest@Base 4:4.3.4
+ _ZN3KIO13AccessManager20AccessManagerPrivate21setMetaDataForRequestE15QNetworkRequestRNS_8MetaDataE@Base 4:4.6.0
  _ZN3KIO13AccessManager20setCookieJarWindowIdEm@Base 4:4.4.0
  _ZN3KIO13AccessManager25setExternalContentAllowedEb@Base 4:4.3.4
  _ZN3KIO13AccessManagerC1EP7QObject@Base 4:4.3.4
