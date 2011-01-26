@@ -82,6 +82,16 @@ kde4libs (4:4.5.95-0r1) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 14:54:10 +0100
 
+kde4libs (4:4.4.5-3) unstable; urgency=high
+
+  * Add a kconf_update script (migrate_from_kde3_icon_theme) to migrate away
+    from old KDE 3 icon themes which are KDE 4 incompatible (e.g. crystalsvg).
+    (Closes: #588374)
+  * Urgency=high, the fix is solely targeted at fixing lenny->squeeze upgrades
+    though it might not get there in time.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 23 Jan 2011 00:36:28 +0200
+
 kde4libs (4:4.4.5-2) unstable; urgency=low
 
   * Point debian/control Vcs fields to the new Git repository.
