@@ -1,4 +1,4 @@
-kde4libs (4:4.6.0-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.6.0-0r1) unreleased; urgency=low
 
   * New upstream release:
     - fixes VHDL syntax highlighting with large files (Closes: #533727)
@@ -8,6 +8,9 @@ kde4libs (4:4.6.0-0r1) UNRELEASED; urgency=low
       (Closes: #580229)
     - fixes strigi using 100% cpu load when suspended (Closes: #585117)
     - fixes QPainter error message flood in khtml (Closes: #598975)
+  * Update installed files.
+  * Update symbol files.
+  * Refresh patches.
 
   [ Modestas Vainius ]
   * Bump Standards-Version to 3.9.1: add Breaks next to Replaces where needed.
@@ -30,22 +33,16 @@ kde4libs (4:4.6.0-0r1) UNRELEASED; urgency=low
       - xsltproc
       - libxcursor-dev
       - libxtst-dev
-  * Update installed files.
   * Add packages for the new libararies: libkatepartinterfaces4,
     libkcmutils4, libkidletime4, libkemoticons4, libkprintutils4.
-  * Update symbol files.
   * Add symbol files for the new libraries.
   * Remove libkutils4.symbols as kutils is now a dummy
     transitional library with no symbols.
-  * Refresh patches.
   * Add docbook-xml dependency on the kdoctools package,
     as it is required for building all of kde's documentation.
   * Bump kdebase-runtime Breaks/Recommends to version 4.5.
 
   [ Didier Raboud ]
-  * Refresh patches for 4.5.85.
-    - Update 28_find_old_kde4_html_documentation.diff and
-      22_hack_in_etc_kde4_in_kstandarddirs.diff for QT_NO_CAST_FROM_ASCII.
   * Adjust build-dependencies:
     - Bump required:
       - Qt to 4:4.7.0~rc1.
@@ -57,28 +54,22 @@ kde4libs (4:4.6.0-0r1) UNRELEASED; urgency=low
       - libudev-dev
       - libqtwebkit-dev
   * Add libnepomukutils4 package.
-  * Update .install files for new SOVERSION.
-  * Update symbol files.
 
   [ Pino Toscano ]
   * Make libknewstuff2-4 and libknewstuff3-4 recommend gnupg, as they can use
     `gpg' for checking validity and signatures of downloaded content.
   * Add docbook-xsl dependency on the kdoctools package, for same reason as
     docbook-xml.
-  * Update kdoctools.install.
   * Improve Depends and Recommends of libsolid:
     - Linux archs: depend on udev, and recommend udisks and upower
     - non-Linux archs: depend on hal
 
   [ José Manuel Santamaría Lema ]
   * Disable 23_solid_no_double_build.diff, produces FTBFS.
-  * Update installed files.
   * kdelibs5-data breaks/replaces kdebase-runtime-data (<< 4:4.5.85).
-  * Refreshed 13_qt4_designer_plugins_path.diff, thanks to Pino Toscano.
   * Moved Qt Designer plugins to kdelibs5-plugins, they could be used by plasma
     js bindings to dynamically create ui files. Thanks to Pino Toscano for
     pointing the problem.
-  * Update symbol files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 14:54:10 +0100
 
