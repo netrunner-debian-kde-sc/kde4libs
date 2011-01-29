@@ -21,7 +21,23 @@ Last-Update: 2010-06-23
                           )
    endif(NOT WIN32)
  
-@@ -152,7 +151,6 @@
+@@ -81,7 +80,6 @@
+                                           INSTALL_RPATH_USE_LINK_PATH TRUE
+                                           SKIP_BUILD_RPATH TRUE
+                                           BUILD_WITH_INSTALL_RPATH TRUE
+-                                          INSTALL_RPATH ${LIB_INSTALL_DIR}
+                            )
+     endif(NOT WIN32)
+ 
+@@ -116,7 +114,6 @@
+                                      INSTALL_RPATH_USE_LINK_PATH TRUE
+                                      SKIP_BUILD_RPATH TRUE
+                                      BUILD_WITH_INSTALL_RPATH TRUE
+-                                     INSTALL_RPATH ${LIB_INSTALL_DIR}
+                          )
+   endif(NOT WIN32)
+ 
+@@ -152,7 +149,6 @@
                                       INSTALL_RPATH_USE_LINK_PATH TRUE
                                       SKIP_BUILD_RPATH TRUE
                                       BUILD_WITH_INSTALL_RPATH TRUE
