@@ -9,7 +9,7 @@ Subject: don't set the install RPATH to LIB_INSTALL_DIR
  Also drop custom INSTALL_RPATHs in kdewidgets/CMakeLists.txt.
 Forwarded: yes
 Origin: backport, http://websvn.kde.org/?view=revision&revision=1124215
-Last-Update: 2010-06-23
+Last-Update: 2011-01-30
 
 --- a/kdewidgets/CMakeLists.txt
 +++ b/kdewidgets/CMakeLists.txt
