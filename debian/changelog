@@ -1,4 +1,4 @@
-kde4libs (4:4.6.0-0r1) unreleased; urgency=low
+kde4libs (4:4.6.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes VHDL syntax highlighting with large files (Closes: #533727)
