@@ -1,49 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.5.85 amd64
-libnepomuk.so.4 libnepomuk4 #MINVER#
+libnepomuk.so.4 libnepomuk4a #MINVER#
 * Build-Depends-Package: kdelibs5-dev
-#MISSING: 4:4.5.85# _ZN13KRatingWidget10leaveEventEP6QEvent@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget10paintEventEP11QPaintEvent@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget10setSpacingEi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget11qt_metacastEPKc@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget11resizeEventEP12QResizeEvent@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget12setMaxRatingEi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget12setMaxRatingEj@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget13ratingChangedEi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget13ratingChangedEj@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget13setPixmapSizeEi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget14mouseMoveEventEP11QMouseEvent@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget15mousePressEventEP11QMouseEvent@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget15setCustomPixmapERK7QPixmap@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget16staticMetaObjectE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget18setLayoutDirectionEN2Qt15LayoutDirectionE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget19setHalfStepsEnabledEb@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget21setOnlyPaintFullStepsEb@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget7setIconERK5QIcon@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget9setPixmapERK7QPixmap@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget9setRatingEi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidget9setRatingEj@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidgetC1EP7QWidget@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidgetC2EP7QWidget@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidgetD0Ev@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidgetD1Ev@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN13KRatingWidgetD2Ev@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter10setEnabledEb@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter10setSpacingEi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter11paintRatingEP8QPainterRK5QRect6QFlagsIN2Qt13AlignmentFlagEEii@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter12setMaxRatingEi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter15setCustomPixmapERK7QPixmap@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter18setLayoutDirectionEN2Qt15LayoutDirectionE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter19setHalfStepsEnabledEb@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter21getRatingFromPositionERK5QRect6QFlagsIN2Qt13AlignmentFlagEENS4_15LayoutDirectionERK6QPoint@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter7Private9getPixmapEi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainter7setIconERK5QIcon@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainterC1Ev@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainterC2Ev@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainterD1Ev@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN14KRatingPainterD2Ev@Base 4:4.3.4
  _ZN15KTagCloudWidget10tagClickedERK7QString@Base 4:4.3.4
  _ZN15KTagCloudWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN15KTagCloudWidget11qt_metacastEPKc@Base 4:4.3.4
@@ -1578,25 +1535,6 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk9TagWidgetD0Ev@Base 4:4.3.4
  _ZN7Nepomuk9TagWidgetD1Ev@Base 4:4.3.4
  _ZN7Nepomuk9TagWidgetD2Ev@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK13KRatingWidget10metaObjectEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK13KRatingWidget15layoutDirectionEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK13KRatingWidget16halfStepsEnabledEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK13KRatingWidget4iconEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK13KRatingWidget6ratingEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK13KRatingWidget7spacingEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK13KRatingWidget8sizeHintEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK13KRatingWidget9alignmentEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK13KRatingWidget9maxRatingEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK14KRatingPainter12customPixmapEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK14KRatingPainter15layoutDirectionEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK14KRatingPainter16halfStepsEnabledEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK14KRatingPainter18ratingFromPositionERK5QRectRK6QPoint@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK14KRatingPainter4iconEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK14KRatingPainter5paintEP8QPainterRK5QRectii@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK14KRatingPainter7spacingEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK14KRatingPainter9alignmentEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK14KRatingPainter9isEnabledEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK14KRatingPainter9maxRatingEv@Base 4:4.3.4
  _ZNK15KTagCloudWidget10metaObjectEv@Base 4:4.3.4
  _ZNK15KTagCloudWidget9tagWeightERK7QString@Base 4:4.3.4
  _ZNK17KTagDisplayWidget10metaObjectEv@Base 4:4.3.4
@@ -1786,7 +1724,6 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZNK7Nepomuk9TagWidget15taggedResourcesEv@Base 4:4.3.4
  _ZNK7Nepomuk9TagWidget9alignmentEv@Base 4:4.4.95
  _ZNK7Nepomuk9TagWidget9modeFlagsEv@Base 4:4.4.95
-#MISSING: 4:4.5.85# _ZTI13KRatingWidget@Base 4:4.3.4
  _ZTI15KTagCloudWidget@Base 4:4.3.4
  _ZTI17KTagDisplayWidget@Base 4:4.3.4
  _ZTIN7Nepomuk13MassUpdateJobE@Base 4:4.4.95
@@ -1806,7 +1743,6 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZTIN7Nepomuk8ResourceE@Base 4:4.3.4
  _ZTIN7Nepomuk8TagCloudE@Base 4:4.3.4
  _ZTIN7Nepomuk9TagWidgetE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZTS13KRatingWidget@Base 4:4.3.4
  _ZTS15KTagCloudWidget@Base 4:4.3.4
  _ZTS17KTagDisplayWidget@Base 4:4.3.4
  _ZTSN7Nepomuk13MassUpdateJobE@Base 4:4.4.95
@@ -1826,7 +1762,6 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZTSN7Nepomuk8ResourceE@Base 4:4.3.4
  _ZTSN7Nepomuk8TagCloudE@Base 4:4.3.4
  _ZTSN7Nepomuk9TagWidgetE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZTV13KRatingWidget@Base 4:4.3.4
  _ZTV15KTagCloudWidget@Base 4:4.3.4
  _ZTV17KTagDisplayWidget@Base 4:4.3.4
  _ZTVN7Nepomuk13MassUpdateJobE@Base 4:4.4.95
@@ -1847,7 +1782,6 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZTVN7Nepomuk8TagCloudE@Base 4:4.3.4
  _ZTVN7Nepomuk9TagWidgetE@Base 4:4.3.4
  _Zls6QDebugRKN7Nepomuk7VariantE@Base 4:4.3.4
-#MISSING: 4:4.5.85# (c++)"non-virtual thunk to KRatingWidget::~KRatingWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KTagCloudWidget::~KTagCloudWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KTagDisplayWidget::~KTagDisplayWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Nepomuk::TagCloud::~TagCloud()@Base" 4:4.3.4

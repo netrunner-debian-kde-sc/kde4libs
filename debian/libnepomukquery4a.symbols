@@ -90,7 +90,6 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query18QueryServiceClient5closeEv@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient5errorERK7QString@Base 4:4.5.86
  _ZN7Nepomuk5Query18QueryServiceClient5queryERKNS0_5QueryE@Base 4:4.4.0
-#MISSING: 4:4.5.86# _ZN7Nepomuk5Query18QueryServiceClient7Private16handleQueryReplyE10QDBusReplyI15QDBusObjectPathE@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient7Private17_k_entriesRemovedERK11QStringList@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient7Private18_k_finishedListingEv@Base 4:4.4.0
  _ZN7Nepomuk5Query18QueryServiceClient7Private19_k_handleQueryReplyEP23QDBusPendingCallWatcher@Base 4:4.5.86

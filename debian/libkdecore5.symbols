@@ -976,7 +976,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN16KLocalizedStringD1Ev@Base 4:4.3.4
  _ZN16KLocalizedStringD2Ev@Base 4:4.3.4
  _ZN16KLocalizedStringaSERKS_@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN16KMimeTypeFactory10parseMagicEv@Base 4:4.3.4
  _ZN16KMimeTypeFactory11entryOffsetERK7QString@Base 4:4.5.85
  _ZN16KMimeTypeFactory12allMimeTypesEv@Base 4:4.3.4
  _ZN16KMimeTypeFactory13MimeTypeEntry22setServiceOffersOffsetEi@Base 4:4.5.85
@@ -984,16 +983,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN16KMimeTypeFactory13MimeTypeEntryC1ERK7QStringS3_@Base 4:4.5.85
  _ZN16KMimeTypeFactory13MimeTypeEntryC2ER11QDataStreami@Base 4:4.5.85
  _ZN16KMimeTypeFactory13MimeTypeEntryC2ERK7QStringS3_@Base 4:4.5.85
-#MISSING: 4:4.5.85# _ZN16KMimeTypeFactory13matchFileNameERK7QStringS2_@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN16KMimeTypeFactory14checkMimeTypesEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN16KMimeTypeFactory15findFromContentEP9QIODeviceNS_13WhichPriorityEPiR10QByteArray@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN16KMimeTypeFactory16findFromFileNameERK7QStringPS0_@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN16KMimeTypeFactory18findMimeTypeByNameERK7QStringN9KMimeType16FindByNameOptionE@Base 4:4.3.4
  _ZN16KMimeTypeFactory19serviceOffersOffsetERK7QString@Base 4:4.5.85
-#MISSING: 4:4.5.85# _ZN16KMimeTypeFactory23findFromFastPatternDictERK7QString@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN16KMimeTypeFactory24findFromOtherPatternListER5QListI10KSharedPtrI9KMimeTypeEERK7QStringRS6_b@Base 4:4.3.4
  _ZN16KMimeTypeFactory4selfEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN16KMimeTypeFactory7parentsERK7QString@Base 4:4.3.4
  _ZN16KMimeTypeFactoryC1Ev@Base 4:4.3.4
  _ZN16KMimeTypeFactoryC2Ev@Base 4:4.3.4
  _ZN16KMimeTypeFactoryD0Ev@Base 4:4.3.4
@@ -1354,7 +1345,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN21KTzfileTimeZoneSourceD2Ev@Base 4:4.3.4
  _ZN22KSslCertificateManager18nonIgnorableErrorsERK5QListI9KSslErrorE@Base 4:4.3.4
  _ZN22KSslCertificateManager18nonIgnorableErrorsERK5QListIN9KSslError5ErrorEE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN22KSslCertificateManager19setRootCertificatesERK5QListI15QSslCertificateE@Base 4:4.3.4
  _ZN22KSslCertificateManager4selfEv@Base 4:4.3.4
  _ZN22KSslCertificateManager7setRuleERK19KSslCertificateRule@Base 4:4.3.4
  _ZN22KSslCertificateManager9clearRuleERK15QSslCertificateRK7QString@Base 4:4.3.4
@@ -1880,7 +1870,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN7KLocale13insertCatalogERK7QString@Base 4:4.3.4
  _ZN7KLocale13removeCatalogERK7QString@Base 4:4.3.4
  _ZN7KLocale13setDateFormatERK7QString@Base 4:4.3.4
-#MISSING: 4:4.5.95# _ZN7KLocale13setDayPeriodsERK5QListI10KDayPeriodE@Base 4:4.5.85
  _ZN7KLocale13setFracDigitsEi@Base 4:4.3.4
  _ZN7KLocale13setTimeFormatERK7QString@Base 4:4.3.4
  _ZN7KLocale14copyCatalogsToEPS_@Base 4:4.3.4
@@ -2572,7 +2561,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN9KLockFileD2Ev@Base 4:4.3.4
  (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KMimeType10findByPathERK7QStringjbPi@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KMimeType10findByPathERK7QStringtbPi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN9KMimeType11setPatternsERK11QStringList@Base 4:4.3.4
  _ZN9KMimeType12allMimeTypesEv@Base 4:4.3.4
  _ZN9KMimeType12isBinaryDataERK7QString@Base 4:4.3.4
  _ZN9KMimeType13favIconForUrlERK4KUrl@Base 4:4.3.4
@@ -2583,17 +2571,13 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN9KMimeType15defaultMimeTypeEv@Base 4:4.3.4
  (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KMimeType15findByUrlHelperERK4KUrljbP9QIODevicePi@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KMimeType15findByUrlHelperERK4KUrltbP9QIODevicePi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN9KMimeType16buildDefaultTypeEv@Base 4:4.3.4
  _ZN9KMimeType17findByFileContentERK7QStringPi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN9KMimeType17internalClearDataEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN9KMimeType17setParentMimeTypeERK7QString@Base 4:4.3.4
  _ZN9KMimeType18defaultMimeTypePtrEv@Base 4:4.3.4
  _ZN9KMimeType18isBufferBinaryDataERK10QByteArray@Base 4:4.3.4
  (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KMimeType20findByNameAndContentERK7QStringP9QIODevicejPi@Base 4:4.4.2
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KMimeType20findByNameAndContentERK7QStringP9QIODevicetPi@Base 4:4.4.2
  (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KMimeType20findByNameAndContentERK7QStringRK10QByteArrayjPi@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KMimeType20findByNameAndContentERK7QStringRK10QByteArraytPi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN9KMimeType20setUserSpecifiedIconERK7QString@Base 4:4.3.4
  _ZN9KMimeType21extractKnownExtensionERK7QString@Base 4:4.3.4
  _ZN9KMimeType21sharedMimeInfoVersionEv@Base 4:4.3.4
  _ZN9KMimeType23checkEssentialMimeTypesEv@Base 4:4.3.4
@@ -3053,7 +3037,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK14KLocalizedDate10formatDateEN7KLocale10DateFormatE@Base 4:4.5.85
  _ZNK14KLocalizedDate10formatDateEN7KLocale17DateTimeComponentENS0_23DateTimeComponentFormatENS0_16WeekNumberSystemE@Base 4:4.5.86
  _ZNK14KLocalizedDate10formatDateERK7QStringN7KLocale22DateTimeFormatStandardE@Base 4:4.5.85
-#MISSING: 4:4.5.86# _ZNK14KLocalizedDate10formatWeekEN7KLocale16WeekNumberSystemENS0_23DateTimeComponentFormatE@Base 4:4.5.85
  _ZNK14KLocalizedDate10isLeapYearEv@Base 4:4.5.85
  _ZNK14KLocalizedDate11daysInMonthEv@Base 4:4.5.85
  _ZNK14KLocalizedDate11toJulianDayEv@Base 4:4.5.85
@@ -3072,8 +3055,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK14KLocalizedDate15yearsDifferenceERKS_@Base 4:4.5.85
  _ZNK14KLocalizedDate16monthsDifferenceERK5QDate@Base 4:4.5.85
  _ZNK14KLocalizedDate16monthsDifferenceERKS_@Base 4:4.5.85
-#MISSING: 4:4.5.86# _ZNK14KLocalizedDate17formatWeeksInYearEN7KLocale16WeekNumberSystemENS0_23DateTimeComponentFormatE@Base 4:4.5.85
-#MISSING: 4:4.5.86# _ZNK14KLocalizedDate19formatDateComponentEN7KLocale17DateTimeComponentENS0_23DateTimeComponentFormatE@Base 4:4.5.85
  _ZNK14KLocalizedDate3dayEv@Base 4:4.5.85
  _ZNK14KLocalizedDate4dateEv@Base 4:4.5.85
  _ZNK14KLocalizedDate4weekEN7KLocale16WeekNumberSystemEPi@Base 4:4.5.85
@@ -3169,7 +3150,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK15KCalendarSystem18dayStringToIntegerERK7QStringRi@Base 4:4.3.4
  _ZNK15KCalendarSystem18isValidIsoWeekDateEiii@Base 4:4.4.0
  _ZNK15KCalendarSystem18monthsInYearStringERK5QDateNS_12StringFormatE@Base 4:4.4.0
-#MISSING: 4:4.5.86# _ZNK15KCalendarSystem19formatDateComponentERK5QDateN7KLocale17DateTimeComponentENS3_23DateTimeComponentFormatE@Base 4:4.5.85
  _ZNK15KCalendarSystem19yearStringToIntegerERK7QStringRi@Base 4:4.3.4
  _ZNK15KCalendarSystem20applyShortYearWindowEi@Base 4:4.5.85
  _ZNK15KCalendarSystem20monthStringToIntegerERK7QStringRi@Base 4:4.3.4
@@ -3231,9 +3211,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK16KLocalizedString8toStringEv@Base 4:4.3.4
  _ZNK16KLocalizedString9inContextERK7QStringS2_@Base 4:4.3.4
  _ZNK16KMimeTypeFactory11createEntryEi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZNK16KMimeTypeFactory12resolveAliasERK7QString@Base 4:4.3.4
  _ZNK16KMimeTypeFactory13MimeTypeEntry19serviceOffersOffsetEv@Base 4:4.5.85
-#MISSING: 4:4.5.85# _ZNK16KMimeTypeFactory14parseMagicFileEP9QIODeviceRK7QString@Base 4:4.3.4
  _ZNK16KSharedDataCache14evictionPolicyEv@Base 4:4.4.95
  _ZNK16KSharedDataCache4findERK7QStringP10QByteArray@Base 4:4.4.95
  _ZNK16KSharedDataCache8containsERK7QString@Base 4:4.4.95
@@ -3349,7 +3327,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK21KTzfileTimeZoneSource5parseERK9KTimeZone@Base 4:4.3.4
  _ZNK21KTzfileTimeZoneSource8locationEv@Base 4:4.3.4
  _ZNK22KSslCertificateManager14caCertificatesEv@Base 4:4.5.85
-#MISSING: 4:4.5.85# _ZNK22KSslCertificateManager16rootCertificatesEv@Base 4:4.3.4
  _ZNK22KSslCertificateManager4ruleERK15QSslCertificateRK7QString@Base 4:4.3.4
  _ZNK22KSystemTimeZoneBackend10isDstAtUtcEPK9KTimeZoneRK9QDateTime@Base 4:4.3.4
  _ZNK22KSystemTimeZoneBackend11offsetAtUtcEPK9KTimeZoneRK9QDateTime@Base 4:4.3.4
@@ -3520,7 +3497,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK7KConfig9groupImplERK10QByteArray@Base 4:4.3.4
  _ZNK7KConfig9groupListEv@Base 4:4.3.4
  _ZNK7KLocale10dateFormatEv@Base 4:4.3.4
-#MISSING: 4:4.5.95# _ZNK7KLocale10dayPeriodsEv@Base 4:4.5.85
  _ZNK7KLocale10formatDateERK5QDateNS_10DateFormatE@Base 4:4.3.4
  _ZNK7KLocale10formatLongEl@Base 4:4.3.4
  _ZNK7KLocale10formatTimeERK5QTimebb@Base 4:4.3.4
@@ -3568,7 +3544,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK7KLocale16codecForEncodingEv@Base 4:4.3.4
  _ZNK7KLocale16currencyCodeListEv@Base 4:4.4.0
  _ZNK7KLocale16dateTimeDigitSetEv@Base 4:4.3.4
-#MISSING: 4:4.5.95# _ZNK7KLocale16dayPeriodForTimeERK5QTime@Base 4:4.5.85
  _ZNK7KLocale16formatLocaleTimeERK5QTime6QFlagsINS_16TimeFormatOptionEE@Base 4:4.4.0
  _ZNK7KLocale16monetaryDigitSetEv@Base 4:4.3.4
  _ZNK7KLocale16translateRawFromEPKcS1_P7QStringS3_@Base 4:4.4.95

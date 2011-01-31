@@ -2130,7 +2130,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLView10timerEventEP11QTimerEvent@Base 4:4.3.4
  _ZN9KHTMLView10wheelEventEP11QWheelEvent@Base 4:4.3.4
  _ZN9KHTMLView11eventFilterEP7QObjectP6QEvent@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN9KHTMLView11findTimeoutEv@Base 4:4.3.4
  _ZN9KHTMLView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN9KHTMLView11qt_metacastEPKc@Base 4:4.3.4
  _ZN9KHTMLView11resizeEventEP12QResizeEvent@Base 4:4.3.4
@@ -2151,7 +2150,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLView14resizeContentsEii@Base 4:4.3.4
  _ZN9KHTMLView14setContentsPosEii@Base 4:4.3.4
  _ZN9KHTMLView14setMarginWidthEi@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN9KHTMLView14startFindAheadEb@Base 4:4.3.4
  _ZN9KHTMLView14updateContentsERK5QRect@Base 4:4.3.4
  _ZN9KHTMLView14updateContentsEiiii@Base 4:4.3.4
  _ZN9KHTMLView15addStaticObjectEb@Base 4:4.3.4
@@ -2198,7 +2196,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLView22setHasNormalBackgroundEv@Base 4:4.3.4
  _ZN9KHTMLView22setHasStaticBackgroundEb@Base 4:4.3.4
  _ZN9KHTMLView22setSmoothScrollingModeENS_19SmoothScrollingModeE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN9KHTMLView22updateFindAheadTimeoutEv@Base 4:4.3.4
  _ZN9KHTMLView24resizeContentsToViewportEv@Base 4:4.3.4
  _ZN9KHTMLView26addNonPasswordStorableSiteERK7QString@Base 4:4.3.4
  _ZN9KHTMLView26delNonPasswordStorableSiteERK7QString@Base 4:4.3.4
@@ -2221,7 +2218,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLView8scrollToERK5QRect@Base 4:4.3.4
  _ZN9KHTMLView8zoomViewEi@Base 4:4.3.4
  _ZN9KHTMLView9dropEventEP10QDropEvent@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN9KHTMLView9findAheadEb@Base 4:4.3.4
  _ZN9KHTMLView9hideEventEP10QHideEvent@Base 4:4.3.4
  _ZN9KHTMLView9showEventEP10QShowEvent@Base 4:4.3.4
  _ZN9KHTMLViewC1EP9KHTMLPartP7QWidget@Base 4:4.3.4
@@ -3265,7 +3261,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  (c++)"construction vtable for KParts::Part-in-KHTMLPart@Base" 4:4.3.4
  (c++)"construction vtable for KParts::PartBase-in-KHTMLPart@Base" 4:4.3.4
  (c++)"construction vtable for KParts::ReadOnlyPart-in-KHTMLPart@Base" 4:4.3.4
-#MISSING: 4:4.5.85# init_khtmlimagefactory@Base 4:4.3.4
  (c++)"non-virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KHTMLView::~KHTMLView()@Base" 4:4.3.4
  (c++)"virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4

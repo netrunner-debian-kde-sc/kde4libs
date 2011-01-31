@@ -6009,7 +6009,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK25KNotificationRestrictions10metaObjectEv@Base 4:4.3.4
  _ZNK26KRecursiveFilterProxyModel10metaObjectEv@Base 4:4.4.95
  _ZNK26KRecursiveFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:4.4.95
-#MISSING: 4:4.5.85# _ZNK26KRecursiveFilterProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4:4.5.2
  _ZNK26KRecursiveFilterProxyModel9acceptRowEiRK11QModelIndex@Base 4:4.4.95
  _ZNK27KPassivePopupMessageHandler10metaObjectEv@Base 4:4.3.4
  _ZNK27KPixmapRegionSelectorDialog10metaObjectEv@Base 4:4.4.95
@@ -6486,7 +6485,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTIN17KWidgetJobTracker7PrivateE@Base 4:4.3.4
  _ZTIN20KStatusBarJobTracker7Private14ProgressWidgetE@Base 4:4.3.4
  _ZTIN25KAbstractWidgetJobTracker7PrivateE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZTIN5KMenu12KMenuPrivate12EventSnifferE@Base 4:4.3.4
  _ZTIN5KMenu12KMenuPrivateE@Base 4:4.5.85
  _ZTIN6KStyle10IconOptionE@Base 4:4.3.4
  _ZTIN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4:4.3.4
@@ -6707,7 +6705,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTSN17KWidgetJobTracker7PrivateE@Base 4:4.3.4
  _ZTSN20KStatusBarJobTracker7Private14ProgressWidgetE@Base 4:4.3.4
  _ZTSN25KAbstractWidgetJobTracker7PrivateE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZTSN5KMenu12KMenuPrivate12EventSnifferE@Base 4:4.3.4
  _ZTSN5KMenu12KMenuPrivateE@Base 4:4.5.85
  _ZTSN6KStyle10IconOptionE@Base 4:4.3.4
  _ZTSN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4:4.3.4
@@ -6928,7 +6925,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTVN17KWidgetJobTracker7PrivateE@Base 4:4.3.4
  _ZTVN20KStatusBarJobTracker7Private14ProgressWidgetE@Base 4:4.3.4
  _ZTVN25KAbstractWidgetJobTracker7PrivateE@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZTVN5KMenu12KMenuPrivate12EventSnifferE@Base 4:4.3.4
  _ZTVN5KMenu12KMenuPrivateE@Base 4:4.5.85
  _ZTVN6KStyle10IconOptionE@Base 4:4.3.4
  _ZTVN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4:4.3.4

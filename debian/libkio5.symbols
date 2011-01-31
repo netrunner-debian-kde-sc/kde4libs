@@ -1022,16 +1022,11 @@ libkio.so.5 libkio5 #MINVER#
  _ZN19KFileMetaDataWidget23metaDataRequestFinishedERK13KFileItemList@Base 4:4.5.1
  _ZN19KFileMetaDataWidget5eventEP6QEvent@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7Private10deleteRowsEv@Base 4:4.5.85
-#MISSING: 4:4.5.85# _ZN19KFileMetaDataWidget7Private13setRowVisibleEP7QWidgetb@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7Private17slotLinkActivatedERK7QString@Base 4:4.4.95
-#MISSING: 4:4.5.85# _ZN19KFileMetaDataWidget7Private18removeOutdatedRowsEv@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7Private19slotLoadingFinishedEv@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7Private20initMetaInfoSettingsEv@Base 4:4.4.95
-#MISSING: 4:4.5.85# _ZN19KFileMetaDataWidget7Private20setCustomValueWidgetEiP7QWidget@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7Private21slotDataChangeStartedEv@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7Private22slotDataChangeFinishedEv@Base 4:4.4.95
-#MISSING: 4:4.5.85# _ZN19KFileMetaDataWidget7Private28updateFileItemRowsVisibilityEv@Base 4:4.4.95
-#MISSING: 4:4.5.85# _ZN19KFileMetaDataWidget7Private6addRowEP6QLabelP11ValueWidget@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7PrivateC1EPS_@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7PrivateC2EPS_@Base 4:4.4.95
  _ZN19KFileMetaDataWidget7PrivateD1Ev@Base 4:4.4.95
@@ -1321,7 +1316,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidget4saveEv@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidget5eventEP6QEvent@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidget7Private12loadMetaDataEv@Base 4:4.4.95
-#MISSING: 4:4.5.85# _ZN32KFileMetaDataConfigurationWidget7Private16addFixedMetaDataEv@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidget7Private19slotLoadingFinishedEv@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidget7Private7addItemERK4KUrl@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidget7PrivateC1EPS_@Base 4:4.4.95
@@ -1518,7 +1512,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO11filePreviewERKN4KUrl4ListEiiiibbPK11QStringList@Base 4:4.3.4
  _ZN3KIO11file_deleteERK4KUrl6QFlagsINS_7JobFlagEE@Base 4:4.3.4
  _ZN3KIO12RenameDialog10newDestUrlEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN3KIO12RenameDialog11createLabelEP7QWidgetRK7QString@Base 4:4.4.95
  _ZN3KIO12RenameDialog11createLabelEP7QWidgetRK7QStringb@Base 4:4.5.85
  _ZN3KIO12RenameDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO12RenameDialog11qt_metacastEPKc@Base 4:4.3.4
@@ -1576,7 +1569,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO13AccessManager15requestMetaDataEv@Base 4:4.4.0
  _ZN3KIO13AccessManager15sessionMetaDataEv@Base 4:4.4.0
  _ZN3KIO13AccessManager16staticMetaObjectE@Base 4:4.3.4
-#MISSING: 4:4.6.0# _ZN3KIO13AccessManager20AccessManagerPrivate18metaDataForRequestE15QNetworkRequest@Base 4:4.3.4
  _ZN3KIO13AccessManager20AccessManagerPrivate21setMetaDataForRequestE15QNetworkRequestRNS_8MetaDataE@Base 4:4.6.0
  _ZN3KIO13AccessManager20setCookieJarWindowIdEm@Base 4:4.4.0
  _ZN3KIO13AccessManager25setExternalContentAllowedEb@Base 4:4.3.4
@@ -2856,7 +2848,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK3KIO12TCPSlaveBase9isAutoSslEv@Base 4:4.3.4
  _ZNK3KIO13AccessManager10metaObjectEv@Base 4:4.3.4
  _ZNK3KIO13AccessManager17cookieJarWindowidEv@Base 4:4.4.0
-#MISSING: 4:4.5.85# _ZNK3KIO13AccessManager20AccessManagerPrivate16isRequestAllowedERK4QUrl@Base 4:4.4.0
  _ZNK3KIO13AccessManager24isExternalContentAllowedEv@Base 4:4.3.4
  _ZNK3KIO13JobUiDelegate10metaObjectEv@Base 4:4.3.4
  _ZNK3KIO14PasswordDialog10metaObjectEv@Base 4:4.3.4

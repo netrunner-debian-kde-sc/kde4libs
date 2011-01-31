@@ -120,7 +120,6 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN12KDirOperator7Private10isReadableERK4KUrl@Base 4:4.3.4
  _ZN12KDirOperator7Private13updateSortingE6QFlagsIN4QDir8SortFlagEE@Base 4:4.3.4
  _ZN12KDirOperator7Private14_k_showPreviewEv@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN12KDirOperator7Private14_k_slotPressedERK11QModelIndex@Base 4:4.3.4
  _ZN12KDirOperator7Private14_k_slotStartedEv@Base 4:4.3.4
  _ZN12KDirOperator7Private15_k_slotCanceledEv@Base 4:4.3.4
  _ZN12KDirOperator7Private15_k_slotProgressEi@Base 4:4.3.4
@@ -144,7 +143,6 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN12KDirOperator7Private19_k_slotShowProgressEv@Base 4:4.3.4
  _ZN12KDirOperator7Private19_k_slotSortReversedEb@Base 4:4.3.4
  _ZN12KDirOperator7Private19_k_slotToggleHiddenEb@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN12KDirOperator7Private20_k_slotDoubleClickedERK11QModelIndex@Base 4:4.3.4
  _ZN12KDirOperator7Private20_k_slotSplitterMovedEii@Base 4:4.3.4
  _ZN12KDirOperator7Private22_k_slotOpenFileManagerEv@Base 4:4.4.95
  _ZN12KDirOperator7Private22_k_slotToggleDirsFirstEv@Base 4:4.3.4

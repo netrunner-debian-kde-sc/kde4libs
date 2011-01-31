@@ -344,11 +344,14 @@ Description: the Kross UI Library
  This package is part of the KDE Development Platform libraries module.
 Homepage: http://kross.dipe.org
 
-Package: libnepomuk4
+Package: libnepomuk4a
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
-Breaks: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
+Provides: libnepomuk4-api
+Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0), libnepomuk4,
+ libnepomuk4-api
+Breaks: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0), libnepomuk4
+Conflicts: libnepomuk4-api
 Description: the Nepomuk Meta Data Library
  Nepomuk aims to provide the basis to handle all kinds of metadata on the KDE
  desktop in a generic fashion. This ranges from simple information such as tags
@@ -561,7 +564,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, ${allLibraries},
  kdoctools (= ${binary:Version}), kdelibs-bin (= ${binary:Version}),
  automoc (>= 1.0~version-0.9.88),
- ${sameVersionDep:libqt4-dev:kdelibs5-plugins}, ${sameVersionDep:libsoprano-dev:libnepomuk4},
+ ${sameVersionDep:libqt4-dev:kdelibs5-plugins}, ${sameVersionDep:libsoprano-dev:libnepomuk4a},
  ${sameVersionDep:libphonon-dev:libkhtml5}
 Recommends: ${sameVersionDep:libqt4-opengl-dev:libplasma3-Depends}
 Replaces: kdebase-runtime-data (<< 4:4.2.90), kdepimlibs5-dev (<< 4:4.1.81+svn891439),

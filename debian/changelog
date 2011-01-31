@@ -70,6 +70,7 @@ kde4libs (4:4.6.0-0r1) unreleased; urgency=low
   * Moved Qt Designer plugins to kdelibs5-plugins, they could be used by plasma
     js bindings to dynamically create ui files. Thanks to Pino Toscano for
     pointing the problem.
+  * Rename libnepomuk4 as libnepomuk4a due to binary incompatible changes.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 14:54:10 +0100
 

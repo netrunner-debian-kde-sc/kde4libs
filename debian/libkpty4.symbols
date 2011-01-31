@@ -13,7 +13,6 @@ libkpty.so.4 libkpty4 #MINVER#
  _ZN10KPtyDevice5closeEv@Base 4:4.3.4
  _ZN10KPtyDevice7readEofEv@Base 4:4.3.4
  _ZN10KPtyDevice8readDataEPcx@Base 4:4.3.4
-#MISSING: 4:4.5.85# _ZN10KPtyDevice9readyReadEv@Base 4:4.3.4
  _ZN10KPtyDevice9writeDataEPKcx@Base 4:4.3.4
  _ZN10KPtyDeviceC1EP7QObject@Base 4:4.3.4
  _ZN10KPtyDeviceC2EP7QObject@Base 4:4.3.4
