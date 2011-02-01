@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.5.85 amd64
-libnepomuk.so.4 libnepomuk4a #MINVER#
+libnepomuk.so.4 libnepomuk4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN15KTagCloudWidget10tagClickedERK7QString@Base 4:4.3.4
  _ZN15KTagCloudWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
