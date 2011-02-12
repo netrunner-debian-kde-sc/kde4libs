@@ -1,12 +1,10 @@
-kde4libs (4:4.4.5-3) unstable; urgency=high
+kde4libs (4:4.4.5-2+squeeze1) stable-proposed-updates; urgency=low
 
   * Add a kconf_update script (migrate_from_kde3_icon_theme) to migrate away
     from old KDE 3 icon themes which are KDE 4 incompatible (e.g. crystalsvg).
     (Closes: #588374)
-  * Urgency=high, the fix is solely targeted at fixing lenny->squeeze upgrades
-    though it might not get there in time.
 
- -- Modestas Vainius <modax@debian.org>  Sun, 23 Jan 2011 00:36:28 +0200
+ -- Modestas Vainius <modax@debian.org>  Sat, 12 Feb 2011 21:14:55 +0200
 
 kde4libs (4:4.4.5-2) unstable; urgency=low
 
