@@ -1057,6 +1057,7 @@ usr/include/k3urldrag.h
 usr/include/k3wizard.h
 usr/include/kaboutapplicationdialog.h
 usr/include/kaboutdata.h
+usr/include/kabstractfileitemactionplugin.h
 usr/include/kabstractfilemodule.h
 usr/include/kabstractfilewidget.h
 usr/include/kabstractwidgetjobtracker.h
