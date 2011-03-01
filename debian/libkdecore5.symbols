@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.95 amd64
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -2566,6 +2566,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN9KMimeType13favIconForUrlERK4KUrl@Base 4:4.3.4
  _ZN9KMimeType13findByContentEP9QIODevicePi@Base 4:4.4.0
  _ZN9KMimeType13findByContentERK10QByteArrayPi@Base 4:4.3.4
+ _ZN9KMimeType13matchFileNameERK7QStringS2_@Base 4:4.6.1
  (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KMimeType14iconNameForUrlERK4KUrlj@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KMimeType14iconNameForUrlERK4KUrlt@Base 4:4.3.4
  _ZN9KMimeType15defaultMimeTypeEv@Base 4:4.3.4

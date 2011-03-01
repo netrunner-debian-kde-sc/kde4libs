@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.86 amd64
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -3617,8 +3617,11 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN21KListWidgetSearchLine13setListWidgetEP11QListWidget@Base 4:4.3.4
  _ZN21KListWidgetSearchLine16staticMetaObjectE@Base 4:4.3.4
  _ZN21KListWidgetSearchLine18setCaseSensitivityEN2Qt15CaseSensitivityE@Base 4:4.3.4
+ _ZN21KListWidgetSearchLine28KListWidgetSearchLinePrivate14_k_dataChangedERK11QModelIndexS3_@Base 4:4.6.1
  _ZN21KListWidgetSearchLine28KListWidgetSearchLinePrivate14_k_queueSearchERK7QString@Base 4:4.3.4
+ _ZN21KListWidgetSearchLine28KListWidgetSearchLinePrivate15_k_rowsInsertedERK11QModelIndexii@Base 4:4.6.1
  _ZN21KListWidgetSearchLine28KListWidgetSearchLinePrivate17_k_activateSearchEv@Base 4:4.3.4
+ _ZN21KListWidgetSearchLine28KListWidgetSearchLinePrivate17updateHiddenStateEii@Base 4:4.6.1
  _ZN21KListWidgetSearchLine28KListWidgetSearchLinePrivate20_k_listWidgetDeletedEv@Base 4:4.3.4
  _ZN21KListWidgetSearchLine28KListWidgetSearchLinePrivate4initEP11QListWidget@Base 4:4.3.4
  _ZN21KListWidgetSearchLine5clearEv@Base 4:4.3.4
@@ -6009,6 +6012,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK25KNotificationRestrictions10metaObjectEv@Base 4:4.3.4
  _ZNK26KRecursiveFilterProxyModel10metaObjectEv@Base 4:4.4.95
  _ZNK26KRecursiveFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:4.4.95
+ _ZNK26KRecursiveFilterProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4:4.6.1
  _ZNK26KRecursiveFilterProxyModel9acceptRowEiRK11QModelIndex@Base 4:4.4.95
  _ZNK27KPassivePopupMessageHandler10metaObjectEv@Base 4:4.3.4
  _ZNK27KPixmapRegionSelectorDialog10metaObjectEv@Base 4:4.4.95

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.85 amd64
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libkfile.so.4 libkfile4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4:4.4.0
@@ -545,6 +545,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZNK16KDirSelectDialog8startDirEv@Base 4:4.3.4
  _ZNK16KDirSelectDialog9localOnlyEv@Base 4:4.3.4
  _ZNK16KFileFilterCombo10metaObjectEv@Base 4:4.3.4
+ _ZNK16KFileFilterCombo12isMimeFilterEv@Base 4:4.6.1
  _ZNK16KFileFilterCombo13currentFilterEv@Base 4:4.3.4
  _ZNK16KFileFilterCombo13defaultFilterEv@Base 4:4.3.4
  _ZNK16KFileFilterCombo13showsAllTypesEv@Base 4:4.3.4

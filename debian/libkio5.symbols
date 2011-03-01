@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.0 amd64
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -53,6 +53,9 @@ libkio.so.5 libkio5 #MINVER#
  (optional=private)_ZN10KDirLister7Private14CachedItemsJob11qt_metacastEPKc@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14CachedItemsJob16staticMetaObjectE@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14CachedItemsJob4doneEv@Base 4:4.3.4
+ _ZN10KDirLister7Private14CachedItemsJob6doKillEv@Base 4:4.6.1
+ _ZN10KDirLister7Private14CachedItemsJobC1EPS_RK13KFileItemListRK9KFileItemRK4KUrlb@Base 4:4.6.1
+ _ZN10KDirLister7Private14CachedItemsJobC2EPS_RK13KFileItemListRK9KFileItemRK4KUrlb@Base 4:4.6.1
  (optional=private)_ZN10KDirLister7Private14_k_slotPercentEP4KJobm@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14addRefreshItemERK4KUrlRK9KFileItemS6_@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private16_k_slotTotalSizeEP4KJoby@Base 4:4.3.4
@@ -1310,6 +1313,14 @@ libkio.so.5 libkio5 #MINVER#
  _ZN26KStatusBarOfflineIndicatorD0Ev@Base 4:4.3.4
  _ZN26KStatusBarOfflineIndicatorD1Ev@Base 4:4.3.4
  _ZN26KStatusBarOfflineIndicatorD2Ev@Base 4:4.3.4
+ _ZN29KAbstractFileItemActionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.1
+ _ZN29KAbstractFileItemActionPlugin11qt_metacastEPKc@Base 4:4.6.1
+ _ZN29KAbstractFileItemActionPlugin16staticMetaObjectE@Base 4:4.6.1
+ _ZN29KAbstractFileItemActionPluginC1EP7QObject@Base 4:4.6.1
+ _ZN29KAbstractFileItemActionPluginC2EP7QObject@Base 4:4.6.1
+ _ZN29KAbstractFileItemActionPluginD0Ev@Base 4:4.6.1
+ _ZN29KAbstractFileItemActionPluginD1Ev@Base 4:4.6.1
+ _ZN29KAbstractFileItemActionPluginD2Ev@Base 4:4.6.1
  _ZN32KFileMetaDataConfigurationWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidget11qt_metacastEPKc@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidget16staticMetaObjectE@Base 4:4.4.95
@@ -2447,6 +2458,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK10KDirLister7Private13isItemVisibleERK9KFileItem@Base 4:4.3.4
  _ZNK10KDirLister7Private14CachedItemsJob10metaObjectEv@Base 4:4.3.4
  _ZNK10KDirLister7Private19doMimeExcludeFilterERK7QStringRK11QStringList@Base 4:4.3.4
+ _ZNK10KDirLister7Private20cachedItemsJobForUrlERK4KUrl@Base 4:4.6.1
  _ZNK10KDirLister8rootItemEv@Base 4:4.3.4
  _ZNK10KDirLister9findByUrlERK4KUrl@Base 4:4.3.4
  _ZNK10KOCRDialog10metaObjectEv@Base 4:4.3.4
@@ -2808,6 +2820,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK26KCrashBookmarkImporterImpl19findDefaultLocationEb@Base 4:4.3.4
  _ZNK26KOperaBookmarkImporterImpl19findDefaultLocationEb@Base 4:4.3.4
  _ZNK26KStatusBarOfflineIndicator10metaObjectEv@Base 4:4.3.4
+ _ZNK29KAbstractFileItemActionPlugin10metaObjectEv@Base 4:4.6.1
  _ZNK32KFileMetaDataConfigurationWidget10metaObjectEv@Base 4:4.4.95
  _ZNK32KFileMetaDataConfigurationWidget5itemsEv@Base 4:4.4.95
  _ZNK32KFileMetaDataConfigurationWidget8sizeHintEv@Base 4:4.4.95
@@ -3135,6 +3148,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZTI26KOperaBookmarkImporterImpl@Base 4:4.3.4
  _ZTI26KStatusBarOfflineIndicator@Base 4:4.3.4
  _ZTI28KMozillaBookmarkImporterImpl@Base 4:4.3.4
+ _ZTI29KAbstractFileItemActionPlugin@Base 4:4.6.1
  _ZTI32KFileMetaDataConfigurationWidget@Base 4:4.4.95
  _ZTI4KACL@Base 4:4.3.4
  _ZTI4KRun@Base 4:4.3.4
@@ -3260,6 +3274,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZTS26KOperaBookmarkImporterImpl@Base 4:4.3.4
  _ZTS26KStatusBarOfflineIndicator@Base 4:4.3.4
  _ZTS28KMozillaBookmarkImporterImpl@Base 4:4.3.4
+ _ZTS29KAbstractFileItemActionPlugin@Base 4:4.6.1
  _ZTS32KFileMetaDataConfigurationWidget@Base 4:4.4.95
  _ZTS4KACL@Base 4:4.3.4
  _ZTS4KRun@Base 4:4.3.4
@@ -3385,6 +3400,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZTV26KOperaBookmarkImporterImpl@Base 4:4.3.4
  _ZTV26KStatusBarOfflineIndicator@Base 4:4.3.4
  _ZTV28KMozillaBookmarkImporterImpl@Base 4:4.3.4
+ _ZTV29KAbstractFileItemActionPlugin@Base 4:4.6.1
  _ZTV32KFileMetaDataConfigurationWidget@Base 4:4.4.95
  _ZTV4KACL@Base 4:4.3.4
  _ZTV4KRun@Base 4:4.3.4
