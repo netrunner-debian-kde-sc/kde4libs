@@ -26,7 +26,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Breaks: kdebase-runtime (<< 4:4.5), kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
-Description: the KDE Platform Core Library
+Description: KDE Platform Core Library
  All KDE Applications use this library to provide basic functionality such as
  the configuration system, IPC, internationalization and locale support,
  site-independent access to the filesystem and a large number of other (but no
@@ -42,7 +42,7 @@ Recommends: kdelibs5-data (>= ${source:Version})
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
 Suggests: hspell
-Description: the KDE Platform User Interface Library
+Description: KDE Platform User Interface Library
  This library provides standard user interface elements for use in KDE
  Applications. If your KDE Application has a GUI, you will almost certainly
  link to this library.
@@ -58,7 +58,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the Pseudo Terminal Library for the KDE Platform
+Description: Pseudo Terminal Library for the KDE Platform
  This library provides primitives to interface with pseudo terminal devices as
  well as a KProcess derived class for running child processes and communicating
  with them using a pty.
@@ -70,7 +70,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, xauth
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the Console-mode Authentication Library for the KDE Platform
+Description: Console-mode Authentication Library for the KDE Platform
  This library provides functionality for building GUI front ends for (password
  asking) console mode programs. For example, kdesu and kdessh use it to
  interface with su and ssh respectively.
@@ -82,7 +82,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the KJS API Library for the KDE Development Platform
+Description: KJS API Library for the KDE Development Platform
  This library provides an ECMAScript compatible interpreter. The ECMA standard
  is based on well known scripting languages such as Netscape's JavaScript and
  Microsoft's JScript.
@@ -107,7 +107,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kdelibs5-plugins (= ${binary:Version})
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
-Description: the Network-enabled File Management Library for the KDE Platform
+Description: Network-enabled File Management Library for the KDE Platform
  This library implements almost all the file management functions you will ever
  need. In fact, the KDE file manager, Konqueror also uses this to provide its
  network-enabled file management. This library also implements the KDE file
@@ -120,7 +120,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the NTLM Authentication Library for the KDE Platform
+Description: NTLM Authentication Library for the KDE Platform
  This library is useful for creating the authentication structures which
  can be used for various servers which implement NTLM type authentication. A
  comprehensive description of the NTLM authentication protocol can be found at
@@ -149,7 +149,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the KDE 3 Support Library for the KDE 4 Platform
+Description: KDE 3 Support Library for the KDE 4 Platform
  The classes here are only for convenience of porting from KDE 3 to KDE 4
  Platform. They are not supposed to be used for a long time. You should move on
  to replacement classes provided by the framework or implement something
@@ -162,7 +162,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
-Description: the File Selection Dialog Library for KDE Platform
+Description: File Selection Dialog Library for KDE Platform
  This library provides the file selection dialog and its components.
  .
  This package is part of the KDE Development Platform libraries module.
@@ -173,7 +173,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kdelibs5-data (= ${source:Version}), gnupg
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the "Get Hot New Stuff" v2 Library for the KDE Platform
+Description: "Get Hot New Stuff" v2 Library for the KDE Platform
  The KNewStuff2 ("Get Hot New Stuff" v2)  library adds data sharing
  capabilities to KDE Applications. Technically, it implements the GHNS and DXS
  specifications. The library consists of three parts: the data management core
@@ -186,7 +186,7 @@ Package: libknewstuff3-4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kdelibs5-data (= ${source:Version}), gnupg
-Description: the "Get Hot New Stuff" v3 Library for the KDE Platform
+Description: "Get Hot New Stuff" v3 Library for the KDE Platform
  The KNewStuff3 ("Get Hot New Stuff" v3) library adds data sharing capabilities
  to the KDE Applications. It uses libattica to access Open Collaboration
  Services providers. In addition the static XML from GHNS is supported.
@@ -198,7 +198,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
-Description: the Framework for the KDE Platform Graphical Components
+Description: Framework for the KDE Platform Graphical Components
  This library implements the framework for reusable KDE components (kparts),
  which are elaborate widgets with a user-interface defined in terms of actions
  (menu items, toolbar icons).
@@ -223,7 +223,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the ThreadWeaver Library for the KDE Platform
+Description: ThreadWeaver Library for the KDE Platform
  ThreadWeaver is a helper for multithreaded programming. It uses a job-based
  interface to queue tasks and execute them in an efficient way.  You simply
  divide the workload into jobs, state the dependencies between the jobs and
@@ -238,7 +238,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kdelibs5-plugins (= ${binary:Version})
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the KHTML Web Content Rendering Engine
+Description: KHTML Web Content Rendering Engine
  This library provides the component based on the KDE parts framework that can
  be used to embed a fully-fledged HTML browser widget in any KDE Application.
  This library uses the KHTML Web Content Rendering Engine to rendering.
@@ -250,7 +250,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
-Description: the Instant Messaging Interface Library for the KDE Platform
+Description: Instant Messaging Interface Library for the KDE Platform
  This library provides an easy-to-use interface to any instant messengers or
  chat programs that implement KIMIface.
  .
@@ -261,7 +261,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
-Description: the KMediaPlayer Interface for the KDE Platform
+Description: KMediaPlayer Interface for the KDE Platform
  KMediaPlayer provides an API for re-usable media player components. The main
  class (KMediaPlayer::Player) provides all the necessary media player
  operations, with an optional GUI to control them.
@@ -273,7 +273,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
-Description: the KTextEditor interfaces for the KDE Platform
+Description: KTextEditor interfaces for the KDE Platform
  This package provides the KTextEditor interfaces (also called KTE interfaces)
  that are a set of well-defined interfaces which an application or library can
  implement to provide advanced plain text editing services. Applications which
@@ -300,7 +300,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the DNS-SD Protocol Library for the KDE Platform
+Description: DNS-SD Protocol Library for the KDE Platform
  This library is for handling the DNS-based Service Discovery Protocol
  (DNS-SD), the layer of Zeroconf that allows network services, such as
  printers, to be discovered without any user intervention or centralized
@@ -313,7 +313,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the Kross Core Library
+Description: Kross Core Library
  Kross is a scripting bridge for the KDE Development Platform used to embed
  scripting functionality into an application. Kross provides an abstract API to
  provide scripting functionality in a interpreter-independent way. The
@@ -331,7 +331,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0)
-Description: the Kross UI Library
+Description: Kross UI Library
  Kross is a scripting bridge for the KDE Development Platform used to embed
  scripting functionality into an application. Kross provides an abstract API to
  provide scripting functionality in a interpreter-independent way. The
@@ -349,7 +349,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
 Breaks: kdelibs5 (<< 4:4.4.0), kdelibs5-data (<< 4:4.4.0)
-Description: the Nepomuk Meta Data Library
+Description: Nepomuk Meta Data Library
  Nepomuk aims to provide the basis to handle all kinds of metadata on the KDE
  desktop in a generic fashion. This ranges from simple information such as tags
  or ratings over metadata extracted from files to metadata that is generated by
@@ -367,7 +367,7 @@ Homepage: http://nepomuk.kde.org/
 Package: libnepomukutils4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: the Nepomuk Utility Library
+Description: Nepomuk Utility Library
  Nepomuk aims to provide the basis to handle all kinds of metadata on the KDE
  desktop in a generic fashion. This ranges from simple information such as tags
  or ratings over metadata extracted from files to metadata that is generated by
@@ -386,7 +386,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5, libnepomukquery4
 Breaks: kdebase-workspace-libs4+5, libnepomukquery4
-Description: the Nepomuk Query Library for the KDE Platform
+Description: Nepomuk Query Library for the KDE Platform
  Nepomuk aims to provide the basis to handle all kinds of metadata on the KDE
  desktop in a generic fashion. This ranges from simple information such as tags
  or ratings over metadata extracted from files to metadata that is generated by
@@ -406,7 +406,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdelibs5-data (<< 4:4.4.0)
 Breaks: kdelibs5-data (<< 4:4.4.0), kdebase-workspace-bin (<< 4:4.2.60)
-Description: the Plasma Library for the KDE Platform
+Description: Plasma Library for the KDE Platform
  This package contains the Plasma library. Plasma is one of the key
  technologies of KDE 4 (also known as the "Pillars of KDE"), and one of the
  most visible to users. It is the component that is "in charge" of the desktop
@@ -422,7 +422,7 @@ Homepage: http://plasma.kde.org/
 Package: libkunitconversion4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: the Unit Conversion library for the KDE Platform
+Description: Unit Conversion library for the KDE Platform
  The kunitconversion library can help KDE 4 application in doing conversions of
  values in different measure units.
  .
@@ -445,7 +445,7 @@ Description: the Unit Conversion library for the KDE Platform
 Package: libkdewebkit5
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: the KDE WebKit Library
+Description: KDE WebKit Library
  This library provides KDE integration of the QtWebKit library.
  .
  This package is part of the KDE Development Platform libraries module.
@@ -453,7 +453,7 @@ Description: the KDE WebKit Library
 Package: libkatepartinterfaces4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: the kate part library
+Description: kate part library
  This library contains the code used by the kate part. It is not
  meant to be used directly, applications should use libktexteditor4
  instead.

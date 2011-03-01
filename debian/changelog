@@ -71,6 +71,7 @@ kde4libs (4:4.6.1-0r0) UNRELEASED; urgency=low
     js bindings to dynamically create ui files. Thanks to Pino Toscano for
     pointing the problem.
   * Update lintian overrides.
+  * Remove articles from short descriptions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 14:54:10 +0100
 
