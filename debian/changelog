@@ -63,6 +63,8 @@ kde4libs (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Improve Depends and Recommends of libsolid:
     - Linux archs: depend on udev, and recommend udisks and upower
     - non-Linux archs: depend on hal
+  * Drop patch 28_find_old_kde4_html_documentation.diff, which was temporary
+    for migration to Squeeze.
 
   [ José Manuel Santamaría Lema ]
   * Disable 23_solid_no_double_build.diff, produces FTBFS.
