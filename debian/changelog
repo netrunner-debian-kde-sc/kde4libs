@@ -1,3 +1,8 @@
+kde4libs (4:4.4.5-3~pre) UNRELEASED; urgency=low
+
+
+ -- Sune Vuorela <sune@debian.org>  Tue, 15 Mar 2011 23:05:06 +0100
+
 kde4libs (4:4.4.5-2+squeeze1) stable-proposed-updates; urgency=low
 
   * Add a kconf_update script (migrate_from_kde3_icon_theme) to migrate away
