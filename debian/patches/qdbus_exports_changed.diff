@@ -1,0 +1,12 @@
+Author: Sune
+--- a/kded/kded.cpp
++++ b/kded/kded.cpp
+@@ -72,7 +72,7 @@ static bool bCheckSycoca;
+ static bool bCheckUpdates;
+ static bool bCheckHostname;
+ 
+-extern QDBUS_EXPORT void qDBusAddSpyHook(void (*)(const QDBusMessage&));
++extern Q_DBUS_EXPORT void qDBusAddSpyHook(void (*)(const QDBusMessage&));
+ 
+ static void runBuildSycoca(QObject *callBackObj=0, const char *callBackSlot=0)
+ {
