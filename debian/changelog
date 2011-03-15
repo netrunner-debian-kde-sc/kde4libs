@@ -2,6 +2,7 @@ kde4libs (4:4.4.5-3~pre) UNRELEASED; urgency=low
 
   * Fix build failures
     - QDBUS_EXPORT => Q_DBUS_EXPORT (Closes: #618111)
+    - libqtwebkit-dev build-dep
 
  -- Sune Vuorela <sune@debian.org>  Tue, 15 Mar 2011 23:05:06 +0100
 
