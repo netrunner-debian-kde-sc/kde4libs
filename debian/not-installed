@@ -1,6 +1,6 @@
 ./usr/lib/libkatepartinterfaces.so
 
-# These files are move by dh_movelibkdeinit
+# These files are moved by dh_movelibkdeinit
 ./usr/lib/libkdeinit4_kbuildsycoca4.so
 ./usr/lib/libkdeinit4_kconf_update.so
 ./usr/lib/libkdeinit4_kded4.so
