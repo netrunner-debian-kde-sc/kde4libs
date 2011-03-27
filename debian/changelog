@@ -21,6 +21,7 @@ kde4libs (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Remove ~/.kde4 -> ~/.kde transition templates, no longer needed.
   * Set ENABLE_LIBKDEINIT_RUNPATH to ON if build type is Debian
     (patch make_libkdeinit4_private.diff altered).
+  * Require pkg-kde-tools 0.12 due to ENABLE_LIBKDEINIT_RUNPATH change above.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
