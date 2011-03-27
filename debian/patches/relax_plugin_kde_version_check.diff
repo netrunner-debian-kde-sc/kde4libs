@@ -18,7 +18,7 @@ Last-Update: 2010-06-22
 
 --- a/kdecore/util/kpluginloader.cpp
 +++ b/kdecore/util/kpluginloader.cpp
-@@ -243,7 +243,6 @@
+@@ -243,7 +243,6 @@ bool KPluginLoader::load()
      d->verificationData = (KDEPluginVerificationData *) lib.resolve("kde_plugin_verification_data");
      if (d->verificationData) {
          if (d->verificationData->dataVersion < KDEPluginVerificationData::PluginVerificationDataVersion
@@ -28,7 +28,7 @@ Last-Update: 2010-06-22
              d->errorString = i18n("The plugin '%1' uses an incompatible KDE library (%2).", d->name, QString::fromLatin1(d->verificationData->KDEVersionString));
 --- a/plasma/version.cpp
 +++ b/plasma/version.cpp
-@@ -58,12 +58,11 @@
+@@ -58,12 +58,11 @@ bool isPluginVersionCompatible(unsigned
  
      // we require PLASMA_VERSION_MAJOR and PLASMA_VERSION_MINOR
      const quint32 minVersion = PLASMA_MAKE_VERSION(PLASMA_VERSION_MAJOR, 0, 0);

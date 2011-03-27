@@ -172,7 +172,7 @@ Useful when upgrading from KDE 3 to KDE 4 because default KDE 3 theme
 +}
 --- a/kdeui/CMakeLists.txt
 +++ b/kdeui/CMakeLists.txt
-@@ -376,6 +376,16 @@ set_target_properties(kdeui PROPERTIES V
+@@ -438,6 +438,16 @@ set_target_properties(kdeui PROPERTIES V
                         )
  
  install(TARGETS kdeui EXPORT kdelibsLibraryTargets ${INSTALL_TARGETS_DEFAULT_ARGS})

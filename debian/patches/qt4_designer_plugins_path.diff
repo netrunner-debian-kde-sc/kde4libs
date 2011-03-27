@@ -1,8 +1,6 @@
-Index: kde4libs/kdewidgets/CMakeLists.txt
-===================================================================
---- kde4libs.orig/kdewidgets/CMakeLists.txt	2010-12-18 13:02:55.710619796 +0100
-+++ kde4libs/kdewidgets/CMakeLists.txt	2010-12-18 13:11:17.282071131 +0100
-@@ -54,7 +54,7 @@
+--- a/kdewidgets/CMakeLists.txt
++++ b/kdewidgets/CMakeLists.txt
+@@ -54,7 +54,7 @@ if(QT_QTDESIGNER_FOUND)
                           )
    endif(NOT WIN32)
  
@@ -11,7 +9,7 @@ Index: kde4libs/kdewidgets/CMakeLists.txt
  
    # deprecated widgets
    if(NOT KDE_NO_DEPRECATED)
-@@ -84,7 +84,7 @@
+@@ -83,7 +83,7 @@ if(QT_QTDESIGNER_FOUND)
                             )
      endif(NOT WIN32)
  
@@ -20,7 +18,7 @@ Index: kde4libs/kdewidgets/CMakeLists.txt
    endif(NOT KDE_NO_DEPRECATED)
  
  
-@@ -119,7 +119,7 @@
+@@ -117,7 +117,7 @@ if(QT_QTDESIGNER_FOUND)
                           )
    endif(NOT WIN32)
  
@@ -29,7 +27,7 @@ Index: kde4libs/kdewidgets/CMakeLists.txt
  
  
    if (QT_QT3SUPPORT_FOUND)
-@@ -154,7 +154,7 @@
+@@ -152,7 +152,7 @@ if(QT_QTDESIGNER_FOUND)
                               )
       endif(NOT WIN32)
  

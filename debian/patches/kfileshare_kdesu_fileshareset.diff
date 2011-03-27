@@ -9,7 +9,7 @@ Last-Update: 2010-05-31
 
 --- a/kio/kio/kfileshare.cpp
 +++ b/kio/kio/kfileshare.cpp
-@@ -239,17 +239,19 @@
+@@ -239,17 +239,19 @@ bool KFileShare::setShared( const QStrin
         return false;
  
      kDebug(7000) << path << "," << shared;

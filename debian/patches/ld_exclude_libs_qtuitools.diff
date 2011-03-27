@@ -5,7 +5,7 @@ Forwarded: not-needed
 
 --- a/plasma/CMakeLists.txt
 +++ b/plasma/CMakeLists.txt
-@@ -253,6 +253,9 @@
+@@ -252,6 +252,9 @@ target_link_libraries(plasma ${QT_QTUITO
                               ${QT_QTSCRIPT_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTXML_LIBRARY} ${QT_QTSQL_LIBRARY} ${QT_QTDECLARATIVE_LIBRARY}
                               ${KDE4_KDEUI_LIBS} kdnssd threadweaver ${PLASMA_EXTRA_LIBS})
  
@@ -17,7 +17,7 @@ Forwarded: not-needed
  endif(QCA2_FOUND)
 --- a/kjsembed/kjsembed/CMakeLists.txt
 +++ b/kjsembed/kjsembed/CMakeLists.txt
-@@ -71,7 +71,8 @@
+@@ -71,7 +71,8 @@ target_link_libraries(${KJSEMBEDLIBNAME}
  set_target_properties(${KJSEMBEDLIBNAME} PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS ${KJSEMBEDLIBNAME} EXPORT kdelibsLibraryTargets ${INSTALL_TARGETS_DEFAULT_ARGS})
  

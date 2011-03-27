@@ -13,7 +13,7 @@ Last-Update: 2011-01-30
 
 --- a/kdewidgets/CMakeLists.txt
 +++ b/kdewidgets/CMakeLists.txt
-@@ -51,7 +51,6 @@
+@@ -51,7 +51,6 @@ if(QT_QTDESIGNER_FOUND)
                                       INSTALL_RPATH_USE_LINK_PATH TRUE
                                       SKIP_BUILD_RPATH TRUE
                                       BUILD_WITH_INSTALL_RPATH TRUE
@@ -21,7 +21,7 @@ Last-Update: 2011-01-30
                           )
    endif(NOT WIN32)
  
-@@ -81,7 +80,6 @@
+@@ -81,7 +80,6 @@ if(QT_QTDESIGNER_FOUND)
                                            INSTALL_RPATH_USE_LINK_PATH TRUE
                                            SKIP_BUILD_RPATH TRUE
                                            BUILD_WITH_INSTALL_RPATH TRUE
@@ -29,7 +29,7 @@ Last-Update: 2011-01-30
                             )
      endif(NOT WIN32)
  
-@@ -116,7 +114,6 @@
+@@ -116,7 +114,6 @@ if(QT_QTDESIGNER_FOUND)
                                       INSTALL_RPATH_USE_LINK_PATH TRUE
                                       SKIP_BUILD_RPATH TRUE
                                       BUILD_WITH_INSTALL_RPATH TRUE
@@ -37,7 +37,7 @@ Last-Update: 2011-01-30
                           )
    endif(NOT WIN32)
  
-@@ -152,7 +149,6 @@
+@@ -152,7 +149,6 @@ if(QT_QTDESIGNER_FOUND)
                                       INSTALL_RPATH_USE_LINK_PATH TRUE
                                       SKIP_BUILD_RPATH TRUE
                                       BUILD_WITH_INSTALL_RPATH TRUE
