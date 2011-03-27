@@ -1,24 +1,24 @@
 From: Modestas Vainius <modax@debian.org>
 Subject: Framework for making libkdeinit4_*.so "private"
- The patch adds LIBKDEINIT_INSTALL_DIR cmake flag which specifies where
- libkdeinit4_*.so are supposed to end up. Please note, however, that
- libkdeinit4_*.so will not be automatically installed to LIBKDEINIT_INSTALL_DIR
- (but rather LIB_INSTALL_DIR) after cmake_install and you will need to be move
- to LIBKDEINIT_INSTALL_DIR manually in packaging (or e.g. with
- dh_movelibkdeinit).
- .
- Therefore, RUNPATH is disabled by default due to above limitation. Each
- application will have to set ENABLE_LIBKDEINIT_RUNPATH:BOOL=ON cmake flag in
- order for proper RUNPATH to be set on the generated kdeinit executables. However,
- CDBS kde.mk and debhelper kde addon/buildsystem enable this flag by default and
- hence call dh_movelibkdeinit.
- .
- The patch also adds support for "kdeinit" resource type to KDE Platform
- libraries.
 Forwarded: no
 Origin: vendor
 Last-Update: 2010-06-07
 
+The patch adds LIBKDEINIT_INSTALL_DIR cmake flag which specifies where
+libkdeinit4_*.so are supposed to end up. Please note, however, that
+libkdeinit4_*.so will not be automatically installed to LIBKDEINIT_INSTALL_DIR
+(but rather LIB_INSTALL_DIR) after cmake_install and you will need to be move
+to LIBKDEINIT_INSTALL_DIR manually in packaging (or e.g. with
+dh_movelibkdeinit).
+
+Therefore, RUNPATH is disabled by default due to above limitation. Each
+application will have to set ENABLE_LIBKDEINIT_RUNPATH:BOOL=ON cmake flag in
+order for proper RUNPATH to be set on the generated kdeinit executables. However,
+CDBS kde.mk and debhelper kde addon/buildsystem enable this flag by default and
+hence call dh_movelibkdeinit.
+
+The patch also adds support for "kdeinit" resource type to KDE Platform
+libraries.
 --- a/CreateKDELibsDependenciesFile.cmake
 +++ b/CreateKDELibsDependenciesFile.cmake
 @@ -32,6 +32,7 @@ set(KDE4_INSTALL_DIR "${CMAKE_INSTALL_PR
