@@ -16,6 +16,18 @@ ifeq (ia64,$(shell dpkg-architecture -qDEB_HOST_ARCH))
     export CXXFLAGS += -ffunction-sections
 endif
 
+override_dh_auto_configure:
+	$(overriden_command) -- -DKDE4_BUILD_TESTS=false \
+	    -DKDE_DISTRIBUTION_TEXT="Debian packages" \
+	    -DKDE4_USE_ALWAYS_FULL_RPATH=false \
+	    -DCONFIG_INSTALL_DIR=/usr/share/kde4/config \
+	    -DDATA_INSTALL_DIR=/usr/share/kde4/apps \
+	    -DHTML_INSTALL_DIR=/usr/share/doc/kde/HTML \
+	    -DKCFG_INSTALL_DIR=/usr/share/kde4/config.kcfg \
+	    -DLIB_INSTALL_DIR=/usr/lib \
+	    -DSYSCONF_INSTALL_DIR=/etc \
+	    -DLIBKDEINIT_INSTALL_DIR:PATH=/usr/lib/kde4/libkdeinit
+
 .PHONY: override_dh_auto_test
 
 override_dh_auto_install:
