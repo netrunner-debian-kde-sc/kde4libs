@@ -14,6 +14,7 @@ kde4libs (4:4.6.1-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Bump Standards-Version to 3.9.1: add Breaks next to Replaces where needed.
+  * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
