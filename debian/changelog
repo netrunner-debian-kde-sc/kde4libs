@@ -47,7 +47,7 @@ kde4libs (4:4.6.1-0r1) UNRELEASED; urgency=low
   [ Didier Raboud ]
   * Adjust build-dependencies:
     - Bump required:
-      - Qt to 4:4.7.0~rc1.
+      - Qt to 4:4.7.0.
       - libattica to 0.1.90.
       - soprano to 2.5.60.
       - polkit-qt-1 to 0.99.0.
