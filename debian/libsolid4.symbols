@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.85 amd64
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libsolid.so.4 libsolid4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN5Solid10Networking13connectPolicyEv@Base 4:4.4.95
@@ -216,7 +216,6 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZN5Solid6Device13listFromQueryERK7QStringS3_@Base 4:4.3.4
  _ZN5Solid6Device13listFromQueryERKNS_9PredicateERK7QString@Base 4:4.3.4
  _ZN5Solid6Device17asDeviceInterfaceERKNS_15DeviceInterface4TypeE@Base 4:4.3.4
- (optional=templinst)_ZN5Solid6Device2asINS_16GenericInterfaceEEEPT_v@Base 4:4.4.0
  _ZN5Solid6DeviceC1ERK7QString@Base 4:4.3.4
  _ZN5Solid6DeviceC1ERKS0_@Base 4:4.3.4
  _ZN5Solid6DeviceC2ERK7QString@Base 4:4.3.4

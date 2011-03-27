@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.85 amd64
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libnepomuk.so.4 libnepomuk4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN15KTagCloudWidget10tagClickedERK7QString@Base 4:4.3.4
@@ -47,8 +47,10 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NCO11phoneNumberEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO12ContactGroupEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO12EmailAddressEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO12IMCapabilityEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO12emailAddressEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO12hasIMAccountEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO12isAccessedByEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO12ncoNamespaceEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO13ContactMediumEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO13PersonContactEv@Base 4:4.5.85
@@ -69,21 +71,27 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NCO15containsContactEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO15extendedAddressEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO15hasEmailAddressEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO15hasIMCapabilityEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO15imStatusMessageEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO16VoicePhoneNumberEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO16contactGroupNameEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO16hasContactMediumEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO16hasPostalAddressEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO16imCapabilityTextEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO16nrlOntologyGraphEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO17imCapabilityAudioEv@Base 4:4.6.1
+ _ZN7Nepomuk10Vocabulary3NCO17imCapabilityVideoEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO19OrganizationContactEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO19nameHonorificPrefixEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO19nameHonorificSuffixEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO19publishesPresenceToEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO20VideoTelephoneNumberEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO20contactMediumCommentEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO21ContactListDataObjectEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO21ParcelDeliveryAddressEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO23DomesticDeliveryAddressEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO28InternationalDeliveryAddressEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO31requestedPresenceSubscriptionToEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO3endEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO3keyEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO3orgEv@Base 4:4.5.85
@@ -118,6 +126,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NCO9IMAccountEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO9PcsNumberEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO9birthDateEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO9isBlockedEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO9nameGivenEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO9publisherEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO9voiceMailEv@Base 4:4.5.85
@@ -785,6 +794,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary4NUAO18totalEventDurationEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO18totalUsageDurationEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO25totalModificationDurationEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary4NUAO3endEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary4NUAO5EventEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO5startEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO8durationEv@Base 4:4.5.85

@@ -1,12 +1,13 @@
-# SymbolsHelper-Confirmed: 4:4.4.95 amd64
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libkjsembed.so.4 libkjsembed4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
- _ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.4.95
  (arch=!armel)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
+ _ZN3KJS6JSCellD2Ev@Base 4:4.6.1
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
+ _ZN3KJS7JSValueD2Ev@Base 4:4.6.1
  _ZN3KJS7UStringC1ERK7QString@Base 4:4.3.4
  _ZN3KJS7UStringC2ERK7QString@Base 4:4.3.4
  _ZN8KJSEmbed10extractIntEPN3KJS9ExecStateEPNS0_7JSValueEi@Base 4:4.3.4
@@ -78,7 +79,6 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed14VariantBindingC2EPN3KJS9ExecStateERK8QVariant@Base 4:4.3.4
  _ZN8KJSEmbed14VariantFactory14VariantMethodsE@Base 4:4.3.4
  _ZN8KJSEmbed14convertToValueEPN3KJS9ExecStateERK8QVariant@Base 4:4.3.4
- (optional=templinst)_ZN8KJSEmbed14extractIntegerIN2Qt10BrushStyleEEET_PN3KJS9ExecStateERKNS4_4ListEiS3_@Base 4:4.3.4
  _ZN8KJSEmbed14extractQStringEPN3KJS9ExecStateEPNS0_7JSValueE7QString@Base 4:4.3.4
  _ZN8KJSEmbed14extractQStringEPN3KJS9ExecStateERKNS0_4ListEi7QString@Base 4:4.3.4
  _ZN8KJSEmbed14extractVariantEPN3KJS9ExecStateEPNS0_7JSValueE@Base 4:4.3.4
@@ -180,14 +180,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed9SvgWidgetC1EPN3KJS9ExecStateEP10QSvgWidget@Base 4:4.3.4
  _ZN8KJSEmbed9SvgWidgetC2EPN3KJS9ExecStateEP10QSvgWidget@Base 4:4.3.4
  _ZNK3KJS10Identifier7qstringEv@Base 4:4.3.4
- _ZNK3KJS7JSValue4typeEv@Base 4:4.3.4
- _ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.4.95
- _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.3.4
- _ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateE@Base 4:4.4.95
  _ZNK3KJS7UString7qstringEv@Base 4:4.3.4
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.3.4
  _ZNK8KJSEmbed13ObjectBinding4typeEv@Base 4:4.3.4
- (optional=templinst)_ZNK8KJSEmbed13ObjectBinding6objectI7QObjectEEPT_v@Base 4:4.3.4
  _ZNK8KJSEmbed13ObjectBinding8toStringEPN3KJS9ExecStateE@Base 4:4.3.4
  _ZNK8KJSEmbed13ObjectBinding8typeNameEv@Base 4:4.3.4
  _ZNK8KJSEmbed13ObjectBinding9classNameEv@Base 4:4.3.4

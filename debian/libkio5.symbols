@@ -293,9 +293,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN12KAutoUnmountD0Ev@Base 4:4.3.4
  _ZN12KAutoUnmountD1Ev@Base 4:4.3.4
  _ZN12KAutoUnmountD2Ev@Base 4:4.3.4
- (optional=templinst)_ZN12KConfigGroup10writeCheckIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.3.4
- (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.3.4
- (optional=templinst|arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.3.4
  _ZN12KSSLSettings10getEGDPathEv@Base 4:4.3.4
  _ZN12KSSLSettings13getCipherListEv@Base 4:4.3.4
  _ZN12KSSLSettings14setWarnOnEnterEb@Base 4:4.3.4
@@ -1339,8 +1336,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD0Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
- _ZN3KDE4statERK7QStringP4stat@Base 4:4.3.4
- _ZN3KDE6renameERK7QStringS2_@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO10Connection15connectToRemoteERK7QString@Base 4:4.3.4
@@ -2511,6 +2506,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK11KScanDialog10metaObjectEv@Base 4:4.3.4
  _ZNK11KScanDialog2idEv@Base 4:4.3.4
  _ZNK12KAutoUnmount10metaObjectEv@Base 4:4.3.4
+ (optional=templinst)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.6.1
  (optional=templinst|arch=sparc)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.4.2
  (optional=templinst|arch=armel hppa sparc)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.4.2
  _ZNK12KSSLSettings11warnOnEnterEv@Base 4:4.3.4
@@ -3070,6 +3066,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK9KNFSShare11exportsPathEv@Base 4:4.3.4
  _ZNK9KNFSShare17isDirectorySharedERK7QString@Base 4:4.3.4
  _ZNK9KNFSShare17sharedDirectoriesEv@Base 4:4.3.4
+ (optional=templinst)_ZSt8for_eachIPP7QWidgetSt9mem_fun_tIvS0_EET0_T_S6_S5_@Base 4:4.6.1
  _ZTI10KAutoMount@Base 4:4.3.4
  _ZTI10KDirLister@Base 4:4.3.4
  _ZTI10KOCRDialog@Base 4:4.3.4
