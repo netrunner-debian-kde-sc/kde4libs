@@ -18,6 +18,7 @@ kde4libs (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Drop kdelibs5 transitional package.
   * Remove sequence numbers from debian/patches.
   * Drop kaboom support, no longer needed.
+  * Remove ~/.kde4 -> ~/.kde transition templates, no longer needed.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
