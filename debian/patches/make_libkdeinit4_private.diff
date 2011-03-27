@@ -2,7 +2,7 @@ From: Modestas Vainius <modax@debian.org>
 Subject: Framework for making libkdeinit4_*.so "private"
 Forwarded: no
 Origin: vendor
-Last-Update: 2010-06-07
+Last-Update: 2011-03-27
 
 The patch adds LIBKDEINIT_INSTALL_DIR cmake flag which specifies where
 libkdeinit4_*.so are supposed to end up. Please note, however, that
@@ -11,11 +11,11 @@ libkdeinit4_*.so will not be automatically installed to LIBKDEINIT_INSTALL_DIR
 to LIBKDEINIT_INSTALL_DIR manually in packaging (or e.g. with
 dh_movelibkdeinit).
 
-Therefore, RUNPATH is disabled by default due to above limitation. Each
-application will have to set ENABLE_LIBKDEINIT_RUNPATH:BOOL=ON cmake flag in
-order for proper RUNPATH to be set on the generated kdeinit executables. However,
-CDBS kde.mk and debhelper kde addon/buildsystem enable this flag by default and
-hence call dh_movelibkdeinit.
+ENABLE_LIBKDEINIT_RUNPATH boolean variable controls whether to add RUNPATH to
+generated kdeinit executables. ENABLE_LIBKDEINIT_RUNPATH is OFF by default
+unless CMAKE_BUILD_TYPE is set to Debian. However, please note that CDBS kde.mk
+and debhelper kde addon/buildsystem set CMAKE_BUILD_TYPE=Debian and call
+dh_movelibkdeinit by default.
 
 The patch also adds support for "kdeinit" resource type to KDE Platform
 libraries.
@@ -47,6 +47,17 @@ libraries.
     _set_fancy(IMPORTS_INSTALL_DIR       "${PLUGIN_INSTALL_DIR}/imports"                "The subdirectory relative to the install prefix where imports will be installed")
     _set_fancy(CONFIG_INSTALL_DIR       "${SHARE_INSTALL_PREFIX}/config"         "The config file install dir")
     _set_fancy(DATA_INSTALL_DIR         "${SHARE_INSTALL_PREFIX}/apps"           "The parent directory where applications can install their data")
+@@ -1334,6 +1335,10 @@ if (CMAKE_C_COMPILER MATCHES "icc")
+ 
+ endif (CMAKE_C_COMPILER MATCHES "icc")
+ 
++if (CMAKE_BUILD_TYPE AND CMAKE_BUILD_TYPE STREQUAL "Debian")
++   set(ENABLE_LIBKDEINIT_RUNPATH ON CACHE BOOL
++       "Add R(UN)PATH to kdeinit-based shared executables (defaults to ON if build type is Debian)")
++endif (CMAKE_BUILD_TYPE AND CMAKE_BUILD_TYPE STREQUAL "Debian")
+ 
+ ###########    end of platform specific stuff  ##########################
+ 
 --- a/cmake/modules/KDE4Macros.cmake
 +++ b/cmake/modules/KDE4Macros.cmake
 @@ -810,6 +810,17 @@ macro (KDE4_ADD_KDEINIT_EXECUTABLE _targ
