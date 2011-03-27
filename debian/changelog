@@ -42,7 +42,7 @@ kde4libs (4:4.6.1-0r1) UNRELEASED; urgency=low
     transitional library with no symbols.
   * Add docbook-xml dependency on the kdoctools package,
     as it is required for building all of kde's documentation.
-  * Bump kdebase-runtime Breaks/Recommends to version 4.5.
+  * Bump kdebase-runtime Breaks/Recommends to version 4.6.
 
   [ Didier Raboud ]
   * Adjust build-dependencies:
