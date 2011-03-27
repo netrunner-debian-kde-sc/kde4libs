@@ -16,6 +16,8 @@ ifeq (ia64,$(shell dpkg-architecture -qDEB_HOST_ARCH))
     export CXXFLAGS += -ffunction-sections
 endif
 
+.PHONY: override_dh_auto_test
+
 override_dh_auto_install:
 	$(overriden_command)
 	chmod a+x debian/tmp/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh
