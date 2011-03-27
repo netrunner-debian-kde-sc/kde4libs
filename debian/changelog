@@ -25,6 +25,7 @@ kde4libs (4:4.6.1-0r2) UNRELEASED; urgency=low
   * Pass required kdelibs cmake flags to dh_auto_configure.
     qt-kde-team/2/debian-qt-kde.mk no longer passes them implicitly.
   * Build depend on libgrantlee-dev (>= 0.1.0).
+  * Remove move a deprecated link to the BSD license from debian/copyright.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
