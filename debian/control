@@ -581,17 +581,6 @@ Description: development files for the KDE Development Platform libraries
  .
  This package is part of the KDE Development Platform libraries module.
 
-Package: kdelibs5
-Architecture: any
-Depends: ${misc:Depends}, ${kde43Libraries}, kdelibs5-plugins (= ${binary:Version})
-Breaks: kdelibs5-data (<< 4:4.2.2)
-Description: transitional package for the KDE Development Platform libraries
- This is a dummy transitional package to enable installation of other Debian
- packages linked against KDE 4.0 - 4.3 versions of the cumulative KDE
- Development Platform Libraries package previously shipped in Debian.
- .
- This package is part of the KDE Development Platform libraries module.
-
 Package: kdelibs5-dbg
 Section: debug
 Architecture: any

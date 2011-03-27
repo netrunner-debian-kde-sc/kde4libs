@@ -33,11 +33,6 @@ override_dh_shlibdeps:
 	$(overriden_command) -- -xkdebase-runtime -xphonon
 
 # Library stuff
-libpkgs_kde43_packages := libkdecore5 libkdeui5 libkde3support4 libkdesu5 libkdnssd4 \
-    libkfile4 libkhtml5 libkimproxy4 libkio5 libkjsapi4 libkjsembed4 libkmediaplayer4 \
-    libknewstuff2-4 libknotifyconfig4 libkntlm4 libkparts4 libkpty4 libkrosscore4 libkrossui4 \
-    libktexteditor4 libkutils4 libnepomuk4 libsolid4 libthreadweaver4
-libpkgs_addsubst_kde43Libraries = kdelibs5
 libpkgs_addsubst_allLibraries = kdelibs5-dev kdelibs5-dbg
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
