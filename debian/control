@@ -517,7 +517,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kdelibs5-data (= ${source:Version}), kdoctools (= ${binary:Version}),
  kdelibs-bin (= ${binary:Version}),
  dbus-x11, shared-mime-info (>= 0.30), xdg-utils
-Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.6), kaboom (>= 1.0.5)
+Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.6)
 Replaces: kdelibs5 (<< 4:4.4.0), kdelibs-bin (<< 4:4.1.74), kdelibs5-dev (<< 4:4.5.86)
 Breaks: kdelibs5 (<< 4:4.4.0), kdelibs-bin (<< 4:4.1.74), kdelibs5-dev (<< 4:4.5.86),
  kdelibs5-data (<< 4:4.2.2)
