@@ -17,7 +17,7 @@ ifeq (ia64,$(shell dpkg-architecture -qDEB_HOST_ARCH))
 endif
 
 override_dh_auto_configure:
-	$(overriden_command) -- -DKDE4_BUILD_TESTS=false \
+	$(overridden_command) -- -DKDE4_BUILD_TESTS=false \
 	    -DKDE_DISTRIBUTION_TEXT="Debian packages" \
 	    -DKDE4_USE_ALWAYS_FULL_RPATH=false \
 	    -DCONFIG_INSTALL_DIR=/usr/share/kde4/config \
@@ -31,20 +31,20 @@ override_dh_auto_configure:
 .PHONY: override_dh_auto_test
 
 override_dh_auto_install:
-	$(overriden_command)
+	$(overridden_command)
 	chmod a+x debian/tmp/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh
 
 #bump version for every new upstream version!
 override_dh_makeshlibs:
-	$(overriden_command) -plibkdecore5 -V'libkdecore5 (>= $(UPSTREAMVERSION)), $(RUNTIME_DEPS)' -- -c0
-	$(overriden_command) -V --remaining-packages -- -c0
+	$(overridden_command) -plibkdecore5 -V'libkdecore5 (>= $(UPSTREAMVERSION)), $(RUNTIME_DEPS)' -- -c0
+	$(overridden_command) -V --remaining-packages -- -c0
 
 override_dh_strip:
-	$(overriden_command) --dbg-package=kdelibs5-dbg
+	$(overridden_command) --dbg-package=kdelibs5-dbg
 
 # remove dependencies on kdebase-runtime and phonon (the metapackage)
 override_dh_shlibdeps:
-	$(overriden_command) -- -xkdebase-runtime -xphonon
+	$(overridden_command) -- -xkdebase-runtime -xphonon
 
 # Library stuff
 libpkgs_addsubst_allLibraries = kdelibs5-dev kdelibs5-dbg
