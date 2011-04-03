@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64 i386
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -2954,11 +2954,11 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK9KHTMLView9mediaTypeEv@Base 4:4.3.4
  _ZNK9KHTMLView9pagedModeEv@Base 4:4.3.4
  _ZNK9KHTMLView9zoomLevelEv@Base 4:4.3.4
- (optional=templinst)_ZSt11__push_heapIPN7WebCore18SVGGlyphIdentifierElS1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.6.1
- (optional=templinst)_ZSt13__adjust_heapIPN7WebCore18SVGGlyphIdentifierElS1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.6.1
+ (optional=templinst|subst)_ZSt11__push_heapIPN7WebCore18SVGGlyphIdentifierE{ssize_t}S1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.6.1
+ (optional=templinst|subst)_ZSt13__adjust_heapIPN7WebCore18SVGGlyphIdentifierE{ssize_t}S1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.6.1
  (optional=templinst)_ZSt13__heap_selectIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 4:4.6.1
  (optional=templinst)_ZSt16__insertion_sortIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.6.1
- (optional=templinst)_ZSt16__introsort_loopIPN7WebCore18SVGGlyphIdentifierElPFbRKS1_S4_EEvT_S7_T0_T1_@Base 4:4.6.1
+ (optional=templinst|subst)_ZSt16__introsort_loopIPN7WebCore18SVGGlyphIdentifierE{ssize_t}PFbRKS1_S4_EEvT_S7_T0_T1_@Base 4:4.6.1
  (optional=templinst)_ZSt19__move_median_firstIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 4:4.6.1
  (optional=templinst)_ZSt21__unguarded_partitionIPN7WebCore18SVGGlyphIdentifierES1_PFbRKS1_S4_EET_S7_S7_RKT0_T1_@Base 4:4.6.1
  (optional=templinst)_ZSt22__final_insertion_sortIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.6.1
