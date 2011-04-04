@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -660,6 +660,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN13KZipFileEntryD0Ev@Base 4:4.4.95
  _ZN13KZipFileEntryD1Ev@Base 4:4.4.95
  _ZN13KZipFileEntryD2Ev@Base 4:4.4.95
+ _ZN14KCatalogLoaderC1ERK7QString@Base 4:4.6.2
+ _ZN14KCatalogLoaderC2ERK7QString@Base 4:4.6.2
  _ZN14KComponentData12setAboutDataERK10KAboutData@Base 4:4.4.95
  _ZN14KComponentData12virtual_hookEiPv@Base 4:4.3.4
  _ZN14KComponentData13setConfigNameERK7QString@Base 4:4.3.4

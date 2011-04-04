@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -54,8 +54,10 @@ libkio.so.5 libkio5 #MINVER#
  (optional=private)_ZN10KDirLister7Private14CachedItemsJob16staticMetaObjectE@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14CachedItemsJob4doneEv@Base 4:4.3.4
  _ZN10KDirLister7Private14CachedItemsJob6doKillEv@Base 4:4.6.1
- _ZN10KDirLister7Private14CachedItemsJobC1EPS_RK13KFileItemListRK9KFileItemRK4KUrlb@Base 4:4.6.1
- _ZN10KDirLister7Private14CachedItemsJobC2EPS_RK13KFileItemListRK9KFileItemRK4KUrlb@Base 4:4.6.1
+#MISSING: 4:4.6.2# _ZN10KDirLister7Private14CachedItemsJobC1EPS_RK13KFileItemListRK9KFileItemRK4KUrlb@Base 4:4.6.1
+ _ZN10KDirLister7Private14CachedItemsJobC1EPS_RK4KUrlb@Base 4:4.6.2
+#MISSING: 4:4.6.2# _ZN10KDirLister7Private14CachedItemsJobC2EPS_RK13KFileItemListRK9KFileItemRK4KUrlb@Base 4:4.6.1
+ _ZN10KDirLister7Private14CachedItemsJobC2EPS_RK4KUrlb@Base 4:4.6.2
  (optional=private)_ZN10KDirLister7Private14_k_slotPercentEP4KJobm@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14addRefreshItemERK4KUrlRK9KFileItemS6_@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private16_k_slotTotalSizeEP4KJoby@Base 4:4.3.4
