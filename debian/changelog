@@ -9,6 +9,8 @@ kde4libs (4:4.6.2-0r2) UNRELEASED; urgency=low
     - fixes strigi using 100% cpu load when suspended (Closes: #585117)
     - fixes QPainter error message flood in khtml (Closes: #598975)
     - kio_ftp can copy 0 bytes (empty) files (Closes: #550121)
+    - kio_ftp supports FTP URL typecodes (Closes: #277792)
+    - fix printing of a HTML file with KHTML (Closes: #415559)
   * Update installed files.
   * Update symbol files.
   * Refresh patches.
