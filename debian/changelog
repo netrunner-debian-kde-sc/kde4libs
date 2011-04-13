@@ -2,6 +2,8 @@ kde4libs (4:4.4.5-2+squeeze2) UNRELEASED; urgency=low
 
   * Fix CVE-2011-1168 (Konqueror partially universal XSS in error pages) by
     cve_2011_1168_konqueror_xss.diff.
+  * Fix CVE-2010-3170 (browser wildcard cerficate validation weakness) for
+    Konqueror by cve_2010_3170_cn_wildcards.diff.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 12 Apr 2011 21:16:20 +0200
 
