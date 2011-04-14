@@ -1,8 +1,18 @@
 kde4libs (4:4.4.5-3~pre) UNRELEASED; urgency=low
 
+  [ Sune Vuorela ]
   * Fix build failures
     - QDBUS_EXPORT => Q_DBUS_EXPORT (Closes: #618111)
     - libqtwebkit-dev build-dep
+
+  [ José Manuel Santamaría Lema ]
+  * Fix CVE-2011-1168 (Konqueror partially universal XSS in error pages) by
+    cve_2011_1168_konqueror_xss.diff.
+  * Fix CVE-2010-3170 (browser wildcard cerficate validation weakness) for
+    Konqueror by cve_2010_3170_cn_wildcards.diff.
+  * Fix CVE-2011-1094 (kdelibs does not properly verify that the server hostname
+    matches the Common Name of the Subject of an X.509 certificate if that CN is
+    an IP address) by cve_2011_1094_ssl_verify_hostname.diff.
 
  -- Sune Vuorela <sune@debian.org>  Tue, 15 Mar 2011 23:05:06 +0100
 

@@ -1,0 +1,19 @@
+Origin: https://projects.kde.org/projects/kde/kdelibs/repository/revisions/8b06e2c
+Description: This patch fixes CVE-2011-1168.
+ References:
+ * http://www.kde.org/info/security/advisory-20110411-1.txt
+ * http://www.nth-dimension.org.uk/pub/NDSA20110321.txt.asc
+--- a/khtml/khtml_part.cpp
++++ b/khtml/khtml_part.cpp
+@@ -1848,7 +1848,10 @@
+   stream >> errorName >> techName >> description >> causes >> solutions;
+ 
+   QString url, protocol, datetime;
+-  url = Qt::escape( reqUrl.prettyUrl() );
++
++  // This is somewhat confusing, but we have to escape the externally-
++  // controlled URL twice: once for i18n, and once for HTML.
++  url = Qt::escape( Qt::escape( reqUrl.prettyUrl() ) );
+   protocol = reqUrl.protocol();
+   datetime = KGlobal::locale()->formatDateTime( QDateTime::currentDateTime(),
+                                                 KLocale::LongDate );
