@@ -1,4 +1,4 @@
-kde4libs (4:4.4.5-4) UNRELEASED; urgency=low
+kde4libs (4:4.4.5-4) unstable; urgency=low
 
   [ Sune Vuorela ]
   * Fix build failures
