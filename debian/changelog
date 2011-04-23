@@ -88,6 +88,7 @@ kde4libs (4:4.6.2-0r2) UNRELEASED; urgency=low
   * Moved Qt Designer plugins to kdelibs5-plugins, they could be used by plasma
     js bindings to dynamically create ui files. Thanks to Pino Toscano for
     pointing the problem.
+  * Drop pre-squeeze Replaces/Breaks whenever possible.
   * Update lintian overrides.
   * Remove articles from short descriptions.
   * Add myself to Uploaders.
