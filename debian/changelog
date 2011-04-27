@@ -1,4 +1,4 @@
-kde4libs (4:4.6.2-0r3) UNRELEASED; urgency=low
+kde4libs (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release:
     - fixes VHDL syntax highlighting with large files (Closes: #533727)
@@ -93,7 +93,7 @@ kde4libs (4:4.6.2-0r3) UNRELEASED; urgency=low
   * Remove articles from short descriptions.
   * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Apr 2011 01:12:08 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:37 +0300
 
 kde4libs (4:4.4.5-3) unstable; urgency=high
 
