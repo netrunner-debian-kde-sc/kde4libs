@@ -1,7 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
- (optional=templinst|arch=amd64)_ZN12KConfigGroup14writeListCheckIdEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.1
+ (optional=templinst|arch=ia64 mips s390 sparc)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+ (optional=templinst|arch=armel kfreebsd-amd64)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+ (optional=templinst|arch=amd64 armel kfreebsd-amd64 powerpc|subst)_ZN12KConfigGroup14writeListCheckI{qreal}EEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.1
  _ZN5Jolie11MetaService11loadServiceERK7QStringS3_@Base 4:4.4.4-2~
  _ZN5Jolie11MetaService13unloadServiceERK7QString@Base 4:4.4.4-2~
  _ZN5Jolie11MetaService14addRedirectionERK7QStringS3_RKNS_5ValueES6_@Base 4:4.4.4-2~
@@ -280,7 +282,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma10ToolButton15hoverEnterEventEP24QGraphicsSceneHoverEvent@Base 4:4.4.4-2~
  _ZN6Plasma10ToolButton15hoverLeaveEventEP24QGraphicsSceneHoverEvent@Base 4:4.4.4-2~
  _ZN6Plasma10ToolButton16staticMetaObjectE@Base 4:4.4.4-2~
- _ZN6Plasma10ToolButton18setAnimationUpdateEd@Base 4:4.4.95
+ (subst)_ZN6Plasma10ToolButton18setAnimationUpdateE{qreal}@Base 4:4.4.95
  _ZN6Plasma10ToolButton5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.4.4-2~
  _ZN6Plasma10ToolButton7clickedEv@Base 4:4.4.4-2~
  _ZN6Plasma10ToolButton7pressedEv@Base 4:4.4.4-2~
@@ -873,7 +875,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma14ItemBackground16staticMetaObjectE@Base 4:4.4.4-2~
  _ZN6Plasma14ItemBackground17appearanceChangedEv@Base 4:4.4.4-2~
  _ZN6Plasma14ItemBackground17targetItemReachedEP13QGraphicsItem@Base 4:4.4.4-2~
- _ZN6Plasma14ItemBackground18setAnimationUpdateEd@Base 4:4.4.95
+ (subst)_ZN6Plasma14ItemBackground18setAnimationUpdateE{qreal}@Base 4:4.4.95
  _ZN6Plasma14ItemBackground5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.4.4-2~
  _ZN6Plasma14ItemBackground9setTargetERK6QRectF@Base 4:4.4.4-2~
  _ZN6Plasma14ItemBackgroundC1EP15QGraphicsWidget@Base 4:4.4.4-2~
@@ -2028,8 +2030,8 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9WallpaperD0Ev@Base 4:4.4.4-2~
  _ZN6Plasma9WallpaperD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma9WallpaperD2Ev@Base 4:4.4.4-2~
- (optional=templinst|arch=amd64)_ZNK12KConfigGroup13readListCheckIdEE5QListIT_EPKcRKS3_@Base 4:4.6.1
- (arch=armel sparc)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.4.4-2~
+ (optional=templinst|arch=amd64 armel kfreebsd-amd64 powerpc|subst)_ZNK12KConfigGroup13readListCheckI{qreal}EE5QListIT_EPKcRKS3_@Base 4:4.6.1
+ (optional=templinst|arch=armel kfreebsd-amd64 powerpc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
  _ZNK5Jolie11MetaService14loadedServicesEv@Base 4:4.4.4-2~
  _ZNK5Jolie11MetaService9isRunningEv@Base 4:4.4.4-2~
  _ZNK5Jolie12PendingReply10isFinishedEv@Base 4:4.4.4-2~
@@ -2719,7 +2721,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma9Wallpaper4iconEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper4nameEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper7packageEv@Base 4:4.4.4-2~
- (optional=templinst)_ZNK8KService14createInstanceIN6Plasma14AbstractRunnerEEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.6.1
+ (optional=templinst|arch=amd64 i386 kfreebsd-i386 powerpc)_ZNK8KService14createInstanceIN6Plasma14AbstractRunnerEEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.6.1
  _ZTIN12ThreadWeaver11QueuePolicyE@Base 4:4.4.4-2~
  _ZTIN5Jolie11PendingCallE@Base 4:4.4.4-2~
  _ZTIN5Jolie15AbstractAdaptorE@Base 4:4.4.4-2~
