@@ -7,6 +7,7 @@ kde4libs (4:4.6.3-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Update symbols files.
+  * Bump S-V to 3.9.2; no changes needed.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 02:15:49 +0300
 
