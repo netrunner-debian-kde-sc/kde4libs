@@ -1,8 +1,8 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=ia64 mips s390 sparc)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=armel kfreebsd-amd64)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+ (optional=templinst|arch=amd64 armel kfreebsd-amd64)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  (optional=templinst|arch=amd64 armel kfreebsd-amd64 powerpc|subst)_ZN12KConfigGroup14writeListCheckI{qreal}EEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.1
  _ZN5Jolie11MetaService11loadServiceERK7QStringS3_@Base 4:4.4.4-2~
  _ZN5Jolie11MetaService13unloadServiceERK7QString@Base 4:4.4.4-2~
@@ -2721,7 +2721,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma9Wallpaper4iconEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper4nameEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper7packageEv@Base 4:4.4.4-2~
- (optional=templinst|arch=amd64 i386 kfreebsd-i386 powerpc)_ZNK8KService14createInstanceIN6Plasma14AbstractRunnerEEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=amd64 i386 kfreebsd-i386 powerpc)_ZNK8KService14createInstanceIN6Plasma14AbstractRunnerEEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.6.1
  _ZTIN12ThreadWeaver11QueuePolicyE@Base 4:4.4.4-2~
  _ZTIN5Jolie11PendingCallE@Base 4:4.4.4-2~
  _ZTIN5Jolie15AbstractAdaptorE@Base 4:4.4.4-2~

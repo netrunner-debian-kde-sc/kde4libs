@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1339,8 +1339,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD0Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
- (arch=!amd64 !i386 !kfreebsd-i386 !powerpc)_ZN3KDE4statERK7QStringP4stat@Base 4:4.6.2
- (arch=!amd64 !i386 !kfreebsd-i386 !powerpc)_ZN3KDE6renameERK7QStringS2_@Base 4:4.6.2
+ (arch=!i386 !kfreebsd-i386 !powerpc)_ZN3KDE4statERK7QStringP4stat@Base 4:4.6.3
+ (arch=!i386 !kfreebsd-i386 !powerpc)_ZN3KDE6renameERK7QStringS2_@Base 4:4.6.3
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO10Connection15connectToRemoteERK7QString@Base 4:4.3.4
@@ -2328,7 +2328,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN5KFile16staticMetaObjectE@Base 4:4.3.4
  _ZN5KFile17isPreviewContentsERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile21isSortCaseInsensitiveERK6QFlagsIN4QDir8SortFlagEE@Base 4:4.3.4
- (optional=templinst)_ZN5Solid6Device2asINS_13StorageAccessEEEPT_v@Base 4:4.4.0
+#MISSING: 4:4.6.3# (optional=templinst)_ZN5Solid6Device2asINS_13StorageAccessEEEPT_v@Base 4:4.4.0
  _ZN8KImageIO11isSupportedERK7QStringNS_4ModeE@Base 4:4.3.4
  _ZN8KImageIO11typeForMimeERK7QString@Base 4:4.3.4
  _ZN8KImageIO5typesENS_4ModeE@Base 4:4.3.4
@@ -3071,7 +3071,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK9KNFSShare11exportsPathEv@Base 4:4.3.4
  _ZNK9KNFSShare17isDirectorySharedERK7QString@Base 4:4.3.4
  _ZNK9KNFSShare17sharedDirectoriesEv@Base 4:4.3.4
- (optional=templinst|arch=amd64 kfreebsd-amd64)_ZSt8for_eachIPP7QWidgetSt9mem_fun_tIvS0_EET0_T_S6_S5_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=amd64 kfreebsd-amd64)_ZSt8for_eachIPP7QWidgetSt9mem_fun_tIvS0_EET0_T_S6_S5_@Base 4:4.6.1
  _ZTI10KAutoMount@Base 4:4.3.4
  _ZTI10KDirLister@Base 4:4.3.4
  _ZTI10KOCRDialog@Base 4:4.3.4

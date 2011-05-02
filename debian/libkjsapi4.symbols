@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -139,7 +139,7 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS4List14appendSlowCaseEPNS_7JSValueE@Base 4:4.4.95
  _ZN3KJS4List18markProtectedListsEv@Base 4:4.3.4
  _ZN3KJS4List5emptyEv@Base 4:4.3.4
- (arch=amd64 i386 kfreebsd-i386 powerpc)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.6.2
+#MISSING: 4:4.6.3# (arch=amd64 i386 kfreebsd-i386 powerpc)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.6.2
  _ZN3KJS4List7releaseEv@Base 4:4.3.4
  _ZN3KJS4List8copyFromERKS0_@Base 4:4.3.4
  _ZN3KJS4ListC1Ev@Base 4:4.3.4

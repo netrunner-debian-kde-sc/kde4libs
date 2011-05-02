@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -2858,7 +2858,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK12KConfigGroup8entryMapEv@Base 4:4.3.4
  _ZNK12KConfigGroup9groupImplERK10QByteArray@Base 4:4.3.4
  _ZNK12KConfigGroup9groupListEv@Base 4:4.3.4
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.1
  (optional=templinst|arch=armel kfreebsd-amd64 powerpc)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.2
  _ZNK12KConfigGroup9readEntryEPKcRK11QStringList@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryEPKcRK5QListI8QVariantE@Base 4:4.3.4

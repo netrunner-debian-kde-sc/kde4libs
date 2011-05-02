@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -1825,13 +1825,13 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOMeqERKNS_9DOMStringEPKc@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringERK7QString@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringES2_@Base 4:4.3.4
- _ZN3KJS14ScopeChainLink5derefEv@Base 4:4.3.4
+#MISSING: 4:4.6.3# _ZN3KJS14ScopeChainLink5derefEv@Base 4:4.3.4
  (arch=!ia64 !mips !s390 !sparc)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.6.2
  (arch=!armel)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
  (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc)_ZN3KJS6JSCellD2Ev@Base 4:4.6.2
- (arch=!ia64 !mips !s390 !sparc)_ZN3KJS7JSValue9getObjectEv@Base 4:4.6.2
+#MISSING: 4:4.6.3# (arch=!ia64 !mips !s390 !sparc)_ZN3KJS7JSValue9getObjectEv@Base 4:4.6.2
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
  (arch=!ia64 !mips !s390 !sparc)_ZN3KJS7JSValueD2Ev@Base 4:4.6.2
@@ -2229,8 +2229,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLViewD0Ev@Base 4:4.3.4
  _ZN9KHTMLViewD1Ev@Base 4:4.3.4
  _ZN9KHTMLViewD2Ev@Base 4:4.3.4
- (optional=templinst|arch=ia64 mips s390 sparc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=ia64 mips s390 sparc)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.6.2
+ (optional=templinst|arch=amd64 ia64 mips s390 sparc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.3
+ (optional=templinst|arch=amd64 ia64 mips s390 sparc)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.6.2
  (optional=templinst|arch=ia64 mips s390 sparc)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.6.2
  (optional=templinst|arch=sparc)_ZNK12KConfigGroup9readEntryIjEET_RK7QStringRKS1_@Base 4:4.6.2
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
@@ -2860,9 +2861,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3KJS7JSValue4typeEv@Base 4:4.3.4
  (arch=ia64 mips s390 sparc)_ZNK3KJS7JSValue7toInt32EPNS_9ExecStateERb@Base 4:4.6.2
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.3.4
- (arch=!ia64 !mips !s390 !sparc)_ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateERb@Base 4:4.6.2
+#MISSING: 4:4.6.3# (arch=!ia64 !mips !s390 !sparc)_ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateERb@Base 4:4.6.2
  _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
- (arch=!ia64 !mips !s390 !sparc)_ZNK3KJS7UString12toArrayIndexEPb@Base 4:4.6.2
+#MISSING: 4:4.6.3# (arch=!ia64 !mips !s390 !sparc)_ZNK3KJS7UString12toArrayIndexEPb@Base 4:4.6.2
  _ZNK3KJS7UString7qstringEv@Base 4:4.3.4
  _ZNK3KJS7UString9domStringEv@Base 4:4.3.4
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.3.4
@@ -2959,17 +2960,18 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK9KHTMLView9mediaTypeEv@Base 4:4.3.4
  _ZNK9KHTMLView9pagedModeEv@Base 4:4.3.4
  _ZNK9KHTMLView9zoomLevelEv@Base 4:4.3.4
- (optional=templinst|subst|arch=!ia64 !mips !s390 !sparc)_ZSt11__push_heapIPN7WebCore18SVGGlyphIdentifierE{ssize_t}S1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.6.1
+ (optional=templinst)_ZSt10__pop_heapIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 4:4.6.3
+#MISSING: 4:4.6.3# (optional=templinst|subst|arch=!ia64 !mips !s390 !sparc)_ZSt11__push_heapIPN7WebCore18SVGGlyphIdentifierE{ssize_t}S1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.6.1
  (optional=templinst|subst|arch=!ia64 !mips !s390 !sparc)_ZSt13__adjust_heapIPN7WebCore18SVGGlyphIdentifierE{ssize_t}S1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt13__heap_selectIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt13__heap_selectIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 4:4.6.1
  (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt16__insertion_sortIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.6.1
  (optional=templinst|subst|arch=!ia64 !mips !s390 !sparc)_ZSt16__introsort_loopIPN7WebCore18SVGGlyphIdentifierE{ssize_t}PFbRKS1_S4_EEvT_S7_T0_T1_@Base 4:4.6.1
  (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt19__move_median_firstIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt21__unguarded_partitionIPN7WebCore18SVGGlyphIdentifierES1_PFbRKS1_S4_EET_S7_S7_RKT0_T1_@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt22__final_insertion_sortIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt21__unguarded_partitionIPN7WebCore18SVGGlyphIdentifierES1_PFbRKS1_S4_EET_S7_S7_RKT0_T1_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt22__final_insertion_sortIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.6.1
  (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt25__unguarded_linear_insertIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_T0_@Base 4:4.6.1
  (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt9make_heapIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt9sort_heapIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt9sort_heapIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.6.1
  _ZTI13KHTMLSettings@Base 4:4.3.4
  _ZTI17KHTMLImageFactory@Base 4:4.5.85
  _ZTI9KHTMLPart@Base 4:4.3.4
