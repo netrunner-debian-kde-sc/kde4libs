@@ -22,3 +22,4 @@ qdbus_exports_changed.diff
 cve_2011_1168_konqueror_xss.diff
 cve_2010_3170_cn_wildcards.diff
 cve_2011_1094_ssl_verify_hostname.diff
+32_missing_include_cstddef.diff

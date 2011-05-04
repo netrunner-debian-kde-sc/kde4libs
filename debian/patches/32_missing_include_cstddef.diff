@@ -1,0 +1,18 @@
+Description: Add missing include <cstddef> to kjs/collector.h. Taken from
+KDE SVN commit 1195598
+Author: Scott Kitterman <scott@kitterman.com>
+Bug-Debian: http://bugs.debian.org/625625
+Forwarded: not-needed
+Origin: upstream
+Last-Update: 2011-05-04
+
+--- kde4libs-4.4.5.orig/kjs/collector.h
++++ kde4libs-4.4.5/kjs/collector.h
+@@ -27,6 +27,7 @@
+ 
+ #include <wtf/HashCountedSet.h>
+ #include <cstring>
++#include <cstddef>
+ 
+ #define KJS_MEM_LIMIT 500000
+ 

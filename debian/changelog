@@ -1,3 +1,11 @@
+kde4libs (4:4.4.5-5) unstable; urgency=low
+
+  * Team Upload
+  * Add missing include <cstddef> to kjs/collector.h (Closes: #625625)
+    32_missing_include_cstddef.diff
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 04 May 2011 13:52:13 -0400
+
 kde4libs (4:4.4.5-4) unstable; urgency=low
 
   [ Sune Vuorela ]
