@@ -11,6 +11,8 @@ kde4libs (4:4.6.3-0r1) UNRELEASED; urgency=low
     - drop qdbus_exports_changed.diff - fixed upstream.
   * libsolid4 4.6 Breaks kde-config-tablet (<< 1.2.5) making it crash kdeinit4.
     See #624432 for more information.
+  * Break kdevelop (<< 4:4.2) in kdelibs5-plugins. Prior kdevelop versions do
+    not work due to removed kate interfaces in 4.6. (Closes: #625937)
 
   [ José Manuel Santamaría Lema ]
   * Update symbols files.

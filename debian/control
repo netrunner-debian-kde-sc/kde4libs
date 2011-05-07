@@ -467,6 +467,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kdelibs-bin (= ${binary:Version}),
  dbus-x11, shared-mime-info (>= 0.30), xdg-utils
 Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.6)
+Breaks: kdevelop (<< 4:4.2)
 Description: core plugins for KDE Applications
  This package contains core plugins for KDE Applications used by KDE
  Applications and KDE Development Platform libraries at runtime. This package
