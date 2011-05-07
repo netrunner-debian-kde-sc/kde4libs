@@ -120,6 +120,7 @@ Package: libsolid4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, udev [linux-any], hal [!linux-any]
 Recommends: udisks [linux-any], upower [linux-any]
+Breaks: kde-config-tablet (<< 1.2.5)
 Description: Solid Library for KDE Platform
  Solid is a device integration framework. It provides a way of querying and
  interacting with hardware independently of the underlying operating system.
