@@ -1,4 +1,4 @@
-kde4libs (4:4.6.3-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.6.3-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -18,7 +18,7 @@ kde4libs (4:4.6.3-0r1) UNRELEASED; urgency=low
   * Update symbols files.
   * Bump S-V to 3.9.2; no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 May 2011 20:37:25 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 May 2011 00:13:20 +0200
 
 kde4libs (4:4.6.2-1) experimental; urgency=low
 
