@@ -21,3 +21,4 @@
 cve_2011_1168_konqueror_xss.diff
 cve_2010_3170_cn_wildcards.diff
 cve_2011_1094_ssl_verify_hostname.diff
+ktar_header_checksum_fix.diff

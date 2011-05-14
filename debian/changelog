@@ -10,6 +10,11 @@ kde4libs (4:4.4.5-2+squeeze2) UNRELEASED; urgency=low
     an IP address) by cve_2011_1094_ssl_verify_hostname.diff.
 
   [ Modestas Vainius ]
+  * KTar: use unsigned arithmetic when calculating checksum of tar header record
+    (as per ustar specification). However, when reading archive, verify
+    checksum by calculating it both ways (unsigned and signed) and accept if
+    either matches (partially solves #612675). Implemented in
+    ktar_header_checksum_fix.diff patch.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 12 Apr 2011 21:16:20 +0200
 
