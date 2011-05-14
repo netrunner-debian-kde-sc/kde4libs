@@ -15,6 +15,9 @@ kde4libs (4:4.4.5-2+squeeze2) UNRELEASED; urgency=low
     checksum by calculating it both ways (unsigned and signed) and accept if
     either matches (partially solves #612675). Implemented in
     ktar_header_checksum_fix.diff patch.
+  * Fix KTar longlink support when filenames are encoded in the UTF-8 (or other
+    multibyte) locale. Implemented in ktar_longlink_length_in_bytes.diff patch
+    (thanks to Ibragimov Rinat). Closes: #612675
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 12 Apr 2011 21:16:20 +0200
 
