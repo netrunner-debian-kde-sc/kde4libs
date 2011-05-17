@@ -453,7 +453,7 @@ Description: utility classes to deal with printing
 
 Package: kdelibs-bin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libxml2-utils
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: kjscmd
 Description: core executables for KDE Applications
  This package contains common core executables used by all KDE Applications.
@@ -488,7 +488,8 @@ Description: core shared data for all KDE Applications
 
 Package: kdoctools
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, docbook-xml, docbook-xsl
+Depends: ${shlibs:Depends}, ${misc:Depends}, docbook-xml, docbook-xsl,
+ libxml2-utils
 Description: various tools for accessing application documentation
  This package provides KDE documentation tools (including the "help" KIO slave)
  for accessing documentation of KDE and GNOME applications.
