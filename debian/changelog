@@ -21,6 +21,8 @@ kde4libs (4:4.6.3-0r2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Move the libxml2-utils dependency from kdelibs-bin to kdoctools (as xmllint
     is invoked by meinproc4).
+  * Backport the upstream commit 92db24adfa941003db1d885df01157056617f30b to fix
+    double-POST regression (patch upstream_fix_job-on-hold_reuse_logic.diff).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 May 2011 00:13:20 +0200
 

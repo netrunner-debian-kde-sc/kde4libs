@@ -16,3 +16,4 @@ konsole_kfreebsd_fix.diff
 hurd_support.diff
 kfileshare_kdesu_fileshareset.diff
 relax_plugin_kde_version_check.diff
+upstream_fix_job-on-hold_reuse_logic.diff
