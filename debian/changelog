@@ -1,4 +1,4 @@
-kde4libs (4:4.6.3-0r4) UNRELEASED; urgency=low
+kde4libs (4:4.6.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -27,7 +27,7 @@ kde4libs (4:4.6.3-0r4) UNRELEASED; urgency=low
   * Backport the upstream commit 92db24adfa941003db1d885df01157056617f30b to fix
     double-POST regression (patch upstream_fix_job-on-hold_reuse_logic.diff).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 May 2011 00:13:20 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:55:23 +0300
 
 kde4libs (4:4.6.2-1) experimental; urgency=low
 
