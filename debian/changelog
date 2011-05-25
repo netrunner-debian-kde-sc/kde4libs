@@ -13,6 +13,9 @@ kde4libs (4:4.6.3-0r2) UNRELEASED; urgency=low
     See #624432 for more information.
   * Break kdevelop (<< 4:4.2) in kdelibs5-plugins. Prior kdevelop versions do
     not work due to removed kate interfaces in 4.6. (Closes: #625937)
+  * Add DLRestrictions library checking to the plugin loader and other helper
+    utils to ease DLRestrictions support in other KDE packages which ship
+    shared libraries (patch add_dlrestrictions_support.diff).
 
   [ José Manuel Santamaría Lema ]
   * Update symbols files.
