@@ -1,5 +1,7 @@
 kde4libs (4:4.6.3-2) UNRELEASED; urgency=low
 
+  [ Felix Geyer ]
+  * Drop duplicate build-dependency on libenchant-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 11:13:46 +0200
 

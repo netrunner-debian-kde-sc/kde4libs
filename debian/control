@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 7.3.16), cmake (>= 2.6.4), pkg-kde-tools (>= 0.14),
  libxml2-dev, libxml2-utils, libxslt1-dev, libgif-dev,
  libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev,
  libjasper-dev, libopenexr-dev, libpcre3-dev, zlib1g-dev, libjpeg-dev, hspell,
- libglu1-mesa-dev, libenchant-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88),
+ libglu1-mesa-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88),
  libutempter-dev, liblzma-dev, libattica-dev (>= 0.1.90), shared-desktop-ontologies (>= 0.5),
  libpolkit-qt-1-dev (>= 0.99.0), libxss-dev, libqca2-dev, libdbusmenu-qt-dev, docbook-xml, docbook-xsl,
  libxrender-dev, libkrb5-dev, libudev-dev [linux-any]
