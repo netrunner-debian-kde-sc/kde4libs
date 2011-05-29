@@ -8,6 +8,7 @@ kde4libs (4:4.6.3-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Drop the go.xml kate syntax highlighting, as kate-syntax-go will provide
     it. (Closes: #628161)
+  * hurd_support.diff: do not turn the linker warnings as errors.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 11:13:46 +0200
 
