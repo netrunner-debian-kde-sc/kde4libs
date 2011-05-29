@@ -2,6 +2,8 @@ kde4libs (4:4.6.3-2) UNRELEASED; urgency=low
 
   [ Felix Geyer ]
   * Drop duplicate build-dependency on libenchant-dev.
+  * kdelibs5-plugins breaks/replaces kdelibs5-dev as the Qt Designer plugins
+    have been moved there.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 11:13:46 +0200
 
