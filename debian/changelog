@@ -5,6 +5,10 @@ kde4libs (4:4.6.3-2) UNRELEASED; urgency=low
   * kdelibs5-plugins breaks/replaces kdelibs5-dev as the Qt Designer plugins
     have been moved there.
 
+  [ Pino Toscano ]
+  * Drop the go.xml kate syntax highlighting, as kate-syntax-go will provide
+    it. (Closes: #628161)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 11:13:46 +0200
 
 kde4libs (4:4.6.3-1) unstable; urgency=low
