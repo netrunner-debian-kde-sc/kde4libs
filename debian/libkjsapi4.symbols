@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -153,7 +153,7 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS6JSCell9getObjectEv@Base 4:4.3.4
  _ZN3KJS6JSCellD0Ev@Base 4:4.3.4
  _ZN3KJS6JSCellD1Ev@Base 4:4.3.4
- (arch=!ia64 !mips !s390 !sparc)_ZN3KJS6JSCellD2Ev@Base 4:4.6.2
+ (arch=!ia64 !sparc)_ZN3KJS6JSCellD2Ev@Base 4:4.6.3
  (subst)_ZN3KJS6JSCellnwE{size_t}@Base 4:4.3.4
  _ZN3KJS6JSLock12DropAllLocksC1Ev@Base 4:4.3.4
  _ZN3KJS6JSLock12DropAllLocksC2Ev@Base 4:4.3.4
@@ -176,7 +176,7 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS7JSValue16toUInt32SlowCaseEdRb@Base 4:4.3.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
- (arch=!ia64 !mips !s390 !sparc)_ZN3KJS7JSValueD2Ev@Base 4:4.6.2
+ (arch=!ia64 !sparc)_ZN3KJS7JSValueD2Ev@Base 4:4.6.3
  _ZN3KJS7Package10loadSymbolEPNS_9ExecStateEPNS_8JSObjectERKNS_10IdentifierE@Base 4:4.3.4
  _ZN3KJS7Package14loadAllSymbolsEPNS_9ExecStateEPNS_8JSObjectE@Base 4:4.3.4
  _ZN3KJS7Package14loadSubPackageERKNS_10IdentifierEPNS_7UStringE@Base 4:4.3.4
@@ -296,7 +296,7 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJSeqERKNS_7UStringEPKc@Base 4:4.3.4
  _ZN3KJSeqERKNS_7UStringES2_@Base 4:4.3.4
  _ZN3KJSltERKNS_7UStringES2_@Base 4:4.3.4
- (arch=ia64 mips s390 sparc)_ZN3KJSplERKNS_7UStringES2_@Base 4:4.6.2
+ (arch=ia64 sparc)_ZN3KJSplERKNS_7UStringES2_@Base 4:4.6.2
  _ZNK3KJS11FunctionImp19implementsConstructEv@Base 4:4.3.4
  _ZNK3KJS11FunctionImp8toSourceEv@Base 4:4.3.4
  _ZNK3KJS11Interpreter11builtinDateEv@Base 4:4.3.4
@@ -356,13 +356,13 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZNK3KJS7JSValue15toInt32SlowCaseEPNS_9ExecStateERb@Base 4:4.3.4
  _ZNK3KJS7JSValue16toUInt32SlowCaseEPNS_9ExecStateERb@Base 4:4.3.4
  _ZNK3KJS7JSValue20toIntegerPreserveNaNEPNS_9ExecStateE@Base 4:4.3.4
- (arch=ia64 mips s390 sparc)_ZNK3KJS7JSValue4typeEv@Base 4:4.6.2
+ (arch=ia64 sparc)_ZNK3KJS7JSValue4typeEv@Base 4:4.6.2
  _ZNK3KJS7JSValue7toFloatEPNS_9ExecStateE@Base 4:4.3.4
- (arch=ia64 mips s390 sparc)_ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.6.2
- (arch=ia64 mips s390 sparc)_ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.6.2
+ (arch=ia64 sparc)_ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.6.2
+ (arch=ia64 sparc)_ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.6.2
  _ZNK3KJS7JSValue8toUInt16EPNS_9ExecStateE@Base 4:4.3.4
- (arch=ia64 mips s390 sparc)_ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateE@Base 4:4.6.2
- (arch=ia64 mips s390 sparc)_ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.6.2
+ (arch=ia64 sparc)_ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateE@Base 4:4.6.2
+ (arch=ia64 sparc)_ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.6.2
  _ZNK3KJS7JSValue9toIntegerEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7UString10UTF8StringEv@Base 4:4.3.4
  _ZNK3KJS7UString14toStrictUInt32EPb@Base 4:4.3.4
@@ -487,10 +487,10 @@ libkjsapi.so.4 libkjsapi4 #MINVER#
  (arch=!armel)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
- (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc)_ZN3KJS6JSCellD2Ev@Base 4:4.6.2
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390)_ZN3KJS6JSCellD2Ev@Base 4:4.6.3
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
- (arch=!ia64 !mips !s390 !sparc)_ZN3KJS7JSValueD2Ev@Base 4:4.6.2
+ (arch=!ia64 !sparc)_ZN3KJS7JSValueD2Ev@Base 4:4.6.3
  _ZN7KJSDateC1EP10KJSContextRK9QDateTime@Base 4:4.3.4
  _ZN7KJSDateC2EP10KJSContextRK9QDateTime@Base 4:4.3.4
  _ZN7KJSNullC1Ev@Base 4:4.3.4

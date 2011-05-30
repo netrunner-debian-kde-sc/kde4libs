@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkde3support.so.4 libkde3support4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10K3DockArea11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1403,6 +1403,7 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZNK12K3DockWidget9getWidgetEv@Base 4:4.3.4
  _ZNK12K3DockWidget9mayBeHideEv@Base 4:4.3.4
  _ZNK12K3DockWidget9mayBeShowEv@Base 4:4.3.4
+ (optional=templinst|arch=armel kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.3
  _ZNK13K3AboutDialog10metaObjectEv@Base 4:4.3.4
  _ZNK13K3AboutWidget10metaObjectEv@Base 4:4.3.4
  _ZNK13K3ActiveLabel10metaObjectEv@Base 4:4.3.4
