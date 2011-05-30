@@ -1,4 +1,4 @@
-kde4libs (4:4.6.3-2) UNRELEASED; urgency=low
+kde4libs (4:4.6.3-2) unstable; urgency=low
 
   [ Felix Geyer ]
   * Drop duplicate build-dependency on libenchant-dev.
@@ -13,7 +13,7 @@ kde4libs (4:4.6.3-2) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Confirm symbol files on all Debian arches.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 11:13:46 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 30 May 2011 17:31:10 +0300
 
 kde4libs (4:4.6.3-1) unstable; urgency=low
 
