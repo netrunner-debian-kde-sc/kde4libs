@@ -479,8 +479,8 @@ Description: core plugins for KDE Applications
 Package: kdelibs5-data
 Architecture: all
 Depends: ${perl:Depends}, ${misc:Depends}, hicolor-icon-theme
-Replaces: libplasma2, kdebase-runtime-data (<< 4:4.5.85)
-Breaks: libplasma2, kdebase-runtime-data (<< 4:4.5.85)
+Replaces: libplasma2, kdebase-runtime-data (<< 4:4.5.85), kdelibs5-plugins (<< 4:4.6.1)
+Breaks: libplasma2, kdebase-runtime-data (<< 4:4.5.85), kdelibs5-plugins (<< 4:4.6.1)
 Description: core shared data for all KDE Applications
  This package contains architecture-independent data files needed to run KDE
  Applications.
