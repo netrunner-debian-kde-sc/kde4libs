@@ -467,8 +467,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kdelibs-bin (= ${binary:Version}),
  dbus-x11, shared-mime-info (>= 0.30), xdg-utils
 Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.6)
-Replaces: kdelibs5-dev (<< 4:4.6.2)
-Breaks: kdelibs5-dev (<< 4:4.6.2), kdevelop (<< 4:4.2)
+Replaces: kdelibs5-dev (<< 4:4.6.2), kdelibs5-data (<< 4:4.6.3-3~)
+Breaks: kdelibs5-dev (<< 4:4.6.2), kdelibs5-data (<< 4:4.6.3-3~), kdevelop (<< 4:4.2)
 Description: core plugins for KDE Applications
  This package contains core plugins for KDE Applications used by KDE
  Applications and KDE Development Platform libraries at runtime. This package
@@ -479,8 +479,8 @@ Description: core plugins for KDE Applications
 Package: kdelibs5-data
 Architecture: all
 Depends: ${perl:Depends}, ${misc:Depends}, hicolor-icon-theme
-Replaces: libplasma2, kdebase-runtime-data (<< 4:4.5.85), kdelibs5-plugins (<< 4:4.6.1)
-Breaks: libplasma2, kdebase-runtime-data (<< 4:4.5.85), kdelibs5-plugins (<< 4:4.6.1)
+Replaces: libplasma2, kdebase-runtime-data (<< 4:4.5.85)
+Breaks: libplasma2, kdebase-runtime-data (<< 4:4.5.85)
 Description: core shared data for all KDE Applications
  This package contains architecture-independent data files needed to run KDE
  Applications.

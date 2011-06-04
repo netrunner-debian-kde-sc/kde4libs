@@ -287,7 +287,6 @@ usr/share/kde4/apps/kcm_componentchooser/kcm_instantmessenger.desktop
 usr/share/kde4/apps/kcm_componentchooser/kcm_ktexteditor.desktop
 usr/share/kde4/apps/kconf_update/kcookiescfg.upd
 usr/share/kde4/apps/kconf_update/kded.upd
-usr/share/kde4/apps/kconf_update/kdeui.upd
 usr/share/kde4/apps/kconf_update/kioslave.upd
 usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd
 usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh
