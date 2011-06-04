@@ -1,10 +1,10 @@
-kde4libs (4:4.6.3-3) UNRELEASED; urgency=low
+kde4libs (4:4.6.3-3) unstable; urgency=low
 
   [ Pino Toscano ]
   * Move kdeui.upd to kdelibs5-plugins, and make it break/replace
     kdelibs5-data << 4:4.6.3-3~. (Closes: #629188)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Jun 2011 13:28:40 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Jun 2011 22:18:48 +0300
 
 kde4libs (4:4.6.3-2) unstable; urgency=low
 
