@@ -1,0 +1,24 @@
+From: Modestas Vainius <modax@debian.org>
+Subject: FindPythonLibrary: pass --layout=deb to distutils if build type is Debian
+Forwarded: not-needed
+Origin:vendor
+Last-Update: 2011-06-06
+
+Python stuff should be installed to /usr/lib/python<version>/dist-packages/
+rather than /usr/lib/python<version>/site-packages/ when building debian
+packages (i.e.  CMAKE_BUILD_TYPE is Debian).
+
+--- a/cmake/modules/FindPythonLibrary.cmake
++++ b/cmake/modules/FindPythonLibrary.cmake
+@@ -46,7 +46,10 @@ else(EXISTS PYTHON_LIBRARY)
+       message(FATAL_ERROR "The file FindLibPython.py does not exist in ${_py_cmake_module_dir} (the directory where FindPythonLibrary.cmake is located). Check your installation.")
+     endif(NOT EXISTS "${_py_cmake_module_dir}/FindLibPython.py")
+ 
+-    execute_process(COMMAND ${PYTHON_EXECUTABLE}  "${_py_cmake_module_dir}/FindLibPython.py" OUTPUT_VARIABLE python_config)
++    if (CMAKE_BUILD_TYPE MATCHES "Debian")
++      set(_findlibpython_args "--layout=deb")
++    endif (CMAKE_BUILD_TYPE MATCHES "Debian")
++    execute_process(COMMAND ${PYTHON_EXECUTABLE}  "${_py_cmake_module_dir}/FindLibPython.py" ${_findlibpython_args} OUTPUT_VARIABLE python_config)
+     if(python_config)
+       string(REGEX REPLACE ".*exec_prefix:([^\n]+).*$" "\\1" PYTHON_PREFIX ${python_config})
+       string(REGEX REPLACE ".*\nshort_version:([^\n]+).*$" "\\1" PYTHON_SHORT_VERSION ${python_config})

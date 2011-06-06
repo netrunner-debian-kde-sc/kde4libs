@@ -18,3 +18,4 @@ kfileshare_kdesu_fileshareset.diff
 relax_plugin_kde_version_check.diff
 upstream_fix_job-on-hold_reuse_logic.diff
 add_dlrestrictions_support.diff
+findpythonlibrary_layout_deb_on_debian.diff
