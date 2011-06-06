@@ -1,3 +1,8 @@
+kde4libs (4:4.6.3-4) UNRELEASED; urgency=low
+
+
+ -- Modestas Vainius <modax@debian.org>  Mon, 06 Jun 2011 20:14:14 +0300
+
 kde4libs (4:4.6.3-3) unstable; urgency=low
 
   [ Pino Toscano ]
