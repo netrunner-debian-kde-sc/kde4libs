@@ -22,3 +22,6 @@
 ./usr/share/man/man8/kded4.8
 ./usr/share/man/man8/kdeinit4.8
 ./usr/share/man/man8/meinproc4.8
+
+# See bug #628161
+./usr/share/kde4/apps/katepart/syntax/go.xml
