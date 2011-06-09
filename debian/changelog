@@ -1,9 +1,12 @@
-kde4libs (4:4.6.3-4) UNRELEASED; urgency=low
+kde4libs (4:4.6.4-0r0) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ Modestas Vainius ]
   * FindPythonLibrary.cmake: if build type is Debian, pass --layout=deb to
     FindLibPython.py.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 06 Jun 2011 20:14:14 +0300
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Thu, 09 Jun 2011 16:58:29 +0000
 
 kde4libs (4:4.6.3-3) unstable; urgency=low
 
