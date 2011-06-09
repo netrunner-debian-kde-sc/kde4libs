@@ -8,6 +8,7 @@ kde4libs (4:4.6.4-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Remove upstream_fix_job-on-hold_reuse_logic.diff, applied upstream.
+  * Update symbols files.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Thu, 09 Jun 2011 16:58:29 +0000
 

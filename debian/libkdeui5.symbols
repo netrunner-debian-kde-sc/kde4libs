@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.4 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -3388,6 +3388,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN19KIdentityProxyModel14setSourceModelEP18QAbstractItemModel@Base 4:4.5.85
  _ZN19KIdentityProxyModel16staticMetaObjectE@Base 4:4.5.85
  _ZN19KIdentityProxyModel17resetInternalDataEv@Base 4:4.5.85
+ _ZN19KIdentityProxyModel9fetchMoreERK11QModelIndex@Base 4:4.6.4
  _ZN19KIdentityProxyModelC1EP26KIdentityProxyModelPrivateP7QObject@Base 4:4.5.85
  _ZN19KIdentityProxyModelC1EP7QObject@Base 4:4.5.85
  _ZN19KIdentityProxyModelC2EP26KIdentityProxyModelPrivateP7QObject@Base 4:4.5.85
@@ -5858,13 +5859,17 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK19KIdentityProxyModel10metaObjectEv@Base 4:4.5.85
  _ZNK19KIdentityProxyModel11columnCountERK11QModelIndex@Base 4:4.5.85
  _ZNK19KIdentityProxyModel11mapToSourceERK11QModelIndex@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel12canFetchMoreERK11QModelIndex@Base 4:4.6.4
  _ZNK19KIdentityProxyModel13mapFromSourceERK11QModelIndex@Base 4:4.5.85
  _ZNK19KIdentityProxyModel20mapSelectionToSourceERK14QItemSelection@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel20supportedDropActionsEv@Base 4:4.6.4
  _ZNK19KIdentityProxyModel22mapSelectionFromSourceERK14QItemSelection@Base 4:4.5.85
  _ZNK19KIdentityProxyModel5indexEiiRK11QModelIndex@Base 4:4.5.85
  _ZNK19KIdentityProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4:4.5.85
  _ZNK19KIdentityProxyModel6parentERK11QModelIndex@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel8mimeDataERK5QListI11QModelIndexE@Base 4:4.6.4
  _ZNK19KIdentityProxyModel8rowCountERK11QModelIndex@Base 4:4.5.85
+ _ZNK19KIdentityProxyModel9mimeTypesEv@Base 4:4.6.4
  _ZNK19KStatusNotifierItem10iconPixmapEv@Base 4:4.4.0
  _ZNK19KStatusNotifierItem10metaObjectEv@Base 4:4.4.0
  _ZNK19KStatusNotifierItem11contextMenuEv@Base 4:4.4.0
