@@ -4,7 +4,7 @@ kde4libs (4:4.6.4-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * FindPythonLibrary.cmake: if build type is Debian, pass --layout=deb to
-    FindLibPython.py.
+    FindLibPython.py (patch findpythonlibrary_layout_deb_on_debian.diff).
 
   [ José Manuel Santamaría Lema ]
   * Remove upstream_fix_job-on-hold_reuse_logic.diff, applied upstream.
