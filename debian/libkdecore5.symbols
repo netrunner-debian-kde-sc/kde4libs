@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -1398,7 +1398,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN3KDE12versionMinorEv@Base 4:4.3.4
  _ZN3KDE13versionStringEv@Base 4:4.3.4
  _ZN3KDE14versionReleaseEv@Base 4:4.3.4
- (arch=ia64 sparc)_ZN3KDE4statERK7QStringP4stat@Base 4:4.6.2
+ (arch=hurd-i386 ia64 sparc)_ZN3KDE4statERK7QStringP4stat@Base 4:4.6.3
  (arch=hppa sparc)_ZN3KDE6accessERK7QStringi@Base 4:4.4.3
  _ZN3KDE7versionEv@Base 4:4.3.4
  _ZN4KJob10emitResultEv@Base 4:4.3.4
@@ -2870,8 +2870,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK12KConfigGroup9readEntryERK7QStringRK5QListI8QVariantE@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryERK7QStringRK8QVariant@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryERK7QStringS2_@Base 4:4.3.4
- (optional=templinst|arch=ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=ia64 sparc)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386 ia64 sparc)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.6.2
  (optional=templinst|arch=armel hppa mips mipsel s390 sparc)_ZNK12KConfigGroup9readEntryIiEET_RK7QStringRKS1_@Base 4:4.4.2
  _ZNK12KDesktopFile10readDeviceEv@Base 4:4.3.4
  _ZNK12KDesktopFile11actionGroupERK7QString@Base 4:4.3.4

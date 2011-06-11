@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkfile.so.4 libkfile4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4:4.4.0
@@ -41,7 +41,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN11KFileWidgetD0Ev@Base 4:4.3.4
  _ZN11KFileWidgetD1Ev@Base 4:4.3.4
  _ZN11KFileWidgetD2Ev@Base 4:4.3.4
- (optional=templinst|arch=ia64 sparc)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386 ia64 sparc)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  (optional=templinst|arch=armel)_ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.3
  (optional=templinst|arch=armel mips mipsel powerpc s390 sparc)_ZN12KConfigGroup10writeEntryIiEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  _ZN12KDirOperator10completionERK7QString@Base 4:4.3.4
@@ -446,7 +446,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN24KDirSortFilterProxyModelD0Ev@Base 4:4.3.4
  _ZN24KDirSortFilterProxyModelD1Ev@Base 4:4.3.4
  _ZN24KDirSortFilterProxyModelD2Ev@Base 4:4.3.4
- (optional=templinst|arch=ia64 sparc)_ZN5Solid6Device2asINS_12StorageDriveEEEPT_v@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386 ia64 sparc)_ZN5Solid6Device2asINS_12StorageDriveEEEPT_v@Base 4:4.6.2
  (optional=templinst|arch=sparc)_ZN5Solid6Device2asINS_13StorageAccessEEEPT_v@Base 4:4.4.2
  _ZNK11KFileWidget10metaObjectEv@Base 4:4.3.4
  _ZNK11KFileWidget11selectedUrlEv@Base 4:4.3.4

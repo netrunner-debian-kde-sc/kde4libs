@@ -4156,10 +4156,10 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6KStyle11qt_metacastEPKc@Base 4:4.3.4
  _ZN6KStyle12defaultStyleEv@Base 4:4.3.4
  _ZN6KStyle12newStyleHintERK7QString@Base 4:4.3.4
- (optional=templinst|arch=!ia64 !sparc)_ZN6KStyle13extractOptionIPKNS_18DoubleButtonOptionEEET_PNS_6OptionE@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !sparc)_ZN6KStyle13extractOptionIPNS_10IconOptionEEET_PNS_6OptionE@Base 4:4.4.2
- (optional=templinst|arch=!ia64 !sparc)_ZN6KStyle13extractOptionIPNS_10TextOptionEEET_PNS_6OptionE@Base 4:4.4.2
- (optional=templinst|arch=!ia64 !sparc)_ZN6KStyle13extractOptionIPNS_11ColorOptionEEET_PNS_6OptionE@Base 4:4.4.2
+ (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN6KStyle13extractOptionIPKNS_18DoubleButtonOptionEEET_PNS_6OptionE@Base 4:4.6.1
+ (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN6KStyle13extractOptionIPNS_10IconOptionEEET_PNS_6OptionE@Base 4:4.4.2
+ (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN6KStyle13extractOptionIPNS_10TextOptionEEET_PNS_6OptionE@Base 4:4.4.2
+ (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN6KStyle13extractOptionIPNS_11ColorOptionEEET_PNS_6OptionE@Base 4:4.4.2
  (optional=templinst)_ZN6KStyle13extractOptionIPNS_17TitleButtonOptionEEET_PNS_6OptionE@Base 4:4.3.4
  _ZN6KStyle13newSubElementERK7QString@Base 4:4.3.4
  _ZN6KStyle15customStyleHintERK7QStringPK7QWidget@Base 4:4.3.4
@@ -5327,13 +5327,13 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK12KColorScheme10foregroundENS_14ForegroundRoleE@Base 4:4.3.4
  _ZNK12KColorScheme5shadeENS_9ShadeRoleE@Base 4:4.3.4
  (optional=templinst|arch=armel mips mipsel powerpc s390)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.3.4
- (optional=templinst|arch=ia64 sparc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=ia64 sparc)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=ia64 sparc)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386 ia64 sparc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386 ia64 sparc)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386 ia64 sparc)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.6.2
  (optional=templinst|arch=sparc)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.4.2
  (optional=templinst|arch=sparc)_ZNK12KConfigGroup9readEntryIdEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=ia64 sparc)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.6.2
- (optional=templinst|arch=ia64 sparc)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386 ia64 sparc)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386 ia64 sparc)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.6.2
  _ZNK12KEditListBox10downButtonEv@Base 4:4.3.4
  _ZNK12KEditListBox10metaObjectEv@Base 4:4.3.4
  _ZNK12KEditListBox11currentItemEv@Base 4:4.3.4
@@ -6516,7 +6516,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTIN6Sonnet18DictionaryComboBoxE@Base 4:4.3.4
  _ZTIN6Sonnet6DialogE@Base 4:4.3.4
  _ZTIN7KWallet6WalletE@Base 4:4.3.4
- (arch=ia64 sparc)_ZTIZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEvE12RegExpAction@Base 4:4.6.2
+ (optional=private|arch=hurd-i386 ia64 sparc)_ZTIZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEvE12RegExpAction@Base 4:4.6.3
  _ZTS10KBugReport@Base 4:4.3.4
  _ZTS10KDateTable@Base 4:4.3.4
  _ZTS10KIconCache@Base 4:4.3.4
@@ -6736,7 +6736,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTSN6Sonnet18DictionaryComboBoxE@Base 4:4.3.4
  _ZTSN6Sonnet6DialogE@Base 4:4.3.4
  _ZTSN7KWallet6WalletE@Base 4:4.3.4
- (arch=ia64 sparc)_ZTSZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEvE12RegExpAction@Base 4:4.6.2
+ (optional=private|arch=hurd-i386 ia64 sparc)_ZTSZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEvE12RegExpAction@Base 4:4.6.3
  _ZTT13KXmlGuiWindow@Base 4:4.3.4
  _ZTV10KBugReport@Base 4:4.3.4
  _ZTV10KDateTable@Base 4:4.3.4
@@ -6956,7 +6956,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTVN6Sonnet18DictionaryComboBoxE@Base 4:4.3.4
  _ZTVN6Sonnet6DialogE@Base 4:4.3.4
  _ZTVN7KWallet6WalletE@Base 4:4.3.4
- (arch=ia64 sparc)_ZTVZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEvE12RegExpAction@Base 4:4.6.2
+ (optional=private|arch=hurd-i386 ia64 sparc)_ZTVZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEvE12RegExpAction@Base 4:4.6.3
  _ZZN20KConfigDialogManager7Private9debugAreaEvE6s_area@Base 4:4.4.0
  (optional=templinst)_ZZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEE13defaultOptionEvE10theDefault@Base 4:4.3.4
  (optional=templinst)_ZZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEE13defaultOptionEvE10theDefault@Base 4:4.3.4
