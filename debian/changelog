@@ -1,4 +1,4 @@
-kde4libs (4:4.4.5-2+squeeze2) UNRELEASED; urgency=low
+kde4libs (4:4.4.5-2+squeeze2) stable; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Fix CVE-2011-1168 (Konqueror partially universal XSS in error pages) by
@@ -19,7 +19,7 @@ kde4libs (4:4.4.5-2+squeeze2) UNRELEASED; urgency=low
     multibyte) locale. Implemented in ktar_longlink_length_in_bytes.diff patch
     (thanks to Ibragimov Rinat). Closes: #612675
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 12 Apr 2011 21:16:20 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 14 Jun 2011 00:13:57 +0300
 
 kde4libs (4:4.4.5-2+squeeze1) stable-proposed-updates; urgency=low
 
