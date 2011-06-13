@@ -5,6 +5,9 @@ kde4libs (4:4.6.4-0r2) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * FindPythonLibrary.cmake: if build type is Debian, pass --layout=deb to
     FindLibPython.py (patch findpythonlibrary_layout_deb_on_debian.diff).
+  * Merge 4:4.4.5-2+squeeze2:
+    - add ktar_header_checksum_fix.diff and adapt to upstream changes;
+    - add ktar_longlink_length_in_bytes.diff and adapt to upstream changes.
 
   [ José Manuel Santamaría Lema ]
   * Remove upstream_fix_job-on-hold_reuse_logic.diff, applied upstream.
@@ -200,6 +203,29 @@ kde4libs (4:4.4.5-3) unstable; urgency=high
     though it might not get there in time.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 23 Jan 2011 00:36:28 +0200
+
+kde4libs (4:4.4.5-2+squeeze2) stable; urgency=low
+
+  [ José Manuel Santamaría Lema ]
+  * Fix CVE-2011-1168 (Konqueror partially universal XSS in error pages) by
+    cve_2011_1168_konqueror_xss.diff.
+  * Fix CVE-2010-3170 (browser wildcard cerficate validation weakness) for
+    Konqueror by cve_2010_3170_cn_wildcards.diff.
+  * Fix CVE-2011-1094 (kdelibs does not properly verify that the server hostname
+    matches the Common Name of the Subject of an X.509 certificate if that CN is
+    an IP address) by cve_2011_1094_ssl_verify_hostname.diff.
+
+  [ Modestas Vainius ]
+  * KTar: use unsigned arithmetic when calculating checksum of tar header record
+    (as per ustar specification). However, when reading archive, verify
+    checksum by calculating it both ways (unsigned and signed) and accept if
+    either matches (partially solves #612675). Implemented in
+    ktar_header_checksum_fix.diff patch.
+  * Fix KTar longlink support when filenames are encoded in the UTF-8 (or other
+    multibyte) locale. Implemented in ktar_longlink_length_in_bytes.diff patch
+    (thanks to Ibragimov Rinat). Closes: #612675
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 14 Jun 2011 00:13:57 +0300
 
 kde4libs (4:4.4.5-2+squeeze1) stable-proposed-updates; urgency=low
 
