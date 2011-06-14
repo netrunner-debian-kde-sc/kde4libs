@@ -1,6 +1,7 @@
 kde4libs (4:4.6.4-0r2) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes crash in KIconEngine (Closes: #628483)
 
   [ Modestas Vainius ]
   * FindPythonLibrary.cmake: if build type is Debian, pass --layout=deb to
