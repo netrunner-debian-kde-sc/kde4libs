@@ -1,12 +1,15 @@
 From: Modestas Vainius <modax@debian.org>
 Subject: FindPythonLibrary: pass --layout=deb to distutils if build type is Debian
 Forwarded: not-needed
-Origin:vendor
-Last-Update: 2011-06-06
+Origin: vendor
+Last-Update: 2011-06-30
 
 Python stuff should be installed to /usr/lib/python<version>/dist-packages/
 rather than /usr/lib/python<version>/site-packages/ when building debian
-packages (i.e.  CMAKE_BUILD_TYPE is Debian).
+packages (i.e. CMAKE_BUILD_TYPE is Debian).
+
+This affects both PYTHON_SITE_PACKAGES_DIR and PYTHON_SITE_PACKAGES_INSTALL_DIR
+variables.
 
 --- a/cmake/modules/FindPythonLibrary.cmake
 +++ b/cmake/modules/FindPythonLibrary.cmake
@@ -22,3 +25,13 @@ packages (i.e.  CMAKE_BUILD_TYPE is Debian).
      if(python_config)
        string(REGEX REPLACE ".*exec_prefix:([^\n]+).*$" "\\1" PYTHON_PREFIX ${python_config})
        string(REGEX REPLACE ".*\nshort_version:([^\n]+).*$" "\\1" PYTHON_SHORT_VERSION ${python_config})
+@@ -60,7 +63,8 @@ else(EXISTS PYTHON_LIBRARY)
+       set(PYTHON_SITE_PACKAGES_DIR "${_TMP_PYTHON_SITE_PACKAGES_DIR}" CACHE PATH "The python site packages dir" FORCE)
+ 
+       # This one is intended to be used and changed by the user for installing own modules:
+-      set(PYTHON_SITE_PACKAGES_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}/python${PYTHON_SHORT_VERSION}/site-packages CACHE PATH "The directory where python modules will be installed to.")
++      get_filename_component(_python_site_packages_dir_name "${_TMP_PYTHON_SITE_PACKAGES_DIR}" NAME)
++      set(PYTHON_SITE_PACKAGES_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}/python${PYTHON_SHORT_VERSION}/${_python_site_packages_dir_name} CACHE PATH "The directory where python modules will be installed to.")
+ 
+       string(REGEX REPLACE "([0-9]+).([0-9]+)" "\\1\\2" PYTHON_SHORT_VERSION_NO_DOT ${PYTHON_SHORT_VERSION})
+       set(PYTHON_LIBRARY_NAMES python${PYTHON_SHORT_VERSION} python${PYTHON_SHORT_VERSION_NO_DOT})

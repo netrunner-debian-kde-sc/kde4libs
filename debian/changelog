@@ -1,5 +1,7 @@
 kde4libs (4:4.6.4-2) UNRELEASED; urgency=low
 
+  * Fix findpythonlibrary_layout_deb_on_debian.diff patch to set
+    PYTHON_SITE_PACKAGES_INSTALL_DIR properly as well.
 
  -- Modestas Vainius <modax@debian.org>  Thu, 30 Jun 2011 23:39:39 +0300
 
