@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -2082,6 +2082,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO9Scheduler17getConnectedSlaveERK4KUrlRKNS_8MetaDataE@Base 4:4.3.4
  _ZN3KIO9Scheduler17removeSlaveOnHoldEv@Base 4:4.3.4
  _ZN3KIO9Scheduler18publishSlaveOnHoldEv@Base 4:4.3.4
+ _ZN3KIO9Scheduler22updateInternalMetaDataEPNS_9SimpleJobE@Base 4:4.6.5
  _ZN3KIO9Scheduler25reparseSlaveConfigurationERK7QString@Base 4:4.3.4
  _ZN3KIO9Scheduler29emitReparseSlaveConfigurationEv@Base 4:4.3.4
  _ZN3KIO9Scheduler4selfEv@Base 4:4.3.4

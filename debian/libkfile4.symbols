@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libkfile.so.4 libkfile4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4:4.4.0
@@ -510,6 +510,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZNK13KFileTreeView15showHiddenFilesEv@Base 4:4.3.4
  _ZNK13KFileTreeView7Private16urlForProxyIndexERK11QModelIndex@Base 4:4.3.4
  _ZNK13KFileTreeView7rootUrlEv@Base 4:4.3.4
+ _ZNK13KFileTreeView8sizeHintEv@Base 4:4.6.5
  _ZNK13KUrlNavigator10historyUrlEi@Base 4:4.3.4
  _ZNK13KUrlNavigator10metaObjectEv@Base 4:4.3.4
  _ZNK13KUrlNavigator11historySizeEv@Base 4:4.3.4
