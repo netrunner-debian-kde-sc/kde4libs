@@ -1,4 +1,4 @@
-Author: Pino Toscano <pino@kde.org>
+Author: Pino Toscano <pino@debian.org>
 Description: preliminary GNU/Hurd support
  Adds "support" for GNU/Hurd by defining MAXPATHLEN and PATH_MAX where needed.
  Not forwarded, better fixes should be done upstream.

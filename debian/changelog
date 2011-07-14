@@ -9,6 +9,9 @@ kde4libs (4:4.6.5-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Update symbols files.
 
+  [ Pino Toscano ]
+  * Switch to my @debian.org address, I'm a DD now.
+
  -- Modestas Vainius <modax@debian.org>  Thu, 30 Jun 2011 23:39:39 +0300
 
 kde4libs (4:4.6.4-1) unstable; urgency=low
