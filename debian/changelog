@@ -1,4 +1,4 @@
-kde4libs (4:4.6.5-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.6.5-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ kde4libs (4:4.6.5-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Switch to my @debian.org address, I'm a DD now.
 
- -- Modestas Vainius <modax@debian.org>  Thu, 30 Jun 2011 23:39:39 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jul 2011 21:53:52 +0300
 
 kde4libs (4:4.6.4-1) unstable; urgency=low
 
