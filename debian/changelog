@@ -1,5 +1,8 @@
 kde4libs (4:4.6.5-2) UNRELEASED; urgency=low
 
+  [ José Manuel Santamaría Lema ]
+  * Add kded4_deadlock.patch to prevent a deadlock triggered sometimes
+    in kded4. (Closes: #621358)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jul 2011 13:54:44 +0200
 
