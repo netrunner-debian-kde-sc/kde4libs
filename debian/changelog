@@ -4,6 +4,9 @@ kde4libs (4:4.6.5-2) UNRELEASED; urgency=low
   * Add kded4_deadlock.patch to prevent a deadlock triggered sometimes
     in kded4. (Closes: #621358)
 
+  [ Modestas Vainius ]
+  * Confirm symbol files on all arches.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jul 2011 13:54:44 +0200
 
 kde4libs (4:4.6.5-1) unstable; urgency=low

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libknewstuff2.so.4 libknewstuff2-4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KNS10CoreEngine10cacheEntryEPNS_5EntryE@Base 4:4.3.4
@@ -82,6 +82,8 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZN3KNS12EntryHandlerC1ERKNS_5EntryE@Base 4:4.3.4
  _ZN3KNS12EntryHandlerC2ERK11QDomElement@Base 4:4.3.4
  _ZN3KNS12EntryHandlerC2ERKNS_5EntryE@Base 4:4.3.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KNS12EntryHandlerD1Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KNS12EntryHandlerD2Ev@Base 4:4.6.5
  _ZN3KNS12Installation10setCommandERK7QString@Base 4:4.3.4
  _ZN3KNS12Installation12setTargetDirERK7QString@Base 4:4.3.4
  _ZN3KNS12Installation13setCustomNameEb@Base 4:4.3.4
@@ -128,6 +130,9 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZN3KNS14ProviderLoader4loadERK7QString@Base 4:4.3.4
  _ZN3KNS14ProviderLoaderC1EP7QObject@Base 4:4.3.4
  _ZN3KNS14ProviderLoaderC2EP7QObject@Base 4:4.3.4
+ (arch=!amd64 !armel !ia64)_ZN3KNS14ProviderLoaderD0Ev@Base 4:4.6.5
+ (arch=!amd64 !armel !ia64)_ZN3KNS14ProviderLoaderD1Ev@Base 4:4.6.5
+ (arch=!amd64 !armel !ia64)_ZN3KNS14ProviderLoaderD2Ev@Base 4:4.6.5
  _ZN3KNS14standardActionERK7QStringPK7QObjectPKcP17KActionCollectionS7_@Base 4:4.3.4
  _ZN3KNS15ProviderHandler10addElementER12QDomDocumentR11QDomElementRK7QStringS7_@Base 4:4.3.4
  _ZN3KNS15ProviderHandler11providerXMLEv@Base 4:4.3.4
@@ -140,6 +145,8 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZN3KNS15ProviderHandlerC1ERKNS_8ProviderE@Base 4:4.3.4
  _ZN3KNS15ProviderHandlerC2ERK11QDomElement@Base 4:4.3.4
  _ZN3KNS15ProviderHandlerC2ERKNS_8ProviderE@Base 4:4.3.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KNS15ProviderHandlerD1Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KNS15ProviderHandlerD2Ev@Base 4:4.6.5
  _ZN3KNS4Feed10setFeedUrlERK4KUrl@Base 4:4.3.4
  _ZN3KNS4Feed11removeEntryEPNS_5EntryE@Base 4:4.3.4
  _ZN3KNS4Feed14setDescriptionERKNS_13KTranslatableE@Base 4:4.3.4
@@ -202,6 +209,9 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZN3KNS6ButtonC1ERK7QStringS3_S3_P7QWidget@Base 4:4.4.0
  _ZN3KNS6ButtonC2EP7QWidget@Base 4:4.4.0
  _ZN3KNS6ButtonC2ERK7QStringS3_S3_P7QWidget@Base 4:4.4.0
+ (arch=!amd64 !armel !ia64)_ZN3KNS6ButtonD0Ev@Base 4:4.6.5
+ (arch=!amd64 !armel !ia64)_ZN3KNS6ButtonD1Ev@Base 4:4.6.5
+ (arch=!amd64 !armel !ia64)_ZN3KNS6ButtonD2Ev@Base 4:4.6.5
  _ZN3KNS6Engine12uploadDialogERK7QString@Base 4:4.3.4
  _ZN3KNS6Engine14downloadDialogEP7QObjectPKc@Base 4:4.3.4
  _ZN3KNS6Engine14downloadDialogEv@Base 4:4.3.4
@@ -309,4 +319,5 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZTVN3KNS12UploadDialogE@Base 4:4.3.4
  _ZTVN3KNS14ProviderLoaderE@Base 4:4.3.4
  _ZTVN3KNS6ButtonE@Base 4:4.4.0
+ (c++|arch=!amd64 !armel !ia64)"non-virtual thunk to KNS::Button::~Button()@Base" 4:4.6.5
  (c++)"non-virtual thunk to KNS::UploadDialog::~UploadDialog()@Base" 4:4.3.4

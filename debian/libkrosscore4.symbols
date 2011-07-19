@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkrosscore.so.4 libkrosscore4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN5Kross10krossdebugERK7QString@Base 4:4.3.4
@@ -11,6 +11,8 @@ libkrosscore.so.4 libkrosscore4 #MINVER#
  _ZN5Kross11InterpreterD1Ev@Base 4:4.3.4
  _ZN5Kross11InterpreterD2Ev@Base 4:4.3.4
  _ZN5Kross12krosswarningERK7QString@Base 4:4.3.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5Kross14ErrorInterfaceD1Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5Kross14ErrorInterfaceD2Ev@Base 4:4.6.5
  _ZN5Kross15InterpreterInfo11interpreterEv@Base 4:4.3.4
  _ZN5Kross15InterpreterInfo7optionsEv@Base 4:4.3.4
  _ZN5Kross15InterpreterInfoC1ERK7QStringPvS3_RK11QStringListRK4QMapIS1_PNS0_6OptionEE@Base 4:4.3.4
@@ -62,6 +64,8 @@ libkrosscore.so.4 libkrosscore4 #MINVER#
  _ZN5Kross16WrapperInterfaceD0Ev@Base 4:4.3.4
  _ZN5Kross16WrapperInterfaceD1Ev@Base 4:4.3.4
  _ZN5Kross16WrapperInterfaceD2Ev@Base 4:4.3.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5Kross17ChildrenInterfaceD1Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5Kross17ChildrenInterfaceD2Ev@Base 4:4.6.5
  _ZN5Kross6Action10addQObjectEP7QObjectRK7QString@Base 4:4.3.4
  _ZN5Kross6Action10initializeEv@Base 4:4.3.4
  _ZN5Kross6Action10setEnabledEb@Base 4:4.3.4

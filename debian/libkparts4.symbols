@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.85 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkparts.so.4 libkparts4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN6KParts10BrowserRun10simpleSaveERK4KUrlRK7QStringP7QWidget@Base 4:4.3.4
@@ -242,6 +242,8 @@ libkparts.so.4 libkparts4 #MINVER#
  _ZN6KParts16BrowserExtension19setBrowserInterfaceEPNS_16BrowserInterfaceE@Base 4:4.3.4
  _ZN6KParts16BrowserExtension20resizeTopLevelWidgetEii@Base 4:4.3.4
  _ZN6KParts16BrowserExtension21openUrlRequestDelayedERK4KUrlRKNS_16OpenUrlArgumentsERKNS_16BrowserArgumentsE@Base 4:4.3.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6KParts16BrowserExtension23BrowserExtensionPrivate14DelayedRequestD1Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6KParts16BrowserExtension23BrowserExtensionPrivate14DelayedRequestD2Ev@Base 4:4.6.5
  _ZN6KParts16BrowserExtension23BrowserExtensionPrivate19createActionSlotMapEv@Base 4:4.3.4
  _ZN6KParts16BrowserExtension25setURLDropHandlingEnabledEb@Base 4:4.3.4
  _ZN6KParts16BrowserExtension29slotEmitOpenUrlRequestDelayedEv@Base 4:4.3.4
@@ -418,6 +420,8 @@ libkparts.so.4 libkparts4 #MINVER#
  _ZN6KParts5EventD2Ev@Base 4:4.3.4
  _ZN6KParts5qHashERKNS_19ScriptableExtension11FunctionRefE@Base 4:4.4.95
  _ZN6KParts5qHashERKNS_19ScriptableExtension6ObjectE@Base 4:4.4.95
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6KParts6Plugin10PluginInfoD1Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6KParts6Plugin10PluginInfoD2Ev@Base 4:4.6.5
  _ZN6KParts6Plugin10loadPluginEP7QObjectPKc@Base 4:4.3.4
  _ZN6KParts6Plugin10loadPluginEP7QObjectRK10QByteArray@Base 4:4.3.4
  _ZN6KParts6Plugin10loadPluginEP7QObjectRK7QString@Base 4:4.3.4

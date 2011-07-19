@@ -1,5 +1,7 @@
-# SymbolsHelper-Confirmed: 4:4.5.85 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libnepomukutils.so.4 libnepomukutils4 #MINVER#
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
  _ZN7Nepomuk5Utils10FacetModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.85
  _ZN7Nepomuk5Utils10FacetModel11qt_metacastEPKc@Base 4:4.5.85
  _ZN7Nepomuk5Utils10FacetModel14clearSelectionEv@Base 4:4.5.85
