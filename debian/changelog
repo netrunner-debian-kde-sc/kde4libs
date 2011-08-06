@@ -1,5 +1,6 @@
-kde4libs (4:4.6.5-3) UNRELEASED; urgency=low
+kde4libs (4:4.7.0-0r0) UNRELEASED; urgency=low
 
+  * New upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Aug 2011 01:03:43 +0200
 
