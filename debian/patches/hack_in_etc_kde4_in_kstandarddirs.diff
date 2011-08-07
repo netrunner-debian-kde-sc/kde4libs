@@ -22,4 +22,4 @@ overridden by adding new files to /etc/kde4 by the sysadm.
 +                    //
                      local = false;
                  }
- 	        else
+             else

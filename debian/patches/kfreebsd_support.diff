@@ -12,7 +12,7 @@ cmake.
 
 --- a/ConfigureChecks.cmake
 +++ b/ConfigureChecks.cmake
-@@ -164,11 +164,11 @@ if (UNIX)
+@@ -148,11 +148,11 @@ if (UNIX)
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
      endif (NOT login_in_libc)
@@ -29,7 +29,7 @@ cmake.
        if (login_in_libutil)
 --- a/kio/kfile/kpropertiesdialog.cpp
 +++ b/kio/kfile/kpropertiesdialog.cpp
-@@ -1910,7 +1910,15 @@ static bool fileSystemSupportsACL( const
+@@ -1901,7 +1901,15 @@ static bool fileSystemSupportsACL( const
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
      fileSystemSupportsACLs =
@@ -48,11 +48,11 @@ cmake.
  }
 --- a/kioslave/file/file.cpp
 +++ b/kioslave/file/file.cpp
-@@ -315,8 +315,10 @@ void FileProtocol::get( const KUrl& url
+@@ -317,8 +317,10 @@ void FileProtocol::get( const KUrl& url
      }
  
- #ifdef HAVE_FADVISE
-+#ifdef POSIX_FADV_SEQUENTIAL
+ #if HAVE_FADVISE
++#if POSIX_FADV_SEQUENTIAL
      posix_fadvise( fd, 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
 +#endif
@@ -61,22 +61,22 @@ cmake.
      // This is mandatory in all slaves (for KRun/BrowserRun to work)
 --- a/kioslave/file/file_unix.cpp
 +++ b/kioslave/file/file_unix.cpp
-@@ -155,8 +155,10 @@ void FileProtocol::copy( const KUrl &src
+@@ -156,8 +156,10 @@ void FileProtocol::copy( const KUrl &src
      }
  
- #ifdef HAVE_FADVISE
-+#ifdef POSIX_FADV_SEQUENTIAL
+ #if HAVE_FADVISE
++#if POSIX_FADV_SEQUENTIAL
      posix_fadvise(src_fd,0,0,POSIX_FADV_SEQUENTIAL);
  #endif
 +#endif
      // WABA: Make sure that we keep writing permissions ourselves,
      // otherwise we can be in for a surprise on NFS.
      mode_t initialMode;
-@@ -178,8 +180,10 @@ void FileProtocol::copy( const KUrl &src
+@@ -179,8 +181,10 @@ void FileProtocol::copy( const KUrl &src
      }
  
- #ifdef HAVE_FADVISE
-+#ifdef POSIX_FADV_SEQUENTIAL
+ #if HAVE_FADVISE
++#if POSIX_FADV_SEQUENTIAL
      posix_fadvise(dest_fd,0,0,POSIX_FADV_SEQUENTIAL);
  #endif
 +#endif

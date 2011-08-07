@@ -5,7 +5,7 @@ Forwarded: not-needed
 
 --- a/plasma/CMakeLists.txt
 +++ b/plasma/CMakeLists.txt
-@@ -252,6 +252,9 @@ target_link_libraries(plasma ${QT_QTUITO
+@@ -263,6 +263,9 @@ target_link_libraries(plasma ${QT_QTUITO
                               ${QT_QTSCRIPT_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTXML_LIBRARY} ${QT_QTSQL_LIBRARY} ${QT_QTDECLARATIVE_LIBRARY}
                               ${KDE4_KDEUI_LIBS} kdnssd threadweaver ${PLASMA_EXTRA_LIBS})
  

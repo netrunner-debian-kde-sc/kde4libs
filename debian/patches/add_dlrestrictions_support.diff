@@ -53,7 +53,7 @@ on all (or some) the targets.
     message(FATAL_ERROR "_KDE4_EXPORT_LIBRARY_DEPENDENCIES() was an internal macro and has been removed again. Just remove the code which calls it, there is no substitute.")
 --- a/kdecore/CMakeLists.txt
 +++ b/kdecore/CMakeLists.txt
-@@ -382,6 +382,14 @@ kde4_add_library(kdecore ${LIBRARY_TYPE}
+@@ -397,6 +397,14 @@ kde4_add_library(kdecore ${LIBRARY_TYPE}
  
  target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
  

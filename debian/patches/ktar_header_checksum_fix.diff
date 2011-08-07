@@ -18,7 +18,7 @@ matches, archive is accepted.
 
 --- a/kdecore/io/ktar.cpp
 +++ b/kdecore/io/ktar.cpp
-@@ -184,26 +184,41 @@ qint64 KTar::KTarPrivate::readRawHeader(
+@@ -182,26 +182,41 @@ qint64 KTar::KTarPrivate::readRawHeader(
      if (strncmp(buffer + 257, "ustar", 5)) {
        // The magic isn't there (broken/old tars), but maybe a correct checksum?
  
@@ -76,7 +76,7 @@ matches, archive is accepted.
          return -1;
        }
      }/*end if*/
-@@ -640,10 +655,12 @@ void KTar::KTarPrivate::fillBuffer( char
+@@ -637,10 +652,12 @@ void KTar::KTarPrivate::fillBuffer( char
    // group
    strcpy( buffer + 0x129, gname );
  
