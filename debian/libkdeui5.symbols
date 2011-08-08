@@ -4855,7 +4855,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN8KToolBar22toolButtonStyleSettingEv@Base 4:4.3.4
  _ZN8KToolBar7Private10s_editableE@Base 4:4.3.4
  _ZN8KToolBar7Private11contextMenuERK6QPoint@Base 4:4.7.0
-#MISSING: 4:4.7.0# _ZN8KToolBar7Private11contextMenuEv@Base 4:4.3.4
  _ZN8KToolBar7Private14slotContextTopEv@Base 4:4.3.4
  _ZN8KToolBar7Private15loadKDESettingsEv@Base 4:4.3.4
  _ZN8KToolBar7Private15slotContextLeftEv@Base 4:4.3.4

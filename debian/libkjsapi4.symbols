@@ -398,8 +398,6 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZNK3KJS7UString8toDoubleEb@Base 4:4.3.4
  _ZNK3KJS7UString8toDoubleEbb@Base 4:4.3.4
  _ZNK3KJS7UString8toDoubleEv@Base 4:4.3.4
-#MISSING: 4:4.7.0# _ZNK3KJS7UString8toUInt32EPb@Base 4:4.3.4
-#MISSING: 4:4.7.0# _ZNK3KJS7UString8toUInt32EPbb@Base 4:4.3.4
  _ZNK3KJS7UStringixEi@Base 4:4.3.4
  _ZNK3KJS8Debugger18shouldReportCaughtEv@Base 4:4.3.4
  _ZNK3KJS8Debugger21shouldReindentSourcesEv@Base 4:4.3.4

@@ -264,12 +264,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN11KSambaShare11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KSambaShare11qt_metacastEPKc@Base 4:4.3.4
  _ZN11KSambaShare16staticMetaObjectE@Base 4:4.3.4
-#MISSING: 4:4.7.0# _ZN11KSambaShare18KSambaSharePrivate11findSmbConfEv@Base 4:4.3.4
-#MISSING: 4:4.7.0# _ZN11KSambaShare18KSambaSharePrivate11readSmbConfEv@Base 4:4.3.4
-#MISSING: 4:4.7.0# _ZN11KSambaShare18KSambaSharePrivate17_k_slotFileChangeERK7QString@Base 4:4.3.4
-#MISSING: 4:4.7.0# _ZN11KSambaShare18KSambaSharePrivate4loadEv@Base 4:4.3.4
-#MISSING: 4:4.7.0# _ZN11KSambaShare18KSambaSharePrivateC1EPS_@Base 4:4.3.4
-#MISSING: 4:4.7.0# _ZN11KSambaShare18KSambaSharePrivateC2EPS_@Base 4:4.3.4
  _ZN11KSambaShare7changedEv@Base 4:4.3.4
  _ZN11KSambaShare8instanceEv@Base 4:4.3.4
  _ZN11KSambaShareC1Ev@Base 4:4.3.4
