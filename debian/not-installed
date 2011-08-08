@@ -25,3 +25,11 @@
 
 # See bug #628161
 ./usr/share/kde4/apps/katepart/syntax/go.xml
+
+# Experimental libraries, do not install for now.
+./usr/lib/libkactivities.so
+./usr/lib/libkactivities.so.5
+./usr/lib/libkactivities.so.5.7.0
+./usr/lib/libkdeclarative.so
+./usr/lib/libkdeclarative.so.5
+./usr/lib/libkdeclarative.so.5.7.0

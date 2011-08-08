@@ -1889,10 +1889,8 @@ usr/include/threadweaver/WeaverObserver.h
 usr/include/threadweaver/threadweaver_export.h
 usr/lib/kde4/libexec/kauth-policy-gen
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so
-usr/lib/libkactivities.so
 usr/lib/libkcmutils.so
 usr/lib/libkde3support.so
-usr/lib/libkdeclarative.so
 usr/lib/libkdecore.so
 usr/lib/libkdefakes.so
 usr/lib/libkdesu.so
