@@ -7,6 +7,7 @@ kde4libs (4:4.7.0-0r0) UNRELEASED; urgency=low
     - Remove kded4_deadlock.patch, applied upstream.
     - Update kfreebsd_support.diff.
     - Refreshed other patches to make them apply without offsets.
+  * Bump shared-desktop-ontologies build depend to 0.6.50.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Aug 2011 01:03:43 +0200
 
