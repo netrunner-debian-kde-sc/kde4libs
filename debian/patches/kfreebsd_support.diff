@@ -52,7 +52,7 @@ cmake.
      }
  
  #if HAVE_FADVISE
-+#if POSIX_FADV_SEQUENTIAL
++#ifdef POSIX_FADV_SEQUENTIAL
      posix_fadvise( fd, 0, 0, POSIX_FADV_SEQUENTIAL);
  #endif
 +#endif
@@ -65,7 +65,7 @@ cmake.
      }
  
  #if HAVE_FADVISE
-+#if POSIX_FADV_SEQUENTIAL
++#ifdef POSIX_FADV_SEQUENTIAL
      posix_fadvise(src_fd,0,0,POSIX_FADV_SEQUENTIAL);
  #endif
 +#endif
@@ -76,7 +76,7 @@ cmake.
      }
  
  #if HAVE_FADVISE
-+#if POSIX_FADV_SEQUENTIAL
++#ifdef POSIX_FADV_SEQUENTIAL
      posix_fadvise(dest_fd,0,0,POSIX_FADV_SEQUENTIAL);
  #endif
 +#endif
