@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.0 amd64
 libsolid.so.4 libsolid4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN5Solid10Networking13connectPolicyEv@Base 4:4.4.95
@@ -14,9 +14,9 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZN5Solid10Networking8Notifier16staticMetaObjectE@Base 4:4.4.95
  _ZN5Solid10Networking8NotifierC1Ev@Base 4:4.4.95
  _ZN5Solid10Networking8NotifierC2Ev@Base 4:4.4.95
- (arch=!amd64 !armel !ia64)_ZN5Solid10Networking8NotifierD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5Solid10Networking8NotifierD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5Solid10Networking8NotifierD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN5Solid10Networking8NotifierD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5Solid10Networking8NotifierD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5Solid10Networking8NotifierD2Ev@Base 4:4.7.0
  _ZN5Solid10Networking8notifierEv@Base 4:4.3.4
  _ZN5Solid11OpticalDisc11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid11OpticalDisc11qt_metacastEPKc@Base 4:4.3.4
@@ -34,6 +34,14 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZN5Solid12DvbInterfaceD0Ev@Base 4:4.3.4
  _ZN5Solid12DvbInterfaceD1Ev@Base 4:4.3.4
  _ZN5Solid12DvbInterfaceD2Ev@Base 4:4.3.4
+ _ZN5Solid12NetworkShare11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.0
+ _ZN5Solid12NetworkShare11qt_metacastEPKc@Base 4:4.7.0
+ _ZN5Solid12NetworkShare16staticMetaObjectE@Base 4:4.7.0
+ _ZN5Solid12NetworkShareC1EP7QObject@Base 4:4.7.0
+ _ZN5Solid12NetworkShareC2EP7QObject@Base 4:4.7.0
+ _ZN5Solid12NetworkShareD0Ev@Base 4:4.7.0
+ _ZN5Solid12NetworkShareD1Ev@Base 4:4.7.0
+ _ZN5Solid12NetworkShareD2Ev@Base 4:4.7.0
  _ZN5Solid12OpticalDrive11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid12OpticalDrive11qt_metacastEPKc@Base 4:4.3.4
  _ZN5Solid12OpticalDrive12ejectPressedERK7QString@Base 4:4.3.4
@@ -97,9 +105,9 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZN5Solid14DeviceNotifier13deviceRemovedERK7QString@Base 4:4.3.4
  _ZN5Solid14DeviceNotifier16staticMetaObjectE@Base 4:4.3.4
  _ZN5Solid14DeviceNotifier8instanceEv@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN5Solid14DeviceNotifierD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5Solid14DeviceNotifierD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5Solid14DeviceNotifierD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN5Solid14DeviceNotifierD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5Solid14DeviceNotifierD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5Solid14DeviceNotifierD2Ev@Base 4:4.7.0
  _ZN5Solid15DeviceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid15DeviceInterface11qt_metacastEPKc@Base 4:4.3.4
  _ZN5Solid15DeviceInterface12stringToTypeERK7QString@Base 4:4.3.4
@@ -138,12 +146,13 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZN5Solid15PowerManagement8Notifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
  _ZN5Solid15PowerManagement8Notifier11qt_metacastEPKc@Base 4:4.4.95
  _ZN5Solid15PowerManagement8Notifier16staticMetaObjectE@Base 4:4.4.95
+ _ZN5Solid15PowerManagement8Notifier19resumingFromSuspendEv@Base 4:4.7.0
  _ZN5Solid15PowerManagement8Notifier33appShouldConserveResourcesChangedEb@Base 4:4.4.95
  _ZN5Solid15PowerManagement8NotifierC1Ev@Base 4:4.4.95
  _ZN5Solid15PowerManagement8NotifierC2Ev@Base 4:4.4.95
- (arch=!amd64 !armel !ia64)_ZN5Solid15PowerManagement8NotifierD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5Solid15PowerManagement8NotifierD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5Solid15PowerManagement8NotifierD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN5Solid15PowerManagement8NotifierD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5Solid15PowerManagement8NotifierD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5Solid15PowerManagement8NotifierD2Ev@Base 4:4.7.0
  _ZN5Solid15PowerManagement8notifierEv@Base 4:4.3.4
  _ZN5Solid15SerialInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid15SerialInterface11qt_metacastEPKc@Base 4:4.3.4
@@ -294,6 +303,9 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZNK5Solid12DvbInterface11deviceIndexEv@Base 4:4.3.4
  _ZNK5Solid12DvbInterface13deviceAdapterEv@Base 4:4.3.4
  _ZNK5Solid12DvbInterface6deviceEv@Base 4:4.3.4
+ _ZNK5Solid12NetworkShare10metaObjectEv@Base 4:4.7.0
+ _ZNK5Solid12NetworkShare3urlEv@Base 4:4.7.0
+ _ZNK5Solid12NetworkShare4typeEv@Base 4:4.7.0
  _ZNK5Solid12OpticalDrive10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid12OpticalDrive10writeSpeedEv@Base 4:4.3.4
  _ZNK5Solid12OpticalDrive11writeSpeedsEv@Base 4:4.3.4
@@ -405,6 +417,7 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZTIN5Solid10Networking8NotifierE@Base 4:4.4.95
  _ZTIN5Solid11OpticalDiscE@Base 4:4.3.4
  _ZTIN5Solid12DvbInterfaceE@Base 4:4.3.4
+ _ZTIN5Solid12NetworkShareE@Base 4:4.7.0
  _ZTIN5Solid12OpticalDriveE@Base 4:4.3.4
  _ZTIN5Solid12StorageDriveE@Base 4:4.3.4
  _ZTIN5Solid13StorageAccessE@Base 4:4.3.4
@@ -429,6 +442,7 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZTSN5Solid10Networking8NotifierE@Base 4:4.4.95
  _ZTSN5Solid11OpticalDiscE@Base 4:4.3.4
  _ZTSN5Solid12DvbInterfaceE@Base 4:4.3.4
+ _ZTSN5Solid12NetworkShareE@Base 4:4.7.0
  _ZTSN5Solid12OpticalDriveE@Base 4:4.3.4
  _ZTSN5Solid12StorageDriveE@Base 4:4.3.4
  _ZTSN5Solid13StorageAccessE@Base 4:4.3.4
@@ -453,6 +467,7 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZTVN5Solid10Networking8NotifierE@Base 4:4.4.95
  _ZTVN5Solid11OpticalDiscE@Base 4:4.3.4
  _ZTVN5Solid12DvbInterfaceE@Base 4:4.3.4
+ _ZTVN5Solid12NetworkShareE@Base 4:4.7.0
  _ZTVN5Solid12OpticalDriveE@Base 4:4.3.4
  _ZTVN5Solid12StorageDriveE@Base 4:4.3.4
  _ZTVN5Solid13StorageAccessE@Base 4:4.3.4

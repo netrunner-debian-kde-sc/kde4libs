@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.0 amd64
 libkfile.so.4 libkfile4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4:4.4.0
@@ -219,6 +219,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN13KUrlNavigator10setHomeUrlERK4KUrl@Base 4:4.4.95
  _ZN13KUrlNavigator10setHomeUrlERK7QString@Base 4:4.3.4
  _ZN13KUrlNavigator10urlChangedERK4KUrl@Base 4:4.3.4
+ _ZN13KUrlNavigator10wheelEventEP11QWheelEvent@Base 4:4.7.0
  _ZN13KUrlNavigator11eventFilterEP7QObjectP6QEvent@Base 4:4.3.4
  _ZN13KUrlNavigator11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN13KUrlNavigator11qt_metacastEPKc@Base 4:4.3.4

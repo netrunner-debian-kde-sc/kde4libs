@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.0 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
@@ -217,6 +217,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma10PaintUtils10shadowTextE7QString6QColorS2_6QPointi@Base 4:4.4.4-2~
  _ZN6Plasma10PaintUtils10shadowTextE7QStringRK5QFont6QColorS5_6QPointi@Base 4:4.4.4-2~
  (subst)_ZN6Plasma10PaintUtils10transitionERK7QPixmapS3_{qreal}@Base 4:4.4.4-2~
+ _ZN6Plasma10PaintUtils12texturedTextERK7QStringRK5QFontPNS_3SvgE@Base 4:4.7.0
  _ZN6Plasma10PaintUtils13centerPixmapsER7QPixmapS2_@Base 4:4.4.95
  (subst)_ZN6Plasma10PaintUtils16roundedRectangleERK6QRectF{qreal}@Base 4:4.4.4-2~
  _ZN6Plasma10PaintUtils8drawHaloEP8QPainterRK6QRectF@Base 4:4.4.4-2~
@@ -479,9 +480,11 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma12AppletScript13configChangedEv@Base 4:4.4.4-2~
  _ZN6Plasma12AppletScript14paintInterfaceEP8QPainterPK24QStyleOptionGraphicsItemRK5QRect@Base 4:4.4.4-2~
  _ZN6Plasma12AppletScript16constraintsEventE6QFlagsINS_10ConstraintEE@Base 4:4.4.4-2~
+ _ZN6Plasma12AppletScript16setDrawWallpaperEb@Base 4:4.7.0
  _ZN6Plasma12AppletScript16staticMetaObjectE@Base 4:4.4.4-2~
  _ZN6Plasma12AppletScript17contextualActionsEv@Base 4:4.4.4-2~
  _ZN6Plasma12AppletScript17setFailedToLaunchEbRK7QString@Base 4:4.4.4-2~
+ _ZN6Plasma12AppletScript18setContainmentTypeENS_11Containment4TypeE@Base 4:4.7.0
  _ZN6Plasma12AppletScript20registerAsDragHandleEP13QGraphicsItem@Base 4:4.4.4-2~
  _ZN6Plasma12AppletScript22unregisterAsDragHandleEP13QGraphicsItem@Base 4:4.4.4-2~
  _ZN6Plasma12AppletScript24isRegisteredAsDragHandleEP13QGraphicsItem@Base 4:4.4.4-2~
@@ -892,6 +895,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma14ToolTipContent11setAutohideEb@Base 4:4.4.4-2~
  _ZN6Plasma14ToolTipContent11setMainTextERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma14ToolTipContent12setClickableEb@Base 4:4.4.4-2~
+ _ZN6Plasma14ToolTipContent15setInstantPopupEb@Base 4:4.7.0
  _ZN6Plasma14ToolTipContent17setGraphicsWidgetEP15QGraphicsWidget@Base 4:4.5.86
  _ZN6Plasma14ToolTipContent18setWindowToPreviewEm@Base 4:4.4.4-2~
  _ZN6Plasma14ToolTipContent19setHighlightWindowsEb@Base 4:4.4.4-2~
@@ -1020,6 +1024,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma15WallpaperScript5paintEP8QPainterRK6QRectF@Base 4:4.4.4-2~
  _ZN6Plasma15WallpaperScript6renderERK7QStringRK5QSizeNS_9Wallpaper12ResizeMethodERK6QColor@Base 4:4.4.4-2~
  _ZN6Plasma15WallpaperScript6updateERK6QRectF@Base 4:4.4.4-2~
+ _ZN6Plasma15WallpaperScript7setUrlsEN4KUrl4ListE@Base 4:4.7.0
  _ZN6Plasma15WallpaperScriptC1EP7QObject@Base 4:4.4.4-2~
  _ZN6Plasma15WallpaperScriptC2EP7QObject@Base 4:4.4.4-2~
  _ZN6Plasma15WallpaperScriptD0Ev@Base 4:4.4.4-2~
@@ -1345,6 +1350,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma5Meter11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma5Meter12setLabelFontEiRK5QFont@Base 4:4.4.4-2~
  _ZN6Plasma5Meter12setMeterTypeENS0_9MeterTypeE@Base 4:4.4.4-2~
+ _ZN6Plasma5Meter12valueChangedERKi@Base 4:4.7.0
  _ZN6Plasma5Meter13setLabelColorEiRK6QColor@Base 4:4.4.4-2~
  _ZN6Plasma5Meter16staticMetaObjectE@Base 4:4.4.4-2~
  _ZN6Plasma5Meter17setLabelAlignmentEi6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.4.4-2~
@@ -1511,6 +1517,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma6Corona21removeOffscreenWidgetEP15QGraphicsWidget@Base 4:4.4.4-2~
  _ZN6Plasma6Corona25setPreferredToolBoxPluginENS_11Containment4TypeERK7QString@Base 4:4.5.86
  _ZN6Plasma6Corona26containmentActionsDefaultsENS_11Containment4TypeE@Base 4:4.4.4-2~
+ _ZN6Plasma6Corona27setDefaultContainmentPluginERK7QString@Base 4:4.7.0
  _ZN6Plasma6Corona28availableScreenRegionChangedEv@Base 4:4.4.4-2~
  _ZN6Plasma6Corona29setContainmentActionsDefaultsENS_11Containment4TypeERKNS_31ContainmentActionsPluginsConfigE@Base 4:4.4.4-2~
  _ZN6Plasma6Corona9addActionE7QString@Base 4:4.4.4-2~
@@ -1581,6 +1588,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma6TabBar14setTabBarShownEb@Base 4:4.4.4-2~
  _ZN6Plasma6TabBar15setCurrentIndexEi@Base 4:4.4.4-2~
  _ZN6Plasma6TabBar16staticMetaObjectE@Base 4:4.4.4-2~
+ _ZN6Plasma6TabBar17setTabHighlightedEib@Base 4:4.7.0
  _ZN6Plasma6TabBar21setLastPositionWidgetEP15QGraphicsWidget@Base 4:4.5.86
  _ZN6Plasma6TabBar22setFirstPositionWidgetEP15QGraphicsWidget@Base 4:4.5.86
  _ZN6Plasma6TabBar5tabAtEi@Base 4:4.4.4-2~
@@ -2026,7 +2034,9 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9Wallpaper4saveER12KConfigGroup@Base 4:4.4.4-2~
  _ZN6Plasma9Wallpaper6renderERK7QStringRK5QSizeNS0_12ResizeMethodERK6QColor@Base 4:4.4.4-2~
  _ZN6Plasma9Wallpaper6updateERK6QRectF@Base 4:4.4.4-2~
+ _ZN6Plasma9Wallpaper7addUrlsERKN4KUrl4ListE@Base 4:4.7.0
  _ZN6Plasma9Wallpaper7restoreERK12KConfigGroup@Base 4:4.4.4-2~
+ _ZN6Plasma9Wallpaper7setUrlsERKN4KUrl4ListE@Base 4:4.7.0
  _ZN6Plasma9WallpaperC1EP7QObject@Base 4:4.4.4-2~
  _ZN6Plasma9WallpaperC1EP7QObjectRK5QListI8QVariantE@Base 4:4.4.4-2~
  _ZN6Plasma9WallpaperC2EP7QObject@Base 4:4.4.4-2~
@@ -2195,6 +2205,8 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma12AppletScript10metaObjectEv@Base 4:4.4.4-2~
  _ZNK6Plasma12AppletScript10popupEventEb@Base 4:4.4.95
  _ZNK6Plasma12AppletScript11descriptionEv@Base 4:4.4.4-2~
+ _ZNK6Plasma12AppletScript13drawWallpaperEv@Base 4:4.7.0
+ _ZNK6Plasma12AppletScript15containmentTypeEv@Base 4:4.7.0
  _ZNK6Plasma12AppletScript17configNeedsSavingEv@Base 4:4.4.4-2~
  _ZNK6Plasma12AppletScript4sizeEv@Base 4:4.4.4-2~
  _ZNK6Plasma12AppletScript5shapeEv@Base 4:4.4.4-2~
@@ -2346,6 +2358,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma14ItemBackground6targetEv@Base 4:4.4.4-2~
  _ZNK6Plasma14ToolTipContent11isClickableEv@Base 4:4.4.4-2~
  _ZNK6Plasma14ToolTipContent14graphicsWidgetEv@Base 4:4.5.86
+ _ZNK6Plasma14ToolTipContent14isInstantPopupEv@Base 4:4.7.0
  _ZNK6Plasma14ToolTipContent15windowToPreviewEv@Base 4:4.4.4-2~
  _ZNK6Plasma14ToolTipContent16highlightWindowsEv@Base 4:4.4.4-2~
  _ZNK6Plasma14ToolTipContent16windowsToPreviewEv@Base 4:4.4.4-2~
@@ -2440,6 +2453,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma17DataEngineManager6engineERK7QString@Base 4:4.4.4-2~
  _ZNK6Plasma17DeclarativeWidget10metaObjectEv@Base 4:4.5.86
  _ZNK6Plasma17DeclarativeWidget10rootObjectEv@Base 4:4.5.86
+ _ZNK6Plasma17DeclarativeWidget12scriptEngineEv@Base 4:4.7.0
  _ZNK6Plasma17DeclarativeWidget13mainComponentEv@Base 4:4.5.86
  _ZNK6Plasma17DeclarativeWidget23isInitializationDelayedEv@Base 4:4.5.86
  _ZNK6Plasma17DeclarativeWidget7qmlPathEv@Base 4:4.5.86
@@ -2515,6 +2529,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma5Theme25windowTranslucencyEnabledEv@Base 4:4.4.4-2~
  _ZNK6Plasma5Theme4fontENS0_8FontRoleE@Base 4:4.4.4-2~
  _ZNK6Plasma5Theme5colorENS0_9ColorRoleE@Base 4:4.4.4-2~
+ _ZNK6Plasma5Theme8homepageEv@Base 4:4.7.0
  _ZNK6Plasma5Theme9imagePathERK7QString@Base 4:4.4.4-2~
  _ZNK6Plasma5Theme9themeNameEv@Base 4:4.4.4-2~
  _ZNK6Plasma6Applet10dataEngineERK7QString@Base 4:4.4.4-2~
@@ -2577,6 +2592,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma6Corona20containmentForScreenEii@Base 4:4.4.4-2~
  _ZNK6Plasma6Corona21availableScreenRegionEi@Base 4:4.4.4-2~
  _ZNK6Plasma6Corona22preferredToolBoxPluginENS_11Containment4TypeE@Base 4:4.5.86
+ _ZNK6Plasma6Corona24defaultContainmentPluginEv@Base 4:4.7.0
  _ZNK6Plasma6Corona6actionE7QString@Base 4:4.4.4-2~
  _ZNK6Plasma6Corona6configEv@Base 4:4.4.4-2~
  _ZNK6Plasma6Corona7actionsEv@Base 4:4.4.4-2~
@@ -2595,6 +2611,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma6TabBar12currentIndexEv@Base 4:4.4.4-2~
  _ZNK6Plasma6TabBar12nativeWidgetEv@Base 4:4.4.4-2~
  _ZNK6Plasma6TabBar13isTabBarShownEv@Base 4:4.4.4-2~
+ _ZNK6Plasma6TabBar16isTabHighlightedEi@Base 4:4.7.0
  _ZNK6Plasma6TabBar18lastPositionWidgetEv@Base 4:4.5.86
  _ZNK6Plasma6TabBar19firstPositionWidgetEv@Base 4:4.5.86
  _ZNK6Plasma6TabBar5countEv@Base 4:4.4.4-2~
@@ -2717,6 +2734,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma9Wallpaper12isPreviewingEv@Base 4:4.4.95
  _ZNK6Plasma9Wallpaper13isInitializedEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper13renderingModeEv@Base 4:4.4.4-2~
+ _ZNK6Plasma9Wallpaper16supportsMimetypeERK7QString@Base 4:4.7.0
  _ZNK6Plasma9Wallpaper17contextualActionsEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper18listRenderingModesEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper21configurationRequiredEv@Base 4:4.4.4-2~

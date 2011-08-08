@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.7.0 amd64
 libnepomuk.so.4 libnepomuk4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN15KTagCloudWidget10tagClickedERK7QString@Base 4:4.3.4
@@ -269,6 +269,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NIE10isStoredAsEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE11contentSizeEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE11descriptionEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NIE11htmlContentEv@Base 4:4.7.0
  _ZN7Nepomuk10Vocabulary3NIE11licenseTypeEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE12characterSetEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE12lastModifiedEv@Base 4:4.5.85
@@ -1099,6 +1100,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk15OntologyManagerD1Ev@Base 4:4.3.4
  _ZN7Nepomuk15OntologyManagerD2Ev@Base 4:4.3.4
  _ZN7Nepomuk15ResourceManager10clearCacheEv@Base 4:4.4.0
+ _ZN7Nepomuk15ResourceManager10s_instanceE@Base 4:4.7.0
  _ZN7Nepomuk15ResourceManager11notifyErrorERK7QStringi@Base 4:4.3.4
  _ZN7Nepomuk15ResourceManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Nepomuk15ResourceManager11qt_metacastEPKc@Base 4:4.3.4

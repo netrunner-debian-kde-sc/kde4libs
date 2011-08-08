@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.85 amd64
+# SymbolsHelper-Confirmed: 4:4.7.0 amd64
 libknewstuff3.so.4 libknewstuff3-4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN4KNS312UploadDialog10setVersionERK7QString@Base 4:4.4.95
@@ -86,6 +86,7 @@ libknewstuff3.so.4 libknewstuff3-4 #MINVER#
  _ZN4KNS315DownloadManager12searchResultERK5QListINS_5EntryEE@Base 4:4.4.95
  _ZN4KNS315DownloadManager13setSearchTermERK7QString@Base 4:4.4.95
  _ZN4KNS315DownloadManager14setSearchOrderENS0_9SortOrderE@Base 4:4.4.95
+ _ZN4KNS315DownloadManager14uninstallEntryERKNS_5EntryE@Base 4:4.7.0
  _ZN4KNS315DownloadManager15checkForUpdatesEv@Base 4:4.4.95
  _ZN4KNS315DownloadManager16staticMetaObjectE@Base 4:4.4.95
  _ZN4KNS315DownloadManager18entryStatusChangedERKNS_5EntryE@Base 4:4.4.95

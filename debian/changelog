@@ -11,6 +11,7 @@ kde4libs (4:4.7.0-0r0) UNRELEASED; urgency=low
   * Update installed files.
   * Remove package libkatepartinterfaces4.
   * Add packages libkactivities5 and libkdeclarative5.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Aug 2011 01:03:43 +0200
 

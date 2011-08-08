@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.0 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -67,6 +67,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10KDateTableD0Ev@Base 4:4.3.4
  _ZN10KDateTableD1Ev@Base 4:4.3.4
  _ZN10KDateTableD2Ev@Base 4:4.3.4
+ _ZN10KFontUtils13adaptFontSizeER8QPainterRK7QStringRK6QSizeFdd6QFlagsINS_19AdaptFontSizeOptionEE@Base 4:4.7.0
+ _ZN10KFontUtils13adaptFontSizeER8QPainterRK7QStringdddd6QFlagsINS_19AdaptFontSizeOptionEE@Base 4:4.7.0
  _ZN10KIconCache11deleteCacheEv@Base 4:4.3.4
  _ZN10KIconCache12setThemeInfoERK5QListIP10KIconThemeE@Base 4:4.3.4
  _ZN10KIconCache14loadCustomDataER11QDataStream@Base 4:4.3.4
@@ -141,9 +143,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10KSeparatorC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:4.3.4
  _ZN10KSeparatorC2EN2Qt11OrientationEP7QWidget6QFlagsINS0_10WindowTypeEE@Base 4:4.3.4
  _ZN10KSeparatorC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN10KSeparatorD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN10KSeparatorD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN10KSeparatorD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN10KSeparatorD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN10KSeparatorD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN10KSeparatorD2Ev@Base 4:4.7.0
  _ZN10KStatusBar10changeItemERK7QStringi@Base 4:4.3.4
  _ZN10KStatusBar10insertItemERK7QStringii@Base 4:4.3.4
  _ZN10KStatusBar10removeItemEi@Base 4:4.3.4
@@ -241,9 +243,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10KUndoStack16staticMetaObjectE@Base 4:4.3.4
  _ZN10KUndoStackC1EP7QObject@Base 4:4.3.4
  _ZN10KUndoStackC2EP7QObject@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN10KUndoStackD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN10KUndoStackD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN10KUndoStackD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN10KUndoStackD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN10KUndoStackD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN10KUndoStackD2Ev@Base 4:4.7.0
  _ZN10KXMessages10gotMessageERK7QString@Base 4:4.3.4
  _ZN10KXMessages11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN10KXMessages11qt_metacastEPKc@Base 4:4.3.4
@@ -284,6 +286,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10NETWinInfo16setExtendedStrutERK16NETExtendedStrut@Base 4:4.3.4
  _ZN10NETWinInfo17setAllowedActionsEm@Base 4:4.3.4
  _ZN10NETWinInfo18setVisibleIconNameEPKc@Base 4:4.3.4
+ _ZN10NETWinInfo22setBlockingCompositingEb@Base 4:4.7.0
  _ZN10NETWinInfo5eventEP7_XEvent@Base 4:4.3.4
  _ZN10NETWinInfo5eventEP7_XEventPmi@Base 4:4.3.4
  _ZN10NETWinInfo6setPidEi@Base 4:4.3.4
@@ -618,9 +621,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11KImageCache7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
  _ZN11KImageCache7Private11qt_metacastEPKc@Base 4:4.4.95
  _ZN11KImageCache7Private16staticMetaObjectE@Base 4:4.4.95
- (arch=!amd64 !armel !ia64)_ZN11KImageCache7PrivateD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN11KImageCache7PrivateD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN11KImageCache7PrivateD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN11KImageCache7PrivateD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN11KImageCache7PrivateD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN11KImageCache7PrivateD2Ev@Base 4:4.7.0
  _ZN11KImageCacheC1ERK7QStringjj@Base 4:4.4.95
  _ZN11KImageCacheC2ERK7QStringjj@Base 4:4.4.95
  _ZN11KImageCacheD1Ev@Base 4:4.5.2
@@ -994,9 +997,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11NETWinInfo2C1EP9_XDisplaymmmN3NET4RoleE@Base 4:4.3.4
  _ZN11NETWinInfo2C2EP9_XDisplaymmPKmiN3NET4RoleE@Base 4:4.3.4
  _ZN11NETWinInfo2C2EP9_XDisplaymmmN3NET4RoleE@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN11NETWinInfo2D0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN11NETWinInfo2D1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN11NETWinInfo2D2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN11NETWinInfo2D0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN11NETWinInfo2D1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN11NETWinInfo2D2Ev@Base 4:4.7.0
  _ZN12KApplication10commitDataER15QSessionManager@Base 4:4.3.4
  _ZN12KApplication11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN12KApplication11qt_metacastEPKc@Base 4:4.3.4
@@ -1473,9 +1476,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN12KSvgRendererC2EP7QObject@Base 4:4.3.4
  _ZN12KSvgRendererC2ERK10QByteArrayP7QObject@Base 4:4.3.4
  _ZN12KSvgRendererC2ERK7QStringP7QObject@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN12KSvgRendererD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN12KSvgRendererD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN12KSvgRendererD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN12KSvgRendererD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN12KSvgRendererD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN12KSvgRendererD2Ev@Base 4:4.7.0
  _ZN12KTextBrowser10wheelEventEP11QWheelEvent@Base 4:4.3.4
  _ZN12KTextBrowser11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN12KTextBrowser11qt_metacastEPKc@Base 4:4.3.4
@@ -1556,6 +1559,90 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KConfigDialogD0Ev@Base 4:4.3.4
  _ZN13KConfigDialogD1Ev@Base 4:4.3.4
  _ZN13KConfigDialogD2Ev@Base 4:4.3.4
+ _ZN13KDateComboBox10assignDateERK5QDate@Base 4:4.7.0
+ _ZN13KDateComboBox10dateEditedERK5QDate@Base 4:4.7.0
+ _ZN13KDateComboBox10setDateMapE4QMapI5QDate7QStringE@Base 4:4.7.0
+ _ZN13KDateComboBox10setOptionsE6QFlagsINS_6OptionEE@Base 4:4.7.0
+ _ZN13KDateComboBox10wheelEventEP11QWheelEvent@Base 4:4.7.0
+ _ZN13KDateComboBox11dateChangedERK5QDate@Base 4:4.7.0
+ _ZN13KDateComboBox11dateEnteredERK5QDate@Base 4:4.7.0
+ _ZN13KDateComboBox11eventFilterEP7QObjectP6QEvent@Base 4:4.7.0
+ _ZN13KDateComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.0
+ _ZN13KDateComboBox11qt_metacastEPKc@Base 4:4.7.0
+ _ZN13KDateComboBox11resizeEventEP12QResizeEvent@Base 4:4.7.0
+ _ZN13KDateComboBox11setCalendarEP15KCalendarSystem@Base 4:4.7.0
+ _ZN13KDateComboBox12focusInEventEP11QFocusEvent@Base 4:4.7.0
+ _ZN13KDateComboBox12setDateRangeERK5QDateS2_RK7QStringS5_@Base 4:4.7.0
+ _ZN13KDateComboBox13focusOutEventEP11QFocusEvent@Base 4:4.7.0
+ _ZN13KDateComboBox13keyPressEventEP9QKeyEvent@Base 4:4.7.0
+ _ZN13KDateComboBox14resetDateRangeEv@Base 4:4.7.0
+ _ZN13KDateComboBox14setMaximumDateERK5QDateRK7QString@Base 4:4.7.0
+ _ZN13KDateComboBox14setMinimumDateERK5QDateRK7QString@Base 4:4.7.0
+ _ZN13KDateComboBox15mousePressEventEP11QMouseEvent@Base 4:4.7.0
+ _ZN13KDateComboBox16resetMaximumDateEv@Base 4:4.7.0
+ _ZN13KDateComboBox16resetMinimumDateEv@Base 4:4.7.0
+ _ZN13KDateComboBox16setDisplayFormatEN7KLocale10DateFormatE@Base 4:4.7.0
+ _ZN13KDateComboBox16staticMetaObjectE@Base 4:4.7.0
+ _ZN13KDateComboBox17setCalendarSystemEN7KLocale14CalendarSystemE@Base 4:4.7.0
+ _ZN13KDateComboBox20assignCalendarSystemEN7KLocale14CalendarSystemE@Base 4:4.7.0
+ _ZN13KDateComboBox7setDateERK5QDate@Base 4:4.7.0
+ _ZN13KDateComboBox9hidePopupEv@Base 4:4.7.0
+ _ZN13KDateComboBox9showPopupEv@Base 4:4.7.0
+ _ZN13KDateComboBoxC1EP7QWidget@Base 4:4.7.0
+ _ZN13KDateComboBoxC2EP7QWidget@Base 4:4.7.0
+ _ZN13KDateComboBoxD0Ev@Base 4:4.7.0
+ _ZN13KDateComboBoxD1Ev@Base 4:4.7.0
+ _ZN13KDateComboBoxD2Ev@Base 4:4.7.0
+ _ZN13KDateTimeEdit10assignDateERK5QDate@Base 4:4.7.0
+ _ZN13KDateTimeEdit10assignTimeERK5QTime@Base 4:4.7.0
+ _ZN13KDateTimeEdit10dateEditedERK5QDate@Base 4:4.7.0
+ _ZN13KDateTimeEdit10setDateMapE4QMapI5QDate7QStringE@Base 4:4.7.0
+ _ZN13KDateTimeEdit10setOptionsE6QFlagsINS_6OptionEE@Base 4:4.7.0
+ _ZN13KDateTimeEdit10timeEditedERK5QTime@Base 4:4.7.0
+ _ZN13KDateTimeEdit11dateChangedERK5QDate@Base 4:4.7.0
+ _ZN13KDateTimeEdit11dateEnteredERK5QDate@Base 4:4.7.0
+ _ZN13KDateTimeEdit11eventFilterEP7QObjectP6QEvent@Base 4:4.7.0
+ _ZN13KDateTimeEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.0
+ _ZN13KDateTimeEdit11qt_metacastEPKc@Base 4:4.7.0
+ _ZN13KDateTimeEdit11resizeEventEP12QResizeEvent@Base 4:4.7.0
+ _ZN13KDateTimeEdit11setCalendarEP15KCalendarSystem@Base 4:4.7.0
+ _ZN13KDateTimeEdit11setDateTimeERK9KDateTime@Base 4:4.7.0
+ _ZN13KDateTimeEdit11setTimeListE5QListI5QTimeERK7QStringS5_@Base 4:4.7.0
+ _ZN13KDateTimeEdit11setTimeSpecERKN9KDateTime4SpecE@Base 4:4.7.0
+ _ZN13KDateTimeEdit11timeChangedERK5QTime@Base 4:4.7.0
+ _ZN13KDateTimeEdit11timeEnteredERK5QTime@Base 4:4.7.0
+ _ZN13KDateTimeEdit12focusInEventEP11QFocusEvent@Base 4:4.7.0
+ _ZN13KDateTimeEdit12setTimeZonesERK4QMapI7QString9KTimeZoneE@Base 4:4.7.0
+ _ZN13KDateTimeEdit13focusOutEventEP11QFocusEvent@Base 4:4.7.0
+ _ZN13KDateTimeEdit14assignDateTimeERK9KDateTime@Base 4:4.7.0
+ _ZN13KDateTimeEdit14assignTimeSpecERKN9KDateTime4SpecE@Base 4:4.7.0
+ _ZN13KDateTimeEdit14dateTimeEditedERK9KDateTime@Base 4:4.7.0
+ _ZN13KDateTimeEdit15calendarChangedEN7KLocale14CalendarSystemE@Base 4:4.7.0
+ _ZN13KDateTimeEdit15calendarEnteredEN7KLocale14CalendarSystemE@Base 4:4.7.0
+ _ZN13KDateTimeEdit15dateTimeChangedERK9KDateTime@Base 4:4.7.0
+ _ZN13KDateTimeEdit15dateTimeEnteredERK9KDateTime@Base 4:4.7.0
+ _ZN13KDateTimeEdit15timeSpecChangedERKN9KDateTime4SpecE@Base 4:4.7.0
+ _ZN13KDateTimeEdit15timeSpecEnteredERKN9KDateTime4SpecE@Base 4:4.7.0
+ _ZN13KDateTimeEdit16setDateTimeRangeERK9KDateTimeS2_RK7QStringS5_@Base 4:4.7.0
+ _ZN13KDateTimeEdit16staticMetaObjectE@Base 4:4.7.0
+ _ZN13KDateTimeEdit17setCalendarSystemEN7KLocale14CalendarSystemE@Base 4:4.7.0
+ _ZN13KDateTimeEdit18resetDateTimeRangeEv@Base 4:4.7.0
+ _ZN13KDateTimeEdit18setMaximumDateTimeERK9KDateTimeRK7QString@Base 4:4.7.0
+ _ZN13KDateTimeEdit18setMinimumDateTimeERK9KDateTimeRK7QString@Base 4:4.7.0
+ _ZN13KDateTimeEdit19setTimeListIntervalEi@Base 4:4.7.0
+ _ZN13KDateTimeEdit20assignCalendarSystemEN7KLocale14CalendarSystemE@Base 4:4.7.0
+ _ZN13KDateTimeEdit20resetMaximumDateTimeEv@Base 4:4.7.0
+ _ZN13KDateTimeEdit20resetMinimumDateTimeEv@Base 4:4.7.0
+ _ZN13KDateTimeEdit20setDateDisplayFormatEN7KLocale10DateFormatE@Base 4:4.7.0
+ _ZN13KDateTimeEdit20setTimeDisplayFormatE6QFlagsIN7KLocale16TimeFormatOptionEE@Base 4:4.7.0
+ _ZN13KDateTimeEdit22setCalendarSystemsListE5QListIN7KLocale14CalendarSystemEE@Base 4:4.7.0
+ _ZN13KDateTimeEdit7setDateERK5QDate@Base 4:4.7.0
+ _ZN13KDateTimeEdit7setTimeERK5QTime@Base 4:4.7.0
+ _ZN13KDateTimeEditC1EP7QWidget@Base 4:4.7.0
+ _ZN13KDateTimeEditC2EP7QWidget@Base 4:4.7.0
+ _ZN13KDateTimeEditD0Ev@Base 4:4.7.0
+ _ZN13KDateTimeEditD1Ev@Base 4:4.7.0
+ _ZN13KDateTimeEditD2Ev@Base 4:4.7.0
  _ZN13KFontComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN13KFontComboBox11qt_metacastEPKc@Base 4:4.3.4
  _ZN13KFontComboBox12setOnlyFixedEb@Base 4:4.3.4
@@ -1792,6 +1879,38 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KSplashScreenD0Ev@Base 4:4.3.4
  _ZN13KSplashScreenD1Ev@Base 4:4.3.4
  _ZN13KSplashScreenD2Ev@Base 4:4.3.4
+ _ZN13KTimeComboBox10assignTimeERK5QTime@Base 4:4.7.0
+ _ZN13KTimeComboBox10setOptionsE6QFlagsINS_6OptionEE@Base 4:4.7.0
+ _ZN13KTimeComboBox10timeEditedERK5QTime@Base 4:4.7.0
+ _ZN13KTimeComboBox10wheelEventEP11QWheelEvent@Base 4:4.7.0
+ _ZN13KTimeComboBox11eventFilterEP7QObjectP6QEvent@Base 4:4.7.0
+ _ZN13KTimeComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.0
+ _ZN13KTimeComboBox11qt_metacastEPKc@Base 4:4.7.0
+ _ZN13KTimeComboBox11resizeEventEP12QResizeEvent@Base 4:4.7.0
+ _ZN13KTimeComboBox11setTimeListE5QListI5QTimeERK7QStringS5_@Base 4:4.7.0
+ _ZN13KTimeComboBox11timeChangedERK5QTime@Base 4:4.7.0
+ _ZN13KTimeComboBox11timeEnteredERK5QTime@Base 4:4.7.0
+ _ZN13KTimeComboBox12focusInEventEP11QFocusEvent@Base 4:4.7.0
+ _ZN13KTimeComboBox12setTimeRangeERK5QTimeS2_RK7QStringS5_@Base 4:4.7.0
+ _ZN13KTimeComboBox13focusOutEventEP11QFocusEvent@Base 4:4.7.0
+ _ZN13KTimeComboBox13keyPressEventEP9QKeyEvent@Base 4:4.7.0
+ _ZN13KTimeComboBox14resetTimeRangeEv@Base 4:4.7.0
+ _ZN13KTimeComboBox14setMaximumTimeERK5QTimeRK7QString@Base 4:4.7.0
+ _ZN13KTimeComboBox14setMinimumTimeERK5QTimeRK7QString@Base 4:4.7.0
+ _ZN13KTimeComboBox15mousePressEventEP11QMouseEvent@Base 4:4.7.0
+ _ZN13KTimeComboBox16resetMaximumTimeEv@Base 4:4.7.0
+ _ZN13KTimeComboBox16resetMinimumTimeEv@Base 4:4.7.0
+ _ZN13KTimeComboBox16setDisplayFormatE6QFlagsIN7KLocale16TimeFormatOptionEE@Base 4:4.7.0
+ _ZN13KTimeComboBox16staticMetaObjectE@Base 4:4.7.0
+ _ZN13KTimeComboBox19setTimeListIntervalEi@Base 4:4.7.0
+ _ZN13KTimeComboBox7setTimeERK5QTime@Base 4:4.7.0
+ _ZN13KTimeComboBox9hidePopupEv@Base 4:4.7.0
+ _ZN13KTimeComboBox9showPopupEv@Base 4:4.7.0
+ _ZN13KTimeComboBoxC1EP7QWidget@Base 4:4.7.0
+ _ZN13KTimeComboBoxC2EP7QWidget@Base 4:4.7.0
+ _ZN13KTimeComboBoxD0Ev@Base 4:4.7.0
+ _ZN13KTimeComboBoxD1Ev@Base 4:4.7.0
+ _ZN13KTimeComboBoxD2Ev@Base 4:4.7.0
  _ZN13KToggleAction11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN13KToggleAction11qt_metacastEPKc@Base 4:4.3.4
  _ZN13KToggleAction11slotToggledEb@Base 4:4.3.4
@@ -1852,6 +1971,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KWindowSystem20stackingOrderChangedEv@Base 4:4.3.4
  _ZN13KWindowSystem21currentDesktopChangedEi@Base 4:4.3.4
  _ZN13KWindowSystem21showingDesktopChangedEb@Base 4:4.3.4
+ _ZN13KWindowSystem22setBlockingCompositingEmb@Base 4:4.7.0
  _ZN13KWindowSystem23allowedActionsSupportedEv@Base 4:4.3.4
  _ZN13KWindowSystem23numberOfDesktopsChangedEi@Base 4:4.3.4
  _ZN13KWindowSystem23viewportWindowToDesktopERK5QRect@Base 4:4.3.4
@@ -1871,9 +1991,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KWindowSystem8setStrutEmiiii@Base 4:4.3.4
  _ZN13KWindowSystem8workAreaERK5QListImEi@Base 4:4.3.4
  _ZN13KWindowSystem8workAreaEi@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN13KWindowSystemD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN13KWindowSystemD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN13KWindowSystemD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN13KWindowSystemD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN13KWindowSystemD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN13KWindowSystemD2Ev@Base 4:4.7.0
  _ZN13KXMLGUIClient10endXMLPlugEv@Base 4:4.3.4
  _ZN13KXMLGUIClient10setFactoryEP14KXMLGUIFactory@Base 4:4.3.4
  _ZN13KXMLGUIClient10setXMLFileERK7QStringbb@Base 4:4.3.4
@@ -1967,9 +2087,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN14KCompletionBoxD2Ev@Base 4:4.3.4
  _ZN14KDateValidatorC1EP7QWidget@Base 4:4.3.4
  _ZN14KDateValidatorC2EP7QWidget@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN14KDateValidatorD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN14KDateValidatorD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN14KDateValidatorD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN14KDateValidatorD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN14KDateValidatorD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN14KDateValidatorD2Ev@Base 4:4.7.0
  _ZN14KFontRequester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN14KFontRequester11qt_metacastEPKc@Base 4:4.3.4
  _ZN14KFontRequester12fontSelectedERK5QFont@Base 4:4.3.4
@@ -1985,6 +2105,28 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN14KFontRequesterD0Ev@Base 4:4.3.4
  _ZN14KFontRequesterD1Ev@Base 4:4.3.4
  _ZN14KFontRequesterD2Ev@Base 4:4.3.4
+ _ZN14KMessageWidget10paintEventEP11QPaintEvent@Base 4:4.7.0
+ _ZN14KMessageWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.0
+ _ZN14KMessageWidget11qt_metacastEPKc@Base 4:4.7.0
+ _ZN14KMessageWidget11resizeEventEP12QResizeEvent@Base 4:4.7.0
+ _ZN14KMessageWidget11setWordWrapEb@Base 4:4.7.0
+ _ZN14KMessageWidget12animatedHideEv@Base 4:4.7.0
+ _ZN14KMessageWidget12animatedShowEv@Base 4:4.7.0
+ _ZN14KMessageWidget12removeActionEP7QAction@Base 4:4.7.0
+ _ZN14KMessageWidget14setMessageTypeENS_11MessageTypeE@Base 4:4.7.0
+ _ZN14KMessageWidget16staticMetaObjectE@Base 4:4.7.0
+ _ZN14KMessageWidget21setCloseButtonVisibleEb@Base 4:4.7.0
+ _ZN14KMessageWidget5eventEP6QEvent@Base 4:4.7.0
+ _ZN14KMessageWidget7setTextERK7QString@Base 4:4.7.0
+ _ZN14KMessageWidget9addActionEP7QAction@Base 4:4.7.0
+ _ZN14KMessageWidget9showEventEP10QShowEvent@Base 4:4.7.0
+ _ZN14KMessageWidgetC1EP7QWidget@Base 4:4.7.0
+ _ZN14KMessageWidgetC1ERK7QStringP7QWidget@Base 4:4.7.0
+ _ZN14KMessageWidgetC2EP7QWidget@Base 4:4.7.0
+ _ZN14KMessageWidgetC2ERK7QStringP7QWidget@Base 4:4.7.0
+ _ZN14KMessageWidgetD0Ev@Base 4:4.7.0
+ _ZN14KMessageWidgetD1Ev@Base 4:4.7.0
+ _ZN14KMessageWidgetD2Ev@Base 4:4.7.0
  _ZN14KRatingPainter10setEnabledEb@Base 4:4.5.85
  _ZN14KRatingPainter10setSpacingEi@Base 4:4.5.85
  _ZN14KRatingPainter11paintRatingEP8QPainterRK5QRect6QFlagsIN2Qt13AlignmentFlagEEii@Base 4:4.5.85
@@ -2197,23 +2339,23 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN15KConfigSkeleton8ItemFont11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN15KConfigSkeleton8ItemFontC1ERK7QStringS3_R5QFontRKS4_@Base 4:4.3.4
  _ZN15KConfigSkeleton8ItemFontC2ERK7QStringS3_R5QFontRKS4_@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN15KConfigSkeleton8ItemFontD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN15KConfigSkeleton8ItemFontD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN15KConfigSkeleton8ItemFontD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN15KConfigSkeleton8ItemFontD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN15KConfigSkeleton8ItemFontD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN15KConfigSkeleton8ItemFontD2Ev@Base 4:4.7.0
  _ZN15KConfigSkeleton9ItemColor10readConfigEP7KConfig@Base 4:4.3.4
  _ZN15KConfigSkeleton9ItemColor11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN15KConfigSkeleton9ItemColorC1ERK7QStringS3_R6QColorRKS4_@Base 4:4.3.4
  _ZN15KConfigSkeleton9ItemColorC2ERK7QStringS3_R6QColorRKS4_@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN15KConfigSkeleton9ItemColorD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN15KConfigSkeleton9ItemColorD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN15KConfigSkeleton9ItemColorD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN15KConfigSkeleton9ItemColorD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN15KConfigSkeleton9ItemColorD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN15KConfigSkeleton9ItemColorD2Ev@Base 4:4.7.0
  _ZN15KConfigSkeletonC1E10KSharedPtrI13KSharedConfigEP7QObject@Base 4:4.3.4
  _ZN15KConfigSkeletonC1ERK7QStringP7QObject@Base 4:4.3.4
  _ZN15KConfigSkeletonC2E10KSharedPtrI13KSharedConfigEP7QObject@Base 4:4.3.4
  _ZN15KConfigSkeletonC2ERK7QStringP7QObject@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN15KConfigSkeletonD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN15KConfigSkeletonD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN15KConfigSkeletonD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN15KConfigSkeletonD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN15KConfigSkeletonD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN15KConfigSkeletonD2Ev@Base 4:4.7.0
  _ZN15KDateTimeWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN15KDateTimeWidget11qt_metacastEPKc@Base 4:4.3.4
  _ZN15KDateTimeWidget11setDateTimeERK9QDateTime@Base 4:4.3.4
@@ -2577,9 +2719,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN15KSelectionOwner7Private11xa_multipleE@Base 4:4.3.4
  _ZN15KSelectionOwner7Private12manager_atomE@Base 4:4.3.4
  _ZN15KSelectionOwner7Private12xa_timestampE@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN15KSelectionOwner7PrivateD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN15KSelectionOwner7PrivateD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN15KSelectionOwner7PrivateD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN15KSelectionOwner7PrivateD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN15KSelectionOwner7PrivateD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN15KSelectionOwner7PrivateD2Ev@Base 4:4.7.0
  _ZN15KSelectionOwner7releaseEv@Base 4:4.3.4
  _ZN15KSelectionOwner7setDataEll@Base 4:4.3.4
  _ZN15KSelectionOwner8getAtomsEv@Base 4:4.3.4
@@ -3129,9 +3271,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN17KSelectionWatcher4initEv@Base 4:4.3.4
  _ZN17KSelectionWatcher5ownerEv@Base 4:4.3.4
  _ZN17KSelectionWatcher7Private12manager_atomE@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN17KSelectionWatcher7PrivateD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN17KSelectionWatcher7PrivateD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN17KSelectionWatcher7PrivateD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN17KSelectionWatcher7PrivateD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN17KSelectionWatcher7PrivateD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN17KSelectionWatcher7PrivateD2Ev@Base 4:4.7.0
  _ZN17KSelectionWatcher8newOwnerEm@Base 4:4.3.4
  _ZN17KSelectionWatcher9lostOwnerEv@Base 4:4.3.4
  _ZN17KSelectionWatcherC1EPKciP7QObject@Base 4:4.3.4
@@ -3323,9 +3465,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN18KNewPasswordDialogD0Ev@Base 4:4.3.4
  _ZN18KNewPasswordDialogD1Ev@Base 4:4.3.4
  _ZN18KNewPasswordDialogD2Ev@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN18KPageDialogPrivateD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN18KPageDialogPrivateD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN18KPageDialogPrivateD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN18KPageDialogPrivateD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN18KPageDialogPrivateD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN18KPageDialogPrivateD2Ev@Base 4:4.7.0
  _ZN18KRecentFilesAction11loadEntriesERK12KConfigGroup@Base 4:4.3.4
  _ZN18KRecentFilesAction11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN18KRecentFilesAction11qt_metacastEPKc@Base 4:4.3.4
@@ -3929,9 +4071,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN27KPassivePopupMessageHandler7messageEN8KMessage11MessageTypeERK7QStringS4_@Base 4:4.3.4
  _ZN27KPassivePopupMessageHandlerC1EP7QWidget@Base 4:4.3.4
  _ZN27KPassivePopupMessageHandlerC2EP7QWidget@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN27KPassivePopupMessageHandlerD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN27KPassivePopupMessageHandlerD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN27KPassivePopupMessageHandlerD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN27KPassivePopupMessageHandlerD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN27KPassivePopupMessageHandlerD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN27KPassivePopupMessageHandlerD2Ev@Base 4:4.7.0
  _ZN27KPixmapRegionSelectorDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
  _ZN27KPixmapRegionSelectorDialog11qt_metacastEPKc@Base 4:4.4.95
  _ZN27KPixmapRegionSelectorDialog16getSelectedImageERK7QPixmapP7QWidget@Base 4:4.3.4
@@ -4195,35 +4337,35 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6KRulerD0Ev@Base 4:4.3.4
  _ZN6KRulerD1Ev@Base 4:4.3.4
  _ZN6KRulerD2Ev@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN6KStyle10IconOptionD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle10IconOptionD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle10IconOptionD2Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEED0Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEED1Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEED2Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEED0Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEED1Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEED2Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEED0Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEED1Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEED2Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEED0Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEED1Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEED2Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEED0Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEED1Ev@Base 4:4.6.5
- (optional=templinst|arch=!amd64 !armel !ia64)_ZN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEED2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN6KStyle10IconOptionD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle10IconOptionD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle10IconOptionD2Ev@Base 4:4.7.0
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEED0Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEED1Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEED2Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEED0Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEED1Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEED2Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEED0Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEED1Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEED2Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEED0Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEED1Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEED2Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEED0Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEED1Ev@Base 4:4.6.5
+ (optional=templinst|arch=!armel !ia64)_ZN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEED2Ev@Base 4:4.6.5
  _ZN6KStyle10TextOption4initEv@Base 4:4.3.4
  _ZN6KStyle10TextOptionC1ERK7QString@Base 4:4.3.4
  _ZN6KStyle10TextOptionC1Ev@Base 4:4.3.4
  _ZN6KStyle10TextOptionC2ERK7QString@Base 4:4.3.4
  _ZN6KStyle10TextOptionC2Ev@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN6KStyle10TextOptionD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle10TextOptionD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle10TextOptionD2Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle11ColorOptionD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle11ColorOptionD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle11ColorOptionD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN6KStyle10TextOptionD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle10TextOptionD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle10TextOptionD2Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle11ColorOptionD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle11ColorOptionD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle11ColorOptionD2Ev@Base 4:4.7.0
  _ZN6KStyle11eventFilterEP7QObjectP6QEvent@Base 4:4.3.4
  _ZN6KStyle11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6KStyle11qt_metacastEPKc@Base 4:4.3.4
@@ -4238,13 +4380,13 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6KStyle15customStyleHintERK7QStringPK7QWidget@Base 4:4.3.4
  _ZN6KStyle16customSubElementERK7QStringPK7QWidget@Base 4:4.3.4
  _ZN6KStyle16staticMetaObjectE@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN6KStyle17TitleButtonOptionD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle17TitleButtonOptionD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle17TitleButtonOptionD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN6KStyle17TitleButtonOptionD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle17TitleButtonOptionD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle17TitleButtonOptionD2Ev@Base 4:4.7.0
  _ZN6KStyle17newControlElementERK7QString@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN6KStyle18DoubleButtonOptionD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle18DoubleButtonOptionD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN6KStyle18DoubleButtonOptionD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN6KStyle18DoubleButtonOptionD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle18DoubleButtonOptionD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN6KStyle18DoubleButtonOptionD2Ev@Base 4:4.7.0
  _ZN6KStyle19setWidgetLayoutPropENS_10WidgetTypeEii@Base 4:4.3.4
  _ZN6KStyle20customControlElementERK7QStringPK7QWidget@Base 4:4.3.4
  _ZN6KStyle6polishEP12QApplication@Base 4:4.3.4
@@ -4363,6 +4505,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6Sonnet6Dialog18showProgressDialogEi@Base 4:4.4.0
  _ZN6Sonnet6Dialog18slotChangeLanguageERK7QString@Base 4:4.3.4
  _ZN6Sonnet6Dialog20slotSelectionChangedERK11QModelIndex@Base 4:4.3.4
+ _ZN6Sonnet6Dialog22fillDictionaryComboBoxEv@Base 4:4.7.0
  _ZN6Sonnet6Dialog24setProgressDialogVisibleEb@Base 4:4.4.0
  _ZN6Sonnet6Dialog24updateDictionaryComboBoxEv@Base 4:4.4.0
  _ZN6Sonnet6Dialog31showSpellCheckCompletionMessageEb@Base 4:4.4.0
@@ -4560,6 +4703,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN7KWallet6Wallet14PasswordFolderEv@Base 4:4.3.4
  _ZN7KWallet6Wallet14changePasswordERK7QStringm@Base 4:4.3.4
  _ZN7KWallet6Wallet15keyDoesNotExistERK7QStringS3_S3_@Base 4:4.3.4
+ _ZN7KWallet6Wallet16emitWalletOpenedEv@Base 4:4.7.0
  _ZN7KWallet6Wallet16readPasswordListERK7QStringR4QMapIS1_S1_E@Base 4:4.3.4
  _ZN7KWallet6Wallet16slotWalletClosedEi@Base 4:4.3.4
  _ZN7KWallet6Wallet16staticMetaObjectE@Base 4:4.3.4
@@ -4710,7 +4854,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN8KToolBar21setContextMenuEnabledEb@Base 4:4.3.4
  _ZN8KToolBar22toolButtonStyleSettingEv@Base 4:4.3.4
  _ZN8KToolBar7Private10s_editableE@Base 4:4.3.4
- _ZN8KToolBar7Private11contextMenuEv@Base 4:4.3.4
+ _ZN8KToolBar7Private11contextMenuERK6QPoint@Base 4:4.7.0
+#MISSING: 4:4.7.0# _ZN8KToolBar7Private11contextMenuEv@Base 4:4.3.4
  _ZN8KToolBar7Private14slotContextTopEv@Base 4:4.3.4
  _ZN8KToolBar7Private15loadKDESettingsEv@Base 4:4.3.4
  _ZN8KToolBar7Private15slotContextLeftEv@Base 4:4.3.4
@@ -4721,6 +4866,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN8KToolBar7Private17slotContextBottomEv@Base 4:4.3.4
  _ZN8KToolBar7Private18positionFromStringERK7QString@Base 4:4.3.4
  _ZN8KToolBar7Private19slotContextIconSizeEv@Base 4:4.3.4
+ _ZN8KToolBar7Private19slotContextShowTextEv@Base 4:4.7.0
  _ZN8KToolBar7Private20applyCurrentSettingsEv@Base 4:4.3.4
  _ZN8KToolBar7Private20slotContextTextRightEv@Base 4:4.3.4
  _ZN8KToolBar7Private20slotContextTextUnderEv@Base 4:4.3.4
@@ -5133,6 +5279,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK10NETWinInfo15windowClassNameEv@Base 4:4.3.4
  _ZNK10NETWinInfo16passedPropertiesEv@Base 4:4.3.4
  _ZNK10NETWinInfo16windowClassClassEv@Base 4:4.3.4
+ _ZNK10NETWinInfo21isBlockingCompositingEv@Base 4:4.7.0
  _ZNK10NETWinInfo3pidEv@Base 4:4.3.4
  _ZNK10NETWinInfo4iconEii@Base 4:4.3.4
  _ZNK10NETWinInfo4nameEv@Base 4:4.3.4
@@ -5227,6 +5374,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK11KIconLoader10metaObjectEv@Base 4:4.3.4
  _ZNK11KIconLoader10queryIconsEiNS_7ContextE@Base 4:4.3.4
  _ZNK11KIconLoader11currentSizeENS_5GroupE@Base 4:4.3.4
+ _ZNK11KIconLoader12drawOverlaysERK11QStringListR7QPixmapNS_5GroupEi@Base 4:4.7.0
  _ZNK11KIconLoader12loadAnimatedERK7QStringNS_5GroupEi@Base 4:4.3.4
  _ZNK11KIconLoader13alphaBlendingENS_5GroupE@Base 4:4.3.4
  _ZNK11KIconLoader15queryIconsByDirERK7QString@Base 4:4.3.4
@@ -5405,7 +5553,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK12KColorScheme10decorationENS_14DecorationRoleE@Base 4:4.3.4
  _ZNK12KColorScheme10foregroundENS_14ForegroundRoleE@Base 4:4.3.4
  _ZNK12KColorScheme5shadeENS_9ShadeRoleE@Base 4:4.3.4
- (optional=templinst|arch=armel mips mipsel powerpc s390 sparc)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.3.4
+ (optional=templinst|arch=amd64 armel mips mipsel powerpc s390 sparc)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.3.4
  (optional=templinst|arch=hurd-i386 ia64)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
  (optional=templinst|arch=hurd-i386 ia64)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.2
  (optional=templinst|arch=hurd-i386 ia64)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.6.2
@@ -5475,6 +5623,39 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK12KTitleWidget6pixmapEv@Base 4:4.3.4
  _ZNK12KTitleWidget7commentEv@Base 4:4.3.4
  _ZNK13KConfigDialog10metaObjectEv@Base 4:4.3.4
+ _ZNK13KDateComboBox10metaObjectEv@Base 4:4.7.0
+ _ZNK13KDateComboBox11maximumDateEv@Base 4:4.7.0
+ _ZNK13KDateComboBox11minimumDateEv@Base 4:4.7.0
+ _ZNK13KDateComboBox13displayFormatEv@Base 4:4.7.0
+ _ZNK13KDateComboBox14calendarSystemEv@Base 4:4.7.0
+ _ZNK13KDateComboBox4dateEv@Base 4:4.7.0
+ _ZNK13KDateComboBox6isNullEv@Base 4:4.7.0
+ _ZNK13KDateComboBox7dateMapEv@Base 4:4.7.0
+ _ZNK13KDateComboBox7isValidEv@Base 4:4.7.0
+ _ZNK13KDateComboBox7optionsEv@Base 4:4.7.0
+ _ZNK13KDateComboBox8calendarEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit10isNullDateEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit10isNullTimeEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit10metaObjectEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit11isValidDateEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit11isValidTimeEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit14calendarSystemEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit15maximumDateTimeEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit15minimumDateTimeEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit16timeListIntervalEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit17dateDisplayFormatEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit17timeDisplayFormatEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit19calendarSystemsListEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit4dateEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit4timeEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit6isNullEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit7dateMapEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit7isValidEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit7optionsEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit8dateTimeEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit8timeListEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit8timeSpecEv@Base 4:4.7.0
+ _ZNK13KDateTimeEdit9timeZonesEv@Base 4:4.7.0
  _ZNK13KFontComboBox10metaObjectEv@Base 4:4.3.4
  _ZNK13KFontComboBox11currentFontEv@Base 4:4.3.4
  _ZNK13KFontComboBox8sizeHintEv@Base 4:4.3.4
@@ -5540,6 +5721,16 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK13KShapeGestureeqERKS_@Base 4:4.3.4
  _ZNK13KShapeGestureneERKS_@Base 4:4.3.4
  _ZNK13KSplashScreen10metaObjectEv@Base 4:4.3.4
+ _ZNK13KTimeComboBox10metaObjectEv@Base 4:4.7.0
+ _ZNK13KTimeComboBox11maximumTimeEv@Base 4:4.7.0
+ _ZNK13KTimeComboBox11minimumTimeEv@Base 4:4.7.0
+ _ZNK13KTimeComboBox13displayFormatEv@Base 4:4.7.0
+ _ZNK13KTimeComboBox16timeListIntervalEv@Base 4:4.7.0
+ _ZNK13KTimeComboBox4timeEv@Base 4:4.7.0
+ _ZNK13KTimeComboBox6isNullEv@Base 4:4.7.0
+ _ZNK13KTimeComboBox7isValidEv@Base 4:4.7.0
+ _ZNK13KTimeComboBox7optionsEv@Base 4:4.7.0
+ _ZNK13KTimeComboBox8timeListEv@Base 4:4.7.0
  _ZNK13KToggleAction10metaObjectEv@Base 4:4.3.4
  _ZNK13KWindowSystem10metaObjectEv@Base 4:4.3.4
  _ZNK13KXMLGUIClient11domDocumentEv@Base 4:4.3.4
@@ -5574,6 +5765,13 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK14KFontRequester5labelEv@Base 4:4.3.4
  _ZNK14KFontRequester5titleEv@Base 4:4.3.4
  _ZNK14KFontRequester6buttonEv@Base 4:4.3.4
+ _ZNK14KMessageWidget10metaObjectEv@Base 4:4.7.0
+ _ZNK14KMessageWidget11messageTypeEv@Base 4:4.7.0
+ _ZNK14KMessageWidget15minimumSizeHintEv@Base 4:4.7.0
+ _ZNK14KMessageWidget20isCloseButtonVisibleEv@Base 4:4.7.0
+ _ZNK14KMessageWidget4textEv@Base 4:4.7.0
+ _ZNK14KMessageWidget8sizeHintEv@Base 4:4.7.0
+ _ZNK14KMessageWidget8wordWrapEv@Base 4:4.7.0
  _ZNK14KRatingPainter12customPixmapEv@Base 4:4.5.85
  _ZNK14KRatingPainter15layoutDirectionEv@Base 4:4.5.85
  _ZNK14KRatingPainter16halfStepsEnabledEv@Base 4:4.5.85
@@ -6429,6 +6627,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTI12KTextBrowser@Base 4:4.3.4
  _ZTI12KTitleWidget@Base 4:4.3.4
  _ZTI13KConfigDialog@Base 4:4.3.4
+ _ZTI13KDateComboBox@Base 4:4.7.0
+ _ZTI13KDateTimeEdit@Base 4:4.7.0
  _ZTI13KFontComboBox@Base 4:4.3.4
  _ZTI13KIntValidator@Base 4:4.3.4
  _ZTI13KNotification@Base 4:4.3.4
@@ -6437,6 +6637,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTI13KRichTextEdit@Base 4:4.3.4
  _ZTI13KSelectAction@Base 4:4.3.4
  _ZTI13KSplashScreen@Base 4:4.3.4
+ _ZTI13KTimeComboBox@Base 4:4.7.0
  _ZTI13KToggleAction@Base 4:4.3.4
  _ZTI13KWindowSystem@Base 4:4.3.4
  _ZTI13KXMLGUIClient@Base 4:4.3.4
@@ -6444,6 +6645,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTI14KCompletionBox@Base 4:4.3.4
  _ZTI14KDateValidator@Base 4:4.3.4
  _ZTI14KFontRequester@Base 4:4.3.4
+ _ZTI14KMessageWidget@Base 4:4.7.0
  _ZTI14KReplaceDialog@Base 4:4.3.4
  _ZTI14KXMLGUIBuilder@Base 4:4.3.4
  _ZTI14KXMLGUIFactory@Base 4:4.3.4
@@ -6649,6 +6851,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTS12KTextBrowser@Base 4:4.3.4
  _ZTS12KTitleWidget@Base 4:4.3.4
  _ZTS13KConfigDialog@Base 4:4.3.4
+ _ZTS13KDateComboBox@Base 4:4.7.0
+ _ZTS13KDateTimeEdit@Base 4:4.7.0
  _ZTS13KFontComboBox@Base 4:4.3.4
  _ZTS13KIntValidator@Base 4:4.3.4
  _ZTS13KNotification@Base 4:4.3.4
@@ -6657,6 +6861,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTS13KRichTextEdit@Base 4:4.3.4
  _ZTS13KSelectAction@Base 4:4.3.4
  _ZTS13KSplashScreen@Base 4:4.3.4
+ _ZTS13KTimeComboBox@Base 4:4.7.0
  _ZTS13KToggleAction@Base 4:4.3.4
  _ZTS13KWindowSystem@Base 4:4.3.4
  _ZTS13KXMLGUIClient@Base 4:4.3.4
@@ -6664,6 +6869,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTS14KCompletionBox@Base 4:4.3.4
  _ZTS14KDateValidator@Base 4:4.3.4
  _ZTS14KFontRequester@Base 4:4.3.4
+ _ZTS14KMessageWidget@Base 4:4.7.0
  _ZTS14KReplaceDialog@Base 4:4.3.4
  _ZTS14KXMLGUIBuilder@Base 4:4.3.4
  _ZTS14KXMLGUIFactory@Base 4:4.3.4
@@ -6870,6 +7076,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV12KTextBrowser@Base 4:4.3.4
  _ZTV12KTitleWidget@Base 4:4.3.4
  _ZTV13KConfigDialog@Base 4:4.3.4
+ _ZTV13KDateComboBox@Base 4:4.7.0
+ _ZTV13KDateTimeEdit@Base 4:4.7.0
  _ZTV13KFontComboBox@Base 4:4.3.4
  _ZTV13KIntValidator@Base 4:4.3.4
  _ZTV13KNotification@Base 4:4.3.4
@@ -6878,6 +7086,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV13KRichTextEdit@Base 4:4.3.4
  _ZTV13KSelectAction@Base 4:4.3.4
  _ZTV13KSplashScreen@Base 4:4.3.4
+ _ZTV13KTimeComboBox@Base 4:4.7.0
  _ZTV13KToggleAction@Base 4:4.3.4
  _ZTV13KWindowSystem@Base 4:4.3.4
  _ZTV13KXMLGUIClient@Base 4:4.3.4
@@ -6885,6 +7094,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV14KCompletionBox@Base 4:4.3.4
  _ZTV14KDateValidator@Base 4:4.3.4
  _ZTV14KFontRequester@Base 4:4.3.4
+ _ZTV14KMessageWidget@Base 4:4.7.0
  _ZTV14KReplaceDialog@Base 4:4.3.4
  _ZTV14KXMLGUIBuilder@Base 4:4.3.4
  _ZTV14KXMLGUIFactory@Base 4:4.3.4
@@ -7066,8 +7276,10 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (c++)"non-virtual thunk to KComboBox::~KComboBox()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KCompletionBox::~KCompletionBox()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KConfigDialog::~KConfigDialog()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to KDateComboBox::~KDateComboBox()@Base" 4:4.7.0
  (c++)"non-virtual thunk to KDatePicker::~KDatePicker()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KDateTable::~KDateTable()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to KDateTimeEdit::~KDateTimeEdit()@Base" 4:4.7.0
  (c++)"non-virtual thunk to KDateTimeWidget::~KDateTimeWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KDateWidget::~KDateWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KDialog::~KDialog()@Base" 4:4.3.4
@@ -7104,6 +7316,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (c++)"non-virtual thunk to KMenuBar::~KMenuBar()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KMessageBoxMessageHandler::message(KMessage::MessageType, QString const&, QString const&)@Base" 4:4.3.4
  (c++)"non-virtual thunk to KMessageBoxMessageHandler::~KMessageBoxMessageHandler()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to KMessageWidget::~KMessageWidget()@Base" 4:4.7.0
  (c++)"non-virtual thunk to KMultiTabBar::~KMultiTabBar()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KMultiTabBarButton::~KMultiTabBarButton()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KMultiTabBarTab::~KMultiTabBarTab()@Base" 4:4.3.4
@@ -7114,7 +7327,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (c++)"non-virtual thunk to KPageWidget::~KPageWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KPassivePopup::~KPassivePopup()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KPassivePopupMessageHandler::message(KMessage::MessageType, QString const&, QString const&)@Base" 4:4.3.4
- (c++|arch=!amd64 !armel !ia64)"non-virtual thunk to KPassivePopupMessageHandler::~KPassivePopupMessageHandler()@Base" 4:4.6.5
+ (c++|arch=!armel !ia64)"non-virtual thunk to KPassivePopupMessageHandler::~KPassivePopupMessageHandler()@Base" 4:4.7.0
  (c++)"non-virtual thunk to KPasswordDialog::~KPasswordDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KPixmapRegionSelectorDialog::~KPixmapRegionSelectorDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KPixmapRegionSelectorWidget::~KPixmapRegionSelectorWidget()@Base" 4:4.3.4
@@ -7129,10 +7342,10 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (c++)"non-virtual thunk to KRichTextEdit::~KRichTextEdit()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KRichTextWidget::~KRichTextWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KRuler::~KRuler()@Base" 4:4.3.4
- (c++|arch=!amd64 !armel !ia64)"non-virtual thunk to KSelectionOwner::Private::~Private()@Base" 4:4.6.5
- (c++|arch=!amd64 !armel !ia64)"non-virtual thunk to KSelectionWatcher::Private::~Private()@Base" 4:4.6.5
+ (c++|arch=!armel !ia64)"non-virtual thunk to KSelectionOwner::Private::~Private()@Base" 4:4.7.0
+ (c++|arch=!armel !ia64)"non-virtual thunk to KSelectionWatcher::Private::~Private()@Base" 4:4.7.0
  (c++)"non-virtual thunk to KSelector::~KSelector()@Base" 4:4.3.4
- (c++|arch=!amd64 !armel !ia64)"non-virtual thunk to KSeparator::~KSeparator()@Base" 4:4.6.5
+ (c++|arch=!armel !ia64)"non-virtual thunk to KSeparator::~KSeparator()@Base" 4:4.7.0
  (c++)"non-virtual thunk to KShortcutWidget::~KShortcutWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KShortcutsDialog::~KShortcutsDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KShortcutsEditor::~KShortcutsEditor()@Base" 4:4.3.4
@@ -7143,6 +7356,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (c++)"non-virtual thunk to KTabWidget::~KTabWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KTextBrowser::~KTextBrowser()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KTextEdit::~KTextEdit()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to KTimeComboBox::~KTimeComboBox()@Base" 4:4.7.0
  (c++)"non-virtual thunk to KTimeZoneWidget::~KTimeZoneWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KTipDialog::~KTipDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KTitleWidget::~KTitleWidget()@Base" 4:4.3.4

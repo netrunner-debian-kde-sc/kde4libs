@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.0 amd64
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -1825,17 +1825,17 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOMeqERKNS_9DOMStringEPKc@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringERK7QString@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringES2_@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN3KIO8MetaDataD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN3KIO8MetaDataD2Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN3KJS10IdentifierD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN3KJS10IdentifierD2Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN3KIO8MetaDataD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN3KIO8MetaDataD2Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN3KJS10IdentifierD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN3KJS10IdentifierD2Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.0
  (arch=hurd-i386 ia64)_ZN3KJS14ScopeChainLink5derefEv@Base 4:4.6.3
- (arch=!amd64 !armel !ia64)_ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN3KJS19InternalFunctionImpD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN3KJS19InternalFunctionImpD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN3KJS19InternalFunctionImpD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN3KJS19InternalFunctionImpD2Ev@Base 4:4.7.0
  (arch=!armel !hurd-i386 !ia64)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.6.5
  (arch=!armel)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  (arch=!armel)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
@@ -1848,11 +1848,11 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3KJS7UStringC1ERKN3DOM9DOMStringE@Base 4:4.3.4
  _ZN3KJS7UStringC2ERK7QString@Base 4:4.3.4
  _ZN3KJS7UStringC2ERKN3DOM9DOMStringE@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN3KJS8JSObjectD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN3KJS8JSObjectD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN3KJS8JSObjectD2Ev@Base 4:4.6.5
- (arch=i386 kfreebsd-amd64 kfreebsd-i386 sparc)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
- (arch=i386 kfreebsd-amd64 kfreebsd-i386 sparc)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN3KJS8JSObjectD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN3KJS8JSObjectD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN3KJS8JSObjectD2Ev@Base 4:4.7.0
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 sparc)_ZN4KUrl4ListD1Ev@Base 4:4.7.0
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 sparc)_ZN4KUrl4ListD2Ev@Base 4:4.7.0
  _ZN5khtml10ChildFrame11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5khtml10ChildFrame11qt_metacastEPKc@Base 4:4.3.4
  _ZN5khtml10ChildFrame13dumpFrameTreeEP9KHTMLPart@Base 4:4.5.85
@@ -1873,13 +1873,13 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN5khtml11RenderStyle7cleanupEv@Base 4:4.3.4
  _ZN5khtml12RenderObject7cleanupEv@Base 4:4.3.4
  _ZN5khtml14MouseMoveEvent19s_strMouseMoveEventE@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN5khtml14MouseMoveEventD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5khtml14MouseMoveEventD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5khtml14MouseMoveEventD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN5khtml14MouseMoveEventD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5khtml14MouseMoveEventD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5khtml14MouseMoveEventD2Ev@Base 4:4.7.0
  _ZN5khtml15MousePressEvent20s_strMousePressEventE@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN5khtml15MousePressEventD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5khtml15MousePressEventD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5khtml15MousePressEventD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN5khtml15MousePressEventD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5khtml15MousePressEventD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5khtml15MousePressEventD2Ev@Base 4:4.7.0
  _ZN5khtml16CSSStyleSelector5clearEv@Base 4:4.3.4
  _ZN5khtml17DrawContentsEvent22s_strDrawContentsEventE@Base 4:4.3.4
  _ZN5khtml17DrawContentsEventC1EP8QPainteriiii@Base 4:4.3.4
@@ -1888,13 +1888,13 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN5khtml17DrawContentsEventD1Ev@Base 4:4.3.4
  _ZN5khtml17DrawContentsEventD2Ev@Base 4:4.3.4
  _ZN5khtml17MouseReleaseEvent22s_strMouseReleaseEventE@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN5khtml17MouseReleaseEventD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5khtml17MouseReleaseEventD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5khtml17MouseReleaseEventD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN5khtml17MouseReleaseEventD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5khtml17MouseReleaseEventD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5khtml17MouseReleaseEventD2Ev@Base 4:4.7.0
  _ZN5khtml21MouseDoubleClickEvent26s_strMouseDoubleClickEventE@Base 4:4.3.4
- (arch=!amd64 !armel !ia64)_ZN5khtml21MouseDoubleClickEventD0Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5khtml21MouseDoubleClickEventD1Ev@Base 4:4.6.5
- (arch=!amd64 !armel !ia64)_ZN5khtml21MouseDoubleClickEventD2Ev@Base 4:4.6.5
+ (arch=!armel !ia64)_ZN5khtml21MouseDoubleClickEventD0Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5khtml21MouseDoubleClickEventD1Ev@Base 4:4.7.0
+ (arch=!armel !ia64)_ZN5khtml21MouseDoubleClickEventD2Ev@Base 4:4.7.0
  _ZN5khtml5Cache4initEv@Base 4:4.3.4
  _ZN5khtml5Cache5clearEv@Base 4:4.3.4
  _ZN5khtml5Cache5flushEb@Base 4:4.3.4
