@@ -402,15 +402,15 @@ Description: KDE WebKit Library
  .
  This package is part of the KDE Development Platform libraries module.
 
-Package: libkatepartinterfaces4
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: kate part library
- This library contains the code used by the kate part. It is not
- meant to be used directly, applications should use libktexteditor4
- instead.
- .
- This package is part of the KDE Development Platform libraries module.
+#Package: libkatepartinterfaces4
+#Architecture: any
+#Depends: ${shlibs:Depends}, ${misc:Depends}
+#Description: kate part library
+# This library contains the code used by the kate part. It is not
+# meant to be used directly, applications should use libktexteditor4
+# instead.
+# .
+# This package is part of the KDE Development Platform libraries module.
 
 Package: libkcmutils4
 Architecture: any
@@ -450,6 +450,18 @@ Description: utility classes to deal with printing
  in KDE applications. Currently it only provides a print preview dialog.
  .
  This package is part of the KDE Development Platform libraries module.
+
+Package: libkactivities5
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ...
+ ...
+
+Package: libkdeclarative5
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ...
+ ...
 
 Package: kdelibs-bin
 Architecture: any

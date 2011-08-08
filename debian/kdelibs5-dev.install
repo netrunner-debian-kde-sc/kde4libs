@@ -284,9 +284,11 @@ usr/include/KDE/KDEsuClient
 usr/include/KDE/KDataTool
 usr/include/KDE/KDataToolAction
 usr/include/KDE/KDataToolInfo
+usr/include/KDE/KDateComboBox
 usr/include/KDE/KDatePicker
 usr/include/KDE/KDateTable
 usr/include/KDE/KDateTime
+usr/include/KDE/KDateTimeEdit
 usr/include/KDE/KDateTimeWidget
 usr/include/KDE/KDateValidator
 usr/include/KDE/KDateWidget
@@ -325,6 +327,7 @@ usr/include/KDE/KFileItemActions
 usr/include/KDE/KFileItemDelegate
 usr/include/KDE/KFileItemList
 usr/include/KDE/KFileItemListProperties
+usr/include/KDE/KFileMetaDataWidget
 usr/include/KDE/KFileMetaInfo
 usr/include/KDE/KFileMetaInfoGroup
 usr/include/KDE/KFileMetaInfoItem
@@ -348,6 +351,7 @@ usr/include/KDE/KFontComboBox
 usr/include/KDE/KFontDialog
 usr/include/KDE/KFontRequester
 usr/include/KDE/KFontSizeAction
+usr/include/KDE/KFontUtils
 usr/include/KDE/KGenericFactory
 usr/include/KDE/KGenericFactoryBase
 usr/include/KDE/KGlobal
@@ -383,6 +387,7 @@ usr/include/KDE/KIO/FileCopyJob
 usr/include/KDE/KIO/FileJob
 usr/include/KDE/KIO/ForwardingSlaveBase
 usr/include/KDE/KIO/Job
+usr/include/KDE/KIO/JobClasses
 usr/include/KDE/KIO/JobUiDelegate
 usr/include/KDE/KIO/ListJob
 usr/include/KDE/KIO/MetaData
@@ -449,6 +454,7 @@ usr/include/KDE/KMessage
 usr/include/KDE/KMessageBox
 usr/include/KDE/KMessageBoxMessageHandler
 usr/include/KDE/KMessageHandler
+usr/include/KDE/KMessageWidget
 usr/include/KDE/KMimeType
 usr/include/KDE/KMimeTypeChooser
 usr/include/KDE/KMimeTypeChooserDialog
@@ -497,6 +503,7 @@ usr/include/KDE/KNetwork/KSocketDeviceFactory
 usr/include/KDE/KNetwork/KSocksSocketDevice
 usr/include/KDE/KNetwork/KStreamSocket
 usr/include/KDE/KNetwork/KUnixSocketAddress
+usr/include/KDE/KNewFileMenu
 usr/include/KDE/KNotification
 usr/include/KDE/KNotificationRestrictions
 usr/include/KDE/KNotifyConfigWidget
@@ -573,6 +580,7 @@ usr/include/KDE/KPtyProcess
 usr/include/KDE/KPushButton
 usr/include/KDE/KRandom
 usr/include/KDE/KRandomSequence
+usr/include/KDE/KRatingWidget
 usr/include/KDE/KRecentDocument
 usr/include/KDE/KRecentFilesAction
 usr/include/KDE/KRemoteEncoding
@@ -584,6 +592,7 @@ usr/include/KDE/KRichTextWidget
 usr/include/KDE/KRuler
 usr/include/KDE/KRun
 usr/include/KDE/KSambaShare
+usr/include/KDE/KSambaShareData
 usr/include/KDE/KSaveFile
 usr/include/KDE/KScanDialog
 usr/include/KDE/KSelectAction
@@ -608,6 +617,7 @@ usr/include/KDE/KSharedPtr
 usr/include/KDE/KShell
 usr/include/KDE/KShellCompletion
 usr/include/KDE/KShortcut
+usr/include/KDE/KShortcutWidget
 usr/include/KDE/KShortcutsDialog
 usr/include/KDE/KShortcutsEditor
 usr/include/KDE/KSocks
@@ -682,6 +692,7 @@ usr/include/KDE/KTextEditor/TemplateInterface2
 usr/include/KDE/KTextEditor/TextHintInterface
 usr/include/KDE/KTextEditor/VariableInterface
 usr/include/KDE/KTextEditor/View
+usr/include/KDE/KTimeComboBox
 usr/include/KDE/KTimeZone
 usr/include/KDE/KTimeZoneData
 usr/include/KDE/KTimeZoneSource
@@ -820,6 +831,7 @@ usr/include/KDE/Nepomuk/Variant
 usr/include/KDE/Nepomuk/Vocabulary/NCAL
 usr/include/KDE/Nepomuk/Vocabulary/NCO
 usr/include/KDE/Nepomuk/Vocabulary/NDO
+usr/include/KDE/Nepomuk/Vocabulary/NEXIF
 usr/include/KDE/Nepomuk/Vocabulary/NFO
 usr/include/KDE/Nepomuk/Vocabulary/NIE
 usr/include/KDE/Nepomuk/Vocabulary/NMM
@@ -924,6 +936,7 @@ usr/include/KDE/Solid/DeviceNotifier
 usr/include/KDE/Solid/DvbInterface
 usr/include/KDE/Solid/GenericInterface
 usr/include/KDE/Solid/NetworkInterface
+usr/include/KDE/Solid/NetworkShare
 usr/include/KDE/Solid/Networking
 usr/include/KDE/Solid/OpticalDisc
 usr/include/KDE/Solid/OpticalDrive
@@ -1070,11 +1083,15 @@ usr/include/kactioncollection.h
 usr/include/kactionmenu.h
 usr/include/kactionselector.h
 usr/include/kactivelabel.h
+usr/include/kactivityconsumer.h
+usr/include/kactivitycontroller.h
+usr/include/kactivityinfo.h
 usr/include/kallocator.h
 usr/include/kanimatedbutton.h
 usr/include/kapplication.h
 usr/include/kar.h
 usr/include/karchive.h
+usr/include/karchive_export.h
 usr/include/karrowbutton.h
 usr/include/kascii.h
 usr/include/kassistantdialog.h
@@ -1146,9 +1163,11 @@ usr/include/kcrash.h
 usr/include/kcurrencycode.h
 usr/include/kcursor.h
 usr/include/kdatatool.h
+usr/include/kdatecombobox.h
 usr/include/kdatepicker.h
 usr/include/kdatetable.h
 usr/include/kdatetime.h
+usr/include/kdatetimeedit.h
 usr/include/kdatetimewidget.h
 usr/include/kdatewidget.h
 usr/include/kdbusservicestarter.h
@@ -1157,6 +1176,8 @@ usr/include/kde_file.h
 usr/include/kde_terminal_interface.h
 usr/include/kde_terminal_interface_v2.h
 usr/include/kdebug.h
+usr/include/kdeclarative.h
+usr/include/kdeclarative_export.h
 usr/include/kdecore_export.h
 usr/include/kdedmodule.h
 usr/include/kdefakes.h
@@ -1237,6 +1258,7 @@ usr/include/kfontcombobox.h
 usr/include/kfontdialog.h
 usr/include/kfontrequester.h
 usr/include/kfontsizeaction.h
+usr/include/kfontutils.h
 usr/include/kgenericfactory.h
 usr/include/kgenericfactory.tcc
 usr/include/kgesture.h
@@ -1355,6 +1377,7 @@ usr/include/kmenubar.h
 usr/include/kmessage.h
 usr/include/kmessagebox.h
 usr/include/kmessageboxmessagehandler.h
+usr/include/kmessagewidget.h
 usr/include/kmimetype.h
 usr/include/kmimetypechooser.h
 usr/include/kmimetyperesolver.h
@@ -1484,6 +1507,7 @@ usr/include/kross/ui/view.h
 usr/include/kruler.h
 usr/include/krun.h
 usr/include/ksambashare.h
+usr/include/ksambasharedata.h
 usr/include/ksavefile.h
 usr/include/kscan.h
 usr/include/kselectaction.h
@@ -1589,6 +1613,7 @@ usr/include/ktexteditor/templateinterface2.h
 usr/include/ktexteditor/texthintinterface.h
 usr/include/ktexteditor/variableinterface.h
 usr/include/ktexteditor/view.h
+usr/include/ktimecombobox.h
 usr/include/ktimezone.h
 usr/include/ktimezonewidget.h
 usr/include/ktip.h
@@ -1826,6 +1851,7 @@ usr/include/solid/genericinterface.h
 usr/include/solid/internetgateway.h
 usr/include/solid/networking.h
 usr/include/solid/networkinterface.h
+usr/include/solid/networkshare.h
 usr/include/solid/opticaldisc.h
 usr/include/solid/opticaldrive.h
 usr/include/solid/portablemediaplayer.h
@@ -1863,8 +1889,10 @@ usr/include/threadweaver/WeaverObserver.h
 usr/include/threadweaver/threadweaver_export.h
 usr/lib/kde4/libexec/kauth-policy-gen
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so
+usr/lib/libkactivities.so
 usr/lib/libkcmutils.so
 usr/lib/libkde3support.so
+usr/lib/libkdeclarative.so
 usr/lib/libkdecore.so
 usr/lib/libkdefakes.so
 usr/lib/libkdesu.so
