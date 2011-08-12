@@ -10,6 +10,7 @@ kde4libs (4:4.7.0-0r1) UNRELEASED; urgency=low
   * Bump shared-desktop-ontologies build depend to 0.6.50.
   * Update installed files.
   * Remove package libkatepartinterfaces4.
+  * Add package libkdeclarative5.
   * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Aug 2011 01:03:43 +0200

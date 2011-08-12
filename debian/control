@@ -451,6 +451,12 @@ Description: utility classes to deal with printing
  .
  This package is part of the KDE Development Platform libraries module.
 
+Package: libkdeclarative5
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ...
+ ...
+
 Package: kdelibs-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
