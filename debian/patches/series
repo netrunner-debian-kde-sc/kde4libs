@@ -23,3 +23,4 @@ cve_2010_3170_cn_wildcards.diff
 cve_2011_1094_ssl_verify_hostname.diff
 ktar_header_checksum_fix.diff
 ktar_longlink_length_in_bytes.diff
+636615-ibus.diff

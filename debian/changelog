@@ -1,3 +1,11 @@
+kde4libs (4:4.4.5-2+squeeze3) stable; urgency=low
+
+  * Apply upstream patch to prevent marked text being cut out when switching
+    documents in kate. (Closes: #636615)
+    + new patch: 636615-ibus.diff
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Sun, 14 Aug 2011 18:32:12 +0200
+
 kde4libs (4:4.4.5-2+squeeze2) stable; urgency=low
 
   [ José Manuel Santamaría Lema ]

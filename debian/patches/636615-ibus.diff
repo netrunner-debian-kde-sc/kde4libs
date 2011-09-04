@@ -1,0 +1,25 @@
+Bug: https://bugs.kde.org/show_bug.cgi?id=248558
+Bug-Debian: http://bugs.debian.org/636615
+Origin: backport, http://websvn.kde.org/branches/KDE/4.5/kdelibs/kate/view/kateviewinternal.cpp?r1=1199457&r2=1199456&pathrev=1199457&view=patch
+
+--- kde4libs-4.4.5.orig/kate/view/kateviewinternal.cpp
++++ kde4libs-4.4.5/kate/view/kateviewinternal.cpp
+@@ -3781,9 +3781,6 @@
+ 
+   //kDebug( 13030 ) << "Event: cursor" << m_cursor << "commit" << e->commitString() << "preedit" << e->preeditString() << "replacement start" << e->replacementStart() << "length" << e->replacementLength();
+ 
+-  if ( m_view->selection() )
+-    m_view->removeSelectedText();
+-
+   bool createdPreedit = false;
+   if (!m_imPreeditRange) {
+     createdPreedit = true;
+@@ -3797,6 +3794,8 @@
+   }
+ 
+   if (!e->commitString().isEmpty() || e->replacementLength()) {
++    m_view->removeSelectedText();
++
+     KTextEditor::Range preeditRange = *m_imPreeditRange;
+ 
+     KTextEditor::Cursor start(m_imPreeditRange->start().line(), m_imPreeditRange->start().column() + e->replacementStart());
