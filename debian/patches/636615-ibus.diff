@@ -1,6 +1,13 @@
+From: Pascal Létourneau <pascal.letourneau@gmail.com>
 Bug: https://bugs.kde.org/show_bug.cgi?id=248558
 Bug-Debian: http://bugs.debian.org/636615
 Origin: backport, http://websvn.kde.org/branches/KDE/4.5/kdelibs/kate/view/kateviewinternal.cpp?r1=1199457&r2=1199456&pathrev=1199457&view=patch
+Applied-Upstream: 4.5.5
+Acked-By: Ansgar Burchardt <ansgar@debian.org>
+Acked-By: Adam D. Barratt <adam@adam-barratt.org.uk>
+Acked-By: Modestas Vainius <modax@debian.org>
+
+Remove selection only when receiving input
 
 --- kde4libs-4.4.5.orig/kate/view/kateviewinternal.cpp
 +++ kde4libs-4.4.5/kate/view/kateviewinternal.cpp
