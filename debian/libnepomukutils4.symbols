@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libnepomukutils.so.4 libnepomukutils4 #MINVER#
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
@@ -78,7 +78,9 @@ libnepomukutils.so.4 libnepomukutils4 #MINVER#
  _ZN7Nepomuk5Utils12SearchWidget16staticMetaObjectE@Base 4:4.5.85
  _ZN7Nepomuk5Utils12SearchWidget19SearchWidgetPrivate16setupFacetWidgetEv@Base 4:4.5.85
  _ZN7Nepomuk5Utils12SearchWidget19SearchWidgetPrivate18_k_listingFinishedEv@Base 4:4.5.85
+ _ZN7Nepomuk5Utils12SearchWidget19SearchWidgetPrivate24_k_forwardCurrentChangedERK11QModelIndexS5_@Base 4:4.7.1
  _ZN7Nepomuk5Utils12SearchWidget19SearchWidgetPrivate24_k_queryComponentChangedEv@Base 4:4.5.85
+ _ZN7Nepomuk5Utils12SearchWidget22currentResourceChangedERKNS_8ResourceES4_@Base 4:4.7.1
  _ZN7Nepomuk5Utils12SearchWidget8setQueryERKNS_5Query5QueryE@Base 4:4.5.85
  _ZN7Nepomuk5Utils12SearchWidgetC1EP7QWidget@Base 4:4.5.85
  _ZN7Nepomuk5Utils12SearchWidgetC2EP7QWidget@Base 4:4.5.85

@@ -1,9 +1,10 @@
-# SymbolsHelper-Confirmed: 4:4.7.0 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
  KTraderParse_initFlex@Base 4:4.3.4
  KTraderParse_mainParse@Base 4:4.3.4
+ KTraderParse_putSimplePositiveFloat@Base 4:4.7.1
  KTraderParse_putString@Base 4:4.3.4
  KTraderParse_putSymbol@Base 4:4.3.4
  KTraderParse_putSymbolInBrackets@Base 4:4.3.4
@@ -1598,9 +1599,11 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN4KUrl4List13mimeDataTypesEv@Base 4:4.3.4
  _ZN4KUrl4List9canDecodeEPK9QMimeData@Base 4:4.3.4
  _ZN4KUrl4ListC1ERK11QStringList@Base 4:4.3.4
+ _ZN4KUrl4ListC1ERK5QListI4QUrlE@Base 4:4.7.1
  _ZN4KUrl4ListC1ERK5QListIS_E@Base 4:4.3.4
  _ZN4KUrl4ListC1ERKS_@Base 4:4.3.4
  _ZN4KUrl4ListC2ERK11QStringList@Base 4:4.3.4
+ _ZN4KUrl4ListC2ERK5QListI4QUrlE@Base 4:4.7.1
  _ZN4KUrl4ListC2ERK5QListIS_E@Base 4:4.3.4
  _ZN4KUrl4ListC2ERKS_@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
@@ -2647,6 +2650,13 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN9KLockFile12setStaleTimeEi@Base 4:4.3.4
  _ZN9KLockFile4lockE6QFlagsINS_8LockFlagEE@Base 4:4.3.4
  _ZN9KLockFile6unlockEv@Base 4:4.3.4
+ _ZN9KLockFile7Private12readLockFileEv@Base 4:4.7.1
+ _ZN9KLockFile7Private13lockFileOExclER4stat@Base 4:4.7.1
+ _ZN9KLockFile7Private15deleteStaleLockEv@Base 4:4.7.1
+ _ZN9KLockFile7Private16lockFileWithLinkER4stat@Base 4:4.7.1
+ _ZN9KLockFile7Private17writeIntoLockFileER5QFileRK14KComponentData@Base 4:4.7.1
+ _ZN9KLockFile7Private23deleteStaleLockWithLinkEv@Base 4:4.7.1
+ _ZN9KLockFile7Private8lockFileER4stat@Base 4:4.7.1
  _ZN9KLockFileC1ERK7QStringRK14KComponentData@Base 4:4.3.4
  _ZN9KLockFileC2ERK7QStringRK14KComponentData@Base 4:4.3.4
  _ZN9KLockFileD1Ev@Base 4:4.3.4
@@ -3467,6 +3477,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK4KUrl4List12toStringListEv@Base 4:4.3.4
  _ZNK4KUrl4List16populateMimeDataEP9QMimeDataRK4QMapI7QStringS4_ENS_13MimeDataFlagsE@Base 4:4.3.4
  _ZNK4KUrl4List16populateMimeDataERKS0_P9QMimeDataRK4QMapI7QStringS6_ENS_13MimeDataFlagsE@Base 4:4.3.4
+ (optional=templinst)_ZNK4KUrl4Listcv5QListI4QUrlEEv@Base 4:4.7.1
  _ZNK4KUrl4Listcv8QVariantEv@Base 4:4.3.4
  _ZNK4KUrl4passEv@Base 4:4.3.4
  _ZNK4KUrl4pathENS_16AdjustPathOptionE@Base 4:4.3.4
@@ -3903,6 +3914,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK9KDirWatch10metaObjectEv@Base 4:4.4.95
  _ZNK9KDirWatch5ctimeERK7QString@Base 4:4.4.95
  _ZNK9KDirWatch8containsERK7QString@Base 4:4.4.95
+ _ZNK9KLockFile7Private5isNfsEv@Base 4:4.7.1
  _ZNK9KLockFile8isLockedEv@Base 4:4.3.4
  _ZNK9KLockFile9staleTimeEv@Base 4:4.3.4
  _ZNK9KMimeType13mainExtensionEv@Base 4:4.3.4

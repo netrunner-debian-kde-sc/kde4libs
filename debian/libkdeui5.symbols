@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.0 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kdebase-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -106,6 +106,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10KKeyServer15modToStringUserEj@Base 4:4.3.4
  _ZN10KKeyServer15stringUserToModERK7QString@Base 4:4.3.4
  _ZN10KKeyServer18keyboardHasMetaKeyEv@Base 4:4.3.4
+ _ZN10KKeyServer24isShiftAsModifierAllowedEi@Base 4:4.7.1
  _ZN10KKeyServer7modXAltEv@Base 4:4.3.4
  _ZN10KKeyServer8modXCtrlEv@Base 4:4.3.4
  _ZN10KKeyServer8modXLockEv@Base 4:4.3.4
@@ -1966,6 +1967,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KWindowSystem17forceActiveWindowEml@Base 4:4.3.4
  _ZN13KWindowSystem17setCurrentDesktopEi@Base 4:4.3.4
  _ZN13KWindowSystem17viewportToDesktopERK6QPoint@Base 4:4.3.4
+ _ZN13KWindowSystem18compositingChangedEb@Base 4:4.7.1
  _ZN13KWindowSystem19activeWindowChangedEm@Base 4:4.3.4
  _ZN13KWindowSystem19desktopNamesChangedEv@Base 4:4.3.4
  _ZN13KWindowSystem20stackingOrderChangedEv@Base 4:4.3.4

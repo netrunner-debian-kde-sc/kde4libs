@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.0 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libnepomuk.so.4 libnepomuk4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN15KTagCloudWidget10tagClickedERK7QString@Base 4:4.3.4
@@ -48,8 +48,10 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NCO12ContactGroupEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO12EmailAddressEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO12IMCapabilityEv@Base 4:4.6.1
+ _ZN7Nepomuk10Vocabulary3NCO12IMStatusTypeEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NCO12emailAddressEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO12hasIMAccountEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO12imStatusTypeEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NCO12isAccessedByEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO12ncoNamespaceEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO13ContactMediumEv@Base 4:4.5.85
@@ -73,6 +75,8 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NCO15hasEmailAddressEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO15hasIMCapabilityEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO15imStatusMessageEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO16IMStatusTypeAwayEv@Base 4:4.7.1
+ _ZN7Nepomuk10Vocabulary3NCO16IMStatusTypeBusyEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NCO16VoicePhoneNumberEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO16contactGroupNameEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO16hasContactMediumEv@Base 4:4.5.85
@@ -81,6 +85,9 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NCO16nrlOntologyGraphEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO17imCapabilityAudioEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO17imCapabilityVideoEv@Base 4:4.6.1
+ _ZN7Nepomuk10Vocabulary3NCO18IMStatusTypeHiddenEv@Base 4:4.7.1
+ _ZN7Nepomuk10Vocabulary3NCO19IMStatusTypeOfflineEv@Base 4:4.7.1
+ _ZN7Nepomuk10Vocabulary3NCO19IMStatusTypeUnknownEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NCO19OrganizationContactEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO19nameHonorificPrefixEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO19nameHonorificSuffixEv@Base 4:4.5.85
@@ -88,8 +95,10 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NCO20VideoTelephoneNumberEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO20contactMediumCommentEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO21ContactListDataObjectEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO21IMStatusTypeAvailableEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NCO21ParcelDeliveryAddressEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO23DomesticDeliveryAddressEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NCO24IMStatusTypeExtendedAwayEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NCO28InternationalDeliveryAddressEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NCO31requestedPresenceSubscriptionToEv@Base 4:4.6.1
  _ZN7Nepomuk10Vocabulary3NCO3endEv@Base 4:4.5.85
@@ -142,6 +151,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NFO10ExecutableEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO10FilesystemEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO10SourceCodeEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NFO10colorCountEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NFO10colorDepthEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO10fontFamilyEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO10frameCountEv@Base 4:4.5.85
@@ -159,6 +169,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NFO11bitrateTypeEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO11fileCreatedEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO11lfeChannelsEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NFO11paletteSizeEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NFO11permissionsEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO11sampleCountEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO12HtmlDocumentEv@Base 4:4.5.85
@@ -171,6 +182,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NFO12rearChannelsEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO12sideChannelsEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO13DataContainerEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NFO13WebDataObjectEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NFO13bitsPerSampleEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO13frontChannelsEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO13hashAlgorithmEv@Base 4:4.5.85
@@ -279,6 +291,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NIE13rootElementOfEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE14contentCreatedEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE14hasLogicalPartEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NIE15contentModifiedEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NIE15generatorOptionEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE15isLogicalPartOfEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE16nrlOntologyGraphEv@Base 4:4.5.85
@@ -302,6 +315,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NIE8isPartOfEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE8languageEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE8mimeTypeEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NIE8modifiedEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NIE9copyrightEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE9coreGraphEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NIE9generatorEv@Base 4:4.5.85
@@ -318,6 +332,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NMM13trackPeakGainEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM14audienceRatingEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM14beatsPerMinuteEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NMM15albumTrackCountEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NMM15cinematographerEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM16nrlOntologyGraphEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM17assistantDirectorEv@Base 4:4.5.85
@@ -333,6 +348,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NMM6seriesEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM6writerEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM7artworkEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NMM7setSizeEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NMM8TVSeriesEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM8composerEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM8directorEv@Base 4:4.5.85
@@ -342,6 +358,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NMM8synopsisEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM9albumGainEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM9performerEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NMM9setNumberEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NMM9trackGainEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMO10MimeEntityEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMO10headerNameEv@Base 4:4.5.85
@@ -781,6 +798,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary4NCAL9periodEndEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NCAL9resourcesEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NCAL9wednesdayEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary4NUAO10FocusEventEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary4NUAO10UsageEventEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO10eventCountEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO10firstEventEv@Base 4:4.5.85
@@ -788,11 +806,14 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary4NUAO10usageCountEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO12DesktopEventEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO13nuaoNamespaceEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary4NUAO15initiatingAgentEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary4NUAO16lastModificationEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO17ModificationEventEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO17firstModificationEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO17modificationCountEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary4NUAO17targettedResourceEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary4NUAO18totalEventDurationEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary4NUAO18totalFocusDurationEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary4NUAO18totalUsageDurationEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO25totalModificationDurationEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary4NUAO3endEv@Base 4:4.6.1

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.0 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
@@ -459,6 +459,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma11VideoWidget14hoverMoveEventEP24QGraphicsSceneHoverEvent@Base 4:4.4.4-2~
  _ZN6Plasma11VideoWidget15hoverEnterEventEP24QGraphicsSceneHoverEvent@Base 4:4.4.4-2~
  _ZN6Plasma11VideoWidget15hoverLeaveEventEP24QGraphicsSceneHoverEvent@Base 4:4.4.4-2~
+ _ZN6Plasma11VideoWidget15setTickIntervalEx@Base 4:4.7.1
  _ZN6Plasma11VideoWidget15setUsedControlsE6QFlagsINS0_7ControlEE@Base 4:4.4.4-2~
  _ZN6Plasma11VideoWidget16staticMetaObjectE@Base 4:4.4.4-2~
  _ZN6Plasma11VideoWidget17previousRequestedEv@Base 4:4.4.4-2~
@@ -1889,6 +1890,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma8LineEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma8LineEdit11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma8LineEdit11textChangedERK7QString@Base 4:4.4.4-2~
+ _ZN6Plasma8LineEdit12focusChangedEb@Base 4:4.7.1
  _ZN6Plasma8LineEdit12focusInEventEP11QFocusEvent@Base 4:4.5.86
  _ZN6Plasma8LineEdit13focusOutEventEP11QFocusEvent@Base 4:4.4.95
  _ZN6Plasma8LineEdit13returnPressedEv@Base 4:4.4.4-2~
@@ -2195,6 +2197,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma11VideoWidget11currentTimeEv@Base 4:4.4.4-2~
  _ZNK6Plasma11VideoWidget11mediaObjectEv@Base 4:4.4.4-2~
  _ZNK6Plasma11VideoWidget12nativeWidgetEv@Base 4:4.4.4-2~
+ _ZNK6Plasma11VideoWidget12tickIntervalEv@Base 4:4.7.1
  _ZNK6Plasma11VideoWidget12usedControlsEv@Base 4:4.4.4-2~
  _ZNK6Plasma11VideoWidget13remainingTimeEv@Base 4:4.4.4-2~
  _ZNK6Plasma11VideoWidget15controlsVisibleEv@Base 4:4.4.4-2~
