@@ -8,6 +8,8 @@ kde4libs (4:4.7.1-0r1) UNRELEASED; urgency=low
     - Update kfreebsd_support.diff.
     - Refreshed other patches to make them apply without offsets.
   * Bump shared-desktop-ontologies build depend to 0.6.50.
+  * Replace libpng-dev build depend with libpng12-dev to avoid accidental builds
+    against libpng packages in experimental.
   * Update installed files.
   * Remove package libkatepartinterfaces4.
   * Add package libkdeclarative5.
