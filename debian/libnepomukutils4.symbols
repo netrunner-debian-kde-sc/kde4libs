@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.1 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64
 libnepomukutils.so.4 libnepomukutils4 #MINVER#
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
@@ -99,6 +99,7 @@ libnepomukutils.so.4 libnepomukutils4 #MINVER#
  _ZN7Nepomuk5Utils15createCopyEventERK4KUrlS3_RK9QDateTimeS3_@Base 4:4.5.85
  _ZN7Nepomuk5Utils15finishCopyEventERNS_8ResourceERK9QDateTime@Base 4:4.5.85
  _ZN7Nepomuk5Utils19SimpleResourceModel10addResultsERK5QListINS_5Query6ResultEE@Base 4:4.5.85
+ _ZN7Nepomuk5Utils19SimpleResourceModel10removeRowsEiiRK11QModelIndex@Base 4:4.7.2
  _ZN7Nepomuk5Utils19SimpleResourceModel10setResultsERK5QListINS_5Query6ResultEE@Base 4:4.5.85
  _ZN7Nepomuk5Utils19SimpleResourceModel11addResourceERKNS_8ResourceE@Base 4:4.5.85
  _ZN7Nepomuk5Utils19SimpleResourceModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.85

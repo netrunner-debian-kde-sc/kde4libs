@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.0 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1619,6 +1619,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO12TCPSlaveBase11setBlockingEb@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase12virtual_hookEiPv@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase13connectToHostERK7QStringS3_t@Base 4:4.3.4
+ _ZN3KIO12TCPSlaveBase13connectToHostERK7QStringtPS1_@Base 4:4.7.2
  _ZN3KIO12TCPSlaveBase15waitForResponseEi@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase16startTLSInternalEj@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase18disconnectFromHostEv@Base 4:4.3.4
