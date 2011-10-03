@@ -1,5 +1,3 @@
-./usr/lib/libkatepartinterfaces.so
-
 # These files are moved by dh_movelibkdeinit
 ./usr/lib/libkdeinit4_kbuildsycoca4.so
 ./usr/lib/libkdeinit4_kconf_update.so
@@ -22,9 +20,6 @@
 ./usr/share/man/man8/kded4.8
 ./usr/share/man/man8/kdeinit4.8
 ./usr/share/man/man8/meinproc4.8
-
-# See bug #628161
-./usr/share/kde4/apps/katepart/syntax/go.xml
 
 # Experimental library, it was imported into libkworkspace.
 ./usr/lib/libkactivities.so

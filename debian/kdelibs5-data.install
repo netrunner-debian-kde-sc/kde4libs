@@ -254,6 +254,8 @@ usr/share/kde4/services/qimageioplugins/ppm.desktop
 usr/share/kde4/services/qimageioplugins/psd.desktop
 usr/share/kde4/services/qimageioplugins/ras.desktop
 usr/share/kde4/services/qimageioplugins/rgb.desktop
+usr/share/kde4/services/qimageioplugins/svg+xml-compressed.desktop
+usr/share/kde4/services/qimageioplugins/svg+xml.desktop
 usr/share/kde4/services/qimageioplugins/tga.desktop
 usr/share/kde4/services/qimageioplugins/tiff.desktop
 usr/share/kde4/services/qimageioplugins/xbm.desktop
