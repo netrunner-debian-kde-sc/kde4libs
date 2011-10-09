@@ -15,6 +15,7 @@ kde4libs (4:4.7.2-0r1) UNRELEASED; urgency=low
   * Remove package libkatepartinterfaces4.
   * Add package libkdeclarative5.
   * Update symbols files.
+  * Exclude kde-runtime from dh_shlibdeps results.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Aug 2011 01:03:43 +0200
 
