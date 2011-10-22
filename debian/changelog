@@ -5,6 +5,7 @@ kde4libs (4:4.7.2-0r1) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Update patches:
+    - Add nepomuk_unicode.diff.
     - Remove kded4_deadlock.patch, applied upstream.
     - Update kfreebsd_support.diff.
     - Refreshed other patches to make them apply without offsets.
