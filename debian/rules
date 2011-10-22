@@ -36,7 +36,7 @@ override_dh_strip:
 
 # remove dependencies on kdebase-runtime and phonon (the metapackage)
 override_dh_shlibdeps:
-	$(overridden_command) -- -xkdebase-runtime -xphonon
+	$(overridden_command) -- -xkde-runtime -xphonon
 
 # Library stuff
 libpkgs_addsubst_allLibraries = kdelibs5-dev kdelibs5-dbg

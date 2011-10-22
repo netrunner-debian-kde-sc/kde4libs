@@ -472,7 +472,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
  kdelibs5-data (= ${source:Version}), kdoctools (= ${binary:Version}),
  kdelibs-bin (= ${binary:Version}),
  dbus-x11, shared-mime-info (>= 0.30), xdg-utils
-Recommends: ttf-dejavu, kdebase-runtime (>= 4:4.6)
+Recommends: ttf-dejavu, kde-runtime
 Replaces: kdelibs5-dev (<< 4:4.6.2), kdelibs5-data (<< 4:4.6.3-3~)
 Breaks: kdelibs5-dev (<< 4:4.6.2), kdelibs5-data (<< 4:4.6.3-3~), kdevelop (<< 4:4.2)
 Description: core plugins for KDE Applications

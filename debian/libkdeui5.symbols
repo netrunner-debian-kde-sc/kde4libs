@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
-| libkdeui5 #MINVER#, kdebase-runtime
+| libkdeui5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
  _Z10BarIconSetRK7QStringi@Base 4:4.3.4
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4:4.3.4
