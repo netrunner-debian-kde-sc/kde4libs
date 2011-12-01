@@ -454,8 +454,13 @@ Description: utility classes to deal with printing
 Package: libkdeclarative5
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: ...
- ...
+Description: declarative library for plasma
+ This library provides plasma bindings for Qt Quick
+ .
+ This package contains experimental software and should not be used in
+ production environment
+ .
+ This package is part of the KDE Development Platform libraries module.
 
 Package: kdelibs-bin
 Architecture: any
