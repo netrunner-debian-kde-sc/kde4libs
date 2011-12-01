@@ -1,4 +1,4 @@
-kde4libs (4:4.7.2-0r3) UNRELEASED; urgency=low
+kde4libs (4:4.7.2-1) experimental; urgency=low
 
   * New upstream release:
     - fixes crash in the character selector widget. (Closes: #601894)
@@ -24,7 +24,7 @@ kde4libs (4:4.7.2-0r3) UNRELEASED; urgency=low
     - Exclude kde-runtime (instead of kdebase-runtime) from dh_shlibdeps
       results.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Aug 2011 01:03:43 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Nov 2011 18:09:30 +0100
 
 kde4libs (4:4.6.5-2) unstable; urgency=low
 
