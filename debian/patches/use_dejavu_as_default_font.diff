@@ -6,7 +6,7 @@ needed).
 
 --- a/kdeui/kernel/kglobalsettings.cpp
 +++ b/kdeui/kernel/kglobalsettings.cpp
-@@ -395,7 +395,7 @@ struct KFontData
+@@ -398,7 +398,7 @@ struct KFontData
  
  // NOTE: keep in sync with kdebase/workspace/kcontrol/fonts/fonts.cpp
  static const char GeneralId[] =      "General";
@@ -15,8 +15,8 @@ needed).
  #ifdef Q_WS_MAC
  static const char DefaultMacFont[] = "Lucida Grande";
  #endif
-@@ -409,7 +409,7 @@ static const KFontData DefaultFontData[K
-     { GeneralId, "menuFont",    DefaultMacFont, 13, -1, QFont::SansSerif },
+@@ -417,7 +417,7 @@ static const KFontData DefaultFontData[K
+     { GeneralId, "menuFont",    DefaultFont, 16, -1, QFont::SansSerif },
  #else
      { GeneralId, "font",        DefaultFont, 9, -1, QFont::SansSerif },
 -    { GeneralId, "fixed",       "Monospace", 9, -1, QFont::TypeWriter },

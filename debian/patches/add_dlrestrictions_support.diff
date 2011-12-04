@@ -37,7 +37,7 @@ on all (or some) the targets.
     endif (${_lib_TYPE} STREQUAL "MODULE")
  
     set(_SRCS ${_first_SRC} ${ARGN})
-@@ -1341,6 +1345,13 @@ function(KDE4_INSTALL_AUTH_ACTIONS HELPE
+@@ -1317,6 +1321,13 @@ function(KDE4_INSTALL_AUTH_ACTIONS HELPE
  
  endfunction(KDE4_INSTALL_AUTH_ACTIONS)
  

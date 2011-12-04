@@ -7,7 +7,7 @@ Forwarded: no
 
 --- a/kdecore/io/kfilesystemtype_p.cpp
 +++ b/kdecore/io/kfilesystemtype_p.cpp
-@@ -47,7 +47,7 @@
+@@ -53,7 +53,7 @@ KFileSystemType::Type determineFileSyste
      return kde_typeFromName(buf.f_fstypename);
  }
  
