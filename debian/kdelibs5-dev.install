@@ -243,6 +243,7 @@ usr/include/KDE/KCategoryDrawer
 usr/include/KDE/KCharMacroExpander
 usr/include/KDE/KCharSelect
 usr/include/KDE/KCharsets
+usr/include/KDE/KCheckableProxyModel
 usr/include/KDE/KCmdLineArgs
 usr/include/KDE/KCmdLineOptions
 usr/include/KDE/KCodecs
@@ -741,6 +742,7 @@ usr/include/KDE/KUrlRequesterDialog
 usr/include/KDE/KUser
 usr/include/KDE/KUserGroup
 usr/include/KDE/KVBox
+usr/include/KDE/KViewStateMaintainer
 usr/include/KDE/KWallet/Wallet
 usr/include/KDE/KWebPage
 usr/include/KDE/KWebPluginFactory
@@ -1992,9 +1994,6 @@ usr/share/kde4/apps/cmake/modules/FindHUNSPELL.cmake
 usr/share/kde4/apps/cmake/modules/FindIOKit.cmake
 usr/share/kde4/apps/cmake/modules/FindKDE4Internal.cmake
 usr/share/kde4/apps/cmake/modules/FindKDE4Workspace.cmake
-usr/share/kde4/apps/cmake/modules/FindKDEWIN32.cmake
-usr/share/kde4/apps/cmake/modules/FindKDEWIN_Packager.cmake
-usr/share/kde4/apps/cmake/modules/FindKDEWin.cmake
 usr/share/kde4/apps/cmake/modules/FindKDevPlatform.cmake
 usr/share/kde4/apps/cmake/modules/FindKdcraw.cmake
 usr/share/kde4/apps/cmake/modules/FindKdeMultimedia.cmake
