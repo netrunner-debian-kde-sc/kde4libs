@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.1 amd64
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -209,6 +209,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10KTabWidget26setHoverCloseButtonDelayedEb@Base 4:4.3.4
  _ZN10KTabWidget27setTabCloseActivatePreviousEb@Base 4:4.3.4
  _ZN10KTabWidget7Private10resizeTabsEi@Base 4:4.3.4
+ _ZN10KTabWidget7Private12slotTabMovedEii@Base 4:4.7.4
  _ZN10KTabWidget7Private9removeTabEi@Base 4:4.3.4
  _ZN10KTabWidget7Private9updateTabEi@Base 4:4.3.4
  _ZN10KTabWidget7moveTabEii@Base 4:4.3.4
@@ -1117,6 +1118,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN12KColorButton15setDefaultColorERK6QColor@Base 4:4.3.4
  _ZN12KColorButton16staticMetaObjectE@Base 4:4.3.4
  _ZN12KColorButton19KColorButtonPrivate14_k_chooseColorEv@Base 4:4.3.4
+ _ZN12KColorButton19KColorButtonPrivate14_k_colorChosenEv@Base 4:4.7.4
  _ZN12KColorButton19KColorButtonPrivateC1EPS_@Base 4:4.4.95
  _ZN12KColorButton19KColorButtonPrivateC2EPS_@Base 4:4.4.95
  _ZN12KColorButton22setAlphaChannelEnabledEb@Base 4:4.4.95
@@ -4715,9 +4717,12 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN7KWallet6Wallet18folderDoesNotExistERK7QStringS3_@Base 4:4.3.4
  _ZN7KWallet6Wallet21disconnectApplicationERK7QStringS3_@Base 4:4.3.4
  _ZN7KWallet6Wallet21requestChangePasswordEm@Base 4:4.3.4
+ _ZN7KWallet6Wallet21slotCollectionDeletedEv@Base 4:4.7.4
  _ZN7KWallet6Wallet21slotFolderListUpdatedERK7QString@Base 4:4.3.4
+ _ZN7KWallet6Wallet22isUsingKSecretsServiceEv@Base 4:4.7.4
  _ZN7KWallet6Wallet24emitWalletAsyncOpenErrorEv@Base 4:4.3.4
  _ZN7KWallet6Wallet27slotApplicationDisconnectedERK7QStringS3_@Base 4:4.3.4
+ _ZN7KWallet6Wallet27slotCollectionStatusChangedEi@Base 4:4.7.4
  _ZN7KWallet6Wallet4syncEv@Base 4:4.3.4
  _ZN7KWallet6Wallet5usersERK7QString@Base 4:4.3.4
  _ZN7KWallet6Wallet6isOpenERK7QString@Base 4:4.3.4
