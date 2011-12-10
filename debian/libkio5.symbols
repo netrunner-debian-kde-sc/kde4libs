@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1588,7 +1588,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO11filePreviewERK13KFileItemListiiiibbPK11QStringList@Base 4:4.3.4
  _ZN3KIO11filePreviewERKN4KUrl4ListEiiiibbPK11QStringList@Base 4:4.3.4
  _ZN3KIO11file_deleteERK4KUrl6QFlagsINS_7JobFlagEE@Base 4:4.3.4
- _ZN3KIO11http_deleteERK4KUrl6QFlagsINS_7JobFlagEE@Base 4:4.7.4
  _ZN3KIO12RenameDialog10newDestUrlEv@Base 4:4.3.4
  _ZN3KIO12RenameDialog11createLabelEP7QWidgetRK7QStringb@Base 4:4.5.85
  _ZN3KIO12RenameDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1596,7 +1595,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO12RenameDialog11showSrcIconERK9KFileItem@Base 4:4.4.95
  _ZN3KIO12RenameDialog11skipPressedEv@Base 4:4.3.4
  _ZN3KIO12RenameDialog11suggestNameERK4KUrlRK7QString@Base 4:4.3.4
- _ZN3KIO12RenameDialog12resizePanelsEv@Base 4:4.7.4
  _ZN3KIO12RenameDialog12showDestIconERK9KFileItem@Base 4:4.4.95
  _ZN3KIO12RenameDialog13cancelPressedEv@Base 4:4.3.4
  _ZN3KIO12RenameDialog13renamePressedEv@Base 4:4.3.4
@@ -3168,7 +3166,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK9KFileItem6isFileEv@Base 4:4.3.4
  _ZNK9KFileItem6isLinkEv@Base 4:4.3.4
  _ZNK9KFileItem6isNullEv@Base 4:4.3.4
- _ZNK9KFileItem6isSlowEv@Base 4:4.7.4
  _ZNK9KFileItem6pixmapEii@Base 4:4.3.4
  _ZNK9KFileItem7commentEv@Base 4:4.5.85
  _ZNK9KFileItem8iconNameEv@Base 4:4.3.4

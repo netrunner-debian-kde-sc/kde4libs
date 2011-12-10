@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -879,7 +879,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN15KEncodingProberC2ENS_10ProberTypeE@Base 4:4.3.4
  _ZN15KEncodingProberD1Ev@Base 4:4.3.4
  _ZN15KEncodingProberD2Ev@Base 4:4.3.4
- _ZN15KFileSystemType14fileSystemTypeERK7QString@Base 4:4.7.4
  _ZN15KFolderMimeTypeC1ER11QDataStreami@Base 4:4.3.4
  _ZN15KFolderMimeTypeC1ERK7QStringS2_S2_@Base 4:4.3.4
  _ZN15KFolderMimeTypeC2ER11QDataStreami@Base 4:4.3.4
