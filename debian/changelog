@@ -7,6 +7,7 @@ kde4libs (4:4.7.4-0r2) UNRELEASED; urgency=low
     - Remove nepomuk_unicode.diff, applied upstream.
     - Refreshed other patches to make them apply without offsets.
   * Update installed files.
+  * Confirm symbol files on more architectures with the 4.7.2 build logs.
 
   [ Pino Toscano ]
   * Make kdelibs5-plugins depend on katepart, to make it "provide" it as it

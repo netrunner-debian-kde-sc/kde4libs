@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.0 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 ia64
 libktexteditor.so.4 libktexteditor4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KTextEditor10ConfigPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -213,9 +213,9 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor18SmartRangeNotifier21setWantsDirectChangesEb@Base 4:4.3.4
  _ZN11KTextEditor18SmartRangeNotifierC1Ev@Base 4:4.3.4
  _ZN11KTextEditor18SmartRangeNotifierC2Ev@Base 4:4.3.4
- (arch=!armel !ia64)_ZN11KTextEditor18SmartRangeNotifierD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN11KTextEditor18SmartRangeNotifierD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN11KTextEditor18SmartRangeNotifierD2Ev@Base 4:4.7.0
+ (arch=!armel)_ZN11KTextEditor18SmartRangeNotifierD0Ev@Base 4:4.7.2
+ (arch=!armel)_ZN11KTextEditor18SmartRangeNotifierD1Ev@Base 4:4.7.2
+ (arch=!armel)_ZN11KTextEditor18SmartRangeNotifierD2Ev@Base 4:4.7.2
  _ZN11KTextEditor18TemplateInterface218insertTemplateTextERKNS_6CursorERK7QStringRK4QMapIS4_S4_EPNS_14TemplateScriptE@Base 4:4.4.95
  _ZN11KTextEditor18TemplateInterface2C1Ev@Base 4:4.4.95
  _ZN11KTextEditor18TemplateInterface2C2Ev@Base 4:4.4.95
@@ -257,17 +257,17 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor19SmartCursorNotifier7deletedEPNS_11SmartCursorE@Base 4:4.3.4
  _ZN11KTextEditor19SmartCursorNotifierC1Ev@Base 4:4.3.4
  _ZN11KTextEditor19SmartCursorNotifierC2Ev@Base 4:4.3.4
- (arch=!armel !ia64)_ZN11KTextEditor19SmartCursorNotifierD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN11KTextEditor19SmartCursorNotifierD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN11KTextEditor19SmartCursorNotifierD2Ev@Base 4:4.7.0
+ (arch=!armel)_ZN11KTextEditor19SmartCursorNotifierD0Ev@Base 4:4.7.2
+ (arch=!armel)_ZN11KTextEditor19SmartCursorNotifierD1Ev@Base 4:4.7.2
+ (arch=!armel)_ZN11KTextEditor19SmartCursorNotifierD2Ev@Base 4:4.7.2
  _ZN11KTextEditor20CodeCompletionModel211qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KTextEditor20CodeCompletionModel211qt_metacastEPKc@Base 4:4.3.4
  _ZN11KTextEditor20CodeCompletionModel216staticMetaObjectE@Base 4:4.3.4
  _ZN11KTextEditor20CodeCompletionModel2C1EP7QObject@Base 4:4.3.4
  _ZN11KTextEditor20CodeCompletionModel2C2EP7QObject@Base 4:4.3.4
- (arch=!armel !ia64)_ZN11KTextEditor20CodeCompletionModel2D0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN11KTextEditor20CodeCompletionModel2D1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN11KTextEditor20CodeCompletionModel2D2Ev@Base 4:4.7.0
+ (arch=!armel)_ZN11KTextEditor20CodeCompletionModel2D0Ev@Base 4:4.7.2
+ (arch=!armel)_ZN11KTextEditor20CodeCompletionModel2D1Ev@Base 4:4.7.2
+ (arch=!armel)_ZN11KTextEditor20CodeCompletionModel2D2Ev@Base 4:4.7.2
  _ZN11KTextEditor21ModificationInterfaceC1Ev@Base 4:4.3.4
  _ZN11KTextEditor21ModificationInterfaceC2Ev@Base 4:4.3.4
  _ZN11KTextEditor21ModificationInterfaceD0Ev@Base 4:4.3.4
@@ -315,9 +315,9 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor38CodeCompletionModelControllerInterfaceD1Ev@Base 4:4.3.4
  _ZN11KTextEditor38CodeCompletionModelControllerInterfaceD2Ev@Base 4:4.3.4
  _ZN11KTextEditor39CodeCompletionModelControllerInterface212matchingItemERK11QModelIndex@Base 4:4.3.4
- (arch=!armel !ia64)_ZN11KTextEditor39CodeCompletionModelControllerInterface2D0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN11KTextEditor39CodeCompletionModelControllerInterface2D1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN11KTextEditor39CodeCompletionModelControllerInterface2D2Ev@Base 4:4.7.0
+ (arch=!armel)_ZN11KTextEditor39CodeCompletionModelControllerInterface2D0Ev@Base 4:4.7.2
+ (arch=!armel)_ZN11KTextEditor39CodeCompletionModelControllerInterface2D1Ev@Base 4:4.7.2
+ (arch=!armel)_ZN11KTextEditor39CodeCompletionModelControllerInterface2D2Ev@Base 4:4.7.2
  _ZN11KTextEditor39CodeCompletionModelControllerInterface312filterStringEPNS_4ViewERKNS_5RangeERKNS_6CursorE@Base 4:4.4.95
  _ZN11KTextEditor39CodeCompletionModelControllerInterface312matchingItemERK11QModelIndex@Base 4:4.4.95
  _ZN11KTextEditor39CodeCompletionModelControllerInterface313shouldExecuteERK11QModelIndex5QChar@Base 4:4.4.95

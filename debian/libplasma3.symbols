@@ -1,9 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 i386 ia64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
- (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=amd64 armel kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc|subst)_ZN12KConfigGroup14writeListCheckI{qreal}EEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.1
+#MISSING: 4:4.7.2# (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+ (optional=templinst)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+ (optional=templinst|arch=amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc|subst)_ZN12KConfigGroup14writeListCheckI{qreal}EEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.1
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD2Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
@@ -2046,7 +2046,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9WallpaperD0Ev@Base 4:4.4.4-2~
  _ZN6Plasma9WallpaperD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma9WallpaperD2Ev@Base 4:4.4.4-2~
- (optional=templinst|arch=amd64 armel kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc|subst)_ZNK12KConfigGroup13readListCheckI{qreal}EE5QListIT_EPKcRKS3_@Base 4:4.6.1
+ (optional=templinst|arch=amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc|subst)_ZNK12KConfigGroup13readListCheckI{qreal}EE5QListIT_EPKcRKS3_@Base 4:4.6.1
  (optional=templinst|arch=armel kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
  _ZNK5Jolie11MetaService14loadedServicesEv@Base 4:4.4.4-2~
  _ZNK5Jolie11MetaService9isRunningEv@Base 4:4.4.4-2~

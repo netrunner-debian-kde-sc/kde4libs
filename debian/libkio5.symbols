@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 ia64 kfreebsd-amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -56,12 +56,12 @@ libkio.so.5 libkio5 #MINVER#
  _ZN10KDirLister7Private14CachedItemsJob6doKillEv@Base 4:4.6.1
  _ZN10KDirLister7Private14CachedItemsJobC1EPS_RK4KUrlb@Base 4:4.6.2
  _ZN10KDirLister7Private14CachedItemsJobC2EPS_RK4KUrlb@Base 4:4.6.2
- (arch=!armel !ia64)_ZN10KDirLister7Private14CachedItemsJobD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN10KDirLister7Private14CachedItemsJobD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN10KDirLister7Private14CachedItemsJobD2Ev@Base 4:4.7.0
+ _ZN10KDirLister7Private14CachedItemsJobD0Ev@Base 4:4.7.2
+ _ZN10KDirLister7Private14CachedItemsJobD1Ev@Base 4:4.7.2
+ _ZN10KDirLister7Private14CachedItemsJobD2Ev@Base 4:4.7.2
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7Private14FilterSettingsD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7Private14FilterSettingsD2Ev@Base 4:4.6.5
- (arch=!armel !ia64)_ZN10KDirLister7Private14FilterSettingsaSERKS1_@Base 4:4.7.0
+ _ZN10KDirLister7Private14FilterSettingsaSERKS1_@Base 4:4.7.2
  (optional=private)_ZN10KDirLister7Private14_k_slotPercentEP4KJobm@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14addRefreshItemERK4KUrlRK9KFileItemS6_@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private16_k_slotTotalSizeEP4KJoby@Base 4:4.3.4
@@ -295,9 +295,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN12KAutoUnmountD0Ev@Base 4:4.3.4
  _ZN12KAutoUnmountD1Ev@Base 4:4.3.4
  _ZN12KAutoUnmountD2Ev@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeCheckIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+#MISSING: 4:4.7.2# (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeCheckIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+#MISSING: 4:4.7.2# (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+#MISSING: 4:4.7.2# (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  _ZN12KSSLSettings10getEGDPathEv@Base 4:4.3.4
  _ZN12KSSLSettings13getCipherListEv@Base 4:4.3.4
  _ZN12KSSLSettings14setWarnOnEnterEb@Base 4:4.3.4
@@ -561,9 +561,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN15KBookmarkDialog9fillGroupEP15QTreeWidgetItemRK14KBookmarkGroup@Base 4:4.3.4
  _ZN15KBookmarkDialogC1EP16KBookmarkManagerP7QWidget@Base 4:4.3.4
  _ZN15KBookmarkDialogC2EP16KBookmarkManagerP7QWidget@Base 4:4.3.4
- (arch=!armel !ia64)_ZN15KBookmarkDialogD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN15KBookmarkDialogD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN15KBookmarkDialogD2Ev@Base 4:4.7.0
+ _ZN15KBookmarkDialogD0Ev@Base 4:4.7.2
+ _ZN15KBookmarkDialogD1Ev@Base 4:4.7.2
+ _ZN15KBookmarkDialogD2Ev@Base 4:4.7.2
  _ZN15KDataToolAction11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN15KDataToolAction11qt_metacastEPKc@Base 4:4.3.4
  _ZN15KDataToolAction13slotActivatedEv@Base 4:4.3.4
@@ -829,9 +829,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN16KUriFilterPlugin16staticMetaObjectE@Base 4:4.3.4
  _ZN16KUriFilterPluginC1ERK7QStringP7QObject@Base 4:4.3.4
  _ZN16KUriFilterPluginC2ERK7QStringP7QObject@Base 4:4.3.4
- (arch=!armel !ia64)_ZN16KUriFilterPluginD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN16KUriFilterPluginD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN16KUriFilterPluginD2Ev@Base 4:4.7.0
+ _ZN16KUriFilterPluginD0Ev@Base 4:4.7.2
+ _ZN16KUriFilterPluginD1Ev@Base 4:4.7.2
+ _ZN16KUriFilterPluginD2Ev@Base 4:4.7.2
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN16KonqBookmarkMenu11DynMenuInfoD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN16KonqBookmarkMenu11DynMenuInfoD2Ev@Base 4:4.6.5
  _ZN16KonqBookmarkMenu11contextMenuEP7QAction@Base 4:4.3.4
@@ -991,9 +991,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN18KUrlComboRequester16staticMetaObjectE@Base 4:4.3.4
  _ZN18KUrlComboRequesterC1EP7QWidget@Base 4:4.3.4
  _ZN18KUrlComboRequesterC2EP7QWidget@Base 4:4.3.4
- (arch=!armel !ia64)_ZN18KUrlComboRequesterD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN18KUrlComboRequesterD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN18KUrlComboRequesterD2Ev@Base 4:4.7.0
+ _ZN18KUrlComboRequesterD0Ev@Base 4:4.7.2
+ _ZN18KUrlComboRequesterD1Ev@Base 4:4.7.2
+ _ZN18KUrlComboRequesterD2Ev@Base 4:4.7.2
  _ZN18KUrlPixmapProvider12virtual_hookEiPv@Base 4:4.3.4
  _ZN18KUrlPixmapProvider9pixmapForERK7QStringi@Base 4:4.3.4
  _ZN18KUrlPixmapProviderC1Ev@Base 4:4.3.4
@@ -1006,9 +1006,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN19KAbstractFileModule16staticMetaObjectE@Base 4:4.3.4
  _ZN19KAbstractFileModuleC1EP7QObject@Base 4:4.3.4
  _ZN19KAbstractFileModuleC2EP7QObject@Base 4:4.3.4
- (arch=!armel !ia64)_ZN19KAbstractFileModuleD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN19KAbstractFileModuleD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN19KAbstractFileModuleD2Ev@Base 4:4.7.0
+ _ZN19KAbstractFileModuleD0Ev@Base 4:4.7.2
+ _ZN19KAbstractFileModuleD1Ev@Base 4:4.7.2
+ _ZN19KAbstractFileModuleD2Ev@Base 4:4.7.2
  _ZN19KBookmarkActionMenuC1ERK9KBookmarkP7QObject@Base 4:4.3.4
  _ZN19KBookmarkActionMenuC1ERK9KBookmarkRK7QStringP7QObject@Base 4:4.3.4
  _ZN19KBookmarkActionMenuC2ERK9KBookmarkP7QObject@Base 4:4.3.4
@@ -1258,15 +1258,15 @@ libkio.so.5 libkio5 #MINVER#
  _ZN23KFileItemListPropertiesaSERKS_@Base 4:4.3.4
  _ZN23KIEBookmarkExporterImpl5writeERK14KBookmarkGroup@Base 4:4.3.4
  _ZN23KIEBookmarkImporterImpl5parseEv@Base 4:4.3.4
- (arch=!armel !ia64)_ZN23KIEBookmarkImporterImplD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN23KIEBookmarkImporterImplD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN23KIEBookmarkImporterImplD2Ev@Base 4:4.7.0
+ _ZN23KIEBookmarkImporterImplD0Ev@Base 4:4.7.2
+ _ZN23KIEBookmarkImporterImplD1Ev@Base 4:4.7.2
+ _ZN23KIEBookmarkImporterImplD2Ev@Base 4:4.7.2
  _ZN23KNSBookmarkExporterImpl5writeERK14KBookmarkGroup@Base 4:4.3.4
  _ZN23KNSBookmarkExporterImpl7setUtf8Eb@Base 4:4.3.4
  _ZN23KNSBookmarkImporterImpl5parseEv@Base 4:4.3.4
- (arch=!armel !ia64)_ZN23KNSBookmarkImporterImplD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN23KNSBookmarkImporterImplD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN23KNSBookmarkImporterImplD2Ev@Base 4:4.7.0
+ _ZN23KNSBookmarkImporterImplD0Ev@Base 4:4.7.2
+ _ZN23KNSBookmarkImporterImplD1Ev@Base 4:4.7.2
+ _ZN23KNSBookmarkImporterImplD2Ev@Base 4:4.7.2
  _ZN23KPropertiesDialogPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN23KPropertiesDialogPlugin11qt_metacastEPKc@Base 4:4.3.4
  _ZN23KPropertiesDialogPlugin12applyChangesEv@Base 4:4.3.4
@@ -1316,9 +1316,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN25KXBELBookmarkImporterImpl16staticMetaObjectE@Base 4:4.3.4
  _ZN25KXBELBookmarkImporterImpl5parseEv@Base 4:4.3.4
  _ZN25KXBELBookmarkImporterImpl5visitERK9KBookmark@Base 4:4.3.4
- (arch=!armel !ia64)_ZN25KXBELBookmarkImporterImplD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN25KXBELBookmarkImporterImplD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN25KXBELBookmarkImporterImplD2Ev@Base 4:4.7.0
+ _ZN25KXBELBookmarkImporterImplD0Ev@Base 4:4.7.2
+ _ZN25KXBELBookmarkImporterImplD1Ev@Base 4:4.7.2
+ _ZN25KXBELBookmarkImporterImplD2Ev@Base 4:4.7.2
  _ZN25OrgKdeKDirNotifyInterface10FilesAddedERK7QString@Base 4:4.3.4
  _ZN25OrgKdeKDirNotifyInterface11FileRenamedERK7QStringS2_@Base 4:4.3.4
  _ZN25OrgKdeKDirNotifyInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1354,14 +1354,14 @@ libkio.so.5 libkio5 #MINVER#
  _ZN26KCrashBookmarkImporterImpl15setShouldDeleteEb@Base 4:4.3.4
  _ZN26KCrashBookmarkImporterImpl20parseCrashLog_noemitERK7QStringb@Base 4:4.3.4
  _ZN26KCrashBookmarkImporterImpl5parseEv@Base 4:4.3.4
- (arch=!armel !ia64)_ZN26KCrashBookmarkImporterImplD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN26KCrashBookmarkImporterImplD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN26KCrashBookmarkImporterImplD2Ev@Base 4:4.7.0
+ _ZN26KCrashBookmarkImporterImplD0Ev@Base 4:4.7.2
+ _ZN26KCrashBookmarkImporterImplD1Ev@Base 4:4.7.2
+ _ZN26KCrashBookmarkImporterImplD2Ev@Base 4:4.7.2
  _ZN26KOperaBookmarkExporterImpl5writeERK14KBookmarkGroup@Base 4:4.3.4
  _ZN26KOperaBookmarkImporterImpl5parseEv@Base 4:4.3.4
- (arch=!armel !ia64)_ZN26KOperaBookmarkImporterImplD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN26KOperaBookmarkImporterImplD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN26KOperaBookmarkImporterImplD2Ev@Base 4:4.7.0
+ _ZN26KOperaBookmarkImporterImplD0Ev@Base 4:4.7.2
+ _ZN26KOperaBookmarkImporterImplD1Ev@Base 4:4.7.2
+ _ZN26KOperaBookmarkImporterImplD2Ev@Base 4:4.7.2
  _ZN26KStatusBarOfflineIndicator11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN26KStatusBarOfflineIndicator11qt_metacastEPKc@Base 4:4.3.4
  _ZN26KStatusBarOfflineIndicator16staticMetaObjectE@Base 4:4.3.4
@@ -1370,9 +1370,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN26KStatusBarOfflineIndicatorD0Ev@Base 4:4.3.4
  _ZN26KStatusBarOfflineIndicatorD1Ev@Base 4:4.3.4
  _ZN26KStatusBarOfflineIndicatorD2Ev@Base 4:4.3.4
- (arch=!armel !ia64)_ZN28KMozillaBookmarkImporterImplD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN28KMozillaBookmarkImporterImplD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN28KMozillaBookmarkImporterImplD2Ev@Base 4:4.7.0
+ _ZN28KMozillaBookmarkImporterImplD0Ev@Base 4:4.7.2
+ _ZN28KMozillaBookmarkImporterImplD1Ev@Base 4:4.7.2
+ _ZN28KMozillaBookmarkImporterImplD2Ev@Base 4:4.7.2
  _ZN29KAbstractFileItemActionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.1
  _ZN29KAbstractFileItemActionPlugin11qt_metacastEPKc@Base 4:4.6.1
  _ZN29KAbstractFileItemActionPlugin16staticMetaObjectE@Base 4:4.6.1
@@ -1399,7 +1399,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD0Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
- (arch=!kfreebsd-i386)_ZN3KDE4statERK7QStringP4stat@Base 4:4.6.5
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN3KDE4statERK7QStringP4stat@Base 4:4.6.5
  _ZN3KDE6renameERK7QStringS2_@Base 4:4.6.3
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
@@ -1800,9 +1800,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO18DefaultViewAdapter7connectEN20KAbstractViewAdapter6SignalEP7QObjectPKc@Base 4:4.3.4
  _ZN3KIO18DefaultViewAdapterC1EP17QAbstractItemViewP7QObject@Base 4:4.3.4
  _ZN3KIO18DefaultViewAdapterC2EP17QAbstractItemViewP7QObject@Base 4:4.3.4
- (arch=!armel !ia64)_ZN3KIO18DefaultViewAdapterD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN3KIO18DefaultViewAdapterD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN3KIO18DefaultViewAdapterD2Ev@Base 4:4.7.0
+ _ZN3KIO18DefaultViewAdapterD0Ev@Base 4:4.7.2
+ _ZN3KIO18DefaultViewAdapterD1Ev@Base 4:4.7.2
+ _ZN3KIO18DefaultViewAdapterD2Ev@Base 4:4.7.2
  _ZN3KIO18RenameDialogPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO18RenameDialogPlugin11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO18RenameDialogPlugin16staticMetaObjectE@Base 4:4.3.4
@@ -1812,9 +1812,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO18RenameDialogPlugin8FileItemD2Ev@Base 4:4.3.4
  _ZN3KIO18RenameDialogPluginC1EP7QDialog@Base 4:4.3.4
  _ZN3KIO18RenameDialogPluginC2EP7QDialog@Base 4:4.3.4
- (arch=!armel !ia64)_ZN3KIO18RenameDialogPluginD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN3KIO18RenameDialogPluginD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN3KIO18RenameDialogPluginD2Ev@Base 4:4.7.0
+ _ZN3KIO18RenameDialogPluginD0Ev@Base 4:4.7.2
+ _ZN3KIO18RenameDialogPluginD1Ev@Base 4:4.7.2
+ _ZN3KIO18RenameDialogPluginD2Ev@Base 4:4.7.2
  _ZN3KIO18calculateRemainingEyyy@Base 4:4.3.4
  _ZN3KIO18canPasteMimeSourceEPK9QMimeData@Base 4:4.3.4
  _ZN3KIO18convertSizeFromKiBEy@Base 4:4.3.4
@@ -1953,9 +1953,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO6DavJob8slotDataERK10QByteArray@Base 4:4.3.4
  _ZN3KIO6DavJobC1ERNS_13DavJobPrivateEiRK7QString@Base 4:4.3.4
  _ZN3KIO6DavJobC2ERNS_13DavJobPrivateEiRK7QString@Base 4:4.3.4
- (arch=!armel !ia64)_ZN3KIO6DavJobD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN3KIO6DavJobD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN3KIO6DavJobD2Ev@Base 4:4.7.0
+ _ZN3KIO6DavJobD0Ev@Base 4:4.7.2
+ _ZN3KIO6DavJobD1Ev@Base 4:4.7.2
+ _ZN3KIO6DavJobD2Ev@Base 4:4.7.2
  _ZN3KIO6copyAsERK4KUrlS2_6QFlagsINS_7JobFlagEE@Base 4:4.3.4
  _ZN3KIO6linkAsERK4KUrlS2_6QFlagsINS_7JobFlagEE@Base 4:4.3.4
  _ZN3KIO6moveAsERK4KUrlS2_6QFlagsINS_7JobFlagEE@Base 4:4.3.4
@@ -2425,7 +2425,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN5KFile16staticMetaObjectE@Base 4:4.3.4
  _ZN5KFile17isPreviewContentsERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile21isSortCaseInsensitiveERK6QFlagsIN4QDir8SortFlagEE@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386 ia64)_ZN5Solid6Device2asINS_13StorageAccessEEEPT_v@Base 4:4.6.3
+#MISSING: 4:4.7.2# (optional=templinst|arch=hurd-i386 ia64)_ZN5Solid6Device2asINS_13StorageAccessEEEPT_v@Base 4:4.6.3
  _ZN8KImageIO11isSupportedERK7QStringNS_4ModeE@Base 4:4.3.4
  _ZN8KImageIO11typeForMimeERK7QString@Base 4:4.3.4
  _ZN8KImageIO5typesENS_4ModeE@Base 4:4.3.4
@@ -2614,7 +2614,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK11KScanDialog10metaObjectEv@Base 4:4.3.4
  _ZNK11KScanDialog2idEv@Base 4:4.3.4
  _ZNK12KAutoUnmount10metaObjectEv@Base 4:4.3.4
- (optional=templinst|arch=!hurd-i386 !ia64)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.6.1
+ (optional=templinst)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.6.1
  _ZNK12KSSLSettings11warnOnEnterEv@Base 4:4.3.4
  _ZNK12KSSLSettings11warnOnLeaveEv@Base 4:4.3.4
  _ZNK12KSSLSettings11warnOnMixedEv@Base 4:4.3.4
@@ -3582,7 +3582,7 @@ libkio.so.5 libkio5 #MINVER#
  (c++)"non-virtual thunk to KBookmarkAction::~KBookmarkAction()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KBookmarkActionMenu::~KBookmarkActionMenu()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KBookmarkContextMenu::~KBookmarkContextMenu()@Base" 4:4.3.4
- (c++|arch=!armel !ia64)"non-virtual thunk to KBookmarkDialog::~KBookmarkDialog()@Base" 4:4.7.0
+ (c++)"non-virtual thunk to KBookmarkDialog::~KBookmarkDialog()@Base" 4:4.7.2
  (c++)"non-virtual thunk to KBuildSycocaProgressDialog::~KBuildSycocaProgressDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KEncodingFileDialog::~KEncodingFileDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KFileDialog::~KFileDialog()@Base" 4:4.3.4
@@ -3605,7 +3605,7 @@ libkio.so.5 libkio5 #MINVER#
  (c++)"non-virtual thunk to KIO::ForwardingSlaveBase::~ForwardingSlaveBase()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KIO::PasswordDialog::~PasswordDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KIO::RenameDialog::~RenameDialog()@Base" 4:4.3.4
- (c++|arch=!armel !ia64)"non-virtual thunk to KIO::RenameDialogPlugin::~RenameDialogPlugin()@Base" 4:4.7.0
+ (c++)"non-virtual thunk to KIO::RenameDialogPlugin::~RenameDialogPlugin()@Base" 4:4.7.2
  (c++)"non-virtual thunk to KIO::SkipDialog::~SkipDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KIconButton::~KIconButton()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KIconCanvas::~KIconCanvas()@Base" 4:4.3.4
@@ -3624,11 +3624,11 @@ libkio.so.5 libkio5 #MINVER#
  (c++)"non-virtual thunk to KStatusBarOfflineIndicator::~KStatusBarOfflineIndicator()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KUrlComboBox::setCompletionObject(KCompletion*, bool)@Base" 4:4.3.4
  (c++)"non-virtual thunk to KUrlComboBox::~KUrlComboBox()@Base" 4:4.3.4
- (c++|arch=!armel !ia64)"non-virtual thunk to KUrlComboRequester::~KUrlComboRequester()@Base" 4:4.7.0
+ (c++)"non-virtual thunk to KUrlComboRequester::~KUrlComboRequester()@Base" 4:4.7.2
  (c++)"non-virtual thunk to KUrlRequester::~KUrlRequester()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KUrlRequesterDialog::~KUrlRequesterDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KXBELBookmarkImporterImpl::visit(KBookmark const&)@Base" 4:4.3.4
  (c++)"non-virtual thunk to KXBELBookmarkImporterImpl::visitEnter(KBookmarkGroup const&)@Base" 4:4.3.4
  (c++)"non-virtual thunk to KXBELBookmarkImporterImpl::visitLeave(KBookmarkGroup const&)@Base" 4:4.3.4
- (c++|arch=!armel !ia64)"non-virtual thunk to KXBELBookmarkImporterImpl::~KXBELBookmarkImporterImpl()@Base" 4:4.7.0
+ (c++)"non-virtual thunk to KXBELBookmarkImporterImpl::~KXBELBookmarkImporterImpl()@Base" 4:4.7.2
  (c++)"non-virtual thunk to KonqBookmarkContextMenu::~KonqBookmarkContextMenu()@Base" 4:4.3.4

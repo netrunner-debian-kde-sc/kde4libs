@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.0 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 ia64
 libkcmutils.so.4 libkcmutils4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN12KCModuleInfo7Private7loadAllEv@Base 4:4.4.95
@@ -149,9 +149,9 @@ libkcmutils.so.4 libkcmutils4 #MINVER#
  _ZN17KCModuleContainerD0Ev@Base 4:4.4.95
  _ZN17KCModuleContainerD1Ev@Base 4:4.4.95
  _ZN17KCModuleContainerD2Ev@Base 4:4.4.95
- (arch=!armel !ia64)_ZN18KPageDialogPrivateD0Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN18KPageDialogPrivateD1Ev@Base 4:4.7.0
- (arch=!armel !ia64)_ZN18KPageDialogPrivateD2Ev@Base 4:4.7.0
+ (arch=!armel)_ZN18KPageDialogPrivateD0Ev@Base 4:4.7.2
+ (arch=!armel)_ZN18KPageDialogPrivateD1Ev@Base 4:4.7.2
+ (arch=!armel)_ZN18KPageDialogPrivateD2Ev@Base 4:4.7.2
  _ZN9KSettings10Dispatcher14componentNamesEv@Base 4:4.4.95
  _ZN9KSettings10Dispatcher17registerComponentERK14KComponentDataP7QObjectPKc@Base 4:4.4.95
  _ZN9KSettings10Dispatcher17syncConfigurationEv@Base 4:4.4.95
