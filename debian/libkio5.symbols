@@ -862,7 +862,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN17KFileItemDelegate7Private10gotNewIconERK11QModelIndex@Base 4:4.3.4
  _ZN17KFileItemDelegate7Private16restartAnimationEPN3KIO14AnimationStateE@Base 4:4.3.4
  _ZN17KFileItemDelegate7Private17paintJobTransfersEP8QPainterRKdRK6QPointRK22QStyleOptionViewItemV4@Base 4:4.7.0
-#MISSING: 4:4.7.0# (subst)_ZN17KFileItemDelegate7Private17paintJobTransfersEP8QPainterRK{qreal}RK6QPoint22QStyleOptionViewItemV4@Base 4:4.4.95
  _ZN17KFileItemDelegate7Private17setVerticalMarginENS0_10MarginTypeEiiii@Base 4:4.3.4
  _ZN17KFileItemDelegate7Private19setHorizontalMarginENS0_10MarginTypeEiiii@Base 4:4.3.4
  _ZN17KFileItemDelegate7PrivateC1EPS_@Base 4:4.3.4
