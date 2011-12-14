@@ -1429,7 +1429,6 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZNK12K3DockWidget9mayBeHideEv@Base 4:4.3.4
  _ZNK12K3DockWidget9mayBeShowEv@Base 4:4.3.4
  (optional=templinst|arch=armel kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.3
-#MISSING: 4:4.7.4# (optional=templinst|arch=!ia64)_ZNK12KConfigGroup9readEntryIiEET_RK7QStringRKS1_@Base 4:4.7.2
  _ZNK13K3AboutDialog10metaObjectEv@Base 4:4.3.4
  _ZNK13K3AboutWidget10metaObjectEv@Base 4:4.3.4
  _ZNK13K3ActiveLabel10metaObjectEv@Base 4:4.3.4
