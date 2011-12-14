@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 i386 ia64
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
@@ -663,6 +663,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma13AccessManagerD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma13AccessManagerD2Ev@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer10checkUsageEv@Base 4:4.4.4-2~
+ _ZN6Plasma13DataContainer10timerEventEP11QTimerEvent@Base 4:4.7.4
  _ZN6Plasma13DataContainer11dataUpdatedERK7QStringRK5QHashIS1_8QVariantE@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma13DataContainer11qt_metacastEPKc@Base 4:4.4.4-2~
@@ -2034,6 +2035,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9Wallpaper4loadERK11KPluginInfoRK5QListI8QVariantE@Base 4:4.4.4-2~
  _ZN6Plasma9Wallpaper4loadERK7QStringRK5QListI8QVariantE@Base 4:4.4.4-2~
  _ZN6Plasma9Wallpaper4saveER12KConfigGroup@Base 4:4.4.4-2~
+ _ZN6Plasma9Wallpaper6renderERK6QImageRK5QSizeNS0_12ResizeMethodERK6QColor@Base 4:4.7.4
  _ZN6Plasma9Wallpaper6renderERK7QStringRK5QSizeNS0_12ResizeMethodERK6QColor@Base 4:4.4.4-2~
  _ZN6Plasma9Wallpaper6updateERK6QRectF@Base 4:4.4.4-2~
  _ZN6Plasma9Wallpaper7addUrlsERKN4KUrl4ListE@Base 4:4.7.0
