@@ -41,7 +41,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN11KFileWidgetD0Ev@Base 4:4.3.4
  _ZN11KFileWidgetD1Ev@Base 4:4.3.4
  _ZN11KFileWidgetD2Ev@Base 4:4.3.4
-#MISSING: 4:4.7.2# (optional=templinst|arch=hurd-i386 ia64)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  (optional=templinst|arch=armel)_ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.3
  (optional=templinst|arch=armel mips mipsel s390 sparc)_ZN12KConfigGroup10writeEntryIiEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  _ZN12KDirOperator10completionERK7QString@Base 4:4.3.4
@@ -453,7 +453,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN24KDirSortFilterProxyModelD2Ev@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
-#MISSING: 4:4.7.2# (optional=templinst|arch=hurd-i386 ia64)_ZN5Solid6Device2asINS_12StorageDriveEEEPT_v@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386)_ZN5Solid6Device2asINS_12StorageDriveEEEPT_v@Base 4:4.6.2
  _ZNK11KFileWidget10metaObjectEv@Base 4:4.3.4
  _ZNK11KFileWidget11selectedUrlEv@Base 4:4.3.4
  _ZNK11KFileWidget12cancelButtonEv@Base 4:4.3.4
