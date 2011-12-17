@@ -1,4 +1,4 @@
-kde4libs (4:4.7.4-0r3) UNRELEASED; urgency=low
+kde4libs (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -14,7 +14,7 @@ kde4libs (4:4.7.4-0r3) UNRELEASED; urgency=low
   * Make kdelibs5-plugins depend on katepart, to make it "provide" it as it
     happened in << 4.7.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Dec 2011 00:26:46 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Dec 2011 22:22:02 +0100
 
 kde4libs (4:4.7.2-2) experimental; urgency=low
 
