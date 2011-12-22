@@ -1,3 +1,8 @@
+kde4libs (4:4.7.4-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Dec 2011 22:33:37 +0100
+
 kde4libs (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
