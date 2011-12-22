@@ -4,6 +4,8 @@ kde4libs (4:4.7.95-0r0) UNRELEASED; urgency=low
 
   [ Eshat Cakar ]
   * Add myself to uploaders.
+  * Update installed files.
+  * Update not-installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Dec 2011 16:42:14 +0100
 
