@@ -1,7 +1,7 @@
 kde4libs (4:4.7.4-2) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
-  * Confirm symbols files on more architectures.
+  * Confirm symbols files on all architectures.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Dec 2011 22:33:37 +0100
 
