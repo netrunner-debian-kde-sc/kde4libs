@@ -1,3 +1,11 @@
+kde4libs (4:4.7.4-3) unstable; urgency=low
+
+  * Team upload.
+  * Do not export libkactivities library targets in the cmake configuration
+    of kdelibs. Also do not install libkactivities's headers.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 05 Mar 2012 14:32:02 +0100
+
 kde4libs (4:4.7.4-2) unstable; urgency=low
 
   * Upload to unstable.

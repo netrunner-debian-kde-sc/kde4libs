@@ -1085,9 +1085,6 @@ usr/include/kactioncollection.h
 usr/include/kactionmenu.h
 usr/include/kactionselector.h
 usr/include/kactivelabel.h
-usr/include/kactivityconsumer.h
-usr/include/kactivitycontroller.h
-usr/include/kactivityinfo.h
 usr/include/kallocator.h
 usr/include/kanimatedbutton.h
 usr/include/kapplication.h
