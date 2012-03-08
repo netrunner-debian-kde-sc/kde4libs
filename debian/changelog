@@ -1,4 +1,4 @@
-kde4libs (4:4.8.0-0r0) UNRELEASED; urgency=low
+kde4libs (4:4.8.1-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -7,7 +7,7 @@ kde4libs (4:4.8.0-0r0) UNRELEASED; urgency=low
   * Update installed files.
   * Update not-installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Dec 2011 16:42:14 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 17:23:21 +0100
 
 kde4libs (4:4.7.4-1) experimental; urgency=low
 
