@@ -1,0 +1,30 @@
+From d1edc0f038818a073488f6a1822cfb01d43d67e4 Mon Sep 17 00:00:00 2001
+From: Pino Toscano <pino@kde.org>
+Date: Fri, 9 Mar 2012 16:16:45 +0100
+Subject: [PATCH] better check for return values of m_protocols.value(...)
+
+This is a better fix for such situation in SchedulerPrivate::assignJobToSlave(), as a followup of
+777f69880989d87adfe3011cf0b8db93f70a626c
+
+BUG: 282889
+FIXED-IN: 4.8.2
+---
+ kio/kio/scheduler.cpp |    7 +++++--
+ 1 files changed, 5 insertions(+), 2 deletions(-)
+
+--- a/kio/kio/scheduler.cpp
++++ b/kio/kio/scheduler.cpp
+@@ -1271,8 +1271,11 @@ bool SchedulerPrivate::assignJobToSlave(
+     kDebug(7006) << slave << job;
+     // KDE5: queueing of jobs can probably be removed, it provides very little benefit
+     ProtoQueue *pq = m_protocols.value(slave->protocol());
+-    pq->removeJob(job);
+-    return (pq ? pq->m_connectedSlaveQueue.queueJob(job, slave) : false);
++    if (pq) {
++        pq->removeJob(job);
++        return pq->m_connectedSlaveQueue.queueJob(job, slave);
++    }
++    return false;
+ }
+ 
+ bool SchedulerPrivate::disconnectSlave(KIO::Slave *slave)
