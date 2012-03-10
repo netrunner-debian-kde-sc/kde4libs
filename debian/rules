@@ -21,7 +21,7 @@ override_dh_auto_configure:
 	    -DLIB_INSTALL_DIR=/usr/lib \
 	    -DSYSCONF_INSTALL_DIR=/etc \
 	    -DLIBKDEINIT_INSTALL_DIR:PATH=/usr/lib/kde4/libkdeinit \
-		-DBUILD_libkactivities=OFF
+	    -DBUILD_libkactivities=OFF
 
 .PHONY: override_dh_auto_test
 
