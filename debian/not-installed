@@ -20,8 +20,3 @@
 ./usr/share/man/man8/kded4.8
 ./usr/share/man/man8/kdeinit4.8
 ./usr/share/man/man8/meinproc4.8
-
-# Experimental library, it was imported into libkworkspace.
-./usr/lib/libkactivities.so
-./usr/lib/libkactivities.so.5
-./usr/lib/libkactivities.so.5.7.0
