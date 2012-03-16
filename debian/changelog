@@ -9,6 +9,33 @@ kde4libs (4:4.8.1-0r0) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 17:23:21 +0100
 
+kde4libs (4:4.7.4-4) unstable; urgency=low
+
+  * Team upload.
+  * Backport the upstream commit d1edc0f038818a073488f6a1822cfb01d43d67e4 to fix
+    a crash in KIO in some situations, like with proxies with kmail or akonadi
+    (patch upstream_better-check-for-return-values-of-m_protocols.value.patch).
+    (Closes: #663528)
+
+ -- Pino Toscano <pino@debian.org>  Mon, 12 Mar 2012 20:45:47 +0100
+
+kde4libs (4:4.7.4-3) unstable; urgency=low
+
+  * Team upload.
+  * Do not export libkactivities library targets in the cmake configuration
+    of kdelibs. Also do not install libkactivities's headers.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 05 Mar 2012 14:32:02 +0100
+
+kde4libs (4:4.7.4-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+  [ José Manuel Santamaría Lema ]
+  * Confirm symbols files on all architectures.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Dec 2011 22:33:37 +0100
+
 kde4libs (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
