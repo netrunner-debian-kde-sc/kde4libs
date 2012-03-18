@@ -530,7 +530,7 @@ Package: kdelibs5-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: libqt4-dbg (>= 4:4.6), libc6-dbg [amd64]
+Depends: libkdecore5 (= ${binary:Version}), libqt4-dbg (>= 4:4.6), libc6-dbg [amd64]
 Recommends: ${allLibraries}, kdelibs-bin (= ${binary:Version})
 Description: debugging symbols for the KDE Development Platform libraries
  This package contains debugging files used to investigate problems with
