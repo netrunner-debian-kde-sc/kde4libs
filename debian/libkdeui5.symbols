@@ -2544,7 +2544,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN15KGlobalSettings7Private19_k_slotNotifyChangeEii@Base 4:4.3.4
  _ZN15KGlobalSettings7Private19propagateQtSettingsEv@Base 4:4.3.4
  _ZN15KGlobalSettings7Private19reloadStyleSettingsEv@Base 4:4.8.1
-#MISSING: 4:4.8.1# _ZN15KGlobalSettings7Private19rereadOtherSettingsEv@Base 4:4.3.4
  _ZN15KGlobalSettings7Private24createApplicationPaletteERK10KSharedPtrI13KSharedConfigE@Base 4:4.5.85
  _ZN15KGlobalSettings7Private27createNewApplicationPaletteERK10KSharedPtrI13KSharedConfigE@Base 4:4.6.3
  _ZN15KGlobalSettings8activateE6QFlagsINS_14ActivateOptionEE@Base 4:4.5.85

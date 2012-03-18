@@ -1132,7 +1132,6 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk15ResourceManager14deleteInstanceEv@Base 4:4.3.4
  _ZN7Nepomuk15ResourceManager14removeResourceERK7QString@Base 4:4.3.4
  _ZN7Nepomuk15ResourceManager16resourceModifiedERK7QString@Base 4:4.3.4
-#MISSING: 4:4.8.1# _ZN7Nepomuk15ResourceManager16slotStoreChangedEv@Base 4:4.3.4
  _ZN7Nepomuk15ResourceManager16staticMetaObjectE@Base 4:4.3.4
  _ZN7Nepomuk15ResourceManager17generateUniqueUriERK7QString@Base 4:4.3.4
  _ZN7Nepomuk15ResourceManager17generateUniqueUriEv@Base 4:4.3.4
