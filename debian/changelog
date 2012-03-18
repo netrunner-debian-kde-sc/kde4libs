@@ -10,6 +10,8 @@ kde4libs (4:4.8.1-0r0) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Update symbols files.
   * Bump Standards-Version to 3.9.3, no changes needed.
+  * Remove -DBUILD_libkactivities=OFF from the cmake parameters, no longer
+    needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 17:23:21 +0100
 
