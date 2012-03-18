@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -1560,7 +1560,9 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KConfigDialog9isDefaultEv@Base 4:4.3.4
  _ZN13KConfigDialog9showEventEP10QShowEvent@Base 4:4.3.4
  _ZN13KConfigDialogC1EP7QWidgetRK7QStringP15KConfigSkeleton@Base 4:4.3.4
+ _ZN13KConfigDialogC1EP7QWidgetRK7QStringP19KCoreConfigSkeleton@Base 4:4.8.1
  _ZN13KConfigDialogC2EP7QWidgetRK7QStringP15KConfigSkeleton@Base 4:4.3.4
+ _ZN13KConfigDialogC2EP7QWidgetRK7QStringP19KCoreConfigSkeleton@Base 4:4.8.1
  _ZN13KConfigDialogD0Ev@Base 4:4.3.4
  _ZN13KConfigDialogD1Ev@Base 4:4.3.4
  _ZN13KConfigDialogD2Ev@Base 4:4.3.4
@@ -2541,7 +2543,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN15KGlobalSettings7Private18kdisplaySetPaletteEv@Base 4:4.3.4
  _ZN15KGlobalSettings7Private19_k_slotNotifyChangeEii@Base 4:4.3.4
  _ZN15KGlobalSettings7Private19propagateQtSettingsEv@Base 4:4.3.4
- _ZN15KGlobalSettings7Private19rereadOtherSettingsEv@Base 4:4.3.4
+ _ZN15KGlobalSettings7Private19reloadStyleSettingsEv@Base 4:4.8.1
+#MISSING: 4:4.8.1# _ZN15KGlobalSettings7Private19rereadOtherSettingsEv@Base 4:4.3.4
  _ZN15KGlobalSettings7Private24createApplicationPaletteERK10KSharedPtrI13KSharedConfigE@Base 4:4.5.85
  _ZN15KGlobalSettings7Private27createNewApplicationPaletteERK10KSharedPtrI13KSharedConfigE@Base 4:4.6.3
  _ZN15KGlobalSettings8activateE6QFlagsINS_14ActivateOptionEE@Base 4:4.5.85
@@ -4445,6 +4448,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6Sonnet12ConfigDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Sonnet12ConfigDialog11qt_metacastEPKc@Base 4:4.3.4
  _ZN6Sonnet12ConfigDialog11setLanguageERK7QString@Base 4:4.3.4
+ _ZN6Sonnet12ConfigDialog13configChangedEv@Base 4:4.8.1
  _ZN6Sonnet12ConfigDialog15languageChangedERK7QString@Base 4:4.3.4
  _ZN6Sonnet12ConfigDialog16staticMetaObjectE@Base 4:4.3.4
  _ZN6Sonnet12ConfigDialog4initEP7KConfig@Base 4:4.3.4
@@ -4850,6 +4854,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN8KToolBar14dragLeaveEventEP15QDragLeaveEvent@Base 4:4.3.4
  _ZN8KToolBar14mouseMoveEventEP11QMouseEvent@Base 4:4.3.4
  _ZN8KToolBar14toolBarsLockedEv@Base 4:4.3.4
+ _ZN8KToolBar15addXMLGUIClientEP13KXMLGUIClient@Base 4:4.8.1
  _ZN8KToolBar15mousePressEventEP11QMouseEvent@Base 4:4.3.4
  _ZN8KToolBar15setXMLGUIClientEP13KXMLGUIClient@Base 4:4.3.4
  _ZN8KToolBar16contextMenuEventEP17QContextMenuEvent@Base 4:4.3.4
@@ -6422,6 +6427,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK6Sonnet11Highlighter8isActiveEv@Base 4:4.3.4
  _ZNK6Sonnet11Highlighter9automaticEv@Base 4:4.3.4
  _ZNK6Sonnet12ConfigDialog10metaObjectEv@Base 4:4.3.4
+ _ZNK6Sonnet12ConfigDialog8languageEv@Base 4:4.8.1
  _ZNK6Sonnet12ConfigWidget10metaObjectEv@Base 4:4.3.4
  _ZNK6Sonnet12ConfigWidget29backgroundCheckingButtonShownEv@Base 4:4.3.4
  _ZNK6Sonnet12ConfigWidget8languageEv@Base 4:4.3.4
@@ -6499,6 +6505,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK8KToolBar10metaObjectEv@Base 4:4.3.4
  _ZNK8KToolBar15iconSizeDefaultEv@Base 4:4.3.4
  _ZNK8KToolBar18contextMenuEnabledEv@Base 4:4.3.4
+ _ZNK8KToolBar7Private10findActionERK7QStringPP13KXMLGUIClient@Base 4:4.8.1
  _ZNK8KToolBar7Private19getPositionAsStringEv@Base 4:4.3.4
  _ZNK8KToolBar9saveStateER11QDomElement@Base 4:4.3.4
  _ZNK9KComboBox10metaObjectEv@Base 4:4.3.4

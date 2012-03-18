@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -163,6 +163,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN10KTcpSocket19setLocalCertificateERK7QStringN4QSsl14EncodingFormatE@Base 4:4.3.4
  _ZN10KTcpSocket19waitForBytesWrittenEi@Base 4:4.3.4
  _ZN10KTcpSocket19waitForDisconnectedEi@Base 4:4.3.4
+ _ZN10KTcpSocket21encryptedBytesWrittenEx@Base 4:4.8.1
  _ZN10KTcpSocket21encryptionModeChangedENS_14EncryptionModeE@Base 4:4.3.4
  _ZN10KTcpSocket21startClientEncryptionEv@Base 4:4.3.4
  _ZN10KTcpSocket22connectToHostEncryptedERK7QStringt6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:4.3.4
@@ -924,9 +925,11 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN15KServiceFactoryD1Ev@Base 4:4.3.4
  _ZN15KServiceFactoryD2Ev@Base 4:4.3.4
  _ZN15KSslErrorUiDataC1EPK10KTcpSocket@Base 4:4.3.4
+ _ZN15KSslErrorUiDataC1EPK10QSslSocket@Base 4:4.8.1
  _ZN15KSslErrorUiDataC1ERKS_@Base 4:4.3.4
  _ZN15KSslErrorUiDataC1Ev@Base 4:4.3.4
  _ZN15KSslErrorUiDataC2EPK10KTcpSocket@Base 4:4.3.4
+ _ZN15KSslErrorUiDataC2EPK10QSslSocket@Base 4:4.8.1
  _ZN15KSslErrorUiDataC2ERKS_@Base 4:4.3.4
  _ZN15KSslErrorUiDataC2Ev@Base 4:4.3.4
  _ZN15KSslErrorUiDataD1Ev@Base 4:4.7.0
@@ -1988,6 +1991,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN7KLocale19setDateTimeDigitSetENS_8DigitSetE@Base 4:4.3.4
  _ZN7KLocale19setMonetaryDigitSetENS_8DigitSetE@Base 4:4.3.4
  _ZN7KLocale19setWeekNumberSystemENS_16WeekNumberSystemE@Base 4:4.5.85
+ _ZN7KLocale20reparseConfigurationEv@Base 4:4.8.1
  _ZN7KLocale20setBinaryUnitDialectENS_17BinaryUnitDialectE@Base 4:4.4.0
  _ZN7KLocale20setWorkingWeekEndDayEi@Base 4:4.3.4
  _ZN7KLocale21setThousandsSeparatorERK7QString@Base 4:4.3.4

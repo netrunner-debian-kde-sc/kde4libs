@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -2343,6 +2343,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN4KRun10runCommandERK7QStringS2_S2_P7QWidgetRK10QByteArrayS2_@Base 4:4.4.0
  _ZN4KRun10shellQuoteER7QString@Base 4:4.3.4
  _ZN4KRun11KRunPrivate10startTimerEv@Base 4:4.3.4
+ _ZN4KRun11KRunPrivate13runExecutableERK7QString@Base 4:4.8.1
  (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN4KRun11KRunPrivate4initERK4KUrlP7QWidgetjbbRK10QByteArray@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRun11KRunPrivate4initERK4KUrlP7QWidgettbbRK10QByteArray@Base 4:4.3.4
  _ZN4KRun11KRunPrivateC1EPS_@Base 4:4.3.4

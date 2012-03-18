@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libnepomukquery.so.4 libnepomukquery4a #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
@@ -20,6 +20,7 @@ libnepomukquery.so.4 libnepomukquery4a #MINVER#
  _ZN7Nepomuk5Query11LiteralTermaSERKS1_@Base 4:4.4.0
  _ZN7Nepomuk5Query11QueryParser10parseQueryERK7QString6QFlagsINS1_10ParserFlagEE@Base 4:4.5.86
  _ZN7Nepomuk5Query11QueryParser10parseQueryERK7QString@Base 4:4.4.0
+ _ZN7Nepomuk5Query11QueryParser7Private13resolveFieldsERKNS0_4TermE@Base 4:4.8.1
  _ZN7Nepomuk5Query11QueryParserC1Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query11QueryParserC2Ev@Base 4:4.4.0
  _ZN7Nepomuk5Query11QueryParserD1Ev@Base 4:4.4.0
