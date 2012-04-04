@@ -21,4 +21,3 @@ findpythonlibrary_layout_deb_on_debian.diff
 ktar_header_checksum_fix.diff
 ktar_longlink_length_in_bytes.diff
 glibc_filesystem.diff
-upstream_better-check-for-return-values-of-m_protocols.value.patch
