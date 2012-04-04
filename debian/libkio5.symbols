@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.2 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -725,6 +725,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN16KFileItemActions22associatedApplicationsERK11QStringListRK7QString@Base 4:4.4.0
  _ZN16KFileItemActions23preferredOpenWithActionERK7QString@Base 4:4.3.4
  _ZN16KFileItemActions24runPreferredApplicationsERK13KFileItemListRK7QString@Base 4:4.4.95
+ _ZN16KFileItemActions28openWithDialogAboutToBeShownEv@Base 4:4.8.2
  _ZN16KFileItemActionsC1EP7QObject@Base 4:4.3.4
  _ZN16KFileItemActionsC2EP7QObject@Base 4:4.3.4
  _ZN16KFileItemActionsD0Ev@Base 4:4.3.4
