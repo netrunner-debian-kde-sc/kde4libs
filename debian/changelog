@@ -5,6 +5,7 @@ kde4libs (4:4.7.4-5) UNRELEASED; urgency=low
     between the kdelibs debug symbols and at least one of the libraries.
   * Backport the upstream commit 01b0c1a8051f372e400d213ac125311c398e4b17 to fix
     the build with GCC 4.7; patch upstream_Add-missing-include.patch.
+  * Bump Standards-Version to 3.9.3, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Mar 2012 09:22:26 +0100
 
