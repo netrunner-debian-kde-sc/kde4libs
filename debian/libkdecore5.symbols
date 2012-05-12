@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -648,6 +648,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN13KStandardDirsD2Ev@Base 4:4.3.4
  _ZN13KTimeZoneData14setTransitionsERK5QListIN9KTimeZone10TransitionEE@Base 4:4.3.4
  _ZN13KTimeZoneData20setLeapSecondChangesERK5QListIN9KTimeZone11LeapSecondsEE@Base 4:4.3.4
+ _ZN13KTimeZoneData9setPhasesERK5QListIN9KTimeZone5PhaseEERKS2_@Base 4:4.8.3
  _ZN13KTimeZoneData9setPhasesERK5QListIN9KTimeZone5PhaseEEi@Base 4:4.3.4
  _ZN13KTimeZoneDataC1ERKS_@Base 4:4.3.4
  _ZN13KTimeZoneDataC1Ev@Base 4:4.3.4
@@ -3852,6 +3853,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK8KService8propertyERK7QStringN8QVariant4TypeE@Base 4:4.3.4
  _ZNK8KService8terminalEv@Base 4:4.3.4
  _ZNK8KService8usernameEv@Base 4:4.3.4
+ _ZNK8KService9mimeTypesEv@Base 4:4.8.3
  _ZNK8KService9noDisplayEv@Base 4:4.3.4
  _ZNK8KService9parentAppEv@Base 4:4.3.4
  _ZNK8KService9showInKDEEv@Base 4:4.4.95

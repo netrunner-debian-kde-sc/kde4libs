@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64
 libkdewebkit.so.5 libkdewebkit5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KWebWallet11fillWebFormERK4KUrlRK5QListINS_7WebFormEE@Base 4:4.4.0
@@ -107,6 +107,9 @@ libkdewebkit.so.5 libkdewebkit5 #MINVER#
  _ZNK16KGraphicsWebView10metaObjectEv@Base 4:4.4.0
  _ZNK16KGraphicsWebView24isExternalContentAllowedEv@Base 4:4.4.0
  _ZNK17KWebPluginFactory10metaObjectEv@Base 4:4.4.0
+ _ZNK17KWebPluginFactory16excludedMimeTypeERK7QString@Base 4:4.8.3
+ _ZNK17KWebPluginFactory22createPartInstanceFromERK7QStringRK11QStringListS5_P7QWidgetP7QObject@Base 4:4.8.3
+ _ZNK17KWebPluginFactory22extractGuessedMimeTypeERK4QUrlP7QString@Base 4:4.8.3
  _ZNK17KWebPluginFactory6createERK7QStringRK4QUrlRK11QStringListS8_@Base 4:4.4.0
  _ZNK17KWebPluginFactory7pluginsEv@Base 4:4.4.0
  _ZNK8KWebPage10metaObjectEv@Base 4:4.4.0
