@@ -43,7 +43,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN11KFileWidgetD2Ev@Base 4:4.3.4
  (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  (optional=templinst|arch=armel)_ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.3
- (optional=templinst|arch=armel mips mipsel powerpc s390 sparc)_ZN12KConfigGroup10writeEntryIiEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+ (optional=templinst|arch=armel mips mipsel s390 sparc)_ZN12KConfigGroup10writeEntryIiEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  _ZN12KDirOperator10completionERK7QString@Base 4:4.3.4
  _ZN12KDirOperator10createViewEP7QWidgetN5KFile8FileViewE@Base 4:4.3.4
  _ZN12KDirOperator10readConfigERK12KConfigGroup@Base 4:4.3.4
@@ -471,7 +471,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZNK11KFileWidget7baseUrlEv@Base 4:4.3.4
  _ZNK11KFileWidget7toolBarEv@Base 4:4.3.4
  _ZNK11KFileWidget8okButtonEv@Base 4:4.3.4
- (optional=templinst|arch=armel mips mipsel powerpc s390 sparc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.4.2
+ (optional=templinst|arch=armel mips mipsel s390 sparc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.4.2
  (optional=templinst|arch=amd64 i386 ia64 powerpc)_ZNK12KConfigGroup9readEntryIiEET_RK7QStringRKS1_@Base 4:4.6.1
  _ZNK12KDirOperator10isSelectedERK9KFileItem@Base 4:4.3.4
  _ZNK12KDirOperator10metaObjectEv@Base 4:4.3.4

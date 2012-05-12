@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.1 amd64
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64 ia64 powerpc
 libnepomuk.so.4 libnepomuk4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN15KTagCloudWidget10tagClickedERK7QString@Base 4:4.3.4
@@ -220,6 +220,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NFO18MediaFileListEntryEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO18belongsToContainerEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO18verticalResolutionEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NFO19LocalFileDataObjectEv@Base 4:4.7.4
  _ZN7Nepomuk10Vocabulary3NFO19isPasswordProtectedEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO19programmingLanguageEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO20horizontalResolutionEv@Base 4:4.5.85
@@ -250,6 +251,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NFO7ArchiveEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO7MindMapEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO7WebsiteEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NFO7depictsEv@Base 4:4.7.4
  _ZN7Nepomuk10Vocabulary3NFO7fileUrlEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO7foundryEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO7hasHashEv@Base 4:4.5.85
@@ -266,6 +268,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NFO9MediaListEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO9bookmarksEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO9conflictsEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NFO9depictionEv@Base 4:4.7.4
  _ZN7Nepomuk10Vocabulary3NFO9fileOwnerEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO9frameRateEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NFO9freeSpaceEv@Base 4:4.5.85

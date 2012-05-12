@@ -9,6 +9,7 @@ kde4libs (4:4.7.4-5) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Add temporary Build-Conflicts against libqtwebkit-dev << 2.2.1.
+  * Update symbol files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Mar 2012 09:22:26 +0100
 
