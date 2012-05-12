@@ -1,6 +1,7 @@
 kde4libs (4:4.8.3-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
+    - FindXine.cmake doesn't call xine-config anymore (Closes: #656914)
 
   [ Eshat Cakar ]
   * Add myself to uploaders.
