@@ -53,15 +53,17 @@ libkio.so.5 libkio5 #MINVER#
  (optional=private)_ZN10KDirLister7Private14CachedItemsJob11qt_metacastEPKc@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14CachedItemsJob16staticMetaObjectE@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14CachedItemsJob4doneEv@Base 4:4.3.4
- _ZN10KDirLister7Private14CachedItemsJob6doKillEv@Base 4:4.6.1
- _ZN10KDirLister7Private14CachedItemsJobC1EPS_RK4KUrlb@Base 4:4.6.2
- _ZN10KDirLister7Private14CachedItemsJobC2EPS_RK4KUrlb@Base 4:4.6.2
- _ZN10KDirLister7Private14CachedItemsJobD0Ev@Base 4:4.7.2
- _ZN10KDirLister7Private14CachedItemsJobD1Ev@Base 4:4.7.2
- _ZN10KDirLister7Private14CachedItemsJobD2Ev@Base 4:4.7.2
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7Private14FilterSettingsD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7Private14FilterSettingsD2Ev@Base 4:4.6.5
- _ZN10KDirLister7Private14FilterSettingsaSERKS1_@Base 4:4.7.2
+ (optional=private)_ZN10KDirLister7Private14CachedItemsJob6doKillEv@Base 4:4.6.1
+ (optional=private)_ZN10KDirLister7Private14CachedItemsJobC1EPS_RK4KUrlb@Base 4:4.6.2
+ (optional=private)_ZN10KDirLister7Private14CachedItemsJobC2EPS_RK4KUrlb@Base 4:4.6.2
+ (optional=private)_ZN10KDirLister7Private14CachedItemsJobD0Ev@Base 4:4.7.2
+ (optional=private)_ZN10KDirLister7Private14CachedItemsJobD1Ev@Base 4:4.7.2
+ (optional=private)_ZN10KDirLister7Private14CachedItemsJobD2Ev@Base 4:4.7.2
+ (optional=private)_ZN10KDirLister7Private14FilterSettingsC1ERKS1_@Base 4:4.7.4
+ (optional=private)_ZN10KDirLister7Private14FilterSettingsC2ERKS1_@Base 4:4.7.4
+ (optional=private|arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7Private14FilterSettingsD1Ev@Base 4:4.6.5
+ (optional=private|arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7Private14FilterSettingsD2Ev@Base 4:4.6.5
+ (optional=private)_ZN10KDirLister7Private14FilterSettingsaSERKS1_@Base 4:4.7.2
  (optional=private)_ZN10KDirLister7Private14_k_slotPercentEP4KJobm@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14addRefreshItemERK4KUrlRK9KFileItemS6_@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private16_k_slotTotalSizeEP4KJoby@Base 4:4.3.4
@@ -72,6 +74,8 @@ libkio.so.5 libkio5 #MINVER#
  (optional=private)_ZN10KDirLister7Private7numJobsEv@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private8redirectERK4KUrlS3_b@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private9emitItemsEv@Base 4:4.3.4
+ (optional=private)_ZN10KDirLister7PrivateD1Ev@Base 4:4.7.4
+ (optional=private)_ZN10KDirLister7PrivateD2Ev@Base 4:4.7.4
  _ZN10KDirLister7openUrlERK4KUrl6QFlagsINS_11OpenUrlFlagEE@Base 4:4.3.4
  _ZN10KDirLister7percentEi@Base 4:4.3.4
  _ZN10KDirLister7startedERK4KUrl@Base 4:4.3.4
@@ -296,7 +300,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN12KAutoUnmountD1Ev@Base 4:4.3.4
  _ZN12KAutoUnmountD2Ev@Base 4:4.3.4
  (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeCheckIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+ (optional=templinst|arch=amd64 hurd-i386)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  _ZN12KSSLSettings10getEGDPathEv@Base 4:4.3.4
  _ZN12KSSLSettings13getCipherListEv@Base 4:4.3.4
@@ -1398,8 +1402,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD0Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
- (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN3KDE4statERK7QStringP4stat@Base 4:4.6.5
- _ZN3KDE6renameERK7QStringS2_@Base 4:4.6.3
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO10Connection15connectToRemoteERK7QString@Base 4:4.3.4
@@ -2616,6 +2618,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK11KScanDialog2idEv@Base 4:4.3.4
  _ZNK12KAutoUnmount10metaObjectEv@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.6.1
+ (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
  _ZNK12KSSLSettings11warnOnEnterEv@Base 4:4.3.4
  _ZNK12KSSLSettings11warnOnLeaveEv@Base 4:4.3.4
  _ZNK12KSSLSettings11warnOnMixedEv@Base 4:4.3.4
@@ -3087,6 +3090,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK4KRun3urlEv@Base 4:4.3.4
  _ZNK4KRun4modeEv@Base 4:4.3.4
  _ZNK4KRun8hasErrorEv@Base 4:4.3.4
+ (optional=templinst)_ZNK8KService14createInstanceI23KPropertiesDialogPluginEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.7.4
  _ZNK9KBookmark11descriptionEv@Base 4:4.4.0
  _ZNK9KBookmark11isSeparatorEv@Base 4:4.3.4
  _ZNK9KBookmark11parentGroupEv@Base 4:4.3.4

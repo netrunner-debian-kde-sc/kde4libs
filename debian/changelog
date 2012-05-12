@@ -11,7 +11,7 @@ kde4libs (4:4.7.4-5) unstable; urgency=low
 
   [ Modestas Vainius ]
   * Add temporary Build-Conflicts against libqtwebkit-dev << 2.2.1.
-  * Update symbol files.
+  * Update symbol files for gcc 4.7.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 13 May 2012 00:20:58 +0300
 

@@ -2,8 +2,7 @@
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc|subst)_ZN12KConfigGroup14writeListCheckI{qreal}EEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.1
+ (optional=templinst|arch=ia64)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD2Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
@@ -2048,8 +2047,8 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9WallpaperD0Ev@Base 4:4.4.4-2~
  _ZN6Plasma9WallpaperD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma9WallpaperD2Ev@Base 4:4.4.4-2~
- (optional=templinst|subst)_ZNK12KConfigGroup13readListCheckI{qreal}EE5QListIT_EPKcRKS3_@Base 4:4.6.1
- (optional=templinst|arch=armel kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst|subst|arch=ia64)_ZNK12KConfigGroup13readListCheckI{qreal}EE5QListIT_EPKcRKS3_@Base 4:4.6.1
+ (optional=templinst|arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
  _ZNK5Jolie11MetaService14loadedServicesEv@Base 4:4.4.4-2~
  _ZNK5Jolie11MetaService9isRunningEv@Base 4:4.4.4-2~
  _ZNK5Jolie12PendingReply10isFinishedEv@Base 4:4.4.4-2~
@@ -2750,6 +2749,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma9Wallpaper4iconEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper4nameEv@Base 4:4.4.4-2~
  _ZNK6Plasma9Wallpaper7packageEv@Base 4:4.4.4-2~
+ (optional=templinst|arch=amd64)_ZNK8KService14createInstanceIN6Plasma14AbstractRunnerEEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.7.4
  _ZTIN12ThreadWeaver11QueuePolicyE@Base 4:4.4.4-2~
  _ZTIN5Jolie11PendingCallE@Base 4:4.4.4-2~
  _ZTIN5Jolie15AbstractAdaptorE@Base 4:4.4.4-2~
