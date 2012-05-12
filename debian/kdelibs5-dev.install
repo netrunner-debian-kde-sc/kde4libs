@@ -586,6 +586,7 @@ usr/include/KDE/KRandomSequence
 usr/include/KDE/KRatingWidget
 usr/include/KDE/KRecentDocument
 usr/include/KDE/KRecentFilesAction
+usr/include/KDE/KRecursiveFilterProxyModel
 usr/include/KDE/KRemoteEncoding
 usr/include/KDE/KReplace
 usr/include/KDE/KReplaceDialog
@@ -1888,6 +1889,10 @@ usr/include/threadweaver/ThreadWeaver.h
 usr/include/threadweaver/WeaverInterface.h
 usr/include/threadweaver/WeaverObserver.h
 usr/include/threadweaver/threadweaver_export.h
+usr/lib/cmake/KDeclarative/KDeclarativeConfig.cmake
+usr/lib/cmake/KDeclarative/KDeclarativeConfigVersion.cmake
+usr/lib/cmake/KDeclarative/KDeclarativeLibraryTargets-debian.cmake
+usr/lib/cmake/KDeclarative/KDeclarativeLibraryTargets.cmake
 usr/lib/kde4/libexec/kauth-policy-gen
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so
 usr/lib/libkcmutils.so
