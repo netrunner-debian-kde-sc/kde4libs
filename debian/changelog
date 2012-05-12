@@ -1,4 +1,6 @@
-kde4libs (4:4.7.4-5) UNRELEASED; urgency=low
+kde4libs (4:4.7.4-5) unstable; urgency=low
+
+  * Team upload.
 
   [ Pino Toscano ]
   * Make kdelibs5-dbg strictly depend on libkdecore5, to avoid a mismatch
@@ -11,7 +13,7 @@ kde4libs (4:4.7.4-5) UNRELEASED; urgency=low
   * Add temporary Build-Conflicts against libqtwebkit-dev << 2.2.1.
   * Update symbol files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Mar 2012 09:22:26 +0100
+ -- Modestas Vainius <modax@debian.org>  Sun, 13 May 2012 00:20:58 +0300
 
 kde4libs (4:4.7.4-4) unstable; urgency=low
 
