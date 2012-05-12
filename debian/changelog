@@ -15,6 +15,9 @@ kde4libs (4:4.8.3-0r0) UNRELEASED; urgency=low
   * Remove -DBUILD_libkactivities=OFF from the cmake parameters, no longer
     needed.
 
+  [ Pino Toscano ]
+  * libsolid4: suggest media-player-info on Linux archs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 17:23:21 +0100
 
 kde4libs (4:4.7.4-4) unstable; urgency=low
