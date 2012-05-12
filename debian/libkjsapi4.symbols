@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 ia64 mips sparc
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -118,7 +118,6 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
- (arch=!ia64 !mips !mipsel !sparc)_ZN3KJS14ScopeChainLink5derefEv@Base 4:4.6.5
  _ZN3KJS14UnicodeSupport18setToLowerFunctionEPFiPtiRS1_E@Base 4:4.3.4
  _ZN3KJS14UnicodeSupport18setToUpperFunctionEPFiPtiRS1_E@Base 4:4.3.4
  _ZN3KJS14UnicodeSupport19setIdentPartCheckerEPFbiE@Base 4:4.3.4

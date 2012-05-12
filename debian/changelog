@@ -20,6 +20,23 @@ kde4libs (4:4.8.3-0r0) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 17:23:21 +0100
 
+kde4libs (4:4.7.4-5) unstable; urgency=low
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Make kdelibs5-dbg strictly depend on libkdecore5, to avoid a mismatch
+    between the kdelibs debug symbols and at least one of the libraries.
+  * Backport the upstream commit 01b0c1a8051f372e400d213ac125311c398e4b17 to fix
+    the build with GCC 4.7; patch upstream_Add-missing-include.patch.
+  * Bump Standards-Version to 3.9.3, no changes required.
+
+  [ Modestas Vainius ]
+  * Add temporary Build-Conflicts against libqtwebkit-dev << 2.2.1.
+  * Update symbol files for gcc 4.7.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 13 May 2012 00:20:58 +0300
+
 kde4libs (4:4.7.4-4) unstable; urgency=low
 
   * Team upload.
