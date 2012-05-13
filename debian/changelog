@@ -1,4 +1,4 @@
-kde4libs (4:4.8.3-0r0) UNRELEASED; urgency=low
+kde4libs (4:4.8.3-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
     - FindXine.cmake doesn't call xine-config anymore (Closes: #656914)
