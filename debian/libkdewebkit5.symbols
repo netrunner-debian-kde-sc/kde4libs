@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64
+# SymbolsHelper-Confirmed: 4:4.7.4-5 kfreebsd-amd64 kfreebsd-i386
 libkdewebkit.so.5 libkdewebkit5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KWebWallet11fillWebFormERK4KUrlRK5QListINS_7WebFormEE@Base 4:4.4.0
@@ -60,10 +60,6 @@ libkdewebkit.so.5 libkdewebkit5 #MINVER#
  _ZN17KWebPluginFactoryD0Ev@Base 4:4.4.0
  _ZN17KWebPluginFactoryD1Ev@Base 4:4.4.0
  _ZN17KWebPluginFactoryD2Ev@Base 4:4.4.0
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KIO8MetaDataD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KIO8MetaDataD2Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
  _ZN8KWebPage11downloadUrlERK4KUrl@Base 4:4.4.0
  _ZN8KWebPage11handleReplyEP13QNetworkReplyP7QStringPN3KIO8MetaDataE@Base 4:4.7.0
  _ZN8KWebPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0

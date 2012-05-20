@@ -23,3 +23,4 @@ ktar_longlink_length_in_bytes.diff
 glibc_filesystem.diff
 upstream_better-check-for-return-values-of-m_protocols.value.patch
 upstream_Add-missing-include.patch
+python3-support-bytecode.patch
