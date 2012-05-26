@@ -1,9 +1,12 @@
+From: Andreas K. Huettel <andreas.huettel@physik.uni-r.de>
+Subject: Respect PYTHONDONTWRITEBYTECODE environmental variable in PYTHON_INSTALL macro
+Bug-Gentoo: https://bugs.gentoo.org/372407
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=672552 for
+Origin: vendor, http://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/kde-base/kdelibs/files/kdelibs-4.6.3-bytecode.patch?view=markup
+
 Add support for PYTHONDONTWRITEBYTECODE environment variable to allow bytecode
-compilation to be disabled.  Work around for lack of Python 3 bytecode
-support, but since Debian packages don't ship bytecode files this is OK for
-Debian.  See http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=672552 for
-details.  Patch originally from Gentoo:
-http://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/kde-base/kdelibs/files/kdelibs-4.6.3-bytecode.patch?view=markup
+compilation to be disabled.  Work around for lack of Python 3 bytecode support,
+but since Debian packages don't ship bytecode files this is OK for Debian.
 
 diff -ruN kdelibs-4.6.3.orig/cmake/modules/PythonMacros.cmake kdelibs-4.6.3/cmake/modules/PythonMacros.cmake
 --- kdelibs-4.6.3.orig/cmake/modules/PythonMacros.cmake	2011-04-01 15:55:50.000000000 +0200
