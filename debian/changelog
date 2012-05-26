@@ -1,7 +1,8 @@
-kde4libs (4:4.8.3-0r1) UNRELEASED; urgency=low
+kde4libs (4:4.8.3-1) experimental; urgency=low
 
   * New upstream release.
     - FindXine.cmake doesn't call xine-config anymore (Closes: #656914)
+  * Team upload.
 
   [ Eshat Cakar ]
   * Add myself to uploaders.
@@ -24,7 +25,7 @@ kde4libs (4:4.8.3-0r1) UNRELEASED; urgency=low
   * DEP-3'ize python3-support-bytecode.patch.
   * Strip Debian revision from symbol versions in symbol files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 17:23:21 +0100
+ -- Modestas Vainius <modax@debian.org>  Sat, 26 May 2012 18:26:57 +0300
 
 kde4libs (4:4.7.4-6) unstable; urgency=low
 
