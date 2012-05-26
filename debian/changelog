@@ -24,6 +24,20 @@ kde4libs (4:4.8.3-0r1) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 17:23:21 +0100
 
+kde4libs (4:4.7.4-6) unstable; urgency=low
+
+  * Team upload.
+
+  [ Scott Kitterman ]
+  * Confirm symbols files for all archs except amd64 and s390x
+  * Add support to cmake/modules/PythonMacros.cmake for the environment
+    variable $PYTHONDONTWRITEBYTECODE to work around the lack of support for
+    Python 3 byte code compilation (Closes: #672552)
+    - Added in debian/patches/python3-support-bytecode.patch
+    - Thanks to Colin Watson for the patch
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 19 May 2012 15:36:15 -0400
+
 kde4libs (4:4.7.4-5) unstable; urgency=low
 
   * Team upload.

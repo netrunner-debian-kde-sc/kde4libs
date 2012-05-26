@@ -59,11 +59,11 @@ libkio.so.5 libkio5 #MINVER#
  (optional=private)_ZN10KDirLister7Private14CachedItemsJobD0Ev@Base 4:4.7.2
  (optional=private)_ZN10KDirLister7Private14CachedItemsJobD1Ev@Base 4:4.7.2
  (optional=private)_ZN10KDirLister7Private14CachedItemsJobD2Ev@Base 4:4.7.2
- (optional=private)_ZN10KDirLister7Private14FilterSettingsC1ERKS1_@Base 4:4.7.4
- (optional=private)_ZN10KDirLister7Private14FilterSettingsC2ERKS1_@Base 4:4.7.4
+ (optional=private|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7Private14FilterSettingsC1ERKS1_@Base 4:4.7.4
+ (optional=private|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7Private14FilterSettingsC2ERKS1_@Base 4:4.7.4
  (optional=private|arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7Private14FilterSettingsD1Ev@Base 4:4.6.5
  (optional=private|arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7Private14FilterSettingsD2Ev@Base 4:4.6.5
- (optional=private)_ZN10KDirLister7Private14FilterSettingsaSERKS1_@Base 4:4.7.2
+ (optional=private|arch=!armel)_ZN10KDirLister7Private14FilterSettingsaSERKS1_@Base 4:4.7.2
  (optional=private)_ZN10KDirLister7Private14_k_slotPercentEP4KJobm@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14addRefreshItemERK4KUrlRK9KFileItemS6_@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private16_k_slotTotalSizeEP4KJoby@Base 4:4.3.4
@@ -74,8 +74,8 @@ libkio.so.5 libkio5 #MINVER#
  (optional=private)_ZN10KDirLister7Private7numJobsEv@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private8redirectERK4KUrlS3_b@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private9emitItemsEv@Base 4:4.3.4
- (optional=private)_ZN10KDirLister7PrivateD1Ev@Base 4:4.7.4
- (optional=private)_ZN10KDirLister7PrivateD2Ev@Base 4:4.7.4
+ (optional=private|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7PrivateD1Ev@Base 4:4.7.4
+ (optional=private|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN10KDirLister7PrivateD2Ev@Base 4:4.7.4
  _ZN10KDirLister7openUrlERK4KUrl6QFlagsINS_11OpenUrlFlagEE@Base 4:4.3.4
  _ZN10KDirLister7percentEi@Base 4:4.3.4
  _ZN10KDirLister7startedERK4KUrl@Base 4:4.3.4
@@ -260,8 +260,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN11KIconDialogD0Ev@Base 4:4.3.4
  _ZN11KIconDialogD1Ev@Base 4:4.3.4
  _ZN11KIconDialogD2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN11KMountPoint4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN11KMountPoint4ListD2Ev@Base 4:4.6.5
  _ZN11KRecentDirs3addERK7QStringS2_@Base 4:4.3.4
  _ZN11KRecentDirs3dirERK7QString@Base 4:4.3.4
  _ZN11KRecentDirs4listERK7QString@Base 4:4.3.4
@@ -299,9 +297,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN12KAutoUnmountD0Ev@Base 4:4.3.4
  _ZN12KAutoUnmountD1Ev@Base 4:4.3.4
  _ZN12KAutoUnmountD2Ev@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeCheckIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=amd64 hurd-i386)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
+ (optional=templinst|arch=amd64 hurd-i386 i386)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  _ZN12KSSLSettings10getEGDPathEv@Base 4:4.3.4
  _ZN12KSSLSettings13getCipherListEv@Base 4:4.3.4
  _ZN12KSSLSettings14setWarnOnEnterEb@Base 4:4.3.4
@@ -383,8 +379,10 @@ libkio.so.5 libkio5 #MINVER#
  _ZN13KDataToolInfoD2Ev@Base 4:4.3.4
  _ZN13KDataToolInfoaSERKS_@Base 4:4.3.4
  _ZN13KFileItemListC1ERK5QListI9KFileItemE@Base 4:4.3.4
+ (arch=armel)_ZN13KFileItemListC1ERKS_@Base 4:4.7.4-5
  _ZN13KFileItemListC1Ev@Base 4:4.3.4
  _ZN13KFileItemListC2ERK5QListI9KFileItemE@Base 4:4.3.4
+ (arch=armel)_ZN13KFileItemListC2ERKS_@Base 4:4.7.4-5
  _ZN13KFileItemListC2Ev@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD2Ev@Base 4:4.6.5
@@ -456,6 +454,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN14KBookmarkGroupC1Ev@Base 4:4.3.4
  _ZN14KBookmarkGroupC2ERK11QDomElement@Base 4:4.3.4
  _ZN14KBookmarkGroupC2Ev@Base 4:4.3.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD1Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD2Ev@Base 4:4.7.4-5
  _ZN14KBookmarkOwner14bookmarkDialogEP16KBookmarkManagerP7QWidget@Base 4:4.3.4
  _ZN14KBookmarkOwner16openFolderinTabsERK14KBookmarkGroup@Base 4:4.3.4
  _ZN14KDiskFreeSpace11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -866,7 +866,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN17KFileItemDelegate5shapeERK20QStyleOptionViewItemRK11QModelIndex@Base 4:4.3.4
  _ZN17KFileItemDelegate7Private10gotNewIconERK11QModelIndex@Base 4:4.3.4
  _ZN17KFileItemDelegate7Private16restartAnimationEPN3KIO14AnimationStateE@Base 4:4.3.4
- _ZN17KFileItemDelegate7Private17paintJobTransfersEP8QPainterRKdRK6QPointRK22QStyleOptionViewItemV4@Base 4:4.7.0
+ (subst)_ZN17KFileItemDelegate7Private17paintJobTransfersEP8QPainterRK{qreal}RK6QPointRK22QStyleOptionViewItemV4@Base 4:4.7.0
  _ZN17KFileItemDelegate7Private17setVerticalMarginENS0_10MarginTypeEiiii@Base 4:4.3.4
  _ZN17KFileItemDelegate7Private19setHorizontalMarginENS0_10MarginTypeEiiii@Base 4:4.3.4
  _ZN17KFileItemDelegate7PrivateC1EPS_@Base 4:4.3.4
@@ -1144,6 +1144,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN19PredicateProperties7Private10nullStringE@Base 4:4.3.4
  _ZN19PredicateProperties7Private14nullStringListE@Base 4:4.3.4
  _ZN19PredicateProperties7Private6nullPPE@Base 4:4.3.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19PredicateProperties7PrivateD1Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19PredicateProperties7PrivateD2Ev@Base 4:4.7.4-5
  _ZN19PredicatePropertiesC1ERK7QString@Base 4:4.3.4
  _ZN19PredicatePropertiesC1ERKS_@Base 4:4.3.4
  _ZN19PredicatePropertiesC2ERK7QString@Base 4:4.3.4
@@ -1403,7 +1405,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD0Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
- _ZN3KDE6renameERK7QStringS2_@Base 4:4.8.3
+ (arch=!hurd-i386 !i386 !kfreebsd-amd64)_ZN3KDE4statERK7QStringP4stat@Base 4:4.7.4-5
+ _ZN3KDE6renameERK7QStringS2_@Base 4:4.7.4-5
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO10Connection15connectToRemoteERK7QString@Base 4:4.3.4
@@ -2352,6 +2355,8 @@ libkio.so.5 libkio5 #MINVER#
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRun11KRunPrivate4initERK4KUrlP7QWidgettbbRK10QByteArray@Base 4:4.3.4
  _ZN4KRun11KRunPrivateC1EPS_@Base 4:4.3.4
  _ZN4KRun11KRunPrivateC2EPS_@Base 4:4.3.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRun11KRunPrivateD1Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRun11KRunPrivateD2Ev@Base 4:4.7.4-5
  _ZN4KRun11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN4KRun11qt_metacastEPKc@Base 4:4.3.4
  _ZN4KRun11setFinishedEb@Base 4:4.3.4
@@ -2414,8 +2419,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN4KSSLC2Eb@Base 4:4.3.4
  _ZN4KSSLD1Ev@Base 4:4.3.4
  _ZN4KSSLD2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
+ (arch=armel kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.7.4-5
+ (arch=armel kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.7.4-5
  _ZN5KFile10isTreeViewERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile12isDetailViewERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile12isSimpleViewERKNS_8FileViewE@Base 4:4.3.4
@@ -2431,7 +2436,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN5KFile16staticMetaObjectE@Base 4:4.3.4
  _ZN5KFile17isPreviewContentsERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile21isSortCaseInsensitiveERK6QFlagsIN4QDir8SortFlagEE@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386)_ZN5Solid6Device2asINS_13StorageAccessEEEPT_v@Base 4:4.6.3
  _ZN8KImageIO11isSupportedERK7QStringNS_4ModeE@Base 4:4.3.4
  _ZN8KImageIO11typeForMimeERK7QString@Base 4:4.3.4
  _ZN8KImageIO5typesENS_4ModeE@Base 4:4.3.4
@@ -2455,14 +2459,14 @@ libkio.so.5 libkio5 #MINVER#
  _ZN9KBookmark4List9canDecodeEPK9QMimeData@Base 4:4.3.4
  _ZN9KBookmark4ListC1Ev@Base 4:4.3.4
  _ZN9KBookmark4ListC2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmark4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmark4ListD2Ev@Base 4:4.6.5
  _ZN9KBookmark6setUrlERK4KUrl@Base 4:4.3.4
  _ZN9KBookmark7setIconERK7QString@Base 4:4.3.4
  _ZN9KBookmarkC1ERK11QDomElement@Base 4:4.3.4
  _ZN9KBookmarkC1Ev@Base 4:4.3.4
  _ZN9KBookmarkC2ERK11QDomElement@Base 4:4.3.4
  _ZN9KBookmarkC2Ev@Base 4:4.3.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD1Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD2Ev@Base 4:4.7.4-5
  _ZN9KDataTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN9KDataTool11qt_metacastEPKc@Base 4:4.3.4
  _ZN9KDataTool16setComponentDataERK14KComponentData@Base 4:4.3.4
@@ -2621,7 +2625,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK11KScanDialog2idEv@Base 4:4.3.4
  _ZNK12KAutoUnmount10metaObjectEv@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.6.1
- (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
  _ZNK12KSSLSettings11warnOnEnterEv@Base 4:4.3.4
  _ZNK12KSSLSettings11warnOnLeaveEv@Base 4:4.3.4
  _ZNK12KSSLSettings11warnOnMixedEv@Base 4:4.3.4
@@ -3093,7 +3097,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK4KRun3urlEv@Base 4:4.3.4
  _ZNK4KRun4modeEv@Base 4:4.3.4
  _ZNK4KRun8hasErrorEv@Base 4:4.3.4
- (optional=templinst)_ZNK8KService14createInstanceI23KPropertiesDialogPluginEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK8KService14createInstanceI23KPropertiesDialogPluginEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.7.4
  _ZNK9KBookmark11descriptionEv@Base 4:4.4.0
  _ZNK9KBookmark11isSeparatorEv@Base 4:4.3.4
  _ZNK9KBookmark11parentGroupEv@Base 4:4.3.4

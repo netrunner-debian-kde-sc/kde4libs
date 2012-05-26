@@ -1,8 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libnepomukquery.so.4 libnepomukquery4a #MINVER#
 * Build-Depends-Package: kdelibs5-dev
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
  _ZN7Nepomuk5Query10SimpleTerm10setSubTermERKNS0_4TermE@Base 4:4.4.0
  _ZN7Nepomuk5Query10SimpleTermC1EPNS0_11TermPrivateE@Base 4:4.4.0
  _ZN7Nepomuk5Query10SimpleTermC1ERKNS0_4TermE@Base 4:4.4.0
