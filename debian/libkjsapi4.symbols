@@ -118,7 +118,7 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
- (arch=powerpc s390)_ZN3KJS14ScopeChainLink5derefEv@Base 4:4.7.4-5
+ (arch=powerpc s390)_ZN3KJS14ScopeChainLink5derefEv@Base 4:4.7.4
  _ZN3KJS14UnicodeSupport18setToLowerFunctionEPFiPtiRS1_E@Base 4:4.3.4
  _ZN3KJS14UnicodeSupport18setToUpperFunctionEPFiPtiRS1_E@Base 4:4.3.4
  _ZN3KJS14UnicodeSupport19setIdentPartCheckerEPFbiE@Base 4:4.3.4
@@ -496,15 +496,15 @@ libkjsapi.so.4 libkjsapi4 #MINVER#
  _ZN14KJSInterpreteraSERKS_@Base 4:4.3.4
  _ZN15KJSGlobalObjectC1Ev@Base 4:4.3.4
  _ZN15KJSGlobalObjectC2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS10IdentifierD1Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS10IdentifierD2Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS10IdentifierD1Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS10IdentifierD2Ev@Base 4:4.7.4
  _ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
  (arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  (arch=!armel !armhf)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
  (arch=!armel !armhf)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
- (arch=!armel !armhf)_ZN3KJS6JSCellD2Ev@Base 4:4.7.4-5
+ (arch=!armel !armhf)_ZN3KJS6JSCellD2Ev@Base 4:4.7.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD2Ev@Base 4:4.7.2

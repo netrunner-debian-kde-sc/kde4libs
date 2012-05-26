@@ -2,10 +2,10 @@
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=armel armhf ia64 mips mipsel powerpc s390 sparc)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386|subst)_ZN12KConfigGroup14writeListCheckI{qreal}EEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD0Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD1Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD2Ev@Base 4:4.7.4-5
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386|subst)_ZN12KConfigGroup14writeListCheckI{qreal}EEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD0Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD1Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD2Ev@Base 4:4.7.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD2Ev@Base 4:4.6.5
  _ZN5Jolie11MetaService11loadServiceERK7QStringS3_@Base 4:4.4.4-2~
@@ -2052,7 +2052,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9WallpaperD2Ev@Base 4:4.4.4-2~
  (optional=templinst|subst|arch=armel armhf ia64 mips mipsel powerpc s390 sparc)_ZNK12KConfigGroup13readListCheckI{qreal}EE5QListIT_EPKcRKS3_@Base 4:4.6.1
  (optional=templinst|arch=amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.7.4-5
+ (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.7.4
  _ZNK5Jolie11MetaService14loadedServicesEv@Base 4:4.4.4-2~
  _ZNK5Jolie11MetaService9isRunningEv@Base 4:4.4.4-2~
  _ZNK5Jolie12PendingReply10isFinishedEv@Base 4:4.4.4-2~

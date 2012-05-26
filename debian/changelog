@@ -22,6 +22,7 @@ kde4libs (4:4.8.3-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Drop upstream_Add-missing-include.patch, stolen from upstream.
   * DEP-3'ize python3-support-bytecode.patch.
+  * Strip Debian revision from symbol versions in symbol files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 17:23:21 +0100
 

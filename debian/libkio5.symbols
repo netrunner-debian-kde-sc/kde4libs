@@ -379,10 +379,10 @@ libkio.so.5 libkio5 #MINVER#
  _ZN13KDataToolInfoD2Ev@Base 4:4.3.4
  _ZN13KDataToolInfoaSERKS_@Base 4:4.3.4
  _ZN13KFileItemListC1ERK5QListI9KFileItemE@Base 4:4.3.4
- (arch=armel)_ZN13KFileItemListC1ERKS_@Base 4:4.7.4-5
+ (arch=armel)_ZN13KFileItemListC1ERKS_@Base 4:4.7.4
  _ZN13KFileItemListC1Ev@Base 4:4.3.4
  _ZN13KFileItemListC2ERK5QListI9KFileItemE@Base 4:4.3.4
- (arch=armel)_ZN13KFileItemListC2ERKS_@Base 4:4.7.4-5
+ (arch=armel)_ZN13KFileItemListC2ERKS_@Base 4:4.7.4
  _ZN13KFileItemListC2Ev@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD2Ev@Base 4:4.6.5
@@ -454,8 +454,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN14KBookmarkGroupC1Ev@Base 4:4.3.4
  _ZN14KBookmarkGroupC2ERK11QDomElement@Base 4:4.3.4
  _ZN14KBookmarkGroupC2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD1Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD2Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD1Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD2Ev@Base 4:4.7.4
  _ZN14KBookmarkOwner14bookmarkDialogEP16KBookmarkManagerP7QWidget@Base 4:4.3.4
  _ZN14KBookmarkOwner16openFolderinTabsERK14KBookmarkGroup@Base 4:4.3.4
  _ZN14KDiskFreeSpace11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1144,8 +1144,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN19PredicateProperties7Private10nullStringE@Base 4:4.3.4
  _ZN19PredicateProperties7Private14nullStringListE@Base 4:4.3.4
  _ZN19PredicateProperties7Private6nullPPE@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19PredicateProperties7PrivateD1Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19PredicateProperties7PrivateD2Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19PredicateProperties7PrivateD1Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19PredicateProperties7PrivateD2Ev@Base 4:4.7.4
  _ZN19PredicatePropertiesC1ERK7QString@Base 4:4.3.4
  _ZN19PredicatePropertiesC1ERKS_@Base 4:4.3.4
  _ZN19PredicatePropertiesC2ERK7QString@Base 4:4.3.4
@@ -1405,8 +1405,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD0Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
- (arch=!hurd-i386 !i386 !kfreebsd-amd64)_ZN3KDE4statERK7QStringP4stat@Base 4:4.7.4-5
- _ZN3KDE6renameERK7QStringS2_@Base 4:4.7.4-5
+ (arch=!hurd-i386 !i386 !kfreebsd-amd64)_ZN3KDE4statERK7QStringP4stat@Base 4:4.7.4
+ _ZN3KDE6renameERK7QStringS2_@Base 4:4.7.4
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO10Connection15connectToRemoteERK7QString@Base 4:4.3.4
@@ -2355,8 +2355,8 @@ libkio.so.5 libkio5 #MINVER#
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRun11KRunPrivate4initERK4KUrlP7QWidgettbbRK10QByteArray@Base 4:4.3.4
  _ZN4KRun11KRunPrivateC1EPS_@Base 4:4.3.4
  _ZN4KRun11KRunPrivateC2EPS_@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRun11KRunPrivateD1Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRun11KRunPrivateD2Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRun11KRunPrivateD1Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRun11KRunPrivateD2Ev@Base 4:4.7.4
  _ZN4KRun11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN4KRun11qt_metacastEPKc@Base 4:4.3.4
  _ZN4KRun11setFinishedEb@Base 4:4.3.4
@@ -2419,8 +2419,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN4KSSLC2Eb@Base 4:4.3.4
  _ZN4KSSLD1Ev@Base 4:4.3.4
  _ZN4KSSLD2Ev@Base 4:4.3.4
- (arch=armel kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.7.4-5
- (arch=armel kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.7.4-5
+ (arch=armel kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.7.4
+ (arch=armel kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.7.4
  _ZN5KFile10isTreeViewERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile12isDetailViewERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile12isSimpleViewERKNS_8FileViewE@Base 4:4.3.4
@@ -2465,8 +2465,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN9KBookmarkC1Ev@Base 4:4.3.4
  _ZN9KBookmarkC2ERK11QDomElement@Base 4:4.3.4
  _ZN9KBookmarkC2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD1Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD2Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD1Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD2Ev@Base 4:4.7.4
  _ZN9KDataTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN9KDataTool11qt_metacastEPKc@Base 4:4.3.4
  _ZN9KDataTool16setComponentDataERK14KComponentData@Base 4:4.3.4
