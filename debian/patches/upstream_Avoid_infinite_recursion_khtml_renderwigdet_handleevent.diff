@@ -1,0 +1,32 @@
+commit 5feb2da93c4fcd18d3a38659abb9fb040704d123
+Author: Andrea Iacovitti <aiacovitti@libero.it>
+Date:   Mon May 28 07:18:20 2012 +0200
+
+    Do not duplicate mouse move events
+    (patch by Allan Sandfeld)
+    
+    BUG: 243910
+    FIXED-IN: 4.8.4
+
+diff --git a/khtml/rendering/render_replaced.cpp b/khtml/rendering/render_replaced.cpp
+index 5f2a2f9..984ec9e 100644
+--- a/khtml/rendering/render_replaced.cpp
++++ b/khtml/rendering/render_replaced.cpp
+@@ -1062,7 +1062,7 @@ bool RenderWidget::handleEvent(const DOM::EventImpl& ev)
+             }
+             m_underMouse = target;
+         }
+-
++#if 0
+         if (target && ev.id() == EventImpl::MOUSEMOVE_EVENT) {
+             // ### is this one still necessary? it doubles every mouse event...
+             // I'd reckon it's no longer needed since Harri made the event propagation bubble
+@@ -1070,7 +1070,7 @@ bool RenderWidget::handleEvent(const DOM::EventImpl& ev)
+                             QApplication::mouseButtons(), QApplication::keyboardModifiers());
+             QApplication::sendEvent(target, &evt);
+         }
+-
++#endif
+         if (ev.id() == EventImpl::MOUSEDOWN_EVENT) {
+             if (!target || (!::qobject_cast<QScrollBar*>(target) && 
+                             !::qobject_cast<KUrlRequester*>(m_widget) &&
