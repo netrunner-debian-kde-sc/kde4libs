@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1405,6 +1405,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD0Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
+ (arch=!amd64 !hurd-i386 !i386)_ZN3KDE4statERK7QStringP4stat@Base 4:4.8.3
  _ZN3KDE6renameERK7QStringS2_@Base 4:4.7.4
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
@@ -1895,8 +1896,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO5NetRC6reloadEv@Base 4:4.3.4
  _ZN3KIO5NetRC7extractEPKcS2_Ri@Base 4:4.3.4
  _ZN3KIO5NetRC8instanceE@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KIO5NetRC9AutoLoginD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KIO5NetRC9AutoLoginD2Ev@Base 4:4.6.5
+ (arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN3KIO5NetRC9AutoLoginD1Ev@Base 4:4.8.3
+ (arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN3KIO5NetRC9AutoLoginD2Ev@Base 4:4.8.3
  _ZN3KIO5NetRCC1Ev@Base 4:4.3.4
  _ZN3KIO5NetRCC2Ev@Base 4:4.3.4
  _ZN3KIO5NetRCD1Ev@Base 4:4.3.4
