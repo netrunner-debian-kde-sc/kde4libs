@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -161,6 +161,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN10KTcpSocket18disconnectFromHostEv@Base 4:4.3.4
  _ZN10KTcpSocket19setLocalCertificateERK15QSslCertificate@Base 4:4.3.4
  _ZN10KTcpSocket19setLocalCertificateERK7QStringN4QSsl14EncodingFormatE@Base 4:4.3.4
+ _ZN10KTcpSocket19setSslConfigurationERK17QSslConfiguration@Base 4:4.8.4
  _ZN10KTcpSocket19waitForBytesWrittenEi@Base 4:4.3.4
  _ZN10KTcpSocket19waitForDisconnectedEi@Base 4:4.3.4
  _ZN10KTcpSocket21encryptedBytesWrittenEx@Base 4:4.8.1
@@ -2851,6 +2852,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK10KTcpSocket14encryptionModeEv@Base 4:4.3.4
  _ZNK10KTcpSocket14readBufferSizeEv@Base 4:4.3.4
  _ZNK10KTcpSocket16localCertificateEv@Base 4:4.3.4
+ _ZNK10KTcpSocket16sslConfigurationEv@Base 4:4.8.4
  _ZNK10KTcpSocket20advertisedSslVersionEv@Base 4:4.3.4
  _ZNK10KTcpSocket20negotiatedSslVersionEv@Base 4:4.3.4
  _ZNK10KTcpSocket20peerCertificateChainEv@Base 4:4.3.4

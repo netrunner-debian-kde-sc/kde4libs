@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -95,7 +95,8 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS13ArrayInstance17compactForSortingEv@Base 4:4.3.4
  _ZN3KJS13ArrayInstance18getOwnPropertySlotEPNS_9ExecStateERKNS_10IdentifierERNS_12PropertySlotE@Base 4:4.3.4
  _ZN3KJS13ArrayInstance18getOwnPropertySlotEPNS_9ExecStateEjRNS_12PropertySlotE@Base 4:4.3.4
- _ZN3KJS13ArrayInstance19getOwnPropertyNamesEPNS_9ExecStateERNS_17PropertyNameArrayE@Base 4:4.3.4
+#MISSING: 4:4.8.4# _ZN3KJS13ArrayInstance19getOwnPropertyNamesEPNS_9ExecStateERNS_17PropertyNameArrayE@Base 4:4.3.4
+ _ZN3KJS13ArrayInstance19getOwnPropertyNamesEPNS_9ExecStateERNS_17PropertyNameArrayENS_11PropertyMap12PropertyModeE@Base 4:4.8.4
  _ZN3KJS13ArrayInstance20increaseVectorLengthEj@Base 4:4.3.4
  _ZN3KJS13ArrayInstance3putEPNS_9ExecStateERKNS_10IdentifierEPNS_7JSValueEi@Base 4:4.3.4
  _ZN3KJS13ArrayInstance3putEPNS_9ExecStateEjPNS_7JSValueEi@Base 4:4.3.4
@@ -268,7 +269,8 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS8JSObject18getOwnPropertySlotEPNS_9ExecStateERKNS_10IdentifierERNS_12PropertySlotE@Base 4:4.3.4
  _ZN3KJS8JSObject18getOwnPropertySlotEPNS_9ExecStateEjRNS_12PropertySlotE@Base 4:4.3.4
  _ZN3KJS8JSObject18getPrimitiveNumberEPNS_9ExecStateERdRPNS_7JSValueE@Base 4:4.3.4
- _ZN3KJS8JSObject19getOwnPropertyNamesEPNS_9ExecStateERNS_17PropertyNameArrayE@Base 4:4.3.4
+#MISSING: 4:4.8.4# _ZN3KJS8JSObject19getOwnPropertyNamesEPNS_9ExecStateERNS_17PropertyNameArrayE@Base 4:4.3.4
+ _ZN3KJS8JSObject19getOwnPropertyNamesEPNS_9ExecStateERNS_17PropertyNameArrayENS_11PropertyMap12PropertyModeE@Base 4:4.8.4
  _ZN3KJS8JSObject22fillGetterPropertySlotERNS_12PropertySlotEPPNS_7JSValueE@Base 4:4.3.4
  _ZN3KJS8JSObject3putEPNS_9ExecStateERKNS_10IdentifierEPNS_7JSValueEi@Base 4:4.3.4
  _ZN3KJS8JSObject3putEPNS_9ExecStateEjPNS_7JSValueEi@Base 4:4.3.4
@@ -350,8 +352,9 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZNK3KJS11Interpreter26builtinRangeErrorPrototypeEv@Base 4:4.3.4
  _ZNK3KJS11Interpreter27builtinSyntaxErrorPrototypeEv@Base 4:4.3.4
  _ZNK3KJS11Interpreter30builtinReferenceErrorPrototypeEv@Base 4:4.3.4
+ _ZNK3KJS11PropertyMap16getPropertyNamesERNS_17PropertyNameArrayENS0_12PropertyModeE@Base 4:4.8.4
  _ZNK3KJS11PropertyMap24containsGettersOrSettersEv@Base 4:4.3.4
- _ZNK3KJS11PropertyMap26getEnumerablePropertyNamesERNS_17PropertyNameArrayE@Base 4:4.3.4
+#MISSING: 4:4.8.4# _ZNK3KJS11PropertyMap26getEnumerablePropertyNamesERNS_17PropertyNameArrayE@Base 4:4.3.4
  _ZNK3KJS11PropertyMap3getERKNS_10IdentifierE@Base 4:4.3.4
  _ZNK3KJS11PropertyMap3getERKNS_10IdentifierERj@Base 4:4.3.4
  _ZNK3KJS11PropertyMap4markEv@Base 4:4.3.4

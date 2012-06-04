@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=armel armhf ia64 mips mipsel powerpc s390 s390x sparc)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
@@ -1642,9 +1642,11 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma7Service11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.4-2~
  _ZN6Plasma7Service11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma7Service12serviceReadyEPS0_@Base 4:4.4.4-2~
+ _ZN6Plasma7Service13associateItemEP15QGraphicsObjectRK7QString@Base 4:4.8.4
  _ZN6Plasma7Service14setDestinationERK7QString@Base 4:4.4.4-2~
  _ZN6Plasma7Service15associateWidgetEP15QGraphicsWidgetRK7QString@Base 4:4.4.4-2~
  _ZN6Plasma7Service15associateWidgetEP7QWidgetRK7QString@Base 4:4.4.4-2~
+ _ZN6Plasma7Service16disassociateItemEP15QGraphicsObject@Base 4:4.8.4
  _ZN6Plasma7Service16staticMetaObjectE@Base 4:4.4.4-2~
  _ZN6Plasma7Service17operationsChangedEv@Base 4:4.4.4-2~
  _ZN6Plasma7Service18disassociateWidgetEP15QGraphicsWidget@Base 4:4.4.4-2~
@@ -2149,6 +2151,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma10QueryMatch9relevanceEv@Base 4:4.4.4-2~
  _ZNK6Plasma10QueryMatcheqERKS0_@Base 4:4.4.4-2~
  _ZNK6Plasma10QueryMatchltERKS0_@Base 4:4.4.4-2~
+ _ZNK6Plasma10QueryMatchneERKS0_@Base 4:4.8.4
  _ZNK6Plasma10ServiceJob10metaObjectEv@Base 4:4.4.4-2~
  _ZNK6Plasma10ServiceJob10parametersEv@Base 4:4.4.4-2~
  _ZNK6Plasma10ServiceJob11destinationEv@Base 4:4.4.4-2~
