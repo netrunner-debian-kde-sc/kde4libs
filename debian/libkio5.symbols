@@ -1629,7 +1629,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO12TCPSlaveBase13connectToHostERK7QStringS3_t@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase13connectToHostERK7QStringtPS1_@Base 4:4.7.2
  _ZN3KIO12TCPSlaveBase15waitForResponseEi@Base 4:4.3.4
-#MISSING: 4:4.8.4# _ZN3KIO12TCPSlaveBase16startTLSInternalEj@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase18disconnectFromHostEv@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16startTLSInternalEN10KTcpSocket10SslVersionERK17QSslConfigurationi@Base 4:4.8.4
  _ZN3KIO12TCPSlaveBase23selectClientCertificateEv@Base 4:4.3.4
