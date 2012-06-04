@@ -47,7 +47,7 @@ libraries.
     _set_fancy(IMPORTS_INSTALL_DIR       "${PLUGIN_INSTALL_DIR}/imports"                "The subdirectory relative to the install prefix where imports will be installed")
     _set_fancy(CONFIG_INSTALL_DIR       "${SHARE_INSTALL_PREFIX}/config"         "The config file install dir")
     _set_fancy(DATA_INSTALL_DIR         "${SHARE_INSTALL_PREFIX}/apps"           "The parent directory where applications can install their data")
-@@ -1329,6 +1330,10 @@ if (CMAKE_C_COMPILER MATCHES "icc")
+@@ -1332,6 +1333,10 @@ if (CMAKE_C_COMPILER MATCHES "icc")
  
  endif (CMAKE_C_COMPILER MATCHES "icc")
  
