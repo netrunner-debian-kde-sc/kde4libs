@@ -2,11 +2,6 @@ kde4libs (4:4.8.4-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
-  [ Raúl Sánchez Siles ]
-  * Added: upstream_Avoid_infinite_recursion_khtml_renderwigdet_handleevent.diff
-    Backport upstream commit 5feb2da93c4fcd18d3a38659abb9fb040704d123 to fix
-    KHTML infinite recursion.
-
   [ Modestas Vainius ]
   * Update symbol files.
 
