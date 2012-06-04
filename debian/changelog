@@ -14,6 +14,9 @@ kde4libs (4:4.8.4-0r0) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Update symbol files.
 
+  [ José Manuel Santamaría Lema ]
+  * Add watch file.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 May 2012 12:10:37 +0200
 
 kde4libs (4:4.8.3-1) experimental; urgency=low
