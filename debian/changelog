@@ -2,10 +2,6 @@ kde4libs (4:4.8.4-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
-  [ Pino Toscano ]
-  * Backport upstream commit 4f35dfae765a29819dc0bf7ac0dfdba21239f3ca to fix
-    Twitter in KHTML.
-
   [ Raúl Sánchez Siles ]
   * Added: upstream_Avoid_infinite_recursion_khtml_renderwigdet_handleevent.diff
     Backport upstream commit 5feb2da93c4fcd18d3a38659abb9fb040704d123 to fix
@@ -16,6 +12,8 @@ kde4libs (4:4.8.4-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Add watch file.
+  * Update patches:
+    - refresh python3-support-bytecode.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 May 2012 12:10:37 +0200
 
