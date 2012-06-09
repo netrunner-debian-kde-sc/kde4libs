@@ -204,6 +204,7 @@ usr/include/KDE/KArchiveDirectory
 usr/include/KDE/KArchiveEntry
 usr/include/KDE/KArchiveFile
 usr/include/KDE/KArrowButton
+usr/include/KDE/KAscii
 usr/include/KDE/KAssistantDialog
 usr/include/KDE/KAuth/Action
 usr/include/KDE/KAuth/ActionReply
@@ -294,6 +295,7 @@ usr/include/KDE/KDateTimeWidget
 usr/include/KDE/KDateValidator
 usr/include/KDE/KDateWidget
 usr/include/KDE/KDebug
+usr/include/KDE/KDescendantsProxyModel
 usr/include/KDE/KDesktopFile
 usr/include/KDE/KDialog
 usr/include/KDE/KDialogButtonBox
@@ -584,6 +586,7 @@ usr/include/KDE/KRandomSequence
 usr/include/KDE/KRatingWidget
 usr/include/KDE/KRecentDocument
 usr/include/KDE/KRecentFilesAction
+usr/include/KDE/KRecursiveFilterProxyModel
 usr/include/KDE/KRemoteEncoding
 usr/include/KDE/KReplace
 usr/include/KDE/KReplaceDialog
@@ -1886,6 +1889,10 @@ usr/include/threadweaver/ThreadWeaver.h
 usr/include/threadweaver/WeaverInterface.h
 usr/include/threadweaver/WeaverObserver.h
 usr/include/threadweaver/threadweaver_export.h
+usr/lib/cmake/KDeclarative/KDeclarativeConfig.cmake
+usr/lib/cmake/KDeclarative/KDeclarativeConfigVersion.cmake
+usr/lib/cmake/KDeclarative/KDeclarativeLibraryTargets-debian.cmake
+usr/lib/cmake/KDeclarative/KDeclarativeLibraryTargets.cmake
 usr/lib/kde4/libexec/kauth-policy-gen
 usr/lib/kde4/plugins/script/libkrossqtsplugin.so
 usr/lib/libkcmutils.so
@@ -2098,5 +2105,7 @@ usr/share/kde4/apps/cmake/modules/kde4uic.cmake
 usr/share/kde4/apps/kauth/dbus_policy.stub
 usr/share/kde4/apps/kauth/dbus_service.stub
 usr/share/man/man1/checkXML.1
+usr/share/man/man1/kconfig_compiler.1
 usr/share/man/man1/kdecmake.1
 usr/share/man/man1/makekdewidgets.1
+usr/share/man/man1/preparetips.1

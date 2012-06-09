@@ -275,8 +275,8 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN13KUrlNavigatorD0Ev@Base 4:4.3.4
  _ZN13KUrlNavigatorD1Ev@Base 4:4.3.4
  _ZN13KUrlNavigatorD2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD1Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD2Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD1Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD2Ev@Base 4:4.7.4
  _ZN15KFilePlacesView10paintEventEP11QPaintEvent@Base 4:4.3.4
  _ZN15KFilePlacesView10setShowAllEb@Base 4:4.3.4
  _ZN15KFilePlacesView10urlChangedERK4KUrl@Base 4:4.3.4
@@ -454,8 +454,8 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN24KDirSortFilterProxyModelD2Ev@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD1Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD2Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD1Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD2Ev@Base 4:4.7.4
  _ZNK11KFileWidget10metaObjectEv@Base 4:4.3.4
  _ZNK11KFileWidget11selectedUrlEv@Base 4:4.3.4
  _ZNK11KFileWidget12cancelButtonEv@Base 4:4.3.4

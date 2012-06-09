@@ -14,9 +14,9 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZN5Solid10Networking8Notifier16staticMetaObjectE@Base 4:4.4.95
  _ZN5Solid10Networking8NotifierC1Ev@Base 4:4.4.95
  _ZN5Solid10Networking8NotifierC2Ev@Base 4:4.4.95
- _ZN5Solid10Networking8NotifierD0Ev@Base 4:4.7.4-5
- _ZN5Solid10Networking8NotifierD1Ev@Base 4:4.7.4-5
- _ZN5Solid10Networking8NotifierD2Ev@Base 4:4.7.4-5
+ _ZN5Solid10Networking8NotifierD0Ev@Base 4:4.7.4
+ _ZN5Solid10Networking8NotifierD1Ev@Base 4:4.7.4
+ _ZN5Solid10Networking8NotifierD2Ev@Base 4:4.7.4
  _ZN5Solid10Networking8notifierEv@Base 4:4.3.4
  _ZN5Solid11OpticalDisc11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid11OpticalDisc11qt_metacastEPKc@Base 4:4.3.4
@@ -105,9 +105,9 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZN5Solid14DeviceNotifier13deviceRemovedERK7QString@Base 4:4.3.4
  _ZN5Solid14DeviceNotifier16staticMetaObjectE@Base 4:4.3.4
  _ZN5Solid14DeviceNotifier8instanceEv@Base 4:4.3.4
- _ZN5Solid14DeviceNotifierD0Ev@Base 4:4.7.4-5
- _ZN5Solid14DeviceNotifierD1Ev@Base 4:4.7.4-5
- _ZN5Solid14DeviceNotifierD2Ev@Base 4:4.7.4-5
+ _ZN5Solid14DeviceNotifierD0Ev@Base 4:4.7.4
+ _ZN5Solid14DeviceNotifierD1Ev@Base 4:4.7.4
+ _ZN5Solid14DeviceNotifierD2Ev@Base 4:4.7.4
  _ZN5Solid15DeviceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid15DeviceInterface11qt_metacastEPKc@Base 4:4.3.4
  _ZN5Solid15DeviceInterface12stringToTypeERK7QString@Base 4:4.3.4
@@ -150,9 +150,9 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZN5Solid15PowerManagement8Notifier33appShouldConserveResourcesChangedEb@Base 4:4.4.95
  _ZN5Solid15PowerManagement8NotifierC1Ev@Base 4:4.4.95
  _ZN5Solid15PowerManagement8NotifierC2Ev@Base 4:4.4.95
- _ZN5Solid15PowerManagement8NotifierD0Ev@Base 4:4.7.4-5
- _ZN5Solid15PowerManagement8NotifierD1Ev@Base 4:4.7.4-5
- _ZN5Solid15PowerManagement8NotifierD2Ev@Base 4:4.7.4-5
+ _ZN5Solid15PowerManagement8NotifierD0Ev@Base 4:4.7.4
+ _ZN5Solid15PowerManagement8NotifierD1Ev@Base 4:4.7.4
+ _ZN5Solid15PowerManagement8NotifierD2Ev@Base 4:4.7.4
  _ZN5Solid15PowerManagement8notifierEv@Base 4:4.3.4
  _ZN5Solid15SerialInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid15SerialInterface11qt_metacastEPKc@Base 4:4.3.4

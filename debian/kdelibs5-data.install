@@ -104,8 +104,6 @@ usr/share/kde4/apps/kconf_update/kded.upd
 usr/share/kde4/apps/kconf_update/kioslave.upd
 usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd
 usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh
-usr/share/kde4/apps/kconf_update/plasma_popupapplet_fix_groups.pl
-usr/share/kde4/apps/kconf_update/plasma_popupapplet_fix_groups.upd
 usr/share/kde4/apps/kconf_update/proxytype.pl
 usr/share/kde4/apps/kconf_update/useragent.pl
 usr/share/kde4/apps/kdeui/about/bar-bottom-left.png

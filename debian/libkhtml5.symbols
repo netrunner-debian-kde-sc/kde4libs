@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4-5 armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel sparc
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -1841,7 +1841,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  (optional=private|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  (optional=private|arch=!armel !armhf)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
  (optional=private|arch=!armel !armhf)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
- (arch=!armel !armhf)_ZN3KJS6JSCellD2Ev@Base 4:4.7.4-5
+ (arch=!armel !armhf)_ZN3KJS6JSCellD2Ev@Base 4:4.7.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD2Ev@Base 4:4.7.2
@@ -3091,6 +3091,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTIN5khtml17DrawContentsEventE@Base 4:4.3.4
  _ZTIN5khtml17MouseReleaseEventE@Base 4:4.3.4
  _ZTIN5khtml21MouseDoubleClickEventE@Base 4:4.3.4
+ _ZTIN6KParts21HtmlSettingsInterfaceE@Base 4:4.8.1
  _ZTS13KHTMLSettings@Base 4:4.3.4
  _ZTS17KHTMLImageFactory@Base 4:4.5.85
  _ZTS9KHTMLPart@Base 4:4.3.4
@@ -3193,6 +3194,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTSN5khtml17DrawContentsEventE@Base 4:4.3.4
  _ZTSN5khtml17MouseReleaseEventE@Base 4:4.3.4
  _ZTSN5khtml21MouseDoubleClickEventE@Base 4:4.3.4
+ _ZTSN6KParts21HtmlSettingsInterfaceE@Base 4:4.8.1
  _ZTT9KHTMLPart@Base 4:4.3.4
  _ZTV13KHTMLSettings@Base 4:4.3.4
  _ZTV17KHTMLImageFactory@Base 4:4.5.85
@@ -3295,6 +3297,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTVN5khtml17DrawContentsEventE@Base 4:4.3.4
  _ZTVN5khtml17MouseReleaseEventE@Base 4:4.3.4
  _ZTVN5khtml21MouseDoubleClickEventE@Base 4:4.3.4
+ _ZTVN6KParts21HtmlSettingsInterfaceE@Base 4:4.8.1
  (c++)"construction vtable for KParts::Part-in-KHTMLPart@Base" 4:4.3.4
  (c++)"construction vtable for KParts::PartBase-in-KHTMLPart@Base" 4:4.3.4
  (c++)"construction vtable for KParts::ReadOnlyPart-in-KHTMLPart@Base" 4:4.3.4

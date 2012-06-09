@@ -1,11 +1,10 @@
-# SymbolsHelper-Confirmed: 4:4.7.4-5 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=armel armhf ia64 mips mipsel powerpc s390 sparc)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386|subst)_ZN12KConfigGroup14writeListCheckI{qreal}EEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD0Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD1Ev@Base 4:4.7.4-5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD2Ev@Base 4:4.7.4-5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD0Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD1Ev@Base 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD2Ev@Base 4:4.7.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD2Ev@Base 4:4.6.5
  _ZN5Jolie11MetaService11loadServiceERK7QStringS3_@Base 4:4.4.4-2~
@@ -1549,6 +1548,8 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma6Dialog17setGraphicsWidgetEP15QGraphicsWidget@Base 4:4.4.4-2~
  _ZN6Plasma6Dialog18setAspectRatioModeENS_15AspectRatioModeE@Base 4:4.4.4-2~
  _ZN6Plasma6Dialog20syncToGraphicsWidgetEv@Base 4:4.4.95
+ _ZN6Plasma6Dialog22getMinimumResizeLimitsEPiS1_S1_S1_@Base 4:4.8.1
+ _ZN6Plasma6Dialog22setMinimumResizeLimitsEiiii@Base 4:4.8.1
  _ZN6Plasma6Dialog22setResizeHandleCornersE6QFlagsINS0_12ResizeCornerEE@Base 4:4.4.4-2~
  _ZN6Plasma6Dialog5eventEP6QEvent@Base 4:4.4.4-2~
  _ZN6Plasma6Dialog9hideEventEP10QHideEvent@Base 4:4.4.4-2~
@@ -2050,7 +2051,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9WallpaperD2Ev@Base 4:4.4.4-2~
  (optional=templinst|subst|arch=armel armhf ia64 mips mipsel powerpc s390 sparc)_ZNK12KConfigGroup13readListCheckI{qreal}EE5QListIT_EPKcRKS3_@Base 4:4.6.1
  (optional=templinst|arch=amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.7.4-5
+ (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.7.4
  _ZNK5Jolie11MetaService14loadedServicesEv@Base 4:4.4.4-2~
  _ZNK5Jolie11MetaService9isRunningEv@Base 4:4.4.4-2~
  _ZNK5Jolie12PendingReply10isFinishedEv@Base 4:4.4.4-2~
@@ -2525,6 +2526,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma5Theme10styleSheetERK7QString@Base 4:4.4.95
  _ZNK6Plasma5Theme11colorSchemeEv@Base 4:4.4.4-2~
  _ZNK6Plasma5Theme11fontMetricsEv@Base 4:4.4.4-2~
+ _ZNK6Plasma5Theme12toolTipDelayEv@Base 4:4.8.1
  _ZNK6Plasma5Theme13animationPathERK7QString@Base 4:4.4.95
  _ZNK6Plasma5Theme13wallpaperPathERK5QSize@Base 4:4.4.4-2~
  _ZNK6Plasma5Theme16findInRectsCacheERK7QStringS3_R6QRectF@Base 4:4.4.4-2~
@@ -2605,6 +2607,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZNK6Plasma6Corona9freeEdgesEi@Base 4:4.4.4-2~
  _ZNK6Plasma6Dialog10metaObjectEv@Base 4:4.4.4-2~
  _ZNK6Plasma6Dialog13resizeCornersEv@Base 4:4.4.4-2~
+ _ZNK6Plasma6Dialog14isUserResizingEv@Base 4:4.8.1
  _ZNK6Plasma6Dialog15aspectRatioModeEv@Base 4:4.4.4-2~
  _ZNK6Plasma6Slider10metaObjectEv@Base 4:4.4.4-2~
  _ZNK6Plasma6Slider11orientationEv@Base 4:4.4.4-2~

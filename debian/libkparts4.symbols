@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4-5 kfreebsd-amd64 kfreebsd-i386
+# SymbolsHelper-Confirmed: 4:4.8.2 amd64
 libkparts.so.4 libkparts4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN6KParts10BrowserRun10simpleSaveERK4KUrlRK7QStringP7QWidget@Base 4:4.3.4
@@ -375,6 +375,9 @@ libkparts.so.4 libkparts4 #MINVER#
  _ZN6KParts20LiveConnectExtensionD0Ev@Base 4:4.3.4
  _ZN6KParts20LiveConnectExtensionD1Ev@Base 4:4.3.4
  _ZN6KParts20LiveConnectExtensionD2Ev@Base 4:4.3.4
+ _ZN6KParts21HtmlSettingsInterface17splitDomainAdviceERK7QStringRS1_RNS0_16JavaScriptAdviceES6_@Base 4:4.8.2
+ _ZN6KParts21HtmlSettingsInterface22javascriptAdviceToTextENS0_16JavaScriptAdviceE@Base 4:4.8.2
+ _ZN6KParts21HtmlSettingsInterface22textToJavascriptAdviceERK7QString@Base 4:4.8.2
  _ZN6KParts25BrowserOpenOrSaveQuestion11setFeaturesE6QFlagsINS0_7FeatureEE@Base 4:4.4.0
  _ZN6KParts25BrowserOpenOrSaveQuestion13askOpenOrSaveEv@Base 4:4.4.0
  _ZN6KParts25BrowserOpenOrSaveQuestion14askEmbedOrSaveEi@Base 4:4.4.0
