@@ -29,7 +29,7 @@ cmake.
        if (login_in_libutil)
 --- a/kio/kfile/kpropertiesdialog.cpp
 +++ b/kio/kfile/kpropertiesdialog.cpp
-@@ -1901,7 +1901,15 @@ static bool fileSystemSupportsACL( const
+@@ -1903,7 +1903,15 @@ static bool fileSystemSupportsACL( const
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
      fileSystemSupportsACLs =

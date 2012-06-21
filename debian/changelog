@@ -1,3 +1,20 @@
+kde4libs (4:4.8.4-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  [ Modestas Vainius ]
+  * Update symbol files.
+
+  [ José Manuel Santamaría Lema ]
+  * Add watch file.
+  * Update patches:
+    - refresh python3-support-bytecode.patch
+    - refresh various patches to make them apply without any offset.
+  * Update symbols files.
+  * Drop unused lintian override "dbg-package-missing-depends kdelibs5-dbg".
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 May 2012 12:10:37 +0200
+
 kde4libs (4:4.8.3-2) unstable; urgency=low
 
   * Team upload.

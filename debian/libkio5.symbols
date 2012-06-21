@@ -1629,8 +1629,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO12TCPSlaveBase13connectToHostERK7QStringS3_t@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase13connectToHostERK7QStringtPS1_@Base 4:4.7.2
  _ZN3KIO12TCPSlaveBase15waitForResponseEi@Base 4:4.3.4
- _ZN3KIO12TCPSlaveBase16startTLSInternalEj@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase18disconnectFromHostEv@Base 4:4.3.4
+ _ZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16startTLSInternalEN10KTcpSocket10SslVersionERK17QSslConfigurationi@Base 4:4.8.4
  _ZN3KIO12TCPSlaveBase23selectClientCertificateEv@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase23verifyServerCertificateEv@Base 4:4.3.4
  (subst)_ZN3KIO12TCPSlaveBase4readEPc{ssize_t}@Base 4:4.3.4
@@ -1724,6 +1724,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO14SlaveInterface9connectedEv@Base 4:4.3.4
  _ZN3KIO14SlaveInterface9errorPageEv@Base 4:4.3.4
  _ZN3KIO14SlaveInterface9setOffsetEy@Base 4:4.3.4
+ _ZN3KIO14SlaveInterface9setWindowEP7QWidget@Base 4:4.8.4
  _ZN3KIO14SlaveInterface9statEntryERKNS_8UDSEntryE@Base 4:4.3.4
  _ZN3KIO14SlaveInterface9totalSizeEy@Base 4:4.3.4
  _ZN3KIO14SlaveInterfaceC1ERNS_21SlaveInterfacePrivateEP7QObject@Base 4:4.3.4
@@ -2993,6 +2994,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK3KIO14SlaveInterface10connectionEv@Base 4:4.3.4
  _ZNK3KIO14SlaveInterface10metaObjectEv@Base 4:4.3.4
  _ZNK3KIO14SlaveInterface6offsetEv@Base 4:4.3.4
+ _ZNK3KIO14SlaveInterface6windowEv@Base 4:4.8.4
  _ZNK3KIO15FileUndoManager10metaObjectEv@Base 4:4.3.4
  _ZNK3KIO15FileUndoManager11UiInterface12parentWidgetEv@Base 4:4.3.4
  _ZNK3KIO15FileUndoManager11UiInterface16showProgressInfoEv@Base 4:4.3.4

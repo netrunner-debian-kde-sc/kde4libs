@@ -18,7 +18,7 @@ unreadable.
 
 --- a/kdecore/io/ktar.cpp
 +++ b/kdecore/io/ktar.cpp
-@@ -729,7 +729,7 @@ bool KTar::doPrepareWriting(const QStrin
+@@ -744,7 +744,7 @@ bool KTar::doPrepareWriting(const QStrin
      const QByteArray gname = group.toLocal8Bit();
  
      // If more than 100 chars, we need to use the LongLink trick
@@ -27,7 +27,7 @@ unreadable.
          d->writeLonglink(buffer,encodedFileName,'L',uname,gname);
  
      // Write (potentially truncated) name
-@@ -782,7 +782,7 @@ bool KTar::doWriteDir(const QString &nam
+@@ -797,7 +797,7 @@ bool KTar::doWriteDir(const QString &nam
      QByteArray gname = group.toLocal8Bit();
  
      // If more than 100 chars, we need to use the LongLink trick
@@ -36,7 +36,7 @@ unreadable.
          d->writeLonglink(buffer,encodedDirname,'L',uname,gname);
  
      // Write (potentially truncated) name
-@@ -834,9 +834,9 @@ bool KTar::doWriteSymLink(const QString
+@@ -849,9 +849,9 @@ bool KTar::doWriteSymLink(const QString
      QByteArray gname = group.toLocal8Bit();
  
      // If more than 100 chars, we need to use the LongLink trick
