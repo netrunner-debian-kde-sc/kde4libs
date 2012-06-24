@@ -1,11 +1,11 @@
-kde4libs (4:4.8.4-2) UNRELEASED; urgency=low
+kde4libs (4:4.8.4-2) unstable; urgency=low
 
   * Team upload.
 
   [ Modestas Vainius ]
   * Confirm symbol files on more Debian arches.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 23 Jun 2012 15:19:30 +0300
+ -- Sune Vuorela <sune@debian.org>  Sun, 24 Jun 2012 18:23:08 +0200
 
 kde4libs (4:4.8.4-1) experimental; urgency=low
 
