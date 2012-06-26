@@ -5,6 +5,10 @@ kde4libs (4:4.8.4-2) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Confirm symbol files on more Debian arches.
 
+  [ Matthias Klumpp ]
+  * Backport upstream commit 05f1a19291af5c16745b76c3e0944c5b80ef5870
+     to fix power management. (Make sure powermanager values are valid)
+
  -- Modestas Vainius <modax@debian.org>  Sat, 23 Jun 2012 15:19:30 +0300
 
 kde4libs (4:4.8.4-1) experimental; urgency=low
