@@ -1,14 +1,12 @@
-From 73ea8cee7661579d3c414f510f6a74fc241c3ecf Mon Sep 17 00:00:00 2001
 From: David Faure <faure@kde.org>
-Date: Mon, 20 Aug 2012 17:53:49 +0200
-Subject: [PATCH 234/299] Fix copying of files with extended ACLs.
-
-The switch to #cmakedefine01 in KDE Frameworks has detected a missing
+Origin: commit: 73ea8cee7661579d3c414f510f6a74fc241c3ecf
+Description: Fix copying of files with extended ACLs.
+ The switch to #cmakedefine01 in KDE Frameworks has detected a missing
  #include <config-acl.h> in file_unix.cpp ever since it was splitted
-out. In case we still had a doubt about how much more superior the
-cmakedefine01 (#if instead of #ifdef) solution is...
+ out. In case we still had a doubt about how much more superior the
+ cmakedefine01 (#if instead of #ifdef) solution is...
 
-CCBUG: 191474
+ CCBUG: 191474
   (not tested, but might help...)
 ---
  kioslave/file/file.cpp |   11 ++---------
