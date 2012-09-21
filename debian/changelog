@@ -2,6 +2,10 @@ kde4libs (4:4.8.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove 01_upstream_nepomuk_fix_76e0376d7582cfe5b898c56bf3779ca2279dace8.diff
+    which was taken from upstream.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Sep 2012 14:02:51 -0300
 
 kde4libs (4:4.8.4-3) unstable; urgency=low
