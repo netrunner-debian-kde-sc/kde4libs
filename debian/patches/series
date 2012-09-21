@@ -22,3 +22,4 @@ ktar_header_checksum_fix.diff
 ktar_longlink_length_in_bytes.diff
 glibc_filesystem.diff
 python3-support-bytecode.patch
+fix-copying-of-files-with-extended-ACLs.patch

@@ -12,6 +12,8 @@ kde4libs (4:4.8.5-0r0) UNRELEASED; urgency=low
     - make_libkdeinit4_private.diff.
     - add_dlrestrictions_support.diff
   * Update symbols files with the build logs of the previous version.
+  * Add fix-copying-of-files-with-extended-ACLs.patch taken from upstream
+    commit 73ea8cee7661579d3c414f510f6a74fc241c3ecf.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Sep 2012 14:02:51 -0300
 
