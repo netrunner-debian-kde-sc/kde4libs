@@ -11,7 +11,9 @@ kde4libs (4:4.8.5-0r0) UNRELEASED; urgency=low
   * Refresh patches:
     - make_libkdeinit4_private.diff.
     - add_dlrestrictions_support.diff
-  * Update symbols files with the build logs of the previous version.
+  * Update symbols files with:
+    - the build logs of the previous version.
+    - the build log of the current version in amd64.
   * Add fix-copying-of-files-with-extended-ACLs.patch taken from upstream
     commit 73ea8cee7661579d3c414f510f6a74fc241c3ecf.
 
