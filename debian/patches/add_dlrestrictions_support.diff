@@ -22,7 +22,7 @@ on all (or some) the targets.
 
 --- a/cmake/modules/KDE4Macros.cmake
 +++ b/cmake/modules/KDE4Macros.cmake
-@@ -1035,10 +1035,14 @@
+@@ -1035,10 +1035,14 @@ macro (KDE4_ADD_LIBRARY _target_NAME _li
     if (${_lib_TYPE} STREQUAL "SHARED")
        set(_first_SRC)
        set(_add_lib_param SHARED)
@@ -37,7 +37,7 @@ on all (or some) the targets.
     endif (${_lib_TYPE} STREQUAL "MODULE")
  
     set(_SRCS ${_first_SRC} ${ARGN})
-@@ -1326,6 +1330,13 @@
+@@ -1326,6 +1330,13 @@ function(KDE4_INSTALL_AUTH_ACTIONS HELPE
  
  endfunction(KDE4_INSTALL_AUTH_ACTIONS)
  
@@ -53,7 +53,7 @@ on all (or some) the targets.
     message(FATAL_ERROR "_KDE4_EXPORT_LIBRARY_DEPENDENCIES() was an internal macro and has been removed again. Just remove the code which calls it, there is no substitute.")
 --- a/kdecore/CMakeLists.txt
 +++ b/kdecore/CMakeLists.txt
-@@ -406,6 +406,14 @@
+@@ -406,6 +406,14 @@ kde4_add_library(kdecore ${LIBRARY_TYPE}
  
  target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
  
@@ -85,7 +85,7 @@ on all (or some) the targets.
  extern int kLibraryDebugArea();
  
  class KPluginLoaderPrivate
-@@ -259,6 +267,30 @@
+@@ -259,6 +267,30 @@ bool KPluginLoader::load()
      else
          d->pluginVersion = ~0U;
  
