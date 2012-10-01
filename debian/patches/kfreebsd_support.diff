@@ -48,7 +48,7 @@ cmake.
  }
 --- a/kioslave/file/file.cpp
 +++ b/kioslave/file/file.cpp
-@@ -317,8 +317,10 @@ void FileProtocol::get( const KUrl& url
+@@ -310,8 +310,10 @@ void FileProtocol::get( const KUrl& url
      }
  
  #if HAVE_FADVISE
