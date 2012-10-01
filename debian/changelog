@@ -4,6 +4,7 @@ kde4libs (4:4.9.2-0r0) UNRELEASED; urgency=low
   * Update patches:
     - drop fix-copying-of-files-with-extended-ACLs.patch, applied upstream.
     - refresh other patches to make them apply without any offset.
+  * Bump libsoprano-dev build dependency to >= 2.7.56.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Oct 2012 15:08:51 +0200
 
