@@ -1,12 +1,11 @@
-kde4libs (4:4.8.4-4) UNRELEASED; urgency=low
+kde4libs (4:4.8.4-4) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Backport an upstream patch to fix copying of files with extended ACLs.
   * The rebuild will get the package rebuilt with xz comression
     (Closes: #688766).
   * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Oct 2012 18:00:12 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 25 Oct 2012 18:11:08 -0300
 
 kde4libs (4:4.8.4-3) unstable; urgency=low
 
