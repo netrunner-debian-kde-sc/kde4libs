@@ -1,6 +1,7 @@
 kde4libs (4:4.8.4-4) UNRELEASED; urgency=low
 
-
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Backport an upstream patch to fix copying of files with extended ACLs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Oct 2012 18:00:12 -0300
 
