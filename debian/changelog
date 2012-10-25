@@ -4,6 +4,7 @@ kde4libs (4:4.8.4-4) UNRELEASED; urgency=low
   * Backport an upstream patch to fix copying of files with extended ACLs.
   * The rebuild will get the package rebuilt with xz comression
     (Closes: #688766).
+  * Add myself to Uploaders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Oct 2012 18:00:12 -0300
 
