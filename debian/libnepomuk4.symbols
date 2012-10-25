@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.4 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
 libnepomuk.so.4 libnepomuk4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN15KTagCloudWidget10tagClickedERK7QString@Base 4:4.3.4
@@ -330,13 +330,16 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NMM11releaseDateEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM11trackNumberEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM12nmmNamespaceEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NMM12seasonNumberEv@Base 4:4.8.4
  _ZN7Nepomuk10Vocabulary3NMM13albumPeakGainEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM13episodeNumberEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM13trackPeakGainEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM14audienceRatingEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM14beatsPerMinuteEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NMM14isPartOfSeasonEv@Base 4:4.8.4
  _ZN7Nepomuk10Vocabulary3NMM15albumTrackCountEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NMM15cinematographerEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NMM16hasSeasonEpisodeEv@Base 4:4.8.4
  _ZN7Nepomuk10Vocabulary3NMM16nrlOntologyGraphEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM17assistantDirectorEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM17musicCDIdentifierEv@Base 4:4.5.85
@@ -352,14 +355,17 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk10Vocabulary3NMM6writerEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM7artworkEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM7setSizeEv@Base 4:4.7.1
+ _ZN7Nepomuk10Vocabulary3NMM8TVSeasonEv@Base 4:4.8.4
  _ZN7Nepomuk10Vocabulary3NMM8TVSeriesEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM8composerEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM8directorEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM8lyricistEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM8metadataEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM8producerEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NMM8seasonOfEv@Base 4:4.8.4
  _ZN7Nepomuk10Vocabulary3NMM8synopsisEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM9albumGainEv@Base 4:4.5.85
+ _ZN7Nepomuk10Vocabulary3NMM9hasSeasonEv@Base 4:4.8.4
  _ZN7Nepomuk10Vocabulary3NMM9performerEv@Base 4:4.5.85
  _ZN7Nepomuk10Vocabulary3NMM9setNumberEv@Base 4:4.7.1
  _ZN7Nepomuk10Vocabulary3NMM9trackGainEv@Base 4:4.5.85

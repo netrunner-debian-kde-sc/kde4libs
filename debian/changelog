@@ -4,6 +4,7 @@ kde4libs (4:4.8.4-4) unstable; urgency=low
   * The rebuild will get the package rebuilt with xz comression
     (Closes: #688766).
   * Add myself to Uploaders.
+  * Confirm symbol files on more Debian arches.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 25 Oct 2012 18:11:08 -0300
 

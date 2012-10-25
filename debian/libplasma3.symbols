@@ -1,8 +1,8 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=amd64 armel armhf ia64 mips mipsel powerpc s390 s390x sparc)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
- (optional=templinst|arch=amd64 armel armhf powerpc s390 s390x|subst)_ZN12KConfigGroup14writeListCheckI{qreal}EEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.8.3
+ (optional=templinst|arch=amd64 armel armhf mips mipsel powerpc s390 s390x sparc|subst)_ZN12KConfigGroup14writeListCheckI{qreal}EEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.8.3
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD0Ev@Base 4:4.7.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD1Ev@Base 4:4.7.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD2Ev@Base 4:4.7.4
