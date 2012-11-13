@@ -6,6 +6,8 @@ kde4libs (4:4.9.3-0r0) UNRELEASED; urgency=low
     - update python3-support-bytecode.patch
     - refresh other patches to make them apply without any offset.
   * Bump libsoprano-dev build dependency to >= 2.7.56.
+  * Add aspell to build dependencies, this is a workaround for a posible bug in
+    the build system.
   * Use wildcards in install files (in a way that an SONAME bump won't go
     unoticed).
 
