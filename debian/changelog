@@ -10,6 +10,7 @@ kde4libs (4:4.9.3-0r0) UNRELEASED; urgency=low
     the build system.
   * Use wildcards in install files (in a way that an SONAME bump won't go
     unoticed).
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Oct 2012 15:08:51 +0200
 

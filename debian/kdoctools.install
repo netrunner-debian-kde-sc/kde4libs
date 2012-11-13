@@ -810,6 +810,7 @@ usr/share/kde4/apps/ksgmltools2/customization/xh/user.entities
 usr/share/kde4/apps/ksgmltools2/customization/xsl/README
 usr/share/kde4/apps/ksgmltools2/customization/xsl/all-l10n.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/ca.xml
+usr/share/kde4/apps/ksgmltools2/customization/xsl/cs.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/de.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/el.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/en.xml
@@ -817,6 +818,7 @@ usr/share/kde4/apps/ksgmltools2/customization/xsl/es.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/et.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/fr.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/gl.xml
+usr/share/kde4/apps/ksgmltools2/customization/xsl/hu.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/it.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/lt.xml
 usr/share/kde4/apps/ksgmltools2/customization/xsl/nds.xml
