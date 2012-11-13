@@ -187,7 +187,7 @@ libraries.
          if (!kdeinit) {
 --- a/kinit/kinit.cpp
 +++ b/kinit/kinit.cpp
-@@ -499,11 +499,23 @@ static pid_t launch(int argc, const char
+@@ -498,11 +498,23 @@ static pid_t launch(int argc, const char
              // try to match an absolute path to an executable binary (either in bin/ or in libexec/)
              // to a kdeinit module in the same prefix
              if( lib.contains( QLatin1String( "/lib" KDELIBSUFF "/kde4/libexec/" ))) {
