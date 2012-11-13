@@ -3,6 +3,7 @@ kde4libs (4:4.9.3-0r0) UNRELEASED; urgency=low
   * New upstream release.
   * Update patches:
     - drop fix-copying-of-files-with-extended-ACLs.patch, applied upstream.
+    - update python3-support-bytecode.patch
     - refresh other patches to make them apply without any offset.
   * Bump libsoprano-dev build dependency to >= 2.7.56.
 
