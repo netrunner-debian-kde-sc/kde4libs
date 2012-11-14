@@ -15,6 +15,7 @@ kde4libs (4:4.9.3-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Update symbols files.
+  * Add lintian overrides for 'hardening-no-fortify-functions'.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Oct 2012 15:08:51 +0200
 

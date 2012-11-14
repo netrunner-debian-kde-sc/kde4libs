@@ -1,0 +1,1 @@
+libktexteditor4: hardening-no-fortify-functions usr/lib/libktexteditor.so.4.*

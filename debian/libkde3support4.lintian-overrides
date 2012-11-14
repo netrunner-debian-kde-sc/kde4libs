@@ -1,0 +1,1 @@
+libkde3support4: hardening-no-fortify-functions usr/lib/libkde3support.so.4.*
