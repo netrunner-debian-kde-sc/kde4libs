@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.5 amd64
+# SymbolsHelper-Confirmed: 4:4.9.3 amd64
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -418,6 +418,10 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZNK3KJS8JSObject9classNameEv@Base 4:4.3.4
  _ZNK3KJS8JSObject9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS9ExecState18lexicalInterpreterEv@Base 4:4.3.4
+ (optional=templinst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EE17_M_initialize_mapEm@Base 4:4.9.3
+ (optional=templinst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED1Ev@Base 4:4.9.3
+ (optional=templinst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED2Ev@Base 4:4.9.3
+ (optional=templinst)_ZNSt5dequeIPN3KJS7JSValueESaIS2_EE17_M_reallocate_mapEmb@Base 4:4.9.3
  _ZTIN14WTFNoncopyable11NoncopyableE@Base 4:4.3.4
  _ZTIN3KJS11FunctionImpE@Base 4:4.3.4
  _ZTIN3KJS11InterpreterE@Base 4:4.3.4

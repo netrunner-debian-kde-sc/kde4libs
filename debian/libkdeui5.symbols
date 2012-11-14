@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.5 amd64
+# SymbolsHelper-Confirmed: 4:4.9.3 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -1269,6 +1269,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN12KFontChooser7Private12setupDisplayEv@Base 4:4.3.4
  (subst)_ZN12KFontChooser7Private14nearestSizeRowE{qreal}b@Base 4:4.4.3
  _ZN12KFontChooser7Private15_k_showXLFDAreaEb@Base 4:4.3.4
+ _ZN12KFontChooser7Private15styleIdentifierERK5QFont@Base 4:4.9.3
  _ZN12KFontChooser7Private16_k_displaySampleERK5QFont@Base 4:4.3.4
  _ZN12KFontChooser7Private16setupSizeListBoxERK7QStringS3_@Base 4:4.3.4
  _ZN12KFontChooser7Private17fillFamilyListBoxEb@Base 4:4.3.4
@@ -1656,6 +1657,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KDateTimeEditD2Ev@Base 4:4.7.0
  _ZN13KFontComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN13KFontComboBox11qt_metacastEPKc@Base 4:4.3.4
+ _ZN13KFontComboBox11setFontListERK11QStringList@Base 4:4.9.3
  _ZN13KFontComboBox12setOnlyFixedEb@Base 4:4.3.4
  _ZN13KFontComboBox14setCurrentFontERK5QFont@Base 4:4.3.4
  _ZN13KFontComboBox16staticMetaObjectE@Base 4:4.3.4
