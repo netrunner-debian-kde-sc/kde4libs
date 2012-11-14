@@ -1,19 +1,18 @@
-kde4libs (4:4.9.3-0r0) UNRELEASED; urgency=low
+kde4libs (4:4.9.3-0r1) UNRELEASED; urgency=low
 
-  [ Debian Qt/KDE Maintainers ]
   * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
   * Update patches:
     - drop fix-copying-of-files-with-extended-ACLs.patch, applied upstream.
     - update python3-support-bytecode.patch
     - refresh other patches to make them apply without any offset.
   * Bump libsoprano-dev build dependency to >= 2.7.56.
-  * Add aspell to build dependencies, this is a workaround for a posible bug in
+  * Add aspell to build dependencies, this is a workaround for a possible bug in
     the build system.
   * Use wildcards in install files (in a way that an SONAME bump won't go
-    unoticed).
+    unnoticed).
   * Update installed files.
-
-  [ José Manuel Santamaría Lema ]
   * Update symbols files.
   * Add lintian overrides for 'hardening-no-fortify-functions'.
 
