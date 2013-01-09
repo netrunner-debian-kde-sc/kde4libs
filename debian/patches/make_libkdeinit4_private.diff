@@ -60,10 +60,10 @@ libraries.
  
 --- a/cmake/modules/KDE4Macros.cmake
 +++ b/cmake/modules/KDE4Macros.cmake
-@@ -819,6 +819,17 @@ macro (KDE4_ADD_KDEINIT_EXECUTABLE _targ
-       set_target_properties(kdeinit_${_target_NAME} PROPERTIES OUTPUT_NAME kdeinit4_${_target_NAME})
- 
-       kde4_add_executable(${_target_NAME} "${_nogui}" ${CMAKE_CURRENT_BINARY_DIR}/${_target_NAME}_dummy.cpp)
+@@ -825,6 +825,17 @@ macro (KDE4_ADD_KDEINIT_EXECUTABLE _targ
+ 	      endif(NOT _res_position EQUAL -1)
+       endif (Q_WS_MAC)
+       kde4_add_executable(${_target_NAME} "${_nogui}" ${CMAKE_CURRENT_BINARY_DIR}/${_target_NAME}_dummy.cpp ${_resourcefile})
 +      if (UNIX AND ENABLE_LIBKDEINIT_RUNPATH)
 +         list(FIND CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES "${LIBKDEINIT_INSTALL_DIR}" _isSystemKdeinitDir)
 +         if("${_isSystemKdeinitDir}" STREQUAL "-1")
