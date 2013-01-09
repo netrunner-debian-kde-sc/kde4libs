@@ -76,7 +76,7 @@ matches, archive is accepted.
          return -1;
        }
      }/*end if*/
-@@ -652,10 +667,12 @@ void KTar::KTarPrivate::fillBuffer( char
+@@ -653,10 +668,12 @@ void KTar::KTarPrivate::fillBuffer( char
    // group
    strcpy( buffer + 0x129, gname );
  
