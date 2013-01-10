@@ -2,6 +2,21 @@ kde4libs (4:4.9.5-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove:
+    - 01_upstream_nepomuk_fix_76e0376d7582cfe5b898c56bf3779ca2279dace8.diff
+    - 02_upstream_nepomuk_fix_bde5aad1e9f7bfb6f8d5c60197797de4a315158d.diff
+    - 03_upstream_powermanager_fix_05f1a19291af5c16745b76c3e0944c5b80ef5870.diff
+    which were taken from upstream.
+  * Refresh patches:
+    - make_libkdeinit4_private.diff.
+    - add_dlrestrictions_support.diff
+  * Update symbols files with:
+    - the build logs of the previous version.
+    - the build log of the current version in amd64.
+  * Add fix-copying-of-files-with-extended-ACLs.patch taken from upstream
+    commit 73ea8cee7661579d3c414f510f6a74fc241c3ecf.
+
   [ José Manuel Santamaría Lema ]
   * Update patches:
     - drop fix-copying-of-files-with-extended-ACLs.patch, applied upstream.
@@ -19,27 +34,6 @@ kde4libs (4:4.9.5-0r0) UNRELEASED; urgency=low
   * Add lintian overrides for 'hardening-no-fortify-functions'.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Oct 2012 15:08:51 +0200
-
-kde4libs (4:4.8.5-0r0) UNRELEASED; urgency=low
-
-  * New upstream release.
-
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Remove:
-    - 01_upstream_nepomuk_fix_76e0376d7582cfe5b898c56bf3779ca2279dace8.diff
-    - 02_upstream_nepomuk_fix_bde5aad1e9f7bfb6f8d5c60197797de4a315158d.diff
-    - 03_upstream_powermanager_fix_05f1a19291af5c16745b76c3e0944c5b80ef5870.diff
-    which were taken from upstream.
-  * Refresh patches:
-    - make_libkdeinit4_private.diff.
-    - add_dlrestrictions_support.diff
-  * Update symbols files with:
-    - the build logs of the previous version.
-    - the build log of the current version in amd64.
-  * Add fix-copying-of-files-with-extended-ACLs.patch taken from upstream
-    commit 73ea8cee7661579d3c414f510f6a74fc241c3ecf.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Sep 2012 14:02:51 -0300
 
 kde4libs (4:4.8.4-3) unstable; urgency=low
 
