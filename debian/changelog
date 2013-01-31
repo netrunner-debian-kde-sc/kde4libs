@@ -21,6 +21,7 @@ kde4libs (4:4.10.0-0r0) UNRELEASED; urgency=low
   * Update patches:
     - drop fix-copying-of-files-with-extended-ACLs.patch, applied upstream.
     - drop python3-support-bytecode.patch, applied upstream.
+    - drop findpythonlibrary_layout_deb_on_debian.diff, no longer needed. 
     - update make_libkdeinit4_private.diff.
     - refresh other patches to make them apply without any offset.
   * Bump libsoprano-dev build dependency to >= 2.7.56.
