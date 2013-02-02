@@ -29,10 +29,8 @@ usr/lib/kde4/libexec/kconf_update
 usr/lib/kde4/libexec/kio_http_cache_cleaner
 usr/lib/kde4/libexec/kioslave
 usr/lib/kde4/libexec/klauncher
-usr/lib/kde4/libexec/kmailservice
 usr/lib/kde4/libexec/kpac_dhcp_helper
 usr/lib/kde4/libexec/ksendbugmail
-usr/lib/kde4/libexec/ktelnetservice
 usr/lib/kde4/libexec/start_kdeinit
 usr/lib/kde4/libexec/start_kdeinit_wrapper
 usr/lib/kde4/libkhtmlpart.so

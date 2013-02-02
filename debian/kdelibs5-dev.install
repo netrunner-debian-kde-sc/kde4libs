@@ -212,6 +212,7 @@ usr/include/KDE/KAuth/ActionWatcher
 usr/include/KDE/KAuth/HelperSupport
 usr/include/KDE/KAuthorized
 usr/include/KDE/KAutoMount
+usr/include/KDE/KAutoSaveFile
 usr/include/KDE/KAutoUnmount
 usr/include/KDE/KAutostart
 usr/include/KDE/KBookmark
@@ -227,6 +228,7 @@ usr/include/KDE/KBookmarkImporterBase
 usr/include/KDE/KBookmarkManager
 usr/include/KDE/KBookmarkMenu
 usr/include/KDE/KBookmarkOwner
+usr/include/KDE/KBreadcrumbSelectionModel
 usr/include/KDE/KBugReport
 usr/include/KDE/KBuildSycocaProgressDialog
 usr/include/KDE/KButtonGroup
@@ -238,6 +240,7 @@ usr/include/KDE/KCModuleProxy
 usr/include/KDE/KCMultiDialog
 usr/include/KDE/KCalendarSystem
 usr/include/KDE/KCalendarSystemFactory
+usr/include/KDE/KCapacityBar
 usr/include/KDE/KCategorizedSortFilterProxyModel
 usr/include/KDE/KCategorizedView
 usr/include/KDE/KCategoryDrawer
@@ -283,6 +286,7 @@ usr/include/KDE/KCurrencyCode
 usr/include/KDE/KCursor
 usr/include/KDE/KDBusServiceStarter
 usr/include/KDE/KDEDModule
+usr/include/KDE/KDEPrintDialog
 usr/include/KDE/KDEsuClient
 usr/include/KDE/KDataTool
 usr/include/KDE/KDataToolAction
@@ -298,8 +302,10 @@ usr/include/KDE/KDateWidget
 usr/include/KDE/KDebug
 usr/include/KDE/KDescendantsProxyModel
 usr/include/KDE/KDesktopFile
+usr/include/KDE/KDeviceListModel
 usr/include/KDE/KDialog
 usr/include/KDE/KDialogButtonBox
+usr/include/KDE/KDialogJobUiDelegate
 usr/include/KDE/KDirLister
 usr/include/KDE/KDirModel
 usr/include/KDE/KDirNotify
@@ -343,6 +349,7 @@ usr/include/KDE/KFileSharePropsPlugin
 usr/include/KDE/KFileTreeBranch
 usr/include/KDE/KFileTreeView
 usr/include/KDE/KFileWidget
+usr/include/KDE/KFileWritePlugin
 usr/include/KDE/KFilterBase
 usr/include/KDE/KFilterDev
 usr/include/KDE/KFilterProxySearchLine
@@ -361,6 +368,7 @@ usr/include/KDE/KGenericFactoryBase
 usr/include/KDE/KGlobal
 usr/include/KDE/KGlobalAccel
 usr/include/KDE/KGlobalSettings
+usr/include/KDE/KGlobalShortcutInfo
 usr/include/KDE/KGradientSelector
 usr/include/KDE/KGraphicsWebView
 usr/include/KDE/KGuiItem
@@ -424,6 +432,7 @@ usr/include/KDE/KIconDialog
 usr/include/KDE/KIconEffect
 usr/include/KDE/KIconLoader
 usr/include/KDE/KIconTheme
+usr/include/KDE/KIdentityProxyModel
 usr/include/KDE/KIdleTime
 usr/include/KDE/KImageCache
 usr/include/KDE/KImageFilePreview
@@ -433,6 +442,7 @@ usr/include/KDE/KIntNumInput
 usr/include/KDE/KIntSpinBox
 usr/include/KDE/KIntValidator
 usr/include/KDE/KJob
+usr/include/KDE/KJobTrackerInterface
 usr/include/KDE/KJobUiDelegate
 usr/include/KDE/KKeySequenceWidget
 usr/include/KDE/KLanguageButton
@@ -441,9 +451,11 @@ usr/include/KDE/KLibFactory
 usr/include/KDE/KLibLoader
 usr/include/KDE/KLibrary
 usr/include/KDE/KLineEdit
+usr/include/KDE/KLinkItemSelectionModel
 usr/include/KDE/KListWidget
 usr/include/KDE/KListWidgetSearchLine
 usr/include/KDE/KLocale
+usr/include/KDE/KLocalizedDate
 usr/include/KDE/KLocalizedString
 usr/include/KDE/KLockFile
 usr/include/KDE/KMD5
@@ -465,7 +477,9 @@ usr/include/KDE/KMimeTypeChooserDialog
 usr/include/KDE/KMimeTypeResolver
 usr/include/KDE/KMimeTypeTrader
 usr/include/KDE/KMimeTypeValidator
+usr/include/KDE/KModelIndexProxyMapper
 usr/include/KDE/KModifierKeyInfo
+usr/include/KDE/KMountPoint
 usr/include/KDE/KMozillaBookmarkImporterImpl
 usr/include/KDE/KMultiTabBar
 usr/include/KDE/KMultiTabBarButton
@@ -486,6 +500,7 @@ usr/include/KDE/KNSBookmarkExporterImpl
 usr/include/KDE/KNSBookmarkImporter
 usr/include/KDE/KNSBookmarkImporterImpl
 usr/include/KDE/KNTLM
+usr/include/KDE/KNameAndUrlInputDialog
 usr/include/KDE/KNetwork/KActiveSocketBase
 usr/include/KDE/KNetwork/KBufferedSocket
 usr/include/KDE/KNetwork/KClientSocketBase
@@ -508,6 +523,7 @@ usr/include/KDE/KNetwork/KSocksSocketDevice
 usr/include/KDE/KNetwork/KStreamSocket
 usr/include/KDE/KNetwork/KUnixSocketAddress
 usr/include/KDE/KNewFileMenu
+usr/include/KDE/KNewPasswordDialog
 usr/include/KDE/KNotification
 usr/include/KDE/KNotificationRestrictions
 usr/include/KDE/KNotifyConfigWidget
@@ -590,6 +606,7 @@ usr/include/KDE/KRatingWidget
 usr/include/KDE/KRecentDocument
 usr/include/KDE/KRecentFilesAction
 usr/include/KDE/KRecursiveFilterProxyModel
+usr/include/KDE/KRegExpEditorInterface
 usr/include/KDE/KRemoteEncoding
 usr/include/KDE/KReplace
 usr/include/KDE/KReplaceDialog
@@ -609,6 +626,7 @@ usr/include/KDE/KSelectionWatcher
 usr/include/KDE/KSelector
 usr/include/KDE/KSeparator
 usr/include/KDE/KService
+usr/include/KDE/KServiceAction
 usr/include/KDE/KServiceGroup
 usr/include/KDE/KServiceType
 usr/include/KDE/KServiceTypeProfile
@@ -641,6 +659,8 @@ usr/include/KDE/KStartupInfo
 usr/include/KDE/KStartupInfoData
 usr/include/KDE/KStartupInfoId
 usr/include/KDE/KStatusBar
+usr/include/KDE/KStatusBarJobTracker
+usr/include/KDE/KStatusBarOfflineIndicator
 usr/include/KDE/KStatusNotifierItem
 usr/include/KDE/KStringHandler
 usr/include/KDE/KStringListValidator
@@ -749,12 +769,14 @@ usr/include/KDE/KUser
 usr/include/KDE/KUserGroup
 usr/include/KDE/KVBox
 usr/include/KDE/KViewStateMaintainer
+usr/include/KDE/KViewStateSaver
 usr/include/KDE/KWallet/Wallet
 usr/include/KDE/KWebPage
 usr/include/KDE/KWebPluginFactory
 usr/include/KDE/KWebView
 usr/include/KDE/KWebWallet
 usr/include/KDE/KWidgetItemDelegate
+usr/include/KDE/KWidgetJobTracker
 usr/include/KDE/KWindowInfo
 usr/include/KDE/KWindowSystem
 usr/include/KDE/KWordMacroExpander
@@ -1960,10 +1982,6 @@ usr/share/dbus-1/interfaces/org.kde.kded.xml
 usr/share/dbus-1/interfaces/org.kde.kglobalaccel.Component.xml
 usr/share/dbus-1/interfaces/org.kde.kio.FileUndoManager.xml
 usr/share/kde4/apps/cmake/modules/BasicFindPackageVersion.cmake.in
-usr/share/kde4/apps/cmake/modules/CMakeParseArguments.cmake
-usr/share/kde4/apps/cmake/modules/CheckCXXSourceCompiles.cmake
-usr/share/kde4/apps/cmake/modules/CheckCXXSourceRuns.cmake
-usr/share/kde4/apps/cmake/modules/CheckCXXSymbolExists.cmake
 usr/share/kde4/apps/cmake/modules/CheckPointerMember.cmake
 usr/share/kde4/apps/cmake/modules/CheckPrototypeExists.cmake
 usr/share/kde4/apps/cmake/modules/CheckStructMember.cmake
@@ -1976,7 +1994,6 @@ usr/share/kde4/apps/cmake/modules/FindAvahi.cmake
 usr/share/kde4/apps/cmake/modules/FindBerkeleyDB.cmake
 usr/share/kde4/apps/cmake/modules/FindBlitz.cmake
 usr/share/kde4/apps/cmake/modules/FindBlueZ.cmake
-usr/share/kde4/apps/cmake/modules/FindBoost.cmake
 usr/share/kde4/apps/cmake/modules/FindCarbon.cmake
 usr/share/kde4/apps/cmake/modules/FindDBusMenuQt.cmake
 usr/share/kde4/apps/cmake/modules/FindDNSSD.cmake
@@ -1989,8 +2006,6 @@ usr/share/kde4/apps/cmake/modules/FindFFmpeg.cmake
 usr/share/kde4/apps/cmake/modules/FindFlac.cmake
 usr/share/kde4/apps/cmake/modules/FindFlex.cmake
 usr/share/kde4/apps/cmake/modules/FindFontconfig.cmake
-usr/share/kde4/apps/cmake/modules/FindFreetype.cmake
-usr/share/kde4/apps/cmake/modules/FindGIF.cmake
 usr/share/kde4/apps/cmake/modules/FindGLIB2.cmake
 usr/share/kde4/apps/cmake/modules/FindGMP.cmake
 usr/share/kde4/apps/cmake/modules/FindGObject.cmake
@@ -2017,7 +2032,6 @@ usr/share/kde4/apps/cmake/modules/FindLibAttica.cmake
 usr/share/kde4/apps/cmake/modules/FindLibKonq.cmake
 usr/share/kde4/apps/cmake/modules/FindLibLZMA.cmake
 usr/share/kde4/apps/cmake/modules/FindLibPython.py
-usr/share/kde4/apps/cmake/modules/FindLibXml2.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXslt.cmake
 usr/share/kde4/apps/cmake/modules/FindLibintl.cmake
 usr/share/kde4/apps/cmake/modules/FindLibraryWithDebug.cmake
@@ -2029,11 +2043,8 @@ usr/share/kde4/apps/cmake/modules/FindNepomuk.cmake
 usr/share/kde4/apps/cmake/modules/FindNetworkManager.cmake
 usr/share/kde4/apps/cmake/modules/FindOggVorbis.cmake
 usr/share/kde4/apps/cmake/modules/FindOpenEXR.cmake
-usr/share/kde4/apps/cmake/modules/FindOpenSSL.cmake
 usr/share/kde4/apps/cmake/modules/FindPCRE.cmake
-usr/share/kde4/apps/cmake/modules/FindPackageHandleStandardArgs.cmake
 usr/share/kde4/apps/cmake/modules/FindPhonon.cmake
-usr/share/kde4/apps/cmake/modules/FindPkgConfig.cmake
 usr/share/kde4/apps/cmake/modules/FindPlasma.cmake
 usr/share/kde4/apps/cmake/modules/FindPopplerQt4.cmake
 usr/share/kde4/apps/cmake/modules/FindPostgreSQL.cmake

@@ -8,8 +8,10 @@ usr/bin/kdeinit4_wrapper
 usr/bin/kfilemetadatareader
 usr/bin/kjs
 usr/bin/kjscmd
+usr/bin/kmailservice
 usr/bin/kross
 usr/bin/kshell4
+usr/bin/ktelnetservice
 usr/bin/kwrapper4
 usr/bin/nepomuk-rcgen
 usr/lib/libkdeinit4_kbuildsycoca4.so

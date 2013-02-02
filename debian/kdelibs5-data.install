@@ -99,6 +99,7 @@ usr/share/kde4/apps/LICENSES/QPL_V1.0
 usr/share/kde4/apps/kcharselect/kcharselect-data
 usr/share/kde4/apps/kcm_componentchooser/kcm_instantmessenger.desktop
 usr/share/kde4/apps/kcm_componentchooser/kcm_ktexteditor.desktop
+usr/share/kde4/apps/kconf_update/kcookiescfg.pl
 usr/share/kde4/apps/kconf_update/kcookiescfg.upd
 usr/share/kde4/apps/kconf_update/kded.upd
 usr/share/kde4/apps/kconf_update/kioslave.upd
@@ -114,7 +115,7 @@ usr/share/kde4/apps/kdeui/about/bar-middle-right.png
 usr/share/kde4/apps/kdeui/about/bar-top-left.png
 usr/share/kde4/apps/kdeui/about/bar-top-middle.png
 usr/share/kde4/apps/kdeui/about/bar-top-right.png
-usr/share/kde4/apps/kdeui/about/body-background.jpg
+usr/share/kde4/apps/kdeui/about/body-background.png
 usr/share/kde4/apps/kdeui/about/box-bottom-left.png
 usr/share/kde4/apps/kdeui/about/box-bottom-middle.png
 usr/share/kde4/apps/kdeui/about/box-bottom-right.png
