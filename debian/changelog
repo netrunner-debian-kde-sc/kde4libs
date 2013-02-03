@@ -19,6 +19,7 @@ kde4libs (4:4.10.0-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Update patches:
+    - add install_kcookiescfg.pl_with_exec_perms.diff.
     - drop fix-copying-of-files-with-extended-ACLs.patch, applied upstream.
     - drop python3-support-bytecode.patch, applied upstream.
     - drop findpythonlibrary_layout_deb_on_debian.diff, no longer needed. 
