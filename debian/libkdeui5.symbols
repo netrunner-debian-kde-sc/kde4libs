@@ -656,7 +656,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11KListWidget15mousePressEventEP11QMouseEvent@Base 4:4.3.4
  _ZN11KListWidget16staticMetaObjectE@Base 4:4.3.4
  _ZN11KListWidget17mouseReleaseEventEP11QMouseEvent@Base 4:4.10.0
-#MISSING: 4:4.10.0# _ZN11KListWidget18KListWidgetPrivate11emitExecuteEP15QListWidgetItemRK6QPoint@Base 4:4.3.4
  _ZN11KListWidget18KListWidgetPrivate17_k_slotAutoSelectEv@Base 4:4.3.4
  _ZN11KListWidget18KListWidgetPrivate17_k_slotOnViewportEv@Base 4:4.3.4
  _ZN11KListWidget18KListWidgetPrivate18_k_slotEmitExecuteEP15QListWidgetItem@Base 4:4.10.0
