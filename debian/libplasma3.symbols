@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.5 amd64
+# SymbolsHelper-Confirmed: 4:4.10.0 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KConfigSkeletonD0Ev@Base 4:4.7.4
@@ -725,6 +725,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma13RunnerContext11qt_metacastEPKc@Base 4:4.4.4-2~
  _ZN6Plasma13RunnerContext11removeMatchE7QString@Base 4:4.4.4-2~
  _ZN6Plasma13RunnerContext13removeMatchesE11QStringList@Base 4:4.4.4-2~
+ _ZN6Plasma13RunnerContext13removeMatchesEPNS_14AbstractRunnerE@Base 4:4.10.0
  _ZN6Plasma13RunnerContext14matchesChangedEv@Base 4:4.4.4-2~
  _ZN6Plasma13RunnerContext16staticMetaObjectE@Base 4:4.4.4-2~
  _ZN6Plasma13RunnerContext24setSingleRunnerQueryModeEb@Base 4:4.4.4-2~

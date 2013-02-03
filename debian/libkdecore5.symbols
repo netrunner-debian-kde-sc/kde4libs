@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.5 amd64
+# SymbolsHelper-Confirmed: 4:4.10.0 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -551,6 +551,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN13KProtocolInfo16isHelperProtocolERK4KUrl@Base 4:4.3.4
  _ZN13KProtocolInfo16isHelperProtocolERK7QString@Base 4:4.3.4
  _ZN13KProtocolInfo16maxSlavesPerHostERK7QString@Base 4:4.4.0
+ _ZN13KProtocolInfo21selectServiceOrHelperERK7QStringR10KSharedPtrIS_ERS3_I8KServiceE@Base 4:4.10.0
  _ZN13KProtocolInfo30determineMimetypeFromExtensionERK7QString@Base 4:4.3.4
  _ZN13KProtocolInfo4execERK7QString@Base 4:4.3.4
  _ZN13KProtocolInfo4iconERK7QString@Base 4:4.3.4
