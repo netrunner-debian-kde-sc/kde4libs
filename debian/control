@@ -505,6 +505,7 @@ Description: core shared data for all KDE Applications
  This package is part of the KDE Development Platform libraries module.
 
 Package: kdoctools
+Section: doc
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, docbook-xml, docbook-xsl,
  libxml2-utils

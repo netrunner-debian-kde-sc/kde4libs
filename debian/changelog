@@ -34,6 +34,7 @@ kde4libs (4:4.10.0-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Update symbols files.
   * Add lintian overrides for 'hardening-no-fortify-functions'.
+  * Change section of kdoctools from libs to doc.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Oct 2012 15:08:51 +0200
 
