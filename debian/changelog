@@ -28,7 +28,6 @@ kde4libs (4:4.10.0-0r1) UNRELEASED; urgency=low
   * Bump libsoprano-dev build dependency to >= 2.7.56.
   * Add aspell to build dependencies, this is a workaround for a possible bug in
     the build system.
-  * Add libhupnp-dev to build dependencies.
   * Use wildcards in install files (in a way that an SONAME bump won't go
     unnoticed).
   * Update installed files.
