@@ -60,7 +60,7 @@ libraries.
  
 --- a/cmake/modules/KDE4Macros.cmake
 +++ b/cmake/modules/KDE4Macros.cmake
-@@ -825,6 +825,17 @@ macro (KDE4_ADD_KDEINIT_EXECUTABLE _targ
+@@ -834,6 +834,17 @@ macro (KDE4_ADD_KDEINIT_EXECUTABLE _targ
  	      endif(NOT _res_position EQUAL -1)
        endif (Q_WS_MAC)
        kde4_add_executable(${_target_NAME} "${_nogui}" ${CMAKE_CURRENT_BINARY_DIR}/${_target_NAME}_dummy.cpp ${_resourcefile})
