@@ -30,6 +30,7 @@ kde4libs (4:4.10.1-0r0) UNRELEASED; urgency=low
     the build system.
   * Explain in README.source why some optional missing build depends reported by
     cmake aren't in Build-Depends.
+  * Add libhupnp-dev to Build-Conflicts.
   * Use wildcards in install files (in a way that an SONAME bump won't go
     unnoticed).
   * Update installed files.
