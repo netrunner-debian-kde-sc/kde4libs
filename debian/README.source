@@ -1,3 +1,21 @@
+Optional build depends which aren't in Build-Depends
+----------------------------------------------------
+When building the package cmake reports the following missing optional build
+depends:
+
+- grantlee: We are not adding this one because it's needed to build the tests,
+  but we aren't building the tests anyway.
+
+- libhupnp: It seems this library, used for a solid backend, is not really
+  stable enough [1], and it makes every process using solid listen on different
+  ports [2], hence disable it until hupnp proves to be safer.
+  [1] https://bugs.kde.org/show_bug.cgi?id=301828
+  [2] http://lists.debian.org/debian-kde/2013/02/msg00088.html
+
+- media-player-info: Support for m-p-i is included even if not found during
+  build, so no need to add it to Build-Depends.
+
+
 Binary packages
 ---------------
 
