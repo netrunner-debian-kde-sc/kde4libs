@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.0 amd64
+# SymbolsHelper-Confirmed: 4:4.10.1 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -1685,6 +1685,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN5KAuth11ActionReply24AuthorizationDeniedReplyE@Base 4:4.4.0
  _ZN5KAuth11ActionReply7addDataERK7QStringRK8QVariant@Base 4:4.4.0
  _ZN5KAuth11ActionReply7setDataERK4QMapI7QString8QVariantE@Base 4:4.4.0
+ _ZN5KAuth11ActionReply7setTypeENS0_4TypeE@Base 4:4.10.1
  _ZN5KAuth11ActionReplyC1ENS0_4TypeE@Base 4:4.4.0
  _ZN5KAuth11ActionReplyC1ERKS0_@Base 4:4.4.0
  _ZN5KAuth11ActionReplyC1Ei@Base 4:4.4.0
