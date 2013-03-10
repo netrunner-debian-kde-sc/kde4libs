@@ -5182,7 +5182,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN9KTextEdit7Private20spellCheckerFinishedEv@Base 4:4.3.4
  _ZN9KTextEdit7Private20toggleAutoSpellCheckEv@Base 4:4.3.4
  _ZN9KTextEdit7Private21spellCheckerCorrectedERK7QStringiS3_@Base 4:4.3.4
-#MISSING: 4:4.10.1# _ZN9KTextEdit7Private22updateClickMessageRectEv@Base 4:4.4.0
  _ZN9KTextEdit7Private23spellCheckerAutoCorrectERK7QStringS3_@Base 4:4.3.4
  _ZN9KTextEdit7Private23spellCheckerMisspellingERK7QStringi@Base 4:4.3.4
  _ZN9KTextEdit7Private4initEv@Base 4:4.3.4
