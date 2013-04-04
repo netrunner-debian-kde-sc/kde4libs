@@ -470,7 +470,7 @@ Description: declarative library for plasma
 Package: kdelibs-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: kjscmd
+Conflicts: kjscmd, kdelibs4c2a
 Description: core executables for KDE Applications
  This package contains common core executables used by all KDE Applications.
  .
