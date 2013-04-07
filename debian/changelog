@@ -5,6 +5,8 @@ kde4libs (4:4.10.2-2) UNRELEASED; urgency=low
     building on Hurd; patch upstream_Remove-extra-sys-mount.h-include.patch.
   * Make kdelibs-bin conflict with kdelibs4c2a, since now it provides
     kmailservice/ktelnetservice in /usr/bin. (Closes: #704669)
+  * Extend patch kfreebsd_support.diff with the addition on GNU/kFreeBSD of the
+    C-/CXX-/LD-FLAGS used on Linux and Hurd too.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Apr 2013 20:15:12 +0200
 
