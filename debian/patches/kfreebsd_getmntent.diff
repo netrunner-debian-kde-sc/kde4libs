@@ -1,0 +1,37 @@
+Author: Pino Toscano <toscano.pino@tiscali.it>
+Description: On GNU/kFreeBSD, force the use of the setmntent/getmntent API.
+ Due to the misdetection of sys/mount.h on kFreeBSD (due to Debian #704598),
+ the getmntinfo API seems not be usable. Hence, force te use of
+ setmntent/getmntent.
+ This is kind of hack, so should not be forwarded for now.
+Forwarded: no
+Last-Update: 2013-04-07
+
+--- a/kdecore/io/kmountpoint.cpp
++++ b/kdecore/io/kmountpoint.cpp
+@@ -28,6 +28,11 @@
+ 
+ #include "kstandarddirs.h"
+ 
++/* HACK, make it use setmntent/getmntent */
++#ifdef __FreeBSD_kernel__
++# undef HAVE_GETMNTINFO
++#endif
++
+ #ifdef Q_WS_WIN
+ #include <windows.h>
+ #include <QDir>
+--- a/solid/solid/backends/fstab/fstabhandling.cpp
++++ b/solid/solid/backends/fstab/fstabhandling.cpp
+@@ -32,6 +32,11 @@
+ #include <config.h>
+ #include <stdlib.h>
+ 
++/* HACK, make it use setmntent/getmntent */
++#ifdef __FreeBSD_kernel__
++# undef HAVE_GETMNTINFO
++#endif
++
+ #ifdef HAVE_SYS_MNTTAB_H
+ #include <sys/mnttab.h>
+ #endif
