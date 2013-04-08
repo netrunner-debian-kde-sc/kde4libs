@@ -1,4 +1,4 @@
-kde4libs (4:4.10.2-2) UNRELEASED; urgency=low
+kde4libs (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Backport upstream commit a4dd84f42abea1ff9cdd15e156c63776c0bf854b to fix
@@ -10,7 +10,7 @@ kde4libs (4:4.10.2-2) UNRELEASED; urgency=low
   * Add patch kfreebsd_getmntent.diff to force the use of setmntent/getmntent
     on GNU/kFreeBSD.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Apr 2013 20:15:12 +0200
+ -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 00:13:37 +0000
 
 kde4libs (4:4.10.2-1) experimental; urgency=low
 
