@@ -1,5 +1,7 @@
 kde4libs (4:4.10.2-4) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Fix typo in description of libkunitconversion4. (Closes: #705955)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Apr 2013 20:10:44 +0200
 
