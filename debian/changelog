@@ -1,6 +1,7 @@
 kde4libs (4:4.10.2-3) UNRELEASED; urgency=low
 
   * Ensure newer kde-runtime in dependencies.
+  * Update uploaders.
 
  -- Sune Vuorela <sune@debian.org>  Wed, 17 Apr 2013 22:06:59 +0200
 
