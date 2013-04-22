@@ -1,9 +1,9 @@
-kde4libs (4:4.10.2-3) UNRELEASED; urgency=low
+kde4libs (4:4.10.2-3) experimental; urgency=low
 
   * Ensure newer kde-runtime in dependencies.
   * Update uploaders.
 
- -- Sune Vuorela <sune@debian.org>  Wed, 17 Apr 2013 22:06:59 +0200
+ -- Sune Vuorela <sune@debian.org>  Mon, 22 Apr 2013 08:39:39 +0200
 
 kde4libs (4:4.10.2-2) experimental; urgency=low
 
