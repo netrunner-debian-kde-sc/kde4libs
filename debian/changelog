@@ -10,6 +10,7 @@ kde4libs (4:4.10.3-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.4.
   * Remove patch install_kcookiescfg.pl_with_exec_perms.diff.
   * Remove patch upstream_Remove-extra-sys-mount.h-include.patch.
+  * Update symbols files to make lintian versions parser pass.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 May 2013 18:49:01 +0200
 
