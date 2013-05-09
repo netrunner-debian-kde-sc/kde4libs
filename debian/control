@@ -6,7 +6,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
  Fathi Boudra <fabo@debian.org>,
  Modestas Vainius <modax@debian.org>, 
  George Kiagiadakis <kiagiadakis.george@gmail.com>
-Build-Depends: debhelper (>= 7.3.16), cmake (>= 2.6.4), pkg-kde-tools (>= 0.14), libdlrestrictions-dev (>= 0.14),
+Build-Depends: debhelper (>= 9), cmake (>= 2.6.4), pkg-kde-tools (>= 0.14), libdlrestrictions-dev (>= 0.14),
  shared-mime-info (>= 0.30), dpkg-dev (>= 1.15.5), libphonon-dev (>= 4:4.6.0really4.3.80),
  libqt4-dev (>= 4:4.7.0), libqt4-opengl-dev (>= 4:4.7.0), libqtwebkit-dev,
  libpng12-dev, libssl-dev, libsm-dev, flex, bison,
@@ -19,7 +19,7 @@ Build-Depends: debhelper (>= 7.3.16), cmake (>= 2.6.4), pkg-kde-tools (>= 0.14),
  libpolkit-qt-1-dev (>= 0.99.0), libxss-dev, libqca2-dev, libdbusmenu-qt-dev, docbook-xml, docbook-xsl,
  libxrender-dev, libkrb5-dev, libudev-dev [linux-any]
 Build-Conflicts: libqtwebkit-dev (<< 2.2.1), libhupnp-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde4libs.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde4libs.git

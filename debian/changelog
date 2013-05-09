@@ -5,6 +5,10 @@ kde4libs (4:4.10.3-1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Fix typo in description of libkunitconversion4. (Closes: #705955)
 
+  [ Maximiliano Curia ]
+  * Bump debhelper build-dep/compat to 9.
+  * Bump Standards-Version to 3.9.4.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 May 2013 18:49:01 +0200
 
 kde4libs (4:4.10.2-3) experimental; urgency=low
