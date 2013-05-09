@@ -20,5 +20,4 @@ add_dlrestrictions_support.diff
 ktar_header_checksum_fix.diff
 ktar_longlink_length_in_bytes.diff
 glibc_filesystem.diff
-upstream_Remove-extra-sys-mount.h-include.patch
 kfreebsd_getmntent.diff

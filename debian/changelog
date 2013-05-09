@@ -9,6 +9,7 @@ kde4libs (4:4.10.3-1) UNRELEASED; urgency=low
   * Bump debhelper build-dep/compat to 9.
   * Bump Standards-Version to 3.9.4.
   * Remove patch install_kcookiescfg.pl_with_exec_perms.diff.
+  * Remove patch upstream_Remove-extra-sys-mount.h-include.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 May 2013 18:49:01 +0200
 
