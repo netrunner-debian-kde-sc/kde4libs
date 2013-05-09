@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4-5 armel
+# SymbolsHelper-Confirmed: 4:4.10.3 amd64
 libktexteditor.so.4 libktexteditor4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KTextEditor10ConfigPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -430,6 +430,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor8Document11qt_metacastEPKc@Base 4:4.3.4
  _ZN11KTextEditor8Document11replaceTextERKNS_5RangeERK11QStringListb@Base 4:4.3.4
  _ZN11KTextEditor8Document11replaceTextERKNS_5RangeERK7QStringb@Base 4:4.3.4
+ _ZN11KTextEditor8Document11setOrphanedEb@Base 4:4.10.3
  _ZN11KTextEditor8Document11textChangedEPS0_@Base 4:4.3.4
  _ZN11KTextEditor8Document11textChangedEPS0_RKNS_5RangeERK7QStringS4_@Base 4:4.4.95
  _ZN11KTextEditor8Document11textChangedEPS0_RKNS_5RangeES4_@Base 4:4.3.4
@@ -569,6 +570,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZNK11KTextEditor6Editor15defaultEncodingEv@Base 4:4.4.95
  _ZNK11KTextEditor6Plugin10metaObjectEv@Base 4:4.3.4
  _ZNK11KTextEditor7Factory10metaObjectEv@Base 4:4.3.4
+ _ZNK11KTextEditor8Document10isOrphanedEv@Base 4:4.10.3
  _ZNK11KTextEditor8Document10metaObjectEv@Base 4:4.3.4
  _ZNK11KTextEditor8Document12openingErrorEv@Base 4:4.3.4
  _ZNK11KTextEditor8Document19openingErrorMessageEv@Base 4:4.3.4

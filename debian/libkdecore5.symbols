@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.1 amd64
+# SymbolsHelper-Confirmed: 4:4.10.3 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -2721,6 +2721,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN9KSaveFile13rcsBackupFileERK7QStringS2_S2_@Base 4:4.3.4
  _ZN9KSaveFile16simpleBackupFileERK7QStringS2_S2_@Base 4:4.3.4
  _ZN9KSaveFile18numberedBackupFileERK7QStringS2_S2_j@Base 4:4.3.4
+ _ZN9KSaveFile22setDirectWriteFallbackEb@Base 4:4.10.3
  _ZN9KSaveFile4openE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:4.3.4
  _ZN9KSaveFile5abortEv@Base 4:4.3.4
  _ZN9KSaveFile8finalizeEv@Base 4:4.3.4
@@ -3949,6 +3950,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK9KMimeType8patternsEv@Base 4:4.3.4
  _ZNK9KMimeType9isDefaultEv@Base 4:4.3.4
  _ZNK9KSaveFile11errorStringEv@Base 4:4.3.4
+ _ZNK9KSaveFile19directWriteFallbackEv@Base 4:4.10.3
  _ZNK9KSaveFile5errorEv@Base 4:4.3.4
  _ZNK9KSaveFile8fileNameEv@Base 4:4.3.4
  _ZNK9KSslError11certificateEv@Base 4:4.3.4
