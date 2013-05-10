@@ -14,6 +14,8 @@ kde4libs (4:4.10.3-1) UNRELEASED; urgency=low
   * Update symbols, add new symbols:
     - libkdecore5.symbols
     - libktexteditor4.symbols
+  * Use SSL/TLS certificates bundle from ca-certificates package, thanks to
+    Thijs Kinkhorst <thijs@debian.org>. (Closes: #511597)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 May 2013 18:49:01 +0200
 
