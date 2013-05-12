@@ -17,6 +17,7 @@ kde4libs (4:4.10.3-1) UNRELEASED; urgency=low
   * Use SSL/TLS certificates bundle from ca-certificates package, thanks to
     Thijs Kinkhorst <thijs@debian.org>. (Closes: #511597)
   * Avoid usage of HUpnp by config instead of Build-Conflicts.
+  * Add myself to the Uploaders field.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 May 2013 18:49:01 +0200
 
