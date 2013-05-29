@@ -1,5 +1,8 @@
 kde4libs (4:4.10.3-2) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove hal as libsolid4 dependency for non-linux archs, as it will get
+    removed from Debian (Closes: #710198).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 May 2013 22:48:07 -0300
 
