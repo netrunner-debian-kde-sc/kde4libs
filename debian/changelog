@@ -23,6 +23,9 @@ kde4libs (4:4.10.4-1) UNRELEASED; urgency=low
   * Remove hal as libsolid4 dependency for non-linux archs, as it will get
     removed from Debian (Closes: #710198).
 
+  [ Maximiliano Curia ]
+  * Symbols update for libnepomuk4.
+
  -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Jun 2013 17:02:01 +0200
 
 kde4libs (4:4.10.2-3) experimental; urgency=low

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.10.4 amd64
 libnepomuk.so.4 libnepomuk4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN15KTagCloudWidget10tagClickedERK7QString@Base 4:4.3.4
@@ -1576,6 +1576,7 @@ libnepomuk.so.4 libnepomuk4 #MINVER#
  _ZN7Nepomuk9TagWidget17slotTagUpdateDoneEv@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget18setTaggedResourcesERK5QListINS_8ResourceEE@Base 4:4.3.4
  _ZN7Nepomuk9TagWidget19slotTagStateChangedERKNS_3TagEi@Base 4:4.4.95
+ _ZN7Nepomuk9TagWidget26slotKEditTagDialogFinishedEi@Base 4:4.10.4
  _ZN7Nepomuk9TagWidgetC1EP7QWidget@Base 4:4.3.4
  _ZN7Nepomuk9TagWidgetC1ERKNS_8ResourceEP7QWidget@Base 4:4.3.4
  _ZN7Nepomuk9TagWidgetC2EP7QWidget@Base 4:4.3.4
