@@ -25,6 +25,7 @@ kde4libs (4:4.10.4-1) UNRELEASED; urgency=low
 
   [ Maximiliano Curia ]
   * Symbols update for libnepomuk4.
+  * Update vcs fields.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Jun 2013 17:02:01 +0200
 

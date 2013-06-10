@@ -22,8 +22,8 @@ Build-Depends: debhelper (>= 9), cmake (>= 2.6.4), pkg-kde-tools (>= 0.14), libd
 Build-Conflicts: libqtwebkit-dev (<< 2.2.1)
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde4libs.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde4libs.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde4libs.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde4libs.git
 
 Package: libkdecore5
 Architecture: any
