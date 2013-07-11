@@ -1,6 +1,6 @@
 kde4libs (4:4.10.5-1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release. (Closes: #697074)
   * Update symbols and bump shared-desktop-ontologies b-d to 0.11.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Jul 2013 09:50:52 +0200
