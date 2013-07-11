@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.3 amd64
+# SymbolsHelper-Confirmed: 4:4.10.5 amd64
 libktexteditor.so.4 libktexteditor4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KTextEditor10ConfigPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -730,10 +730,10 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTVN11KTextEditor7FactoryE@Base 4:4.3.4
  _ZTVN11KTextEditor8DocumentE@Base 4:4.3.4
  _ZTVN11KTextEditor9AttributeE@Base 4:4.3.4
- (c++)"construction vtable for KParts::Part-in-KTextEditor::Document@Base" 4:4.3.4
- (c++)"construction vtable for KParts::PartBase-in-KTextEditor::Document@Base" 4:4.3.4
- (c++)"construction vtable for KParts::ReadOnlyPart-in-KTextEditor::Document@Base" 4:4.3.4
- (c++)"construction vtable for KParts::ReadWritePart-in-KTextEditor::Document@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::Part-in-KTextEditor::Document@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::PartBase-in-KTextEditor::Document@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::ReadOnlyPart-in-KTextEditor::Document@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::ReadWritePart-in-KTextEditor::Document@Base" 4:4.3.4
  (c++)"non-virtual thunk to KTextEditor::ConfigPage::~ConfigPage()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KTextEditor::Document::~Document()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KTextEditor::EditorChooser::~EditorChooser()@Base" 4:4.3.4

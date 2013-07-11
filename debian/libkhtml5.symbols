@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.2 amd64 ia64 mips powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.10.5 amd64
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -1827,8 +1827,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOMeqERKNS_9DOMStringES2_@Base 4:4.3.4
  (arch=!amd64)_ZN3KIO8MetaDataD1Ev@Base 4:4.10.2
  (arch=!amd64)_ZN3KIO8MetaDataD2Ev@Base 4:4.10.2
- _ZN3KJS10IdentifierD1Ev@Base 4:4.7.2
- _ZN3KJS10IdentifierD2Ev@Base 4:4.7.2
+ (optional=gccinternal) _ZN3KJS10IdentifierD1Ev@Base 4:4.7.2
+ (optional=gccinternal) _ZN3KJS10IdentifierD2Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
@@ -1849,9 +1849,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3KJS7UStringC1ERKN3DOM9DOMStringE@Base 4:4.3.4
  _ZN3KJS7UStringC2ERK7QString@Base 4:4.3.4
  _ZN3KJS7UStringC2ERKN3DOM9DOMStringE@Base 4:4.3.4
- _ZN3KJS8JSObjectD0Ev@Base 4:4.7.2
- _ZN3KJS8JSObjectD1Ev@Base 4:4.7.2
- _ZN3KJS8JSObjectD2Ev@Base 4:4.7.2
+ (optional=gccinternal) _ZN3KJS8JSObjectD0Ev@Base 4:4.7.2
+ (optional=gccinternal) _ZN3KJS8JSObjectD1Ev@Base 4:4.7.2
+ (optional=gccinternal) _ZN3KJS8JSObjectD2Ev@Base 4:4.7.2
  _ZN5khtml10ChildFrame11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5khtml10ChildFrame11qt_metacastEPKc@Base 4:4.3.4
  _ZN5khtml10ChildFrame13dumpFrameTreeEP9KHTMLPart@Base 4:4.5.85
@@ -3301,9 +3301,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTVN5khtml17MouseReleaseEventE@Base 4:4.3.4
  _ZTVN5khtml21MouseDoubleClickEventE@Base 4:4.3.4
  _ZTVN6KParts21HtmlSettingsInterfaceE@Base 4:4.8.1
- (c++)"construction vtable for KParts::Part-in-KHTMLPart@Base" 4:4.3.4
- (c++)"construction vtable for KParts::PartBase-in-KHTMLPart@Base" 4:4.3.4
- (c++)"construction vtable for KParts::ReadOnlyPart-in-KHTMLPart@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::Part-in-KHTMLPart@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::PartBase-in-KHTMLPart@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::ReadOnlyPart-in-KHTMLPart@Base" 4:4.3.4
  (c++)"non-virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KHTMLView::~KHTMLView()@Base" 4:4.3.4
  (c++)"virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4

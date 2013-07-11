@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.3 amd64
+# SymbolsHelper-Confirmed: 4:4.10.5 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -1336,6 +1336,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN19KCoreConfigSkeletonD0Ev@Base 4:4.3.4
  _ZN19KCoreConfigSkeletonD1Ev@Base 4:4.3.4
  _ZN19KCoreConfigSkeletonD2Ev@Base 4:4.3.4
+ _ZN19KDBusConnectionPool16threadConnectionEv@Base 4:4.10.5
  _ZN19KMimeTypeRepository10parseGlobsEv@Base 4:4.5.85
  _ZN19KMimeTypeRepository10parseMagicEv@Base 4:4.5.85
  _ZN19KMimeTypeRepository11useFavIconsEv@Base 4:4.5.85
@@ -3624,6 +3625,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK7KConfig4nameEv@Base 4:4.3.4
  _ZNK7KConfig6copyToERK7QStringPS_@Base 4:4.3.4
  _ZNK7KConfig6localeEv@Base 4:4.3.4
+ _ZNK7KConfig7isDirtyEv@Base 4:4.10.5
  _ZNK7KConfig7keyListERK7QString@Base 4:4.3.4
  _ZNK7KConfig8entryMapERK7QString@Base 4:4.3.4
  _ZNK7KConfig9groupImplERK10QByteArray@Base 4:4.3.4
@@ -4393,23 +4395,23 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZrsR11QDataStreamRN13KProtocolInfo10ExtraFieldE@Base 4:4.3.4
  _ZrsR11QDataStreamRN9KDateTime4SpecE@Base 4:4.5.0
  _kde_internal_KConfigGroupGui@Base 4:4.3.4
- (c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KBufferedSocket@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KClientSocketBase@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KDatagramSocket@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KHttpProxySocketDevice@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KSocketDevice@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KSocksSocketDevice@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KStreamSocket@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KClientSocketBase-in-KNetwork::KBufferedSocket@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KClientSocketBase-in-KNetwork::KDatagramSocket@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KClientSocketBase-in-KNetwork::KStreamSocket@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KHttpProxySocketDevice@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KServerSocket@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KSocketDevice@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KSocksSocketDevice@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KSocketDevice-in-KNetwork::KHttpProxySocketDevice@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KSocketDevice-in-KNetwork::KSocksSocketDevice@Base" 4:4.3.4
- (c++)"construction vtable for KNetwork::KStreamSocket-in-KNetwork::KBufferedSocket@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KBufferedSocket@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KClientSocketBase@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KDatagramSocket@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KHttpProxySocketDevice@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KSocketDevice@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KSocksSocketDevice@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KStreamSocket@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KClientSocketBase-in-KNetwork::KBufferedSocket@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KClientSocketBase-in-KNetwork::KDatagramSocket@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KClientSocketBase-in-KNetwork::KStreamSocket@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KHttpProxySocketDevice@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KServerSocket@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KSocketDevice@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KSocksSocketDevice@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KSocketDevice-in-KNetwork::KHttpProxySocketDevice@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KSocketDevice-in-KNetwork::KSocksSocketDevice@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KNetwork::KStreamSocket-in-KNetwork::KBufferedSocket@Base" 4:4.3.4
  kde_kdebug_enable_dbus_interface@Base 4:4.3.4
  kiotrader_create_buffer@Base 4:4.3.4
  kiotrader_delete_buffer@Base 4:4.3.4

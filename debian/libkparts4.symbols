@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.0 amd64
+# SymbolsHelper-Confirmed: 4:4.10.5 amd64
 libkparts.so.4 libkparts4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KIO8MetaDataD1Ev@Base 4:4.8.3
@@ -700,14 +700,14 @@ libkparts.so.4 libkparts4 #MINVER#
  _ZTVN6KParts6PluginE@Base 4:4.3.4
  _ZTVN6KParts7FactoryE@Base 4:4.3.4
  _ZTVN6KParts8PartBaseE@Base 4:4.3.4
- (c++)"construction vtable for KParts::Part-in-KParts::ReadOnlyPart@Base" 4:4.3.4
- (c++)"construction vtable for KParts::Part-in-KParts::ReadWritePart@Base" 4:4.3.4
- (c++)"construction vtable for KParts::PartBase-in-KParts::MainWindow@Base" 4:4.3.4
- (c++)"construction vtable for KParts::PartBase-in-KParts::Part@Base" 4:4.3.4
- (c++)"construction vtable for KParts::PartBase-in-KParts::ReadOnlyPart@Base" 4:4.3.4
- (c++)"construction vtable for KParts::PartBase-in-KParts::ReadWritePart@Base" 4:4.3.4
- (c++)"construction vtable for KParts::ReadOnlyPart-in-KParts::ReadWritePart@Base" 4:4.3.4
- (c++)"construction vtable for KXmlGuiWindow-in-KParts::MainWindow@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::Part-in-KParts::ReadOnlyPart@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::Part-in-KParts::ReadWritePart@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::PartBase-in-KParts::MainWindow@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::PartBase-in-KParts::Part@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::PartBase-in-KParts::ReadOnlyPart@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::PartBase-in-KParts::ReadWritePart@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KParts::ReadOnlyPart-in-KParts::ReadWritePart@Base" 4:4.3.4
+ (optional=gccinternal|c++)"construction vtable for KXmlGuiWindow-in-KParts::MainWindow@Base" 4:4.3.4
  (c++)"non-virtual thunk to KParts::MainWindow::~MainWindow()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KParts::Part::~Part()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KParts::ReadOnlyPart::~ReadOnlyPart()@Base" 4:4.3.4
