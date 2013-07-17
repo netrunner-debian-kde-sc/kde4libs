@@ -1,6 +1,7 @@
 kde4libs (4:4.10.5-2) UNRELEASED; urgency=low
 
-  * 
+  * Merge with kde4libs (4:4.8.4-4) unstable; urgency=low.
+    - Fix changelog typo. (Closes: #692398)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 17 Jul 2013 10:12:35 +0200
 
@@ -104,6 +105,16 @@ kde4libs (4:4.10.2-1) experimental; urgency=low
   * Change section of kdoctools from libs to doc.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Oct 2012 15:08:51 +0200
+
+kde4libs (4:4.8.4-4) unstable; urgency=low
+
+  * Backport an upstream patch to fix copying of files with extended ACLs.
+  * The rebuild will get the package rebuilt with xz compression
+    (Closes: #688766).
+  * Add myself to Uploaders.
+  * Confirm symbol files on more Debian arches.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 25 Oct 2012 18:11:08 -0300
 
 kde4libs (4:4.8.4-3) unstable; urgency=low
 
