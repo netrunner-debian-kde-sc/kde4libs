@@ -20,5 +20,4 @@ add_dlrestrictions_support.diff
 ktar_header_checksum_fix.diff
 ktar_longlink_length_in_bytes.diff
 glibc_filesystem.diff
-fix-copying-of-files-with-extended-ACLs.patch
 kfreebsd_getmntent.diff
