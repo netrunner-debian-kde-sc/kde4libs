@@ -1,3 +1,9 @@
+kde4libs (4:4.10.5-2) UNRELEASED; urgency=low
+
+  * 
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 17 Jul 2013 10:12:35 +0200
+
 kde4libs (4:4.10.5-1) unstable; urgency=low
 
   * New upstream release. (Closes: #697074)
