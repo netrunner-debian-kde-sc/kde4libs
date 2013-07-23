@@ -1,11 +1,12 @@
 kde4libs (4:4.10.5-2) UNRELEASED; urgency=low
 
+  [ Maximiliano Curia ]
   * Merge with kde4libs (4:4.8.4-4) unstable; urgency=low.
     - Fix changelog typo. (Closes: #692398)
   * Remove fix-copying-of-files-with-extended-ACLs.patch (added in last
     merge), already applied upstream.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 17 Jul 2013 10:12:35 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Jul 2013 10:12:35 +0200
 
 kde4libs (4:4.10.5-1) unstable; urgency=low
 
