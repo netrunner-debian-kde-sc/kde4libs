@@ -1197,6 +1197,7 @@ usr/include/kdatetime.h
 usr/include/kdatetimeedit.h
 usr/include/kdatetimewidget.h
 usr/include/kdatewidget.h
+usr/include/kdbusconnectionpool.h
 usr/include/kdbusservicestarter.h
 usr/include/kde3support_export.h
 usr/include/kde_file.h
@@ -1617,6 +1618,7 @@ usr/include/ktexteditor/highlightinterface.h
 usr/include/ktexteditor/ktexteditor_export.h
 usr/include/ktexteditor/loadsavefiltercheckplugin.h
 usr/include/ktexteditor/markinterface.h
+usr/include/ktexteditor/messageinterface.h
 usr/include/ktexteditor/modeinterface.h
 usr/include/ktexteditor/modificationinterface.h
 usr/include/ktexteditor/movingcursor.h
