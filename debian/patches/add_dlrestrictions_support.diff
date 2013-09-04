@@ -2,7 +2,7 @@ From: Modestas Vainius <modax@debian.org>
 Subject: Add DLRestrictions support
 Forwarded: not-needed
 Origin: vendor
-Last-Update: 2011-05-25
+Last-Update: 2013-09-04
 
 The patch adds DLRestrictions compatibility checks to the KPluginLoader::load()
 function. Moreover, a new helper CMake macro is introduced to ease addition of
@@ -20,9 +20,11 @@ Please that either DEFAULT_DLRESTRICTIONS variable or DLRESTRICITIONS target
 property must have set beforehand. Otherwise, this snippet will have no effect
 on all (or some) the targets.
 
---- a/cmake/modules/KDE4Macros.cmake
-+++ b/cmake/modules/KDE4Macros.cmake
-@@ -1054,10 +1054,14 @@ macro (KDE4_ADD_LIBRARY _target_NAME _li
+Index: kde4libs/cmake/modules/KDE4Macros.cmake
+===================================================================
+--- kde4libs.orig/cmake/modules/KDE4Macros.cmake	2013-09-04 11:36:45.423728340 +0000
++++ kde4libs/cmake/modules/KDE4Macros.cmake	2013-09-04 11:36:45.391729611 +0000
+@@ -1054,10 +1054,14 @@
     if (${_lib_TYPE} STREQUAL "SHARED")
        set(_first_SRC)
        set(_add_lib_param SHARED)
@@ -37,7 +39,7 @@ on all (or some) the targets.
     endif (${_lib_TYPE} STREQUAL "MODULE")
  
     set(_SRCS ${_first_SRC} ${ARGN})
-@@ -1368,6 +1372,13 @@ function(KDE4_INSTALL_AUTH_ACTIONS HELPE
+@@ -1368,6 +1372,13 @@
  
  endfunction(KDE4_INSTALL_AUTH_ACTIONS)
  
@@ -51,9 +53,11 @@ on all (or some) the targets.
  
  macro(_KDE4_EXPORT_LIBRARY_DEPENDENCIES _append_or_write _filename)
     message(FATAL_ERROR "_KDE4_EXPORT_LIBRARY_DEPENDENCIES() was an internal macro and has been removed again. Just remove the code which calls it, there is no substitute.")
---- a/kdecore/CMakeLists.txt
-+++ b/kdecore/CMakeLists.txt
-@@ -411,6 +411,14 @@ kde4_add_library(kdecore ${LIBRARY_TYPE}
+Index: kde4libs/kdecore/CMakeLists.txt
+===================================================================
+--- kde4libs.orig/kdecore/CMakeLists.txt	2013-09-04 11:36:45.423728340 +0000
++++ kde4libs/kdecore/CMakeLists.txt	2013-09-04 11:36:45.395729452 +0000
+@@ -413,6 +413,14 @@
  
  target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
  
@@ -68,8 +72,10 @@ on all (or some) the targets.
  if(WINCE)
    target_link_libraries(kdecore ${WCECOMPAT_LIBRARIES} Ceshell.lib)
  endif(WINCE)
---- a/kdecore/util/kpluginloader.cpp
-+++ b/kdecore/util/kpluginloader.cpp
+Index: kde4libs/kdecore/util/kpluginloader.cpp
+===================================================================
+--- kde4libs.orig/kdecore/util/kpluginloader.cpp	2013-09-04 11:36:45.423728340 +0000
++++ kde4libs/kdecore/util/kpluginloader.cpp	2013-09-04 11:36:45.419728499 +0000
 @@ -31,6 +31,14 @@
  #include <QtCore/QDir>
  #include <QtCore/QFileInfo>
@@ -85,7 +91,7 @@ on all (or some) the targets.
  extern int kLibraryDebugArea();
  
  class KPluginLoaderPrivate
-@@ -259,6 +267,30 @@ bool KPluginLoader::load()
+@@ -259,6 +267,30 @@
      else
          d->pluginVersion = ~0U;
  

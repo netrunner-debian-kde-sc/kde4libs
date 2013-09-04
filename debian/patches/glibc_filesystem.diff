@@ -2,12 +2,14 @@ Author: Pino Toscano <pino@debian.org>
 Description: Correct determineFileSystemTypeImpl() for any glibc-based system
  Fixes compilation on GNU/kFreeBSD, which has no determineFileSystemTypeImpl()
  being recognized by default.
-Last-Update: 2011-12-03
+Last-Update: 2013-09-04
 Forwarded: no
 
---- a/kdecore/io/kfilesystemtype_p.cpp
-+++ b/kdecore/io/kfilesystemtype_p.cpp
-@@ -53,7 +53,7 @@ KFileSystemType::Type determineFileSyste
+Index: kde4libs/kdecore/io/kfilesystemtype_p.cpp
+===================================================================
+--- kde4libs.orig/kdecore/io/kfilesystemtype_p.cpp	2013-09-04 11:36:51.283495440 +0000
++++ kde4libs/kdecore/io/kfilesystemtype_p.cpp	2013-09-04 11:36:51.279495599 +0000
+@@ -56,7 +56,7 @@
      return kde_typeFromName(buf.f_fstypename);
  }
  

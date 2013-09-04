@@ -1,10 +1,12 @@
 Make kdelibs build in Debian's kFreeBSD.
 We can not push this patch to upstream since the:
 CMAKE_SYSTEM_NAME MATCHES kFreeBSD stuff, needs the Debian patched
-cmake. 
+cmake.
 
---- a/ConfigureChecks.cmake
-+++ b/ConfigureChecks.cmake
+Index: kde4libs/ConfigureChecks.cmake
+===================================================================
+--- kde4libs.orig/ConfigureChecks.cmake	2013-09-04 11:33:40.403081551 +0000
++++ kde4libs/ConfigureChecks.cmake	2013-09-04 11:33:40.323084729 +0000
 @@ -138,11 +138,11 @@
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
@@ -20,8 +22,10 @@ cmake.
      if (HAVE_UTMPX)
        set(utmp utmpx)
        if (login_in_libutil)
---- a/kio/kfile/kpropertiesdialog.cpp
-+++ b/kio/kfile/kpropertiesdialog.cpp
+Index: kde4libs/kio/kfile/kpropertiesdialog.cpp
+===================================================================
+--- kde4libs.orig/kio/kfile/kpropertiesdialog.cpp	2013-09-04 11:33:40.403081551 +0000
++++ kde4libs/kio/kfile/kpropertiesdialog.cpp	2013-09-04 11:33:40.327084571 +0000
 @@ -1901,7 +1901,15 @@
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
@@ -39,8 +43,10 @@ cmake.
  #endif
      return fileSystemSupportsACLs;
  }
---- a/kioslave/file/file.cpp
-+++ b/kioslave/file/file.cpp
+Index: kde4libs/kioslave/file/file.cpp
+===================================================================
+--- kde4libs.orig/kioslave/file/file.cpp	2013-09-04 11:33:40.403081551 +0000
++++ kde4libs/kioslave/file/file.cpp	2013-09-04 11:33:40.331084412 +0000
 @@ -310,8 +310,10 @@
      }
  
@@ -52,8 +58,10 @@ cmake.
  
      // Determine the mimetype of the file to be retrieved, and emit it.
      // This is mandatory in all slaves (for KRun/BrowserRun to work)
---- a/kioslave/file/file_unix.cpp
-+++ b/kioslave/file/file_unix.cpp
+Index: kde4libs/kioslave/file/file_unix.cpp
+===================================================================
+--- kde4libs.orig/kioslave/file/file_unix.cpp	2013-09-04 11:33:40.403081551 +0000
++++ kde4libs/kioslave/file/file_unix.cpp	2013-09-04 11:33:40.363083141 +0000
 @@ -145,8 +145,10 @@
      }
  
@@ -76,8 +84,10 @@ cmake.
  
  #ifdef HAVE_POSIX_ACL
      acl = acl_get_fd(src_fd);
---- a/kpty/kpty.cpp
-+++ b/kpty/kpty.cpp
+Index: kde4libs/kpty/kpty.cpp
+===================================================================
+--- kde4libs.orig/kpty/kpty.cpp	2013-09-04 11:33:40.403081551 +0000
++++ kde4libs/kpty/kpty.cpp	2013-09-04 11:33:40.399081710 +0000
 @@ -109,24 +109,24 @@
  # define _NEW_TTY_CTRL
  #endif
@@ -115,15 +125,17 @@ cmake.
  #endif
  
  #include <kdebug.h>
---- a/cmake/modules/FindKDE4Internal.cmake
-+++ b/cmake/modules/FindKDE4Internal.cmake
+Index: kde4libs/cmake/modules/FindKDE4Internal.cmake
+===================================================================
+--- kde4libs.orig/cmake/modules/FindKDE4Internal.cmake	2013-09-04 11:33:40.403081551 +0000
++++ kde4libs/cmake/modules/FindKDE4Internal.cmake	2013-09-04 11:35:51.201883364 +0000
 @@ -1093,7 +1093,7 @@
  endif (APPLE)
  
  
 -if (CMAKE_SYSTEM_NAME MATCHES Linux OR CMAKE_SYSTEM_NAME STREQUAL GNU)
 +if (CMAKE_SYSTEM_NAME MATCHES Linux OR CMAKE_SYSTEM_NAME STREQUAL GNU OR CMAKE_SYSTEM_NAME MATCHES kFreeBSD)
-    if (CMAKE_COMPILER_IS_GNUCXX)
+    if (CMAKE_COMPILER_IS_GNUCXX OR "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
        set ( _KDE4_PLATFORM_DEFINITIONS -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -D_GNU_SOURCE)
        set ( CMAKE_SHARED_LINKER_FLAGS "-Wl,--fatal-warnings -Wl,--no-undefined -lc ${CMAKE_SHARED_LINKER_FLAGS}")
 @@ -1114,7 +1114,7 @@
