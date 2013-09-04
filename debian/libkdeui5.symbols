@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.2 amd64 ia64 mips powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -2122,6 +2122,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN14KFontRequesterD1Ev@Base 4:4.3.4
  _ZN14KFontRequesterD2Ev@Base 4:4.3.4
  _ZN14KMessageWidget10paintEventEP11QPaintEvent@Base 4:4.7.0
+ _ZN14KMessageWidget11linkHoveredERK7QString@Base 4:4.11.1
  _ZN14KMessageWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.0
  _ZN14KMessageWidget11qt_metacastEPKc@Base 4:4.7.0
  _ZN14KMessageWidget11resizeEventEP12QResizeEvent@Base 4:4.7.0
@@ -2134,6 +2135,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN14KMessageWidget16staticMetaObjectE@Base 4:4.7.0
  _ZN14KMessageWidget21setCloseButtonVisibleEb@Base 4:4.7.0
  _ZN14KMessageWidget5eventEP6QEvent@Base 4:4.7.0
+ _ZN14KMessageWidget7setIconERK5QIcon@Base 4:4.11.1
  _ZN14KMessageWidget7setTextERK7QString@Base 4:4.7.0
  _ZN14KMessageWidget9addActionEP7QAction@Base 4:4.7.0
  _ZN14KMessageWidget9showEventEP10QShowEvent@Base 4:4.7.0
@@ -5802,6 +5804,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK14KMessageWidget14heightForWidthEi@Base 4:4.8.4
  _ZNK14KMessageWidget15minimumSizeHintEv@Base 4:4.7.0
  _ZNK14KMessageWidget20isCloseButtonVisibleEv@Base 4:4.7.0
+ _ZNK14KMessageWidget4iconEv@Base 4:4.11.1
  _ZNK14KMessageWidget4textEv@Base 4:4.7.0
  _ZNK14KMessageWidget8sizeHintEv@Base 4:4.7.0
  _ZNK14KMessageWidget8wordWrapEv@Base 4:4.7.0

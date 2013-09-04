@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -2558,6 +2558,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN8KService20serviceByDesktopNameERK7QString@Base 4:4.3.4
  _ZN8KService20serviceByDesktopPathERK7QString@Base 4:4.3.4
  _ZN8KService21_k_accessServiceTypesEv@Base 4:4.3.4
+ _ZN8KService7setExecERK7QString@Base 4:4.11.1
  _ZN8KService9setMenuIdERK7QString@Base 4:4.3.4
  _ZN8KServiceC1EPK12KDesktopFile@Base 4:4.3.4
  _ZN8KServiceC1ER11QDataStreami@Base 4:4.3.4

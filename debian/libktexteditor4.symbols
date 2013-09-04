@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libktexteditor.so.4 libktexteditor4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KTextEditor10ConfigPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -126,6 +126,11 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor15SearchInterfaceD0Ev@Base 4:4.3.4
  _ZN11KTextEditor15SearchInterfaceD1Ev@Base 4:4.3.4
  _ZN11KTextEditor15SearchInterfaceD2Ev@Base 4:4.3.4
+ _ZN11KTextEditor16MessageInterfaceC1Ev@Base 4:4.11.1
+ _ZN11KTextEditor16MessageInterfaceC2Ev@Base 4:4.11.1
+ _ZN11KTextEditor16MessageInterfaceD0Ev@Base 4:4.11.1
+ _ZN11KTextEditor16MessageInterfaceD1Ev@Base 4:4.11.1
+ _ZN11KTextEditor16MessageInterfaceD2Ev@Base 4:4.11.1
  _ZN11KTextEditor16ViewBarContainerC1Ev@Base 4:4.3.4
  _ZN11KTextEditor16ViewBarContainerC2Ev@Base 4:4.3.4
  _ZN11KTextEditor16ViewBarContainerD0Ev@Base 4:4.3.4
@@ -425,6 +430,27 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor7FactoryD0Ev@Base 4:4.3.4
  _ZN11KTextEditor7FactoryD1Ev@Base 4:4.3.4
  _ZN11KTextEditor7FactoryD2Ev@Base 4:4.3.4
+ _ZN11KTextEditor7Message11iconChangedERK5QIcon@Base 4:4.11.1
+ _ZN11KTextEditor7Message11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
+ _ZN11KTextEditor7Message11qt_metacastEPKc@Base 4:4.11.1
+ _ZN11KTextEditor7Message11setAutoHideEi@Base 4:4.11.1
+ _ZN11KTextEditor7Message11setDocumentEPNS_8DocumentE@Base 4:4.11.1
+ _ZN11KTextEditor7Message11setPositionENS0_15MessagePositionE@Base 4:4.11.1
+ _ZN11KTextEditor7Message11setPriorityEi@Base 4:4.11.1
+ _ZN11KTextEditor7Message11setWordWrapEb@Base 4:4.11.1
+ _ZN11KTextEditor7Message11textChangedERK7QString@Base 4:4.11.1
+ _ZN11KTextEditor7Message15setAutoHideModeENS0_12AutoHideModeE@Base 4:4.11.1
+ _ZN11KTextEditor7Message16staticMetaObjectE@Base 4:4.11.1
+ _ZN11KTextEditor7Message6closedEPS0_@Base 4:4.11.1
+ _ZN11KTextEditor7Message7setIconERK5QIcon@Base 4:4.11.1
+ _ZN11KTextEditor7Message7setTextERK7QString@Base 4:4.11.1
+ _ZN11KTextEditor7Message7setViewEPNS_4ViewE@Base 4:4.11.1
+ _ZN11KTextEditor7Message9addActionEP7QActionb@Base 4:4.11.1
+ _ZN11KTextEditor7MessageC1ERK7QStringNS0_11MessageTypeE@Base 4:4.11.1
+ _ZN11KTextEditor7MessageC2ERK7QStringNS0_11MessageTypeE@Base 4:4.11.1
+ _ZN11KTextEditor7MessageD0Ev@Base 4:4.11.1
+ _ZN11KTextEditor7MessageD1Ev@Base 4:4.11.1
+ _ZN11KTextEditor7MessageD2Ev@Base 4:4.11.1
  _ZN11KTextEditor8Document11modeChangedEPS0_@Base 4:4.3.4
  _ZN11KTextEditor8Document11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KTextEditor8Document11qt_metacastEPKc@Base 4:4.3.4
@@ -570,6 +596,18 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZNK11KTextEditor6Editor15defaultEncodingEv@Base 4:4.4.95
  _ZNK11KTextEditor6Plugin10metaObjectEv@Base 4:4.3.4
  _ZNK11KTextEditor7Factory10metaObjectEv@Base 4:4.3.4
+ _ZNK11KTextEditor7Message10metaObjectEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message11messageTypeEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message12autoHideModeEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message4iconEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message4textEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message4viewEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message7actionsEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message8autoHideEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message8documentEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message8positionEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message8priorityEv@Base 4:4.11.1
+ _ZNK11KTextEditor7Message8wordWrapEv@Base 4:4.11.1
  _ZNK11KTextEditor8Document10isOrphanedEv@Base 4:4.10.3
  _ZNK11KTextEditor8Document10metaObjectEv@Base 4:4.3.4
  _ZNK11KTextEditor8Document12openingErrorEv@Base 4:4.3.4
@@ -600,6 +638,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTIN11KTextEditor15ConfigInterfaceE@Base 4:4.3.4
  _ZTIN11KTextEditor15MovingInterfaceE@Base 4:4.4.95
  _ZTIN11KTextEditor15SearchInterfaceE@Base 4:4.3.4
+ _ZTIN11KTextEditor16MessageInterfaceE@Base 4:4.11.1
  _ZTIN11KTextEditor16ViewBarContainerE@Base 4:4.3.4
  _ZTIN11KTextEditor17RecoveryInterfaceE@Base 4:4.5.85
  _ZTIN11KTextEditor17SmartRangeWatcherE@Base 4:4.3.4
@@ -631,6 +670,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTIN11KTextEditor6EditorE@Base 4:4.3.4
  _ZTIN11KTextEditor6PluginE@Base 4:4.3.4
  _ZTIN11KTextEditor7FactoryE@Base 4:4.3.4
+ _ZTIN11KTextEditor7MessageE@Base 4:4.11.1
  _ZTIN11KTextEditor8DocumentE@Base 4:4.3.4
  _ZTIN11KTextEditor9AttributeE@Base 4:4.3.4
  _ZTSN11KTextEditor10ConfigPageE@Base 4:4.3.4
@@ -648,6 +688,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTSN11KTextEditor15ConfigInterfaceE@Base 4:4.3.4
  _ZTSN11KTextEditor15MovingInterfaceE@Base 4:4.4.95
  _ZTSN11KTextEditor15SearchInterfaceE@Base 4:4.3.4
+ _ZTSN11KTextEditor16MessageInterfaceE@Base 4:4.11.1
  _ZTSN11KTextEditor16ViewBarContainerE@Base 4:4.3.4
  _ZTSN11KTextEditor17RecoveryInterfaceE@Base 4:4.5.85
  _ZTSN11KTextEditor17SmartRangeWatcherE@Base 4:4.3.4
@@ -679,6 +720,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTSN11KTextEditor6EditorE@Base 4:4.3.4
  _ZTSN11KTextEditor6PluginE@Base 4:4.3.4
  _ZTSN11KTextEditor7FactoryE@Base 4:4.3.4
+ _ZTSN11KTextEditor7MessageE@Base 4:4.11.1
  _ZTSN11KTextEditor8DocumentE@Base 4:4.3.4
  _ZTSN11KTextEditor9AttributeE@Base 4:4.3.4
  _ZTTN11KTextEditor8DocumentE@Base 4:4.3.4
@@ -697,6 +739,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTVN11KTextEditor15ConfigInterfaceE@Base 4:4.3.4
  _ZTVN11KTextEditor15MovingInterfaceE@Base 4:4.4.95
  _ZTVN11KTextEditor15SearchInterfaceE@Base 4:4.3.4
+ _ZTVN11KTextEditor16MessageInterfaceE@Base 4:4.11.1
  _ZTVN11KTextEditor16ViewBarContainerE@Base 4:4.3.4
  _ZTVN11KTextEditor17RecoveryInterfaceE@Base 4:4.5.85
  _ZTVN11KTextEditor17SmartRangeWatcherE@Base 4:4.3.4
@@ -728,6 +771,7 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZTVN11KTextEditor6EditorE@Base 4:4.3.4
  _ZTVN11KTextEditor6PluginE@Base 4:4.3.4
  _ZTVN11KTextEditor7FactoryE@Base 4:4.3.4
+ _ZTVN11KTextEditor7MessageE@Base 4:4.11.1
  _ZTVN11KTextEditor8DocumentE@Base 4:4.3.4
  _ZTVN11KTextEditor9AttributeE@Base 4:4.3.4
  (optional=gccinternal|c++)"construction vtable for KParts::Part-in-KTextEditor::Document@Base" 4:4.3.4

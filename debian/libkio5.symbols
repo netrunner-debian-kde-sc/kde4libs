@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1670,6 +1670,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO13JobUiDelegate11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO13JobUiDelegate13askFileRenameEP4KJobRK7QStringS5_S5_NS_17RenameDialog_ModeERS3_yyllll@Base 4:4.3.4
  _ZN3KIO13JobUiDelegate16staticMetaObjectE@Base 4:4.3.4
+ _ZN3KIO13JobUiDelegate17requestMessageBoxENS0_14MessageBoxTypeERK7QStringS4_S4_S4_S4_S4_S4_RKNS_8MetaDataE@Base 4:4.11.1
  _ZN3KIO13JobUiDelegate21askDeleteConfirmationERKN4KUrl4ListENS0_12DeletionTypeENS0_16ConfirmationTypeE@Base 4:4.3.4
  _ZN3KIO13JobUiDelegate7askSkipEP4KJobbRK7QString@Base 4:4.3.4
  _ZN3KIO13JobUiDelegate9setWindowEP7QWidget@Base 4:4.3.4
@@ -1707,6 +1708,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO14SlaveInterface14requestNetworkERK7QStringS3_@Base 4:4.3.4
  _ZN3KIO14SlaveInterface16sendResumeAnswerEb@Base 4:4.3.4
  _ZN3KIO14SlaveInterface16staticMetaObjectE@Base 4:4.3.4
+ _ZN3KIO14SlaveInterface20sendMessageBoxAnswerEi@Base 4:4.11.1
  _ZN3KIO14SlaveInterface4dataERK10QByteArray@Base 4:4.3.4
  _ZN3KIO14SlaveInterface4openEv@Base 4:4.3.4
  _ZN3KIO14SlaveInterface5errorEiRK7QString@Base 4:4.3.4

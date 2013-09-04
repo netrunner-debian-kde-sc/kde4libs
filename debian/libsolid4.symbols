@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4-5 armel hurd-i386
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libsolid.so.4 libsolid4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN5Solid10Networking13connectPolicyEv@Base 4:4.4.95
@@ -243,10 +243,12 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZN5Solid6DeviceaSERKS0_@Base 4:4.3.4
  _ZN5Solid7Battery11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid7Battery11qt_metacastEPKc@Base 4:4.3.4
+ _ZN5Solid7Battery15capacityChangedEiRK7QString@Base 4:4.11.1
  _ZN5Solid7Battery16plugStateChangedEbRK7QString@Base 4:4.3.4
  _ZN5Solid7Battery16staticMetaObjectE@Base 4:4.3.4
  _ZN5Solid7Battery18chargeStateChangedEiRK7QString@Base 4:4.3.4
  _ZN5Solid7Battery20chargePercentChangedEiRK7QString@Base 4:4.3.4
+ _ZN5Solid7Battery23powerSupplyStateChangedEbRK7QString@Base 4:4.11.1
  _ZN5Solid7BatteryC1EP7QObject@Base 4:4.3.4
  _ZN5Solid7BatteryC2EP7QObject@Base 4:4.3.4
  _ZN5Solid7BatteryD0Ev@Base 4:4.3.4
@@ -392,8 +394,10 @@ libsolid.so.4 libsolid4 #MINVER#
  _ZNK5Solid7Battery10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid7Battery11chargeStateEv@Base 4:4.3.4
  _ZNK5Solid7Battery13chargePercentEv@Base 4:4.3.4
+ _ZNK5Solid7Battery13isPowerSupplyEv@Base 4:4.11.1
  _ZNK5Solid7Battery14isRechargeableEv@Base 4:4.3.4
  _ZNK5Solid7Battery4typeEv@Base 4:4.3.4
+ _ZNK5Solid7Battery8capacityEv@Base 4:4.11.1
  _ZNK5Solid7Battery9isPluggedEv@Base 4:4.3.4
  _ZNK5Solid9AcAdapter10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid9AcAdapter9isPluggedEv@Base 4:4.3.4

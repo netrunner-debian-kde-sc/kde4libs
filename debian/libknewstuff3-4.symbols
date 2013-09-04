@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.2 i386 ia64 mips powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libknewstuff3.so.4 libknewstuff3-4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN4KNS312UploadDialog10setVersionERK7QString@Base 4:4.4.95
@@ -41,6 +41,7 @@ libknewstuff3.so.4 libknewstuff3-4 #MINVER#
  _ZN4KNS312UploadDialog7Private25_k_preview3UploadFinishedEPN6Attica7BaseJobE@Base 4:4.4.95
  _ZN4KNS312UploadDialog7Private27_k_checkCredentialsFinishedEb@Base 4:4.4.95
  _ZN4KNS312UploadDialog7Private29_k_contentByCurrentUserLoadedERK5QListIN6Attica7ContentEE@Base 4:4.4.95
+ _ZN4KNS312UploadDialog7Private29_k_openRegisterAccountWebpageE7QString@Base 4:4.11.1
  _ZN4KNS312UploadDialog7Private4initERK7QString@Base 4:4.10.2
  _ZN4KNS312UploadDialog7Private7setBusyERK7QString@Base 4:4.4.95
  _ZN4KNS312UploadDialog7Private7setIdleERK7QString@Base 4:4.4.95
