@@ -1,4 +1,4 @@
-kde4libs (4:4.11.2-0r0) UNRELEASED; urgency=low
+kde4libs (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -14,7 +14,7 @@ kde4libs (4:4.11.2-0r0) UNRELEASED; urgency=low
   * Update symbol files.
   * Add new header files.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:27:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Oct 2013 20:35:10 +0200
 
 kde4libs (4:4.10.5-1) unstable; urgency=low
 
