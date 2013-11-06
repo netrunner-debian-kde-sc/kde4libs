@@ -1,6 +1,7 @@
 kde4libs (4:4.11.3-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Switch to udisks2 backend, thanks to Michael Biebl. (Closes: #718456)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 06 Nov 2013 09:57:52 +0100
 

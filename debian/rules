@@ -13,6 +13,7 @@ endif
 override_dh_auto_configure:
 	$(overridden_command) -- -DKDE4_BUILD_TESTS=false \
 	    -DWITH_HUpnp=OFF \
+	    -DWITH_SOLID_UDISKS2=ON \
 	    -DKDE_DISTRIBUTION_TEXT="Debian packages" \
 	    -DKDE4_USE_ALWAYS_FULL_RPATH=false \
 	    -DCONFIG_INSTALL_DIR=/usr/share/kde4/config \
