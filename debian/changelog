@@ -1,6 +1,6 @@
 kde4libs (4:4.11.3-2) UNRELEASED; urgency=low
 
-  * 
+  * New patch kfreebsd_acl.diff, to fix build in kfreebsd-*.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 07 Nov 2013 18:27:11 +0100
 
