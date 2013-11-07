@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.3 kfreebsd-amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -272,8 +272,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN11KMountPoint19possibleMountPointsE6QFlagsINS_17DetailsNeededFlagEE@Base 4:4.4.95
  _ZN11KMountPoint4ListC1Ev@Base 4:4.4.95
  _ZN11KMountPoint4ListC2Ev@Base 4:4.4.95
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN11KMountPoint4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN11KMountPoint4ListD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN11KMountPoint4ListD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN11KMountPoint4ListD2Ev@Base 4:4.6.5
  _ZN11KMountPoint7Private25finalizeCurrentMountPointE6QFlagsINS_17DetailsNeededFlagEE@Base 4:4.4.95
  _ZN11KMountPoint7Private26finalizePossibleMountPointE6QFlagsINS_17DetailsNeededFlagEE@Base 4:4.4.95
  _ZN11KMountPointC1Ev@Base 4:4.4.95
@@ -633,8 +633,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN13KStandardDirs18addXdgConfigPrefixERK7QStringb@Base 4:4.3.4
  _ZN13KStandardDirs20KStandardDirsPrivate12resourceDirsEPKcRK7QString@Base 4:4.3.4
  _ZN13KStandardDirs20KStandardDirsPrivate21createSpecialResourceEPKc@Base 4:4.3.4
- (arch=armel kfreebsd-amd64 kfreebsd-i386)_ZN13KStandardDirs20KStandardDirsPrivateD1Ev@Base 4:4.7.4
- (arch=armel kfreebsd-amd64 kfreebsd-i386)_ZN13KStandardDirs20KStandardDirsPrivateD2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=armel kfreebsd-i386)_ZN13KStandardDirs20KStandardDirsPrivateD1Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=armel kfreebsd-i386)_ZN13KStandardDirs20KStandardDirsPrivateD2Ev@Base 4:4.7.4
  _ZN13KStandardDirs24addResourcesFrom_krcdirsEv@Base 4:4.3.4
  _ZN13KStandardDirs25kfsstnd_xdg_conf_prefixesEv@Base 4:4.3.4
  _ZN13KStandardDirs25kfsstnd_xdg_data_prefixesEv@Base 4:4.3.4
@@ -1282,10 +1282,10 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN19KCoreConfigSkeleton8ItemBoolD2Ev@Base 4:4.7.4
  _ZN19KCoreConfigSkeleton8ItemEnum10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemEnum11writeConfigEP7KConfig@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD2Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
  _ZN19KCoreConfigSkeleton8ItemEnumC1ERK7QStringS3_RiRK5QListINS0_6ChoiceEEi@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemEnumC1ERK7QStringS3_RiRK5QListINS0_7Choice2EEi@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemEnumC2ERK7QStringS3_RiRK5QListINS0_6ChoiceEEi@Base 4:4.3.4
@@ -1491,9 +1491,9 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN3KDE12versionMinorEv@Base 4:4.3.4
  _ZN3KDE13versionStringEv@Base 4:4.3.4
  _ZN3KDE14versionReleaseEv@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KDE4statERK7QStringP4stat@Base 4:4.7.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KDE5lstatERK7QStringP4stat@Base 4:4.7.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KDE6accessERK7QStringi@Base 4:4.7.4
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN3KDE4statERK7QStringP4stat@Base 4:4.7.4
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN3KDE5lstatERK7QStringP4stat@Base 4:4.7.4
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN3KDE6accessERK7QStringi@Base 4:4.7.4
  _ZN3KDE7versionEv@Base 4:4.3.4
  _ZN4KJob10emitResultEv@Base 4:4.3.4
  _ZN4KJob10setPercentEm@Base 4:4.3.4
@@ -1620,8 +1620,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN4KUrl4ListC2ERK5QListIS_E@Base 4:4.3.4
  (arch=armel)_ZN4KUrl4ListC2ERKS0_@Base 4:4.7.4
  _ZN4KUrl4ListC2ERKS_@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
  (arch=armel)_ZN4KUrl4ListaSERKS0_@Base 4:4.7.4
  _ZN4KUrl4joinERKNS_4ListE@Base 4:4.3.4
  _ZN4KUrl5splitERK7QString@Base 4:4.3.4
@@ -1754,8 +1754,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN5KAuth6ActionD2Ev@Base 4:4.4.0
  _ZN5KAuth6ActionaSERKS0_@Base 4:4.4.0
  _ZN5KUser12allUserNamesEv@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5KUser7PrivateD1Ev@Base 4:4.7.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5KUser7PrivateD2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN5KUser7PrivateD1Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN5KUser7PrivateD2Ev@Base 4:4.7.4
  _ZN5KUser8allUsersEv@Base 4:4.3.4
  _ZN5KUserC1ENS_7UIDModeE@Base 4:4.3.4
  _ZN5KUserC1EPK6passwd@Base 4:4.3.4
@@ -2980,7 +2980,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK12KConfigGroup8entryMapEv@Base 4:4.3.4
  _ZNK12KConfigGroup9groupImplERK10QByteArray@Base 4:4.3.4
  _ZNK12KConfigGroup9groupListEv@Base 4:4.3.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
+ (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
  (optional=templinst|arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.2
  _ZNK12KConfigGroup9readEntryEPKcRK11QStringList@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryEPKcRK5QListI8QVariantE@Base 4:4.3.4

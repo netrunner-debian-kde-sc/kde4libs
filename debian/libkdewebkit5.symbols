@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64
+# SymbolsHelper-Confirmed: 4:4.11.3 kfreebsd-amd64
 libkdewebkit.so.5 libkdewebkit5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KWebWallet11fillWebFormERK4KUrlRK5QListINS_7WebFormEE@Base 4:4.4.0
@@ -17,8 +17,8 @@ libkdewebkit.so.5 libkdewebkit5 #MINVER#
  _ZN10KWebWallet17KWebWalletPrivate17_k_openWalletDoneEb@Base 4:4.4.0
  _ZN10KWebWallet17KWebWalletPrivate17fillDataFromCacheER5QListINS_7WebFormEE@Base 4:4.4.0
  _ZN10KWebWallet17KWebWalletPrivate19removeDataFromCacheERK5QListINS_7WebFormEE@Base 4:4.4.0
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KWebWallet17KWebWalletPrivate9FormsDataD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KWebWallet17KWebWalletPrivate9FormsDataD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN10KWebWallet17KWebWalletPrivate9FormsDataD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN10KWebWallet17KWebWalletPrivate9FormsDataD2Ev@Base 4:4.6.5
  _ZN10KWebWallet17KWebWalletPrivateC1EPS_@Base 4:4.4.0
  _ZN10KWebWallet17KWebWalletPrivateC2EPS_@Base 4:4.4.0
  _ZN10KWebWallet19saveFormDataToCacheERK7QString@Base 4:4.4.0
@@ -29,8 +29,8 @@ libkdewebkit.so.5 libkdewebkit5 #MINVER#
  _ZN10KWebWallet24fillFormRequestCompletedEb@Base 4:4.4.95
  _ZN10KWebWallet25acceptSaveFormDataRequestERK7QString@Base 4:4.4.0
  _ZN10KWebWallet25rejectSaveFormDataRequestERK7QString@Base 4:4.4.0
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KWebWallet7WebFormD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN10KWebWallet7WebFormD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN10KWebWallet7WebFormD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN10KWebWallet7WebFormD2Ev@Base 4:4.6.5
  _ZN10KWebWalletC1EP7QObjectm@Base 4:4.4.0
  _ZN10KWebWalletC2EP7QObjectm@Base 4:4.4.0
  _ZN10KWebWalletD0Ev@Base 4:4.4.0

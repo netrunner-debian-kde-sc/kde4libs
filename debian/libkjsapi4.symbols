@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.3 amd64
+# SymbolsHelper-Confirmed: 4:4.11.3 amd64 kfreebsd-amd64
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -7,8 +7,8 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS10Identifier5equalEPKNS_7UString3RepEPKNS_5UCharEi@Base 4:4.3.4
  _ZN3KJS10Identifier5equalEPKNS_7UString3RepEPKc@Base 4:4.3.4
  _ZN3KJS10Identifier6removeEPNS_7UString3RepE@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS10IdentifierD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS10IdentifierD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN3KJS10IdentifierD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN3KJS10IdentifierD2Ev@Base 4:4.6.5
  _ZN3KJS10throwErrorEPNS_9ExecStateENS_9ErrorTypeE@Base 4:4.3.4
  _ZN3KJS10throwErrorEPNS_9ExecStateENS_9ErrorTypeEPKc@Base 4:4.3.4
  _ZN3KJS10throwErrorEPNS_9ExecStateENS_9ErrorTypeERKNS_7UStringE@Base 4:4.3.4
@@ -142,8 +142,8 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS17CommonIdentifiersC1Ev@Base 4:4.3.4
  _ZN3KJS17CommonIdentifiersC2Ev@Base 4:4.3.4
  _ZN3KJS17PropertyNameArray3addERKNS_10IdentifierE@Base 4:4.3.4
- (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS17PropertyNameArrayD1Ev@Base 4:4.8.4
- (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS17PropertyNameArrayD2Ev@Base 4:4.8.4
+ (optional=external|arch=kfreebsd-i386)_ZN3KJS17PropertyNameArrayD1Ev@Base 4:4.8.4
+ (optional=external|arch=kfreebsd-i386)_ZN3KJS17PropertyNameArrayD2Ev@Base 4:4.8.4
  _ZN3KJS18PropertyDescriptor11setWritableEb@Base 4:4.11.1
  _ZN3KJS18PropertyDescriptor13setEnumerableEb@Base 4:4.11.1
  _ZN3KJS18PropertyDescriptor16setConfigureableEb@Base 4:4.11.1
@@ -462,12 +462,12 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZNK3KJS8JSObject9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS9ExecState18lexicalInterpreterEv@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EE17_M_initialize_mapE{size_t}@Base 4:4.9.3
- (optional=templinst|arch=amd64 i386)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED1Ev@Base 4:4.9.3
- (optional=templinst|arch=amd64 i386)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED2Ev@Base 4:4.9.3
+ (optional=templinst|arch=amd64 i386 kfreebsd-amd64)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED1Ev@Base 4:4.9.3
+ (optional=templinst|arch=amd64 i386 kfreebsd-amd64)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED2Ev@Base 4:4.9.3
  (optional=templinst)_ZNSt5dequeIPN3KJS7JSValueESaIS2_EE16_M_push_back_auxERKS2_@Base 4:4.11.3
  (optional=templinst|subst)_ZNSt5dequeIPN3KJS7JSValueESaIS2_EE17_M_reallocate_mapE{size_t}b@Base 4:4.9.3
- (optional=templinst|arch=!amd64 !i386)_ZNSt6vectorIPN3KJS7JSValueESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.10.2
- (optional=templinst|arch=!amd64 !i386)_ZSt6__findIN9__gnu_cxx17__normal_iteratorIPPN3KJS7JSValueESt6vectorIS4_SaIS4_EEEES4_ET_SA_SA_RKT0_St26random_access_iterator_tag@Base 4:4.10.2
+ (optional=templinst|arch=!amd64 !i386 !kfreebsd-amd64)_ZNSt6vectorIPN3KJS7JSValueESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.10.2
+ (optional=templinst|arch=!amd64 !i386 !kfreebsd-amd64)_ZSt6__findIN9__gnu_cxx17__normal_iteratorIPPN3KJS7JSValueESt6vectorIS4_SaIS4_EEEES4_ET_SA_SA_RKT0_St26random_access_iterator_tag@Base 4:4.10.2
  _ZTIN14WTFNoncopyable11NoncopyableE@Base 4:4.3.4
  _ZTIN3KJS11FunctionImpE@Base 4:4.3.4
  _ZTIN3KJS11InterpreterE@Base 4:4.3.4
@@ -547,8 +547,8 @@ libkjsapi.so.4 libkjsapi4 #MINVER#
  _ZN14KJSInterpreteraSERKS_@Base 4:4.3.4
  _ZN15KJSGlobalObjectC1Ev@Base 4:4.3.4
  _ZN15KJSGlobalObjectC2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS10IdentifierD1Ev@Base 4:4.7.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS10IdentifierD2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN3KJS10IdentifierD1Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN3KJS10IdentifierD2Ev@Base 4:4.7.4
  _ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
@@ -559,9 +559,9 @@ libkjsapi.so.4 libkjsapi4 #MINVER#
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD2Ev@Base 4:4.7.2
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS8JSObjectD0Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS8JSObjectD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS8JSObjectD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN3KJS8JSObjectD0Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN3KJS8JSObjectD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN3KJS8JSObjectD2Ev@Base 4:4.6.5
  _ZN7KJSDateC1EP10KJSContextRK9QDateTime@Base 4:4.3.4
  _ZN7KJSDateC2EP10KJSContextRK9QDateTime@Base 4:4.3.4
  _ZN7KJSNullC1Ev@Base 4:4.3.4

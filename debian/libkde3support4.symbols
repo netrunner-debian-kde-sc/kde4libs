@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.3 kfreebsd-amd64
 libkde3support.so.4 libkde3support4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10K3DockArea11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -571,8 +571,8 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZN13K3SpellConfigD1Ev@Base 4:4.3.4
  _ZN13K3SpellConfigD2Ev@Base 4:4.3.4
  _ZN13K3SpellConfigaSERKS_@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN13KFileItemListD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=kfreebsd-i386)_ZN13KFileItemListD2Ev@Base 4:4.6.5
  _ZN14K3BookmarkDrag6decodeEPK11QMimeSource@Base 4:4.3.4
  _ZN14K3BookmarkDrag7newDragERK11Q3ValueListI9KBookmarkEP7QWidgetPKc@Base 4:4.3.4
  _ZN14K3BookmarkDrag7newDragERK9KBookmarkP7QWidgetPKc@Base 4:4.3.4
@@ -1426,7 +1426,7 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZNK12K3DockWidget9getWidgetEv@Base 4:4.3.4
  _ZNK12K3DockWidget9mayBeHideEv@Base 4:4.3.4
  _ZNK12K3DockWidget9mayBeShowEv@Base 4:4.3.4
- (optional=templinst|arch=armel armhf kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.3
+ (optional=templinst|arch=armel armhf kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.3
  (optional=templinst|arch=amd64 hurd-i386 i386)_ZNK12KConfigGroup9readEntryIiEET_RK7QStringRKS1_@Base 4:4.7.4
  _ZNK13K3AboutDialog10metaObjectEv@Base 4:4.3.4
  _ZNK13K3AboutWidget10metaObjectEv@Base 4:4.3.4
