@@ -1,3 +1,9 @@
+kde4libs (4:4.11.4-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Dec 2013 16:25:22 +0100
+
 kde4libs (4:4.11.3-2) unstable; urgency=low
 
   * New patch kfreebsd_acl.diff, to fix build in kfreebsd-*.
