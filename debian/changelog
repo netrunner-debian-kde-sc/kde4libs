@@ -1,4 +1,4 @@
-kde4libs (4:4.11.4-1) UNRELEASED; urgency=low
+kde4libs (4:4.11.4-1~1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Update qt4_designer_plugins_path.diff, install qt4 plugins in ma
