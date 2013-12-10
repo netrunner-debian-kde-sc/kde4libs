@@ -1,0 +1,19 @@
+commit b722fc7feb2ef719f221784598b5c586591ca7b6
+Author: Maximiliano Curia <maxy@debian.org>
+Date:   Tue Dec 10 08:47:36 2013 -0300
+
+    Interpret QVariant::Tpe as QMetaType::type
+
+diff --git a/kdecore/config/kconfiggroup.cpp b/kdecore/config/kconfiggroup.cpp
+index a804d37..b1b09e4 100644
+--- a/kdecore/config/kconfiggroup.cpp
++++ b/kdecore/config/kconfiggroup.cpp
+@@ -208,7 +208,7 @@ QVariant KConfigGroup::convertToQVariant(const char *pKey, const QByteArray& val
+     // if a type handler is added here you must add a QVConversions definition
+     // to conversion_check.h, or ConversionCheck::to_QVariant will not allow
+     // readEntry<T> to convert to QVariant.
+-    switch( aDefault.type() ) {
++    switch( static_cast<QMetaType::Type>(aDefault.type()) ) {
+         case QVariant::Invalid:
+             return QVariant();
+         case QVariant::String:
