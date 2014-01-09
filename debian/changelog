@@ -5,6 +5,7 @@ kde4libs (4:4.11.5-1) UNRELEASED; urgency=low
     paths.
   * New patch: kde4libs_interpret_qvarianttype_as_qmetatypetype.diff
   * Enable build failures on missing symbols.
+  * Add autopkgtest.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jan 2014 12:14:52 -0300
 

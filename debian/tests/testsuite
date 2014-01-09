@@ -1,0 +1,8 @@
+#!/bin/sh
+
+mkdir -p ${ADTTMP}/home
+sed -i 's/-DKDE4_BUILD_TESTS=false/-DKDE4_BUILD_TESTS=true/' debian/rules
+debian/rules clean
+dpkg-source --before-build .
+debian/rules binary 2>&1
+HOME=${ADTTMP}/home xvfb-run -a dbus-launch --exit-with-session dh_auto_test

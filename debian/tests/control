@@ -1,0 +1,9 @@
+Tests: testsuite
+Depends: @, @builddeps@, build-essential,
+         xvfb, xauth, dbus-x11, libxml2-utils,
+         kde-runtime
+Restrictions: rw-build-tree
+
+Tests: acc
+Depends: @,
+         dh-acc, exuberant-ctags
