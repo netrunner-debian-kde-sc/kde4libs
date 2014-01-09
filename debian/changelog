@@ -1,4 +1,4 @@
-kde4libs (4:4.11.4-1~1) UNRELEASED; urgency=low
+kde4libs (4:4.11.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Update qt4_designer_plugins_path.diff, install qt4 plugins in ma
@@ -6,7 +6,7 @@ kde4libs (4:4.11.4-1~1) UNRELEASED; urgency=low
   * New patch: kde4libs_interpret_qvarianttype_as_qmetatypetype.diff
   * Enable build failures on missing symbols.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Dec 2013 16:25:22 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jan 2014 12:14:52 -0300
 
 kde4libs (4:4.11.3-2) unstable; urgency=low
 
