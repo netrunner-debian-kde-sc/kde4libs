@@ -25,3 +25,4 @@ kfreebsd_acl.diff
 cmake_compatibility.diff
 kde4libs_interpret_qvarianttype_as_qmetatypetype.diff
 debian_standardsdirtest.diff
+kstringhandlertest_fix.diff

@@ -1,0 +1,16 @@
+Index: kde4libs/kdecore/tests/kstringhandlertest.cpp
+===================================================================
+--- kde4libs.orig/kdecore/tests/kstringhandlertest.cpp	2014-01-13 11:27:40.578481463 -0300
++++ kde4libs/kdecore/tests/kstringhandlertest.cpp	2014-01-13 12:05:21.949496740 -0300
+@@ -55,7 +55,10 @@
+     QCOMPARE(KStringHandler::naturalCompare("b", "a", Qt::CaseSensitive), +1);
+     QCOMPARE(KStringHandler::naturalCompare("a", "a", Qt::CaseSensitive), 0);
+ 
+-    QCOMPARE(KStringHandler::naturalCompare("A", "a", Qt::CaseSensitive), QString::localeAwareCompare("A", "a"));
++    // Plataform dependant result, it can be any number
++    int cmp_A_a = QString::localeAwareCompare("A", "a");
++    QCOMPARE(KStringHandler::naturalCompare("A", "a", Qt::CaseSensitive),
++            cmp_A_a < 0 ? -1 : cmp_A_a > 0 ? +1 : 0);
+     QCOMPARE(KStringHandler::naturalCompare("A", "a", Qt::CaseInsensitive), 0);
+     QCOMPARE(KStringHandler::naturalCompare("a", "A", Qt::CaseInsensitive), 0);
+     QCOMPARE(KStringHandler::naturalCompare("aAa", "AaA", Qt::CaseInsensitive), 0);
