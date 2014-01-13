@@ -1,7 +1,7 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
          xvfb, xauth, dbus-x11, libxml2-utils,
-         kde-runtime, oxygen-icon-theme
+         kde-runtime, oxygen-icon-theme, inetutils-ping
 Restrictions: rw-build-tree
 
 Tests: acc
