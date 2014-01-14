@@ -28,3 +28,4 @@ debian_standardsdirtest.diff
 kstringhandlertest_fix.diff
 disable_bogus_test.diff
 fix_kptyprocesstest.diff
+disable_bogus_tests
