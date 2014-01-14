@@ -8,6 +8,7 @@ kde4libs (4:4.11.5-1) UNRELEASED; urgency=low
   * Add autopkgtest.
   * New patch: debian_standardsdirtest.diff
   * New patch: kstringhandlertest_fix.diff
+  * New patch: disable_bogus_test.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jan 2014 12:14:52 -0300
 
