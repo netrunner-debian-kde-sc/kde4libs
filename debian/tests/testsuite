@@ -5,4 +5,4 @@ debian/rules clean
 dpkg-source --before-build .
 debian/rules binary 2>&1
 xvfb-run -a --server-args="-screen 0 1024x768x24" \
-    dbus-launch --exit-with-session dh_auto_test
+    dbus-launch --exit-with-session debian/tests/testsuite.xsession
