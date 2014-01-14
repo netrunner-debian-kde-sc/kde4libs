@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.3 kfreebsd-amd64
+# SymbolsHelper-Confirmed: 4:4.11.5 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -1057,6 +1057,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN16KTimeZoneBackendD1Ev@Base 4:4.3.4
  _ZN16KTimeZoneBackendD2Ev@Base 4:4.3.4
  _ZN16KTimeZoneBackendaSERKS_@Base 4:4.3.4
+ _ZN17KArchiveDirectory11removeEntryEP13KArchiveEntry@Base 4:4.11.5
  _ZN17KArchiveDirectory12virtual_hookEiPv@Base 4:4.4.95
  _ZN17KArchiveDirectory8addEntryEP13KArchiveEntry@Base 4:4.4.95
  _ZN17KArchiveDirectoryC1EP8KArchiveRK7QStringiiS4_S4_S4_@Base 4:4.4.95
