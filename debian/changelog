@@ -10,6 +10,7 @@ kde4libs (4:4.11.5-1) UNRELEASED; urgency=low
   * New patch: kstringhandlertest_fix.diff
   * New patch: disable_bogus_test.diff
   * Update symbols.
+  * New patch: fix_kptyprocesstest.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jan 2014 12:14:52 -0300
 
