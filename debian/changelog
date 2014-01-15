@@ -1,6 +1,7 @@
 kde4libs (4:4.11.5-2) UNRELEASED; urgency=medium
 
   * Confirm symbols.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 15 Jan 2014 17:49:08 -0300
 
