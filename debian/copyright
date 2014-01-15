@@ -37,7 +37,7 @@ the GNU General Public License:
 
 
 
-The documentation docbook files in this package, placed under docs/, are under 
+The documentation docbook files in this package, placed under docs/, are under
 the GNU Free Documentation License:
 
     | Permission is granted to copy, distribute and/or modify this
@@ -49,7 +49,7 @@ the GNU Free Documentation License:
   The full text of the GNU Free Documentation License is available on
   Debian systems in /usr/share/common-licenses/GFDL-1.2
 
-As well, all the Manpages.dox included are under this license, unless specified 
+As well, all the Manpages.dox included are under this license, unless specified
 otherwise below.
 
 
@@ -64,10 +64,10 @@ directory are under the following license:
     | to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     | copies of the Software, and to permit persons to whom the Software is
     | furnished to do so, subject to the following conditions:
-    | 
+    |
     | The above copyright notice and this permission notice shall be included in
     | all copies or substantial portions of the Software.
-    | 
+    |
     | THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     | IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     | FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
@@ -83,8 +83,8 @@ Files under kate/
 
 
 
-kdelibs copyright situation is a bit complex. The following table tries to detail 
-the copyright/license information of the files that are not under the directories 
+kdelibs copyright situation is a bit complex. The following table tries to detail
+the copyright/license information of the files that are not under the directories
 detailed above.
 
 
@@ -132,7 +132,7 @@ Copyright: © 2006 Thorsten Roeder <thorsten.roeder@weihenstephan.org>
 Copyright: © 2007 Christian Ehrlicher <ch.ehrlicher@gmx.de>
 Copyright: © 2006 Zack Rusin <zack@kde.org>
 
-Available under BSD license as in COPYING-CMAKE-SCRIPTS 
+Available under BSD license as in COPYING-CMAKE-SCRIPTS
 
 
 Redistribution and use in source and binary forms, with or without
@@ -144,7 +144,7 @@ are met:
 2. Redistributions in binary form must reproduce the copyright
    notice, this list of conditions and the following disclaimer in the
    documentation and/or other materials provided with the distribution.
-3. The name of the author may not be used to endorse or promote products 
+3. The name of the author may not be used to endorse or promote products
    derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
@@ -223,9 +223,9 @@ Copyright: © 2002 Jesper K. Pedersen <blackie@kdab.net>
 Copyright: © 1998 <developer@mozilla.org>
 Copyright: © 2009 by Jeremy Whiting <jpwhiting@kde.org>
 Copyright: © 2007 Philippe Fremy (phil at freehackers dot org)
-Copyright: © 2009 Bernhard Beschow <bbeschow@cs.tu-berlin.de> 
+Copyright: © 2009 Bernhard Beschow <bbeschow@cs.tu-berlin.de>
 Copyright: © 2009 Milian Wolff <mail@milianw.de>
-Copyright: © 2009 by Rahman Duran <rahman.duran@gmail.com> 
+Copyright: © 2009 by Rahman Duran <rahman.duran@gmail.com>
 Copyright: © 2009 Michel Ludwig (michel.ludwig@kdemail.net)
 
 License for all components unless stated otherwise:
@@ -276,7 +276,7 @@ Other used licenses:
 
     terminal/* excluding
     -+ terminal/kde_terminal_interface_v2.h
-    
+
 
   On Debian systems, the complete text of the
   GNU Lesser General Public License version 2.1 can be found in
@@ -1815,7 +1815,7 @@ Other used licenses:
 	 * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 	 * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	 */
-	
+
     imload/*
     imload/decoders/*
     + misc/loader_jpeg.cpp
@@ -2235,7 +2235,7 @@ Other used licenses:
   /usr/share/common-licenses/LGPL
 --
 
--- 
+--
   BSD-ish
     + kfile/krecentdirs.cpp
     + kfile/krecentdirs.h
@@ -2247,7 +2247,7 @@ Other used licenses:
     ? kio/kemailsettings.h
     ? kio/renamedialogplugin.cpp
     ? kio/renamedialogplugin.h
-	/* 
+	/*
 	 * Redistribution and use in source and binary forms, with or without
 	 * modification, are permitted provided that the following conditions
 	 * are met:
@@ -2440,7 +2440,7 @@ Other used licenses:
 	 * REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY
 	 * OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.
 
--- 
+--
 
 
 ------
@@ -3011,7 +3011,7 @@ Legend:
                 notice and this paragraph appear in all copies.  The copyright
                 holders make no representation about the suitability of the DTD for
                 any purpose. It is provided "as is" without expressed or implied
-                warranty. 
+                warranty.
   - "MIT":      Permission is hereby granted, free of charge, to any person obtaining a copy
                 of this software and associated documentation files (the "Software"), to deal
                 in the Software without restriction, including without limitation the rights
@@ -3049,4 +3049,3 @@ On Debian systems, you can find the complete texts of these licenses at:
 
 The Debian packaging is Copyright 2007-2010, Debian Qt/KDE Maintainers and
 is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
-
