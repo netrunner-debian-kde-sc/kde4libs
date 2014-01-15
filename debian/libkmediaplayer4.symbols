@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.5 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips s390x
 libkmediaplayer.so.4 libkmediaplayer4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN12KMediaPlayer4View10hideButtonEi@Base 4:4.3.4

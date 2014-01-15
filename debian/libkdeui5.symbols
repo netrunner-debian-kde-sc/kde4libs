@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.3 kfreebsd-amd64
+# SymbolsHelper-Confirmed: 4:4.11.5 hurd-i386 i386 kfreebsd-i386 mips s390x
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -86,8 +86,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10KIconCacheD2Ev@Base 4:4.3.4
  _ZN10KIconTheme11reconfigureEv@Base 4:4.3.4
  _ZN10KIconTheme16defaultThemeNameEv@Base 4:4.3.4
- (optional=gccinternal|arch=armel kfreebsd-i386 mips mipsel)_ZN10KIconTheme17KIconThemePrivateC1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=armel kfreebsd-i386 mips mipsel)_ZN10KIconTheme17KIconThemePrivateC2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=armel mipsel)_ZN10KIconTheme17KIconThemePrivateC1Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=armel mipsel)_ZN10KIconTheme17KIconThemePrivateC2Ev@Base 4:4.7.4
  _ZN10KIconTheme24assignIconsToContextMenuENS_12ContextMenusE5QListIP7QActionE@Base 4:4.3.4
  _ZN10KIconTheme4listEv@Base 4:4.3.4
  _ZN10KIconTheme7currentEv@Base 4:4.3.4
@@ -340,8 +340,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11KCharSelect16staticMetaObjectE@Base 4:4.3.4
  _ZN11KCharSelect18KCharSelectPrivate10_k_forwardEv@Base 4:4.3.4
  _ZN11KCharSelect18KCharSelectPrivate10historyAddERK5QCharbRK7QString@Base 4:4.3.4
- (optional=gccinternal|arch=kfreebsd-i386)_ZN11KCharSelect18KCharSelectPrivate11HistoryItemD1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=kfreebsd-i386)_ZN11KCharSelect18KCharSelectPrivate11HistoryItemD2Ev@Base 4:4.7.4
  _ZN11KCharSelect18KCharSelectPrivate11createLinksE7QString@Base 4:4.3.4
  _ZN11KCharSelect18KCharSelectPrivate14_k_linkClickedE4QUrl@Base 4:4.3.4
  _ZN11KCharSelect18KCharSelectPrivate15_k_fontSelectedEv@Base 4:4.3.4
@@ -1397,8 +1395,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN12KPixmapCache7Private15loadIndexHeaderEv@Base 4:4.3.4
  _ZN12KPixmapCache7Private15writeIndexEntryER11QDataStreamRK7QStringi@Base 4:4.3.4
  _ZN12KPixmapCache7Private16checkFileVersionERK7QString@Base 4:4.3.4
- (optional=gccinternal|arch=kfreebsd-i386)_ZN12KPixmapCache7Private17KPixmapCacheEntryD1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=kfreebsd-i386)_ZN12KPixmapCache7Private17KPixmapCacheEntryD2Ev@Base 4:4.7.4
  _ZN12KPixmapCache7Private19invalidateMmapFilesEv@Base 4:4.3.4
  _ZN12KPixmapCache7Private4initEv@Base 4:4.3.4
  _ZN12KPixmapCache7Private7mCachesE@Base 4:4.3.4
@@ -2013,8 +2009,8 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KXMLGUIClient10endXMLPlugEv@Base 4:4.3.4
  _ZN13KXMLGUIClient10setFactoryEP14KXMLGUIFactory@Base 4:4.3.4
  _ZN13KXMLGUIClient10setXMLFileERK7QStringbb@Base 4:4.3.4
- (optional=gccinternal|arch=kfreebsd-i386)_ZN13KXMLGUIClient11StateChangeD1Ev@Base 4:4.6.5
- (optional=gccinternal|arch=kfreebsd-i386)_ZN13KXMLGUIClient11StateChangeD2Ev@Base 4:4.6.5
+#MISSING: 4:4.11.5# (optional=gccinternal|arch=kfreebsd-i386)_ZN13KXMLGUIClient11StateChangeD1Ev@Base 4:4.6.5
+#MISSING: 4:4.11.5# (optional=gccinternal|arch=kfreebsd-i386)_ZN13KXMLGUIClient11StateChangeD2Ev@Base 4:4.6.5
  _ZN13KXMLGUIClient12beginXMLPlugEP7QWidget@Base 4:4.3.4
  _ZN13KXMLGUIClient12childClientsEv@Base 4:4.3.4
  _ZN13KXMLGUIClient12stateChangedERK7QStringNS_18ReverseStateChangeE@Base 4:4.3.4
@@ -2971,11 +2967,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN16KCategorizedView7Private13blockPositionERK7QString@Base 4:4.4.0
  _ZN16KCategorizedView7Private21regenerateAllElementsEv@Base 4:4.4.0
  _ZN16KCategorizedView7Private30_k_slotCollapseOrExpandClickedE11QModelIndex@Base 4:4.4.0
- (optional=gccinternal|arch=kfreebsd-i386)_ZN16KCategorizedView7Private5BlockC1ERKS1_@Base 4:4.7.4
- (optional=gccinternal|arch=kfreebsd-i386)_ZN16KCategorizedView7Private5BlockC2ERKS1_@Base 4:4.7.4
- (optional=gccinternal|arch=kfreebsd-i386)_ZN16KCategorizedView7Private5BlockD1Ev@Base 4:4.6.5
- (optional=gccinternal|arch=kfreebsd-i386)_ZN16KCategorizedView7Private5BlockD2Ev@Base 4:4.6.5
- (optional=gccinternal|arch=armel armhf kfreebsd-i386 mips mipsel s390)_ZN16KCategorizedView7Private5BlockaSERKS1_@Base 4:4.7.4
+ (optional=gccinternal|arch=armel armhf mipsel s390)_ZN16KCategorizedView7Private5BlockaSERKS1_@Base 4:4.7.4
  _ZN16KCategorizedView7Private9blockRectERK11QModelIndex@Base 4:4.4.95
  _ZN16KCategorizedView7PrivateC1EPS_@Base 4:4.3.4
  _ZN16KCategorizedView7PrivateC2EPS_@Base 4:4.3.4
@@ -4219,8 +4211,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN5KFind7Private15_k_slotFindNextEv@Base 4:4.3.4
  _ZN5KFind7Private19_k_slotDialogClosedEv@Base 4:4.3.4
  _ZN5KFind7Private25startNewIncrementalSearchEv@Base 4:4.3.4
- (optional=gccinternal|arch=kfreebsd-i386)_ZN5KFind7Private4DataD1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=kfreebsd-i386)_ZN5KFind7Private4DataD2Ev@Base 4:4.7.4
  _ZN5KFind7Private4initERK7QString@Base 4:4.3.4
  _ZN5KFind7setDataERK7QStringi@Base 4:4.3.4
  _ZN5KFind7setDataEiRK7QStringi@Base 4:4.3.4
@@ -4392,7 +4382,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6KStyle11qt_metacastEPKc@Base 4:4.3.4
  _ZN6KStyle12defaultStyleEv@Base 4:4.3.4
  _ZN6KStyle12newStyleHintERK7QString@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !kfreebsd-amd64)_ZN6KStyle13extractOptionIPKNS_18DoubleButtonOptionEEET_PNS_6OptionE@Base 4:4.10.2
+ (optional=templinst|arch=armel ia64 mipsel powerpc sparc)_ZN6KStyle13extractOptionIPKNS_18DoubleButtonOptionEEET_PNS_6OptionE@Base 4:4.10.2
  (optional=templinst)_ZN6KStyle13extractOptionIPNS_10IconOptionEEET_PNS_6OptionE@Base 4:4.4.2
  (optional=templinst)_ZN6KStyle13extractOptionIPNS_10TextOptionEEET_PNS_6OptionE@Base 4:4.4.2
  (optional=templinst)_ZN6KStyle13extractOptionIPNS_11ColorOptionEEET_PNS_6OptionE@Base 4:4.4.2
@@ -4717,8 +4707,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN7KWallet6Wallet12walletOpenedEb@Base 4:4.3.4
  _ZN7KWallet6Wallet13NetworkWalletEv@Base 4:4.3.4
  _ZN7KWallet6Wallet13WalletPrivate25walletServiceUnregisteredEv@Base 4:4.4.95
- (optional=gccinternal|arch=kfreebsd-i386)_ZN7KWallet6Wallet13WalletPrivateD1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=kfreebsd-i386)_ZN7KWallet6Wallet13WalletPrivateD2Ev@Base 4:4.7.4
  _ZN7KWallet6Wallet13folderRemovedERK7QString@Base 4:4.3.4
  _ZN7KWallet6Wallet13folderUpdatedERK7QString@Base 4:4.3.4
  _ZN7KWallet6Wallet13readEntryListERK7QStringR4QMapIS1_10QByteArrayE@Base 4:4.3.4
@@ -5590,9 +5578,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK12KColorScheme10decorationENS_14DecorationRoleE@Base 4:4.3.4
  _ZNK12KColorScheme10foregroundENS_14ForegroundRoleE@Base 4:4.3.4
  _ZNK12KColorScheme5shadeENS_9ShadeRoleE@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !ia64 !kfreebsd-amd64)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.10.2
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=kfreebsd-i386)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst|arch=!amd64 !hurd-i386 !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !s390x)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.10.2
  _ZNK12KEditListBox10downButtonEv@Base 4:4.3.4
  _ZNK12KEditListBox10metaObjectEv@Base 4:4.3.4
  _ZNK12KEditListBox11currentItemEv@Base 4:4.3.4
@@ -6610,7 +6596,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK9KWordWrap13wrappedStringEv@Base 4:4.3.4
  _ZNK9KWordWrap15truncatedStringEb@Base 4:4.3.4
  _ZNK9KWordWrap8drawTextEP8QPainteriii@Base 4:4.3.4
- (optional=templinst|subst|arch=!amd64 !kfreebsd-amd64)_ZNSt6vectorIPN19KVoidPointerFactoryIL{size_t}256EE3BitESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 4:4.10.2
+ (optional=templinst|subst|arch=armel ia64 mipsel powerpc sparc)_ZNSt6vectorIPN19KVoidPointerFactoryIL{size_t}256EE3BitESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 4:4.10.2
  _ZTI10KBugReport@Base 4:4.3.4
  _ZTI10KDateTable@Base 4:4.3.4
  _ZTI10KIconCache@Base 4:4.3.4

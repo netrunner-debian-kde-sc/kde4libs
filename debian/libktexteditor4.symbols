@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.5 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips s390x
 libktexteditor.so.4 libktexteditor4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KTextEditor10ConfigPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
