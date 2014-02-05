@@ -6,11 +6,13 @@ Description: preliminary GNU/Hurd support
  which are not implemented and will always fail.
 Forwarded: no
 Last-Update: 2012-10-01
---- a/kdecore/kernel/kstandarddirs.cpp
-+++ b/kdecore/kernel/kstandarddirs.cpp
-@@ -73,6 +73,10 @@
- #include <QtCore/QFileInfo>
- #include <QtCore/QSettings>
+Index: kde4libs/kdecore/kernel/kstandarddirs.cpp
+===================================================================
+--- kde4libs.orig/kdecore/kernel/kstandarddirs.cpp	2014-02-05 14:55:06.328827225 +0100
++++ kde4libs/kdecore/kernel/kstandarddirs.cpp	2014-02-05 14:55:06.328827225 +0100
+@@ -79,6 +79,10 @@
+ static Qt::CaseSensitivity cs = Qt::CaseSensitive;
+ #endif
  
 +#ifndef MAXPATHLEN
 +# define MAXPATHLEN 1024
@@ -19,8 +21,10 @@ Last-Update: 2012-10-01
  class KStandardDirs::KStandardDirsPrivate
  {
  public:
---- a/kinit/lnusertemp.c
-+++ b/kinit/lnusertemp.c
+Index: kde4libs/kinit/lnusertemp.c
+===================================================================
+--- kde4libs.orig/kinit/lnusertemp.c	2014-02-05 14:55:06.328827225 +0100
++++ kde4libs/kinit/lnusertemp.c	2014-02-05 14:55:06.328827225 +0100
 @@ -36,6 +36,10 @@
  #include <limits.h>
  #endif
@@ -32,8 +36,10 @@ Last-Update: 2012-10-01
  int check_tmp_dir(const char *tmp_dir, int check_ownership);
  int create_link(const char *file, const char *tmp_dir);
  int build_link(const char* tmp, const char *tmp_prefix, const char *kde_prefix);
---- a/cmake/modules/FindKDE4Internal.cmake
-+++ b/cmake/modules/FindKDE4Internal.cmake
+Index: kde4libs/cmake/modules/FindKDE4Internal.cmake
+===================================================================
+--- kde4libs.orig/cmake/modules/FindKDE4Internal.cmake	2014-02-05 14:55:06.328827225 +0100
++++ kde4libs/cmake/modules/FindKDE4Internal.cmake	2014-02-05 14:55:06.328827225 +0100
 @@ -1220,8 +1220,8 @@
     endif (CMAKE_SYSTEM_NAME MATCHES Linux OR CMAKE_SYSTEM_NAME STREQUAL GNU OR CMAKE_SYSTEM_NAME MATCHES kFreeBSD)
  

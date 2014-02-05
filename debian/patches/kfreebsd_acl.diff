@@ -1,7 +1,7 @@
-Index: kde4libs-4.11.3/kio/kfile/kpropertiesdialog.cpp
+Index: kde4libs/kio/kfile/kpropertiesdialog.cpp
 ===================================================================
---- kde4libs-4.11.3.orig/kio/kfile/kpropertiesdialog.cpp	2013-11-07 08:55:21.000000000 +0000
-+++ kde4libs-4.11.3/kio/kfile/kpropertiesdialog.cpp	2013-11-07 10:15:09.000000000 +0000
+--- kde4libs.orig/kio/kfile/kpropertiesdialog.cpp	2014-02-05 15:08:05.955141270 +0100
++++ kde4libs/kio/kfile/kpropertiesdialog.cpp	2014-02-05 15:08:05.951141176 +0100
 @@ -53,6 +53,15 @@
  #include <time.h>
  #include <sys/stat.h>
@@ -18,7 +18,7 @@ Index: kde4libs-4.11.3/kio/kfile/kpropertiesdialog.cpp
  }
  #include <unistd.h>
  #include <errno.h>
-@@ -1896,7 +1905,7 @@
+@@ -1889,7 +1898,7 @@
  static bool fileSystemSupportsACL( const QByteArray& path )
  {
      bool fileSystemSupportsACLs = false;

@@ -10,10 +10,12 @@ The priorities is as follows:
 With this patch, we can also install all config files into /usr/ as they just can get
 overridden by adding new files to /etc/kde4 by the sysadm.
 
---- a/kdecore/kernel/kstandarddirs.cpp
-+++ b/kdecore/kernel/kstandarddirs.cpp
-@@ -1175,6 +1175,10 @@ QStringList KStandardDirs::KStandardDirs
-                         if ((local || testdir.exists()) && !candidates.contains(path))
+Index: kde4libs/kdecore/kernel/kstandarddirs.cpp
+===================================================================
+--- kde4libs.orig/kdecore/kernel/kstandarddirs.cpp	2014-02-05 14:54:48.376405206 +0100
++++ kde4libs/kdecore/kernel/kstandarddirs.cpp	2014-02-05 14:54:48.372405112 +0100
+@@ -1167,6 +1167,10 @@
+                         if ((local || testdir.exists()) && !candidates.contains(path, cs))
                              candidates.append(path);
                      }
 +                    // UGLY HACK - forward porting Chris CHeney's HACK - Rex Dieter
