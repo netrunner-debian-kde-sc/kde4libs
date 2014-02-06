@@ -5,6 +5,7 @@ kde4libs (4:4.12.2-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Remove patch: fix_kptyprocesstest.diff
   * Refresh patches.
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Feb 2014 14:39:15 +0100
 

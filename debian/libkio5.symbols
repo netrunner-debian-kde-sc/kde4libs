@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386
+# SymbolsHelper-Confirmed: 4:4.12.2 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -552,6 +552,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN15KBookmarkDialog17slotButtonClickedEi@Base 4:4.3.4
  _ZN15KBookmarkDialog4saveENS_18BookmarkDialogModeERK9KBookmark@Base 4:4.3.4
  _ZN15KBookmarkDialog9fillGroupEP15QTreeWidgetItemRK14KBookmarkGroup@Base 4:4.3.4
+ (optional=private)_ZN15KBookmarkDialog9fillGroupEP15QTreeWidgetItemRK14KBookmarkGroupS4_@Base 4:4.12.2
  _ZN15KBookmarkDialogC1EP16KBookmarkManagerP7QWidget@Base 4:4.3.4
  _ZN15KBookmarkDialogC2EP16KBookmarkManagerP7QWidget@Base 4:4.3.4
  _ZN15KBookmarkDialogD0Ev@Base 4:4.7.2
@@ -1812,6 +1813,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO18RenameDialogPluginD2Ev@Base 4:4.7.2
  _ZN3KIO18calculateRemainingEyyy@Base 4:4.3.4
  _ZN3KIO18canPasteMimeSourceEPK9QMimeData@Base 4:4.3.4
+ _ZN3KIO18convertPermissionsEi@Base 4:4.12.2
  _ZN3KIO18convertSizeFromKiBEy@Base 4:4.3.4
  _ZN3KIO18itemsSummaryStringEjjjyb@Base 4:4.3.4
  _ZN3KIO19ForwardingSlaveBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
