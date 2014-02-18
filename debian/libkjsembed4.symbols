@@ -1,8 +1,8 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 hurd-i386 i386 kfreebsd-i386 mips s390x
+# SymbolsHelper-Confirmed: 4:4.12.2 armel kfreebsd-amd64 mipsel powerpc
 libkjsembed.so.4 libkjsembed4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
- (optional=gccinternal|arch=armel ia64 kfreebsd-amd64 mipsel powerpc sparc)_ZN3KJS10IdentifierD1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=armel ia64 kfreebsd-amd64 mipsel powerpc sparc)_ZN3KJS10IdentifierD2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=sparc)_ZN3KJS10IdentifierD1Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=sparc)_ZN3KJS10IdentifierD2Ev@Base 4:4.7.4
  (optional=internal|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  (optional=internal|arch=!armel !armhf)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
  (optional=internal|arch=!armel !armhf)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
