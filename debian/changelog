@@ -1,3 +1,7 @@
+kde4libs (4:4.11.5-3) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Apr 2014 15:05:17 -0300
+
 kde4libs (4:4.11.5-2) unstable; urgency=medium
 
   [ Maximiliano Curia ]
