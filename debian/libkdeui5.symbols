@@ -2009,8 +2009,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KXMLGUIClient10endXMLPlugEv@Base 4:4.3.4
  _ZN13KXMLGUIClient10setFactoryEP14KXMLGUIFactory@Base 4:4.3.4
  _ZN13KXMLGUIClient10setXMLFileERK7QStringbb@Base 4:4.3.4
-#MISSING: 4:4.11.5# (optional=gccinternal|arch=kfreebsd-i386)_ZN13KXMLGUIClient11StateChangeD1Ev@Base 4:4.6.5
-#MISSING: 4:4.11.5# (optional=gccinternal|arch=kfreebsd-i386)_ZN13KXMLGUIClient11StateChangeD2Ev@Base 4:4.6.5
  _ZN13KXMLGUIClient12beginXMLPlugEP7QWidget@Base 4:4.3.4
  _ZN13KXMLGUIClient12childClientsEv@Base 4:4.3.4
  _ZN13KXMLGUIClient12stateChangedERK7QStringNS_18ReverseStateChangeE@Base 4:4.3.4
