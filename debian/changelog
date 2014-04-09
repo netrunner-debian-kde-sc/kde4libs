@@ -16,6 +16,17 @@ kde4libs (4:4.12.2-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:25 +0100
 
+kde4libs (4:4.11.5-2) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Confirm symbols (Closes: #741290).
+  * Bump Standards-Version to 3.9.5, no changes needed.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with current build log.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 08 Apr 2014 22:03:50 -0300
+
 kde4libs (4:4.11.5-1) unstable; urgency=low
 
   * New upstream release.
