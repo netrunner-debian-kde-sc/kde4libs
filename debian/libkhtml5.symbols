@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips s390x
+# SymbolsHelper-Confirmed: 4:4.11.5 amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -1825,19 +1825,19 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOMeqERKNS_9DOMStringEPKc@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringERK7QString@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringES2_@Base 4:4.3.4
- (optional=gccinternal|arch=armel ia64 mipsel powerpc sparc)_ZN3KIO8MetaDataD1Ev@Base 4:4.10.2
- (optional=gccinternal|arch=armel ia64 mipsel powerpc sparc)_ZN3KIO8MetaDataD2Ev@Base 4:4.10.2
- (optional=gccinternal|arch=armel ia64 mipsel powerpc sparc)_ZN3KJS10IdentifierD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=armel ia64 mipsel powerpc sparc)_ZN3KJS10IdentifierD2Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=armel ia64 sparc)_ZN3KIO8MetaDataD1Ev@Base 4:4.10.2
+ (optional=gccinternal|arch=armel ia64 sparc)_ZN3KIO8MetaDataD2Ev@Base 4:4.10.2
+ (optional=gccinternal|arch=armel ia64 sparc)_ZN3KJS10IdentifierD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=armel ia64 sparc)_ZN3KJS10IdentifierD2Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
- (optional=private)_ZN3KJS17PropertyNameArrayD1Ev@Base 4:4.7.4
- (optional=private)_ZN3KJS17PropertyNameArrayD2Ev@Base 4:4.7.4
+ (optional=private|arch=!sparc)_ZN3KJS17PropertyNameArrayD1Ev@Base 4:4.7.4
+ (optional=private|arch=!sparc)_ZN3KJS17PropertyNameArrayD2Ev@Base 4:4.7.4
  _ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.7.2
  _ZN3KJS19InternalFunctionImpD1Ev@Base 4:4.7.2
  _ZN3KJS19InternalFunctionImpD2Ev@Base 4:4.7.2
- (optional=gccinternal|arch=!amd64 !hurd-i386 !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !s390x)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf !hurd-i386 !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !powerpc !ppc64 !s390x)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.10.2
  (optional=private|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  (optional=private|arch=!armel !armhf)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
  (optional=private|arch=!armel !armhf)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
@@ -1849,9 +1849,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3KJS7UStringC1ERKN3DOM9DOMStringE@Base 4:4.3.4
  _ZN3KJS7UStringC2ERK7QString@Base 4:4.3.4
  _ZN3KJS7UStringC2ERKN3DOM9DOMStringE@Base 4:4.3.4
- (optional=gccinternal|arch=armel ia64 mipsel powerpc sparc)_ZN3KJS8JSObjectD0Ev@Base 4:4.7.2
- (optional=gccinternal|arch=armel ia64 mipsel powerpc sparc)_ZN3KJS8JSObjectD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=armel ia64 mipsel powerpc sparc)_ZN3KJS8JSObjectD2Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=armel ia64 sparc)_ZN3KJS8JSObjectD0Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=armel ia64 sparc)_ZN3KJS8JSObjectD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=armel ia64 sparc)_ZN3KJS8JSObjectD2Ev@Base 4:4.7.2
  _ZN5khtml10ChildFrame11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5khtml10ChildFrame11qt_metacastEPKc@Base 4:4.3.4
  _ZN5khtml10ChildFrame13dumpFrameTreeEP9KHTMLPart@Base 4:4.5.85
@@ -2254,9 +2254,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLViewD0Ev@Base 4:4.3.4
  _ZN9KHTMLViewD1Ev@Base 4:4.3.4
  _ZN9KHTMLViewD2Ev@Base 4:4.3.4
- (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390 sparc)_ZNK12KConfigGroup9readCheckI6QColorEET_PKcRKS2_@Base 4:4.7.4
+ (optional=templinst|arch=armel ia64 s390 sparc)_ZNK12KConfigGroup9readCheckI6QColorEET_PKcRKS2_@Base 4:4.7.4
  (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !s390x)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.10.2
+ (optional=templinst|arch=!amd64 !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !powerpc !ppc64 !s390x)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.10.2
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4:4.3.4
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4:4.3.4
@@ -2980,15 +2980,15 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK9KHTMLView9mediaTypeEv@Base 4:4.3.4
  _ZNK9KHTMLView9pagedModeEv@Base 4:4.3.4
  _ZNK9KHTMLView9zoomLevelEv@Base 4:4.3.4
- (optional=templinst|arch=armel ia64 mipsel powerpc sparc)_ZSt10__pop_heapIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 4:4.10.2
- (optional=templinst|arch=armel ia64 mipsel powerpc sparc)_ZSt13__adjust_heapIPN7WebCore18SVGGlyphIdentifierEiS1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.10.2
+ (optional=templinst|arch=armel ia64 sparc)_ZSt10__pop_heapIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 4:4.10.2
+ (optional=templinst|arch=armel ia64 sparc)_ZSt13__adjust_heapIPN7WebCore18SVGGlyphIdentifierEiS1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.10.2
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIPN7WebCore18SVGGlyphIdentifierElS1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 4:4.10.2
- (optional=templinst|arch=armel ia64 mipsel powerpc sparc)_ZSt16__insertion_sortIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.10.2
- (optional=templinst|arch=armel mipsel powerpc sparc)_ZSt16__introsort_loopIPN7WebCore18SVGGlyphIdentifierEiPFbRKS1_S4_EEvT_S7_T0_T1_@Base 4:4.10.2
+ (optional=templinst|arch=armel ia64 sparc)_ZSt16__insertion_sortIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.10.2
+ (optional=templinst|arch=armel sparc)_ZSt16__introsort_loopIPN7WebCore18SVGGlyphIdentifierEiPFbRKS1_S4_EEvT_S7_T0_T1_@Base 4:4.10.2
  (optional=templinst|arch=ia64)_ZSt16__introsort_loopIPN7WebCore18SVGGlyphIdentifierElPFbRKS1_S4_EEvT_S7_T0_T1_@Base 4:4.10.2
- (optional=templinst|arch=armel ia64 mipsel powerpc sparc)_ZSt19__move_median_firstIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 4:4.10.2
- (optional=templinst|arch=armel ia64 mipsel powerpc sparc)_ZSt25__unguarded_linear_insertIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_T0_@Base 4:4.10.2
- (optional=templinst|arch=armel ia64 mipsel powerpc sparc)_ZSt9make_heapIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.10.2
+ (optional=templinst|arch=armel ia64 sparc)_ZSt19__move_median_firstIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 4:4.10.2
+ (optional=templinst|arch=armel ia64 sparc)_ZSt25__unguarded_linear_insertIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_T0_@Base 4:4.10.2
+ (optional=templinst|arch=armel ia64 sparc)_ZSt9make_heapIPN7WebCore18SVGGlyphIdentifierEPFbRKS1_S4_EEvT_S7_T0_@Base 4:4.10.2
  _ZTI13KHTMLSettings@Base 4:4.3.4
  _ZTI17KHTMLImageFactory@Base 4:4.5.85
  _ZTI9KHTMLPart@Base 4:4.3.4
@@ -3298,9 +3298,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTVN5khtml17MouseReleaseEventE@Base 4:4.3.4
  _ZTVN5khtml21MouseDoubleClickEventE@Base 4:4.3.4
  _ZTVN6KParts21HtmlSettingsInterfaceE@Base 4:4.8.1
- (optional=gccinternal|c++|arch=!amd64)"construction vtable for KParts::Part-in-KHTMLPart@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=!amd64)"construction vtable for KParts::PartBase-in-KHTMLPart@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=!amd64)"construction vtable for KParts::ReadOnlyPart-in-KHTMLPart@Base" 4:4.3.4
+ (optional=gccinternal|c++|arch=!amd64 !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)"construction vtable for KParts::Part-in-KHTMLPart@Base" 4:4.3.4
+ (optional=gccinternal|c++|arch=!amd64 !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)"construction vtable for KParts::PartBase-in-KHTMLPart@Base" 4:4.3.4
+ (optional=gccinternal|c++|arch=!amd64 !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)"construction vtable for KParts::ReadOnlyPart-in-KHTMLPart@Base" 4:4.3.4
  (c++)"non-virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KHTMLView::~KHTMLView()@Base" 4:4.3.4
  (c++)"virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4

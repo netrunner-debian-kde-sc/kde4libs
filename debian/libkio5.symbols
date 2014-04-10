@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386
+# SymbolsHelper-Confirmed: 4:4.11.5 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 ppc64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -59,7 +59,7 @@ libkio.so.5 libkio5 #MINVER#
  (optional=private)_ZN10KDirLister7Private14CachedItemsJobD0Ev@Base 4:4.7.2
  (optional=private)_ZN10KDirLister7Private14CachedItemsJobD1Ev@Base 4:4.7.2
  (optional=private)_ZN10KDirLister7Private14CachedItemsJobD2Ev@Base 4:4.7.2
- (optional=private|arch=!armel)_ZN10KDirLister7Private14FilterSettingsaSERKS1_@Base 4:4.7.2
+ (optional=private)_ZN10KDirLister7Private14FilterSettingsaSERKS1_@Base 4:4.7.2
  (optional=private)_ZN10KDirLister7Private14_k_slotPercentEP4KJobm@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private14addRefreshItemERK4KUrlRK9KFileItemS6_@Base 4:4.3.4
  (optional=private)_ZN10KDirLister7Private16_k_slotTotalSizeEP4KJoby@Base 4:4.3.4
@@ -372,10 +372,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN13KDataToolInfoD2Ev@Base 4:4.3.4
  _ZN13KDataToolInfoaSERKS_@Base 4:4.3.4
  _ZN13KFileItemListC1ERK5QListI9KFileItemE@Base 4:4.3.4
- (arch=armel)_ZN13KFileItemListC1ERKS_@Base 4:4.7.4
  _ZN13KFileItemListC1Ev@Base 4:4.3.4
  _ZN13KFileItemListC2ERK5QListI9KFileItemE@Base 4:4.3.4
- (arch=armel)_ZN13KFileItemListC2ERKS_@Base 4:4.7.4
  _ZN13KFileItemListC2Ev@Base 4:4.3.4
  _ZN13KFileMetaInfo12applyChangesEv@Base 4:4.3.4
  _ZN13KFileMetaInfo4itemERK7QString@Base 4:4.3.4
@@ -1389,8 +1387,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD0Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
- (optional=gccinternal|arch=armel ia64 mips mipsel powerpc s390x sparc)_ZN3KDE4statERK7QStringP4stat@Base 4:4.10.2
- (optional=inline|arch=armel ia64 mips mipsel powerpc s390x sparc)_ZN3KDE6renameERK7QStringS2_@Base 4:4.7.4
+ (optional=gccinternal|arch=armel armhf ia64 mips mipsel powerpc ppc64 s390x sparc)_ZN3KDE4statERK7QStringP4stat@Base 4:4.10.2
+ (optional=inline|arch=armel armhf ia64 mips mipsel powerpc ppc64 s390x sparc)_ZN3KDE6renameERK7QStringS2_@Base 4:4.7.4
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO10Connection15connectToRemoteERK7QString@Base 4:4.3.4
@@ -2401,8 +2399,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN4KSSLC2Eb@Base 4:4.3.4
  _ZN4KSSLD1Ev@Base 4:4.3.4
  _ZN4KSSLD2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=armel)_ZN4KUrl4ListD1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=armel)_ZN4KUrl4ListD2Ev@Base 4:4.7.4
  _ZN5KFile10isTreeViewERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile12isDetailViewERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile12isSimpleViewERKNS_8FileViewE@Base 4:4.3.4

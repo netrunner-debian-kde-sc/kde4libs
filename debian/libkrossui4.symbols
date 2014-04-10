@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips s390x
+# SymbolsHelper-Confirmed: 4:4.11.5 amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x
 libkrossui.so.4 libkrossui4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN5Kross15ScriptingPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -127,7 +127,6 @@ libkrossui.so.4 libkrossui4 #MINVER#
  _ZTVN5Kross21ActionCollectionModelE@Base 4:4.3.4
  _ZTVN5Kross22ActionCollectionEditorE@Base 4:4.3.4
  _ZTVN5Kross26ActionCollectionProxyModelE@Base 4:4.3.4
- (optional=gccinternal|c++|arch=!amd64)"construction vtable for KParts::Plugin-in-Kross::ScriptingPlugin@Base" 4:4.3.4
  (c++)"non-virtual thunk to Kross::ActionCollectionEditor::~ActionCollectionEditor()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Kross::ActionCollectionView::~ActionCollectionView()@Base" 4:4.3.4
  (c++)"virtual thunk to Kross::ScriptingPlugin::setDOMDocument(QDomDocument const&, bool)@Base" 4:4.3.4
