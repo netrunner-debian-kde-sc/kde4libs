@@ -517,7 +517,7 @@ Depends: dbus-x11,
          ${misc:Depends},
          ${perl:Depends},
          ${shlibs:Depends}
-Recommends: kde-runtime, ttf-dejavu
+Recommends: kde-runtime, fonts-dejavu
 Replaces: kdelibs5-data (<< 4:4.6.3-3~), kdelibs5-dev (<< 4:4.6.2)
 Breaks: kdelibs5-data (<< 4:4.6.3-3~),
         kdelibs5-dev (<< 4:4.6.2),
