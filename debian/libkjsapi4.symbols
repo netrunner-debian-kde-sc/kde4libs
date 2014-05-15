@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.2 armel armhf mipsel powerpc
+# SymbolsHelper-Confirmed: 4:4.12.4 sparc
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -457,10 +457,12 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZNK3KJS8JSObject9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS9ExecState18lexicalInterpreterEv@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EE17_M_initialize_mapE{size_t}@Base 4:4.9.3
- (optional=templinst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED1Ev@Base 4:4.9.3
- (optional=templinst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED2Ev@Base 4:4.9.3
- (optional=templinst)_ZNSt5dequeIPN3KJS7JSValueESaIS2_EE16_M_push_back_auxERKS2_@Base 4:4.11.3
+ (optional=templinst|arch=!sparc)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED1Ev@Base 4:4.9.3
+ (optional=templinst|arch=!sparc)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED2Ev@Base 4:4.9.3
+ (optional=templinst|arch=!sparc)_ZNSt5dequeIPN3KJS7JSValueESaIS2_EE16_M_push_back_auxERKS2_@Base 4:4.11.3
  (optional=templinst|subst|arch=sparc)_ZNSt5dequeIPN3KJS7JSValueESaIS2_EE17_M_reallocate_mapE{size_t}b@Base 4:4.9.3
+ (optional=templinst)_ZNSt6vectorIPN3KJS7JSValueESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.12.4
+ (optional=templinst)_ZSt6__findIN9__gnu_cxx17__normal_iteratorIPPN3KJS7JSValueESt6vectorIS4_SaIS4_EEEES4_ET_SA_SA_RKT0_St26random_access_iterator_tag@Base 4:4.12.4
  _ZTIN14WTFNoncopyable11NoncopyableE@Base 4:4.3.4
  _ZTIN3KJS11FunctionImpE@Base 4:4.3.4
  _ZTIN3KJS11InterpreterE@Base 4:4.3.4

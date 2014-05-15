@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 hurd-i386 i386 kfreebsd-i386
+# SymbolsHelper-Confirmed: 4:4.12.4 armel
 libknewstuff2.so.4 libknewstuff2-4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KNS10CoreEngine10cacheEntryEPNS_5EntryE@Base 4:4.3.4
@@ -239,7 +239,6 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZN3KNS8ProviderC2Ev@Base 4:4.3.4
  _ZN3KNS8ProviderD1Ev@Base 4:4.3.4
  _ZN3KNS8ProviderD2Ev@Base 4:4.3.4
- (optional=templinst|arch=armel)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
  _ZNK3KNS10CoreEngine10metaObjectEv@Base 4:4.3.4
  _ZNK3KNS10CoreEngine13componentNameEv@Base 4:4.3.4
  _ZNK3KNS12Installation10customNameEv@Base 4:4.3.4

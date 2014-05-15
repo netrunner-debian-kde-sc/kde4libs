@@ -6,6 +6,7 @@ kde4libs (4:4.13.1-1) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release.
   * Remove patch: kstringhandlertest_fix.diff, applied upstream.
+  * Update symbols for 4.12.4 versions.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 14 May 2014 19:42:21 +0200
 
