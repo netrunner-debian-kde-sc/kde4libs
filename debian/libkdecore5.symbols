@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.4 alpha hppa ppc64
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -1082,9 +1082,9 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN17KEncodingDetectorD2Ev@Base 4:4.3.4
  _ZN18KCharMacroExpander16expandPlainMacroERK7QStringiR11QStringList@Base 4:4.3.4
  _ZN18KCharMacroExpander18expandEscapedMacroERK7QStringiR11QStringList@Base 4:4.3.4
- _ZN18KCharMacroExpanderD0Ev@Base 4:4.7.4
- _ZN18KCharMacroExpanderD1Ev@Base 4:4.7.4
- _ZN18KCharMacroExpanderD2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!amd64)_ZN18KCharMacroExpanderD0Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!amd64)_ZN18KCharMacroExpanderD1Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!amd64)_ZN18KCharMacroExpanderD2Ev@Base 4:4.7.4
  _ZN18KLocalSocketServer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN18KLocalSocketServer11qt_metacastEPKc@Base 4:4.3.4
  _ZN18KLocalSocketServer13newConnectionEv@Base 4:4.3.4
@@ -1119,9 +1119,9 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN18KServiceTypeTraderD2Ev@Base 4:4.3.4
  _ZN18KWordMacroExpander16expandPlainMacroERK7QStringiR11QStringList@Base 4:4.3.4
  _ZN18KWordMacroExpander18expandEscapedMacroERK7QStringiR11QStringList@Base 4:4.3.4
- _ZN18KWordMacroExpanderD0Ev@Base 4:4.7.4
- _ZN18KWordMacroExpanderD1Ev@Base 4:4.7.4
- _ZN18KWordMacroExpanderD2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!amd64)_ZN18KWordMacroExpanderD0Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!amd64)_ZN18KWordMacroExpanderD1Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!amd64)_ZN18KWordMacroExpanderD2Ev@Base 4:4.7.4
  _ZN19KConfigSkeletonItem10setToolTipERK7QString@Base 4:4.3.4
  _ZN19KConfigSkeletonItem12setWhatsThisERK7QString@Base 4:4.3.4
  _ZN19KConfigSkeletonItem16readImmutabilityERK12KConfigGroup@Base 4:4.3.4
@@ -1837,9 +1837,9 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN6Sonnet6Client16staticMetaObjectE@Base 4:4.3.4
  _ZN6Sonnet6ClientC1EP7QObject@Base 4:4.3.4
  _ZN6Sonnet6ClientC2EP7QObject@Base 4:4.3.4
- _ZN6Sonnet6ClientD0Ev@Base 4:4.7.4
- _ZN6Sonnet6ClientD1Ev@Base 4:4.7.4
- _ZN6Sonnet6ClientD2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!amd64)_ZN6Sonnet6ClientD0Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!amd64)_ZN6Sonnet6ClientD1Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!amd64)_ZN6Sonnet6ClientD2Ev@Base 4:4.7.4
  _ZN6Sonnet6Filter11setSettingsEPNS_8SettingsE@Base 4:4.3.4
  _ZN6Sonnet6Filter13defaultFilterEv@Base 4:4.3.4
  _ZN6Sonnet6Filter18setCurrentPositionEi@Base 4:4.3.4
@@ -2964,7 +2964,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK12KConfigGroup8entryMapEv@Base 4:4.3.4
  _ZNK12KConfigGroup9groupImplERK10QByteArray@Base 4:4.3.4
  _ZNK12KConfigGroup9groupListEv@Base 4:4.3.4
- (optional=templinst|arch=alpha armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
+ (optional=templinst|arch=alpha amd64 armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
  (optional=templinst|arch=!sparc)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.2
  _ZNK12KConfigGroup9readEntryEPKcRK11QStringList@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryEPKcRK5QListI8QVariantE@Base 4:4.3.4

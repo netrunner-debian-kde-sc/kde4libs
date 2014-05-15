@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.4 alpha hppa ppc64
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -823,9 +823,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN16KUriFilterPlugin16staticMetaObjectE@Base 4:4.3.4
  _ZN16KUriFilterPluginC1ERK7QStringP7QObject@Base 4:4.3.4
  _ZN16KUriFilterPluginC2ERK7QStringP7QObject@Base 4:4.3.4
- _ZN16KUriFilterPluginD0Ev@Base 4:4.7.2
- _ZN16KUriFilterPluginD1Ev@Base 4:4.7.2
- _ZN16KUriFilterPluginD2Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=!amd64)_ZN16KUriFilterPluginD0Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=!amd64)_ZN16KUriFilterPluginD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=!amd64)_ZN16KUriFilterPluginD2Ev@Base 4:4.7.2
  _ZN16KonqBookmarkMenu11contextMenuEP7QAction@Base 4:4.3.4
  _ZN16KonqBookmarkMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN16KonqBookmarkMenu11qt_metacastEPKc@Base 4:4.3.4
@@ -997,9 +997,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN19KAbstractFileModule16staticMetaObjectE@Base 4:4.3.4
  _ZN19KAbstractFileModuleC1EP7QObject@Base 4:4.3.4
  _ZN19KAbstractFileModuleC2EP7QObject@Base 4:4.3.4
- _ZN19KAbstractFileModuleD0Ev@Base 4:4.7.2
- _ZN19KAbstractFileModuleD1Ev@Base 4:4.7.2
- _ZN19KAbstractFileModuleD2Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=!amd64)_ZN19KAbstractFileModuleD0Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=!amd64)_ZN19KAbstractFileModuleD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=!amd64)_ZN19KAbstractFileModuleD2Ev@Base 4:4.7.2
  _ZN19KBookmarkActionMenuC1ERK9KBookmarkP7QObject@Base 4:4.3.4
  _ZN19KBookmarkActionMenuC1ERK9KBookmarkRK7QStringP7QObject@Base 4:4.3.4
  _ZN19KBookmarkActionMenuC2ERK9KBookmarkP7QObject@Base 4:4.3.4
@@ -1388,8 +1388,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD0Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
- (optional=gccinternal|arch=alpha armel armhf ia64 mips mipsel powerpc ppc64 s390x sparc)_ZN3KDE4statERK7QStringP4stat@Base 4:4.10.2
- (optional=inline)_ZN3KDE6renameERK7QStringS2_@Base 4:4.7.4
+ (optional=gccinternal|arch=alpha amd64 armel armhf ia64 mips mipsel powerpc ppc64 s390x sparc)_ZN3KDE4statERK7QStringP4stat@Base 4:4.10.2
+ (optional=inline|arch=!amd64)_ZN3KDE6renameERK7QStringS2_@Base 4:4.7.4
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO10Connection15connectToRemoteERK7QString@Base 4:4.3.4
@@ -1806,9 +1806,9 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO18RenameDialogPlugin8FileItemD2Ev@Base 4:4.3.4
  _ZN3KIO18RenameDialogPluginC1EP7QDialog@Base 4:4.3.4
  _ZN3KIO18RenameDialogPluginC2EP7QDialog@Base 4:4.3.4
- _ZN3KIO18RenameDialogPluginD0Ev@Base 4:4.7.2
- _ZN3KIO18RenameDialogPluginD1Ev@Base 4:4.7.2
- _ZN3KIO18RenameDialogPluginD2Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=!amd64)_ZN3KIO18RenameDialogPluginD0Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=!amd64)_ZN3KIO18RenameDialogPluginD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=!amd64)_ZN3KIO18RenameDialogPluginD2Ev@Base 4:4.7.2
  _ZN3KIO18calculateRemainingEyyy@Base 4:4.3.4
  _ZN3KIO18canPasteMimeSourceEPK9QMimeData@Base 4:4.3.4
  _ZN3KIO18convertPermissionsEi@Base 4:4.12.2
@@ -3597,7 +3597,7 @@ libkio.so.5 libkio5 #MINVER#
  (c++)"non-virtual thunk to KIO::ForwardingSlaveBase::~ForwardingSlaveBase()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KIO::PasswordDialog::~PasswordDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KIO::RenameDialog::~RenameDialog()@Base" 4:4.3.4
- (c++)"non-virtual thunk to KIO::RenameDialogPlugin::~RenameDialogPlugin()@Base" 4:4.7.2
+ (optional=gccinternal|c++|arch=!amd64)"non-virtual thunk to KIO::RenameDialogPlugin::~RenameDialogPlugin()@Base" 4:4.7.2
  (c++)"non-virtual thunk to KIO::SkipDialog::~SkipDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KIconButton::~KIconButton()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KIconCanvas::~KIconCanvas()@Base" 4:4.3.4
