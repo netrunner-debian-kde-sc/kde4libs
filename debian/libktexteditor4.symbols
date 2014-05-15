@@ -270,9 +270,9 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor20CodeCompletionModel216staticMetaObjectE@Base 4:4.3.4
  _ZN11KTextEditor20CodeCompletionModel2C1EP7QObject@Base 4:4.3.4
  _ZN11KTextEditor20CodeCompletionModel2C2EP7QObject@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64)_ZN11KTextEditor20CodeCompletionModel2D0Ev@Base 4:4.7.4
- (optional=gccinternal|arch=!amd64)_ZN11KTextEditor20CodeCompletionModel2D1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=!amd64)_ZN11KTextEditor20CodeCompletionModel2D2Ev@Base 4:4.7.4
+ (optional=gccinternal)_ZN11KTextEditor20CodeCompletionModel2D0Ev@Base 4:4.7.4
+ (optional=gccinternal)_ZN11KTextEditor20CodeCompletionModel2D1Ev@Base 4:4.7.4
+ (optional=gccinternal)_ZN11KTextEditor20CodeCompletionModel2D2Ev@Base 4:4.7.4
  _ZN11KTextEditor21ModificationInterfaceC1Ev@Base 4:4.3.4
  _ZN11KTextEditor21ModificationInterfaceC2Ev@Base 4:4.3.4
  _ZN11KTextEditor21ModificationInterfaceD0Ev@Base 4:4.3.4
