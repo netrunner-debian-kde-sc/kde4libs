@@ -27,3 +27,4 @@ kde4libs_interpret_qvarianttype_as_qmetatypetype.diff
 debian_standardsdirtest.diff
 disable_bogus_test.diff
 disable_bogus_tests
+upstream-make_include_style_be_the_same_for_QtCore.patch
