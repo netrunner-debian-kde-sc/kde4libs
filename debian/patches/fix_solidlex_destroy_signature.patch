@@ -1,0 +1,13 @@
+Index: kde4libs/solid/solid/predicate_parser.y
+===================================================================
+--- kde4libs.orig/solid/solid/predicate_parser.y	2014-05-27 15:29:09.432005425 +0200
++++ kde4libs/solid/solid/predicate_parser.y	2014-05-29 14:00:02.842756395 +0200
+@@ -12,7 +12,7 @@
+ void Soliderror(const char *s);
+ int Solidlex( YYSTYPE *yylval, yyscan_t scanner );
+ int Solidlex_init( yyscan_t *scanner );
+-int Solidlex_destroy( yyscan_t *scanner );
++int Solidlex_destroy( yyscan_t scanner );
+ void PredicateParse_initLexer( const char *s, yyscan_t scanner );
+ void PredicateParse_mainParse( const char *_code );
+ 
