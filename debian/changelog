@@ -5,6 +5,7 @@ kde4libs (4:4.13.2-1) UNRELEASED; urgency=medium
   * New patch: fix_solidlex_destroy_signature.patch. (Closes: #749227)
     Thanks to Michael Tautschnig.
   * New upstream release.
+  * Refresh patches.
 
   [ Pino Toscano ]
   * Switch the libpng12-dev build dependency to libpng-dev.
