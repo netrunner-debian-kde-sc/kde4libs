@@ -1,16 +1,16 @@
-kde4libs (4:4.13.2-1) UNRELEASED; urgency=medium
+kde4libs (4:4.13.3-1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update symbols files with 4:4.13.1-1 build logs.
   * New patch: fix_solidlex_destroy_signature.patch. (Closes: #749227)
     Thanks to Michael Tautschnig.
-  * New upstream release.
+  * New upstream release. (Closes: #752052)
   * Refresh patches.
 
   [ Pino Toscano ]
   * Switch the libpng12-dev build dependency to libpng-dev.
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Jun 2014 18:37:59 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 13:24:49 +0200
 
 kde4libs (4:4.13.1-1) unstable; urgency=medium
 
