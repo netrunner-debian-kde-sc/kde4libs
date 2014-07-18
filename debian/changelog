@@ -4,7 +4,7 @@ kde4libs (4:4.13.3-1) UNRELEASED; urgency=medium
   * Update symbols files with 4:4.13.1-1 build logs.
   * New patch: fix_solidlex_destroy_signature.patch. (Closes: #749227)
     Thanks to Michael Tautschnig.
-  * New upstream release. (Closes: #752052)
+  * New upstream release. (Closes: #752052, #749769)
   * Refresh patches.
   * Update symbols files.
 
