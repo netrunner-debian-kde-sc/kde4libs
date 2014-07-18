@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 amd64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 sparc64
+# SymbolsHelper-Confirmed: 4:4.13.3 amd64
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -1837,11 +1837,11 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.7.2
  _ZN3KJS19InternalFunctionImpD1Ev@Base 4:4.7.2
  _ZN3KJS19InternalFunctionImpD2Ev@Base 4:4.7.2
- (optional=gccinternal|arch=alpha mipsel mips sparc)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.10.2
+ (optional=gccinternal|arch=alpha amd64 mips mipsel sparc)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.10.2
  (optional=private|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
- (optional=gccinternal|arch=!armel !armhf)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
- (optional=gccinternal|arch=!armel !armhf)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
- (optional=gccinternal|arch=!armel !armhf)_ZN3KJS6JSCellD2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!amd64 !armel !armhf)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
+ (optional=gccinternal|arch=!amd64 !armel !armhf)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
+ (optional=gccinternal|arch=!amd64 !armel !armhf)_ZN3KJS6JSCellD2Ev@Base 4:4.7.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD2Ev@Base 4:4.7.2
@@ -2255,7 +2255,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLViewD1Ev@Base 4:4.3.4
  _ZN9KHTMLViewD2Ev@Base 4:4.3.4
  (optional=templinst|arch=ia64 s390 sparc)_ZNK12KConfigGroup9readCheckI6QColorEET_PKcRKS2_@Base 4:4.7.4
- (optional=templinst|arch=!amd64 !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst|arch=!hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
  (optional=templinst|arch=!alpha !amd64 !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !powerpc !ppc64 !s390x !sparc64)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.10.2
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4:4.3.4

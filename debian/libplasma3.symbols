@@ -1,7 +1,7 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 sparc64
+# SymbolsHelper-Confirmed: 4:4.13.3 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
- (optional=templinst|arch=alpha armel)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.12.2
+ (optional=templinst|arch=alpha amd64 armel)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.12.2
  (optional=templinst|arch=sparc)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.10.2
  (optional=templinst|arch=sparc)_ZN12KConfigGroup14writeListCheckIdEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.10.2
  _ZN5Jolie11MetaService11loadServiceERK7QStringS3_@Base 4:4.4.4-2~

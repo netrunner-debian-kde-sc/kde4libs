@@ -1,12 +1,12 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 amd64 armel armhf
+# SymbolsHelper-Confirmed: 4:4.13.3 amd64
 libkjsembed.so.4 libkjsembed4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=gccinternal|arch=sparc)_ZN3KJS10IdentifierD1Ev@Base 4:4.7.4
  (optional=gccinternal|arch=sparc)_ZN3KJS10IdentifierD2Ev@Base 4:4.7.4
- (optional=internal|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
- (optional=internal|arch=!armel !armhf)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
- (optional=internal|arch=!armel !armhf)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
- (optional=internal|arch=amd64)_ZN3KJS6JSCellD2Ev@Base 4:4.6.3
+ (optional=internal|arch=!amd64 !armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
+ (optional=internal|arch=!amd64 !armel !armhf)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
+ (optional=internal|arch=!amd64 !armel !armhf)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
+ (optional=internal|arch=!amd64)_ZN3KJS6JSCellD2Ev@Base 4:4.6.3
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
  (optional=internal)_ZN3KJS7JSValueD2Ev@Base 4:4.6.3
