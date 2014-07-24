@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.3 amd64
+# SymbolsHelper-Confirmed: 4:4.13.3 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x
 libkjs.so.4 libkjsapi4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4:4.3.4
@@ -157,9 +157,6 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS19InternalFunctionImpC2EPNS_17FunctionPrototypeE@Base 4:4.3.4
  _ZN3KJS19InternalFunctionImpC2EPNS_17FunctionPrototypeERKNS_10IdentifierE@Base 4:4.3.4
  _ZN3KJS19InternalFunctionImpC2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64)_ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.7.2
- (optional=gccinternal|arch=!amd64)_ZN3KJS19InternalFunctionImpD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=!amd64)_ZN3KJS19InternalFunctionImpD2Ev@Base 4:4.7.2
  _ZN3KJS21StandardGlobalPackage14loadSubPackageERKNS_10IdentifierEPNS_7UStringE@Base 4:4.3.4
  _ZN3KJS21StandardGlobalPackageC1Ev@Base 4:4.3.4
  _ZN3KJS21StandardGlobalPackageC2Ev@Base 4:4.3.4
@@ -183,9 +180,6 @@ libkjs.so.4 libkjsapi4 #MINVER#
  _ZN3KJS5isNaNEd@Base 4:4.3.4
  _ZN3KJS6JSCell4markEv@Base 4:4.3.4
  _ZN3KJS6JSCell9getObjectEv@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64)_ZN3KJS6JSCellD2Ev@Base 4:4.7.2
  (subst)_ZN3KJS6JSCellnwE{size_t}@Base 4:4.3.4
  _ZN3KJS6JSLock12DropAllLocksC1Ev@Base 4:4.3.4
  _ZN3KJS6JSLock12DropAllLocksC2Ev@Base 4:4.3.4
@@ -544,9 +538,6 @@ libkjsapi.so.4 libkjsapi4 #MINVER#
  _ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
  (arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64 !armel !armhf)_ZN3KJS6JSCellD0Ev@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64 !armel !armhf)_ZN3KJS6JSCellD1Ev@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64 !armel !armhf)_ZN3KJS6JSCellD2Ev@Base 4:4.7.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD2Ev@Base 4:4.7.2

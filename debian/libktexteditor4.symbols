@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.3 amd64
+# SymbolsHelper-Confirmed: 4:4.13.3 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x
 libktexteditor.so.4 libktexteditor4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KTextEditor10ConfigPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -270,9 +270,6 @@ libktexteditor.so.4 libktexteditor4 #MINVER#
  _ZN11KTextEditor20CodeCompletionModel216staticMetaObjectE@Base 4:4.3.4
  _ZN11KTextEditor20CodeCompletionModel2C1EP7QObject@Base 4:4.3.4
  _ZN11KTextEditor20CodeCompletionModel2C2EP7QObject@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64)_ZN11KTextEditor20CodeCompletionModel2D0Ev@Base 4:4.7.4
- (optional=gccinternal|arch=!amd64)_ZN11KTextEditor20CodeCompletionModel2D1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=!amd64)_ZN11KTextEditor20CodeCompletionModel2D2Ev@Base 4:4.7.4
  _ZN11KTextEditor21ModificationInterfaceC1Ev@Base 4:4.3.4
  _ZN11KTextEditor21ModificationInterfaceC2Ev@Base 4:4.3.4
  _ZN11KTextEditor21ModificationInterfaceD0Ev@Base 4:4.3.4

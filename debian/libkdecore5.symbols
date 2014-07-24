@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.3 amd64
+# SymbolsHelper-Confirmed: 4:4.13.3 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -1082,9 +1082,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN17KEncodingDetectorD2Ev@Base 4:4.3.4
  _ZN18KCharMacroExpander16expandPlainMacroERK7QStringiR11QStringList@Base 4:4.3.4
  _ZN18KCharMacroExpander18expandEscapedMacroERK7QStringiR11QStringList@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64)_ZN18KCharMacroExpanderD0Ev@Base 4:4.7.4
- (optional=gccinternal|arch=!amd64)_ZN18KCharMacroExpanderD1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=!amd64)_ZN18KCharMacroExpanderD2Ev@Base 4:4.7.4
  _ZN18KLocalSocketServer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN18KLocalSocketServer11qt_metacastEPKc@Base 4:4.3.4
  _ZN18KLocalSocketServer13newConnectionEv@Base 4:4.3.4
@@ -1119,9 +1116,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN18KServiceTypeTraderD2Ev@Base 4:4.3.4
  _ZN18KWordMacroExpander16expandPlainMacroERK7QStringiR11QStringList@Base 4:4.3.4
  _ZN18KWordMacroExpander18expandEscapedMacroERK7QStringiR11QStringList@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64)_ZN18KWordMacroExpanderD0Ev@Base 4:4.7.4
- (optional=gccinternal|arch=!amd64)_ZN18KWordMacroExpanderD1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=!amd64)_ZN18KWordMacroExpanderD2Ev@Base 4:4.7.4
  _ZN19KConfigSkeletonItem10setToolTipERK7QString@Base 4:4.3.4
  _ZN19KConfigSkeletonItem12setWhatsThisERK7QString@Base 4:4.3.4
  _ZN19KConfigSkeletonItem16readImmutabilityERK12KConfigGroup@Base 4:4.3.4
@@ -1278,8 +1272,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN19KCoreConfigSkeleton8ItemBoolD2Ev@Base 4:4.7.4
  _ZN19KCoreConfigSkeleton8ItemEnum10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemEnum11writeConfigEP7KConfig@Base 4:4.3.4
- (optional=gccinternal|arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1ERKS1_@Base 4:4.11.5
- (optional=gccinternal|arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2ERKS1_@Base 4:4.11.5
  _ZN19KCoreConfigSkeleton8ItemEnumC1ERK7QStringS3_RiRK5QListINS0_6ChoiceEEi@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemEnumC1ERK7QStringS3_RiRK5QListINS0_7Choice2EEi@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemEnumC2ERK7QStringS3_RiRK5QListINS0_6ChoiceEEi@Base 4:4.3.4
@@ -1837,9 +1829,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN6Sonnet6Client16staticMetaObjectE@Base 4:4.3.4
  _ZN6Sonnet6ClientC1EP7QObject@Base 4:4.3.4
  _ZN6Sonnet6ClientC2EP7QObject@Base 4:4.3.4
- (optional=gccinternal|arch=!amd64)_ZN6Sonnet6ClientD0Ev@Base 4:4.7.4
- (optional=gccinternal|arch=!amd64)_ZN6Sonnet6ClientD1Ev@Base 4:4.7.4
- (optional=gccinternal|arch=!amd64)_ZN6Sonnet6ClientD2Ev@Base 4:4.7.4
  _ZN6Sonnet6Filter11setSettingsEPNS_8SettingsE@Base 4:4.3.4
  _ZN6Sonnet6Filter13defaultFilterEv@Base 4:4.3.4
  _ZN6Sonnet6Filter18setCurrentPositionEi@Base 4:4.3.4
@@ -2940,7 +2929,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK12KConfigGroup10hasDefaultERK7QString@Base 4:4.3.4
  _ZNK12KConfigGroup11isImmutableEv@Base 4:4.3.4
  _ZNK12KConfigGroup12hasGroupImplERK10QByteArray@Base 4:4.3.4
- (optional=templinst|arch=mips mipsel)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.3.4
+ (optional=templinst|arch=armel mips mipsel)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.3.4
  _ZNK12KConfigGroup13readPathEntryEPKcRK11QStringList@Base 4:4.3.4
  _ZNK12KConfigGroup13readPathEntryEPKcRK7QString@Base 4:4.3.4
  _ZNK12KConfigGroup13readPathEntryERK7QStringRK11QStringList@Base 4:4.3.4
@@ -2964,8 +2953,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK12KConfigGroup8entryMapEv@Base 4:4.3.4
  _ZNK12KConfigGroup9groupImplERK10QByteArray@Base 4:4.3.4
  _ZNK12KConfigGroup9groupListEv@Base 4:4.3.4
- (optional=templinst|arch=alpha amd64 armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc64)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
- (optional=templinst|arch=!sparc)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst|arch=alpha amd64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
+ (optional=templinst)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.2
  _ZNK12KConfigGroup9readEntryEPKcRK11QStringList@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryEPKcRK5QListI8QVariantE@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryEPKcRK7QString@Base 4:4.3.4
@@ -2976,8 +2965,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK12KConfigGroup9readEntryERK7QStringRK5QListI8QVariantE@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryERK7QStringRK8QVariant@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryERK7QStringS2_@Base 4:4.3.4
- (optional=templinst|arch=s390 sparc)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=sparc)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.6.2
  _ZNK12KDesktopFile10readDeviceEv@Base 4:4.3.4
  _ZNK12KDesktopFile11actionGroupERK7QString@Base 4:4.3.4
  _ZNK12KDesktopFile11hasLinkTypeEv@Base 4:4.3.4
@@ -4379,23 +4366,6 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZrsR11QDataStreamRN13KProtocolInfo10ExtraFieldE@Base 4:4.3.4
  _ZrsR11QDataStreamRN9KDateTime4SpecE@Base 4:4.5.0
  _kde_internal_KConfigGroupGui@Base 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KBufferedSocket@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KClientSocketBase@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KDatagramSocket@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KHttpProxySocketDevice@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KSocketDevice@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KSocksSocketDevice@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KActiveSocketBase-in-KNetwork::KStreamSocket@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KClientSocketBase-in-KNetwork::KBufferedSocket@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KClientSocketBase-in-KNetwork::KDatagramSocket@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KClientSocketBase-in-KNetwork::KStreamSocket@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KHttpProxySocketDevice@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KServerSocket@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KSocketDevice@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KPassiveSocketBase-in-KNetwork::KSocksSocketDevice@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KSocketDevice-in-KNetwork::KHttpProxySocketDevice@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KSocketDevice-in-KNetwork::KSocksSocketDevice@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=sparc)"construction vtable for KNetwork::KStreamSocket-in-KNetwork::KBufferedSocket@Base" 4:4.3.4
  kde_kdebug_enable_dbus_interface@Base 4:4.3.4
  kiotrader_create_buffer@Base 4:4.3.4
  kiotrader_delete_buffer@Base 4:4.3.4
