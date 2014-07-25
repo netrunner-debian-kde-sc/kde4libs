@@ -1,10 +1,10 @@
-kde4libs (4:4.13.3-2) UNRELEASED; urgency=medium
+kde4libs (4:4.13.3-2) unstable; urgency=medium
 
   * Update symbols with the buildds logs.
   * New upstream patch: upstream_use-dbus-system-bus-name-instead-of-
     pid.patch (Closes: #755814) Fixes: CVE-2014-5033
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 24 Jul 2014 11:24:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 25 Jul 2014 11:36:21 +0200
 
 kde4libs (4:4.13.3-1) unstable; urgency=medium
 
