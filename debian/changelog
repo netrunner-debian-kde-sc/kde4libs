@@ -1,6 +1,7 @@
 kde4libs (4:4.14.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update symbols files with the 4:4.13.3 build logs.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:31:30 +0200
 
