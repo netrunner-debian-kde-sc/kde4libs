@@ -1,4 +1,4 @@
-kde4libs (4:4.14.0-1~) UNRELEASED; urgency=medium
+kde4libs (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
   * Update symbols files with the 4:4.13.3 build logs.
@@ -6,7 +6,7 @@ kde4libs (4:4.14.0-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Aug 2014 22:39:37 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Aug 2014 05:25:38 +0200
 
 kde4libs (4:4.13.3-2) unstable; urgency=medium
 
