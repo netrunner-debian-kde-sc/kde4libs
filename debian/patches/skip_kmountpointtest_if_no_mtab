@@ -1,0 +1,16 @@
+Index: kde4libs/kdecore/tests/kmountpointtest.cpp
+===================================================================
+--- kde4libs.orig/kdecore/tests/kmountpointtest.cpp	2014-09-16 10:24:39.517136285 +0200
++++ kde4libs/kdecore/tests/kmountpointtest.cpp	2014-09-16 18:52:16.174338889 +0200
+@@ -35,7 +35,10 @@
+ void KMountPointTest::testCurrentMountPoints()
+ {
+     const KMountPoint::List mountPoints = KMountPoint::currentMountPoints(KMountPoint::NeedRealDeviceName);
+-    QVERIFY(!mountPoints.isEmpty());
++    if (mountPoints.isEmpty()) { // can happen in chroot jails
++        QSKIP("fstab is empty", SkipAll);
++        return;
++    }
+     KMountPoint::Ptr mountWithDevice;
+     foreach(KMountPoint::Ptr mountPoint, mountPoints) {
+         kDebug() << "Mount: " << mountPoint->mountedFrom()

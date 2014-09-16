@@ -1,6 +1,7 @@
 kde4libs (4:4.14.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (4.14.1).
+  * New patch: skip_kmountpointtest_if_no_mtab
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Sep 2014 20:30:45 +0200
 
