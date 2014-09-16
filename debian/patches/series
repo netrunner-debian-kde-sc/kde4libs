@@ -29,3 +29,4 @@ disable_bogus_test.diff
 disable_bogus_tests
 fix_solidlex_destroy_signature.patch
 skip_kmountpointtest_if_no_mtab
+upstream-copyjob.cpp.diff
