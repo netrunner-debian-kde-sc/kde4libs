@@ -2,6 +2,8 @@ kde4libs (4:4.14.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (4.14.2).
   * Update symbols files from buildds logs (4:4.14.1-1).
+  * Remove upstream applied patch: skip_kmountpointtest_if_no_mtab
+  * Remove upstream patch: upstream-copyjob.cpp.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Oct 2014 14:02:17 +0200
 
