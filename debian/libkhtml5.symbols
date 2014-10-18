@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.1 alpha armel mips mipsel sparc
+# SymbolsHelper-Confirmed: 4:4.14.2 amd64
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -2253,7 +2253,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLViewD2Ev@Base 4:4.3.4
  (optional=templinst|arch=ia64 s390)_ZNK12KConfigGroup9readCheckI6QColorEET_PKcRKS2_@Base 4:4.7.4
  (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.14.1
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4:4.3.4
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4:4.3.4
