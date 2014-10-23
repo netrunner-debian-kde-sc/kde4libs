@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.3 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x
+# SymbolsHelper-Confirmed: 4:4.14.2 x32
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1383,7 +1383,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
  (optional=gccinternal)_ZN3KDE4statERK7QStringP4stat@Base 4:4.10.2
- (optional=inline|arch=!amd64 !arm64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !sparc64)_ZN3KDE6renameERK7QStringS2_@Base 4:4.7.4
+ (optional=inline|arch=!amd64 !arm64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !sparc64 !x32)_ZN3KDE6renameERK7QStringS2_@Base 4:4.7.4
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO10Connection15connectToRemoteERK7QString@Base 4:4.3.4
@@ -1596,8 +1596,10 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO12RenameDialog19overwriteAllPressedEv@Base 4:4.3.4
  _ZN3KIO12RenameDialog21createContainerLayoutEP7QWidgetRK9KFileItemP6QLabel@Base 4:4.4.95
  _ZN3KIO12RenameDialog21suggestNewNamePressedEv@Base 4:4.3.4
- _ZN3KIO12RenameDialogC1EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyllll@Base 4:4.3.4
- _ZN3KIO12RenameDialogC2EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyllll@Base 4:4.3.4
+ (arch=!x32)_ZN3KIO12RenameDialogC1EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyllll@Base 4:4.3.4
+ (arch=x32)_ZN3KIO12RenameDialogC1EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyxxxx@Base 4:4.14.2
+ (arch=!x32)_ZN3KIO12RenameDialogC2EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyllll@Base 4:4.3.4
+ (arch=x32)_ZN3KIO12RenameDialogC2EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyxxxx@Base 4:4.14.2
  _ZN3KIO12RenameDialogD0Ev@Base 4:4.3.4
  _ZN3KIO12RenameDialogD1Ev@Base 4:4.3.4
  _ZN3KIO12RenameDialogD2Ev@Base 4:4.3.4
@@ -1644,7 +1646,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO13AccessManagerD2Ev@Base 4:4.3.4
  _ZN3KIO13JobUiDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO13JobUiDelegate11qt_metacastEPKc@Base 4:4.3.4
- _ZN3KIO13JobUiDelegate13askFileRenameEP4KJobRK7QStringS5_S5_NS_17RenameDialog_ModeERS3_yyllll@Base 4:4.3.4
+ (arch=!x32)_ZN3KIO13JobUiDelegate13askFileRenameEP4KJobRK7QStringS5_S5_NS_17RenameDialog_ModeERS3_yyllll@Base 4:4.3.4
+ (arch=x32)_ZN3KIO13JobUiDelegate13askFileRenameEP4KJobRK7QStringS5_S5_NS_17RenameDialog_ModeERS3_yyxxxx@Base 4:4.14.2
  _ZN3KIO13JobUiDelegate16staticMetaObjectE@Base 4:4.3.4
  _ZN3KIO13JobUiDelegate17requestMessageBoxENS0_14MessageBoxTypeERK7QStringS4_S4_S4_S4_S4_S4_RKNS_8MetaDataE@Base 4:4.11.1
  _ZN3KIO13JobUiDelegate21askDeleteConfirmationERKN4KUrl4ListENS0_12DeletionTypeENS0_16ConfirmationTypeE@Base 4:4.3.4
@@ -1783,7 +1786,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO17StoredTransferJobD0Ev@Base 4:4.3.4
  _ZN3KIO17StoredTransferJobD1Ev@Base 4:4.3.4
  _ZN3KIO17StoredTransferJobD2Ev@Base 4:4.3.4
- _ZN3KIO17http_update_cacheERK4KUrlbl@Base 4:4.3.4
+ (arch=!x32)_ZN3KIO17http_update_cacheERK4KUrlbl@Base 4:4.3.4
+ (arch=x32)_ZN3KIO17http_update_cacheERK4KUrlbx@Base 4:4.14.2
  _ZN3KIO17parseCacheControlERK7QString@Base 4:4.3.4
  _ZN3KIO18DefaultViewAdapter7connectEN20KAbstractViewAdapter6SignalEP7QObjectPKc@Base 4:4.3.4
  _ZN3KIO18DefaultViewAdapterC1EP17QAbstractItemViewP7QObject@Base 4:4.3.4
@@ -1794,8 +1798,10 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO18RenameDialogPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO18RenameDialogPlugin11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO18RenameDialogPlugin16staticMetaObjectE@Base 4:4.3.4
- _ZN3KIO18RenameDialogPlugin8FileItemC1ERK4KUrlRK7QStringyll@Base 4:4.3.4
- _ZN3KIO18RenameDialogPlugin8FileItemC2ERK4KUrlRK7QStringyll@Base 4:4.3.4
+ (arch=!x32)_ZN3KIO18RenameDialogPlugin8FileItemC1ERK4KUrlRK7QStringyll@Base 4:4.3.4
+ (arch=x32)_ZN3KIO18RenameDialogPlugin8FileItemC1ERK4KUrlRK7QStringyxx@Base 4:4.14.2
+ (arch=!x32)_ZN3KIO18RenameDialogPlugin8FileItemC2ERK4KUrlRK7QStringyll@Base 4:4.3.4
+ (arch=x32)_ZN3KIO18RenameDialogPlugin8FileItemC2ERK4KUrlRK7QStringyxx@Base 4:4.14.2
  _ZN3KIO18RenameDialogPlugin8FileItemD1Ev@Base 4:4.3.4
  _ZN3KIO18RenameDialogPlugin8FileItemD2Ev@Base 4:4.3.4
  _ZN3KIO18RenameDialogPluginC1EP7QDialog@Base 4:4.3.4
@@ -1948,7 +1954,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO7CopyJob10emitResultEv@Base 4:4.3.4
  _ZN3KIO7CopyJob10slotResultEP4KJob@Base 4:4.3.4
  _ZN3KIO7CopyJob10totalFilesEP4KJobm@Base 4:4.3.4
- _ZN3KIO7CopyJob11copyingDoneEPNS_3JobERK4KUrlS5_lbb@Base 4:4.3.4
+ (arch=!x32)_ZN3KIO7CopyJob11copyingDoneEPNS_3JobERK4KUrlS5_lbb@Base 4:4.3.4
+ (arch=x32)_ZN3KIO7CopyJob11copyingDoneEPNS_3JobERK4KUrlS5_xbb@Base 4:4.14.2
  _ZN3KIO7CopyJob11creatingDirEPNS_3JobERK4KUrl@Base 4:4.3.4
  _ZN3KIO7CopyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO7CopyJob11qt_metacastEPKc@Base 4:4.3.4
