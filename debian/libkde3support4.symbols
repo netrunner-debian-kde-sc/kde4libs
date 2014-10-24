@@ -1316,7 +1316,8 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZN9K3ProcesslsERK7QString@Base 4:4.3.4
  _ZN9K3RFCDate14localUTCOffsetEv@Base 4:4.3.4
  _ZN9K3RFCDate16parseDateISO8601ERK7QString@Base 4:4.3.4
- _ZN9K3RFCDate17rfc2822DateStringEli@Base 4:4.3.4
+ (arch=!x32)_ZN9K3RFCDate17rfc2822DateStringEli@Base 4:4.3.4
+ (arch=x32)_ZN9K3RFCDate17rfc2822DateStringExi@Base 4:4.14.0-1
  _ZN9K3RFCDate9parseDateERK7QString@Base 4:4.3.4
  _ZN9K3URLDrag11stringToUrlERK10QByteArray@Base 4:4.3.4
  _ZN9K3URLDrag11urlToStringERK4KUrl@Base 4:4.3.4
