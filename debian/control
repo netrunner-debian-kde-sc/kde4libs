@@ -59,7 +59,7 @@ Build-Depends: aspell,
                shared-mime-info (>= 0.60),
                zlib1g-dev
 Build-Conflicts: libqtwebkit-dev (<< 2.2.1)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde4libs.git
