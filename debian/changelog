@@ -1,6 +1,6 @@
 kde4libs (4:4.14.2-3~) UNRELEASED; urgency=medium
 
-  * 
+  * Manually fix symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Oct 2014 01:30:58 +0200
 
