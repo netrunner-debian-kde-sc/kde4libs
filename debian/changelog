@@ -1,10 +1,3 @@
-kde4libs (4:4.14.2-4~) UNRELEASED; urgency=medium
-
-  [ Thorsten Glaser ]
-  * Fix symbols for x32 (Closes: #760333)
-
- -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Oct 2014 22:39:35 +0200
-
 kde4libs (4:4.14.2-3) unstable; urgency=medium
 
   * Manually fix symbols files.
