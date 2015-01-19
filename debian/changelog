@@ -1,3 +1,11 @@
+kde4libs (4:4.14.2-5) unstable; urgency=medium
+
+  * Team upload.
+  * Add debian/patches/KRecursiveFilterProxyModel-Fixed-the-model.diff
+    (Closes: #775114)
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Mon, 19 Jan 2015 14:12:25 +0100
+
 kde4libs (4:4.14.2-4) unstable; urgency=medium
 
   * Team upload.
