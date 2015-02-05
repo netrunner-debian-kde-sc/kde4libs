@@ -1,0 +1,19 @@
+Description: Load Kubuntu patched localizations
+ Whenever Kubuntu has i18n patches ontop of what KDE has they get put into
+ the kubuntu-patched-l10n template. Therefore this template needs to be loaded
+ for every application.
+Forwarded: not-needed
+Author: Harald Sitter <apachelogger@kubuntu.org>
+
+Index: kde4libs-4.11.97/kdecore/localization/klocale_kde.cpp
+===================================================================
+--- kde4libs-4.11.97.orig/kdecore/localization/klocale_kde.cpp	2013-11-28 10:56:55.253029762 +0000
++++ kde4libs-4.11.97/kdecore/localization/klocale_kde.cpp	2013-11-28 10:56:55.249029762 +0000
+@@ -321,6 +321,7 @@
+         m_catalogNames.append(KCatalogName(QString::fromLatin1("kdeqt")));
+         m_catalogNames.append(KCatalogName(QString::fromLatin1("solid_qt")));
+         m_catalogNames.append(KCatalogName(QString::fromLatin1("kdecalendarsystems")));
++        m_catalogNames.append(KCatalogName(QString::fromLatin1("kubuntu-patched-l10n")));
+         m_numberOfSysCatalogs = m_catalogNames.size() - numberOfCatalogs;
+         } else {
+             m_numberOfSysCatalogs = 0;

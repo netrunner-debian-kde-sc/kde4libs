@@ -1,0 +1,13 @@
+Index: kde4libs-4.11.97/cmake/modules/FindPythonLibrary.cmake
+===================================================================
+--- kde4libs-4.11.97.orig/cmake/modules/FindPythonLibrary.cmake	2013-11-28 10:56:55.961029781 +0000
++++ kde4libs-4.11.97/cmake/modules/FindPythonLibrary.cmake	2013-11-28 10:56:55.953029780 +0000
+@@ -34,7 +34,7 @@
+ 
+ if (PYTHONINTERP_FOUND)
+ 
+-    option(INSTALL_PYTHON_FILES_IN_PYTHON_PREFIX "Install the Python files in the Python packages dir" FALSE)
++    option(INSTALL_PYTHON_FILES_IN_PYTHON_PREFIX "Install the Python files in the Python packages dir" TRUE)
+ 
+     # Set the Python libraries to what we actually found for interpreters
+     set(Python_ADDITIONAL_VERSIONS "${PYTHON_VERSION_MAJOR}.${PYTHON_VERSION_MINOR}")

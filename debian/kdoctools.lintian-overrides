@@ -1,0 +1,2 @@
+kdoctools: hardening-no-fortify-functions usr/lib/kde4/kio_ghelp.so
+kdoctools: hardening-no-fortify-functions usr/lib/kde4/kio_help.so

@@ -1,0 +1,27 @@
+We get the flags from $(CXXFLAGS) and $(CFLAGS), if we don't remove them we add
+them two times.
+Define NDEBUG, otherwise we get pure debug code. Kfind will start in one instead
+of twenty seconds with this define e.g. because of enabled caching of unknown
+icons.
+---
+ cmake/modules/FindKDE4Internal.cmake |    2 ++
+ 1 file changed, 2 insertions(+)
+
+Index: kde4libs/cmake/modules/FindKDE4Internal.cmake
+===================================================================
+--- kde4libs.orig/cmake/modules/FindKDE4Internal.cmake	2014-08-19 22:34:22.234287856 +0200
++++ kde4libs/cmake/modules/FindKDE4Internal.cmake	2014-08-19 22:34:22.230288019 +0200
+@@ -1203,11 +1203,13 @@
+    set(CMAKE_CXX_FLAGS_DEBUG          "-g -O2 -fno-reorder-blocks -fno-schedule-insns -fno-inline")
+    set(CMAKE_CXX_FLAGS_DEBUGFULL      "-g3 -fno-inline")
+    set(CMAKE_CXX_FLAGS_PROFILE        "-g3 -fno-inline -ftest-coverage -fprofile-arcs")
++   set(CMAKE_CXX_FLAGS_DEBIAN         "-DNDEBUG -DQT_NO_DEBUG")
+    set(CMAKE_C_FLAGS_RELWITHDEBINFO   "-O2 -g -DNDEBUG -DQT_NO_DEBUG")
+    set(CMAKE_C_FLAGS_RELEASE          "-O2 -DNDEBUG -DQT_NO_DEBUG")
+    set(CMAKE_C_FLAGS_DEBUG            "-g -O2 -fno-reorder-blocks -fno-schedule-insns -fno-inline")
+    set(CMAKE_C_FLAGS_DEBUGFULL        "-g3 -fno-inline")
+    set(CMAKE_C_FLAGS_PROFILE          "-g3 -fno-inline -ftest-coverage -fprofile-arcs")
++   set(CMAKE_C_FLAGS_DEBIAN           "-DNDEBUG -DQT_NO_DEBUG")
+ 
+    set(CMAKE_C_FLAGS   "${CMAKE_C_FLAGS} -Wno-long-long -std=iso9899:1990 -Wundef -Wcast-align -Werror-implicit-function-declaration -Wchar-subscripts -Wall -W -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fno-common")
+    # As of Qt 4.6.x we need to override the new exception macros if we want compile with -fno-exceptions

@@ -1,0 +1,10 @@
+Tests: testsuite
+Depends: @, @builddeps@, build-essential,
+         xvfb, xauth, dbus-x11, libxml2-utils,
+         kde-runtime, oxygen-icon-theme, iputils-ping | inetutils-ping,
+         libqt4-sql-sqlite
+Restrictions: rw-build-tree
+
+Tests: acc
+Depends: @,
+         dh-acc, exuberant-ctags

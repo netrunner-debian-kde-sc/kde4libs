@@ -1,0 +1,18 @@
+Description: Ensure KDE applications are checking langpack paths for l10n
+Author: Jonathan Riddell <jriddell@ubuntu.com>
+Forwarded: not-needed
+
+Index: kde4libs-4.13.0/kdecore/kernel/kstandarddirs.cpp
+===================================================================
+--- kde4libs-4.13.0.orig/kdecore/kernel/kstandarddirs.cpp	2014-05-20 13:22:57.000000000 +0100
++++ kde4libs-4.13.0/kdecore/kernel/kstandarddirs.cpp	2014-05-20 13:24:33.099360291 +0100
+@@ -1875,6 +1875,9 @@
+ 
+     addResourceDir("home", QDir::homePath(), false);
+ 
++    addResourceDir("locale", QLatin1String("/usr/share/locale-langpack/"), true);
++    addResourceDir("locale", QLatin1String("/usr/share/locale-kdelibs4/"), true);
++
+     addResourceType("autostart", "xdgconf-autostart", "/"); // merge them, start with xdg autostart
+     addResourceType("autostart", NULL, "share/autostart"); // KDE ones are higher priority
+ }

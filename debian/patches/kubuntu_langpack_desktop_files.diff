@@ -1,0 +1,188 @@
+Description: Draws desktop file translations from gettext domains.
+ This patch is heavily inspired by a similar patch from openSUSE, it howeever
+ makes a very important assumption to decrease overhead compared to KDE.
+ Iff the Ubuntu gettext domain is set, then translations will be drawn from
+ there, regardless of whether there are translations available in the desktop
+ file itself. This implies that only those builds that actually have a
+ gettext translation will provide the entry, and no others will.
+ This allows us to keep API additions to a minimum and at the same time
+ provide more performant code in both cases.
+Forwarded: not-needed
+Origin: vendor
+Author: Harald Sitter <apachelogger@ubuntu.com>
+Last-Update: 2010-06-24
+Reviewed-by: Jonathan Riddell <jriddell@ubuntu.com> 
+
+Index: kde4libs-4.11.97/kdecore/config/kdesktopfile.cpp
+===================================================================
+--- kde4libs-4.11.97.orig/kdecore/config/kdesktopfile.cpp	2013-11-28 10:56:54.669029748 +0000
++++ kde4libs-4.11.97/kdecore/config/kdesktopfile.cpp	2013-11-28 10:56:54.661029747 +0000
+@@ -34,16 +34,26 @@
+ #include "kstandarddirs.h"
+ #include "kconfigini_p.h"
+ #include "kde_file.h"
++#include "klocale.h"
+ 
+ class KDesktopFilePrivate : public KConfigPrivate
+ {
+  public:
+     KDesktopFilePrivate(const char * resourceType, const QString &fileName);
+     KConfigGroup desktopGroup;
++    KLocale *locale;
++    QString translationDomain;
++    virtual ~KDesktopFilePrivate()
++    {
++      if (locale != 0) {
++        delete locale;
++      }
++    }
+ };
+ 
+ KDesktopFilePrivate::KDesktopFilePrivate(const char * resourceType, const QString &fileName)
+-    : KConfigPrivate(KGlobal::mainComponent(), KConfig::NoGlobals, resourceType)
++    : KConfigPrivate(KGlobal::mainComponent(), KConfig::NoGlobals, resourceType),
++    locale(0)
+ {
+     mBackend = new KConfigIniBackend();
+     bDynamicBackend = false;
+@@ -56,6 +66,10 @@
+     Q_D(KDesktopFile);
+     reparseConfiguration();
+     d->desktopGroup = KConfigGroup(this, "Desktop Entry");
++    if (d->desktopGroup.hasKey("X-Ubuntu-Gettext-Domain")) {
++      d->translationDomain = d->desktopGroup.readEntry("X-Ubuntu-Gettext-Domain");
++      d->locale = new KLocale(d->translationDomain);
++    }
+ }
+ 
+ KDesktopFile::KDesktopFile(const QString &fileName)
+@@ -64,6 +78,10 @@
+     Q_D(KDesktopFile);
+     reparseConfiguration();
+     d->desktopGroup = KConfigGroup(this, "Desktop Entry");
++    if (d->desktopGroup.hasKey("X-Ubuntu-Gettext-Domain")) {
++      d->translationDomain = d->desktopGroup.readEntry("X-Ubuntu-Gettext-Domain");
++      d->locale = new KLocale(d->translationDomain);
++    }
+ }
+ 
+ KDesktopFile::~KDesktopFile()
+@@ -177,6 +195,30 @@
+   return false;
+ }
+ 
++// Due to the very nice fact that on Ubuntu the gettext domain key (as see
++QString KDesktopFile::translatedEntry(const KConfigGroup& group, const char* key) const
++{
++  Q_D(const KDesktopFile);
++  if (d->locale == 0 || !group.hasKey(key)) {
++    return group.readEntry(key);
++  }
++
++  QString value = group.readEntryUntranslated(key);
++  QString poValue;
++  // translateRaw does not like being called with an empty value.
++  if (value.isEmpty()) {
++    return value;
++  }
++
++  d->locale->translateRawFrom(d->translationDomain.toUtf8().constData(), key, value.toUtf8().constData(), NULL, &poValue);
++
++  if (poValue == value) {
++    d->locale->translateRawFrom(d->translationDomain.toUtf8().constData(), value.toUtf8().constData(), NULL, &poValue);
++  }
++
++  return poValue;
++}
++
+ QString KDesktopFile::readType() const
+ {
+   Q_D(const KDesktopFile);
+@@ -192,19 +234,19 @@
+ QString KDesktopFile::readName() const
+ {
+   Q_D(const KDesktopFile);
+-  return d->desktopGroup.readEntry("Name", QString());
++  return translatedEntry(d->desktopGroup, "Name");
+ }
+ 
+ QString KDesktopFile::readComment() const
+ {
+   Q_D(const KDesktopFile);
+-  return d->desktopGroup.readEntry("Comment", QString());
++  return translatedEntry(d->desktopGroup, "Comment");
+ }
+ 
+ QString KDesktopFile::readGenericName() const
+ {
+   Q_D(const KDesktopFile);
+-  return d->desktopGroup.readEntry("GenericName", QString());
++  return translatedEntry(d->desktopGroup, "GenericName");
+ }
+ 
+ QString KDesktopFile::readPath() const
+Index: kde4libs-4.11.97/kdecore/config/kdesktopfile.h
+===================================================================
+--- kde4libs-4.11.97.orig/kdecore/config/kdesktopfile.h	2013-11-28 10:56:54.669029748 +0000
++++ kde4libs-4.11.97/kdecore/config/kdesktopfile.h	2013-11-28 10:56:54.661029747 +0000
+@@ -243,6 +243,8 @@
+ 
+   const char *resource() const;
+ 
++  QString translatedEntry(const KConfigGroup& group, const char* key) const;
++  
+ protected:
+   /** Virtual hook, used to add new "virtual" functions while maintaining
+       binary compatibility. Unused in this class.
+Index: kde4libs-4.11.97/kdecore/services/kservice.cpp
+===================================================================
+--- kde4libs-4.11.97.orig/kdecore/services/kservice.cpp	2013-11-28 10:56:54.669029748 +0000
++++ kde4libs-4.11.97/kdecore/services/kservice.cpp	2013-11-28 10:56:54.661029747 +0000
+@@ -306,7 +306,7 @@
+                                << "has no Name or no Exec key";
+             } else {
+                 m_actions.append(KServiceAction(group,
+-                                                cg.readEntry("Name"),
++                                                config->translatedEntry(cg,"Name"),
+                                                 cg.readEntry("Icon"),
+                                                 cg.readEntry("Exec"),
+                                                 cg.readEntry("NoDisplay", false)));
+Index: kde4libs-4.11.97/kdecore/services/kservicegroup.cpp
+===================================================================
+--- kde4libs-4.11.97.orig/kdecore/services/kservicegroup.cpp	2013-11-28 10:56:54.669029748 +0000
++++ kde4libs-4.11.97/kdecore/services/kservicegroup.cpp	2013-11-28 10:56:54.661029747 +0000
+@@ -56,9 +56,9 @@
+ 
+   const KConfigGroup config = desktopFile.desktopGroup();
+ 
+-  m_strCaption = config.readEntry( "Name" );
+-  m_strIcon = config.readEntry( "Icon" );
+-  m_strComment = config.readEntry( "Comment" );
++  m_strCaption = desktopFile.readName();
++  m_strIcon = desktopFile.readIcon();
++  m_strComment = desktopFile.readComment();
+   deleted = config.readEntry("Hidden", false );
+   m_bNoDisplay = desktopFile.noDisplay();
+   m_strBaseGroupName = config.readEntry( "X-KDE-BaseGroup" );
+Index: kde4libs-4.11.97/kdecore/localization/klocale_kde.cpp
+===================================================================
+--- kde4libs-4.11.97.orig/kdecore/localization/klocale_kde.cpp	2013-11-28 10:56:54.669029748 +0000
++++ kde4libs-4.11.97/kdecore/localization/klocale_kde.cpp	2013-11-28 10:56:54.661029747 +0000
+@@ -312,6 +312,7 @@
+         // do not use insertCatalog here, that would already trigger updateCatalogs
+         m_catalogNames.append(KCatalogName(m_catalogName));   // application catalog
+ 
++        if (!m_catalogName.startsWith(QString::fromLatin1("desktop_"))) { //don't bother if we're looking up desktop translations
+         // catalogs from which each application can draw translations
+         const int numberOfCatalogs = m_catalogNames.size();
+         m_catalogNames.append(KCatalogName(QString::fromLatin1("libphonon")));
+@@ -321,6 +322,9 @@
+         m_catalogNames.append(KCatalogName(QString::fromLatin1("solid_qt")));
+         m_catalogNames.append(KCatalogName(QString::fromLatin1("kdecalendarsystems")));
+         m_numberOfSysCatalogs = m_catalogNames.size() - numberOfCatalogs;
++        } else {
++            m_numberOfSysCatalogs = 0;
++        }
+ 
+         updateCatalogs(); // evaluate this for all languages
+     }

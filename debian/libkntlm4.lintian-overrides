@@ -1,0 +1,1 @@
+libkntlm4: hardening-no-fortify-functions usr/lib/libkntlm.so.4.*

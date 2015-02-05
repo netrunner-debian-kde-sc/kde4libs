@@ -1,0 +1,62 @@
+Index: kde4libs-4.11.2/kdeui/util/kcrash.cpp
+===================================================================
+--- kde4libs-4.11.2.orig/kdeui/util/kcrash.cpp	2013-12-09 08:13:48.383067946 +0100
++++ kde4libs-4.11.2/kdeui/util/kcrash.cpp	2013-12-10 13:44:24.257149445 +0100
+@@ -223,6 +223,39 @@
+     return s_launchDrKonqi;
+ }
+ 
++/**
++ * \brief possiblyRaiseForApport raises() signal to native handler.
++ * \param sig signal that was handled by KCrash
++ * \return Does not return when raised for Apport
++ */
++static void possiblyRaiseForApport(int sig)
++{
++#define BUFSIZE 256
++    char buf[BUFSIZE];
++    const size_t bufSize = readlink("/proc/self/exe", buf, BUFSIZE);
++    buf[bufSize] = '\0'; // readlink doesn't NUL terminate.
++    for (char *c = buf; *c != '\0'; ++c){
++        if (*c == '/') {
++            *c = '_';
++        }
++    }
++
++    const uid_t uid = getuid();
++    char filePath[BUFSIZE];
++    sprintf(filePath, "/var/crash/%s.%d.drkonqi-accept", buf, uid);
++
++    if (access(filePath, F_OK) != -1) {
++        // Apport needs to get a core dump to enable automatic metrics submission.
++        // So instead of exit we are raising into the native signal handler.
++        fprintf(stderr, "Re-raising signal for Apport handling.\n");
++        KCrash::setCrashHandler(0);
++        raise(sig);
++    }
++    fprintf(stderr, "Not forwarding the crash to Apport.\n");
++    // Automatic report not allowed. No-op.
++#undef BUFSIZE
++}
++
+ void
+ KCrash::setCrashHandler (HandlerType handler)
+ {
+@@ -440,6 +473,7 @@
+       fprintf(stderr, "Unable to start Dr. Konqi\n");
+     }
+ 
++    possiblyRaiseForApport(sig);
+     _exit(255);
+ }
+ 
+@@ -558,7 +592,8 @@
+                 sleep(1);
+             }
+         }
+-        _exit(253);
++        // Do not exit here as we need to handle end of execution inside KCrash.
++        // _exit(253);
+     }
+ 
+     return (pid > 0); //return true on success
