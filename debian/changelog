@@ -1,9 +1,9 @@
-kde4libs (4:4.14.5-4~ubuntu1) UNRELEASED; urgency=medium
+kde4libs (4:4.14.5-4~ubuntu1) vivid; urgency=medium
 
   * New upstream release 
   * Fix watch file new version 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 06 Feb 2015 19:50:29 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 11:26:42 -0800
 
 kde4libs (4:4.14.4-4~ubuntu1) UNRELEASED; urgency=medium
 
