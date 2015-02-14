@@ -1,19 +1,13 @@
 kde4libs (4:4.14.5-4~ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release 
-  * Fix watch file new version 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 06 Feb 2015 19:50:29 -0800
-
-kde4libs (4:4.14.4-4~ubuntu1) UNRELEASED; urgency=medium
-
+  * New upstream release
+  * Fix watch file new version
   * New upstream release for kde-applications.
-  * Fix watch file for new location. 
+  * Fix watch file for new location.
   * Batchpatch symbols file: removed two optional Missing.
   * Removed 2 private symbols sortedKeys for nepomuk
-  
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 05 Feb 2015 14:49:07 +0000
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 06 Feb 2015 19:50:29 -0800
 
 kde4libs (4:4.14.2-4~ubuntu3) vivid; urgency=medium
 
@@ -23,7 +17,7 @@ kde4libs (4:4.14.2-4~ubuntu3) vivid; urgency=medium
 
 kde4libs (4:4.14.2-4~ubuntu2) vivid; urgency=medium
 
-  * Remove katepart from the kdelibs5-plugins depends to allow kate to build 
+  * Remove katepart from the kdelibs5-plugins depends to allow kate to build
 
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 26 Nov 2014 00:12:14 +0100
 
@@ -52,14 +46,10 @@ kde4libs (4:4.14.2-4~ubuntu1) vivid; urgency=medium
       kfreebsd_support.diff
     - don't use use_dejavu_as_default_font.diff as we use Ubuntu font
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 29 Oct 2014 15:16:50 +0100
-
-kde4libs (4:4.14.2-4~) UNRELEASED; urgency=medium
-
   [ Thorsten Glaser ]
   * Fix symbols for x32 (Closes: #760333)
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Oct 2014 22:39:35 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 29 Oct 2014 15:16:50 +0100
 
 kde4libs (4:4.14.2-3) unstable; urgency=medium
 
@@ -233,15 +223,12 @@ kde4libs (4:4.13.1-0ubuntu1) utopic; urgency=medium
   * New upstream release
   * Merge with Debian git, remaining changes as below
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 30 May 2014 17:37:06 +0100
-
-kde4libs (4:4.13.1-2) UNRELEASED; urgency=medium
-
+  [ Maximiliano Curia ]
   * Update symbols files with 4:4.13.1-1 build logs.
   * New patch: fix_solidlex_destroy_signature.patch. (Closes: #749227)
     Thanks to Michael Tautschnig.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 29 May 2014 13:21:15 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 30 May 2014 17:37:06 +0100
 
 kde4libs (4:4.13.1-1) unstable; urgency=medium
 
@@ -332,14 +319,10 @@ kde4libs (4:4.12.90-0ubuntu1) trusty; urgency=medium
 
   * New upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:46:54 +0000
-
-kde4libs (4:4.12.4-2) UNRELEASED; urgency=medium
-
   [ Pino Toscano ]
   * Switch ttf-dejavu recommend in kdelibs5-plugins to fonts-dejavu.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2014 09:38:15 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:46:54 +0000
 
 kde4libs (4:4.12.4-1) unstable; urgency=medium
 
@@ -437,7 +420,7 @@ kde4libs (4:4.11.80-0ubuntu1) trusty; urgency=low
 
   [ Philip Muškovac ]
   * Refresh symbol files
-  * Drop missing manpage from kdelibs5-dev.install 
+  * Drop missing manpage from kdelibs5-dev.install
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:31:29 +0100
 
@@ -589,7 +572,7 @@ kde4libs (4:4.10.95-0ubuntu1) saucy; urgency=low
 
 kde4libs (4:4.10.90-0ubuntu2) saucy; urgency=low
 
-  * Update symbol files for all archs 
+  * Update symbol files for all archs
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 29 Jun 2013 01:32:26 +0200
 
@@ -778,7 +761,7 @@ kde4libs (4:4.10.2-1) experimental; urgency=low
     - add install_kcookiescfg.pl_with_exec_perms.diff.
     - drop fix-copying-of-files-with-extended-ACLs.patch, applied upstream.
     - drop python3-support-bytecode.patch, applied upstream.
-    - drop findpythonlibrary_layout_deb_on_debian.diff, no longer needed. 
+    - drop findpythonlibrary_layout_deb_on_debian.diff, no longer needed.
     - update make_libkdeinit4_private.diff.
     - refresh other patches to make them apply without any offset.
   * Bump libsoprano-dev build dependency to >= 2.7.56.
@@ -924,7 +907,7 @@ kde4libs (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
 
 kde4libs (4:4.10.0-0ubuntu3) raring; urgency=low
 
-  * Change to the breaks/replaces of kdelibs5-plugins on kdelibs4c2a to 
+  * Change to the breaks/replaces of kdelibs5-plugins on kdelibs4c2a to
     << 4:3.5.10.dfsg.1-6~ so a modified version can still be installed.
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 15 Feb 2013 15:46:59 +0100
@@ -1205,7 +1188,7 @@ kde4libs (4:4.8.2-0ubuntu1) precise; urgency=low
 
   [ Rohan Garg ]
   * New upstream release
-    - Update symbols for libkparts4 and libkio5 
+    - Update symbols for libkparts4 and libkio5
 
   [ Jonathan Thomas ]
   * Add kubuntu_fix_nepomuk_utils_crash.diff cherry-pick from KDE's 4.8
@@ -1303,8 +1286,8 @@ kde4libs (4:4.7.4-1) experimental; urgency=low
 kde4libs (4:4.7.90-0ubuntu1) precise; urgency=low
 
   * New upstream beta release
-  * Remove kubuntu_mobile patches, kactivities is split out now and they 
-    will be out of date, keep 
+  * Remove kubuntu_mobile patches, kactivities is split out now and they
+    will be out of date, keep
     kubuntu-mobile-07-serviceAvailabilityChanged-bool-signal.diff
     for binary compatibility reasons
 
@@ -1428,7 +1411,7 @@ kde4libs (4:4.6.3-3) unstable; urgency=low
 
 kde4libs (4:4.7.3-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
     - drop kubuntu_no_kbookmark_write_error.diff, fixed upstream
     - drop kubuntu_nepomuk_unicode.diff, fixed upstream
     - update install and symbol files
@@ -1539,7 +1522,7 @@ kde4libs (4:4.6.90-0ubuntu1) oneiric; urgency=low
     - Bump build-dep for shared-desktop-ontologies
     - Bump breaks/replaces against 4.6 packages
     - update install files.
-    - remove libkatepartinterfaces4 package and kate related files from 
+    - remove libkatepartinterfaces4 package and kate related files from
       kdelibs5-plugins and kdelibs5-data, moved to kate package.
     - exclude kde-runtime instead of kdebase-runtime in rules
     - refresh symbol files
@@ -1883,7 +1866,7 @@ kde4libs (4:4.5.85a-0ubuntu2) natty; urgency=low
 kde4libs (4:4.5.85a-0ubuntu1) natty; urgency=low
 
   * New upstream beta release
-    - drop kubuntu_78_solid_trunk.diff and kubuntu_80_find_hupnp.diff, 
+    - drop kubuntu_78_solid_trunk.diff and kubuntu_80_find_hupnp.diff,
       applied upstream
     - disable 23_solid_no_double_build.diff, causes FTBFS
     - refresh kdelibs5-dev.install
@@ -6774,4 +6757,3 @@ kde4libs (4:3.90+svn20070601-r670402-1) alioth; urgency=low
   * Initial release of KDE4.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 May 2007 16:02:37 +0100
-
