@@ -1,4 +1,4 @@
-kde4libs (4:4.14.5-1~) UNRELEASED; urgency=medium
+kde4libs (4:4.14.5-1) experimental; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -15,7 +15,7 @@ kde4libs (4:4.14.5-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Update symbols files.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 06 Feb 2015 19:50:29 -0800
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 16 Feb 2015 12:43:00 +0100
 
 kde4libs (4:4.14.2-5) unstable; urgency=medium
 
