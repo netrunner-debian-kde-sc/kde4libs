@@ -1,11 +1,18 @@
 kde4libs (4:4.14.5-1~) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
   * Fix watch file new version
   * New upstream release for kde-applications.
   * Fix watch file for new location.
   * Batchpatch symbols file: removed two optional Missing.
   * Removed 2 private symbols sortedKeys for nepomuk
+
+  [ Maximiliano Curia ]
+  * Remove upstream patch: allow_cancel_ssl.diff
+  * Remove upstream patch: KRecursiveFilterProxyModel-Fixed-the-
+    model.diff
+  * Refresh patches.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 06 Feb 2015 19:50:29 -0800
 

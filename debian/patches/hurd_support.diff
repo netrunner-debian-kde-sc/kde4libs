@@ -8,8 +8,8 @@ Forwarded: no
 Last-Update: 2012-10-01
 Index: kde4libs/kdecore/kernel/kstandarddirs.cpp
 ===================================================================
---- kde4libs.orig/kdecore/kernel/kstandarddirs.cpp	2014-08-19 22:35:04.472532370 +0200
-+++ kde4libs/kdecore/kernel/kstandarddirs.cpp	2014-08-19 22:35:04.448533368 +0200
+--- kde4libs.orig/kdecore/kernel/kstandarddirs.cpp	2015-02-16 10:23:11.574487365 +0100
++++ kde4libs/kdecore/kernel/kstandarddirs.cpp	2015-02-16 10:23:11.570487525 +0100
 @@ -79,6 +79,10 @@
  static Qt::CaseSensitivity cs = Qt::CaseSensitive;
  #endif
@@ -23,8 +23,8 @@ Index: kde4libs/kdecore/kernel/kstandarddirs.cpp
  public:
 Index: kde4libs/kinit/lnusertemp.c
 ===================================================================
---- kde4libs.orig/kinit/lnusertemp.c	2014-08-19 22:35:04.472532370 +0200
-+++ kde4libs/kinit/lnusertemp.c	2014-08-19 22:35:04.468532537 +0200
+--- kde4libs.orig/kinit/lnusertemp.c	2015-02-16 10:23:11.574487365 +0100
++++ kde4libs/kinit/lnusertemp.c	2015-02-16 10:23:11.570487525 +0100
 @@ -36,6 +36,10 @@
  #include <limits.h>
  #endif
@@ -38,10 +38,10 @@ Index: kde4libs/kinit/lnusertemp.c
  int build_link(const char* tmp, const char *tmp_prefix, const char *kde_prefix);
 Index: kde4libs/cmake/modules/FindKDE4Internal.cmake
 ===================================================================
---- kde4libs.orig/cmake/modules/FindKDE4Internal.cmake	2014-08-19 22:35:04.472532370 +0200
-+++ kde4libs/cmake/modules/FindKDE4Internal.cmake	2014-08-19 22:35:04.468532537 +0200
+--- kde4libs.orig/cmake/modules/FindKDE4Internal.cmake	2015-02-16 10:23:11.574487365 +0100
++++ kde4libs/cmake/modules/FindKDE4Internal.cmake	2015-02-16 10:23:11.570487525 +0100
 @@ -1225,8 +1225,8 @@
-    endif (CMAKE_SYSTEM_NAME MATCHES Linux OR CMAKE_SYSTEM_NAME STREQUAL GNU OR CMAKE_SYSTEM_NAME MATCHES kFreeBSD)
+     endif (CMAKE_SYSTEM_NAME MATCHES Linux OR CMAKE_SYSTEM_NAME STREQUAL GNU OR CMAKE_SYSTEM_NAME MATCHES kFreeBSD)
  
     if (CMAKE_SYSTEM_NAME STREQUAL GNU)
 -      set (CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -pthread")
