@@ -222,6 +222,7 @@ usr/share/kde4/services/khtmladaptorpart.desktop
 usr/share/kde4/services/khtmlimage.desktop
 usr/share/kde4/services/kjavaappletviewer.desktop
 usr/share/kde4/services/kmultipart.desktop
+usr/share/kde4/services/kspell_aspell.desktop
 usr/share/kde4/services/kspell_enchant.desktop
 usr/share/kde4/services/kspell_hspell.desktop
 usr/share/kde4/services/metainfo.protocol

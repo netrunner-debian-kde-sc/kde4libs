@@ -9,6 +9,14 @@ kde4libs (4:4.14.5-4~ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 06 Feb 2015 19:50:29 -0800
 
+kde4libs (4:4.14.2-5) unstable; urgency=medium
+
+  * Team upload.
+  * Add debian/patches/KRecursiveFilterProxyModel-Fixed-the-model.diff
+    (Closes: #775114)
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Mon, 19 Jan 2015 14:12:25 +0100
+
 kde4libs (4:4.14.2-4~ubuntu3) vivid; urgency=medium
 
   * Readd kdelibs5-plugins depends on katepart
@@ -29,6 +37,17 @@ kde4libs (4:4.14.2-4~ubuntu1) vivid; urgency=medium
     - kdelibs5-dev should not have perl depends
     - no build-dep on libaspell-dev, aspell
     - no build-dep on libfam-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 29 Oct 2014 15:16:50 +0100
+
+kde4libs (4:4.14.2-4) unstable; urgency=medium
+
+  * Team upload.
+  * Add debian/patches/allow_cancel_ssl.diff (cherry-picked from 4.14.3) to
+    make it possible for cancelling certificate acceptance succeed (Closes:
+    #771744)
+    - Note: This completes the fixes for this issue.  See #769852 for
+      kdepimlibs and #750995 for kdepim-runtime for the rest
     - DEB_CMAKE_EXTRA_FLAGS += -DKDESU_USE_SUDO_DEFAULT=true
     - don't apply kconf_update_migrate_from_kde3_icon_theme.diff
     - kdelibs5-plugins.install:
@@ -49,7 +68,7 @@ kde4libs (4:4.14.2-4~ubuntu1) vivid; urgency=medium
   [ Thorsten Glaser ]
   * Fix symbols for x32 (Closes: #760333)
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 29 Oct 2014 15:16:50 +0100
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 01 Dec 2014 18:21:17 -0500
 
 kde4libs (4:4.14.2-3) unstable; urgency=medium
 
@@ -122,6 +141,16 @@ kde4libs (4:4.14.1-0ubuntu1) utopic; urgency=medium
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 16:44:39 +0200
 
+kde4libs (4:4.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update symbols files with the 4:4.13.3 build logs.
+  * Remove upstream patches.
+  * Refresh patches.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Aug 2014 05:25:38 +0200
+
 kde4libs (4:4.14.0-0ubuntu3) utopic; urgency=medium
 
   * Update symbols files for armhf.
@@ -193,6 +222,29 @@ kde4libs (4:4.13.90-0ubuntu1) utopic; urgency=medium
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 17 Jul 2014 14:18:37 -0700
 
+kde4libs (4:4.13.3-2) unstable; urgency=medium
+
+  * Update symbols with the buildds logs.
+  * New upstream patch: upstream_use-dbus-system-bus-name-instead-of-
+    pid.patch (Closes: #755814) Fixes: CVE-2014-5033
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 25 Jul 2014 11:36:21 +0200
+
+kde4libs (4:4.13.3-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Update symbols files with 4:4.13.1-1 build logs.
+  * New patch: fix_solidlex_destroy_signature.patch. (Closes: #749227)
+    Thanks to Michael Tautschnig.
+  * New upstream release. (Closes: #752052, #749769)
+  * Refresh patches.
+  * Update symbols files.
+
+  [ Pino Toscano ]
+  * Switch the libpng12-dev build dependency to libpng-dev.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Jul 2014 09:14:12 +0200
+
 kde4libs (4:4.13.2-0ubuntu3) utopic; urgency=medium
 
   * debian/patches/fix-qfile-include.patch: Fix QFile include to resolve
@@ -248,6 +300,7 @@ kde4libs (4:4.13.1-1) unstable; urgency=medium
 kde4libs (4:4.13.0-0ubuntu5) utopic; urgency=medium
 
   * Add kubuntu_meinproc-libxml-fix.diff to fix documentation
+  * Ubuntu uses iputils-ping
     compilation in KDE Software with meinproc after libxml security
     fix broke it LP: #1324066
 
@@ -1131,6 +1184,91 @@ kde4libs (4:4.8.80a-0ubuntu1) quantal; urgency=low
 
  -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 24 May 2012 19:52:02 -0400
 
+kde4libs (4:4.8.4-4) unstable; urgency=low
+
+  * Backport an upstream patch to fix copying of files with extended ACLs.
+  * The rebuild will get the package rebuilt with xz compression
+    (Closes: #688766).
+  * Add myself to Uploaders.
+  * Confirm symbol files on more Debian arches.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 25 Oct 2012 18:11:08 -0300
+
+kde4libs (4:4.8.4-3) unstable; urgency=low
+
+  * Team upload.
+
+  [ Matthias Klumpp ]
+  * Backport upstream commit 05f1a19291af5c16745b76c3e0944c5b80ef5870
+    to fix power management. (Make sure powermanager values are valid)
+
+ -- Modestas Vainius <modax@debian.org>  Wed, 27 Jun 2012 22:41:42 +0300
+
+kde4libs (4:4.8.4-2) unstable; urgency=low
+
+  * Team upload.
+
+  [ Modestas Vainius ]
+  * Confirm symbol files on more Debian arches.
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 24 Jun 2012 18:23:08 +0200
+
+kde4libs (4:4.8.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ Modestas Vainius ]
+  * Update symbol files.
+
+  [ José Manuel Santamaría Lema ]
+  * Add watch file.
+  * Update patches:
+    - refresh python3-support-bytecode.patch
+    - refresh various patches to make them apply without any offset.
+  * Update symbols files.
+  * Drop unused lintian override "dbg-package-missing-depends kdelibs5-dbg".
+
+  [ Sune Vuorela ]
+  * Pull patches from upstream to fix the nepomuk related crashes
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 May 2012 12:10:37 +0200
+
+kde4libs (4:4.8.3-2) unstable; urgency=low
+
+  * Team upload.
+  * Update symbol files.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 15:38:38 +0300
+
+kde4libs (4:4.8.3-1) experimental; urgency=low
+
+  * New upstream release.
+    - FindXine.cmake doesn't call xine-config anymore (Closes: #656914)
+  * Team upload.
+
+  [ Eshat Cakar ]
+  * Add myself to uploaders.
+  * Update installed files.
+  * Update not-installed files.
+  * Remove upstream_better-check-for-return-values-of-m_protocols.value.patch
+    (applied upstream).
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files.
+  * Bump Standards-Version to 3.9.3, no changes needed.
+  * Remove -DBUILD_libkactivities=OFF from the cmake parameters, no longer
+    needed.
+
+  [ Pino Toscano ]
+  * libsolid4: suggest media-player-info on Linux archs.
+
+  [ Modestas Vainius ]
+  * Drop upstream_Add-missing-include.patch, stolen from upstream.
+  * DEP-3'ize python3-support-bytecode.patch.
+  * Strip Debian revision from symbol versions in symbol files.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 26 May 2012 18:26:57 +0300
+
 kde4libs (4:4.8.3-0r1) raring; urgency=low
 
   * New upstream release.
@@ -1293,6 +1431,82 @@ kde4libs (4:4.7.90-0ubuntu1) precise; urgency=low
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 16 Dec 2011 13:53:22 +0000
 
+kde4libs (4:4.7.4-6) unstable; urgency=low
+
+  * Team upload.
+
+  [ Scott Kitterman ]
+  * Confirm symbols files for all archs except amd64 and s390x
+  * Add support to cmake/modules/PythonMacros.cmake for the environment
+    variable $PYTHONDONTWRITEBYTECODE to work around the lack of support for
+    Python 3 byte code compilation (Closes: #672552)
+    - Added in debian/patches/python3-support-bytecode.patch
+    - Thanks to Colin Watson for the patch
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 19 May 2012 15:36:15 -0400
+
+kde4libs (4:4.7.4-5) unstable; urgency=low
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Make kdelibs5-dbg strictly depend on libkdecore5, to avoid a mismatch
+    between the kdelibs debug symbols and at least one of the libraries.
+  * Backport the upstream commit 01b0c1a8051f372e400d213ac125311c398e4b17 to fix
+    the build with GCC 4.7; patch upstream_Add-missing-include.patch.
+  * Bump Standards-Version to 3.9.3, no changes required.
+
+  [ Modestas Vainius ]
+  * Add temporary Build-Conflicts against libqtwebkit-dev << 2.2.1.
+  * Update symbol files for gcc 4.7.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 13 May 2012 00:20:58 +0300
+
+kde4libs (4:4.7.4-4) unstable; urgency=low
+
+  * Team upload.
+  * Backport the upstream commit d1edc0f038818a073488f6a1822cfb01d43d67e4 to fix
+    a crash in KIO in some situations, like with proxies with kmail or akonadi
+    (patch upstream_better-check-for-return-values-of-m_protocols.value.patch).
+    (Closes: #663528)
+
+ -- Pino Toscano <pino@debian.org>  Mon, 12 Mar 2012 20:45:47 +0100
+
+kde4libs (4:4.7.4-3) unstable; urgency=low
+
+  * Team upload.
+  * Do not export libkactivities library targets in the cmake configuration
+    of kdelibs. Also do not install libkactivities's headers.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 05 Mar 2012 14:32:02 +0100
+
+kde4libs (4:4.7.4-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+  [ José Manuel Santamaría Lema ]
+  * Confirm symbols files on all architectures.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Dec 2011 22:33:37 +0100
+
+kde4libs (4:4.7.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Update patches:
+    - Remove nepomuk_unicode.diff, applied upstream.
+    - Refreshed other patches to make them apply without offsets.
+  * Update installed files.
+  * Confirm symbol files on more architectures with the 4.7.2 build logs.
+  * Update symbols files for 4.7.4.
+
+  [ Pino Toscano ]
+  * Make kdelibs5-plugins depend on katepart, to make it "provide" it as it
+    happened in << 4.7.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Dec 2011 22:22:02 +0100
+
 kde4libs (4:4.7.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
@@ -1418,6 +1632,41 @@ kde4libs (4:4.7.3-0ubuntu1) precise; urgency=low
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Oct 2011 13:59:10 +0200
 
+kde4libs (4:4.7.2-2) experimental; urgency=low
+
+  [ Pino Toscano ]
+  * Add patch glibc_filesystem.diff to fix the kdecore compilation on kFreeBSD.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:43:11 -0300
+
+kde4libs (4:4.7.2-1) experimental; urgency=low
+
+  * New upstream release:
+    - fixes crash in the character selector widget. (Closes: #601894)
+
+  [ José Manuel Santamaría Lema ]
+  * Update patches:
+    - Add nepomuk_unicode.diff.
+    - Remove kded4_deadlock.patch, applied upstream.
+    - Update kfreebsd_support.diff.
+    - Refreshed other patches to make them apply without offsets.
+  * Bump shared-desktop-ontologies build depend to 0.6.50.
+  * Replace libpng-dev build depend with libpng12-dev to avoid accidental builds
+    against libpng packages in experimental.
+  * Update installed files.
+  * Remove package libkatepartinterfaces4.
+  * Add package libkdeclarative5.
+  * Update symbols files.
+  * Manage kdebase-runtime -> kde-runtime renaming:
+    - libkdecore and libkdeui symbols files pull kde-runtime instead of
+      kdebase-runtime.
+    - Update libkdecore and libkdeui lintian overrides.
+    - kdelibs5-plugins recommends kde-runtime instead of kdebase-runtime.
+    - Exclude kde-runtime (instead of kdebase-runtime) from dh_shlibdeps
+      results.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Nov 2011 18:09:30 +0100
+
 kde4libs (4:4.7.2-0ubuntu2) oneiric-proposed; urgency=low
 
   * Added kubuntu_nepomuk_unicode.diff to fix nepomuk queries as recommended
@@ -1529,6 +1778,59 @@ kde4libs (4:4.6.90-0ubuntu1) oneiric; urgency=low
     - Update Vcs links for new location
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 00:08:34 +0200
+
+kde4libs (4:4.6.5-2) unstable; urgency=low
+
+  [ José Manuel Santamaría Lema ]
+  * Add kded4_deadlock.patch to prevent a deadlock triggered sometimes
+    in kded4. (Closes: #621358)
+
+  [ Modestas Vainius ]
+  * Confirm symbol files on all arches.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jul 2011 23:27:45 +0300
+
+kde4libs (4:4.6.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Modestas Vainius ]
+  * Fix findpythonlibrary_layout_deb_on_debian.diff patch to set
+    PYTHON_SITE_PACKAGES_INSTALL_DIR properly as well.
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files.
+
+  [ Pino Toscano ]
+  * Switch to my @debian.org address, I'm a DD now.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jul 2011 21:53:52 +0300
+
+kde4libs (4:4.6.4-1) unstable; urgency=low
+
+  * New upstream release:
+    - fixes crash in KIconEngine (Closes: #628483)
+
+  [ Modestas Vainius ]
+  * FindPythonLibrary.cmake: if build type is Debian, pass --layout=deb to
+    FindLibPython.py (patch findpythonlibrary_layout_deb_on_debian.diff).
+  * Merge 4:4.4.5-2+squeeze2:
+    - add ktar_header_checksum_fix.diff and adapt to upstream changes;
+    - add ktar_longlink_length_in_bytes.diff and adapt to upstream changes.
+
+  [ José Manuel Santamaría Lema ]
+  * Remove upstream_fix_job-on-hold_reuse_logic.diff, applied upstream.
+  * Update symbols files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 Jun 2011 13:04:16 +0300
+
+kde4libs (4:4.6.3-3) unstable; urgency=low
+
+  [ Pino Toscano ]
+  * Move kdeui.upd to kdelibs5-plugins, and make it break/replace
+    kdelibs5-data << 4:4.6.3-3~. (Closes: #629188)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Jun 2011 22:18:48 +0300
 
 kde4libs (4:4.6.3-2ubuntu2) oneiric; urgency=low
 
@@ -2541,6 +2843,18 @@ kde4libs (4:4.4.3a-0ubuntu1) maverick; urgency=low
    - Link from /usr/share/doc/kde4 to kde for backwards compatible with old docs location
 
  -- Jonathan Thomas <echidnaman@kubuntu.org>  Sun, 16 May 2010 16:41:59 -0400
+
+kde4libs (4:4.4.3-2) unstable; urgency=medium
+
+  [ Modestas Vainius ]
+  * Confirm symbol files for 4.4.3 on all arches except alpha.
+  * Restore kdelibs5-dev installability with libkwebkit-dev (>= 0.9svn1123738).
+  * Bring our 4.4.3 up-to-date with final upstream 4.4.3 tarball
+    (patch 00_4.4.3_final_tarball.diff).
+  * Urgency=medium as this upload is needed to get kdenetwork with security
+    fix in.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 May 2010 22:30:03 +0300
 
 kde4libs (4:4.4.3-1) unstable; urgency=low
 
@@ -4368,6 +4682,78 @@ kde4libs (4:4.3.80-0ubuntu1) lucid; urgency=low
 
  -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Tue, 01 Dec 2009 12:03:18 +0100
 
+kde4libs (4:4.3.4-3) unstable; urgency=medium
+
+  * Add -ffunction-sections to C(XX)FLAGS on ia64 in order to fix FTBFS.
+
+ -- Modestas Vainius <modax@debian.org>  Fri, 19 Feb 2010 09:44:22 -0700
+
+kde4libs (4:4.3.4-2) unstable; urgency=emergency
+
+  * Fix libplasma3 symbols file (Closes: #570041).
+  * Pass CMAKE_SKIP_RPATH=ON to cmake.
+  * Urgency=emergency - needed for transition.
+
+ -- Modestas Vainius <modax@debian.org>  Thu, 18 Feb 2010 15:19:16 +0200
+
+kde4libs (4:4.3.4-1) unstable; urgency=low
+
+  * New upstream release.
+    - includes proper fixes for khtml show hide issue. (Closes: 553288)
+
+  +++ Changes by George Kiagiadakis:
+
+  * Add patch to make konsole work on GNU/kFreeBSD.
+
+  +++ Changes by Xavier Vello:
+
+  * Add patch to find KDE3 documentation on khelpcenter4
+
+  +++ Changes by Modestas Vainius:
+
+  * Update debian/patches:
+    - 01_r1032787_khtml_show_hide_fix - remove, taken from upstream;
+    - 02_r1032185_threading_issues_in_klocale - remove, taken from upstream;
+    - 08_add_debian_build_type - refresh, offsets adjusted;
+    - 14_hardcode_ptm_device - refresh, offsets adjusted;
+    - 15_kfreebsd_support - refresh, offsets adjusted;
+    - 20_use_dejavu_as_default_font - refresh, offsets adjusted;
+  * Update libplasma3 symbols file.
+  * Update install files.
+  * Remove obsolete information from README.Debian. Add notes
+    for people upgrading from Lenny to Squeeze regarding KDEHOME change.
+  * Backport a patch from KDE 4.4 to make it possible to use kstyle plugins
+    with RTLD_GLOBAL. Unbreaks openoffice.org (Closes: #550905) (patch
+    00_1034808_4.4_backport_rtldglobal.diff, kde4libs part).
+
+  +++ Changes by Pino Toscano:
+
+  * Add liblzma-dev build-depend to add XZ support in kdecore.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove myself from Uploaders.
+
+  +++ Changes by Christian Perrier:
+
+  * Debconf templates and debian/control reviewed by the debian-l10n-
+    english team as part of the Smith review project. Closes: #553451
+
+  [Debconf translation updates]
+  * Swedish (Martin Ågren).  Closes: #554453
+  * Basque (Piarres Beobide).  Closes: #554560
+  * Galician (Marce Villarino).  Closes: #555454
+  * Bokmål, Norwegian (Bjørn Steensrud).  Closes: #555654
+  * Czech (Tomas Fidler).  Closes: #555983
+  * Italian (Vincenzo Campanella).  Closes: #556039
+  * Spanish (Francisco Javier Cuadrado).  Closes: #556447
+  * Russian (Yuri Kozlov).  Closes: #556547
+  * Finnish (Esko Arajärvi).  Closes: #556795
+  * Portuguese (Pedro Ribeiro).  Closes: #556848
+  * Japanese (Hideki Yamane (Debian-JP)).  Closes: #557095
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Dec 2009 00:24:08 +0200
+
 kde4libs (4:4.3.3-0ubuntu4) lucid; urgency=low
 
   * Add epochs to qt4-x11 build-depends so it only builds against 4.6 rc 1
@@ -5198,6 +5584,175 @@ kde4libs (4:4.2.1a-0ubuntu1) jaunty; urgency=low
 
  -- Roderick B. Greening <roderick.greening@gmail.com>  Tue, 03 Mar 2009 15:33:26 -0330
 
+kde4libs (4:4.2.1-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+  +++ Changes by Fathi Boudra:
+
+  * Add 01_kcmdlineargs_decoding_svn934640.diff patch from upstream
+    to fix kcmdlineargs input decoding with Qt 4.5. (Closes: #518062)
+    It contains also a fix from svn938370: use the new bool exported by Qt
+    so that we can initialize the locale and make fromLocal8Bit/toLocal8Bit
+    work even without a QCoreApplication.
+
+  +++ Changes by Modestas Vainius:
+
+  * Use dh_bugfiles and build depend on debhelper 7.2.3:
+    - rename kdelibs5-dev.presubj to kdelibs5-dev.bug-presubj;
+    - rename debian/libplasma3.bugscript to debian/libplasma3.bug-script.
+  * Bump cmake build depend to 2.6.3. 24_2.6.2_use_common_cmake_config_dir.diff
+    dropped.
+  * Prepare for upload to unstable and ban unstable uploads of 3rd party
+    packages (debian/ban-unstable-uploads & 24_ban_unstable_uploads.diff).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Mar 2009 13:53:37 +0100
+
+kde4libs (4:4.2.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Modestas Vainius:
+
+  * Remove patches which were stolen from upstream:
+    - 01_r918838_kded_desktop_file_watch.diff
+    - 00_917133_qreal_portability_fix.diff
+    - 01_r918403_klauncher_hang.diff
+    - 01_r918654_klauncher_unique_app.diff
+    - 01_r917170_kio_update_on_break.diff
+    - 00_917014_kde4.2.0_tag.diff
+  * Point Debian Vcs URLs to pkg-kde/trunk (new location).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Feb 2009 17:59:21 +0200
+
+kde4libs (4:4.2.0-3) experimental; urgency=low
+
+  +++ Changes by Armin Berres:
+
+  * Update patch 08_add_debian_build_type.diff to also set QT_NO_DEBUG and
+    sync 09_disable_debug_messages_if_not_explicitly_enabled.diff with
+    upstream revision 916186.
+
+  +++ Changes by Modestas Vainius:
+
+  * Update debian/libplasma3.symbols.in with {qreal} substitutions. Fixes
+    FTBFS on arm(el).
+
+  +++ Changes by Sune Vuorela:
+
+  * Add patches from upstream for some stability fixed:
+    01_r917170_kio_update_on_break.diff
+    01_r918403_klauncher_hang.diff
+    01_r918654_klauncher_unique_app.diff
+    01_r918838_kded_desktop_file_watch.diff
+    Thanks to David Faure for pushing them.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jan 2009 22:20:37 +0200
+
+kde4libs (4:4.2.0-2) experimental; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Tweak libplasma3 description.
+  * Steal r917133 (as 00_917133_qreal_portability_fix.diff) from upstream svn
+    to fix FTBFS on armel.
+  * Deprecate external Qt symbols in libplasma3 symbols template
+    (Closes: #513133).
+  * Get up-to-date with kdelibs 4.2.0 tag: add 00_917014_kde4.2.0_tag.diff
+    patch (plasma security issue).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jan 2009 01:00:17 +0200
+
+kde4libs (4:4.2.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+  - kfmclient is no longer needed (Closes: #508601).
+
+  +++ Changes by Modestas Vainius:
+
+  * Resync patches:
+    - 01_http_cache_cleaner_branch_881252.diff - remove, stolen from upstream.
+    - 01_kross_version_11_r838337.diff - remove, stolen from unstream.
+    - 08_add_debian_build_type.diff - refresh.
+    - 13_qt4_designer_plugins_path.diff - refresh.
+    - 14_hardcode_ptm_device.diff - refresh.
+    - 15_kfreebsd_support.diff - refresh.
+    - 16_debian_menu.diff - refresh.
+    - 17_findservicebydesktoppath_try_realfilepath.diff - refresh.
+    - 18_always_set_cmake_policy.diff - remove, obsolete.
+    - 19_findqt4_optional_x11_pthread.diff - refresh.
+    - 20_use_dejavu_as_default_font.diff - refresh.
+    - 22_hack_in_etc_kde4_in_kstandarddirs.diff - refresh.
+  * Update cmake (build-)dependency to 2.6.2:
+    - depend on 2.6.2-3~ due to cmake common config lib support;
+    - 23_2.6.2_use_common_cmake_config_dir.diff - enable support for common
+      cmake config dir with cmake 2.6.2 (debian patched version);
+    - enable cmake var KDE4_USE_COMMON_CMAKE_PACKAGE_CONFIG_DIR.
+  * Build with -DCMAKE_USE_RELATIVE_PATHS=ON.
+  * Bump standards-version to 3.8.0:
+    - add README.source.
+  * Cleanup old conflicts/replaces (for KDE 4.0 prerelease versions).
+  * Add new packages for Plasma. They were based on the respective Plasma
+    packages from kdebase-workspace.
+    - libplasma3 - contains Plasma library and plugins. Make kdelibs5-dbg
+      recommend it;
+    - add Plasma headers to kdelibs5-dev, make it provide libplasma-dev,
+      conflict and replace earlier libplasma-dev and recommend
+      libqt4-opengl-dev needed to build GLapplet stuff;
+    - kdelibs5-data replaces kdebase-workspace-data and libplasma2 from KDE 4.1
+  * Update install and installgen files.
+  * Make kdelibs5 recommend kdebase-runtime >= 4:4.1.80 because some
+    stuff does not work (e.g. kwallet) with previous versions.
+  * Build depend on strigi >= 0.6.3.
+  * Move some libkdeinit4 stuff to kdelibs5 since their executables are in
+    libexec:
+    - libkdeinit4_klauncher.so
+    - libkdeinit4_kio_http_cache_cleaner.so
+    - libkdeinit4_kconf_update.so
+  * Build depend on soprano >= 2.1.67.
+  * Use better approach to enforcing kde4- prefix to applications.menu. The
+    previous way broken menu spec and made 3rd party applications end up in
+    Lost&Found menu. 11_kde4_applications_menu.diff patch was replaced by
+    11_default_kde4_xdg_menu_prefix.diff. Thanks to Harald Sitter for the
+    heads up.
+  * Switch to new installgen file format.
+  * Move upstream manpages from debian/*.manpages to debian/*.install files.
+  * Build depend on pkg-kde-tools 0.3, add symbols file for libplasma3,
+    add appropriate hooks to debian/rules.
+  * kdelibs5-dev conflicts with kdepimlibs5-dev (<< 4:4.1.81+svn891439) because
+    of upstream changes.
+  * Rename debian/*.lintian to debian/*.lintian-overrides.
+  * Bump debian/compat and debhelper build dependency to v7 (to get more
+    sophisticated debian/tmp handling).
+
+  +++ Changes by George Kiagiadakis:
+
+  * Update automoc (build-)dependency to 1.0~svn850570.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Rework slightly patch 15_kfreebsd_support.diff.
+  * Redo patch 20_use_dejavu_as_default_font.diff.
+  * Force to build depend on libphonon-dev (>= 4:4.3.0).
+  * Remove redudant section/priority fields in debian/control.
+  * Update lintian overrides.
+  * Update copyright years.
+
+  +++ Changes by Armin Berres:
+
+  * Fix patch 09_disable_debug_messages_if_not_explicitly_enabled.diff. Now
+    really only debug output is disabled.
+  * Add dependency on xdg-utils to kdelibs5. KDE applications use xdg-open to
+    invoke a browser when not running in a KDE environment these days.
+
+  +++ Changes by Sune Vuorela:
+
+  * Copyright file updates. Thanks to Modestas and his magic scripts.
+  * Remove plasma abi handling. It is expected to be stable now.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 06:14:48 +0200
+
 kde4libs (4:4.2.0-0ubuntu4) jaunty; urgency=low
 
   * Add flash installer patch (modified from Suse)
@@ -5416,6 +5971,38 @@ kde4libs (4:4.1.73-0ubuntu1) jaunty; urgency=low
   * Split kubuntu_19_always_show_kickoff_subtext.diff with kdebase-workspace
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 14 Nov 2008 12:21:07 +0000
+
+kde4libs (4:4.1.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Sune Vuorela:
+
+  * shlibs bump.
+
+  +++ Changes by Modestas Vainius:
+
+  * Use better approach to enforcing kde4- prefix to applications.menu. The
+    previous way broken menu spec and made 3rd party applications end up in.
+    Lost&Found menu. 11_kde4_applications_menu.diff patch was replaced by
+    11_default_kde4_xdg_menu_prefix.diff. Thanks to Harald Sitter for the
+    heads up.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Jan 2009 22:00:46 +0100
+
+kde4libs (4:4.1.3-2) experimental; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Bump kdebase-runtime dependency back to 4.1.3. The previous change was
+    a mistake.
+  * Bump kdelibs5 shlibs to 4.1.3-2 to ease the pain.
+
+  +++ Changes by Sune Vuorela:
+
+  * Add patch for http cache cleaner to keep the cache revision in sync.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Nov 2008 22:18:05 +0200
 
 kde4libs (4:4.1.3-1ubuntu4) jaunty; urgency=low
 
@@ -5829,6 +6416,21 @@ kde4libs (4:4.1.1+really4.1.1-0ubuntu1) intrepid; urgency=low
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Tue, 02 Sep 2008 02:45:28 +0200
 
+kde4libs (4:4.1.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Sune Vuorela:
+
+  * Update patches;
+    - remove 01_r840377_840379_unload_on_close.diff merged upstream
+    - remove 02_41branch_link_interface_libraries.diff.
+    - remove 99_conservative_link_interface_libraries.diff, no need to be more
+      conservative than upstream.
+  * Add new file FindEigen2.cmake in kdelibs5-dev.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Sep 2008 00:22:08 +0200
+
 kde4libs (4:4.1.1-0ubuntu1) intrepid; urgency=low
 
   * New upstream release
@@ -5836,6 +6438,61 @@ kde4libs (4:4.1.1-0ubuntu1) intrepid; urgency=low
   * Remove debian/cdbs (we use official cdbs now)
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Fri, 29 Aug 2008 01:37:30 +0200
+
+kde4libs (4:4.1.0-3) unstable; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * Update kross to version 11 (r838337). Fix build of latest kdevplatform
+    and kdevelop4 (Closes: #491272).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Aug 2008 18:56:06 +0200
+
+kde4libs (4:4.1.0-2) unstable; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Add 01_r840377_840379_unload_on_close.diff patch.
+    Fixes a nasty bug which makes some KDE4 apps stay in memory when closed
+    resulting into excessive memory usage after some time.
+  * Readd usr/share/man/man1/kdecmake.1 kdelibs5-dev.
+  * Build depend on cmake >= 2.6.
+  * Update automoc build-dependency.
+  * Replace unofficial 90 patch with the one taken from KDE 4.1 branch.
+    (02_41branch_link_interface_libraries.diff). It is the version "supported"
+    by upstream with some extra features. It does not seem to be much different
+    from the previous 90_ patch.
+  * Add 99_conservative_link_interface_libraries.diff which *adds* some more
+    LINK_INTERFACE_LIBRARIES to reduce linking failures of third party
+    applications. This patch surely does not break anything, it only adds more
+    libraries which are eliminated by --as-needed in Debian packaging.
+    However, it might help to link a random KDE4 3rd party application against
+    our kde4libs.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Rename debian/kdelibs5.bug-presubj to right filename debian/kdelibs5.presubj.
+  * Replace libcupsys2-dev with libcups2-dev.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Aug 2008 20:29:38 +0200
+
+kde4libs (4:4.1.0-1) unstable; urgency=low
+
+  * New upstream release 4.1.0.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build depends to new versions of phonon and soprano.
+  * Update UPSTREAMVERSION to 4.1.0 in debian/rules.
+  * Keep build-depend on cmake >= 2.4.5, but force everything build depending
+    on kdelibs5-dev use cmake 2.6.
+  * Remove patch 98_link_interface_libraries, merged upstream.
+
+  +++ Changes by Modestas Vainius:
+
+  * Adapt kdelibs5-dev deps to new dh_sameversiondeps syntax.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 25 Jul 2008 21:08:49 +0200
 
 kde4libs (4:4.1.0-0ubuntu12) intrepid; urgency=low
 
@@ -5925,6 +6582,20 @@ kde4libs (4:4.1.0-0ubuntu1) intrepid; urgency=low
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Fri, 25 Jul 2008 00:59:57 +0200
 
+kde4libs (4:4.0.98+svn833207-1) unstable; urgency=low
+
+  * New upstream snapshot.
+
+  +++ Changes by Modestas Vainius:
+
+  * Do not require cmake 2.6 (kdelibs5-dev).
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove patch 01, merged upstream.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Jul 2008 15:17:41 +0200
+
 kde4libs (4:4.0.98a-0ubuntu2) intrepid; urgency=low
 
   * Do not install preparetips in kdelibs5-dev.install, not in
@@ -5938,12 +6609,60 @@ kde4libs (4:4.0.98a-0ubuntu1) intrepid; urgency=low
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 15 Jul 2008 15:56:18 +0100
 
+kde4libs (4:4.0.98-2) unstable; urgency=medium
+
+  * Add patch 01_ to add missing LGPL entity needed to build french
+    translations.
+  * Remove kdelibs5-doc package for now. (Closes: #464396)
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 15 Jul 2008 14:11:23 +0200
+
+kde4libs (4:4.0.98-1) unstable; urgency=low
+
+  * New upstream release, Release Candidate 1.
+
+  +++ Changes by Sune Vuorela:
+
+  * Yay. Now Debian menu items in Debian menu instead of in Lost & Found.
+  * Remove deprecate applnk patch. It is already deprecated, no need for the
+    patch. It only removes legacy handling.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Do not install kdecmake.1 because it is not created when building in hppa
+    with cmake 2.4.8. (Closes: #488661)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Jul 2008 01:10:40 +0200
+
 kde4libs (4:4.0.98-0ubuntu1) intrepid; urgency=low
 
   * New upstream release candidate release
   * Bump Standards-Version to 3.8.0
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Fri, 11 Jul 2008 17:59:21 +0200
+
+kde4libs (4:4.0.84+svn828328-1) unstable; urgency=low
+
+  * New upstream development snapshot.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove patches 97_use_imported_targets_with_cmake26.diff and
+    99_more_implicit_link_libs.diff
+  * Update 98_link_interface_libraries.diff
+  * Add 90_reduce_linking.diff by A. Neundorf.
+
+  +++ Changes by Armin Berres:
+
+  * Disable debug output of KMail by default.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jul 2008 18:48:48 +0200
+
+kde4libs (4:4.0.84-1) experimental; urgency=low
+
+  * New upstream snapshot.
+
+ -- Sune Vuorela <debian@pusling.com>  Fri, 27 Jun 2008 19:19:33 +0200
 
 kde4libs (4:4.0.83-0ubuntu4) intrepid; urgency=low
 
@@ -5971,6 +6690,59 @@ kde4libs (4:4.0.83-0ubuntu1) intrepid; urgency=low
   * New upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Jun 2008 11:45:13 +0000
+
+kde4libs (4:4.0.82+svn819867-1) experimental; urgency=low
+
+  * New upstream development snapshot.
+
+  +++ Changes by Armin Berres:
+
+  * Add libxcursor-dev build dependency.
+  * Recommend the new default font ttf-dejavu.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove phonon package stuff, it has been split out from kde4libs.
+  * Add build depends on phonon-dev.
+  * Update UPSTREAMVERSION in debian/rules.
+  * Update installed files.
+  * Add Conflicts with libkjsembed-dev from KDE 3 to kdelibs5-dev.
+    (Closes: #480686)
+
+  +++ Changes by Modestas Vainius:
+
+  * Drop 18_always_set_cmake_policy.diff patch - applied upstream.
+  * Make kdelibs5-dev depend on libphonon-dev, KDE4Internal.cmake REQUIRES it.
+  * Bump shlibs to 4.0.82.
+  * Exclude dependancy on phonon metapackage.
+
+  +++ Changes by Sune Vuorela:
+
+  * Install config files in /usr/share/kde4/config.
+  * Patch kstandarddirs to look in home, installpath, prefix/path except when
+    config files, where home, /etc/kde4, prefix/path, installpath is
+    preferred. Patch developed in cooperation with Fedora. (Closes: #484897).
+  * Add README file about the configuration stuff.
+  * Versioned build-dep on shared-mime-info.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2008 00:05:51 +0300
+
+kde4libs (4:4.0.80-1) experimental; urgency=low
+
+  * New upstream development milestone (KDE 4.1 Beta1).
+
+  +++ Changes by Modestas Vainius:
+
+  * Disable 97 patch (will be removed later).
+    Pass -DKDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT=on to cmake which enables
+    equivalent functionality.
+  * Update install files.
+    - Add makekdewidgets.1 man page to kdelibs5-dev.
+    - Move checkXML.1 from kdelibs5-data to kdelibs5-dev. Bump replaces.
+  * Refresh patches.
+  * Ligthen cmake build-dependency to 2.4.5.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 May 2008 22:53:51 +0300
 
 kde4libs (4:4.0.80-0ubuntu8) intrepid; urgency=low
 
@@ -6027,6 +6799,43 @@ kde4libs (4:4.0.80-0ubuntu1) intrepid; urgency=low
   * Remove depends on libaspell-dev
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 27 May 2008 09:22:49 +0100
+
+kde4libs (4:4.0.74-1) experimental; urgency=low
+
+  * New upstream snapshot.
+  * Raise the added shlibs dependency for kdebase-runtime to 4:4.0.72.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 May 2008 17:41:23 +0200
+
+kde4libs (4:4.0.73+svn806390-1) experimental; urgency=low
+
+  * New upstream development snapshot:
+    - The latest upstream commit is r806390 by uwolfer
+    - Date: Sun, 11 May 2008 10:32:27 -0000
+
+  * Corrections to *.install files:
+    - kdelibs5-dev.install: 1 new file(s) added;
+    - kdelibs-bin.install: 1 file(s) removed;
+
+  +++ Changes by Modestas Vainius:
+
+  * Add libacl1-dev to build depends.
+    Refresh 98 patch (kio_file build failure).
+  * Allow to set UPSTREAMVERSION in the environment.
+  * Use external automoc. Build-depend on automoc (>= 1.0~svn805317), make
+    kdelibs5-dev depend on it too.
+
+  +++ Changes by Armin Berres:
+
+  * kdelibs5-dev must replace kdelibs-data << 4:4.0.72-1 after the move of the
+    dbus-1 XML interfaces.
+
+  +++ Changes by Fathi Boudra:
+
+  * Add 20 patch to use DejaVu font as default font.
+  * Add libxml2-utils dependency to kdelibs-bin: meinproc4 needs it.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 May 2008 13:51:16 +0300
 
 kde4libs (4:4.0.73-0ubuntu1) intrepid; urgency=low
 
@@ -6168,6 +6977,13 @@ kde4libs (4:4.0.68+svn794641-1) experimental; urgency=low
      desktop file location by path on the systems where e.g. /usr is a
      symlink. Please note this patch still does not fix what I developed
      it for. So it's useless but it does not hurt. Work in progress.
+  * Add Replaces: kdebase-runtime-data << KDE 4.1 for kdelibs5-dev due to
+    common file /usr/share/kde4/apps/cmake/modules/FindXine.cmake
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Tighten build depend version on libstreamanalyzer-dev 0.5.8-2
+    from experimental.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Apr 2008 22:12:02 +0300
 
@@ -6360,6 +7176,40 @@ kde4libs (4:4.0.3-0ubuntu1) hardy; urgency=low
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 28 Mar 2008 11:59:55 +0000
 
+kde4libs (4:4.0.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Armin Berres:
+
+  * Don't bump shlibs version automatically on every upload. Bumping on new
+    upstream versions is enough now that the libs are stable.
+  * Add versioned shlibs to libphonon4.
+  * Remove kde-icons-oxygen and kdebase-runtime-data from the shlibs file of
+    kdelibs5. kdebase-runtime depends on them anyway.
+  * Add strict dependency of kdelibs-bin on kdelibs5 and use a more obvious
+    way to remove the dependency on kdebase-runtime. shlibs.local is no more
+    needed now.
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Build-Depend on libgif-dev instead of libungif4-dev.
+
+  +++ Changes by Modestas Vainius:
+
+  * New patch 16_postgresql_include_path_fix.diff, which adds PostgreSQL
+    include paths used on Debian to FindPostgreSQL cmake module.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Drop patches pulled from KDE's SVN, now part of the release
+    - 01_make_stackingOrder_work_r769072.diff
+    - 02_re-register_global_shortcuts_r769363.diff
+  * Update installed files.
+  * Update UPSTREAMVERSION in debian/rules.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2008 12:52:59 +0100
+
 kde4libs (4:4.0.2-0ubuntu6) hardy; urgency=low
 
   * Ensure patch unapplied before upload
@@ -6400,12 +7250,100 @@ kde4libs (4:4.0.2-0ubuntu1) hardy; urgency=low
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2008 11:37:28 +0000
 
+kde4libs (4:4.0.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Make dependencies binNMU-friendly.
+  * Bump Soprano minimum version to 2.0.0.
+  * Remove redundant Depends: shared-mime-info from kdelibs5-dev.
+  * Add Suggests: kdelibs5-doc to kdelibs5-dev.
+
+  +++ Changes by Armin Berres:
+
+  * Update 10_kdehome_kde4 patch. Set kde home directory to ~/.kde4
+    where ~/.kde was used. Thanks to Jonathan Riddell and Suse people.
+  * Update installed files.
+  * Drop no more needed patch 16_arm_fixes.diff.
+
+  +++ Changes by Fathi Boudra:
+
+  * Make kdelibs5-dev installable on GNU/kFreeBSD. Thanks to Aurelien Jarno.
+    (Closes: #462338)
+  * Add dbus-x11 dependency to kdelibs5. Thanks to Chris Desjardins.
+  * Add Vcs-Browser and Vcs-Svn fields.
+  * Cherry pick from branches/KDE/4.0:
+
+    + 02_re-register_global_shortcuts_r769363:
+      Re-register global shortcuts if kded4 is restarted.
+
+  +++ Changes by Adeodato Simó:
+
+  * Cherry pick from /branches/KDE/4.0:
+
+    + 01_make_stackingOrder_work_r769072: fix KWindowSystem::stackingOrder() to
+      actually return a non-empty list with the list of windows.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update to debhelper 6.
+  * Add versioned b-d on cdbs (>= 0.4.51) to get debhelper 6 support and fixed
+    cmake.mk class.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Feb 2008 09:59:44 +0100
+
 kde4libs (4:4.0.1-0ubuntu1) hardy; urgency=low
 
   * New upstream release
   * rpaths seem to have disappeared, add kde4.conf to /etc/ld.so.conf.d/
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 31 Jan 2008 16:14:40 +0000
+
+kde4libs (4:4.0.0-2) unstable; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * Update arm patch. Avoid conversion to float. Thanks to Pino Toscano.
+  * Move hal and pmount Recommends to kdebase-runtime-bin-kde4 package.
+  * Rename kdelibs-dbg to kdelibs5-dbg.
+    Conflicts/Replaces against kdelibs-dbg >= 4:3.91.0-1 and << 4:4.0.0-2
+
+  +++ Changes by Armin Berres:
+
+  * Add ${shlibs:Depends} dependency to kdelibs5-dev.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 13 Jan 2008 00:39:59 +0100
+
+kde4libs (4:4.0.0-1) experimental; urgency=low
+
+  * New upstream release. KDE 4.0.0 yay!
+
+  +++ Changes by Armin Berres:
+
+  * Add patch to disable debug information by default. They can be enabled
+    with kdebugdialog.
+  * Add patch to build no special debug code, but release code, and remove
+    all hardcoded optimization and debug compiler flags. Use $(CXXFLAGS) and
+    $(CFLAGS) instead.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update patch 15_kfreebsd_support to build in kfreebsd after latest changes
+    in ConfigureChecks.cmake.
+  * Update lintian overrides.
+  * Add patch to fix make it build in arm and hopefully armel. Thanks Aurel.
+    (Closes: #459515)
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Add Homepage: to control.
+  * Tweak package descriptions.
+  * Replace dependency on xbase-clients with xauth.
+  * Replace source:Version with binary:Version.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Jan 2008 06:19:10 +0100
 
 kde4libs (4:4.0.0-0ubuntu5) hardy; urgency=low
 
@@ -6618,6 +7556,13 @@ kde4libs (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release.
   * Update *.install files.
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update *.install files.
+
+  +++ Changes by Fathi Boudra:
+
+  * Bump build dependencies versions.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 14 Nov 2007 13:17:32 +0100
 

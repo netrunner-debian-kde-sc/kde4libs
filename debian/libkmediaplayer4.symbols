@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.90 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:4.13.3 sparc
 libkmediaplayer.so.4 libkmediaplayer4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN12KMediaPlayer4View10hideButtonEi@Base 4:4.3.4

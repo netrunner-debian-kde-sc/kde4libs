@@ -19,12 +19,14 @@ Build-Depends: aspell,
                flex,
                hspell,
                libacl1-dev,
+               libaspell-dev,
                libattica-dev (>= 0.4.2),
                libavahi-common-dev,
                libbz2-dev,
                libdbusmenu-qt-dev,
                libdlrestrictions-dev (>= 0.14),
                libenchant-dev,
+               libfam-dev,
                libgif-dev,
                libgrantlee-dev (>= 0.1.0),
                libjasper-dev,
@@ -83,7 +85,7 @@ Description: KDE Platform User Interface Library
  link to this library.
  .
  A spell-checker functionality is also provided. Sonnet offers easy access to
- International ISpell as well as a spell-checker GUI ("Add",
+ International ISpell or ASpell as well as a spell-checker GUI ("Add",
  "Replace", etc.).
  .
  This package is part of the KDE Development Platform libraries module.
@@ -131,7 +133,7 @@ Description: library for binding JavaScript objects to QObjects
 Package: libkio5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: kdelibs5-plugins (= ${binary:Version})
+Recommends: kdelibs5-plugins (= ${binary:Version})
 Description: Network-enabled File Management Library for the KDE Platform
  This library implements almost all the file management functions you will ever
  need. In fact, the KDE file manager, Konqueror also uses this to provide its
@@ -246,7 +248,7 @@ Description: ThreadWeaver Library for the KDE Platform
 Package: libkhtml5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: kdelibs5-plugins (= ${binary:Version})
+Recommends: kdelibs5-plugins (= ${binary:Version})
 Description: KHTML Web Content Rendering Engine
  This library provides the component based on the KDE parts framework that can
  be used to embed a fully-fledged HTML browser widget in any KDE Application.
@@ -457,8 +459,7 @@ Depends: dbus-x11,
          ${misc:Depends},
          ${perl:Depends},
          ${shlibs:Depends}
-Recommends: ttf-dejavu-core
-Suggests: kde-runtime
+Recommends: kde-runtime, fonts-dejavu
 Replaces: kdelibs5-data (<< 4:4.6.3-3~), kdelibs5-dev (<< 4:4.6.2)
 Breaks: kdelibs5-data (<< 4:4.6.3-3~),
         kdelibs5-dev (<< 4:4.6.2),

@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.13.95 amd64 arm64 armhf i386 powerpc ppc64el
 libkdeui.so.5 libkdeui5 #MINVER#
-| libkdeui5 #MINVER#, kde-runtime
+| libkdeui5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
  _Z10BarIconSetRK7QStringi@Base 4:4.3.4
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4:4.3.4
@@ -86,8 +86,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10KIconCacheD2Ev@Base 4:4.3.4
  _ZN10KIconTheme11reconfigureEv@Base 4:4.3.4
  _ZN10KIconTheme16defaultThemeNameEv@Base 4:4.3.4
- (arch=mips mipsel)_ZN10KIconTheme17KIconThemePrivateC1Ev@Base 4:4.7.2
- (arch=mips mipsel)_ZN10KIconTheme17KIconThemePrivateC2Ev@Base 4:4.7.2
  _ZN10KIconTheme24assignIconsToContextMenuENS_12ContextMenusE5QListIP7QActionE@Base 4:4.3.4
  _ZN10KIconTheme4listEv@Base 4:4.3.4
  _ZN10KIconTheme7currentEv@Base 4:4.3.4
@@ -2009,8 +2007,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KXMLGUIClient10endXMLPlugEv@Base 4:4.3.4
  _ZN13KXMLGUIClient10setFactoryEP14KXMLGUIFactory@Base 4:4.3.4
  _ZN13KXMLGUIClient10setXMLFileERK7QStringbb@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KXMLGUIClient11StateChangeD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KXMLGUIClient11StateChangeD2Ev@Base 4:4.6.5
  _ZN13KXMLGUIClient12beginXMLPlugEP7QWidget@Base 4:4.3.4
  _ZN13KXMLGUIClient12childClientsEv@Base 4:4.3.4
  _ZN13KXMLGUIClient12stateChangedERK7QStringNS_18ReverseStateChangeE@Base 4:4.3.4
@@ -2967,9 +2963,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN16KCategorizedView7Private13blockPositionERK7QString@Base 4:4.4.0
  _ZN16KCategorizedView7Private21regenerateAllElementsEv@Base 4:4.4.0
  _ZN16KCategorizedView7Private30_k_slotCollapseOrExpandClickedE11QModelIndex@Base 4:4.4.0
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN16KCategorizedView7Private5BlockD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN16KCategorizedView7Private5BlockD2Ev@Base 4:4.6.5
- (arch=mips mipsel ppc64el s390)_ZN16KCategorizedView7Private5BlockaSERKS1_@Base 4:4.13.95
  _ZN16KCategorizedView7Private9blockRectERK11QModelIndex@Base 4:4.4.95
  _ZN16KCategorizedView7PrivateC1EPS_@Base 4:4.3.4
  _ZN16KCategorizedView7PrivateC2EPS_@Base 4:4.3.4
@@ -4196,8 +4189,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN4KLedD0Ev@Base 4:4.3.4
  _ZN4KLedD1Ev@Base 4:4.3.4
  _ZN4KLedD2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
  _ZN5KFind10setOptionsEl@Base 4:4.3.4
  _ZN5KFind10setPatternERK7QString@Base 4:4.3.4
  _ZN5KFind11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -4387,7 +4378,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6KStyle12defaultStyleEv@Base 4:4.3.4
  _ZN6KStyle12newStyleHintERK7QString@Base 4:4.3.4
  (optional=templinst)_ZN6KStyle13extractOptionIPNS_10IconOptionEEET_PNS_6OptionE@Base 4:4.4.2
- (optional=templinst|arch=!ppc64el)_ZN6KStyle13extractOptionIPNS_10TextOptionEEET_PNS_6OptionE@Base 4:4.13.95
+ (optional=templinst)_ZN6KStyle13extractOptionIPNS_10TextOptionEEET_PNS_6OptionE@Base 4:4.4.2
  (optional=templinst)_ZN6KStyle13extractOptionIPNS_11ColorOptionEEET_PNS_6OptionE@Base 4:4.4.2
  (optional=templinst)_ZN6KStyle13extractOptionIPNS_17TitleButtonOptionEEET_PNS_6OptionE@Base 4:4.3.4
  _ZN6KStyle13newSubElementERK7QString@Base 4:4.3.4
@@ -4868,7 +4859,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN8KToolBar17mouseReleaseEventEP11QMouseEvent@Base 4:4.3.4
  _ZN8KToolBar17setIconDimensionsEi@Base 4:4.3.4
  _ZN8KToolBar17setToolBarsLockedEb@Base 4:4.3.4
- _ZN8KToolBar18removeXMLGUIClientEP13KXMLGUIClient@Base 4:4.9.0
+ _ZN8KToolBar18removeXMLGUIClientEP13KXMLGUIClient@Base 4:4.8.5
  _ZN8KToolBar18slotMovableChangedEb@Base 4:4.3.4
  _ZN8KToolBar19setToolBarsEditableEb@Base 4:4.3.4
  _ZN8KToolBar21setContextMenuEnabledEb@Base 4:4.3.4
@@ -5581,10 +5572,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK12KColorScheme10decorationENS_14DecorationRoleE@Base 4:4.3.4
  _ZNK12KColorScheme10foregroundENS_14ForegroundRoleE@Base 4:4.3.4
  _ZNK12KColorScheme5shadeENS_9ShadeRoleE@Base 4:4.3.4
- (optional=templinst|arch=ppc64el)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.13.95
- (optional=templinst|arch=hurd-i386)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.6.2
  _ZNK12KEditListBox10downButtonEv@Base 4:4.3.4
  _ZNK12KEditListBox10metaObjectEv@Base 4:4.3.4
  _ZNK12KEditListBox11currentItemEv@Base 4:4.3.4
@@ -5793,7 +5780,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK14KFontRequester6buttonEv@Base 4:4.3.4
  _ZNK14KMessageWidget10metaObjectEv@Base 4:4.7.0
  _ZNK14KMessageWidget11messageTypeEv@Base 4:4.7.0
- _ZNK14KMessageWidget14heightForWidthEi@Base 4:4.8.80
+ _ZNK14KMessageWidget14heightForWidthEi@Base 4:4.8.4
  _ZNK14KMessageWidget15minimumSizeHintEv@Base 4:4.7.0
  _ZNK14KMessageWidget20isCloseButtonVisibleEv@Base 4:4.7.0
  _ZNK14KMessageWidget4iconEv@Base 4:4.10.80
@@ -6825,7 +6812,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTIN6Sonnet18DictionaryComboBoxE@Base 4:4.3.4
  _ZTIN6Sonnet6DialogE@Base 4:4.3.4
  _ZTIN7KWallet6WalletE@Base 4:4.3.4
- (optional=private|arch=hurd-i386)_ZTIZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEvE12RegExpAction@Base 4:4.6.3
  _ZTS10KBugReport@Base 4:4.3.4
  _ZTS10KDateTable@Base 4:4.3.4
  _ZTS10KIconCache@Base 4:4.3.4
@@ -7049,7 +7035,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTSN6Sonnet18DictionaryComboBoxE@Base 4:4.3.4
  _ZTSN6Sonnet6DialogE@Base 4:4.3.4
  _ZTSN7KWallet6WalletE@Base 4:4.3.4
- (optional=private|arch=hurd-i386)_ZTSZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEvE12RegExpAction@Base 4:4.6.3
  _ZTT13KXmlGuiWindow@Base 4:4.3.4
  _ZTV10KBugReport@Base 4:4.3.4
  _ZTV10KDateTable@Base 4:4.3.4
@@ -7273,7 +7258,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTVN6Sonnet18DictionaryComboBoxE@Base 4:4.3.4
  _ZTVN6Sonnet6DialogE@Base 4:4.3.4
  _ZTVN7KWallet6WalletE@Base 4:4.3.4
- (optional=private|arch=hurd-i386)_ZTVZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEvE12RegExpAction@Base 4:4.6.3
  _ZZN20KConfigDialogManager7Private9debugAreaEvE6s_area@Base 4:4.4.0
  (optional=templinst)_ZZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEE13defaultOptionEvE10theDefault@Base 4:4.3.4
  (optional=templinst)_ZZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEE13defaultOptionEvE10theDefault@Base 4:4.3.4

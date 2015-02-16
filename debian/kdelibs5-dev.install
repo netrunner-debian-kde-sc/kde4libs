@@ -1890,6 +1890,12 @@ usr/lib/libktexteditor.so
 usr/lib/libkunitconversion.so
 usr/lib/libkunittest.so
 usr/lib/libkutils.so
+<<<<<<< HEAD
+=======
+usr/lib/libnepomuk.so
+usr/lib/libnepomukquery.so
+usr/lib/libnepomukutils.so
+>>>>>>> old/master
 usr/lib/libplasma.so
 usr/lib/libsolid.so
 usr/lib/libthreadweaver.so

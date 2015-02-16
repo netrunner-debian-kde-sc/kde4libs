@@ -22,6 +22,7 @@ usr/lib/kde4/krosskjs.so
 usr/lib/kde4/krossmoduleforms.so
 usr/lib/kde4/krossmodulekdetranslation.so
 usr/lib/kde4/krossqts.so
+usr/lib/kde4/kspell_aspell.so
 usr/lib/kde4/kspell_enchant.so
 usr/lib/kde4/kspell_hspell.so
 usr/lib/kde4/ktranscript.so

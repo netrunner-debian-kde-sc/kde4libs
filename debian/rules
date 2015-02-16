@@ -14,15 +14,15 @@ override_dh_auto_configure:
 	$(overridden_command) -- -DKDE4_BUILD_TESTS=false \
 	    -DWITH_HUpnp=OFF \
 	    -DWITH_SOLID_UDISKS2=ON \
-	    -DKDE_DISTRIBUTION_TEXT="Kubuntu packages" \
+	    -DKDE_DISTRIBUTION_TEXT="Debian packages" \
+	    -DKDE4_USE_ALWAYS_FULL_RPATH=false \
 	    -DCONFIG_INSTALL_DIR=/usr/share/kde4/config \
 	    -DDATA_INSTALL_DIR=/usr/share/kde4/apps \
 	    -DHTML_INSTALL_DIR=/usr/share/doc/kde/HTML \
 	    -DKCFG_INSTALL_DIR=/usr/share/kde4/config.kcfg \
 	    -DLIB_INSTALL_DIR=/usr/lib \
 	    -DSYSCONF_INSTALL_DIR=/etc \
-	    -DLIBKDEINIT_INSTALL_DIR:PATH=/usr/lib/kde4/libkdeinit \
-	    -DKDESU_USE_SUDO_DEFAULT=true
+	    -DLIBKDEINIT_INSTALL_DIR:PATH=/usr/lib/kde4/libkdeinit
 
 .PHONY: override_dh_auto_test
 
@@ -44,4 +44,3 @@ override_dh_fixperms:
 libpkgs_addsubst_allLibraries = kdelibs5-dev kdelibs5-dbg
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
-

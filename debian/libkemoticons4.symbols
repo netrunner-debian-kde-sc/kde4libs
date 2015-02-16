@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.11.5 kfreebsd-i386
 libkemoticons.so.4 libkemoticons4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KEmoticons11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
@@ -27,8 +27,6 @@ libkemoticons.so.4 libkemoticons4 #MINVER#
  _ZN15KEmoticonsTheme19KEmoticonsThemeDataD1Ev@Base 4:4.4.95
  _ZN15KEmoticonsTheme19KEmoticonsThemeDataD2Ev@Base 4:4.4.95
  _ZN15KEmoticonsTheme4saveEv@Base 4:4.4.95
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KEmoticonsTheme5TokenD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN15KEmoticonsTheme5TokenD2Ev@Base 4:4.6.5
  _ZN15KEmoticonsTheme9createNewEv@Base 4:4.4.95
  _ZN15KEmoticonsTheme9loadThemeERK7QString@Base 4:4.4.95
  _ZN15KEmoticonsThemeC1EP18KEmoticonsProvider@Base 4:4.4.95
@@ -52,8 +50,6 @@ libkemoticons.so.4 libkemoticons4 #MINVER#
  _ZN18KEmoticonsProvider18removeEmoticonsMapE7QString@Base 4:4.4.95
  _ZN18KEmoticonsProvider19removeEmoticonIndexERK7QStringRK11QStringList@Base 4:4.4.95
  _ZN18KEmoticonsProvider4saveEv@Base 4:4.4.95
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN18KEmoticonsProvider8EmoticonD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN18KEmoticonsProvider8EmoticonD2Ev@Base 4:4.6.5
  _ZN18KEmoticonsProvider9createNewEv@Base 4:4.4.95
  _ZN18KEmoticonsProvider9loadThemeERK7QString@Base 4:4.4.95
  _ZN18KEmoticonsProviderC1EP7QObject@Base 4:4.4.95
@@ -61,8 +57,6 @@ libkemoticons.so.4 libkemoticons4 #MINVER#
  _ZN18KEmoticonsProviderD0Ev@Base 4:4.4.95
  _ZN18KEmoticonsProviderD1Ev@Base 4:4.4.95
  _ZN18KEmoticonsProviderD2Ev@Base 4:4.4.95
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
  _ZNK10KEmoticons10metaObjectEv@Base 4:4.4.95
  _ZNK15KEmoticonsTheme12emoticonsMapEv@Base 4:4.4.95
  _ZNK15KEmoticonsTheme14parseEmoticonsERK7QString6QFlagsINS_13ParseModeEnumEERK11QStringList@Base 4:4.4.95

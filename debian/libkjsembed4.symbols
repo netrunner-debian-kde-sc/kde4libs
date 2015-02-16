@@ -1,19 +1,12 @@
-# SymbolsHelper-Confirmed: 4:4.13.95 amd64
+# SymbolsHelper-Confirmed: 4:4.14.0 amd64
 libkjsembed.so.4 libkjsembed4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS19InternalFunctionImpD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS19InternalFunctionImpD2Ev@Base 4:4.6.5
- (optional=external|arch=hurd-i386)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.6.3
  (optional=internal|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
- (optional=internal|arch=!hurd-i386)_ZN3KJS7JSValueD2Ev@Base 4:4.6.3
+ (optional=internal)_ZN3KJS7JSValueD2Ev@Base 4:4.6.3
  _ZN3KJS7UStringC1ERK7QString@Base 4:4.3.4
  _ZN3KJS7UStringC2ERK7QString@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS8JSObjectD0Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS8JSObjectD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS8JSObjectD2Ev@Base 4:4.6.5
  _ZN8KJSEmbed10extractIntEPN3KJS9ExecStateEPNS0_7JSValueEi@Base 4:4.3.4
  _ZN8KJSEmbed10extractIntEPN3KJS9ExecStateERKNS0_4ListEii@Base 4:4.3.4
  _ZN8KJSEmbed11ActionGroup10bindMethodEPN3KJS9ExecStateER11PointerBase@Base 4:4.3.4
@@ -24,15 +17,15 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed11ActionGroup9p_staticsE@Base 4:4.3.4
  _ZN8KJSEmbed11ActionGroupC1EPN3KJS9ExecStateEP12QActionGroup@Base 4:4.3.4
  _ZN8KJSEmbed11ActionGroupC2EPN3KJS9ExecStateEP12QActionGroup@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed11ActionGroupD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed11ActionGroupD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed11ActionGroupD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed11ActionGroupD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed11ActionGroupD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed11ActionGroupD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed11SlotBinding14callAsFunctionEPN3KJS9ExecStateEPNS1_8JSObjectERKNS1_4ListE@Base 4:4.3.4
  _ZN8KJSEmbed11SlotBindingC1EPN3KJS9ExecStateERK11QMetaMethod@Base 4:4.3.4
  _ZN8KJSEmbed11SlotBindingC2EPN3KJS9ExecStateERK11QMetaMethod@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed11SlotBindingD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed11SlotBindingD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed11SlotBindingD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed11SlotBindingD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed11SlotBindingD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed11SlotBindingD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed11SvgRenderer10bindMethodEPN3KJS9ExecStateER11PointerBase@Base 4:4.3.4
  _ZN8KJSEmbed11SvgRenderer10ctorMethodEPN3KJS9ExecStateERKNS1_4ListE@Base 4:4.3.4
  _ZN8KJSEmbed11SvgRenderer13p_constructorE@Base 4:4.3.4
@@ -41,9 +34,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed11SvgRenderer9p_staticsE@Base 4:4.3.4
  _ZN8KJSEmbed11SvgRendererC1EPN3KJS9ExecStateEP12QSvgRenderer@Base 4:4.3.4
  _ZN8KJSEmbed11SvgRendererC2EPN3KJS9ExecStateEP12QSvgRenderer@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed11SvgRendererD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed11SvgRendererD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed11SvgRendererD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed11SvgRendererD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed11SvgRendererD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed11SvgRendererD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed11extractBoolEPN3KJS9ExecStateERKNS0_4ListEib@Base 4:4.3.4
  _ZN8KJSEmbed12ProxyBindingC1EPN3KJS9ExecStateE@Base 4:4.3.4
  _ZN8KJSEmbed12ProxyBindingC2EPN3KJS9ExecStateE@Base 4:4.3.4
@@ -63,9 +56,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed13StaticBinding7publishEPN3KJS9ExecStateEPNS1_8JSObjectEPKNS_6MethodE@Base 4:4.3.4
  _ZN8KJSEmbed13StaticBindingC1EPN3KJS9ExecStateEPKNS_6MethodE@Base 4:4.3.4
  _ZN8KJSEmbed13StaticBindingC2EPN3KJS9ExecStateEPKNS_6MethodE@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed13StaticBindingD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed13StaticBindingD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed13StaticBindingD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed13StaticBindingD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed13StaticBindingD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed13StaticBindingD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed13createQObjectEPN3KJS9ExecStateEP7QObjectNS_13ObjectBinding9OwnershipE@Base 4:4.3.4
  _ZN8KJSEmbed13extractDoubleEPN3KJS9ExecStateEPNS0_7JSValueEd@Base 4:4.3.4
  _ZN8KJSEmbed13extractDoubleEPN3KJS9ExecStateERKNS0_4ListEid@Base 4:4.3.4
@@ -88,9 +81,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed14QWidgetBinding9p_staticsE@Base 4:4.3.4
  _ZN8KJSEmbed14QWidgetBindingC1EPN3KJS9ExecStateEP7QWidget@Base 4:4.3.4
  _ZN8KJSEmbed14QWidgetBindingC2EPN3KJS9ExecStateEP7QWidget@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed14QWidgetBindingD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed14QWidgetBindingD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed14QWidgetBindingD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed14QWidgetBindingD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed14QWidgetBindingD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed14QWidgetBindingD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed14VariantBinding4infoE@Base 4:4.3.4
  _ZN8KJSEmbed14VariantBinding7pointerEv@Base 4:4.3.4
  _ZN8KJSEmbed14VariantBinding8setValueERK8QVariant@Base 4:4.3.4
@@ -98,7 +91,6 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed14VariantBindingC2EPN3KJS9ExecStateERK8QVariant@Base 4:4.3.4
  _ZN8KJSEmbed14VariantFactory14VariantMethodsE@Base 4:4.3.4
  _ZN8KJSEmbed14convertToValueEPN3KJS9ExecStateERK8QVariant@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386)_ZN8KJSEmbed14extractIntegerIN2Qt10BrushStyleEEET_PN3KJS9ExecStateERKNS4_4ListEiS3_@Base 4:4.6.2
  _ZN8KJSEmbed14extractQStringEPN3KJS9ExecStateEPNS0_7JSValueE7QString@Base 4:4.3.4
  _ZN8KJSEmbed14extractQStringEPN3KJS9ExecStateERKNS0_4ListEi7QString@Base 4:4.3.4
  _ZN8KJSEmbed14extractVariantEPN3KJS9ExecStateEPNS0_7JSValueE@Base 4:4.3.4
@@ -110,9 +102,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed15SettingsBinding9p_staticsE@Base 4:4.3.4
  _ZN8KJSEmbed15SettingsBindingC1EPN3KJS9ExecStateEP9QSettings@Base 4:4.3.4
  _ZN8KJSEmbed15SettingsBindingC2EPN3KJS9ExecStateEP9QSettings@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed15SettingsBindingD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed15SettingsBindingD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed15SettingsBindingD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed15SettingsBindingD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed15SettingsBindingD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed15SettingsBindingD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed15UiLoaderBinding10bindMethodEPN3KJS9ExecStateER11PointerBase@Base 4:4.3.4
  _ZN8KJSEmbed15UiLoaderBinding10ctorMethodEPN3KJS9ExecStateERKNS1_4ListE@Base 4:4.3.4
  _ZN8KJSEmbed15UiLoaderBinding13p_constructorE@Base 4:4.3.4
@@ -121,9 +113,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed15UiLoaderBinding9p_staticsE@Base 4:4.3.4
  _ZN8KJSEmbed15UiLoaderBindingC1EPN3KJS9ExecStateEP9QUiLoader@Base 4:4.3.4
  _ZN8KJSEmbed15UiLoaderBindingC2EPN3KJS9ExecStateEP9QUiLoader@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed15UiLoaderBindingD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed15UiLoaderBindingD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed15UiLoaderBindingD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed15UiLoaderBindingD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed15UiLoaderBindingD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed15UiLoaderBindingD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed16convertToVariantEPN3KJS9ExecStateEPNS0_7JSValueE@Base 4:4.3.4
  _ZN8KJSEmbed16extractQDateTimeEPN3KJS9ExecStateEPNS0_7JSValueERK9QDateTime@Base 4:4.3.4
  _ZN8KJSEmbed16extractQDateTimeEPN3KJS9ExecStateERKNS0_4ListEiRK9QDateTime@Base 4:4.3.4
@@ -136,9 +128,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed17StaticConstructor9constructEPN3KJS9ExecStateERKNS1_4ListE@Base 4:4.3.4
  _ZN8KJSEmbed17StaticConstructorC1EPN3KJS9ExecStateEPKNS_11ConstructorE@Base 4:4.3.4
  _ZN8KJSEmbed17StaticConstructorC2EPN3KJS9ExecStateEPKNS_11ConstructorE@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed17StaticConstructorD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed17StaticConstructorD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed17StaticConstructorD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed17StaticConstructorD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed17StaticConstructorD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed17StaticConstructorD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed17convertArrayToMapEPN3KJS9ExecStateEPNS0_7JSValueE@Base 4:4.3.4
  _ZN8KJSEmbed17extractQByteArrayEPN3KJS9ExecStateEPNS0_7JSValueERK10QByteArray@Base 4:4.3.4
  _ZN8KJSEmbed17extractQByteArrayEPN3KJS9ExecStateERKNS0_4ListEiRK10QByteArray@Base 4:4.3.4
@@ -150,9 +142,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed18ApplicationBinding9p_staticsE@Base 4:4.3.4
  _ZN8KJSEmbed18ApplicationBindingC1EPN3KJS9ExecStateEP12QApplication@Base 4:4.3.4
  _ZN8KJSEmbed18ApplicationBindingC2EPN3KJS9ExecStateEP12QApplication@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed18ApplicationBindingD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed18ApplicationBindingD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed18ApplicationBindingD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed18ApplicationBindingD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed18ApplicationBindingD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed18ApplicationBindingD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed18convertArrayToListEPN3KJS9ExecStateEPNS0_7JSValueE@Base 4:4.3.4
  _ZN8KJSEmbed18extractQStringListEPN3KJS9ExecStateEPNS0_7JSValueERK11QStringList@Base 4:4.3.4
  _ZN8KJSEmbed18extractQStringListEPN3KJS9ExecStateERKNS0_4ListEiRK11QStringList@Base 4:4.3.4
@@ -164,9 +156,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed22CoreApplicationBinding9p_staticsE@Base 4:4.3.4
  _ZN8KJSEmbed22CoreApplicationBindingC1EPN3KJS9ExecStateEP16QCoreApplication@Base 4:4.3.4
  _ZN8KJSEmbed22CoreApplicationBindingC2EPN3KJS9ExecStateEP16QCoreApplication@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed22CoreApplicationBindingD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed22CoreApplicationBindingD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed22CoreApplicationBindingD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed22CoreApplicationBindingD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed22CoreApplicationBindingD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed22CoreApplicationBindingD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed24convertArrayToStringListEPN3KJS9ExecStateEPNS0_7JSValueE@Base 4:4.3.4
  _ZN8KJSEmbed5coninEv@Base 4:4.3.4
  _ZN8KJSEmbed6Action10bindMethodEPN3KJS9ExecStateER11PointerBase@Base 4:4.3.4
@@ -177,9 +169,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed6Action9p_staticsE@Base 4:4.3.4
  _ZN8KJSEmbed6ActionC1EPN3KJS9ExecStateEP7QAction@Base 4:4.3.4
  _ZN8KJSEmbed6ActionC2EPN3KJS9ExecStateEP7QAction@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed6ActionD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed6ActionD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed6ActionD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed6ActionD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed6ActionD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed6ActionD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed6Engine10callMethodEPN3KJS8JSObjectERKNS1_7UStringERKNS1_4ListE@Base 4:4.3.4
  _ZN8KJSEmbed6Engine10callMethodERKN3KJS7UStringERKNS1_4ListE@Base 4:4.3.4
  _ZN8KJSEmbed6Engine7executeERKN3KJS7UStringE@Base 4:4.3.4
@@ -198,9 +190,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed6Layout9p_staticsE@Base 4:4.3.4
  _ZN8KJSEmbed6LayoutC1EPN3KJS9ExecStateEP7QLayout@Base 4:4.3.4
  _ZN8KJSEmbed6LayoutC2EPN3KJS9ExecStateEP7QLayout@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed6LayoutD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed6LayoutD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed6LayoutD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed6LayoutD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed6LayoutD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed6LayoutD2Ev@Base 4:4.7.2
  _ZN8KJSEmbed6conerrEv@Base 4:4.3.4
  _ZN8KJSEmbed6conoutEv@Base 4:4.3.4
  _ZN8KJSEmbed9SlotProxy10callMethodERK10QByteArrayPPv@Base 4:4.3.4
@@ -220,18 +212,13 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed9SvgWidget9p_staticsE@Base 4:4.3.4
  _ZN8KJSEmbed9SvgWidgetC1EPN3KJS9ExecStateEP10QSvgWidget@Base 4:4.3.4
  _ZN8KJSEmbed9SvgWidgetC2EPN3KJS9ExecStateEP10QSvgWidget@Base 4:4.3.4
- (arch=!armel)_ZN8KJSEmbed9SvgWidgetD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed9SvgWidgetD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN8KJSEmbed9SvgWidgetD2Ev@Base 4:4.7.2
+ _ZN8KJSEmbed9SvgWidgetD0Ev@Base 4:4.7.2
+ _ZN8KJSEmbed9SvgWidgetD1Ev@Base 4:4.7.2
+ _ZN8KJSEmbed9SvgWidgetD2Ev@Base 4:4.7.2
  _ZNK3KJS10Identifier7qstringEv@Base 4:4.3.4
- (optional=internal|arch=hurd-i386)_ZNK3KJS7JSValue4typeEv@Base 4:4.6.3
- (optional=internal|arch=hurd-i386)_ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.6.3
- (optional=internal|arch=hurd-i386)_ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.6.3
- (optional=internal|arch=hurd-i386)_ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateE@Base 4:4.6.3
  _ZNK3KJS7UString7qstringEv@Base 4:4.3.4
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.3.4
  _ZNK8KJSEmbed13ObjectBinding4typeEv@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386)_ZNK8KJSEmbed13ObjectBinding6objectI7QObjectEEPT_v@Base 4:4.6.2
  _ZNK8KJSEmbed13ObjectBinding8toStringEPN3KJS9ExecStateE@Base 4:4.3.4
  _ZNK8KJSEmbed13ObjectBinding8typeNameEv@Base 4:4.3.4
  _ZNK8KJSEmbed13ObjectBinding9classNameEv@Base 4:4.3.4
