@@ -4,6 +4,7 @@ kde4libs (4:4.14.6-4~ubuntu1) UNRELEASED; urgency=medium
   * Update watch file 
   * Add upstream_fixbic.diff per:
     https://git.reviewboard.kde.org/r/122812 
+  * Add patch to git.. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 11 Mar 2015 07:51:14 -0700
 
