@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.4 amd64
+# SymbolsHelper-Confirmed: 4:4.14.6 amd64
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -1828,9 +1828,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
  _ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
- _ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
- _ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
- _ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
  (optional=private)_ZN3KJS17PropertyNameArrayD1Ev@Base 4:4.7.4
  (optional=private)_ZN3KJS17PropertyNameArrayD2Ev@Base 4:4.7.4
  _ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.7.2
@@ -2247,7 +2244,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLViewD0Ev@Base 4:4.3.4
  _ZN9KHTMLViewD1Ev@Base 4:4.3.4
  _ZN9KHTMLViewD2Ev@Base 4:4.3.4
- (optional=templinst|arch=amd64 arm64 armhf i386 powerpc ppc64el)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
  (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
  (optional=templinst|arch=alpha)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.14.2
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
@@ -2851,7 +2847,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM8RGBColor5greenEv@Base 4:4.3.4
  _ZNK3DOM9DOMString10percentageERi@Base 4:4.3.4
  _ZNK3DOM9DOMString10startsWithERKS0_@Base 4:4.3.4
- _ZNK3DOM9DOMString10trimSpacesEv@Base 4:4.14.4
  _ZNK3DOM9DOMString11reverseFindE5QChari@Base 4:4.3.4
  _ZNK3DOM9DOMString4copyEv@Base 4:4.3.4
  _ZNK3DOM9DOMString4findE5QChari@Base 4:4.3.4
@@ -2865,6 +2860,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM9DOMString7toFloatEPb@Base 4:4.3.4
  _ZNK3DOM9DOMString7unicodeEv@Base 4:4.3.4
  _ZNK3DOM9DOMString8endsWithERKS0_@Base 4:4.3.4
+ _ZNK3DOM9DOMString9parsedUrlEv@Base 4:4.14.6
  _ZNK3DOM9DOMString9substringEjj@Base 4:4.3.4
  _ZNK3DOM9DOMStringixEj@Base 4:4.3.4
  _ZNK3DOM9LinkStyle6isNullEv@Base 4:4.3.4
