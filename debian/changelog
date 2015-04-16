@@ -1,6 +1,7 @@
 kde4libs (4:4.14.7-4~ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release. 
+  * Remove upstream_fixbic.diff applied upstream. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 16 Apr 2015 05:53:28 -0700
 
