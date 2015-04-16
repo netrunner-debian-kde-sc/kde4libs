@@ -1,2 +1,2 @@
 version=3
-http://download.kde.org/stable/applications/14.12.3/src/kdelibs-([\d.]+).tar.xz
+http://download.kde.org/stable/applications/([\d.]+)/src/kdelibs-([\d.]+).tar.xz
