@@ -1,3 +1,9 @@
+kde4libs (4:4.14.7-4~ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 16 Apr 2015 05:53:28 -0700
+
 kde4libs (4:4.14.6-4~ubuntu1) vivid; urgency=medium
 
   * New upstream release

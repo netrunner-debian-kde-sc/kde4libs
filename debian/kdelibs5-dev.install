@@ -1707,8 +1707,8 @@ usr/include/kxmlguiwindow.h
 usr/include/kxutils.h
 usr/include/kxyselector.h
 usr/include/kzip.h
-usr/include/nepomuk/kratingwidget.h
 usr/include/nepomuk/kratingpainter.h
+usr/include/nepomuk/kratingwidget.h
 usr/include/netwm.h
 usr/include/netwm_def.h
 usr/include/passdlg.h
