@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.95 amd64 arm64 armhf i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 4:4.14.8 amd64
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -6146,6 +6146,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK19KGlobalShortcutInfo19contextFriendlyNameEv@Base 4:4.3.4
  _ZNK19KGlobalShortcutInfo21componentFriendlyNameEv@Base 4:4.3.4
  _ZNK19KGlobalShortcutInfo4keysEv@Base 4:4.3.4
+ _ZNK19KIdentityProxyModel10headerDataEiN2Qt11OrientationEi@Base 4:4.14.8
  _ZNK19KIdentityProxyModel10metaObjectEv@Base 4:4.5.85
  _ZNK19KIdentityProxyModel11columnCountERK11QModelIndex@Base 4:4.5.85
  _ZNK19KIdentityProxyModel11mapToSourceERK11QModelIndex@Base 4:4.5.85
