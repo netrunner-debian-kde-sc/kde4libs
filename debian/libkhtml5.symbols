@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.4 amd64
+# SymbolsHelper-Confirmed: 4:4.14.9 amd64 i386
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -2864,6 +2864,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM9DOMString7toFloatEPb@Base 4:4.3.4
  _ZNK3DOM9DOMString7unicodeEv@Base 4:4.3.4
  _ZNK3DOM9DOMString8endsWithERKS0_@Base 4:4.3.4
+ _ZNK3DOM9DOMString9parsedUrlEv@Base 4:4.14.9
  _ZNK3DOM9DOMString9substringEjj@Base 4:4.3.4
  _ZNK3DOM9DOMStringixEj@Base 4:4.3.4
  _ZNK3DOM9LinkStyle6isNullEv@Base 4:4.3.4
