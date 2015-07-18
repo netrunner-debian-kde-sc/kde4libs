@@ -453,12 +453,13 @@ Depends: dbus-x11,
          katepart,
          kdelibs-bin (= ${binary:Version}),
          kdelibs5-data (= ${source:Version}),
+         kdoctools (= ${binary:Version}),
          shared-mime-info (>= 0.60~),
          xdg-utils,
          ${misc:Depends},
          ${perl:Depends},
          ${shlibs:Depends}
-Recommends: fonts-dejavu, kde-runtime, kdoctools
+Recommends: fonts-dejavu, kde-runtime
 Replaces: kdelibs5-data (<< 4:4.6.3-3~), kdelibs5-dev (<< 4:4.6.2)
 Breaks: kdelibs5-data (<< 4:4.6.3-3~),
         kdelibs5-dev (<< 4:4.6.2),
