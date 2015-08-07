@@ -33,3 +33,5 @@ fix_solidlex_destroy_signature.patch
 #kubuntu_patched_l10n.diff
 kubuntu_raise_after_drkonqi.patch
 kubuntu_revert_findpythonlibrary.diff
+allow_cancel_ssl.diff
+KRecursiveFilterProxyModel-Fixed-the-model.diff
