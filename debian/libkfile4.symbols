@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.3 sparc
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libkfile.so.4 libkfile4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KFileWidget10readConfigER12KConfigGroup@Base 4:4.4.0
@@ -618,7 +618,7 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZTV16KDirSelectDialog@Base 4:4.3.4
  _ZTV16KFileFilterCombo@Base 4:4.3.4
  _ZTV16KFilePlacesModel@Base 4:4.3.4
- _ZTV19KAbstractFileWidget@Base 4:4.3.4
+ (optional=gccinternal)_ZTV19KAbstractFileWidget@Base 4:4.3.4
  _ZTV21KFilePreviewGenerator@Base 4:4.3.4
  _ZTV22KNameAndUrlInputDialog@Base 4:4.4.95
  _ZTV24KDirSortFilterProxyModel@Base 4:4.3.4

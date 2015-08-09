@@ -2914,7 +2914,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZTSN6Plasma9SeparatorE@Base 4:4.4.4-2~
  _ZTSN6Plasma9SvgWidgetE@Base 4:4.4.4-2~
  _ZTSN6Plasma9WallpaperE@Base 4:4.4.4-2~
- _ZTVN12ThreadWeaver11QueuePolicyE@Base 4:4.4.4-2~
+ (optional=gccinternal)_ZTVN12ThreadWeaver11QueuePolicyE@Base 4:4.4.4-2~
  _ZTVN5Jolie15AbstractAdaptorE@Base 4:4.4.4-2~
  _ZTVN5Jolie18PendingCallWatcherE@Base 4:4.4.4-2~
  _ZTVN6Plasma10BusyWidgetE@Base 4:4.4.4-2~
