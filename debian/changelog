@@ -9,6 +9,7 @@ kde4libs (4:4.14.10-1~) UNRELEASED; urgency=medium
   * Remove upstream patches: allow_cancel_ssl.diff
   * Remove upstream patches: KRecursiveFilterProxyModel-Fixed-the-
     model.diff
+  * Disable openexr support till its transitions to gcc5
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:43:22 +0200
 
