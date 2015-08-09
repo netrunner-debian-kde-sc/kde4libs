@@ -33,7 +33,6 @@ Build-Depends: aspell,
                libjpeg-dev,
                libkrb5-dev,
                liblzma-dev,
-               libopenexr-dev,
                libpcre3-dev,
                libphonon-dev (>= 4:4.6.0really4.3.80),
                libpng-dev,
@@ -56,6 +55,7 @@ Build-Depends: aspell,
                shared-mime-info (>= 0.60),
                shared-desktop-ontologies (>= 0.11),
                zlib1g-dev
+#               libopenexr-dev,
 Build-Conflicts: libqtwebkit-dev (<< 2.2.1)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
