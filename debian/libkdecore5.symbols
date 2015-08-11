@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.9 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -999,13 +999,13 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN16KMimeTypeFactory13MimeTypeEntryC1ERK7QStringS3_@Base 4:4.5.85
  _ZN16KMimeTypeFactory13MimeTypeEntryC2ER11QDataStreami@Base 4:4.5.85
  _ZN16KMimeTypeFactory13MimeTypeEntryC2ERK7QStringS3_@Base 4:4.5.85
- (arch=!armel)_ZN16KMimeTypeFactory13MimeTypeEntryD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN16KMimeTypeFactory13MimeTypeEntryD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN16KMimeTypeFactory13MimeTypeEntryD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN16KMimeTypeFactory13MimeTypeEntryD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN16KMimeTypeFactory13MimeTypeEntryD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN16KMimeTypeFactory13MimeTypeEntryD2Ev@Base 4:4.7.2
  _ZN16KMimeTypeFactory19serviceOffersOffsetERK7QString@Base 4:4.5.85
- (arch=!armel)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD2Ev@Base 4:4.7.2
  _ZN16KMimeTypeFactory4selfEv@Base 4:4.3.4
  _ZN16KMimeTypeFactoryC1Ev@Base 4:4.3.4
  _ZN16KMimeTypeFactoryC2Ev@Base 4:4.3.4
@@ -1136,34 +1136,34 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN19KCoreConfigSkeleton10ItemDouble11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton10ItemDoubleC1ERK7QStringS3_Rdd@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton10ItemDoubleC2ERK7QStringS3_Rdd@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton10ItemDoubleD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton10ItemDoubleD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton10ItemDoubleD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton10ItemDoubleD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton10ItemDoubleD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton10ItemDoubleD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton10ItemString10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton10ItemString11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton10ItemString11writeConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton10ItemStringC1ERK7QStringS3_RS1_S3_NS0_4TypeE@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton10ItemStringC2ERK7QStringS3_RS1_S3_NS0_4TypeE@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton10ItemStringD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton10ItemStringD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton10ItemStringD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton10ItemStringD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton10ItemStringD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton10ItemStringD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton10addItemIntERK7QStringRiiS2_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton10readConfigEv@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton11ItemIntList10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton11ItemIntList11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton11ItemIntListC1ERK7QStringS3_R5QListIiERKS5_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton11ItemIntListC2ERK7QStringS3_R5QListIiERKS5_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton11ItemIntListD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton11ItemIntListD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton11ItemIntListD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton11ItemIntListD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton11ItemIntListD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton11ItemIntListD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton11ItemUrlList10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton11ItemUrlList11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton11ItemUrlList11writeConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton11ItemUrlListC1ERK7QStringS3_RN4KUrl4ListERKS5_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton11ItemUrlListC2ERK7QStringS3_RN4KUrl4ListERKS5_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton11ItemUrlListD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton11ItemUrlListD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton11ItemUrlListD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton11ItemUrlListD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton11ItemUrlListD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton11ItemUrlListD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton11addItemBoolERK7QStringRbbS2_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton11addItemPathERK7QStringRS0_S2_S2_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton11addItemRectERK7QStringR5QRectRKS3_S2_@Base 4:4.3.4
@@ -1179,37 +1179,37 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN19KCoreConfigSkeleton12ItemDateTime11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemDateTimeC1ERK7QStringS3_R9QDateTimeRKS4_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemDateTimeC2ERK7QStringS3_R9QDateTimeRKS4_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemDateTimeD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemDateTimeD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemDateTimeD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemDateTimeD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemDateTimeD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemDateTimeD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton12ItemLongLong10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemLongLong11setMaxValueEx@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemLongLong11setMinValueEx@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemLongLong11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemLongLongC1ERK7QStringS3_Rxx@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemLongLongC2ERK7QStringS3_Rxx@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemLongLongD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemLongLongD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemLongLongD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemLongLongD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemLongLongD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemLongLongD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton12ItemPasswordC1ERK7QStringS3_RS1_S3_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemPasswordC2ERK7QStringS3_RS1_S3_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemPasswordD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemPasswordD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemPasswordD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemPasswordD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemPasswordD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemPasswordD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton12ItemPathList10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemPathList11writeConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemPathListC1ERK7QStringS3_R11QStringListRKS4_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemPathListC2ERK7QStringS3_R11QStringListRKS4_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemPathListD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemPathListD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemPathListD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemPathListD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemPathListD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemPathListD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton12ItemProperty10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemProperty11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemPropertyC1ERK7QStringS3_R8QVariantRKS4_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12ItemPropertyC2ERK7QStringS3_R8QVariantRKS4_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemPropertyD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemPropertyD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton12ItemPropertyD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemPropertyD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemPropertyD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton12ItemPropertyD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton12addItemInt64ERK7QStringRxxS2_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton12addItemPointERK7QStringR6QPointRKS3_S2_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton13ItemULongLong10readConfigEP7KConfig@Base 4:4.3.4
@@ -1218,9 +1218,9 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN19KCoreConfigSkeleton13ItemULongLong11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton13ItemULongLongC1ERK7QStringS3_Ryy@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton13ItemULongLongC2ERK7QStringS3_Ryy@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton13ItemULongLongD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton13ItemULongLongD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton13ItemULongLongD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton13ItemULongLongD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton13ItemULongLongD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton13ItemULongLongD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton13addItemDoubleERK7QStringRddS2_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton13addItemStringERK7QStringRS0_S2_S2_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton13addItemUInt64ERK7QStringRyyS2_@Base 4:4.3.4
@@ -1230,9 +1230,9 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN19KCoreConfigSkeleton14ItemStringList11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton14ItemStringListC1ERK7QStringS3_R11QStringListRKS4_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton14ItemStringListC2ERK7QStringS3_R11QStringListRKS4_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton14ItemStringListD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton14ItemStringListD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton14ItemStringListD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton14ItemStringListD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton14ItemStringListD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton14ItemStringListD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton14addItemIntListERK7QStringR5QListIiERKS4_S2_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton14usrSetDefaultsEv@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton14usrUseDefaultsEb@Base 4:4.3.4
@@ -1253,25 +1253,25 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN19KCoreConfigSkeleton7ItemInt11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton7ItemIntC1ERK7QStringS3_Rii@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton7ItemIntC2ERK7QStringS3_Rii@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton7ItemIntD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton7ItemIntD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton7ItemIntD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton7ItemIntD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton7ItemIntD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton7ItemIntD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton7ItemUrl10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton7ItemUrl11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton7ItemUrl11writeConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton7ItemUrlC1ERK7QStringS3_R4KUrlRKS4_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton7ItemUrlC2ERK7QStringS3_R4KUrlRKS4_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton7ItemUrlD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton7ItemUrlD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton7ItemUrlD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton7ItemUrlD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton7ItemUrlD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton7ItemUrlD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton7addItemEP19KConfigSkeletonItemRK7QString@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemBool10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemBool11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemBoolC1ERK7QStringS3_Rbb@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemBoolC2ERK7QStringS3_Rbb@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemBoolD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemBoolD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemBoolD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemBoolD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemBoolD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemBoolD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton8ItemEnum10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemEnum11writeConfigEP7KConfig@Base 4:4.3.4
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD1Ev@Base 4:4.6.5
@@ -1282,45 +1282,45 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN19KCoreConfigSkeleton8ItemEnumC1ERK7QStringS3_RiRK5QListINS0_7Choice2EEi@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemEnumC2ERK7QStringS3_RiRK5QListINS0_6ChoiceEEi@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemEnumC2ERK7QStringS3_RiRK5QListINS0_7Choice2EEi@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemEnumD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemEnumD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemEnumD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemEnumD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemEnumD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemEnumD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton8ItemPathC1ERK7QStringS3_RS1_S3_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemPathC2ERK7QStringS3_RS1_S3_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemPathD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemPathD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemPathD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemPathD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemPathD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemPathD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton8ItemRect10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemRect11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemRectC1ERK7QStringS3_R5QRectRKS4_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemRectC2ERK7QStringS3_R5QRectRKS4_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemRectD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemRectD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemRectD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemRectD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemRectD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemRectD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton8ItemSize10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemSize11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemSizeC1ERK7QStringS3_R5QSizeRKS4_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemSizeC2ERK7QStringS3_R5QSizeRKS4_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemSizeD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemSizeD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemSizeD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemSizeD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemSizeD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemSizeD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton8ItemUInt10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemUInt11setMaxValueEj@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemUInt11setMinValueEj@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemUInt11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemUIntC1ERK7QStringS3_Rjj@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton8ItemUIntC2ERK7QStringS3_Rjj@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemUIntD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemUIntD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton8ItemUIntD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemUIntD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemUIntD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton8ItemUIntD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeleton8findItemERK7QString@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton9ItemPoint10readConfigEP7KConfig@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton9ItemPoint11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton9ItemPointC1ERK7QStringS3_R6QPointRKS4_@Base 4:4.3.4
  _ZN19KCoreConfigSkeleton9ItemPointC2ERK7QStringS3_R6QPointRKS4_@Base 4:4.3.4
- (arch=!armel)_ZN19KCoreConfigSkeleton9ItemPointD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton9ItemPointD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN19KCoreConfigSkeleton9ItemPointD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton9ItemPointD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton9ItemPointD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN19KCoreConfigSkeleton9ItemPointD2Ev@Base 4:4.7.2
  _ZN19KCoreConfigSkeletonC1E10KSharedPtrI13KSharedConfigEP7QObject@Base 4:4.3.4
  _ZN19KCoreConfigSkeletonC1ERK7QStringP7QObject@Base 4:4.3.4
  _ZN19KCoreConfigSkeletonC2E10KSharedPtrI13KSharedConfigEP7QObject@Base 4:4.3.4
@@ -1830,8 +1830,8 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZN6Sonnet17BackgroundCheckerD1Ev@Base 4:4.3.4
  _ZN6Sonnet17BackgroundCheckerD2Ev@Base 4:4.3.4
  _ZN6Sonnet19defaultLanguageNameEv@Base 4:4.3.4
- (arch=!armel)_ZN6Sonnet4WordD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN6Sonnet4WordD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN6Sonnet4WordD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN6Sonnet4WordD2Ev@Base 4:4.7.2
  _ZN6Sonnet6Client11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Sonnet6Client11qt_metacastEPKc@Base 4:4.3.4
  _ZN6Sonnet6Client16staticMetaObjectE@Base 4:4.3.4

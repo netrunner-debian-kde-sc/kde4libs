@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.9 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  (optional=templinst|arch=i386)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.14.9
@@ -2920,7 +2920,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZTSN6Plasma9SeparatorE@Base 4:4.4.4-2~
  _ZTSN6Plasma9SvgWidgetE@Base 4:4.4.4-2~
  _ZTSN6Plasma9WallpaperE@Base 4:4.4.4-2~
- _ZTVN12ThreadWeaver11QueuePolicyE@Base 4:4.4.4-2~
+ (optional)_ZTVN12ThreadWeaver11QueuePolicyE@Base 4:4.4.4-2~
  _ZTVN5Jolie15AbstractAdaptorE@Base 4:4.4.4-2~
  _ZTVN5Jolie18PendingCallWatcherE@Base 4:4.4.4-2~
  _ZTVN6Plasma10BusyWidgetE@Base 4:4.4.4-2~

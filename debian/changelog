@@ -1,5 +1,11 @@
 kde4libs (4:4.14.9-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
+  * New upstream release.
+  * Update symbols files: mark as optional the symbols gone after building with
+    GCC 5.
+
+  [ Scarlett Clark ]
   * New upstream release.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 07:10:44 -0700

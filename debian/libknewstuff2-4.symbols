@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.90 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libknewstuff2.so.4 libknewstuff2-4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KNS10CoreEngine10cacheEntryEPNS_5EntryE@Base 4:4.3.4
@@ -130,9 +130,9 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZN3KNS14ProviderLoader4loadERK7QString@Base 4:4.3.4
  _ZN3KNS14ProviderLoaderC1EP7QObject@Base 4:4.3.4
  _ZN3KNS14ProviderLoaderC2EP7QObject@Base 4:4.3.4
- (arch=!armel)_ZN3KNS14ProviderLoaderD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN3KNS14ProviderLoaderD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN3KNS14ProviderLoaderD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN3KNS14ProviderLoaderD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN3KNS14ProviderLoaderD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN3KNS14ProviderLoaderD2Ev@Base 4:4.7.2
  _ZN3KNS14standardActionERK7QStringPK7QObjectPKcP17KActionCollectionS7_@Base 4:4.3.4
  _ZN3KNS15ProviderHandler10addElementER12QDomDocumentR11QDomElementRK7QStringS7_@Base 4:4.3.4
  _ZN3KNS15ProviderHandler11providerXMLEv@Base 4:4.3.4
@@ -209,9 +209,9 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZN3KNS6ButtonC1ERK7QStringS3_S3_P7QWidget@Base 4:4.4.0
  _ZN3KNS6ButtonC2EP7QWidget@Base 4:4.4.0
  _ZN3KNS6ButtonC2ERK7QStringS3_S3_P7QWidget@Base 4:4.4.0
- (arch=!armel)_ZN3KNS6ButtonD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN3KNS6ButtonD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN3KNS6ButtonD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN3KNS6ButtonD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN3KNS6ButtonD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN3KNS6ButtonD2Ev@Base 4:4.7.2
  _ZN3KNS6Engine12uploadDialogERK7QString@Base 4:4.3.4
  _ZN3KNS6Engine14downloadDialogEP7QObjectPKc@Base 4:4.3.4
  _ZN3KNS6Engine14downloadDialogEv@Base 4:4.3.4
@@ -318,5 +318,5 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZTVN3KNS12UploadDialogE@Base 4:4.3.4
  _ZTVN3KNS14ProviderLoaderE@Base 4:4.3.4
  _ZTVN3KNS6ButtonE@Base 4:4.4.0
- (c++|arch=!armel)"non-virtual thunk to KNS::Button::~Button()@Base" 4:4.7.2
+ (optional|c++|arch=!armel)"non-virtual thunk to KNS::Button::~Button()@Base" 4:4.7.2
  (c++)"non-virtual thunk to KNS::UploadDialog::~UploadDialog()@Base" 4:4.3.4

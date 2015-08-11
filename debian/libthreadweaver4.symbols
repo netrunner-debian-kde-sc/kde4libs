@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 ia64
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libthreadweaver.so.4 libthreadweaver4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZGVZN12ThreadWeaver16DependencyPolicy7Private12dependenciesEvE6depMap@Base 4:4.3.4
@@ -13,9 +13,9 @@ libthreadweaver.so.4 libthreadweaver4 #MINVER#
  _ZN12ThreadWeaver11JobSequence16staticMetaObjectE@Base 4:4.3.4
  _ZN12ThreadWeaver11JobSequenceC1EP7QObject@Base 4:4.3.4
  _ZN12ThreadWeaver11JobSequenceC2EP7QObject@Base 4:4.3.4
- (arch=!armel)_ZN12ThreadWeaver11JobSequenceD0Ev@Base 4:4.7.2
- (arch=!armel)_ZN12ThreadWeaver11JobSequenceD1Ev@Base 4:4.7.2
- (arch=!armel)_ZN12ThreadWeaver11JobSequenceD2Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN12ThreadWeaver11JobSequenceD0Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN12ThreadWeaver11JobSequenceD1Ev@Base 4:4.7.2
+ (optional|arch=!armel)_ZN12ThreadWeaver11JobSequenceD2Ev@Base 4:4.7.2
  _ZN12ThreadWeaver13JobCollection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN12ThreadWeaver13JobCollection11qt_metacastEPKc@Base 4:4.3.4
  _ZN12ThreadWeaver13JobCollection12finalCleanupEv@Base 4:4.3.4
@@ -187,7 +187,7 @@ libthreadweaver.so.4 libthreadweaver4 #MINVER#
  _ZTSN12ThreadWeaver6ThreadE@Base 4:4.3.4
  _ZTSN12ThreadWeaver6WeaverE@Base 4:4.3.4
  _ZTVN12ThreadWeaver11JobSequenceE@Base 4:4.3.4
- _ZTVN12ThreadWeaver11QueuePolicyE@Base 4:4.3.4
+ (optional)_ZTVN12ThreadWeaver11QueuePolicyE@Base 4:4.3.4
  _ZTVN12ThreadWeaver13JobCollectionE@Base 4:4.3.4
  _ZTVN12ThreadWeaver14WeaverObserverE@Base 4:4.3.4
  _ZTVN12ThreadWeaver15WeaverInterfaceE@Base 4:4.3.4
