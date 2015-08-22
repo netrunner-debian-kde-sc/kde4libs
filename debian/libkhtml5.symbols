@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.10 amd64
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -1825,15 +1825,15 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOMeqERKNS_9DOMStringEPKc@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringERK7QString@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringES2_@Base 4:4.3.4
- (optional=gccinternal)_ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
- (optional=private)_ZN3KJS17PropertyNameArrayD1Ev@Base 4:4.7.4
- (optional=private)_ZN3KJS17PropertyNameArrayD2Ev@Base 4:4.7.4
- (optional=gccinternal)_ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN3KJS19InternalFunctionImpD1Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN3KJS19InternalFunctionImpD2Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
+ (optional=private|arch=amd64)_ZN3KJS17PropertyNameArrayD1Ev@Base 4:4.7.4
+ (optional=private|arch=amd64)_ZN3KJS17PropertyNameArrayD2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=amd64)_ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN3KJS19InternalFunctionImpD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN3KJS19InternalFunctionImpD2Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.10.2
  (optional=private|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
@@ -1862,13 +1862,13 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN5khtml11RenderStyle7cleanupEv@Base 4:4.3.4
  _ZN5khtml12RenderObject7cleanupEv@Base 4:4.3.4
  _ZN5khtml14MouseMoveEvent19s_strMouseMoveEventE@Base 4:4.3.4
- (optional=gccinternal)_ZN5khtml14MouseMoveEventD0Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN5khtml14MouseMoveEventD1Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN5khtml14MouseMoveEventD2Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml14MouseMoveEventD0Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml14MouseMoveEventD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml14MouseMoveEventD2Ev@Base 4:4.7.2
  _ZN5khtml15MousePressEvent20s_strMousePressEventE@Base 4:4.3.4
- (optional=gccinternal)_ZN5khtml15MousePressEventD0Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN5khtml15MousePressEventD1Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN5khtml15MousePressEventD2Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml15MousePressEventD0Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml15MousePressEventD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml15MousePressEventD2Ev@Base 4:4.7.2
  _ZN5khtml16CSSStyleSelector5clearEv@Base 4:4.3.4
  _ZN5khtml17DrawContentsEvent22s_strDrawContentsEventE@Base 4:4.3.4
  _ZN5khtml17DrawContentsEventC1EP8QPainteriiii@Base 4:4.3.4
@@ -1877,13 +1877,13 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN5khtml17DrawContentsEventD1Ev@Base 4:4.3.4
  _ZN5khtml17DrawContentsEventD2Ev@Base 4:4.3.4
  _ZN5khtml17MouseReleaseEvent22s_strMouseReleaseEventE@Base 4:4.3.4
- (optional=gccinternal)_ZN5khtml17MouseReleaseEventD0Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN5khtml17MouseReleaseEventD1Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN5khtml17MouseReleaseEventD2Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml17MouseReleaseEventD0Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml17MouseReleaseEventD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml17MouseReleaseEventD2Ev@Base 4:4.7.2
  _ZN5khtml21MouseDoubleClickEvent26s_strMouseDoubleClickEventE@Base 4:4.3.4
- (optional=gccinternal)_ZN5khtml21MouseDoubleClickEventD0Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN5khtml21MouseDoubleClickEventD1Ev@Base 4:4.7.2
- (optional=gccinternal)_ZN5khtml21MouseDoubleClickEventD2Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml21MouseDoubleClickEventD0Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml21MouseDoubleClickEventD1Ev@Base 4:4.7.2
+ (optional=gccinternal|arch=amd64)_ZN5khtml21MouseDoubleClickEventD2Ev@Base 4:4.7.2
  _ZN5khtml5Cache4initEv@Base 4:4.3.4
  _ZN5khtml5Cache5clearEv@Base 4:4.3.4
  _ZN5khtml5Cache5flushEb@Base 4:4.3.4
@@ -2245,7 +2245,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLViewD1Ev@Base 4:4.3.4
  _ZN9KHTMLViewD2Ev@Base 4:4.3.4
  (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=alpha amd64 armel mips mipsel sparc)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.14.2
+ (optional=templinst|arch=alpha amd64 armel hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel sparc x32)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.14.2
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4:4.3.4
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4:4.3.4
@@ -2875,7 +2875,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3KJS7JSValue4typeEv@Base 4:4.3.4
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7JSValue9getNumberERd@Base 4:4.14.10
- (optional=gccinternal)_ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
+ (arch=mips mipsel s390x)_ZNK3KJS7JSValue9getNumberEv@Base 4:4.14.10
+ (optional=gccinternal|arch=amd64)_ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
  _ZNK3KJS7UString7qstringEv@Base 4:4.3.4
  _ZNK3KJS7UString9domStringEv@Base 4:4.3.4
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.3.4
@@ -3270,7 +3271,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTVN3DOM9DOMStringE@Base 4:4.3.4
  _ZTVN3DOM9DomSharedE@Base 4:4.3.4
  _ZTVN3DOM9TextEventE@Base 4:4.3.4
- (optional=gccinternal)_ZTVN3KJS14JSGlobalObjectE@Base 4:4.3.4
+ (optional=gccinternal|arch=amd64)_ZTVN3KJS14JSGlobalObjectE@Base 4:4.3.4
  (arch=!armel !armhf)_ZTVN3KJS6JSCellE@Base 4:4.3.4
  _ZTVN3KJS7JSValueE@Base 4:4.3.4
  _ZTVN5khtml10ChildFrameE@Base 4:4.3.4
@@ -3280,7 +3281,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTVN5khtml17DrawContentsEventE@Base 4:4.3.4
  _ZTVN5khtml17MouseReleaseEventE@Base 4:4.3.4
  _ZTVN5khtml21MouseDoubleClickEventE@Base 4:4.3.4
- (optional=gccinternal)_ZTVN6KParts21HtmlSettingsInterfaceE@Base 4:4.8.1
+ (optional=gccinternal|arch=amd64)_ZTVN6KParts21HtmlSettingsInterfaceE@Base 4:4.8.1
  (c++)"non-virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KHTMLView::~KHTMLView()@Base" 4:4.3.4
  (c++)"virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4
