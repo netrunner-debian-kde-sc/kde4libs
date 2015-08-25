@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.10 amd64
+# SymbolsHelper-Confirmed: 4:4.14.11 amd64 arm64 armhf i386 powerpc ppc64el
 libkhtml.so.5 libkhtml5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN11KHTMLGlobal10finalCheckEv@Base 4:4.3.4
@@ -1825,16 +1825,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOMeqERKNS_9DOMStringEPKc@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringERK7QString@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringES2_@Base 4:4.3.4
- (optional)_ZN3KJS14JSGlobalObjectD0Ev@Base 4:4.7.2
- (optional)_ZN3KJS14JSGlobalObjectD1Ev@Base 4:4.7.2
- (optional)_ZN3KJS14JSGlobalObjectD2Ev@Base 4:4.7.2
  (optional=private|arch=hurd-i386)_ZN3KJS14ScopeChainLink5derefEv@Base 4:4.6.3
- (optional=private)_ZN3KJS17PropertyNameArrayD1Ev@Base 4:4.7.4
- (optional=private)_ZN3KJS17PropertyNameArrayD2Ev@Base 4:4.7.4
- (optional)_ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.7.2
- (optional)_ZN3KJS19InternalFunctionImpD1Ev@Base 4:4.7.2
- (optional)_ZN3KJS19InternalFunctionImpD2Ev@Base 4:4.7.2
- (optional|arch=amd64 armhf i386 ppc64el)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.13.97
  (optional=private|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
@@ -1863,13 +1854,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN5khtml11RenderStyle7cleanupEv@Base 4:4.3.4
  _ZN5khtml12RenderObject7cleanupEv@Base 4:4.3.4
  _ZN5khtml14MouseMoveEvent19s_strMouseMoveEventE@Base 4:4.3.4
- (optional)_ZN5khtml14MouseMoveEventD0Ev@Base 4:4.7.2
- (optional)_ZN5khtml14MouseMoveEventD1Ev@Base 4:4.7.2
- (optional)_ZN5khtml14MouseMoveEventD2Ev@Base 4:4.7.2
  _ZN5khtml15MousePressEvent20s_strMousePressEventE@Base 4:4.3.4
- (optional)_ZN5khtml15MousePressEventD0Ev@Base 4:4.7.2
- (optional)_ZN5khtml15MousePressEventD1Ev@Base 4:4.7.2
- (optional)_ZN5khtml15MousePressEventD2Ev@Base 4:4.7.2
  _ZN5khtml16CSSStyleSelector5clearEv@Base 4:4.3.4
  _ZN5khtml17DrawContentsEvent22s_strDrawContentsEventE@Base 4:4.3.4
  _ZN5khtml17DrawContentsEventC1EP8QPainteriiii@Base 4:4.3.4
@@ -1878,13 +1863,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN5khtml17DrawContentsEventD1Ev@Base 4:4.3.4
  _ZN5khtml17DrawContentsEventD2Ev@Base 4:4.3.4
  _ZN5khtml17MouseReleaseEvent22s_strMouseReleaseEventE@Base 4:4.3.4
- (optional)_ZN5khtml17MouseReleaseEventD0Ev@Base 4:4.7.2
- (optional)_ZN5khtml17MouseReleaseEventD1Ev@Base 4:4.7.2
- (optional)_ZN5khtml17MouseReleaseEventD2Ev@Base 4:4.7.2
  _ZN5khtml21MouseDoubleClickEvent26s_strMouseDoubleClickEventE@Base 4:4.3.4
- (optional)_ZN5khtml21MouseDoubleClickEventD0Ev@Base 4:4.7.2
- (optional)_ZN5khtml21MouseDoubleClickEventD1Ev@Base 4:4.7.2
- (optional)_ZN5khtml21MouseDoubleClickEventD2Ev@Base 4:4.7.2
  _ZN5khtml5Cache4initEv@Base 4:4.3.4
  _ZN5khtml5Cache5clearEv@Base 4:4.3.4
  _ZN5khtml5Cache5flushEb@Base 4:4.3.4
@@ -2246,7 +2225,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLViewD1Ev@Base 4:4.3.4
  _ZN9KHTMLViewD2Ev@Base 4:4.3.4
  (optional=templinst|arch=amd64 arm64 armhf i386 powerpc ppc64el)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=amd64 ppc64el)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.10.90
+ (optional=templinst|arch=amd64 i386 ppc64el)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.10.90
  (optional=templinst|arch=hurd-i386 kfreebsd-amd64)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.6.2
  (optional=templinst|arch=hurd-i386)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.6.2
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
@@ -2878,8 +2857,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3KJS7JSValue4typeEv@Base 4:4.3.4
  (arch=hurd-i386)_ZNK3KJS7JSValue7toInt32EPNS_9ExecStateERb@Base 4:4.6.3
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.3.4
- (optional|arch=amd64 ppc64el)_ZNK3KJS7JSValue9getNumberERd@Base 4:4.14.10
- (optional)_ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4:4.3.4
+ (optional)_ZNK3KJS7JSValue9getNumberERd@Base 4:4.14.10
+ (arch=ppc64el)_ZNK3KJS7JSValue9getNumberEv@Base 4:4.14.11
  _ZNK3KJS7UString7qstringEv@Base 4:4.3.4
  _ZNK3KJS7UString9domStringEv@Base 4:4.3.4
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.3.4
@@ -3070,7 +3049,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTIN3DOM9TextEventE@Base 4:4.3.4
  _ZTIN3KJS14JSGlobalObjectE@Base 4:4.3.4
  (arch=!armel !armhf)_ZTIN3KJS6JSCellE@Base 4:4.3.4
- _ZTIN3KJS7JSValueE@Base 4:4.3.4
+ (arch=!armhf)_ZTIN3KJS7JSValueE@Base 4:4.14.11
  _ZTIN5khtml10ChildFrameE@Base 4:4.3.4
  _ZTIN5khtml10MouseEventE@Base 4:4.3.4
  _ZTIN5khtml14MouseMoveEventE@Base 4:4.3.4
@@ -3173,7 +3152,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTSN3DOM9TextEventE@Base 4:4.3.4
  _ZTSN3KJS14JSGlobalObjectE@Base 4:4.3.4
  (arch=!armel !armhf)_ZTSN3KJS6JSCellE@Base 4:4.3.4
- _ZTSN3KJS7JSValueE@Base 4:4.3.4
+ (arch=!armhf)_ZTSN3KJS7JSValueE@Base 4:4.14.11
  _ZTSN5khtml10ChildFrameE@Base 4:4.3.4
  _ZTSN5khtml10MouseEventE@Base 4:4.3.4
  _ZTSN5khtml14MouseMoveEventE@Base 4:4.3.4
@@ -3274,9 +3253,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTVN3DOM9DOMStringE@Base 4:4.3.4
  _ZTVN3DOM9DomSharedE@Base 4:4.3.4
  _ZTVN3DOM9TextEventE@Base 4:4.3.4
- (optional)_ZTVN3KJS14JSGlobalObjectE@Base 4:4.3.4
  (arch=!armel !armhf)_ZTVN3KJS6JSCellE@Base 4:4.3.4
- _ZTVN3KJS7JSValueE@Base 4:4.3.4
+ (arch=!armhf)_ZTVN3KJS7JSValueE@Base 4:4.14.11
  _ZTVN5khtml10ChildFrameE@Base 4:4.3.4
  _ZTVN5khtml10MouseEventE@Base 4:4.3.4
  _ZTVN5khtml14MouseMoveEventE@Base 4:4.3.4
@@ -3284,7 +3262,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTVN5khtml17DrawContentsEventE@Base 4:4.3.4
  _ZTVN5khtml17MouseReleaseEventE@Base 4:4.3.4
  _ZTVN5khtml21MouseDoubleClickEventE@Base 4:4.3.4
- (optional)_ZTVN6KParts21HtmlSettingsInterfaceE@Base 4:4.8.1
  (c++)"non-virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KHTMLView::~KHTMLView()@Base" 4:4.3.4
  (c++)"virtual thunk to KHTMLPart::~KHTMLPart()@Base" 4:4.3.4

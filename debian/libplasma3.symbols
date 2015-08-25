@@ -1,7 +1,7 @@
-# SymbolsHelper-Confirmed: 4:4.14.10 amd64
+# SymbolsHelper-Confirmed: 4:4.14.11 amd64 arm64 armhf i386 powerpc ppc64el
 libplasma.so.3 libplasma3 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
- (optional=templinst|arch=i386)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.14.9
+ (optional=templinst|arch=arm64 armhf ppc64el)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.14.9
  (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  (optional=templinst|arch=ia64)_ZN12KConfigGroup14writeListCheckI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD1Ev@Base 4:4.6.5
@@ -2053,6 +2053,7 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZN6Plasma9WallpaperD0Ev@Base 4:4.4.4-2~
  _ZN6Plasma9WallpaperD1Ev@Base 4:4.4.4-2~
  _ZN6Plasma9WallpaperD2Ev@Base 4:4.4.4-2~
+ (optional=templinst|arch=ppc64el)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.14.11
  _ZNK5Jolie11MetaService14loadedServicesEv@Base 4:4.4.4-2~
  _ZNK5Jolie11MetaService9isRunningEv@Base 4:4.4.4-2~
  _ZNK5Jolie12PendingReply10isFinishedEv@Base 4:4.4.4-2~
@@ -2920,7 +2921,6 @@ libplasma.so.3 libplasma3 #MINVER#
  _ZTSN6Plasma9SeparatorE@Base 4:4.4.4-2~
  _ZTSN6Plasma9SvgWidgetE@Base 4:4.4.4-2~
  _ZTSN6Plasma9WallpaperE@Base 4:4.4.4-2~
- (optional)_ZTVN12ThreadWeaver11QueuePolicyE@Base 4:4.4.4-2~
  _ZTVN5Jolie15AbstractAdaptorE@Base 4:4.4.4-2~
  _ZTVN5Jolie18PendingCallWatcherE@Base 4:4.4.4-2~
  _ZTVN6Plasma10BusyWidgetE@Base 4:4.4.4-2~

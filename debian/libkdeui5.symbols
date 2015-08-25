@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.10 amd64
+# SymbolsHelper-Confirmed: 4:4.14.11 amd64 arm64 armhf i386 powerpc ppc64el
 libkdeui.so.5 libkdeui5 #MINVER#
 | libkdeui5 #MINVER#, kde-runtime
 * Build-Depends-Package: kdelibs5-dev
@@ -146,9 +146,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10KSeparatorC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:4.3.4
  _ZN10KSeparatorC2EN2Qt11OrientationEP7QWidget6QFlagsINS0_10WindowTypeEE@Base 4:4.3.4
  _ZN10KSeparatorC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:4.3.4
- (optional)_ZN10KSeparatorD0Ev@Base 4:4.7.2
- (optional)_ZN10KSeparatorD1Ev@Base 4:4.7.2
- (optional)_ZN10KSeparatorD2Ev@Base 4:4.7.2
  _ZN10KStatusBar10changeItemERK7QStringi@Base 4:4.3.4
  _ZN10KStatusBar10insertItemERK7QStringii@Base 4:4.3.4
  _ZN10KStatusBar10removeItemEi@Base 4:4.3.4
@@ -247,9 +244,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN10KUndoStack16staticMetaObjectE@Base 4:4.3.4
  _ZN10KUndoStackC1EP7QObject@Base 4:4.3.4
  _ZN10KUndoStackC2EP7QObject@Base 4:4.3.4
- (optional)_ZN10KUndoStackD0Ev@Base 4:4.7.2
- (optional)_ZN10KUndoStackD1Ev@Base 4:4.7.2
- (optional)_ZN10KUndoStackD2Ev@Base 4:4.7.2
  _ZN10KXMessages10gotMessageERK7QString@Base 4:4.3.4
  _ZN10KXMessages11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN10KXMessages11qt_metacastEPKc@Base 4:4.3.4
@@ -625,9 +619,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11KImageCache7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
  _ZN11KImageCache7Private11qt_metacastEPKc@Base 4:4.4.95
  _ZN11KImageCache7Private16staticMetaObjectE@Base 4:4.4.95
- (optional)_ZN11KImageCache7PrivateD0Ev@Base 4:4.7.2
- (optional)_ZN11KImageCache7PrivateD1Ev@Base 4:4.7.2
- (optional)_ZN11KImageCache7PrivateD2Ev@Base 4:4.7.2
  _ZN11KImageCacheC1ERK7QStringjj@Base 4:4.4.95
  _ZN11KImageCacheC2ERK7QStringjj@Base 4:4.4.95
  _ZN11KImageCacheD1Ev@Base 4:4.5.2
@@ -1002,9 +993,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN11NETWinInfo2C1EP9_XDisplaymmmN3NET4RoleE@Base 4:4.3.4
  _ZN11NETWinInfo2C2EP9_XDisplaymmPKmiN3NET4RoleE@Base 4:4.3.4
  _ZN11NETWinInfo2C2EP9_XDisplaymmmN3NET4RoleE@Base 4:4.3.4
- (optional)_ZN11NETWinInfo2D0Ev@Base 4:4.7.2
- (optional)_ZN11NETWinInfo2D1Ev@Base 4:4.7.2
- (optional)_ZN11NETWinInfo2D2Ev@Base 4:4.7.2
  _ZN12KApplication10commitDataER15QSessionManager@Base 4:4.3.4
  _ZN12KApplication11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN12KApplication11qt_metacastEPKc@Base 4:4.3.4
@@ -1483,9 +1471,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN12KSvgRendererC2EP7QObject@Base 4:4.3.4
  _ZN12KSvgRendererC2ERK10QByteArrayP7QObject@Base 4:4.3.4
  _ZN12KSvgRendererC2ERK7QStringP7QObject@Base 4:4.3.4
- (optional)_ZN12KSvgRendererD0Ev@Base 4:4.7.2
- (optional)_ZN12KSvgRendererD1Ev@Base 4:4.7.2
- (optional)_ZN12KSvgRendererD2Ev@Base 4:4.7.2
  _ZN12KTextBrowser10wheelEventEP11QWheelEvent@Base 4:4.3.4
  _ZN12KTextBrowser11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN12KTextBrowser11qt_metacastEPKc@Base 4:4.3.4
@@ -2003,9 +1988,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN13KWindowSystem8setStrutEmiiii@Base 4:4.3.4
  _ZN13KWindowSystem8workAreaERK5QListImEi@Base 4:4.3.4
  _ZN13KWindowSystem8workAreaEi@Base 4:4.3.4
- (optional)_ZN13KWindowSystemD0Ev@Base 4:4.7.2
- (optional)_ZN13KWindowSystemD1Ev@Base 4:4.7.2
- (optional)_ZN13KWindowSystemD2Ev@Base 4:4.7.2
  _ZN13KXMLGUIClient10endXMLPlugEv@Base 4:4.3.4
  _ZN13KXMLGUIClient10setFactoryEP14KXMLGUIFactory@Base 4:4.3.4
  _ZN13KXMLGUIClient10setXMLFileERK7QStringbb@Base 4:4.3.4
@@ -2099,9 +2081,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN14KCompletionBoxD2Ev@Base 4:4.3.4
  _ZN14KDateValidatorC1EP7QWidget@Base 4:4.3.4
  _ZN14KDateValidatorC2EP7QWidget@Base 4:4.3.4
- (optional)_ZN14KDateValidatorD0Ev@Base 4:4.7.2
- (optional)_ZN14KDateValidatorD1Ev@Base 4:4.7.2
- (optional)_ZN14KDateValidatorD2Ev@Base 4:4.7.2
  _ZN14KFontRequester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN14KFontRequester11qt_metacastEPKc@Base 4:4.3.4
  _ZN14KFontRequester12fontSelectedERK5QFont@Base 4:4.3.4
@@ -2354,23 +2333,14 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN15KConfigSkeleton8ItemFont11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN15KConfigSkeleton8ItemFontC1ERK7QStringS3_R5QFontRKS4_@Base 4:4.3.4
  _ZN15KConfigSkeleton8ItemFontC2ERK7QStringS3_R5QFontRKS4_@Base 4:4.3.4
- (optional)_ZN15KConfigSkeleton8ItemFontD0Ev@Base 4:4.7.2
- (optional)_ZN15KConfigSkeleton8ItemFontD1Ev@Base 4:4.7.2
- (optional)_ZN15KConfigSkeleton8ItemFontD2Ev@Base 4:4.7.2
  _ZN15KConfigSkeleton9ItemColor10readConfigEP7KConfig@Base 4:4.3.4
  _ZN15KConfigSkeleton9ItemColor11setPropertyERK8QVariant@Base 4:4.3.4
  _ZN15KConfigSkeleton9ItemColorC1ERK7QStringS3_R6QColorRKS4_@Base 4:4.3.4
  _ZN15KConfigSkeleton9ItemColorC2ERK7QStringS3_R6QColorRKS4_@Base 4:4.3.4
- (optional)_ZN15KConfigSkeleton9ItemColorD0Ev@Base 4:4.7.2
- (optional)_ZN15KConfigSkeleton9ItemColorD1Ev@Base 4:4.7.2
- (optional)_ZN15KConfigSkeleton9ItemColorD2Ev@Base 4:4.7.2
  _ZN15KConfigSkeletonC1E10KSharedPtrI13KSharedConfigEP7QObject@Base 4:4.3.4
  _ZN15KConfigSkeletonC1ERK7QStringP7QObject@Base 4:4.3.4
  _ZN15KConfigSkeletonC2E10KSharedPtrI13KSharedConfigEP7QObject@Base 4:4.3.4
  _ZN15KConfigSkeletonC2ERK7QStringP7QObject@Base 4:4.3.4
- (optional)_ZN15KConfigSkeletonD0Ev@Base 4:4.7.2
- (optional)_ZN15KConfigSkeletonD1Ev@Base 4:4.7.2
- (optional)_ZN15KConfigSkeletonD2Ev@Base 4:4.7.2
  _ZN15KDateTimeWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN15KDateTimeWidget11qt_metacastEPKc@Base 4:4.3.4
  _ZN15KDateTimeWidget11setDateTimeERK9QDateTime@Base 4:4.3.4
@@ -2734,9 +2704,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN15KSelectionOwner7Private11xa_multipleE@Base 4:4.3.4
  _ZN15KSelectionOwner7Private12manager_atomE@Base 4:4.3.4
  _ZN15KSelectionOwner7Private12xa_timestampE@Base 4:4.3.4
- (optional)_ZN15KSelectionOwner7PrivateD0Ev@Base 4:4.7.2
- (optional)_ZN15KSelectionOwner7PrivateD1Ev@Base 4:4.7.2
- (optional)_ZN15KSelectionOwner7PrivateD2Ev@Base 4:4.7.2
  _ZN15KSelectionOwner7releaseEv@Base 4:4.3.4
  _ZN15KSelectionOwner7setDataEll@Base 4:4.3.4
  _ZN15KSelectionOwner8getAtomsEv@Base 4:4.3.4
@@ -2969,7 +2936,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN16KCategorizedView7Private30_k_slotCollapseOrExpandClickedE11QModelIndex@Base 4:4.4.0
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN16KCategorizedView7Private5BlockD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN16KCategorizedView7Private5BlockD2Ev@Base 4:4.6.5
- (arch=mips mipsel ppc64el s390)_ZN16KCategorizedView7Private5BlockaSERKS1_@Base 4:4.13.95
  _ZN16KCategorizedView7Private9blockRectERK11QModelIndex@Base 4:4.4.95
  _ZN16KCategorizedView7PrivateC1EPS_@Base 4:4.3.4
  _ZN16KCategorizedView7PrivateC2EPS_@Base 4:4.3.4
@@ -3286,9 +3252,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN17KSelectionWatcher4initEv@Base 4:4.3.4
  _ZN17KSelectionWatcher5ownerEv@Base 4:4.3.4
  _ZN17KSelectionWatcher7Private12manager_atomE@Base 4:4.3.4
- (optional)_ZN17KSelectionWatcher7PrivateD0Ev@Base 4:4.7.2
- (optional)_ZN17KSelectionWatcher7PrivateD1Ev@Base 4:4.7.2
- (optional)_ZN17KSelectionWatcher7PrivateD2Ev@Base 4:4.7.2
  _ZN17KSelectionWatcher8newOwnerEm@Base 4:4.3.4
  _ZN17KSelectionWatcher9lostOwnerEv@Base 4:4.3.4
  _ZN17KSelectionWatcherC1EPKciP7QObject@Base 4:4.3.4
@@ -3480,9 +3443,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN18KNewPasswordDialogD0Ev@Base 4:4.3.4
  _ZN18KNewPasswordDialogD1Ev@Base 4:4.3.4
  _ZN18KNewPasswordDialogD2Ev@Base 4:4.3.4
- (optional)_ZN18KPageDialogPrivateD0Ev@Base 4:4.7.2
- (optional)_ZN18KPageDialogPrivateD1Ev@Base 4:4.7.2
- (optional)_ZN18KPageDialogPrivateD2Ev@Base 4:4.7.2
  _ZN18KRecentFilesAction11loadEntriesERK12KConfigGroup@Base 4:4.3.4
  _ZN18KRecentFilesAction11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN18KRecentFilesAction11qt_metacastEPKc@Base 4:4.3.4
@@ -4086,9 +4046,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN27KPassivePopupMessageHandler7messageEN8KMessage11MessageTypeERK7QStringS4_@Base 4:4.3.4
  _ZN27KPassivePopupMessageHandlerC1EP7QWidget@Base 4:4.3.4
  _ZN27KPassivePopupMessageHandlerC2EP7QWidget@Base 4:4.3.4
- (optional)_ZN27KPassivePopupMessageHandlerD0Ev@Base 4:4.7.2
- (optional)_ZN27KPassivePopupMessageHandlerD1Ev@Base 4:4.7.2
- (optional)_ZN27KPassivePopupMessageHandlerD2Ev@Base 4:4.7.2
  _ZN27KPixmapRegionSelectorDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.95
  _ZN27KPixmapRegionSelectorDialog11qt_metacastEPKc@Base 4:4.4.95
  _ZN27KPixmapRegionSelectorDialog16getSelectedImageERK7QPixmapP7QWidget@Base 4:4.3.4
@@ -4352,35 +4309,11 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6KRulerD0Ev@Base 4:4.3.4
  _ZN6KRulerD1Ev@Base 4:4.3.4
  _ZN6KRulerD2Ev@Base 4:4.3.4
- (optional)_ZN6KStyle10IconOptionD0Ev@Base 4:4.7.2
- (optional)_ZN6KStyle10IconOptionD1Ev@Base 4:4.7.2
- (optional)_ZN6KStyle10IconOptionD2Ev@Base 4:4.7.2
- (optional=templinst)_ZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEED0Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEED1Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEED2Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEED0Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEED1Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEED2Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEED0Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEED1Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEED2Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEED0Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEED1Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEED2Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEED0Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEED1Ev@Base 4:4.6.5
- (optional=templinst)_ZN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEED2Ev@Base 4:4.6.5
  _ZN6KStyle10TextOption4initEv@Base 4:4.3.4
  _ZN6KStyle10TextOptionC1ERK7QString@Base 4:4.3.4
  _ZN6KStyle10TextOptionC1Ev@Base 4:4.3.4
  _ZN6KStyle10TextOptionC2ERK7QString@Base 4:4.3.4
  _ZN6KStyle10TextOptionC2Ev@Base 4:4.3.4
- (optional)_ZN6KStyle10TextOptionD0Ev@Base 4:4.7.2
- (optional)_ZN6KStyle10TextOptionD1Ev@Base 4:4.7.2
- (optional)_ZN6KStyle10TextOptionD2Ev@Base 4:4.7.2
- (optional)_ZN6KStyle11ColorOptionD0Ev@Base 4:4.7.2
- (optional)_ZN6KStyle11ColorOptionD1Ev@Base 4:4.7.2
- (optional)_ZN6KStyle11ColorOptionD2Ev@Base 4:4.7.2
  _ZN6KStyle11eventFilterEP7QObjectP6QEvent@Base 4:4.3.4
  _ZN6KStyle11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6KStyle11qt_metacastEPKc@Base 4:4.3.4
@@ -4394,13 +4327,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZN6KStyle15customStyleHintERK7QStringPK7QWidget@Base 4:4.3.4
  _ZN6KStyle16customSubElementERK7QStringPK7QWidget@Base 4:4.3.4
  _ZN6KStyle16staticMetaObjectE@Base 4:4.3.4
- (optional)_ZN6KStyle17TitleButtonOptionD0Ev@Base 4:4.7.2
- (optional)_ZN6KStyle17TitleButtonOptionD1Ev@Base 4:4.7.2
- (optional)_ZN6KStyle17TitleButtonOptionD2Ev@Base 4:4.7.2
  _ZN6KStyle17newControlElementERK7QString@Base 4:4.3.4
- (optional)_ZN6KStyle18DoubleButtonOptionD0Ev@Base 4:4.7.2
- (optional)_ZN6KStyle18DoubleButtonOptionD1Ev@Base 4:4.7.2
- (optional)_ZN6KStyle18DoubleButtonOptionD2Ev@Base 4:4.7.2
  _ZN6KStyle19setWidgetLayoutPropENS_10WidgetTypeEii@Base 4:4.3.4
  _ZN6KStyle20customControlElementERK7QStringPK7QWidget@Base 4:4.3.4
  _ZN6KStyle6polishEP12QApplication@Base 4:4.3.4
@@ -5582,7 +5509,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZNK12KColorScheme10decorationENS_14DecorationRoleE@Base 4:4.3.4
  _ZNK12KColorScheme10foregroundENS_14ForegroundRoleE@Base 4:4.3.4
  _ZNK12KColorScheme5shadeENS_9ShadeRoleE@Base 4:4.3.4
- (optional=templinst|arch=ppc64el)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.13.95
+ (optional=templinst|arch=ppc64el)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.14.11
  (optional=templinst|arch=hurd-i386)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.6.2
  (optional=templinst|arch=hurd-i386)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.6.2
  (optional=templinst|arch=hurd-i386)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.6.2
@@ -7143,7 +7070,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTV15KFontSizeAction@Base 4:4.3.4
  _ZTV15KGlobalSettings@Base 4:4.3.4
  _ZTV15KLanguageButton@Base 4:4.3.4
- (optional)_ZTV15KMessageHandler@Base 4:4.3.4
  _ZTV15KMultiTabBarTab@Base 4:4.3.4
  _ZTV15KPageWidgetItem@Base 4:4.3.4
  _ZTV15KPasswordDialog@Base 4:4.3.4
@@ -7259,16 +7185,10 @@ libkdeui.so.5 libkdeui5 #MINVER#
  _ZTVN25KAbstractWidgetJobTracker7PrivateE@Base 4:4.3.4
  _ZTVN5KMenu12KMenuPrivateE@Base 4:4.5.85
  _ZTVN6KStyle10IconOptionE@Base 4:4.3.4
- (optional)_ZTVN6KStyle10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4:4.3.4
- (optional)_ZTVN6KStyle10OptionBaseINS_10TextOptionENS_11ColorOptionEEE@Base 4:4.3.4
- (optional)_ZTVN6KStyle10OptionBaseINS_11ColorOptionENS_6OptionEEE@Base 4:4.3.4
- (optional)_ZTVN6KStyle10OptionBaseINS_17TitleButtonOptionENS_6OptionEEE@Base 4:4.3.4
- (optional)_ZTVN6KStyle10OptionBaseINS_18DoubleButtonOptionENS_6OptionEEE@Base 4:4.3.4
  _ZTVN6KStyle10TextOptionE@Base 4:4.3.4
  _ZTVN6KStyle11ColorOptionE@Base 4:4.3.4
  _ZTVN6KStyle17TitleButtonOptionE@Base 4:4.3.4
  _ZTVN6KStyle18DoubleButtonOptionE@Base 4:4.3.4
- (optional)_ZTVN6KStyle6OptionE@Base 4:4.3.4
  _ZTVN6Sonnet11HighlighterE@Base 4:4.3.4
  _ZTVN6Sonnet12ConfigDialogE@Base 4:4.3.4
  _ZTVN6Sonnet12ConfigWidgetE@Base 4:4.3.4
@@ -7359,7 +7279,6 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (c++)"non-virtual thunk to KPageWidget::~KPageWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KPassivePopup::~KPassivePopup()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KPassivePopupMessageHandler::message(KMessage::MessageType, QString const&, QString const&)@Base" 4:4.3.4
- (optional|c++)"non-virtual thunk to KPassivePopupMessageHandler::~KPassivePopupMessageHandler()@Base" 4:4.7.2
  (c++)"non-virtual thunk to KPasswordDialog::~KPasswordDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KPixmapRegionSelectorDialog::~KPixmapRegionSelectorDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KPixmapRegionSelectorWidget::~KPixmapRegionSelectorWidget()@Base" 4:4.3.4
@@ -7374,10 +7293,7 @@ libkdeui.so.5 libkdeui5 #MINVER#
  (c++)"non-virtual thunk to KRichTextEdit::~KRichTextEdit()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KRichTextWidget::~KRichTextWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KRuler::~KRuler()@Base" 4:4.3.4
- (optional|c++)"non-virtual thunk to KSelectionOwner::Private::~Private()@Base" 4:4.7.2
- (optional|c++)"non-virtual thunk to KSelectionWatcher::Private::~Private()@Base" 4:4.7.2
  (c++)"non-virtual thunk to KSelector::~KSelector()@Base" 4:4.3.4
- (optional|c++)"non-virtual thunk to KSeparator::~KSeparator()@Base" 4:4.7.2
  (c++)"non-virtual thunk to KShortcutWidget::~KShortcutWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KShortcutsDialog::~KShortcutsDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KShortcutsEditor::~KShortcutsEditor()@Base" 4:4.3.4
