@@ -2,11 +2,11 @@ Description: Ensure KDE applications are checking langpack paths for l10n
 Author: Jonathan Riddell <jriddell@ubuntu.com>
 Forwarded: not-needed
 
-Index: kde4libs-4.13.0/kdecore/kernel/kstandarddirs.cpp
+Index: kdelibs-4.14.11/kdecore/kernel/kstandarddirs.cpp
 ===================================================================
---- kde4libs-4.13.0.orig/kdecore/kernel/kstandarddirs.cpp	2014-05-20 13:22:57.000000000 +0100
-+++ kde4libs-4.13.0/kdecore/kernel/kstandarddirs.cpp	2014-05-20 13:24:33.099360291 +0100
-@@ -1875,6 +1875,9 @@
+--- kdelibs-4.14.11.orig/kdecore/kernel/kstandarddirs.cpp
++++ kdelibs-4.14.11/kdecore/kernel/kstandarddirs.cpp
+@@ -1871,6 +1871,9 @@ void KStandardDirs::addKDEDefaults()
  
      addResourceDir("home", QDir::homePath(), false);
  

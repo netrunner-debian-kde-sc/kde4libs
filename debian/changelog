@@ -1,14 +1,13 @@
-kde4libs (4:4.14.10-0ubuntu1) UNRELEASED; urgency=medium
+kde4libs (4:4.14.11-0ubuntu1) wily; urgency=medium
 
   [ José Manuel Santamaría Lema ]
-  * New upstream release.
   * Update symbols files: mark as optional the symbols gone after building with
     GCC 5.
 
-  [ Scarlett Clark ]
-  * New upstream release.
+  [ Jonathan Riddell ]
+  * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 07:10:44 -0700
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 25 Aug 2015 10:04:36 +0100
 
 kde4libs (4:4.14.7-4~ubuntu1) UNRELEASED; urgency=medium
 

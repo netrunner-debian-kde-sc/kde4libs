@@ -20,11 +20,11 @@ Please that either DEFAULT_DLRESTRICTIONS variable or DLRESTRICITIONS target
 property must have set beforehand. Otherwise, this snippet will have no effect
 on all (or some) the targets.
 
-Index: kde4libs/cmake/modules/KDE4Macros.cmake
+Index: kdelibs-4.14.11/cmake/modules/KDE4Macros.cmake
 ===================================================================
---- kde4libs.orig/cmake/modules/KDE4Macros.cmake	2013-09-04 11:36:45.423728340 +0000
-+++ kde4libs/cmake/modules/KDE4Macros.cmake	2013-09-04 11:36:45.391729611 +0000
-@@ -1054,10 +1054,14 @@
+--- kdelibs-4.14.11.orig/cmake/modules/KDE4Macros.cmake
++++ kdelibs-4.14.11/cmake/modules/KDE4Macros.cmake
+@@ -1061,10 +1061,14 @@ macro (KDE4_ADD_LIBRARY _target_NAME _li
     if (${_lib_TYPE} STREQUAL "SHARED")
        set(_first_SRC)
        set(_add_lib_param SHARED)
@@ -39,7 +39,7 @@ Index: kde4libs/cmake/modules/KDE4Macros.cmake
     endif (${_lib_TYPE} STREQUAL "MODULE")
  
     set(_SRCS ${_first_SRC} ${ARGN})
-@@ -1368,6 +1372,13 @@
+@@ -1376,6 +1380,13 @@ function(KDE4_INSTALL_AUTH_ACTIONS HELPE
  
  endfunction(KDE4_INSTALL_AUTH_ACTIONS)
  
@@ -53,13 +53,13 @@ Index: kde4libs/cmake/modules/KDE4Macros.cmake
  
  macro(_KDE4_EXPORT_LIBRARY_DEPENDENCIES _append_or_write _filename)
     message(FATAL_ERROR "_KDE4_EXPORT_LIBRARY_DEPENDENCIES() was an internal macro and has been removed again. Just remove the code which calls it, there is no substitute.")
-Index: kde4libs/kdecore/CMakeLists.txt
+Index: kdelibs-4.14.11/kdecore/CMakeLists.txt
 ===================================================================
---- kde4libs.orig/kdecore/CMakeLists.txt	2013-09-04 11:36:45.423728340 +0000
-+++ kde4libs/kdecore/CMakeLists.txt	2013-09-04 11:36:45.395729452 +0000
-@@ -413,6 +413,14 @@
+--- kdelibs-4.14.11.orig/kdecore/CMakeLists.txt
++++ kdelibs-4.14.11/kdecore/CMakeLists.txt
+@@ -412,6 +412,14 @@ kde4_add_library(kdecore ${LIBRARY_TYPE}
  
- target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
+ target_link_libraries(kdecore LINK_PRIVATE ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
  
 +# Enable DLRestrictions library checking for Debian only
 +if (CMAKE_BUILD_TYPE STREQUAL "Debian")
@@ -70,12 +70,12 @@ Index: kde4libs/kdecore/CMakeLists.txt
 +endif (CMAKE_BUILD_TYPE STREQUAL "Debian")
 +
  if(WINCE)
-   target_link_libraries(kdecore ${WCECOMPAT_LIBRARIES} Ceshell.lib)
+   target_link_libraries(kdecore LINK_PRIVATE ${WCECOMPAT_LIBRARIES} Ceshell.lib)
  endif(WINCE)
-Index: kde4libs/kdecore/util/kpluginloader.cpp
+Index: kdelibs-4.14.11/kdecore/util/kpluginloader.cpp
 ===================================================================
---- kde4libs.orig/kdecore/util/kpluginloader.cpp	2013-09-04 11:36:45.423728340 +0000
-+++ kde4libs/kdecore/util/kpluginloader.cpp	2013-09-04 11:36:45.419728499 +0000
+--- kdelibs-4.14.11.orig/kdecore/util/kpluginloader.cpp
++++ kdelibs-4.14.11/kdecore/util/kpluginloader.cpp
 @@ -31,6 +31,14 @@
  #include <QtCore/QDir>
  #include <QtCore/QFileInfo>
@@ -91,7 +91,7 @@ Index: kde4libs/kdecore/util/kpluginloader.cpp
  extern int kLibraryDebugArea();
  
  class KPluginLoaderPrivate
-@@ -259,6 +267,30 @@
+@@ -259,6 +267,30 @@ bool KPluginLoader::load()
      else
          d->pluginVersion = ~0U;
  

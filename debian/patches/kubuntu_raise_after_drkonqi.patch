@@ -1,8 +1,8 @@
-Index: kde4libs-4.11.2/kdeui/util/kcrash.cpp
+Index: kdelibs-4.14.11/kdeui/util/kcrash.cpp
 ===================================================================
---- kde4libs-4.11.2.orig/kdeui/util/kcrash.cpp	2013-12-09 08:13:48.383067946 +0100
-+++ kde4libs-4.11.2/kdeui/util/kcrash.cpp	2013-12-10 13:44:24.257149445 +0100
-@@ -223,6 +223,39 @@
+--- kdelibs-4.14.11.orig/kdeui/util/kcrash.cpp
++++ kdelibs-4.14.11/kdeui/util/kcrash.cpp
+@@ -223,6 +223,39 @@ bool KCrash::isDrKonqiEnabled()
      return s_launchDrKonqi;
  }
  
@@ -42,7 +42,7 @@ Index: kde4libs-4.11.2/kdeui/util/kcrash.cpp
  void
  KCrash::setCrashHandler (HandlerType handler)
  {
-@@ -440,6 +473,7 @@
+@@ -446,6 +479,7 @@ KCrash::defaultCrashHandler (int sig)
        fprintf(stderr, "Unable to start Dr. Konqi\n");
      }
  
@@ -50,7 +50,7 @@ Index: kde4libs-4.11.2/kdeui/util/kcrash.cpp
      _exit(255);
  }
  
-@@ -558,7 +592,8 @@
+@@ -567,7 +601,8 @@ static bool startProcessInternal(int arg
                  sleep(1);
              }
          }
