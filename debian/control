@@ -8,7 +8,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
-           Diane Trout <diane@debian.org>,
+           Diane Trout <diane@debian.org>
 Build-Depends: aspell,
                automoc (>= 1.0~version-0.9.88),
                bison,
@@ -54,13 +54,11 @@ Build-Depends: aspell,
                libxslt1-dev,
                libxss-dev,
                pkg-kde-tools (>= 0.14),
-               shared-mime-info (>= 0.60),
                shared-desktop-ontologies (>= 0.11),
+               shared-mime-info (>= 0.60),
                zlib1g-dev
-#               libopenexr-dev,
 Build-Conflicts: libqtwebkit-dev (<< 2.2.1)
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kde4libs.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kde4libs.git
