@@ -1,3 +1,3 @@
 version=3
-http://download.kde.org/stable/applications/([\d.]+)/src/kde4libs-([\d.]+).tar.xz
-http://download.kde.org/unstable/applications/([\d.]+)/src/kde4libs-([\d.]+).tar.xz
+http://download.kde.org/stable/applications/([\d.]+)/src/kdelibs-([\d.]+).tar.xz
+http://download.kde.org/unstable/applications/([\d.]+)/src/kdelibs-([\d.]+).tar.xz
