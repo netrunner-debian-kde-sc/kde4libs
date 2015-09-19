@@ -22,9 +22,9 @@ on all (or some) the targets.
 
 Index: kde4libs/cmake/modules/KDE4Macros.cmake
 ===================================================================
---- kde4libs.orig/cmake/modules/KDE4Macros.cmake	2013-09-04 11:36:45.423728340 +0000
-+++ kde4libs/cmake/modules/KDE4Macros.cmake	2013-09-04 11:36:45.391729611 +0000
-@@ -1054,10 +1054,14 @@
+--- kde4libs.orig/cmake/modules/KDE4Macros.cmake	2015-09-19 02:00:46.024140148 +0200
++++ kde4libs/cmake/modules/KDE4Macros.cmake	2015-09-19 02:00:46.008140794 +0200
+@@ -1061,10 +1061,14 @@
     if (${_lib_TYPE} STREQUAL "SHARED")
        set(_first_SRC)
        set(_add_lib_param SHARED)
@@ -39,7 +39,7 @@ Index: kde4libs/cmake/modules/KDE4Macros.cmake
     endif (${_lib_TYPE} STREQUAL "MODULE")
  
     set(_SRCS ${_first_SRC} ${ARGN})
-@@ -1368,6 +1372,13 @@
+@@ -1376,6 +1380,13 @@
  
  endfunction(KDE4_INSTALL_AUTH_ACTIONS)
  
@@ -55,11 +55,11 @@ Index: kde4libs/cmake/modules/KDE4Macros.cmake
     message(FATAL_ERROR "_KDE4_EXPORT_LIBRARY_DEPENDENCIES() was an internal macro and has been removed again. Just remove the code which calls it, there is no substitute.")
 Index: kde4libs/kdecore/CMakeLists.txt
 ===================================================================
---- kde4libs.orig/kdecore/CMakeLists.txt	2013-09-04 11:36:45.423728340 +0000
-+++ kde4libs/kdecore/CMakeLists.txt	2013-09-04 11:36:45.395729452 +0000
-@@ -413,6 +413,14 @@
+--- kde4libs.orig/kdecore/CMakeLists.txt	2015-09-19 02:00:46.024140148 +0200
++++ kde4libs/kdecore/CMakeLists.txt	2015-09-19 02:00:46.020140310 +0200
+@@ -412,6 +412,14 @@
  
- target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
+ target_link_libraries(kdecore LINK_PRIVATE ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
  
 +# Enable DLRestrictions library checking for Debian only
 +if (CMAKE_BUILD_TYPE STREQUAL "Debian")
@@ -70,12 +70,12 @@ Index: kde4libs/kdecore/CMakeLists.txt
 +endif (CMAKE_BUILD_TYPE STREQUAL "Debian")
 +
  if(WINCE)
-   target_link_libraries(kdecore ${WCECOMPAT_LIBRARIES} Ceshell.lib)
+   target_link_libraries(kdecore LINK_PRIVATE ${WCECOMPAT_LIBRARIES} Ceshell.lib)
  endif(WINCE)
 Index: kde4libs/kdecore/util/kpluginloader.cpp
 ===================================================================
---- kde4libs.orig/kdecore/util/kpluginloader.cpp	2013-09-04 11:36:45.423728340 +0000
-+++ kde4libs/kdecore/util/kpluginloader.cpp	2013-09-04 11:36:45.419728499 +0000
+--- kde4libs.orig/kdecore/util/kpluginloader.cpp	2015-09-19 02:00:46.024140148 +0200
++++ kde4libs/kdecore/util/kpluginloader.cpp	2015-09-19 02:00:46.020140310 +0200
 @@ -31,6 +31,14 @@
  #include <QtCore/QDir>
  #include <QtCore/QFileInfo>

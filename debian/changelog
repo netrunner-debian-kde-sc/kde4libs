@@ -7,6 +7,7 @@ kde4libs (4:4.14.12-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release (4.14.11).
   * New upstream release (4.14.12).
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 19:59:59 +0200
 

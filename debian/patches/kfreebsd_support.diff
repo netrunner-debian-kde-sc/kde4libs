@@ -5,8 +5,8 @@ cmake.
 
 Index: kde4libs/ConfigureChecks.cmake
 ===================================================================
---- kde4libs.orig/ConfigureChecks.cmake	2015-02-16 10:21:42.510053130 +0100
-+++ kde4libs/ConfigureChecks.cmake	2015-02-16 10:21:42.506053290 +0100
+--- kde4libs.orig/ConfigureChecks.cmake	2015-09-19 02:00:23.881033787 +0200
++++ kde4libs/ConfigureChecks.cmake	2015-09-19 02:00:23.845035240 +0200
 @@ -138,11 +138,11 @@
          set(UTIL_LIBRARY util)
        endif (login_in_libutil)
@@ -24,8 +24,8 @@ Index: kde4libs/ConfigureChecks.cmake
        if (login_in_libutil)
 Index: kde4libs/kio/kfile/kpropertiesdialog.cpp
 ===================================================================
---- kde4libs.orig/kio/kfile/kpropertiesdialog.cpp	2015-02-16 10:21:42.510053130 +0100
-+++ kde4libs/kio/kfile/kpropertiesdialog.cpp	2015-02-16 10:21:42.506053290 +0100
+--- kde4libs.orig/kio/kfile/kpropertiesdialog.cpp	2015-09-19 02:00:23.881033787 +0200
++++ kde4libs/kio/kfile/kpropertiesdialog.cpp	2015-09-19 02:00:23.857034756 +0200
 @@ -1894,7 +1894,15 @@
      fileSystemSupportsACLs = ( statfs( path.data(), &buf ) == 0 ) && ( buf.f_flags & MNT_ACLS );
  #else
@@ -45,8 +45,8 @@ Index: kde4libs/kio/kfile/kpropertiesdialog.cpp
  }
 Index: kde4libs/kioslave/file/file.cpp
 ===================================================================
---- kde4libs.orig/kioslave/file/file.cpp	2015-02-16 10:21:42.510053130 +0100
-+++ kde4libs/kioslave/file/file.cpp	2015-02-16 10:21:42.506053290 +0100
+--- kde4libs.orig/kioslave/file/file.cpp	2015-09-19 02:00:23.881033787 +0200
++++ kde4libs/kioslave/file/file.cpp	2015-09-19 02:00:23.865034432 +0200
 @@ -310,8 +310,10 @@
      }
  
@@ -60,8 +60,8 @@ Index: kde4libs/kioslave/file/file.cpp
      // This is mandatory in all slaves (for KRun/BrowserRun to work)
 Index: kde4libs/kioslave/file/file_unix.cpp
 ===================================================================
---- kde4libs.orig/kioslave/file/file_unix.cpp	2015-02-16 10:21:42.510053130 +0100
-+++ kde4libs/kioslave/file/file_unix.cpp	2015-02-16 10:21:42.510053130 +0100
+--- kde4libs.orig/kioslave/file/file_unix.cpp	2015-09-19 02:00:23.881033787 +0200
++++ kde4libs/kioslave/file/file_unix.cpp	2015-09-19 02:00:23.869034272 +0200
 @@ -145,8 +145,10 @@
      }
  
@@ -86,8 +86,8 @@ Index: kde4libs/kioslave/file/file_unix.cpp
      acl = acl_get_fd(src_fd);
 Index: kde4libs/kpty/kpty.cpp
 ===================================================================
---- kde4libs.orig/kpty/kpty.cpp	2015-02-16 10:21:42.510053130 +0100
-+++ kde4libs/kpty/kpty.cpp	2015-02-16 10:21:42.510053130 +0100
+--- kde4libs.orig/kpty/kpty.cpp	2015-09-19 02:00:23.881033787 +0200
++++ kde4libs/kpty/kpty.cpp	2015-09-19 02:00:23.881033787 +0200
 @@ -109,24 +109,24 @@
  # define _NEW_TTY_CTRL
  #endif
@@ -127,9 +127,9 @@ Index: kde4libs/kpty/kpty.cpp
  #include <kdebug.h>
 Index: kde4libs/cmake/modules/FindKDE4Internal.cmake
 ===================================================================
---- kde4libs.orig/cmake/modules/FindKDE4Internal.cmake	2015-02-16 10:21:42.510053130 +0100
-+++ kde4libs/cmake/modules/FindKDE4Internal.cmake	2015-02-16 10:22:49.575368116 +0100
-@@ -1098,7 +1098,7 @@
+--- kde4libs.orig/cmake/modules/FindKDE4Internal.cmake	2015-09-19 02:00:23.881033787 +0200
++++ kde4libs/cmake/modules/FindKDE4Internal.cmake	2015-09-19 02:00:23.881033787 +0200
+@@ -1065,7 +1065,7 @@
  endif (APPLE)
  
  
@@ -138,7 +138,7 @@ Index: kde4libs/cmake/modules/FindKDE4Internal.cmake
     if (CMAKE_COMPILER_IS_GNUCXX OR "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
        set ( _KDE4_PLATFORM_DEFINITIONS -D_XOPEN_SOURCE=500 -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_GNU_SOURCE)
        set ( CMAKE_SHARED_LINKER_FLAGS "-Wl,--fatal-warnings -Wl,--no-undefined -lc ${CMAKE_SHARED_LINKER_FLAGS}")
-@@ -1119,7 +1119,7 @@
+@@ -1086,7 +1086,7 @@
        set ( CMAKE_SHARED_LINKER_FLAGS "-Wl,--fatal-warnings -Wl,--no-undefined -lc ${CMAKE_SHARED_LINKER_FLAGS}")
        set ( CMAKE_MODULE_LINKER_FLAGS "-Wl,--fatal-warnings -Wl,--no-undefined -lc ${CMAKE_MODULE_LINKER_FLAGS}")
     endif (CMAKE_C_COMPILER MATCHES "icc")
@@ -147,7 +147,7 @@ Index: kde4libs/cmake/modules/FindKDE4Internal.cmake
  
  if (UNIX)
     set ( _KDE4_PLATFORM_DEFINITIONS "${_KDE4_PLATFORM_DEFINITIONS} -D_LARGEFILE64_SOURCE")
-@@ -1216,13 +1216,13 @@
+@@ -1183,13 +1183,13 @@
     # As of Qt 4.6.x we need to override the new exception macros if we want compile with -fno-exceptions
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wnon-virtual-dtor -Wno-long-long -Wundef -Wcast-align -Wchar-subscripts -Wall -W -Wpointer-arith -Wformat-security -fno-exceptions -DQT_NO_EXCEPTIONS -fno-check-new -fno-common")
  
