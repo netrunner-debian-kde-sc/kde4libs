@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.10 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 4:4.14.12 alpha amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
 libkcmutils.so.4 libkcmutils4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN12KCModuleInfo7Private7loadAllEv@Base 4:4.4.95
@@ -149,9 +149,6 @@ libkcmutils.so.4 libkcmutils4 #MINVER#
  _ZN17KCModuleContainerD0Ev@Base 4:4.4.95
  _ZN17KCModuleContainerD1Ev@Base 4:4.4.95
  _ZN17KCModuleContainerD2Ev@Base 4:4.4.95
- (optional=gccinternal)_ZN18KPageDialogPrivateD0Ev@Base 4:4.7.4
- (optional=gccinternal)_ZN18KPageDialogPrivateD1Ev@Base 4:4.7.4
- (optional=gccinternal)_ZN18KPageDialogPrivateD2Ev@Base 4:4.7.4
  _ZN9KSettings10Dispatcher14componentNamesEv@Base 4:4.4.95
  _ZN9KSettings10Dispatcher17registerComponentERK14KComponentDataP7QObjectPKc@Base 4:4.4.95
  _ZN9KSettings10Dispatcher17syncConfigurationEv@Base 4:4.4.95
@@ -280,7 +277,6 @@ libkcmutils.so.4 libkcmutils4 #MINVER#
  _ZTV13KCMultiDialog@Base 4:4.4.95
  _ZTV15KPluginSelector@Base 4:4.4.95
  _ZTV17KCModuleContainer@Base 4:4.4.95
- (optional=gccinternal)_ZTV18KPageDialogPrivate@Base 4:4.4.95
  _ZTVN15KPluginSelector7Private10ProxyModelE@Base 4:4.4.95
  _ZTVN15KPluginSelector7Private11PluginModelE@Base 4:4.4.95
  _ZTVN15KPluginSelector7Private14PluginDelegateE@Base 4:4.4.95

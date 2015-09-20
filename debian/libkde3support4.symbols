@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.10 amd64 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 4:4.14.12 amd64
 libkde3support.so.4 libkde3support4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10K3DockArea11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -438,9 +438,6 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZN13K3AboutDialogC1EiRK7QStringP7QWidget@Base 4:4.3.4
  _ZN13K3AboutDialogC2EP7QWidget@Base 4:4.3.4
  _ZN13K3AboutDialogC2EiRK7QStringP7QWidget@Base 4:4.3.4
- (optional=gccinternal|arch=amd64)_ZN13K3AboutDialogD0Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN13K3AboutDialogD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN13K3AboutDialogD2Ev@Base 4:4.7.2
  _ZN13K3AboutWidget10setVersionERK7QString@Base 4:4.3.4
  _ZN13K3AboutWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN13K3AboutWidget11qt_metacastEPKc@Base 4:4.3.4
@@ -453,9 +450,6 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZN13K3AboutWidget9setAuthorERK7QStringS2_S2_S2_@Base 4:4.3.4
  _ZN13K3AboutWidgetC1EP7QWidget@Base 4:4.3.4
  _ZN13K3AboutWidgetC2EP7QWidget@Base 4:4.3.4
- (optional=gccinternal|arch=amd64)_ZN13K3AboutWidgetD0Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN13K3AboutWidgetD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN13K3AboutWidgetD2Ev@Base 4:4.7.2
  _ZN13K3ActiveLabel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN13K3ActiveLabel11qt_metacastEPKc@Base 4:4.3.4
  _ZN13K3ActiveLabel12focusInEventEP11QFocusEvent@Base 4:4.3.4
@@ -706,9 +700,6 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZN14K3MultipleDrag16staticMetaObjectE@Base 4:4.3.4
  _ZN14K3MultipleDragC1EP7QWidgetPKc@Base 4:4.3.4
  _ZN14K3MultipleDragC2EP7QWidgetPKc@Base 4:4.3.4
- (optional=gccinternal|arch=amd64)_ZN14K3MultipleDragD0Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN14K3MultipleDragD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN14K3MultipleDragD2Ev@Base 4:4.7.2
  _ZN14K3NamedCommand12virtual_hookEiPv@Base 4:4.3.4
  _ZN14K3NamedCommand7setNameERK7QString@Base 4:4.3.4
  _ZN14K3NamedCommandC1ERK7QString@Base 4:4.3.4
@@ -801,9 +792,6 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZN15KFileTreeBranch8populateERK4KUrlP18K3FileTreeViewItem@Base 4:4.3.4
  _ZN15KFileTreeBranchC1EP14K3FileTreeViewRK4KUrlRK7QStringRK7QPixmapbP18K3FileTreeViewItem@Base 4:4.3.4
  _ZN15KFileTreeBranchC2EP14K3FileTreeViewRK4KUrlRK7QStringRK7QPixmapbP18K3FileTreeViewItem@Base 4:4.3.4
- (optional=gccinternal|arch=amd64)_ZN15KFileTreeBranchD0Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN15KFileTreeBranchD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN15KFileTreeBranchD2Ev@Base 4:4.7.2
  _ZN16K3AboutContainer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN16K3AboutContainer11qt_metacastEPKc@Base 4:4.3.4
  _ZN16K3AboutContainer16staticMetaObjectE@Base 4:4.3.4
@@ -891,9 +879,6 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZN16K3PasswordDialogD2Ev@Base 4:4.3.4
  _ZN18K3AboutApplicationC1EPK10KAboutDataP7QWidgetb@Base 4:4.3.4
  _ZN18K3AboutApplicationC2EPK10KAboutDataP7QWidgetb@Base 4:4.3.4
- (optional=gccinternal|arch=amd64)_ZN18K3AboutApplicationD0Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN18K3AboutApplicationD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN18K3AboutApplicationD2Ev@Base 4:4.7.2
  _ZN18K3AboutContributor10fontChangeERK5QFont@Base 4:4.3.4
  _ZN18K3AboutContributor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN18K3AboutContributor11qt_metacastEPKc@Base 4:4.3.4
@@ -950,9 +935,6 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZN18K3FileViewSignaler7droppedERK9KFileItemP10QDropEventRKN4KUrl4ListE@Base 4:4.3.4
  _ZN18K3FileViewSignaler8activateERK9KFileItem@Base 4:4.3.4
  _ZN18K3FileViewSignaler8dropURLsERK9KFileItemP10QDropEventRKN4KUrl4ListE@Base 4:4.3.4
- (optional=gccinternal|arch=amd64)_ZN18K3FileViewSignalerD0Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN18K3FileViewSignalerD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN18K3FileViewSignalerD2Ev@Base 4:4.7.2
  _ZN19K3MimeSourceFactory12virtual_hookEiPv@Base 4:4.3.4
  _ZN19K3MimeSourceFactory7installEv@Base 4:4.3.4
  _ZN19K3MimeSourceFactoryC1EP11KIconLoader@Base 4:4.3.4
@@ -1262,9 +1244,6 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZN9K3ListBox8executedEP13Q3ListBoxItemRK6QPoint@Base 4:4.3.4
  _ZN9K3ListBoxC1EP7QWidgetPKc6QFlagsIN2Qt10WindowTypeEE@Base 4:4.3.4
  _ZN9K3ListBoxC2EP7QWidgetPKc6QFlagsIN2Qt10WindowTypeEE@Base 4:4.3.4
- (optional=gccinternal|arch=amd64)_ZN9K3ListBoxD0Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN9K3ListBoxD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN9K3ListBoxD2Ev@Base 4:4.7.2
  _ZN9K3Process10childErrorEi@Base 4:4.3.4
  _ZN9K3Process10closeStdinEv@Base 4:4.3.4
  _ZN9K3Process10writeStdinEPKci@Base 4:4.3.4
@@ -1759,11 +1738,8 @@ libkde3support.so.4 libkde3support4 #MINVER#
  _ZTV9K3Process@Base 4:4.3.4
  _ZTV9K3URLDrag@Base 4:4.3.4
  _ZTVN6KParts15DockMainWindow3E@Base 4:4.3.4
- (optional=gccinternal|c++|arch=amd64)"non-virtual thunk to K3AboutApplication::~K3AboutApplication()@Base" 4:4.7.2
  (c++)"non-virtual thunk to K3AboutContainer::~K3AboutContainer()@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3AboutContributor::~K3AboutContributor()@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=amd64)"non-virtual thunk to K3AboutDialog::~K3AboutDialog()@Base" 4:4.7.2
- (optional=gccinternal|c++|arch=amd64)"non-virtual thunk to K3AboutWidget::~K3AboutWidget()@Base" 4:4.7.2
  (c++)"non-virtual thunk to K3ActiveLabel::~K3ActiveLabel()@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3BookmarkDrag::encodedData(char const*) const@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3BookmarkDrag::format(int) const@Base" 4:4.3.4
@@ -1784,13 +1760,11 @@ libkde3support.so.4 libkde3support4 #MINVER#
  (c++)"non-virtual thunk to K3FileTreeView::~K3FileTreeView()@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3IconView::~K3IconView()@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3IconViewSearchLine::~K3IconViewSearchLine()@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=amd64)"non-virtual thunk to K3ListBox::~K3ListBox()@Base" 4:4.7.2
  (c++)"non-virtual thunk to K3ListView::~K3ListView()@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3ListViewSearchLine::~K3ListViewSearchLine()@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3ListViewSearchLineWidget::~K3ListViewSearchLineWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3MultipleDrag::encodedData(char const*) const@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3MultipleDrag::format(int) const@Base" 4:4.3.4
- (optional=gccinternal|c++|arch=amd64)"non-virtual thunk to K3MultipleDrag::~K3MultipleDrag()@Base" 4:4.7.2
  (c++)"non-virtual thunk to K3PanelApplet::~K3PanelApplet()@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3PanelMenu::~K3PanelMenu()@Base" 4:4.3.4
  (c++)"non-virtual thunk to K3PasswordDialog::~K3PasswordDialog()@Base" 4:4.3.4
@@ -1839,9 +1813,6 @@ libkunittest.so.4 libkde3support4 #MINVER#
  _ZN9KUnitTest6Runner8runTestsEv@Base 4:4.3.4
  _ZN9KUnitTest6RunnerC1Ev@Base 4:4.3.4
  _ZN9KUnitTest6RunnerC2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=amd64)_ZN9KUnitTest6RunnerD0Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN9KUnitTest6RunnerD1Ev@Base 4:4.7.2
- (optional=gccinternal|arch=amd64)_ZN9KUnitTest6RunnerD2Ev@Base 4:4.7.2
  _ZNK9KUnitTest10SlotTester10metaObjectEv@Base 4:4.3.4
  _ZNK9KUnitTest6Runner10metaObjectEv@Base 4:4.3.4
  _ZNK9KUnitTest6Runner13numberOfTestsEv@Base 4:4.3.4
