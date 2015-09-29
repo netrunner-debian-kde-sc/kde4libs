@@ -563,6 +563,7 @@ Depends: automoc (>= 1.0~version-0.9.88),
          ${perl:Depends},
          ${sameVersionDep:libphonon-dev:libkhtml5},
          ${sameVersionDep:libqt4-dev:kdelibs5-plugins},
+         ${sameVersionDep:libsoprano-dev:libnepomuk4},
          ${shlibs:Depends}
 Recommends: ${sameVersionDep:libqt4-opengl-dev:libplasma3-Depends}
 Replaces: libplasma-dev (<< 4:4.1.96)
