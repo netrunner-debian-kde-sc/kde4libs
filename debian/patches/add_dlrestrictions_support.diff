@@ -2,7 +2,7 @@ From: Modestas Vainius <modax@debian.org>
 Subject: Add DLRestrictions support
 Forwarded: not-needed
 Origin: vendor
-Last-Update: 2013-09-04
+Last-Update: 2015-10-02
 
 The patch adds DLRestrictions compatibility checks to the KPluginLoader::load()
 function. Moreover, a new helper CMake macro is introduced to ease addition of
@@ -59,7 +59,7 @@ Index: kde4libs/kdecore/CMakeLists.txt
 +++ kde4libs/kdecore/CMakeLists.txt	2013-09-04 11:36:45.395729452 +0000
 @@ -413,6 +413,14 @@
  
- target_link_libraries(kdecore ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
+ target_link_libraries(kdecore LINK_PRIVATE ${QT_QTCORE_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTXML_LIBRARY} ${ZLIB_LIBRARY} ${kdecore_OPTIONAL_LIBS})
  
 +# Enable DLRestrictions library checking for Debian only
 +if (CMAKE_BUILD_TYPE STREQUAL "Debian")
