@@ -5,6 +5,7 @@ kde4libs (4:4.14.12-0~ubuntu1) UNRELEASED; urgency=medium
     in code that caused fuzz. 
   * Fix a inadvertant removal of - in above file. 
   * Something for add_dlrestrictions_support.diff 
+  * Fix more changes in add_dlrestrictions_support.diff 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 02 Oct 2015 06:07:41 -0700
 

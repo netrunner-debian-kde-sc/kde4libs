@@ -70,7 +70,7 @@ Index: kde4libs/kdecore/CMakeLists.txt
 +endif (CMAKE_BUILD_TYPE STREQUAL "Debian")
 +
  if(WINCE)
-   target_link_libraries(kdecore ${WCECOMPAT_LIBRARIES} Ceshell.lib)
+   target_link_libraries(kdecore LINK_PRIVATE ${WCECOMPAT_LIBRARIES} Ceshell.lib)
  endif(WINCE)
 Index: kde4libs/kdecore/util/kpluginloader.cpp
 ===================================================================
