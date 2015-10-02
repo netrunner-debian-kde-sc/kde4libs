@@ -2,6 +2,7 @@ From: Modestas Vainius <modax@debian.org>
 Subject: Exclude QtUiTools symbols from public libraries
  Currently, libplasma and libkjsembed are affected.
 Forwarded: not-needed
+Last-Update: 2015-10-02
 
 Index: kde4libs/plasma/CMakeLists.txt
 ===================================================================
@@ -15,7 +16,7 @@ Index: kde4libs/plasma/CMakeLists.txt
 +set_target_properties(plasma PROPERTIES LINK_FLAGS_DEBIAN "-Wl,--exclude-libs -Wl,libQtUiTools.a")
 +
  if(QCA2_FOUND)
-    target_link_libraries(plasma ${QCA2_LIBRARIES})
+    target_link_libraries(plasma LINK_PRIVATE ${QCA2_LIBRARIES})
  endif(QCA2_FOUND)
 Index: kde4libs/kjsembed/kjsembed/CMakeLists.txt
 ===================================================================
@@ -24,8 +25,7 @@ Index: kde4libs/kjsembed/kjsembed/CMakeLists.txt
 @@ -71,7 +71,8 @@
  set_target_properties(${KJSEMBEDLIBNAME} PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS ${KJSEMBEDLIBNAME} EXPORT kdelibsLibraryTargets ${INSTALL_TARGETS_DEFAULT_ARGS})
- 
--
+
 +# Do not export QtUiTools internal symbols
 +set_target_properties(${KJSEMBEDLIBNAME} PROPERTIES LINK_FLAGS_DEBIAN "-Wl,--exclude-libs -Wl,libQtUiTools.a")
  
