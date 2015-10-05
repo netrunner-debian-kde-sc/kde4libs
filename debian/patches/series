@@ -33,3 +33,4 @@ kubuntu_langpack_desktop_files.diff
 kubuntu_patched_l10n.diff
 kubuntu_raise_after_drkonqi.patch
 kubuntu_revert_findpythonlibrary.diff
+kubuntu_breezify.patch

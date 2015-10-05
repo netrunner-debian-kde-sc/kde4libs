@@ -1,3 +1,9 @@
+kde4libs (4:4.14.12-0ubuntu2) wily; urgency=medium
+
+  * Add kubuntu_breezify.patch to change default values from oxygen to breeze.
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 05 Oct 2015 16:18:38 +0200
+
 kde4libs (4:4.14.12-0ubuntu1) wily; urgency=medium
 
   * New Upstream Release
