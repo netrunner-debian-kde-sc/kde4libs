@@ -1391,8 +1391,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN32KFileMetaDataConfigurationWidgetD0Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD1Ev@Base 4:4.4.95
  _ZN32KFileMetaDataConfigurationWidgetD2Ev@Base 4:4.4.95
- (optional)(arch=amd64 arm64 armhf i386 powerpc ppc64el)_ZN3KDE4statERK7QStringP4stat@Base 4:4.13.97
- (optional)(arch=amd64 armhf powerpc ppc64el)_ZN3KDE6renameERK7QStringS2_@Base 4:4.14.10
+ (optional|arch=amd64 arm64 armhf i386 powerpc ppc64el)_ZN3KDE4statERK7QStringP4stat@Base 4:4.13.97
+ (optional|arch=amd64 armhf powerpc ppc64el)_ZN3KDE6renameERK7QStringS2_@Base 4:4.14.10
  _ZN3KIO10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO10Connection11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO10Connection15connectToRemoteERK7QString@Base 4:4.3.4

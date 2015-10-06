@@ -1,3 +1,10 @@
+kde4libs (4:4.14.12-0ubuntu3) wily; urgency=medium
+
+  * Fix optional gcc4 symbols format. Two symbols in libkio5.symbols had
+    incorrect optional|arch annotation breaking gensymbols parsing.
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 06 Oct 2015 11:16:56 +0200
+
 kde4libs (4:4.14.12-0ubuntu2) wily; urgency=medium
 
   * Add kubuntu_breezify.patch to change default values from oxygen to breeze.
