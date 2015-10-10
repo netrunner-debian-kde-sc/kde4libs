@@ -1,3 +1,9 @@
+kde4libs (4:4.14.13-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 09 Oct 2015 17:21:40 -0700
+
 kde4libs (4:4.14.12-0ubuntu3) wily; urgency=medium
 
   * Fix optional gcc4 symbols format. Two symbols in libkio5.symbols had
