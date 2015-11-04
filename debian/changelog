@@ -1,6 +1,11 @@
-kde4libs (4:4.14.12-0~ubuntu1) UNRELEASED; urgency=medium
+kde4libs (4:4.14.13-0~ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 04 Nov 2015 00:27:51 +0000
+
+kde4libs (4:4.14.12-0~ubuntu1) UNRELEASED; urgency=medium
+
   * Update ld_exclude_libs_qtuitools.diff to match change
     in code that caused fuzz. 
   * Fix a inadvertant removal of - in above file. 
