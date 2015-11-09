@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.12 alpha amd64 armel mips mips64el mipsel
+# SymbolsHelper-Confirmed: 4:4.14.13 sparc64
 libkdecore.so.5 libkdecore5 #MINVER#
 | libkdecore5 #MINVER#, kde-runtime (>> 4:4.10)
 * Build-Depends-Package: kdelibs5-dev
@@ -2899,7 +2899,7 @@ libkdecore.so.5 libkdecore5 #MINVER#
  _ZNK12KConfigGroup8entryMapEv@Base 4:4.3.4
  _ZNK12KConfigGroup9groupImplERK10QByteArray@Base 4:4.3.4
  _ZNK12KConfigGroup9groupListEv@Base 4:4.3.4
- (optional=templinst|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
+ (optional=templinst|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc sparc64)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.7.4
  (optional=templinst)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.6.2
  _ZNK12KConfigGroup9readEntryEPKcRK11QStringList@Base 4:4.3.4
  _ZNK12KConfigGroup9readEntryEPKcRK5QListI8QVariantE@Base 4:4.3.4
