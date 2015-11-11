@@ -21,4 +21,4 @@ Index: kde4libs/kdecore/tests/kmimetype_nomimetypes.cpp
 +    // }
 
      KMimeType::Ptr mime = KMimeType::findByUrl(KUrl("/"));
-     Q_ASSERT(mime);
+     if (!mime) {
