@@ -25,7 +25,6 @@ kfreebsd_acl.diff
 cmake_compatibility.diff
 kde4libs_interpret_qvarianttype_as_qmetatypetype.diff
 debian_standardsdirtest.diff
-disable_bogus_test.diff
 disable_bogus_tests
 fix_solidlex_destroy_signature.patch
 #kubuntu_add_langpack_path.diff
