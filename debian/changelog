@@ -1,10 +1,10 @@
-kde4libs (4:4.14.14-1~) UNRELEASED; urgency=medium
+kde4libs (4:4.14.14-1) unstable; urgency=medium
 
   * New upstream release (4.14.14).
   * Update symbols files from buildds logs (4:4.14.13-1).
   * Refresh patches.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Nov 2015 09:45:46 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:46 +0100
 
 kde4libs (4:4.14.13-1) unstable; urgency=medium
 
