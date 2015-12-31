@@ -1,6 +1,7 @@
-kde4libs (4:4.14.13-0ubuntu4) UNRELEASED; urgency=medium
+kde4libs (4:4.14.15-0ubuntu1) UNRELEASED; urgency=medium
 
   * Fix VCS Url to point to the correct location
+  * New upstream release 
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 21 Nov 2015 11:51:54 +0100
 
