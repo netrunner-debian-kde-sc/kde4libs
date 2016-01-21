@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.11 amd64 arm64 armhf i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 4:4.14.12 amd64
 libknewstuff2.so.4 libknewstuff2-4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN3KNS10CoreEngine10cacheEntryEPNS_5EntryE@Base 4:4.3.4
@@ -82,8 +82,6 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZN3KNS12EntryHandlerC1ERKNS_5EntryE@Base 4:4.3.4
  _ZN3KNS12EntryHandlerC2ERK11QDomElement@Base 4:4.3.4
  _ZN3KNS12EntryHandlerC2ERKNS_5EntryE@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KNS12EntryHandlerD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KNS12EntryHandlerD2Ev@Base 4:4.6.5
  _ZN3KNS12Installation10setCommandERK7QString@Base 4:4.3.4
  _ZN3KNS12Installation12setTargetDirERK7QString@Base 4:4.3.4
  _ZN3KNS12Installation13setCustomNameEb@Base 4:4.3.4
@@ -142,8 +140,6 @@ libknewstuff2.so.4 libknewstuff2-4 #MINVER#
  _ZN3KNS15ProviderHandlerC1ERKNS_8ProviderE@Base 4:4.3.4
  _ZN3KNS15ProviderHandlerC2ERK11QDomElement@Base 4:4.3.4
  _ZN3KNS15ProviderHandlerC2ERKNS_8ProviderE@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KNS15ProviderHandlerD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KNS15ProviderHandlerD2Ev@Base 4:4.6.5
  _ZN3KNS4Feed10setFeedUrlERK4KUrl@Base 4:4.3.4
  _ZN3KNS4Feed11removeEntryEPNS_5EntryE@Base 4:4.3.4
  _ZN3KNS4Feed14setDescriptionERKNS_13KTranslatableE@Base 4:4.3.4

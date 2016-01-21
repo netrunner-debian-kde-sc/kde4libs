@@ -1,19 +1,12 @@
-# SymbolsHelper-Confirmed: 4:4.14.11 amd64 arm64 armhf i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 4:4.14.13 sparc64
 libkjsembed.so.4 libkjsembed4 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS19InternalFunctionImpD0Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS19InternalFunctionImpD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS19InternalFunctionImpD2Ev@Base 4:4.6.5
- (optional=external|arch=hurd-i386)_ZN3KJS4List6appendEPNS_7JSValueE@Base 4:4.6.3
  (optional=internal|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
- (optional=internal|arch=!hurd-i386)_ZN3KJS7JSValueD2Ev@Base 4:4.6.3
+ (optional=internal)_ZN3KJS7JSValueD2Ev@Base 4:4.6.3
  _ZN3KJS7UStringC1ERK7QString@Base 4:4.3.4
  _ZN3KJS7UStringC2ERK7QString@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS8JSObjectD0Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS8JSObjectD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KJS8JSObjectD2Ev@Base 4:4.6.5
  _ZN8KJSEmbed10extractIntEPN3KJS9ExecStateEPNS0_7JSValueEi@Base 4:4.3.4
  _ZN8KJSEmbed10extractIntEPN3KJS9ExecStateERKNS0_4ListEii@Base 4:4.3.4
  _ZN8KJSEmbed11ActionGroup10bindMethodEPN3KJS9ExecStateER11PointerBase@Base 4:4.3.4
@@ -83,7 +76,6 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed14VariantBindingC2EPN3KJS9ExecStateERK8QVariant@Base 4:4.3.4
  _ZN8KJSEmbed14VariantFactory14VariantMethodsE@Base 4:4.3.4
  _ZN8KJSEmbed14convertToValueEPN3KJS9ExecStateERK8QVariant@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386)_ZN8KJSEmbed14extractIntegerIN2Qt10BrushStyleEEET_PN3KJS9ExecStateERKNS4_4ListEiS3_@Base 4:4.6.2
  _ZN8KJSEmbed14extractQStringEPN3KJS9ExecStateEPNS0_7JSValueE7QString@Base 4:4.3.4
  _ZN8KJSEmbed14extractQStringEPN3KJS9ExecStateERKNS0_4ListEi7QString@Base 4:4.3.4
  _ZN8KJSEmbed14extractVariantEPN3KJS9ExecStateEPNS0_7JSValueE@Base 4:4.3.4
@@ -185,14 +177,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZN8KJSEmbed9SvgWidgetC1EPN3KJS9ExecStateEP10QSvgWidget@Base 4:4.3.4
  _ZN8KJSEmbed9SvgWidgetC2EPN3KJS9ExecStateEP10QSvgWidget@Base 4:4.3.4
  _ZNK3KJS10Identifier7qstringEv@Base 4:4.3.4
- (optional=internal|arch=hurd-i386)_ZNK3KJS7JSValue4typeEv@Base 4:4.6.3
- (optional=internal|arch=hurd-i386)_ZNK3KJS7JSValue8toObjectEPNS_9ExecStateE@Base 4:4.6.3
- (optional=internal|arch=hurd-i386)_ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.6.3
- (optional=internal|arch=hurd-i386)_ZNK3KJS7JSValue8toUInt32EPNS_9ExecStateE@Base 4:4.6.3
  _ZNK3KJS7UString7qstringEv@Base 4:4.3.4
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.3.4
  _ZNK8KJSEmbed13ObjectBinding4typeEv@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386)_ZNK8KJSEmbed13ObjectBinding6objectI7QObjectEEPT_v@Base 4:4.6.2
  _ZNK8KJSEmbed13ObjectBinding8toStringEPN3KJS9ExecStateE@Base 4:4.3.4
  _ZNK8KJSEmbed13ObjectBinding8typeNameEv@Base 4:4.3.4
  _ZNK8KJSEmbed13ObjectBinding9classNameEv@Base 4:4.3.4
@@ -213,9 +200,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZNK8KJSEmbed6Engine9addObjectEP7QObjectRKN3KJS7UStringE@Base 4:4.3.4
  _ZNK8KJSEmbed6Engine9constructERKN3KJS7UStringERKNS1_4ListE@Base 4:4.3.4
  _ZNK8KJSEmbed9SlotProxy10metaObjectEv@Base 4:4.3.4
- (arch=!armhf)_ZTIN14WTFNoncopyable11NoncopyableE@Base 4:4.14.11
+ (optional=gccinternal|arch=alpha amd64 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZTIN14WTFNoncopyable11NoncopyableE@Base 4:4.14.12
  (optional=internal|arch=!armel !armhf)_ZTIN3KJS6JSCellE@Base 4:4.3.4
- (arch=!armhf)_ZTIN3KJS7JSValueE@Base 4:4.14.11
+ (optional=gccinternal|arch=alpha amd64 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZTIN3KJS7JSValueE@Base 4:4.14.12
  _ZTIN8KJSEmbed11ActionGroupE@Base 4:4.3.4
  _ZTIN8KJSEmbed11SlotBindingE@Base 4:4.3.4
  _ZTIN8KJSEmbed11SvgRendererE@Base 4:4.3.4
@@ -235,9 +222,9 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZTIN8KJSEmbed6LayoutE@Base 4:4.3.4
  _ZTIN8KJSEmbed9SlotProxyE@Base 4:4.3.4
  _ZTIN8KJSEmbed9SvgWidgetE@Base 4:4.3.4
- (arch=!armhf)_ZTSN14WTFNoncopyable11NoncopyableE@Base 4:4.14.11
+ (optional=gccinternal|arch=alpha amd64 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZTSN14WTFNoncopyable11NoncopyableE@Base 4:4.14.12
  (optional=internal|arch=!armel !armhf)_ZTSN3KJS6JSCellE@Base 4:4.3.4
- (arch=!armhf)_ZTSN3KJS7JSValueE@Base 4:4.14.11
+ (optional=gccinternal|arch=alpha amd64 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZTSN3KJS7JSValueE@Base 4:4.14.12
  _ZTSN8KJSEmbed11ActionGroupE@Base 4:4.3.4
  _ZTSN8KJSEmbed11SlotBindingE@Base 4:4.3.4
  _ZTSN8KJSEmbed11SvgRendererE@Base 4:4.3.4
@@ -258,7 +245,7 @@ libkjsembed.so.4 libkjsembed4 #MINVER#
  _ZTSN8KJSEmbed9SlotProxyE@Base 4:4.3.4
  _ZTSN8KJSEmbed9SvgWidgetE@Base 4:4.3.4
  (optional=internal|arch=!armel !armhf)_ZTVN3KJS6JSCellE@Base 4:4.3.4
- (arch=!armhf)_ZTVN3KJS7JSValueE@Base 4:4.14.11
+ (optional=gccinternal|arch=alpha amd64 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZTVN3KJS7JSValueE@Base 4:4.14.12
  _ZTVN8KJSEmbed11ActionGroupE@Base 4:4.3.4
  _ZTVN8KJSEmbed11SlotBindingE@Base 4:4.3.4
  _ZTVN8KJSEmbed11SvgRendererE@Base 4:4.3.4

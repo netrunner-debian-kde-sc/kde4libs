@@ -2,6 +2,7 @@ usr/lib/*/qt4/plugins/designer/kde3supportwidgets.so
 usr/lib/*/qt4/plugins/designer/kdedeprecated.so
 usr/lib/*/qt4/plugins/designer/kdewebkitwidgets.so
 usr/lib/*/qt4/plugins/designer/kdewidgets.so
+usr/lib/kconf_update_bin/migrate_from_kde3_icon_theme
 usr/lib/kde4/emoticonstheme_adium.so
 usr/lib/kde4/emoticonstheme_kde.so
 usr/lib/kde4/emoticonstheme_pidgin.so
@@ -22,6 +23,7 @@ usr/lib/kde4/krosskjs.so
 usr/lib/kde4/krossmoduleforms.so
 usr/lib/kde4/krossmodulekdetranslation.so
 usr/lib/kde4/krossqts.so
+usr/lib/kde4/kspell_aspell.so
 usr/lib/kde4/kspell_enchant.so
 usr/lib/kde4/kspell_hspell.so
 usr/lib/kde4/ktranscript.so
@@ -40,7 +42,6 @@ usr/lib/kde4/libkmultipart.so
 usr/lib/kde4/notepadpart.so
 usr/lib/kde4/plugins/imageformats/kimg_dds.so
 usr/lib/kde4/plugins/imageformats/kimg_eps.so
-usr/lib/kde4/plugins/imageformats/kimg_exr.so
 usr/lib/kde4/plugins/imageformats/kimg_jp2.so
 usr/lib/kde4/plugins/imageformats/kimg_pcx.so
 usr/lib/kde4/plugins/imageformats/kimg_pic.so
@@ -58,3 +59,4 @@ usr/lib/kde4/spellcheckplugin.so
 usr/lib/libkdeinit4_kconf_update.so
 usr/lib/libkdeinit4_kio_http_cache_cleaner.so
 usr/lib/libkdeinit4_klauncher.so
+usr/share/kde4/apps/kconf_update/kdeui.upd

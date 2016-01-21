@@ -1825,7 +1825,6 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN3DOMeqERKNS_9DOMStringEPKc@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringERK7QString@Base 4:4.3.4
  _ZN3DOMeqERKNS_9DOMStringES2_@Base 4:4.3.4
- (optional=private|arch=hurd-i386)_ZN3KJS14ScopeChainLink5derefEv@Base 4:4.6.3
  (optional=private|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4:4.3.4
  _ZN3KJS7JSValueD0Ev@Base 4:4.3.4
  _ZN3KJS7JSValueD1Ev@Base 4:4.3.4
@@ -2224,10 +2223,8 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZN9KHTMLViewD0Ev@Base 4:4.3.4
  _ZN9KHTMLViewD1Ev@Base 4:4.3.4
  _ZN9KHTMLViewD2Ev@Base 4:4.3.4
- (optional=templinst|arch=amd64 arm64 armhf i386 powerpc ppc64el)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
- (optional=templinst|arch=amd64 i386 ppc64el)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.10.90
- (optional=templinst|arch=hurd-i386 kfreebsd-amd64)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.6.2
+ (optional=templinst|arch=amd64 armel hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel sparc x32)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.14.2
  _ZNK13KHTMLSettings10lookupFontEi@Base 4:4.3.4
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4:4.3.4
  _ZNK13KHTMLSettings11dnsPrefetchEv@Base 4:4.3.4
@@ -2829,7 +2826,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM8RGBColor5greenEv@Base 4:4.3.4
  _ZNK3DOM9DOMString10percentageERi@Base 4:4.3.4
  _ZNK3DOM9DOMString10startsWithERKS0_@Base 4:4.3.4
- _ZNK3DOM9DOMString10trimSpacesEv@Base 4:4.14.4
+ _ZNK3DOM9DOMString10trimSpacesEv@Base 4:4.14.8
  _ZNK3DOM9DOMString11reverseFindE5QChari@Base 4:4.3.4
  _ZNK3DOM9DOMString4copyEv@Base 4:4.3.4
  _ZNK3DOM9DOMString4findE5QChari@Base 4:4.3.4
@@ -2843,7 +2840,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3DOM9DOMString7toFloatEPb@Base 4:4.3.4
  _ZNK3DOM9DOMString7unicodeEv@Base 4:4.3.4
  _ZNK3DOM9DOMString8endsWithERKS0_@Base 4:4.3.4
- _ZNK3DOM9DOMString9parsedUrlEv@Base 4:4.14.9
+ _ZNK3DOM9DOMString9parsedUrlEv@Base 4:4.14.6
  _ZNK3DOM9DOMString9substringEjj@Base 4:4.3.4
  _ZNK3DOM9DOMStringixEj@Base 4:4.3.4
  _ZNK3DOM9LinkStyle6isNullEv@Base 4:4.3.4
@@ -2855,10 +2852,9 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZNK3KJS10Identifier7qstringEv@Base 4:4.3.4
  _ZNK3KJS10Identifier9domStringEv@Base 4:4.3.4
  _ZNK3KJS7JSValue4typeEv@Base 4:4.3.4
- (arch=hurd-i386)_ZNK3KJS7JSValue7toInt32EPNS_9ExecStateERb@Base 4:4.6.3
  _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4:4.3.4
  (optional)_ZNK3KJS7JSValue9getNumberERd@Base 4:4.14.10
- (arch=ppc64el)_ZNK3KJS7JSValue9getNumberEv@Base 4:4.14.11
+ (arch=alpha armel mips mips64el mipsel s390x ppc64el)_ZNK3KJS7JSValue9getNumberEv@Base 4:4.14.11
  _ZNK3KJS7UString7qstringEv@Base 4:4.3.4
  _ZNK3KJS7UString9domStringEv@Base 4:4.3.4
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4:4.3.4
@@ -3254,7 +3250,7 @@ libkhtml.so.5 libkhtml5 #MINVER#
  _ZTVN3DOM9DomSharedE@Base 4:4.3.4
  _ZTVN3DOM9TextEventE@Base 4:4.3.4
  (arch=!armel !armhf)_ZTVN3KJS6JSCellE@Base 4:4.3.4
- (arch=!armhf)_ZTVN3KJS7JSValueE@Base 4:4.14.11
+ (optional=gccinternal|arch=!armhf)_ZTVN3KJS7JSValueE@Base 4:4.14.11
  _ZTVN5khtml10ChildFrameE@Base 4:4.3.4
  _ZTVN5khtml10MouseEventE@Base 4:4.3.4
  _ZTVN5khtml14MouseMoveEventE@Base 4:4.3.4

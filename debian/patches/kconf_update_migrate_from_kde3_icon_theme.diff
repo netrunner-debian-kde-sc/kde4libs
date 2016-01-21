@@ -13,7 +13,7 @@ Useful when upgrading from KDE 3 to KDE 4 because default KDE 3 theme
 Index: kde4libs/kdeui/icons/kconf_update_migrate_from_kde3_icon_theme.cpp
 ===================================================================
 --- /dev/null	1970-01-01 00:00:00.000000000 +0000
-+++ kde4libs/kdeui/icons/kconf_update_migrate_from_kde3_icon_theme.cpp	2013-09-04 11:30:05.119636143 +0000
++++ kde4libs/kdeui/icons/kconf_update_migrate_from_kde3_icon_theme.cpp	2015-02-16 10:18:58.304627273 +0100
 @@ -0,0 +1,157 @@
 +/*
 +   Copyright (c) 2011, Modestas Vainius <modax@debian.org>
@@ -174,9 +174,9 @@ Index: kde4libs/kdeui/icons/kconf_update_migrate_from_kde3_icon_theme.cpp
 +}
 Index: kde4libs/kdeui/CMakeLists.txt
 ===================================================================
---- kde4libs.orig/kdeui/CMakeLists.txt	2013-09-04 11:30:05.123635985 +0000
-+++ kde4libs/kdeui/CMakeLists.txt	2013-09-04 11:30:05.123635985 +0000
-@@ -469,6 +469,16 @@
+--- kde4libs.orig/kdeui/CMakeLists.txt	2015-02-16 10:18:58.304627273 +0100
++++ kde4libs/kdeui/CMakeLists.txt	2015-02-16 10:18:58.304627273 +0100
+@@ -470,6 +470,16 @@
                         )
  
  install(TARGETS kdeui EXPORT kdelibsLibraryTargets ${INSTALL_TARGETS_DEFAULT_ARGS})
@@ -196,7 +196,7 @@ Index: kde4libs/kdeui/CMakeLists.txt
 Index: kde4libs/kdeui/kdeui.upd
 ===================================================================
 --- /dev/null	1970-01-01 00:00:00.000000000 +0000
-+++ kde4libs/kdeui/kdeui.upd	2013-09-04 11:30:05.123635985 +0000
++++ kde4libs/kdeui/kdeui.upd	2015-02-16 10:18:58.304627273 +0100
 @@ -0,0 +1,6 @@
 +# Migrate from crystalsvg and similar KDE 4 incompatible icon themes
 +Id=kde4/migrate_from_kde3_icon_theme

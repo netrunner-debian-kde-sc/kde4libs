@@ -41,7 +41,6 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN11KFileWidgetD0Ev@Base 4:4.3.4
  _ZN11KFileWidgetD1Ev@Base 4:4.3.4
  _ZN11KFileWidgetD2Ev@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeCheckIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  _ZN12KDirOperator10completionERK7QString@Base 4:4.3.4
  _ZN12KDirOperator10createViewEP7QWidgetN5KFile8FileViewE@Base 4:4.3.4
  _ZN12KDirOperator10readConfigERK12KConfigGroup@Base 4:4.3.4
@@ -194,8 +193,6 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN12KNewFileMenuD0Ev@Base 4:4.4.95
  _ZN12KNewFileMenuD1Ev@Base 4:4.4.95
  _ZN12KNewFileMenuD2Ev@Base 4:4.4.95
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD2Ev@Base 4:4.6.5
  _ZN13KFileTreeView10setRootUrlERK4KUrl@Base 4:4.3.4
  _ZN13KFileTreeView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN13KFileTreeView11qt_metacastEPKc@Base 4:4.3.4
@@ -413,8 +410,6 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN21KFilePreviewGenerator7Private22slotPreviewJobFinishedEP4KJob@Base 4:4.3.4
  _ZN21KFilePreviewGenerator7Private22startMimeTypeResolvingEv@Base 4:4.3.4
  _ZN21KFilePreviewGenerator7Private23dispatchIconUpdateQueueEv@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN21KFilePreviewGenerator7Private8ItemInfoD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN21KFilePreviewGenerator7Private8ItemInfoD2Ev@Base 4:4.6.5
  _ZN21KFilePreviewGenerator7PrivateC1EPS_P20KAbstractViewAdapterP18QAbstractItemModel@Base 4:4.3.4
  _ZN21KFilePreviewGenerator7PrivateC2EPS_P20KAbstractViewAdapterP18QAbstractItemModel@Base 4:4.3.4
  _ZN21KFilePreviewGenerator7PrivateD1Ev@Base 4:4.3.4
@@ -449,9 +444,6 @@ libkfile.so.4 libkfile4 #MINVER#
  _ZN24KDirSortFilterProxyModelD0Ev@Base 4:4.3.4
  _ZN24KDirSortFilterProxyModelD1Ev@Base 4:4.3.4
  _ZN24KDirSortFilterProxyModelD2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
- (optional=templinst|arch=hurd-i386)_ZN5Solid6Device2asINS_12StorageDriveEEEPT_v@Base 4:4.6.2
  _ZNK11KFileWidget10metaObjectEv@Base 4:4.3.4
  _ZNK11KFileWidget11selectedUrlEv@Base 4:4.3.4
  _ZNK11KFileWidget12cancelButtonEv@Base 4:4.3.4

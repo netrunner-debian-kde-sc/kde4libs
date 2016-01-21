@@ -250,8 +250,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN11KIconDialogD0Ev@Base 4:4.3.4
  _ZN11KIconDialogD1Ev@Base 4:4.3.4
  _ZN11KIconDialogD2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN11KMountPoint4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN11KMountPoint4ListD2Ev@Base 4:4.6.5
  _ZN11KRecentDirs3addERK7QStringS2_@Base 4:4.3.4
  _ZN11KRecentDirs3dirERK7QString@Base 4:4.3.4
  _ZN11KRecentDirs4listERK7QString@Base 4:4.3.4
@@ -289,7 +287,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN12KAutoUnmountD0Ev@Base 4:4.3.4
  _ZN12KAutoUnmountD1Ev@Base 4:4.3.4
  _ZN12KAutoUnmountD2Ev@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386)_ZN12KConfigGroup10writeEntryIbEEvRK7QStringRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:4.6.2
  _ZN12KSSLSettings10getEGDPathEv@Base 4:4.3.4
  _ZN12KSSLSettings13getCipherListEv@Base 4:4.3.4
  _ZN12KSSLSettings14setWarnOnEnterEb@Base 4:4.3.4
@@ -374,8 +371,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN13KFileItemListC1Ev@Base 4:4.3.4
  _ZN13KFileItemListC2ERK5QListI9KFileItemE@Base 4:4.3.4
  _ZN13KFileItemListC2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD2Ev@Base 4:4.6.5
  _ZN13KFileMetaInfo12applyChangesEv@Base 4:4.3.4
  _ZN13KFileMetaInfo4itemERK7QString@Base 4:4.3.4
  _ZN13KFileMetaInfoC1ERK4KUrl@Base 4:4.3.4
@@ -551,7 +546,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN15KBookmarkDialog17slotButtonClickedEi@Base 4:4.3.4
  _ZN15KBookmarkDialog4saveENS_18BookmarkDialogModeERK9KBookmark@Base 4:4.3.4
  _ZN15KBookmarkDialog9fillGroupEP15QTreeWidgetItemRK14KBookmarkGroup@Base 4:4.3.4
- _ZN15KBookmarkDialog9fillGroupEP15QTreeWidgetItemRK14KBookmarkGroupS4_@Base 4:4.12.1
+ (optional=private)_ZN15KBookmarkDialog9fillGroupEP15QTreeWidgetItemRK14KBookmarkGroupS4_@Base 4:4.12.1
  _ZN15KBookmarkDialogC1EP16KBookmarkManagerP7QWidget@Base 4:4.3.4
  _ZN15KBookmarkDialogC2EP16KBookmarkManagerP7QWidget@Base 4:4.3.4
  _ZN15KDataToolAction11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -821,8 +816,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN16KUriFilterPlugin16staticMetaObjectE@Base 4:4.3.4
  _ZN16KUriFilterPluginC1ERK7QStringP7QObject@Base 4:4.3.4
  _ZN16KUriFilterPluginC2ERK7QStringP7QObject@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN16KonqBookmarkMenu11DynMenuInfoD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN16KonqBookmarkMenu11DynMenuInfoD2Ev@Base 4:4.6.5
  _ZN16KonqBookmarkMenu11contextMenuEP7QAction@Base 4:4.3.4
  _ZN16KonqBookmarkMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN16KonqBookmarkMenu11qt_metacastEPKc@Base 4:4.3.4
@@ -1034,8 +1027,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN19KEncodingFileDialog26getOpenFileNameAndEncodingERK7QStringS2_S2_P7QWidgetS2_@Base 4:4.3.4
  _ZN19KEncodingFileDialog26getSaveFileNameAndEncodingERK7QStringS2_S2_P7QWidgetS2_@Base 4:4.3.4
  _ZN19KEncodingFileDialog27getOpenFileNamesAndEncodingERK7QStringS2_S2_P7QWidgetS2_@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KEncodingFileDialog6ResultD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KEncodingFileDialog6ResultD2Ev@Base 4:4.6.5
  _ZN19KEncodingFileDialogC1ERK7QStringS2_S2_S2_N11KFileDialog13OperationModeEP7QWidget@Base 4:4.3.4
  _ZN19KEncodingFileDialogC2ERK7QStringS2_S2_S2_N11KFileDialog13OperationModeEP7QWidget@Base 4:4.3.4
  _ZN19KEncodingFileDialogD0Ev@Base 4:4.3.4
@@ -1576,8 +1567,10 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO12RenameDialog19overwriteAllPressedEv@Base 4:4.3.4
  _ZN3KIO12RenameDialog21createContainerLayoutEP7QWidgetRK9KFileItemP6QLabel@Base 4:4.4.95
  _ZN3KIO12RenameDialog21suggestNewNamePressedEv@Base 4:4.3.4
- _ZN3KIO12RenameDialogC1EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyllll@Base 4:4.3.4
- _ZN3KIO12RenameDialogC2EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyllll@Base 4:4.3.4
+ (arch=!x32)_ZN3KIO12RenameDialogC1EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyllll@Base 4:4.3.4
+ (arch=x32)_ZN3KIO12RenameDialogC1EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyxxxx@Base 4:4.14.2
+ (arch=!x32)_ZN3KIO12RenameDialogC2EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyllll@Base 4:4.3.4
+ (arch=x32)_ZN3KIO12RenameDialogC2EP7QWidgetRK7QStringRK4KUrlS8_NS_17RenameDialog_ModeEyyxxxx@Base 4:4.14.2
  _ZN3KIO12RenameDialogD0Ev@Base 4:4.3.4
  _ZN3KIO12RenameDialogD1Ev@Base 4:4.3.4
  _ZN3KIO12RenameDialogD2Ev@Base 4:4.3.4
@@ -1587,7 +1580,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO12TCPSlaveBase13connectToHostERK7QStringtPS1_@Base 4:4.7.2
  _ZN3KIO12TCPSlaveBase15waitForResponseEi@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase18disconnectFromHostEv@Base 4:4.3.4
- _ZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16startTLSInternalEN10KTcpSocket10SslVersionERK17QSslConfigurationi@Base 4:4.8.80
+ _ZN3KIO12TCPSlaveBase19TcpSlaveBasePrivate16startTLSInternalEN10KTcpSocket10SslVersionERK17QSslConfigurationi@Base 4:4.8.4
  _ZN3KIO12TCPSlaveBase23selectClientCertificateEv@Base 4:4.3.4
  _ZN3KIO12TCPSlaveBase23verifyServerCertificateEv@Base 4:4.3.4
  (subst)_ZN3KIO12TCPSlaveBase4readEPc{ssize_t}@Base 4:4.3.4
@@ -1624,7 +1617,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO13AccessManagerD2Ev@Base 4:4.3.4
  _ZN3KIO13JobUiDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO13JobUiDelegate11qt_metacastEPKc@Base 4:4.3.4
- _ZN3KIO13JobUiDelegate13askFileRenameEP4KJobRK7QStringS5_S5_NS_17RenameDialog_ModeERS3_yyllll@Base 4:4.3.4
+ (arch=!x32)_ZN3KIO13JobUiDelegate13askFileRenameEP4KJobRK7QStringS5_S5_NS_17RenameDialog_ModeERS3_yyllll@Base 4:4.3.4
+ (arch=x32)_ZN3KIO13JobUiDelegate13askFileRenameEP4KJobRK7QStringS5_S5_NS_17RenameDialog_ModeERS3_yyxxxx@Base 4:4.14.2
  _ZN3KIO13JobUiDelegate16staticMetaObjectE@Base 4:4.3.4
  _ZN3KIO13JobUiDelegate17requestMessageBoxENS0_14MessageBoxTypeERK7QStringS4_S4_S4_S4_S4_S4_RKNS_8MetaDataE@Base 4:4.10.95
  _ZN3KIO13JobUiDelegate21askDeleteConfirmationERKN4KUrl4ListENS0_12DeletionTypeENS0_16ConfirmationTypeE@Base 4:4.3.4
@@ -1683,7 +1677,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO14SlaveInterface9connectedEv@Base 4:4.3.4
  _ZN3KIO14SlaveInterface9errorPageEv@Base 4:4.3.4
  _ZN3KIO14SlaveInterface9setOffsetEy@Base 4:4.3.4
- _ZN3KIO14SlaveInterface9setWindowEP7QWidget@Base 4:4.8.80
+ _ZN3KIO14SlaveInterface9setWindowEP7QWidget@Base 4:4.8.4
  _ZN3KIO14SlaveInterface9statEntryERKNS_8UDSEntryE@Base 4:4.3.4
  _ZN3KIO14SlaveInterface9totalSizeEy@Base 4:4.3.4
  _ZN3KIO14SlaveInterfaceC1ERNS_21SlaveInterfacePrivateEP7QObject@Base 4:4.3.4
@@ -1763,7 +1757,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO17StoredTransferJobD0Ev@Base 4:4.3.4
  _ZN3KIO17StoredTransferJobD1Ev@Base 4:4.3.4
  _ZN3KIO17StoredTransferJobD2Ev@Base 4:4.3.4
- _ZN3KIO17http_update_cacheERK4KUrlbl@Base 4:4.3.4
+ (arch=!x32)_ZN3KIO17http_update_cacheERK4KUrlbl@Base 4:4.3.4
+ (arch=x32)_ZN3KIO17http_update_cacheERK4KUrlbx@Base 4:4.14.2
  _ZN3KIO17parseCacheControlERK7QString@Base 4:4.3.4
  _ZN3KIO18DefaultViewAdapter7connectEN20KAbstractViewAdapter6SignalEP7QObjectPKc@Base 4:4.3.4
  _ZN3KIO18DefaultViewAdapterC1EP17QAbstractItemViewP7QObject@Base 4:4.3.4
@@ -1771,8 +1766,10 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO18RenameDialogPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO18RenameDialogPlugin11qt_metacastEPKc@Base 4:4.3.4
  _ZN3KIO18RenameDialogPlugin16staticMetaObjectE@Base 4:4.3.4
- _ZN3KIO18RenameDialogPlugin8FileItemC1ERK4KUrlRK7QStringyll@Base 4:4.3.4
- _ZN3KIO18RenameDialogPlugin8FileItemC2ERK4KUrlRK7QStringyll@Base 4:4.3.4
+ (arch=!x32)_ZN3KIO18RenameDialogPlugin8FileItemC1ERK4KUrlRK7QStringyll@Base 4:4.3.4
+ (arch=x32)_ZN3KIO18RenameDialogPlugin8FileItemC1ERK4KUrlRK7QStringyxx@Base 4:4.14.2
+ (arch=!x32)_ZN3KIO18RenameDialogPlugin8FileItemC2ERK4KUrlRK7QStringyll@Base 4:4.3.4
+ (arch=x32)_ZN3KIO18RenameDialogPlugin8FileItemC2ERK4KUrlRK7QStringyxx@Base 4:4.14.2
  _ZN3KIO18RenameDialogPlugin8FileItemD1Ev@Base 4:4.3.4
  _ZN3KIO18RenameDialogPlugin8FileItemD2Ev@Base 4:4.3.4
  _ZN3KIO18RenameDialogPluginC1EP7QDialog@Base 4:4.3.4
@@ -1922,7 +1919,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO7CopyJob10emitResultEv@Base 4:4.3.4
  _ZN3KIO7CopyJob10slotResultEP4KJob@Base 4:4.3.4
  _ZN3KIO7CopyJob10totalFilesEP4KJobm@Base 4:4.3.4
- _ZN3KIO7CopyJob11copyingDoneEPNS_3JobERK4KUrlS5_lbb@Base 4:4.3.4
+ (arch=!x32)_ZN3KIO7CopyJob11copyingDoneEPNS_3JobERK4KUrlS5_lbb@Base 4:4.3.4
+ (arch=x32)_ZN3KIO7CopyJob11copyingDoneEPNS_3JobERK4KUrlS5_xbb@Base 4:4.14.2
  _ZN3KIO7CopyJob11creatingDirEPNS_3JobERK4KUrl@Base 4:4.3.4
  _ZN3KIO7CopyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN3KIO7CopyJob11qt_metacastEPKc@Base 4:4.3.4
@@ -2030,8 +2028,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN3KIO8HostInfo6setTTLEi@Base 4:4.3.4
  _ZN3KIO8MetaDataC1ERK4QMapI7QString8QVariantE@Base 4:4.3.4
  _ZN3KIO8MetaDataC2ERK4QMapI7QString8QVariantE@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KIO8MetaDataD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN3KIO8MetaDataD2Ev@Base 4:4.6.5
  _ZN3KIO8MetaDataaSERK4QMapI7QString8QVariantE@Base 4:4.3.4
  _ZN3KIO8MetaDatapLERK4QMapI7QString8QVariantE@Base 4:4.3.4
  _ZN3KIO8MkdirJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -2368,8 +2364,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN4KSSLC2Eb@Base 4:4.3.4
  _ZN4KSSLD1Ev@Base 4:4.3.4
  _ZN4KSSLD2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
  _ZN5KFile10isTreeViewERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile12isDetailViewERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile12isSimpleViewERKNS_8FileViewE@Base 4:4.3.4
@@ -2385,11 +2379,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN5KFile16staticMetaObjectE@Base 4:4.3.4
  _ZN5KFile17isPreviewContentsERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile21isSortCaseInsensitiveERK6QFlagsIN4QDir8SortFlagEE@Base 4:4.3.4
- (optional=templinst|arch=hurd-i386)_ZN5Solid6Device2asINS_13StorageAccessEEEPT_v@Base 4:4.6.3
- (optional=templinst)_ZN6Strigi14BufferedStreamIcE13writeToBufferEii@Base 4:4.12.80
- (optional=templinst)_ZN6Strigi14BufferedStreamIcE4readERPKcii@Base 4:4.12.80
- (optional=templinst|subst)_ZN6Strigi14BufferedStreamIcE4skipE{int64_t}@Base 4:4.12.80
- (optional=templinst|subst)_ZN6Strigi14BufferedStreamIcE5resetE{int64_t}@Base 4:4.12.80
  _ZN8KImageIO11isSupportedERK7QStringNS_4ModeE@Base 4:4.3.4
  _ZN8KImageIO11typeForMimeERK7QString@Base 4:4.3.4
  _ZN8KImageIO5typesENS_4ModeE@Base 4:4.3.4
@@ -2413,8 +2402,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZN9KBookmark4List9canDecodeEPK9QMimeData@Base 4:4.3.4
  _ZN9KBookmark4ListC1Ev@Base 4:4.3.4
  _ZN9KBookmark4ListC2Ev@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmark4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmark4ListD2Ev@Base 4:4.6.5
  _ZN9KBookmark6setUrlERK4KUrl@Base 4:4.3.4
  _ZN9KBookmark7setIconERK7QString@Base 4:4.3.4
  _ZN9KBookmarkC1ERK11QDomElement@Base 4:4.3.4
@@ -2578,6 +2565,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK11KScanDialog10metaObjectEv@Base 4:4.3.4
  _ZNK11KScanDialog2idEv@Base 4:4.3.4
  _ZNK12KAutoUnmount10metaObjectEv@Base 4:4.3.4
+ (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !x32)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.6.1
+ (optional=templinst|arch=armel armhf mips mipsel powerpc)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.14.10
  _ZNK12KSSLSettings11warnOnEnterEv@Base 4:4.3.4
  _ZNK12KSSLSettings11warnOnLeaveEv@Base 4:4.3.4
  _ZNK12KSSLSettings11warnOnMixedEv@Base 4:4.3.4
@@ -2835,6 +2824,8 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK19KFileMetaDataWidget10isReadOnlyEv@Base 4:4.4.95
  _ZNK19KFileMetaDataWidget10metaObjectEv@Base 4:4.4.95
  _ZNK19KFileMetaDataWidget5itemsEv@Base 4:4.4.95
+ _ZNK19KFileMetaDataWidget7Private10sortedKeysERK5QHashI4KUrlN7Nepomuk7VariantEE@Base 4:4.14.10
+ _ZNK19KFileMetaDataWidget7Private14hasNepomukUrisEv@Base 4:4.14.10
  _ZNK19KFileMetaDataWidget8sizeHintEv@Base 4:4.4.95
  _ZNK19KFileMetaInfoWidget10metaObjectEv@Base 4:4.3.4
  _ZNK19KFileMetaInfoWidget4itemEv@Base 4:4.3.4
@@ -2943,7 +2934,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK3KIO14SlaveInterface10connectionEv@Base 4:4.3.4
  _ZNK3KIO14SlaveInterface10metaObjectEv@Base 4:4.3.4
  _ZNK3KIO14SlaveInterface6offsetEv@Base 4:4.3.4
- _ZNK3KIO14SlaveInterface6windowEv@Base 4:4.8.80
+ _ZNK3KIO14SlaveInterface6windowEv@Base 4:4.8.4
  _ZNK3KIO15FileUndoManager10metaObjectEv@Base 4:4.3.4
  _ZNK3KIO15FileUndoManager11UiInterface12parentWidgetEv@Base 4:4.3.4
  _ZNK3KIO15FileUndoManager11UiInterface16showProgressInfoEv@Base 4:4.3.4
@@ -3110,7 +3101,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK9KFileItem14hasExtendedACLEv@Base 4:4.3.4
  _ZNK9KFileItem15isMimeTypeKnownEv@Base 4:4.3.4
  _ZNK9KFileItem16getStatusBarInfoEv@Base 4:4.3.4
- _ZNK9KFileItem16isFinalIconKnownEv@Base 4:4.10.4
+ _ZNK9KFileItem16isFinalIconKnownEv@Base 4:4.10.2
  _ZNK9KFileItem17determineMimeTypeEv@Base 4:4.3.4
  _ZNK9KFileItem17permissionsStringEv@Base 4:4.3.4
  _ZNK9KFileItem3ACLEv@Base 4:4.3.4
@@ -3277,7 +3268,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZTIN3KIO9SchedulerE@Base 4:4.3.4
  _ZTIN3KIO9SimpleJobE@Base 4:4.3.4
  _ZTIN3KIO9SlaveBaseE@Base 4:4.3.4
- _ZTIN6Strigi14BufferedStreamIcEE@Base 4:4.12.80
  _ZTS10KAutoMount@Base 4:4.3.4
  _ZTS10KDirLister@Base 4:4.3.4
  _ZTS10KOCRDialog@Base 4:4.3.4
@@ -3405,7 +3395,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZTSN3KIO9SchedulerE@Base 4:4.3.4
  _ZTSN3KIO9SimpleJobE@Base 4:4.3.4
  _ZTSN3KIO9SlaveBaseE@Base 4:4.3.4
- _ZTSN6Strigi14BufferedStreamIcEE@Base 4:4.12.80
  _ZTV10KAutoMount@Base 4:4.3.4
  _ZTV10KDirLister@Base 4:4.3.4
  _ZTV10KOCRDialog@Base 4:4.3.4
