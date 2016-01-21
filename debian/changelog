@@ -1,4 +1,4 @@
-kde4libs (4:4.14.16-0ubuntu1) UNRELEASED; urgency=medium
+kde4libs (4:4.14.16-0ubuntu1) xenial; urgency=medium
 
   * Fix VCS Url to point to the correct location
   * New upstream release 
