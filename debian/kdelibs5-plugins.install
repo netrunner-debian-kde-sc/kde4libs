@@ -42,6 +42,7 @@ usr/lib/kde4/libkmultipart.so
 usr/lib/kde4/notepadpart.so
 usr/lib/kde4/plugins/imageformats/kimg_dds.so
 usr/lib/kde4/plugins/imageformats/kimg_eps.so
+usr/lib/kde4/plugins/imageformats/kimg_exr.so
 usr/lib/kde4/plugins/imageformats/kimg_jp2.so
 usr/lib/kde4/plugins/imageformats/kimg_pcx.so
 usr/lib/kde4/plugins/imageformats/kimg_pic.so

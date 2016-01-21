@@ -27,9 +27,9 @@ kde4libs_interpret_qvarianttype_as_qmetatypetype.diff
 debian_standardsdirtest.diff
 disable_bogus_tests
 fix_solidlex_destroy_signature.patch
-#kubuntu_add_langpack_path.diff
-#kubuntu_langpack_desktop_files.diff
-#kubuntu_patched_l10n.diff
+kubuntu_add_langpack_path.diff
+kubuntu_langpack_desktop_files.diff
+kubuntu_patched_l10n.diff
 kubuntu_raise_after_drkonqi.patch
 kubuntu_revert_findpythonlibrary.diff
 kubuntu_breezify.patch
