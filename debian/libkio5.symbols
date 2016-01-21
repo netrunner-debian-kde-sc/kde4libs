@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.15 amd64
+# SymbolsHelper-Confirmed: 4:4.14.16 amd64
 libkio.so.5 libkio5 #MINVER#
 * Build-Depends-Package: kdelibs5-dev
  _ZN10KAutoMount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -2379,6 +2379,10 @@ libkio.so.5 libkio5 #MINVER#
  _ZN5KFile16staticMetaObjectE@Base 4:4.3.4
  _ZN5KFile17isPreviewContentsERKNS_8FileViewE@Base 4:4.3.4
  _ZN5KFile21isSortCaseInsensitiveERK6QFlagsIN4QDir8SortFlagEE@Base 4:4.3.4
+ (optional=templinst)_ZN6Strigi14BufferedStreamIcE13writeToBufferEii@Base 4:4.14.16
+ (optional=templinst)_ZN6Strigi14BufferedStreamIcE4readERPKcii@Base 4:4.14.16
+ (optional=templinst)_ZN6Strigi14BufferedStreamIcE4skipEl@Base 4:4.14.16
+ (optional=templinst)_ZN6Strigi14BufferedStreamIcE5resetEl@Base 4:4.14.16
  _ZN8KImageIO11isSupportedERK7QStringNS_4ModeE@Base 4:4.3.4
  _ZN8KImageIO11typeForMimeERK7QString@Base 4:4.3.4
  _ZN8KImageIO5typesENS_4ModeE@Base 4:4.3.4
@@ -2824,8 +2828,6 @@ libkio.so.5 libkio5 #MINVER#
  _ZNK19KFileMetaDataWidget10isReadOnlyEv@Base 4:4.4.95
  _ZNK19KFileMetaDataWidget10metaObjectEv@Base 4:4.4.95
  _ZNK19KFileMetaDataWidget5itemsEv@Base 4:4.4.95
- _ZNK19KFileMetaDataWidget7Private10sortedKeysERK5QHashI4KUrlN7Nepomuk7VariantEE@Base 4:4.14.10
- _ZNK19KFileMetaDataWidget7Private14hasNepomukUrisEv@Base 4:4.14.10
  _ZNK19KFileMetaDataWidget8sizeHintEv@Base 4:4.4.95
  _ZNK19KFileMetaInfoWidget10metaObjectEv@Base 4:4.3.4
  _ZNK19KFileMetaInfoWidget4itemEv@Base 4:4.3.4
@@ -3268,6 +3270,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZTIN3KIO9SchedulerE@Base 4:4.3.4
  _ZTIN3KIO9SimpleJobE@Base 4:4.3.4
  _ZTIN3KIO9SlaveBaseE@Base 4:4.3.4
+ _ZTIN6Strigi14BufferedStreamIcEE@Base 4:4.14.16
  _ZTS10KAutoMount@Base 4:4.3.4
  _ZTS10KDirLister@Base 4:4.3.4
  _ZTS10KOCRDialog@Base 4:4.3.4
@@ -3395,6 +3398,7 @@ libkio.so.5 libkio5 #MINVER#
  _ZTSN3KIO9SchedulerE@Base 4:4.3.4
  _ZTSN3KIO9SimpleJobE@Base 4:4.3.4
  _ZTSN3KIO9SlaveBaseE@Base 4:4.3.4
+ _ZTSN6Strigi14BufferedStreamIcEE@Base 4:4.14.16
  _ZTV10KAutoMount@Base 4:4.3.4
  _ZTV10KDirLister@Base 4:4.3.4
  _ZTV10KOCRDialog@Base 4:4.3.4
