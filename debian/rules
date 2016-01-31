@@ -33,7 +33,7 @@ override_dh_auto_install:
 	chmod a+x debian/tmp/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=kdelibs5-dbg
+	$(overridden_command) --ddeb-migration='kdelibs5-dbg (<= 4:4.14.16-1~~)'
 
 # remove dependencies on kdebase-runtime and phonon (the metapackage)
 override_dh_shlibdeps:

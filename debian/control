@@ -574,17 +574,3 @@ Description: development files for the KDE Development Platform libraries
  other software that uses the KDE Development Platform libraries.
  .
  This package is part of the KDE Development Platform libraries module.
-
-Package: kdelibs5-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: libc6-dbg [amd64],
-         libkdecore5 (= ${binary:Version}),
-         libqt4-dbg (>= 4:4.6)
-Recommends: kdelibs-bin (= ${binary:Version}), ${allLibraries}
-Description: debugging symbols for the KDE Development Platform libraries
- This package contains debugging files used to investigate problems with
- binaries included in the KDE Development Platform libraries module.
- .
- This package is part of the KDE Development Platform libraries module.
