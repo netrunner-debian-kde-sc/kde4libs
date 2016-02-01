@@ -1,9 +1,9 @@
-kde4libs (4:4.14.16-1~) UNRELEASED; urgency=medium
+kde4libs (4:4.14.16-1) experimental; urgency=medium
 
   * New upstream release (4.14.15).
   * New upstream release (4.14.16).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 29 Jan 2016 11:24:18 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:24:00 +0100
 
 kde4libs (4:4.14.14-1) unstable; urgency=medium
 
