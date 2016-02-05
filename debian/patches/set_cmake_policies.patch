@@ -1,0 +1,14 @@
+Index: kde4libs/cmake/modules/KDE4Macros.cmake
+===================================================================
+--- kde4libs.orig/cmake/modules/KDE4Macros.cmake	2016-02-05 09:47:22.941042324 +0100
++++ kde4libs/cmake/modules/KDE4Macros.cmake	2016-02-05 09:50:00.190607408 +0100
+@@ -32,6 +32,9 @@
+ # Redistribution and use is allowed according to the terms of the BSD license.
+ # For details see the accompanying COPYING-CMAKE-SCRIPTS file.
+ 
++cmake_policy(SET CMP0054 OLD)
++cmake_policy(SET CMP0064 OLD)
++
+ # This is for versions of automoc4 which don't provide these two macros.
+ # If such a version is used, just use the "old" style automoc handling. 
+ if(NOT COMMAND _AUTOMOC4_KDE4_PRE_TARGET_HANDLING)
